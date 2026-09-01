@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Chuleta de Mnemotecnias — Metodología de la Investigación</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #232733;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    background: #fff;
+  }
+  .cover {
+    height: 273mm;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; page-break-after: always;
+    background: radial-gradient(circle at 30% 20%, #ffe27a 0%, transparent 45%),
+                radial-gradient(circle at 80% 70%, #7ae0ff 0%, transparent 45%),
+                linear-gradient(135deg,#1c2733,#0a5e66);
+    color: #fff; border-radius: 18px;
+  }
+  .cover .emoji-row { font-size: 34pt; margin-bottom: 10px; letter-spacing: 6px; }
+  .cover h1 { font-size: 28pt; margin: 0 0 6px; }
+  .cover h2 { font-size: 13pt; font-weight: 400; opacity: .9; max-width: 420px; margin: 0 0 30px; }
+  .cover .hint { max-width: 420px; font-size: 9.5pt; opacity: .85; background: rgba(255,255,255,.12); border-radius: 10px; padding: 12px 18px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .card {
+    border-radius: 14px; padding: 5mm; page-break-inside: avoid;
+    border: 2px solid var(--c); background: var(--bg);
+  }
+  .card .icon { font-size: 20pt; }
+  .card h3 { margin: 2mm 0 1mm; font-size: 11.5pt; color: var(--c); }
+  .card .tagline { font-size: 8.3pt; font-style: italic; color: #55606b; margin-bottom: 2mm; }
+  .card .story {
+    background: #fff; border-radius: 8px; padding: 2.5mm 3mm; font-size: 8.8pt;
+    margin-bottom: 2mm; border-left: 3px solid var(--c);
+  }
+  .card .takeaway {
+    font-size: 8.6pt; background: var(--c); color: #fff; border-radius: 8px; padding: 2.5mm 3mm;
+    font-weight: 700;
+  }
+  .acronym { display: flex; flex-direction: column; gap: 1mm; margin-bottom: 2mm; }
+  .acronym div { display: flex; gap: 2mm; font-size: 8.6pt; align-items: baseline; }
+  .acronym b { color: var(--c); font-size: 11pt; width: 14px; flex: 0 0 auto; }
+  .section-title { font-size: 13pt; color: #0a5e66; margin: 6mm 0 3mm; font-weight: 800; }
+  .section-title:first-of-type { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="emoji-row">🧠📊📚</div>
+  <h1>Chuleta de Mnemotecnias</h1>
+  <h2>Los trucos absurdos que se quedan grabados cuando el dato "arbitrario" se olvida — Metodología de la Investigación</h2>
+  <div class="hint">Úsala junto al simulador y la guía de estudio: cuando falles una pregunta, busca aquí el truco de la combinación que le corresponde. Lo raro se recuerda mejor que lo razonable.</div>
+</div>
+
+<div class="section-title">Estadística: nombres y siglas que no tienen lógica interna</div>
+<div class="grid">
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🚨</span>
+    <h3>Error tipo I = alarma falsa</h3>
+    <div class="tagline">Rechazar H0 cuando en realidad era verdadera</div>
+    <div class="story">Imagina la alarma de incendios sonando (α de "alarma") sin que haya fuego de verdad: rechazas H0 (dices "hay diferencia") cuando en realidad no la había. El error tipo II (β) es la alarma "muda" — el fuego SÍ existe pero nadie salta: aceptas H0 sin darte cuenta de que era falsa.</div>
+    <div class="takeaway">Rechazar H0 verdadera → Error I (α). Aceptar H0 falsa → Error II (β).</div>
+  </div>
+
+  <div class="card" style="--c:#2a6ebf; --bg:#e8f0fb;">
+    <span class="icon">🐟</span>
+    <h3>Poisson = pez raro</h3>
+    <div class="tagline">La "distribución de sucesos raros"</div>
+    <div class="story">"Poisson" es "pez" en francés. Imagínate yendo a pescar y sacando un pez rarísimo, casi imposible de encontrar: eso es justo lo que describe esta distribución, sucesos de probabilidad muy pequeña.</div>
+    <div class="takeaway">Poisson = distribución de sucesos raros (probabilidad muy baja). La normal NO tiene ese apodo.</div>
+  </div>
+
+  <div class="card" style="--c:#2f8f5b; --bg:#e7f5ed;">
+    <span class="icon">🔔</span>
+    <h3>Kolmogorov-Smirnov vs. Bartlett</h3>
+    <div class="tagline">¿Qué test comprueba cada cosa?</div>
+    <div class="story">Kolmogorov-Smirnov es un nombre larguísimo, como la propia campana de Gauss (la normal) que comprueba: ¿mis datos tienen esa forma "normal"? Bartlett suena a "barras" — piensa en las barras de un gráfico de varianzas, todas iguales de altas: eso es homogeneidad de varianzas.</div>
+    <div class="takeaway">Kolmogorov-Smirnov → ¿es normal? Bartlett → ¿varianzas homogéneas?</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🥇</span>
+    <h3>Q1 es el mejor cuartil</h3>
+    <div class="tagline">Cuartiles de revistas científicas (ranking por factor de impacto)</div>
+    <div class="story">Como en una carrera: el primer puesto (Q1) es el podio, el cuarto puesto (Q4) va el último. Cuanto más bajo el número de cuartil, mejor posición ocupa la revista en su categoría.</div>
+    <div class="takeaway">Q1 = mejor revista de su categoría. Q4 = la peor posicionada.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Documentación y bibliografía</div>
+<div class="grid">
+
+  <div class="card" style="--c:#7b4fa0; --bg:#f1eaf7;">
+    <span class="icon">📚</span>
+    <h3>ISSN vs. ISBN</h3>
+    <div class="tagline">Qué código identifica qué tipo de publicación</div>
+    <div class="story">ISSN = International Standard <b>S</b>erial Number → la "S" de Serial es la "S" de reviS-ta, algo que sale en Serie, número tras número. ISBN = International Standard <b>B</b>ook Number → la "B" es literalmente de "Book" (libro).</div>
+    <div class="takeaway">ISSN → identifica una revista. ISBN → identifica un libro científico.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🧰</span>
+    <h3>Caja de herramientas del investigador</h3>
+    <div class="tagline">Qué programa/web sirve para qué</div>
+    <div class="acronym">
+      <div><b>📎</b> Endnote / Mendeley → guardan y ordenan tus <b>referencias</b> bibliográficas.</div>
+      <div><b>🐒</b> SurveyMonkey → el "monito" que reparte tus <b>cuestionarios</b>/encuestas.</div>
+      <div><b>📈</b> SPSS / Statgraphics → hacen los <b>cálculos estadísticos</b> por ti.</div>
+    </div>
+    <div class="takeaway">Referencias con Endnote, encuestas con el Monkey, números con SPSS.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🚪</span>
+    <h3>El portero revisa ANTES de dejarte pasar</h3>
+    <div class="tagline">Revisión por pares (peer review) de un artículo científico</div>
+    <div class="story">Antes de que tu artículo llegue al público, un grupo de "porteros" (otros científicos de tu mismo campo, tus "pares") lo revisan en la puerta. Es un control PREVIO a la publicación, y lo hacen ellos — nunca tú mismo evaluando tu propio trabajo, ni una revisión posterior a que ya esté publicado.</div>
+    <div class="takeaway">Evaluación PREVIA + hecha por la comunidad científica (nunca "posterior", nunca "los propios autores").</div>
+  </div>
+
+</div>
+
+<div class="section-title">Diseño de estudios y lectura crítica</div>
+<div class="grid">
+
+  <div class="card" style="--c:#2a6ebf; --bg:#e8f0fb;">
+    <span class="icon">🙋</span>
+    <h3>El voluntario se elige a sí mismo</h3>
+    <div class="tagline">Muestreo de sujetos voluntarios vs. muestreo estratificado</div>
+    <div class="story">Quien se apunta voluntario para un estudio no ha sido elegido al azar — se ha auto-seleccionado él mismo levantando la mano, así que ese muestreo NO es probabilístico. En cambio, si divides la población en grupos (estratos) y luego SÍ sorteas dentro de cada uno, sigue siendo al azar.</div>
+    <div class="takeaway">Voluntarios → NO probabilístico. Estratificado → SÍ probabilístico.</div>
+  </div>
+
+  <div class="card" style="--c:#2f8f5b; --bg:#e7f5ed;">
+    <span class="icon">🧐</span>
+    <h3>IEP: los 3 pasos de leer con espíritu crítico</h3>
+    <div class="tagline">Componentes de la lectura crítica de un artículo</div>
+    <div class="story">Cuando algo no te cuadra al leer, sueltas un "¡EP!" mental. Primero <b>I</b>nterpretas qué dice realmente el texto, luego <b>E</b>njuicias si los argumentos son sólidos o tienen fallos, y por último <b>P</b>ropones tú un planteamiento mejor.</div>
+    <div class="takeaway">Interpretar → Enjuiciar → Proponer (los 3, nunca faltando ninguno).</div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+Antes de que un médico vea un resultado de laboratorio, ese resultado ha pasado por un proceso completo que casi nadie ve: se ha pedido, se ha tomado la muestra correcta, se ha transportado, se ha medido, se ha validado, y solo entonces se ha entregado. Si algo falla en cualquiera de esos pasos, el número que llega al médico puede estar mal aunque el analizador funcione perfectamente. De eso va esta pista: qué es la bioquímica clínica, para qué sirven sus pruebas, qué muestra hay que usar en cada caso, qué fases tiene el proceso analítico, qué es un intervalo de referencia y cómo se mide si una prueba diagnóstica es buena. Es, con diferencia, el bloque con más preguntas repetidas de toda la asignatura.
+
+La bioquímica clínica es la rama de la ciencia que se ocupa de los aspectos bioquímicos de la vida humana, en la salud y en la enfermedad, y de la aplicación de métodos bioquímicos de laboratorio para el diagnóstico, el control del tratamiento, la prevención y la investigación de la enfermedad. No la confundas con la semiología, que estudia los signos y los síntomas de las enfermedades, el signo como manifestación objetiva y el síntoma como subjetiva: son disciplinas distintas, aunque el examen las mezcla en la misma pregunta.
+
+Todo lo que mide la bioquímica clínica se llama, formalmente, magnitud bioquímica: una propiedad medible en un sistema biológico, como una concentración, una actividad enzimática o un pH. Esa magnitud se describe siempre con tres piezas y en este orden exacto: primero el sistema, después el componente, y por último el tipo de magnitud, por ejemplo plasma, glucosa, concentración de sustancia. Si te dan el orden mezclado en una pregunta, recuerda la fórmula tal cual: sistema, componente, tipo de magnitud.
+
+¿Y para qué sirven estas pruebas en la práctica? Para varias cosas a la vez, no para una sola: son un elemento fundamental para el diagnóstico y el pronóstico, sirven para el seguimiento de la evolución, y se usan también en la monitorización toxicológica y en estudios farmacológicos. Truco de examen: cuando una pregunta enumera varias utilidades y una opción dice que todas las anteriores son ciertas, esa suele ser la respuesta correcta, porque no son usos excluyentes.
+
+Vamos con el espécimen, que es como se llama a la muestra representativa de un ser biológico, tomada en un momento determinado, sobre la que se hace el análisis. La idea central es que no todos los especímenes sirven para todo, la elección depende de qué quieras determinar. Para pH y gases hace falta sangre arterial, por punción arterial, y esto es una de las confusiones más preguntadas del bloque: la sangre venosa no permite determinar gases ni pH bajo ningún concepto. Para colesterol o bioquímica general sí sirve la sangre venosa, con cuidado de no hemolizarla. Para toxicidad o interacciones medicamentosas se usan orina, sangre y heces, según el caso. Para diagnóstico prenatal, líquido amniótico por amniocentesis. Y para funciones digestivas o intolerancias a disacáridos, heces, que hay que refrigerar o medir rápido porque la acción bacteriana altera su composición.
+
+Dentro de la sangre hay otra distinción muy preguntada: suero frente a plasma. Si a la sangre se le añade anticoagulante y se centrifuga, se obtiene plasma. Si se deja coagular espontáneamente, sin anticoagulante, y luego se centrifuga, se obtiene suero. La diferencia es concreta: el plasma tiene la misma composición que el suero más las proteínas del coágulo, sobre todo el fibrinógeno; el suero es ese mismo líquido después de que el coágulo se haya llevado esas proteínas. Quédate con la regla: anticoagulante y centrifugado es plasma, con fibrinógeno; coagulación espontánea y centrifugado es suero, sin fibrinógeno.
+
+Una vez tienes el espécimen correcto, hay que conservarlo bien, porque hay errores preanalíticos típicos que cambian su composición antes de llegar al analizador. Piensa en una orina de veinticuatro horas, el ejemplo clásico: si se guarda en un recipiente transparente y el analito es fotosensible, se altera, porque debería ir en un recipiente opaco; si el recipiente no lleva conservante, la acción bacteriana cambia la composición; y si se congela y descongela varias veces, aparece turbidez. Truco repetido: cuando el examen da estas tres causas como opciones separadas, la respuesta correcta suele ser que las tres son ciertas a la vez.
+
+El proceso analítico completo se divide en tres fases, y esta es de las preguntas de encajar conceptos más repetidas del bloque. La fase preanalítica incluye la solicitud del análisis, la obtención del espécimen, su identificación, el transporte, la recepción, la informatización, la conservación y el procesado inicial. La fase analítica es la medición propiamente dicha, el control de calidad y la validación del resultado, junto con el informe. Y la fase postanalítica es la entrega del resultado y la decisión clínica que se toma a partir de él. Fíjate en esto, porque se repite una y otra vez con distintas palabras: medición, control de calidad y validación son, siempre, fase analítica, no preanalítica ni postanalítica.
+
+Los intervalos de referencia se obtienen a partir de una población presuntamente sana, y no son un dato universal: varían entre poblaciones, por edad, sexo, etnia o método analítico, así que cada laboratorio debe establecer o verificar sus propios intervalos. Y un intervalo de referencia no diagnostica nada por sí solo en un paciente concreto, es un rango de comparación, no un diagnóstico. Aquí está la trampa que más se repite de todo el bloque: una opción puede decir que, según la Federación Internacional de Química Clínica, bastan veinte individuos para un intervalo de referencia fiable. Es falso, la cifra real exigida es de ciento veinte individuos como mínimo. Veinte es el distractor de manual; si ves esta pregunta, la cifra correcta es ciento veinte.
+
+Por último, cómo se mide si una prueba diagnóstica es buena. Comparando el resultado, dentro o fuera del intervalo de referencia, con el estado real del paciente, sano o enfermo, salen cuatro combinaciones: verdadero positivo, un enfermo fuera del intervalo, la prueba acierta; falso positivo, un sano fuera del intervalo, falsa alarma; verdadero negativo, un sano dentro del intervalo, correctamente descartado; y falso negativo, un enfermo dentro del intervalo, la prueba no lo detecta. Con estas cuatro categorías se calculan tres cosas: la sensibilidad diagnóstica, verdaderos positivos entre la suma de verdaderos positivos y falsos negativos, mide la capacidad de detectar a los enfermos; la especificidad diagnóstica, verdaderos negativos entre la suma de verdaderos negativos y falsos positivos, mide la capacidad de descartar a los sanos; y la eficiencia diagnóstica, la suma de verdaderos positivos y verdaderos negativos entre el total, es la exactitud global. En el ejemplo clásico del síndrome de Cushing, con cuarenta verdaderos positivos, veinte falsos positivos, ochenta verdaderos negativos y veinte falsos negativos, la sensibilidad sale sesenta y seis con siete por ciento, la especificidad sale ochenta por ciento, y la eficiencia diagnóstica sale setenta y cinco por ciento.
+
+Y una última distinción que el examen adora mezclar en la misma frase: la sensibilidad diagnóstica no es la sensibilidad analítica. La diagnóstica es la que acabamos de ver, detectar correctamente a los enfermos de una población. La analítica es otra cosa, la capacidad de un método de detectar concentraciones muy pequeñas de un analito, su límite de detección. Suenan casi igual y no tienen nada que ver.
+
+Vamos a fijar todo esto con unas preguntas rápidas.
+
+Pregunta: para determinar el pH y los gases en sangre, ¿qué tipo de espécimen necesitas obligatoriamente?
+
+[PAUSA 3s]
+
+Respuesta: sangre arterial, por punción arterial. La sangre venosa no sirve para esto bajo ningún concepto.
+
+Si has dudado con la sangre venosa: es perfectamente válida para colesterol o bioquímica general, pero no refleja el intercambio gaseoso pulmonar, así que nunca se usa para gasometría.
+
+Pregunta: si a una muestra de sangre le añades anticoagulante y la centrifugas, ¿qué obtienes, y en qué se diferencia del suero?
+
+[PAUSA 3s]
+
+Respuesta: obtienes plasma, que conserva el fibrinógeno y las demás proteínas de la coagulación. El suero se obtiene dejando coagular la sangre sin anticoagulante y centrifugando después, cuando el fibrinógeno ya se ha consumido en el coágulo.
+
+Si has dudado con cuál lleva fibrinógeno: piensa que el plasma es el más completo, y el suero es ese mismo líquido después de que el coágulo se haya llevado esas proteínas.
+
+Pregunta: la medición, el control de calidad y la validación de un resultado, ¿a qué fase pertenecen?
+
+[PAUSA 3s]
+
+Respuesta: a la fase analítica, no a la preanalítica ni a la postanalítica.
+
+Si has dudado con la preanalítica: la preanalítica es todo lo anterior a que algo se mida, solicitud, obtención, transporte, conservación. En cuanto se mide algo, ya estás en fase analítica.
+
+Pregunta: según la Federación Internacional de Química Clínica, ¿cuántos individuos hacen falta como mínimo para un intervalo de referencia fiable?
+
+[PAUSA 3s]
+
+Respuesta: ciento veinte individuos.
+
+Si has dudado con veinte: veinte es el distractor típico, una cifra plausible que el examen corrige expresamente. La cifra mínima real es ciento veinte.
+
+Pregunta: ¿en qué se diferencia la sensibilidad diagnóstica de la sensibilidad analítica?
+
+[PAUSA 3s]
+
+Respuesta: la diagnóstica mide la capacidad de detectar correctamente a los enfermos de una población. La analítica es la capacidad de un método de detectar concentraciones muy pequeñas de un analito, su límite de detección.
+
+Si has dudado y te sonaban a lo mismo: es normal, el nombre es casi idéntico, pero una habla de pacientes y la otra habla de la técnica del laboratorio en sí misma.
+
+Y nos quedamos con tres ideas fuerza. Primero, el espécimen correcto lo es todo: sangre arterial para pH y gases, nunca venosa, y plasma con fibrinógeno frente a suero sin él. Segundo, el proceso tiene tres fases fijas, preanalítica, analítica y postanalítica, medir y validar es siempre fase analítica, y un intervalo de referencia fiable exige ciento veinte individuos, no veinte. Y tercero, una prueba diagnóstica se valora con sensibilidad, especificidad y eficiencia diagnóstica calculadas a partir de verdaderos y falsos positivos y negativos, y esa sensibilidad diagnóstica no tiene nada que ver con la sensibilidad analítica de un método.

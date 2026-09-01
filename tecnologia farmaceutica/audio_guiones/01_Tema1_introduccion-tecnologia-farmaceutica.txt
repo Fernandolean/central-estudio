@@ -1,0 +1,67 @@
+Si en el examen te encuentras una pregunta que empieza por "cuál de estas definiciones corresponde a...", ya sabes de dónde viene: del tema uno. Es el bloque más corto de toda la asignatura, y también el más rentable: doce preguntas en el banco de examen, y diez de ellas repetidas casi de forma literal convocatoria tras convocatoria. Aquí no hay mecanismos complicados ni fórmulas que aprenderse de memoria. Son cinco palabras que tienes que saber distinguir sin dudar ni un segundo. El problema es que esas cinco palabras se parecen mucho entre sí, y ahí es exactamente donde cae casi todo el mundo. Empecemos a separarlas bien, una por una, fijándonos sobre todo en qué hace diferente a cada una del resto.
+
+Para situarnos primero: la Tecnología Farmacéutica, que también se llama Farmacia Galénica, es el conjunto de conocimientos, operaciones básicas y procesos tecnológicos necesarios para formular, controlar y elaborar un medicamento que garantice la seguridad, la estabilidad y la eficacia terapéutica para la que fue concebido. Guárdate esas tres palabras, seguridad, estabilidad y eficacia, porque es literalmente la definición que te puede caer tal cual en una pregunta.
+
+Ahora sí, las cinco piezas de vocabulario que hay que tener grabadas a fuego.
+
+La primera es el principio activo. Es toda materia, cualquiera que sea su origen, humano, animal, vegetal, químico o de otro tipo, a la que se atribuye una actividad apropiada para constituir un medicamento. Fíjate en la palabra clave: actividad. El principio activo es el único término de toda esta lista que siempre, sin excepción, tiene actividad farmacológica.
+
+La segunda es el excipiente. Es la materia que, incluida en las formas galénicas, se añade a los principios activos, o a sus asociaciones, para servirles de vehículo, para posibilitar su preparación y su estabilidad, para modificar sus propiedades organolépticas, o para determinar las propiedades fisicoquímicas del medicamento y su biodisponibilidad. Y aquí está la trampa más repetida de todo el banco de preguntas: el excipiente no tiene actividad farmacológica propia. Nunca. Si una opción de examen dice que un excipiente "también aporta efecto terapéutico", esa opción es falsa con toda seguridad.
+
+La tercera es la materia prima, y esta es la que más líos genera, porque es un término paraguas. Materia prima es toda sustancia, activa o inactiva, empleada en la fabricación de un medicamento, ya permanezca inalterada, se modifique, o desaparezca en el transcurso del proceso. Fíjate bien en esas dos palabras: "activa o inactiva". Eso significa que la materia prima engloba tanto a los principios activos como a los excipientes. No es un tercer grupo aparte: es el paraguas que cubre a los otros dos.
+
+Y aquí está la trampa que el banco de preguntas repite una y otra vez: confundir materia prima con principio activo. Quédate con esta regla simple. La materia prima puede ser activa o puede ser inactiva, da igual. El principio activo, por definición, siempre es activo, siempre tiene efecto farmacológico. Si una opción te dice que la materia prima "siempre tiene actividad", es la respuesta falsa. Y si te dice que el principio activo "puede o no tener actividad", también es falsa: el principio activo la tiene siempre, sin excepciones.
+
+La cuarta pieza es el producto intermedio. Es el que está destinado a una transformación industrial posterior, llevada a cabo por un fabricante autorizado. No tiene actividad por sí mismo, y tampoco es la forma final del medicamento: es un paso a medio camino dentro del proceso de fabricación.
+
+Y la quinta es la forma galénica, que también se llama forma farmacéutica. Es la disposición a la que se adaptan el principio activo y el excipiente para constituir el medicamento. Ojo con un detalle que se pregunta mucho: la forma galénica se define combinando dos cosas a la vez, la forma en la que el fabricante presenta el producto, y la forma en la que ese producto se administra. Si en una pregunta de examen la forma galénica se describe usando solo una de esas dos partes, esa opción está incompleta, y probablemente sea la falsa.
+
+Ahora, ¿de dónde vienen los principios activos? De cinco fuentes, y solo cinco: de la síntesis química, de las drogas de origen natural, de los procesos microbiológicos, de la biotecnología, y de la ingeniería genética. Memoriza estas cinco, porque el examen suele jugar a sustituir una de ellas por un intruso que suena parecido pero no lo es, como "procesos industriales" a secas, o "ingeniería física". Ninguna de esas dos frases forma parte de la lista real. Si las ves en una opción, desconfía directamente.
+
+Y para cerrar el contenido de este tema, las cuatro operaciones básicas. De todas las operaciones que existen en Tecnología Farmacéutica, filtración, extracción, concentración, liofilización, esterilización, división, mezclado, desecación, solo cuatro se consideran operaciones básicas que se aplican siempre, a cualquier forma farmacéutica, sin excepción. Son estas cuatro: división, que incluye la reducción de tamaño de partícula; mezclado; desecación; y esterilización. Repítelas así, como una lista corta y fija: división, mezclado, desecación, esterilización.
+
+El resto, filtración, extracción, concentración y liofilización, son operaciones importantes, pero condicionales. Solo se aplican cuando la forma farmacéutica concreta las necesita, no a todas por igual. Esa palabra, condicionales, es justo la que marca la diferencia con las cuatro básicas, que se aplican siempre. Insisto en esto porque es de las preguntas más repetidas del banco: si te preguntan cuáles son las operaciones básicas universales, la respuesta correcta es división, mezclado, desecación y esterilización, ni una más ni una menos.
+
+Vamos con la recuperación activa. Cinco preguntas cortas para comprobar si de verdad se te han quedado estas ideas.
+
+Pregunta: ¿cuál es la diferencia esencial entre principio activo y excipiente?
+
+[PAUSA 3s]
+
+Respuesta: que el principio activo tiene actividad farmacológica, y el excipiente no. El excipiente puede influir en cómo se libera o se absorbe el fármaco, pero eso no es lo mismo que tener actividad terapéutica propia.
+
+Si has dudado pensando que el excipiente también "hace algo" porque determina la biodisponibilidad: es cierto que la condiciona, pero condicionar la biodisponibilidad no es lo mismo que tener actividad farmacológica propia. Esa actividad es exclusiva del principio activo.
+
+Pregunta: te doy esta definición. Toda sustancia, activa o inactiva, empleada en la fabricación de un medicamento, ya permanezca inalterada, se modifique, o desaparezca en el proceso. ¿A qué concepto corresponde?
+
+[PAUSA 3s]
+
+Respuesta: a la materia prima. Es el término paraguas que engloba tanto a principios activos como a excipientes.
+
+Si has dudado con principio activo: el principio activo siempre es activo, sin excepción. Esta definición dice explícitamente "activa o inactiva", así que no puede ser la del principio activo.
+
+Pregunta: ¿cómo se llama la disposición que adoptan juntos el principio activo y el excipiente, la que se define combinando la forma de presentación y la forma de administración?
+
+[PAUSA 3s]
+
+Respuesta: la forma galénica, o forma farmacéutica.
+
+Si has dudado con excipiente: el excipiente es solo uno de los ingredientes que se colocan dentro de esa forma, no la disposición final en sí misma.
+
+Pregunta: ¿de cuántas fuentes proceden los principios activos, y cuáles son?
+
+[PAUSA 3s]
+
+Respuesta: de cinco. Síntesis química, drogas de origen natural, procesos microbiológicos, biotecnología, e ingeniería genética.
+
+Si has dudado con "procesos industriales": esa frase suena parecida, pero no aparece en la lista real de fuentes. Es un distractor típico de examen.
+
+Pregunta: ¿cuáles son las cuatro operaciones básicas que se aplican siempre a cualquier forma farmacéutica?
+
+[PAUSA 3s]
+
+Respuesta: división, mezclado, desecación y esterilización.
+
+Si has dudado incluyendo la filtración: la filtración es una operación importante, pero condicional, no universal. Solo las cuatro que hemos dicho se aplican siempre, a todas las formas farmacéuticas sin excepción.
+
+Y con esto cerramos el tema uno. Tres ideas para llevarte puestas. Primero: el principio activo es el único término de esta lista que siempre tiene actividad farmacológica garantizada; ni el excipiente, ni la materia prima considerada en general, la tienen asegurada. Segundo: la materia prima es el paraguas que engloba tanto a principios activos como a excipientes, así que si un examen los presenta como tres categorías totalmente separadas y sin relación entre sí, desconfía. Y tercero: las cuatro operaciones básicas que se aplican siempre son división, mezclado, desecación y esterilización; todo lo demás, filtración, extracción, concentración, liofilización, es condicional, y se aplica solo cuando la forma farmacéutica concreta lo pide.

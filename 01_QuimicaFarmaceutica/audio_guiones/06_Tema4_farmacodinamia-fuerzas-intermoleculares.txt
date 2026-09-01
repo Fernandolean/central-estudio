@@ -1,0 +1,59 @@
+El fármaco ya ha llegado hasta su diana, ha atravesado membranas, ha sobrevivido a la sangre. Pero llegar no es suficiente. Ahora tiene que encajar, y sobre todo tiene que quedarse pegado el tiempo suficiente para hacer su efecto. De eso trata esta pista: de las fuerzas que mantienen unido un fármaco a su diana, y de por qué hay unas mucho más fuertes que otras. Este es, con diferencia, uno de los bloques que más veces cae en examen dentro de este parcial, así que vale la pena escucharlo dos veces si hace falta.
+
+Antes de hablar de fuerzas, hay una idea previa importante: el fármaco no llega a un sitio vacío. En la diana normalmente ya hay un ligando propio del cuerpo, el ligando endógeno, y el fármaco tiene que competir con él por el mismo sitio de unión. Para que esa competencia salga bien, para que haya lo que llamamos un buen reconocimiento molecular, hacen falta tres requisitos, y los tres tienen que darse a la vez. El primero es que los grupos funcionales del fármaco y de la diana sean complementarios entre sí. El segundo es que el tamaño, la forma y la conformación del fármaco encajen en el sitio de unión, ni muy grande ni muy pequeño, con la forma adecuada. Y el tercero es que la estereoquímica sea la correcta, es decir, que la disposición espacial concreta de la molécula sea la que la diana reconoce. De este tercer requisito hablaremos con mucho más detalle en otra pista dedicada solo a estereoquímica; aquí quédate con que forma parte de los tres requisitos imprescindibles.
+
+Vamos ahora al núcleo de esta pista: la escala de fuerzas intermoleculares. Hay siete que hay que conocer en este parcial, y lo importante no es solo saber sus nombres, sino saber ordenarlas de la más débil a la más fuerte, porque el examen suele pedir comparar dos fármacos y decidir cuál se une mejor a la misma diana.
+
+La más débil de todas es Van der Waals, también llamada fuerza de London. Aparece entre zonas apolares, por ejemplo entre una cadena hidrocarbonada del fármaco y aminoácidos apolares de la diana como la alanina, la valina, la leucina o la prolina. Es una fuerza débil, casi de rozamiento, pero cuando hay muchos puntos de contacto apolar a la vez, suma.
+
+La segunda, algo más fuerte, es el stacking, que aparece entre anillos aromáticos planos, tanto del fármaco como de aminoácidos aromáticos de la diana, como la fenilalanina, el triptófano o la tirosina. Imagina dos monedas planas apiladas una encima de otra: así se colocan los anillos aromáticos para hacer stacking.
+
+La tercera es la interacción dipolo-dipolo, entre grupos polares que no tienen carga, ni en el fármaco ni en la diana. Aminoácidos típicos para esto son la cisteína, la glutamina, la asparagina, la serina o la treonina.
+
+La cuarta, ya más fuerte que las tres anteriores, es la interacción ion-dipolo, que aparece cuando una parte del fármaco está ionizada, con carga real, y se enfrenta a un aminoácido polar sin carga de la diana. Aquí ya hay una carga real de por medio en uno de los dos lados, y eso sube bastante la fuerza de la unión respecto a las tres anteriores.
+
+La quinta es el enlace de hidrógeno, probablemente la interacción de la que más vas a hablar en todo este tema. Necesita un átomo dador, con un hidrógeno unido a oxígeno o a nitrógeno, y un átomo aceptor, con un par de electrones libre disponible sobre oxígeno o nitrógeno. Y aquí viene una trampa de examen muy repetida, así que escúchala con atención: el nitrógeno de una amida nunca actúa como aceptor de enlace de hidrógeno, aunque a primera vista parezca que tiene un par de electrones libre disponible para hacerlo. ¿Por qué no lo usa? Porque ese par de electrones prefiere resonar hacia el carbonilo que tiene al lado, que ejerce un efecto atractor de electrones muy fuerte por resonancia. Al preferir deslocalizarse hacia el carbonilo, el par de electrones del nitrógeno de la amida deja de estar disponible para aceptar un hidrógeno de otra molécula. Repite esto en tu cabeza cada vez que veas una amida en un ejercicio: el nitrógeno de la amida nunca es aceptor de hidrógeno, porque su par libre está atrapado por resonancia con el carbonilo vecino. Esta misma lógica se aplica a cualquier grupo que tenga un efecto atractor por resonancia fuerte al lado: si el par libre tiene un sitio mejor donde deslocalizarse, no estará disponible para el enlace de hidrógeno.
+
+La sexta fuerza, ya bastante más arriba en intensidad, es el enlace iónico propiamente dicho, el que se forma entre una carga positiva real y una carga negativa real, por ejemplo entre una lisina protonada de la diana y un grupo ácido con carga negativa del fármaco. Aquí ya no hablamos de dipolos ni de cargas parciales, sino de cargas completas, y eso hace que sea de las uniones más fuertes de toda la lista.
+
+Y la séptima, la más fuerte de todas las que se estudian en este parcial, es el enlace iónico reforzado. La idea es sencilla una vez la entiendes: es lo que pasa cuando, en el mismo punto de unión, coinciden un enlace iónico y, además, un enlace de hidrógeno adicional. No son dos uniones en dos sitios distintos, es la misma zona de contacto aportando dos tipos de fuerza a la vez, y eso multiplica la fuerza total de esa unión concreta.
+
+Todavía existen dos fuerzas más fuertes que esta, el enlace de coordinación y el enlace covalente, pero esas no entran en este parcial: la coordinación aparece más adelante, cuando se estudian inhibidores con metales, y el enlace covalente pertenece ya al terreno de las reacciones químicas reales de las enzimas. Aquí quédate con que el enlace iónico reforzado es el techo de este parcial.
+
+Y dentro del enlace iónico reforzado hay un caso concreto que merece mención aparte porque es un clásico de examen: el anillo de ocho miembros que se forma con una guanidina, típicamente la de la arginina, o con una amidina del fármaco. ¿Qué es exactamente este anillo? Es la situación en la que, en el mismo punto de contacto entre fármaco y diana, coinciden un enlace iónico y un enlace de hidrógeno adicional, formando un ciclo cerrado de ocho átomos contando ambos lados de la unión. No hace falta que sea literalmente una arginina completa: si el fármaco lleva una amidina y la diana un aminoácido ácido, como el aspártico o el glutámico, se puede formar exactamente la misma estructura. Este anillo de ocho miembros es, de todas las interacciones que se estudian en este parcial, la más fuerte posible. Combina lo mejor de dos mundos, la fuerza de una carga real más un enlace de hidrógeno extra en la misma zona, y por eso cuando el examen te pide comparar dos fármacos y decidir cuál se une mejor a la misma diana, encontrar este anillo suele ser la respuesta.
+
+Para terminar el desarrollo, ten en cuenta que la afinidad total de un fármaco por su diana no depende de una sola fuerza aislada, sino de dos palancas que se pueden mover a la vez: cuántos puntos de unión simultáneos consigue el fármaco, y qué tipo de fuerza logra en cada uno de esos puntos. Un fármaco con muchos puntos de contacto débiles puede competir con otro que tenga pocos puntos pero muy fuertes, como un enlace iónico reforzado. Por eso el examen casi siempre pide comparar, no memorizar una lista suelta.
+
+Vamos con el repaso activo. Cuatro preguntas, tómate un momento para responder antes de oír la solución.
+
+Pregunta: ¿cuáles son los tres requisitos que tienen que cumplirse para que haya un buen reconocimiento molecular entre un fármaco y su diana?
+
+[PAUSA 3s]
+
+Respuesta: que los grupos funcionales sean complementarios entre fármaco y diana, que el tamaño, la forma y la conformación encajen, y que la estereoquímica sea la correcta. Los tres tienen que darse a la vez; si falta uno solo, el reconocimiento no funciona bien aunque los otros dos estén perfectos.
+
+Pregunta: ordenando de menor a mayor fuerza, ¿cuál es la secuencia completa de las siete interacciones intermoleculares que se estudian en este parcial?
+
+[PAUSA 3s]
+
+Respuesta: Van der Waals, stacking, dipolo-dipolo, ion-dipolo, enlace de hidrógeno, enlace iónico, y por último el enlace iónico reforzado, que es el más fuerte de estos siete. Por encima de él ya solo estarían el enlace de coordinación y el enlace covalente, pero esos pertenecen al parcial siguiente, no a este.
+
+Pregunta: ¿por qué el nitrógeno de una amida nunca actúa como aceptor de enlace de hidrógeno, si en apariencia tiene un par de electrones libre disponible?
+
+[PAUSA 3s]
+
+Respuesta: porque ese par de electrones prefiere resonar hacia el carbonilo que tiene justo al lado, que ejerce un efecto atractor muy fuerte por resonancia. Al preferir deslocalizarse hacia ahí, el par libre del nitrógeno nunca queda realmente disponible para aceptar un hidrógeno. Si has dudado pensando que cualquier par libre sirve como aceptor, ten cuidado: lo que importa es si ese par tiene un sitio mejor donde irse por resonancia, y en la amida siempre lo tiene.
+
+Pregunta: ¿qué es exactamente el enlace iónico reforzado, y qué relación tiene con el famoso anillo de ocho miembros de la arginina o de la amidina?
+
+[PAUSA 3s]
+
+Respuesta: el enlace iónico reforzado es la coincidencia, en el mismo punto de unión, de un enlace iónico y un enlace de hidrógeno adicional. El anillo de ocho miembros es el caso concreto y más típico de esta situación, formado por una guanidina, como la de la arginina, o por una amidina del fármaco frente a un aspártico o un glutámico de la diana, cerrando un ciclo de ocho átomos entre los dos. Es, de todas las interacciones vistas en este parcial, la más fuerte posible.
+
+Y para cerrar, tres ideas que no se te pueden olvidar.
+
+Primero, el reconocimiento molecular necesita tres cosas a la vez: grupos complementarios, tamaño y forma adecuados, y estereoquímica correcta.
+
+Segundo, memoriza la escala completa de menor a mayor fuerza: Van der Waals, stacking, dipolo-dipolo, ion-dipolo, enlace de hidrógeno, enlace iónico, y enlace iónico reforzado como techo de este parcial; y recuerda que el nitrógeno de una amida jamás actúa como aceptor de hidrógeno, porque su par libre está secuestrado por resonancia hacia el carbonilo.
+
+Tercero, la interacción más fuerte de todo el parcial es el anillo de ocho miembros que forma una guanidina, típicamente de la arginina, o una amidina, al combinar un enlace iónico con un enlace de hidrógeno adicional en el mismo punto de contacto.

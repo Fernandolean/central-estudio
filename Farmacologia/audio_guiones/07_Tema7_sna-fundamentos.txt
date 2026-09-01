@@ -1,0 +1,101 @@
+Todo lo que viene en las próximas pistas, el parasimpático y el simpático con todos sus fármacos, se apoya en cuatro palabras que tienes que dominar de memoria absoluta antes de seguir. Si no las tienes claras, cada pregunta de los próximos dos temas se te hará cuesta arriba. Esas cuatro palabras son parasimpaticomimético, parasimpaticolítico, simpaticomimético y simpaticolítico, y en esta pista vas a aprender qué significa cada una, de dónde viene, y cómo se conecta con los efectos reales que ves en el cuerpo, desde la pupila hasta la vejiga. Empezamos por cómo está organizado este sistema.
+
+El sistema nervioso autónomo controla las funciones del cuerpo que no decides de forma consciente: el latido del corazón, el calibre de los bronquios, el movimiento del intestino, el tamaño de la pupila. Todo eso pasa sin que lo pienses, y de eso se encarga este sistema.
+
+Su organización tiene una característica que lo diferencia del sistema nervioso que sí controlas voluntariamente: en el autónomo, la señal siempre viaja por dos neuronas puestas en serie, una detrás de otra, nunca por una sola. La primera neurona sale del sistema nervioso central y se llama fibra preganglionar. Esa fibra no llega directamente al órgano, llega a un ganglio, que está fuera del sistema nervioso central, y ahí hace sinapsis con la segunda neurona, que se llama fibra postganglionar, y es esta segunda la que ya sí llega hasta el órgano diana. Preganglionar antes del ganglio, postganglionar después del ganglio: dos neuronas en serie, con el ganglio en medio, siempre fuera del sistema nervioso central. Esa es la estructura básica de todo el sistema, tanto en la rama parasimpática como en la simpática.
+
+Ahora, qué sustancia libera cada una de estas fibras, porque no es siempre la misma.
+
+La acetilcolina es el neurotransmisor de las fibras que llamamos colinérgicas, y se libera en muchísimos puntos del sistema: en todas las fibras preganglionares, tanto las del simpático como las del parasimpático, en las fibras postganglionares del parasimpático, en las fibras que llegan a la médula suprarrenal, y en las fibras somáticas que inervan el músculo esquelético. La acetilcolina puede actuar sobre dos tipos de receptor distintos: el receptor nicotínico, que es el que está en los ganglios y en el músculo esquelético, y el receptor muscarínico, que es el que está en los órganos que inerva el parasimpático, como el corazón, el intestino o la vejiga.
+
+La noradrenalina, en cambio, es el neurotransmisor de las fibras adrenérgicas, y su papel está mucho más localizado: se libera solo en las fibras postganglionares del simpático, la última neurona antes de llegar al órgano. Actúa sobre los receptores adrenérgicos, que pueden ser de tipo alfa o de tipo beta.
+
+Quédate con esto: la acetilcolina está casi en todas partes, en las preganglionares de los dos sistemas y en las postganglionares del parasimpático, sobre receptores nicotínicos o muscarínicos; la noradrenalina, en cambio, aparece solo al final de la vía simpática, en la fibra postganglionar, sobre receptores adrenérgicos alfa o beta.
+
+Y ahora la parte que de verdad tienes que memorizar sin fallo, porque de aquí depende literalmente todo lo que viene después en los próximos dos temas: la terminología de los fármacos que actúan sobre este sistema.
+
+Hay cuatro términos, organizados en dos parejas opuestas, y cada término tiene además dos sinónimos exactos.
+
+Empecemos por la rama parasimpática. Si un fármaco aumenta el tono parasimpático, se comporta igual que la acetilcolina sobre receptores muscarínicos, y lo llamamos parasimpaticomimético, sinónimo exacto de colinérgico, y también de agonista muscarínico. Los tres términos describen exactamente el mismo fármaco.
+
+Justo lo contrario es el fármaco que disminuye el tono parasimpático, bloqueando la acetilcolina sobre esos mismos receptores: es el parasimpaticolítico, sinónimo exacto de anticolinérgico, y también de antagonista, o bloqueante, muscarínico.
+
+Fíjate en el contraste, porque es justo donde más se falla: parasimpaticomimético, con mimético de mimetizar, de imitar, aumenta el parasimpático, imita a la acetilcolina. Parasimpaticolítico, con lítico de romper, disminuye el parasimpático, bloquea a la acetilcolina. Mimético suma, lítico resta.
+
+La misma lógica se repite en la rama simpática. El fármaco que aumenta el tono simpático, imitando a la noradrenalina sobre receptores adrenérgicos, se llama simpaticomimético, sinónimo de adrenérgico y de agonista adrenérgico. Y el que lo disminuye, bloqueando esos receptores, se llama simpaticolítico, sinónimo de antiadrenérgico y de antagonista, o bloqueante, adrenérgico.
+
+Repito el patrón porque es la base de todo el bloque: mimético siempre aumenta esa rama, imitando a su neurotransmisor propio; lítico siempre la disminuye, bloqueando a ese mismo neurotransmisor. Parasimpaticomimético sube el parasimpático, parasimpaticolítico lo baja. Simpaticomimético sube el simpático, simpaticolítico lo baja. Y cada término lleva pegados sus dos sinónimos: mimético parasimpático es colinérgico y agonista muscarínico; lítico parasimpático es anticolinérgico y antagonista muscarínico; mimético simpático es adrenérgico y agonista adrenérgico; lítico simpático es antiadrenérgico y antagonista adrenérgico.
+
+Hay también fármacos que no actúan directamente sobre el receptor, sino modulando al neurotransmisor: aumentando o disminuyendo su síntesis, bloqueando la enzima que lo degrada, aumentando su liberación, o inhibiendo su recaptación hacia la neurona que lo soltó. Si aumentan su disponibilidad, equivalen a un mimético; si la reducen, a un lítico, aunque el mecanismo por dentro sea distinto al de unirse directamente al receptor.
+
+Con esta terminología ya puesta, vamos a la tabla de efectos, que es donde parasimpático y simpático se comportan casi siempre como polos opuestos, órgano por órgano.
+
+En la pupila, el parasimpático produce miosis, es decir, contrae la pupila, la hace más pequeña; el simpático produce justo lo contrario, midriasis, dilata la pupila.
+
+En el corazón, el parasimpático frena las funciones cardiacas, las reduce; el simpático las aumenta, y ahí es donde aparece la taquicardia como efecto típico de la estimulación simpática.
+
+En los bronquios, el parasimpático provoca broncoconstricción, cierra la vía aérea; el simpático provoca broncodilatación, la abre.
+
+En las secreciones, el parasimpático las aumenta y el simpático las disminuye en general, con una excepción muy preguntada: el sudor, que aumenta con el simpático, no con el parasimpático, aunque el resto de secreciones sigan la regla contraria.
+
+En el aparato digestivo, el parasimpático aumenta la actividad y relaja los esfínteres, favoreciendo el tránsito; el simpático la reduce y contrae los esfínteres, lo que se traduce en estreñimiento.
+
+En el aparato urinario pasa algo simétrico: el parasimpático aumenta la actividad y relaja los esfínteres, favoreciendo la micción; el simpático la reduce, contrae los esfínteres, y favorece la retención.
+
+En los vasos sanguíneos, el parasimpático produce vasodilatación generalizada; el simpático produce vasoconstricción generalizada.
+
+Y hay un efecto que solo tiene el simpático, sin equivalente parasimpático: el metabolismo de la glucosa. El simpático activa la gluconeogénesis y la glucogenólisis, es decir, hace que suba la glucemia, prepara al cuerpo para una respuesta de urgencia con más azúcar disponible en sangre.
+
+Si te fijas, casi toda la tabla sigue una lógica simple: el simpático prepara al cuerpo para la acción inmediata, abre pupilas y bronquios, acelera el corazón, y frena lo que no sea urgente, como digerir o vaciar la vejiga. El parasimpático hace justo lo contrario, prepara al cuerpo para el reposo y el mantenimiento.
+
+Toda esta teoría tiene aplicación clínica directa, y así es como se pregunta en examen la mayoría de las veces, no con la teoría pura sino con casos.
+
+Para la hipertensión arterial, el objetivo es bajar el tono simpático o subir el parasimpático, así que los fármacos de elección son los simpaticolíticos, o los colinérgicos, es decir, los parasimpaticomiméticos. Cualquier fármaco en la dirección contraria empeoraría la tensión arterial en vez de mejorarla.
+
+La taquicardia como reacción adversa aparece con los simpaticomiméticos, que estimulan directamente lo que acelera el corazón, y con los antimuscarínicos, los parasimpaticolíticos o anticolinérgicos, porque al bloquear el freno parasimpático el corazón queda con más margen para acelerarse. Nunca aparece con un agonista muscarínico, que va en la dirección exactamente contraria y frena el corazón.
+
+Y en el asma, están contraindicados los agonistas muscarínicos, los parasimpaticomiméticos y los anticolinesterásicos, porque los tres aumentan la actividad de la acetilcolina sobre el bronquio y provocan broncoconstricción, justo lo que menos necesita un paciente asmático. Los de elección van en la dirección opuesta, los agonistas beta dos, que producen broncodilatación.
+
+Vamos con la recuperación activa. Cuatro preguntas, tómate un segundo real en cada pausa.
+
+Pregunta: un paciente tiene el tono parasimpático patológicamente bajo y necesitas subirlo. Qué tipo de fármaco buscas, y qué dos nombres sinónimos tiene ese tipo de fármaco.
+
+[PAUSA 3s]
+
+Respuesta: buscas un parasimpaticomimético, que es exactamente lo mismo que un colinérgico, y exactamente lo mismo que un agonista muscarínico.
+
+Si has contestado parasimpaticolítico, te has ido justo al fármaco contrario: ese bajaría todavía más el tono parasimpático, en vez de subirlo. Recuerda el truco del nombre, mimético suma, imita al neurotransmisor y aumenta esa rama; lítico resta, bloquea al neurotransmisor y la disminuye.
+
+Pregunta: para tratar la hipertensión arterial, qué familia de fármacos sobre el sistema nervioso autónomo tiene sentido usar.
+
+[PAUSA 3s]
+
+Respuesta: un simpaticolítico, o alternativamente un colinérgico, es decir, un parasimpaticomimético, porque los dos consiguen el mismo resultado final, bajar el tono simpático o subir el parasimpático, y eso reduce la tensión arterial.
+
+Si has pensado en un simpaticomimético, es justo lo contrario de lo que necesitas: subiría todavía más el tono simpático, y con él, la tensión arterial.
+
+Pregunta: qué dos tipos de fármacos pueden provocar taquicardia como reacción adversa, y cuál no la provoca nunca.
+
+[PAUSA 3s]
+
+Respuesta: la provocan los simpaticomiméticos, porque estimulan directamente lo que acelera el corazón, y los antimuscarínicos, o parasimpaticolíticos, porque quitan el freno que el parasimpático ejerce sobre el corazón. El que nunca la provoca es el agonista muscarínico, porque ese frena el corazón en vez de acelerarlo.
+
+Si has dudado entre agonista muscarínico y antagonista muscarínico, recuerda que son polos opuestos: el agonista muscarínico imita a la acetilcolina y frena el corazón; el antagonista muscarínico bloquea a la acetilcolina, quita el freno, y por eso sí puede producir taquicardia.
+
+Pregunta: qué tipo de fármacos están contraindicados en un paciente asmático, y cuáles son en cambio los de elección.
+
+[PAUSA 3s]
+
+Respuesta: están contraindicados los agonistas muscarínicos, los parasimpaticomiméticos y los anticolinesterásicos, porque todos aumentan la acetilcolina sobre el bronquio y provocan broncoconstricción. Los de elección son los agonistas beta dos, que producen broncodilatación.
+
+Si has pensado que un anticolinérgico también está contraindicado en asma, revisa la dirección: el anticolinérgico bloquea la acetilcolina, así que en realidad ayuda a evitar la broncoconstricción, no la provoca; el problema está en lo contrario, en todo lo que aumente la acetilcolina.
+
+Y con esto cerramos la pista. Que se te queden tres ideas.
+
+Primero, el sistema nervioso autónomo funciona siempre con dos neuronas en serie, una preganglionar y otra postganglionar, con el ganglio fuera del sistema nervioso central, y la acetilcolina es el neurotransmisor casi omnipresente, salvo en la fibra postganglionar simpática, donde manda la noradrenalina.
+
+Segundo, domina sin fallo los cuatro términos y sus parejas de sinónimos: parasimpaticomimético es colinérgico y agonista muscarínico; parasimpaticolítico es anticolinérgico y antagonista muscarínico; simpaticomimético es adrenérgico y agonista adrenérgico; simpaticolítico es antiadrenérgico y antagonista adrenérgico. Mimético siempre suma esa rama, lítico siempre la resta.
+
+Tercero, en la tabla de efectos opuestos casi todo sigue la lógica de acción frente a reposo, con dos excepciones que hay que recordar aparte: el sudor, que sube con el simpático en vez de bajar, y el metabolismo de la glucosa, que solo tiene efecto simpático.
+
+Con esta base de terminología y de efectos ya puedes enfrentarte a los dos temas siguientes, el parasimpático y el simpático en detalle, con total seguridad sobre qué significa cada nombre.

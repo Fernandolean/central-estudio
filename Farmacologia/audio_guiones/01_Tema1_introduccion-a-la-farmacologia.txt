@@ -1,0 +1,53 @@
+Un compañero te suelta en clase: dame la definición de fármaco. Y tú dudas si es lo mismo que medicamento. No lo es, y esa diferencia es una de las primeras preguntas trampa de toda la asignatura. Esta pista es la base de todo el temario: los conceptos que hay que tener clavados desde el primer día, las ramas en las que se divide la farmacología, cómo nace un medicamento nuevo hasta llegar a la farmacia, y las vías por las que se lo puedes dar a un paciente. Si esto queda bien asentado, todo lo que viene después, cinética, dinamia, sistema nervioso autónomo, se entiende mucho más rápido.
+
+Empecemos por el concepto más amplio: fármaco. Un fármaco es cualquier sustancia química que, al interactuar con un organismo vivo, provoca una respuesta, buena o tóxica, da igual cuál para la definición: si genera respuesta biológica, ya es un fármaco. Medicamento es un concepto más estrecho: toda sustancia útil para diagnosticar, tratar o prevenir una enfermedad, o capaz de modificar ritmos biológicos, presentada ya con una finalidad terapéutica reconocida. La forma más fácil de no confundirlos: todo medicamento es un fármaco, pero no todo fármaco es un medicamento. Un veneno también es un fármaco, porque genera respuesta biológica, pero evidentemente no es un medicamento.
+
+Un medicamento, por dentro, tiene dos partes. El principio activo es la sustancia responsable de la actividad farmacológica, la que produce el efecto. El excipiente es la sustancia que lo acompaña sin tener actividad farmacológica propia: sirve de vehículo, mejora el sabor o el aspecto, favorece la absorción, pero nunca es responsable del efecto terapéutico. Quédate con ese nunca, porque es justo lo que preguntan: te describen un excipiente haciendo algo parecido a un efecto farmacológico, y tienes que detectar que eso es imposible por definición.
+
+Y queda droga, que en farmacología no tiene nada que ver con droga de abuso. Aquí droga es una sustancia, generalmente de origen vegetal, tal como la ofrece la naturaleza o tras manipulación sencilla, y puede contener uno o varios principios activos dentro. La planta medicinal completa, o la parte que se usa con fines terapéuticos, es la droga; el compuesto químico concreto que dentro de ella provoca el efecto es el principio activo.
+
+Con esto claro, vamos con las ramas de la farmacología, terreno abonado para el examen. La farmacognosia, o materia médica, estudia las drogas y los productos que se obtienen manipulándolas de forma sencilla: si una pregunta habla de plantas medicinales o del origen natural de un principio activo, apunta ahí. La farmacotecnia, o farmacia galénica, prepara el medicamento para su uso terapéutico: decide si un principio activo se convierte en comprimido, jarabe o pomada, la forma farmacéutica en sí.
+
+La farmacogenética estudia cómo influyen los genes de cada persona en el efecto de los fármacos. No la confundas con la terapia génica, que es otra cosa: introducir un gen en células o tejidos para corregir una enfermedad causada por la alteración de ese mismo gen. Una estudia el efecto de los genes propios sobre el fármaco, la otra usa un gen ajeno como si fuera el tratamiento.
+
+La toxicología medicamentosa estudia las reacciones adversas y enfermedades que provoca un medicamento, con una idea que repite mucho esta profesora: todos los medicamentos son potencialmente tóxicos, es solo cuestión de dosis y de paciente. La farmacología clínica estudia los efectos de los fármacos en la persona sana y en la enferma, y promueve el uso racional del medicamento. Y la farmacoterapia, o farmacología aplicada, es la utilización práctica de esos fármacos para diagnosticar, prevenir o tratar.
+
+Llegamos a la pareja que más se pregunta: farmacocinética contra farmacodinamia. Truco que funciona siempre: cinética suena a movimiento, como la cinta de un gimnasio, y estudia qué le hace el organismo al fármaco mientras se mueve por dentro, es decir, cómo lo absorbe, lo distribuye, lo metaboliza y lo elimina. Esos cuatro pasos, más la liberación inicial, forman la regla nemotécnica lad-me, que verás repetida en las próximas pistas. Dinamia suena a dinamita: es lo que el fármaco le hace explotar al organismo, su mecanismo de acción, su efecto terapéutico y también el adverso. Repite esta frase el día del examen: cinética es lo que el cuerpo le hace al fármaco, dinamia es lo que el fármaco le hace al cuerpo.
+
+Vamos con cómo nace un medicamento nuevo. Las fases del ensayo clínico siguen una lógica sencilla: de menos gente a más gente. Antes de probar nada en humanos están los ensayos preclínicos, en animales de experimentación, cultivos celulares y órganos aislados, para ver toxicidad básica y actividad real. Al pasar a personas empieza la fase uno, y aquí está la trampa más repetida de este bloque entero: la fase uno se hace en voluntarios sanos, no en pacientes enfermos, para comprobar seguridad, tolerabilidad y farmacocinética inicial en gente sin la enfermedad que luego se quiere tratar.
+
+En la fase dos ya entran pacientes, un grupo reducido, y el objetivo cambia: eficacia y, sobre todo, búsqueda de la dosis adecuada. La fase tres amplía la escala a pacientes en gran número, y aquí el fármaco se compara directamente con el tratamiento estándar ya usado en la práctica, o con placebo si no existe todavía referencia. Es la fase que decide si el medicamento aporta algo de verdad. Y cuando ya se comercializa, empieza la fase cuatro, la farmacovigilancia, que vigila reacciones adversas raras o a largo plazo, imposibles de detectar con el número limitado de pacientes de fases anteriores. Fase cuatro es sinónimo de farmacovigilancia, y siempre ocurre después de comercializar, nunca antes.
+
+Cambiamos de bloque: vías de administración, en tres grupos según por dónde entra el fármaco. La vía enteral usa el aparato digestivo, oral, rectal y sublingual, con efecto local o sistémico según el caso; la sublingual, en la práctica, casi siempre busca efecto sistémico. La vía parenteral rompe un tegumento, necesita jeringa o aguja, y siempre busca efecto sistémico: intramuscular, subcutánea, intravenosa, epidural o intratecal. Y la vía tópica se aplica sobre una superficie buscando en principio efecto local, aunque a menudo el fármaco se absorbe y también da efecto sistémico: respiratoria, piel, vaginal, bucal.
+
+Y aquí llega la trampa más repetida de todo el tema: la vía transdérmica, la de los parches, no es parenteral, aunque busque efecto sistémico igual que la parenteral. Es tópica, porque no rompe ningún tegumento, solo atraviesa la piel de forma pasiva. Lo que define la categoría es si rompe o no la barrera de la piel, no el tipo de efecto que persigue. Y la otra mitad de la misma trampa: la vía rectal es enteral, no parenteral, porque el recto forma parte del aparato digestivo, aunque no pase por la boca.
+
+Para cerrar el desarrollo, tres datos sueltos que caen como pregunta directa. Las cápsulas blandas también se llaman perlas, literalmente. Para evitar el efecto de primer paso hepático en vía oral se usan comprimidos sublinguales, porque la sangre de la boca no pasa antes por el hígado; este dato va a volver, con mucho más detalle, en la pista sobre absorción. Y la separación del principio activo de su forma farmacéutica se llama liberación, la primera letra de la regla lad-me.
+
+Vamos con la recuperación activa. Cuatro preguntas, tómate un segundo real en cada pausa.
+
+Pregunta: te dan varios términos y te preguntan cuál se relaciona más directamente con la farmacognosia. ¿Cuál eliges?
+
+[PAUSA 3s]
+
+Respuesta: el que hable de drogas de origen vegetal o de productos obtenidos de ellas por manipulación sencilla, porque la farmacognosia es exactamente eso. Si has dudado con una opción sobre la preparación del medicamento, esa es farmacotecnia, no farmacognosia: la farmacotecnia trabaja con el medicamento ya elaborado, la farmacognosia con la materia prima antes de esa manipulación en profundidad.
+
+Pregunta: le explicas a un paciente cómo debe tomar su medicamento, la dosis, la frecuencia y la duración del tratamiento. ¿Cómo se llama esa información?
+
+[PAUSA 3s]
+
+Respuesta: posología, la pauta concreta de administración de un medicamento. Si has dudado con farmacoterapia, ten en cuenta que esa es el concepto amplio, el uso de fármacos para tratar, prevenir o diagnosticar en general; la posología es el detalle práctico de cómo se toma ese fármaco, no la disciplina entera.
+
+Pregunta: en el prospecto de un medicamento pone que no debe administrarse en menores de quince años. ¿Cómo se llama ese tipo de indicación?
+
+[PAUSA 3s]
+
+Respuesta: contraindicación, una situación en la que el riesgo supera al beneficio esperado en ese grupo de pacientes. Si has dudado con reacción adversa, recuerda que esa aparece después de haber tomado el fármaco; la contraindicación es anterior, es la advertencia de que ni siquiera se debería administrar en ese caso.
+
+Pregunta: en un ensayo clínico, ¿en qué fase se prueba el fármaco por primera vez en personas, y qué tipo de personas participan?
+
+[PAUSA 3s]
+
+Respuesta: fase uno, con voluntarios sanos, no pacientes con la enfermedad. Si has dudado pensando en enfermos, esa idea llega en la fase dos, que ya busca la dosis adecuada en pacientes; la fase uno todavía solo comprueba seguridad básica en gente sana.
+
+Y con esto cerramos. Tres ideas fuerza. Primero: todo medicamento es un fármaco, pero no todo fármaco es un medicamento, y el excipiente nunca es responsable del efecto terapéutico. Segundo: la farmacocinética es lo que el organismo le hace al fármaco, resumido en la regla lad-me, y la farmacodinamia es lo contrario, lo que el fármaco le hace al organismo; en los ensayos clínicos, la fase uno siempre es en voluntarios sanos, la fase dos busca la dosis, la fase tres compara con el tratamiento estándar, y la fase cuatro es la farmacovigilancia tras comercializar. Y tercero: en las vías de administración, lo que decide si una vía es parenteral no es si el efecto es sistémico, sino si rompe o no un tegumento; por eso la transdérmica es tópica y la rectal es enteral, aunque a primera vista no lo parezca.

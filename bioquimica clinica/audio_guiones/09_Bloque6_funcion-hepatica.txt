@@ -1,0 +1,67 @@
+Imagina que llega a urgencias un paciente con las transaminasas disparadas, veinticinco veces por encima de lo normal. ¿Es una hepatitis vírica que se cura sola, o el principio de un fallo hepático grave? La respuesta no está en el número absoluto, está en cómo se combinan varios datos entre sí. Esa es la clave de todo este bloque: el hígado no tiene un único marcador que lo diga todo, así que hay que aprender a leer el conjunto. Vamos con ello.
+
+El hígado hace dos trabajos distintos con dos tipos de células distintas. Los hepatocitos hacen el trabajo metabólico: sintetizan proteínas, regulan la glucosa, procesan grasas, y detoxifican sustancias propias y externas, primero oxidándolas o hidrolizándolas con el citocromo, que se dice citocromo pe cuatrocientos cincuenta, y después conjugándolas, con un sulfato, ácido glucurónico o un azúcar, para hacerlas solubles y sacarlas por la bilis o la orina. Las células de Kupffer, en cambio, hacen de sistema fagocítico: reciclan células sanguíneas viejas. Retén esta distinción, porque se pregunta qué célula hace qué.
+
+Idea central de todo el bloque: las magnitudes hepáticas no miden si el hígado funciona bien metabólicamente, eso no se mide directamente. Miden si hay lesión, de qué tipo, y con qué extensión. No estás midiendo función, estás midiendo daño.
+
+La bilirrubina es puro degradado de hemoglobina, unos cuatrocientos cincuenta micromoles al día a partir del grupo hemo. Es insoluble en agua, así que viaja unida a la albúmina hasta el hígado, donde el hepatocito la esterifica, o conjuga, y ya conjugada se excreta con la bilis. En el intestino, las bacterias la transforman en estercobilinógeno, que colorea las heces, y urobilinógeno, que sale por la orina. Es neurotóxica, de ahí el cuidado con la ictericia en recién nacidos.
+
+Es el marcador de colestasis por excelencia. Y ojo con la pregunta típica de qué situación NO la eleva: la hemólisis sí la eleva, porque satura la conjugación hepática; un fallo de conjugación, obviamente, la eleva; una obstrucción biliar también, porque ya conjugada no puede salir. Lo que no tiene nada que ver es, por ejemplo, un aumento de la síntesis de albúmina.
+
+Vamos con las transaminasas, donde más preguntas caen. La AST, también llamada GOT, y la ALT, también llamada GPT, informan de la integridad de las células hepáticas: si se rompen, salen a la sangre. Son inespecíficas, así que lo que orienta la causa es el cociente entre ambas, AST entre ALT, de lo más preguntado del bloque.
+
+Por debajo de uno, enfermedad aguda, típicamente hepatitis. Por encima de uno, enfermedad crónica o necrosis masiva. Por encima de dos, en el ochenta por ciento de los casos es alcohol, hepatitis alcohólica. Regla sencilla: menor que uno, agudo; mayor que uno, crónico; mayor que dos, alcohol.
+
+Tres detalles que afinan el diagnóstico: la albúmina muy disminuida orienta a hepatitis alcohólica; el tiempo de protrombina prolongado orienta a hepatitis tóxica; y el cociente ALT entre LDH por debajo de uno con cinco orienta a hepatitis isquémica, por mala perfusión, típicamente un fallo cardiaco.
+
+Caso típico de examen: transaminasas veinticinco veces lo normal, cociente AST entre ALT por debajo de uno, bilirrubina moderada, tiempo de protrombina normal. El diagnóstico más probable es hepatitis vírica aguda: el cociente bajo describe daño agudo, la bilirrubina moderada encaja con una colestasis leve, y el tiempo de protrombina normal descarta la tóxica, porque ahí sí se prolonga.
+
+La fosfatasa alcalina no es exclusiva del hígado: también está en hueso, intestino, placenta y riñón. En niños se eleva de forma fisiológica por el crecimiento óseo. En adultos, si sube, orienta a obstrucción biliar, piedras, tumores, cirrosis. Trampa clásica, muy repetida: elevada ella sola no confirma origen hepático, podría venir del hueso. Para confirmarlo necesita acompañarse de una elevación de la gamma glutamil transferasa, que se abrevia GGT.
+
+La GGT es el indicador más sensible de colestasis. Se eleva por colestasis, fármacos, alcohol o tumores, y es útil también para seguir la evolución de un tumor hepático. Memoriza el emparejamiento: fosfatasa alcalina sola, no concluyente; fosfatasa alcalina más GGT elevada, origen hepático confirmado.
+
+La albúmina, aquí, no mide colestasis ni daño celular, sino capacidad de síntesis. Es la proteína mayoritaria del hígado, con una vida media larga, entre quince y veinte días. Esa vida media explica por qué la hipoalbuminemia aparece sobre todo en la hepatopatía crónica avanzada, y solo raramente en la lesión aguda: hace falta mucho tiempo de fallo de síntesis mantenido para que baje de forma visible; un fallo agudo, por grave que sea, no ha tenido tiempo todavía de vaciar el depósito.
+
+Otras proteínas de apoyo diagnóstico: el tiempo de protrombina, que depende de factores de coagulación hepáticos, las globulinas, la ceruloplasmina, transportadora de cobre, la alfa-fetoproteína, marcador tumoral, y la alfa uno antitripsina.
+
+Con esto en la cabeza, vamos a las enfermedades del hígado, agudas si duran menos de seis meses, crónicas si superan los seis meses.
+
+La aguda tiene tres causas: tóxicos, como el paracetamol, el valproato, las setas o el halotano; infecciones, sobre todo hepatitis A, B y C, también citomegalovirus, el virus de Epstein-Barr, o el virus Coxsackie, que se pronuncia cocsaki; y perfusión inadecuada, la hepatitis isquémica. Evoluciona de tres formas: se cura, se cronifica, o desemboca en insuficiencia hepática aguda, una urgencia médica real, porque ninguna otra víscera sustituye de golpe sus funciones. En fase aguda pueden aparecer descenso de sodio y calcio, alteración del equilibrio ácido-base, hipoglucemia, insuficiencia renal secundaria a tóxicos no depurados con subida de amonio por fallo del ciclo de la urea, hipoalbuminemia con edema o ascitis, y descenso de los factores de coagulación.
+
+La crónica tiene otras causas: el alcohol, la hepatitis vírica B, y las enfermedades autoinmunes. No hay marcador precoz: se mantiene silenciosa o avanza a cirrosis, irreversible, con retracción, desestructuración y fibrosis. En fase tardía aparecen ictericia, encefalopatía por amonio, sangrado, ascitis, mala digestión de las grasas, menor metabolización de fármacos, y peor respuesta inmune.
+
+Trampa que cae bastante: un hígado cirrótico indica enfermedad hepática crónica, no insuficiencia renal. Una insuficiencia hepática aguda muy grave sí puede dañar el riñón en segundo plano, por acumulación de tóxicos, pero eso es una complicación, no que la cirrosis afecte directamente al riñón. No mezcles los dos órganos en esta pregunta.
+
+Vamos con la recuperación activa.
+
+Pregunta: un paciente presenta un cociente AST entre ALT superior a dos. ¿Qué causa es la más probable?
+
+[PAUSA 3s]
+
+Respuesta: en el ochenta por ciento de los casos, hepatitis alcohólica. Si has dudado con la hepatitis vírica aguda: esa se caracteriza por un cociente por debajo de uno, el patrón contrario.
+
+Pregunta: a un paciente le sale la fosfatasa alcalina elevada, pero la gamma glutamil transferasa está normal. ¿Se puede confirmar que el origen es hepático?
+
+[PAUSA 3s]
+
+Respuesta: no. Sin que la GGT acompañe la subida, no se confirma origen hepático, porque la fosfatasa alcalina también está en el hueso, el intestino, la placenta y el riñón. Si has dudado pensando que siempre indica hígado: en niños en crecimiento se eleva por el hueso, sin ninguna enfermedad detrás.
+
+Pregunta: de estas cuatro situaciones, hemólisis, fallo en la conjugación hepática, obstrucción de la vía biliar, y aumento de la síntesis de albúmina, ¿cuál NO eleva la bilirrubina?
+
+[PAUSA 3s]
+
+Respuesta: el aumento de la síntesis de albúmina. Las otras tres sí la elevan, cada una por un mecanismo distinto. Si has dudado con la hemólisis: aunque parezca un problema de glóbulos rojos, sí eleva la bilirrubina, porque satura la capacidad de conjugación del hígado.
+
+Pregunta: ¿por qué la hipoalbuminemia aparece casi siempre en la hepatopatía crónica y muy raramente en una lesión hepática aguda?
+
+[PAUSA 3s]
+
+Respuesta: porque la albúmina tiene una vida media larga, entre quince y veinte días, y hace falta mucho tiempo de fallo de síntesis mantenido para que baje de forma detectable. Si has dudado pensando en un fallo agudo de síntesis: la síntesis puede caer, pero el efecto tarda semanas en notarse, precisamente por esa vida media larga.
+
+Pregunta: te dicen que un paciente tiene un hígado cirrótico, con retracción y fibrosis. ¿Qué tipo de enfermedad indica esto?
+
+[PAUSA 3s]
+
+Respuesta: enfermedad hepática crónica avanzada. Si has dudado y has pensado en insuficiencia renal: es un error muy típico de examen; la cirrosis es cosa del hígado, no del riñón, aunque una insuficiencia hepática aguda grave sí pueda dañarlo en segundo plano, por acumulación de tóxicos.
+
+Tres ideas para cerrar. Primera: las magnitudes hepáticas miden lesión, su tipo y su extensión, no función; el cociente AST entre ALT es lo más repetido en examen, con la regla menor que uno agudo, mayor que uno crónico, mayor que dos alcohol. Segunda: la fosfatasa alcalina sola nunca confirma origen hepático, necesita ir acompañada de la GGT, porque también viene del hueso. Tercera: la enfermedad hepática es aguda si dura menos de seis meses y crónica si dura más, y solo la crónica evoluciona hacia la cirrosis irreversible, que es cosa del hígado, no del riñón.

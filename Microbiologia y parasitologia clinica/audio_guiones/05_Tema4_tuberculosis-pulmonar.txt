@@ -1,0 +1,45 @@
+Una cuarta parte de la población mundial tiene tuberculosis latente ahora mismo, y ni lo sabe ni contagia a nadie. Ese dato, por sí solo, ya dice mucho sobre el bicho del que habla esta pista: Mycobacterium tuberculosis, el bacilo de Koch, un microorganismo tan lento y tan bien escondido que puede vivir años dentro de una persona sin que pase nada, hasta que las defensas bajan la guardia. Este es un tema corto, pero con una proporción de preguntas repetidas altísima, así que merece la pena ir despacio.
+
+El bacilo de Koch pertenece a un grupo de especies emparentadas, el complejo Mycobacterium tuberculosis, que incluye también a Mycobacterium bovis. Se transmite de persona a persona por vía aérea, y bastan muy pocos bacilos inhalados para infectarse. El riesgo de enfermar a lo largo de la vida, una vez infectado, es de entre un cinco y un quince por ciento, mucho mayor en personas inmunodeprimidas. La localización pulmonar es, con diferencia, la más frecuente, representando alrededor del ochenta por ciento de los casos; el veinte por ciento restante son formas extrapulmonares, casi siempre ligadas a inmunodepresión, que pueden afectar al sistema nervioso central, al sistema linfático, al aparato genitourinario, a los huesos o a la piel.
+
+La patogenia de este bicho es peculiar, y ahí está su gran factor de virulencia. Los bacilos inhalados son fagocitados por los macrófagos alveolares, y en vez de morir ahí dentro, como pasaría con la mayoría de bacterias, Mycobacterium tuberculosis es capaz de sobrevivir e incluso multiplicarse dentro del macrófago que lo ha capturado. El organismo responde formando un granuloma, una estructura que aísla al patógeno cuando no consigue eliminarlo del todo. Dentro de ese granuloma, la micobacteria puede quedarse viva en estado latente durante años, y si el paciente sufre después una inmunodepresión, puede reactivarse y volver a multiplicarse. Parte de esos macrófagos infectados escapan a la circulación sanguínea, lo que explica que la infección pueda acabar asentando en cualquier órgano del cuerpo. La clave de todo este comportamiento es la lentitud: mientras una bacteria como Escherichia coli se divide cada veinte minutos, Mycobacterium tuberculosis tarda unas cinco horas en dividirse una sola vez. Esa lentitud explica tanto la latencia de años como que el cultivo en el laboratorio tarde semanas en dar resultado.
+
+Vamos con el diagnóstico, que es donde más se pregunta. La muestra de elección es el esputo, y aquí hay un dato que se repite mucho: se recomiendan tres muestras consecutivas, de días distintos, no una sola. El motivo es que a nivel pulmonar suele haber muy pocos bacilos, y una única muestra puede no contenerlos, dando un falso negativo. Todo el manejo de estas muestras exige un laboratorio de nivel tres de bioseguridad, precisamente porque la transmisión es aérea.
+
+Antes de teñir, el esputo se descontamina con hidróxido de sodio y después se neutraliza; ese paso elimina la flora acompañante, mucho más sensible a la sosa que la propia micobacteria, que sobrevive gracias a su pared blindada. La tinción clásica es la de Ziehl-Neelsen, la misma que ya conoces de otros temas: se aplica fucsina fenicada con calor, que consigue atravesar los ácidos micólicos de la pared; se decolora con alcohol y ácido, y aquí está la clave de toda la técnica, la micobacteria resiste esa decoloración gracias a esos mismos ácidos micólicos y se queda roja, mientras el resto de bacterias pierde el color; por eso se llaman bacilos ácido-alcohol resistentes. Se contrasta con azul de metileno, y el resultado que se busca es un bacilo rojo sobre fondo azul.
+
+Hay una variante con mayor sensibilidad: la tinción con fluorocromos, auramina-rodamina, que se basa en la afinidad de esos mismos ácidos micólicos por estos colorantes fluorescentes. Es más sensible que el Ziehl-Neelsen, porque al microscopio de fluorescencia es mucho más fácil detectar un punto amarillo brillante sobre fondo negro que un bacilo rojo sobre fondo azul, aunque el fundamento de fondo, la resistencia de la pared a la decoloración, sea exactamente el mismo en ambas técnicas.
+
+Y aquí va la trampa más repetida de todo el tema, así que la digo de dos formas distintas para que se quede fija: un Ziehl-Neelsen negativo no descarta tuberculosis. Es una técnica de sensibilidad limitada, porque a veces hay muy pocos bacilos en la muestra para poder verlos al microscopio. Dicho de otra manera: que no se vean bacilos ácido-alcohol resistentes en un esputo no significa que el paciente esté libre de tuberculosis, solo significa que en esa muestra concreta no había suficiente cantidad para detectarlos con el microscopio. Por eso el cultivo se hace siempre, independientemente de lo que haya dado la microscopía, porque es mucho más sensible y puede detectar hasta diez bacilos por mililitro.
+
+El medio de cultivo de referencia es el Löwenstein-Jensen, un medio sólido en tubo, no en placa, precisamente porque el agua de una placa se evaporaría antes de que la micobacteria, tan lenta, llegara a crecer. Permite el crecimiento tanto de Mycobacterium tuberculosis como de Mycobacterium bovis, las dos especies principales del complejo. Hay que incubarlo un mínimo de seis semanas, aunque el crecimiento ya puede verse a las tres o cuatro. Frente a esto existen sistemas rápidos de cultivo líquido, con sensores fluorescentes que detectan la desaparición del oxígeno del medio por el consumo metabólico de la bacteria; con ellos, el crecimiento se detecta en una o dos semanas, mucho antes que con el medio sólido clásico.
+
+Por último está la prueba de la tuberculina, conocida como Mantoux o PPD: se inyecta por vía intradérmica una pequeña cantidad de derivado proteico purificado, y se lee la aparición de una pápula a las veinticuatro, cuarenta y ocho y setenta y dos horas. Este es otro de los datos más repetidos del tema, así que también lo digo dos veces: el Mantoux no es una prueba diagnóstica de enfermedad activa, solo indica que la persona ha tenido contacto con el bacilo en algún momento de su vida, quizá hace muchos años, y que puede tener una infección latente controlada. Dicho de otra forma, un Mantoux positivo confirma exposición pasada, no enfermedad presente; para eso hacen falta otras pruebas, como la radiografía o el cultivo. Su utilidad real está en el estudio de convivientes y en el control del personal sanitario y de laboratorio. Y ten en cuenta que la vacuna BCG también positiviza el Mantoux, así que un resultado positivo en alguien vacunado no dice gran cosa por sí solo.
+
+Vamos con el repaso activo.
+
+Pregunta: ¿por qué la tinción de Ziehl-Neelsen consigue mostrar a Mycobacterium tuberculosis cuando la tinción de Gram no puede?
+
+[PAUSA 3s]
+
+Respuesta: porque sus ácidos micólicos, que en el Gram actúan como escudo impidiendo la entrada de los colorantes, en el Ziehl-Neelsen hacen justo lo contrario: retienen la fucsina fenicada aplicada con calor y resisten la decoloración con alcohol-ácido, así que la micobacteria se queda roja mientras el resto de bacterias pierde el color. Por eso se llaman bacilos ácido-alcohol resistentes.
+
+Pregunta: ¿qué ventaja tiene la tinción con fluorocromos, auramina-rodamina, frente al Ziehl-Neelsen clásico?
+
+[PAUSA 3s]
+
+Respuesta: que es más sensible, porque resulta más fácil detectar un punto amarillo brillante sobre fondo negro al microscopio de fluorescencia que un bacilo rojo sobre fondo azul al microscopio óptico normal. El fundamento es el mismo en ambas, la afinidad de los ácidos micólicos por el colorante, lo que cambia es la facilidad de detectar la señal.
+
+Pregunta: ¿qué micobacterias crecen en el medio de Löwenstein-Jensen?
+
+[PAUSA 3s]
+
+Respuesta: Mycobacterium tuberculosis y también Mycobacterium bovis, las dos especies principales del complejo Mycobacterium tuberculosis. Si dudabas pensando que era un medio exclusivo de una sola especie, no es así: cualquier micobacteria del complejo puede crecer ahí, con una incubación mínima de seis semanas.
+
+Pregunta: si a un paciente le sale positiva la prueba de Mantoux, ¿significa que tiene tuberculosis activa en este momento?
+
+[PAUSA 3s]
+
+Respuesta: no. Solo significa que en algún momento de su vida ha tenido contacto con el bacilo, lo que puede corresponder a una infección latente de hace años, controlada por su sistema inmune, o incluso a la vacuna BCG. Para diagnosticar enfermedad activa hacen falta otras pruebas, como la radiografía, la clínica o el cultivo.
+
+Tres ideas para cerrar. Primero: Mycobacterium tuberculosis sobrevive y se multiplica dentro del macrófago que debería destruirlo, y su crecimiento tan lento explica tanto la latencia de años dentro del granuloma como la lentitud del cultivo en el laboratorio. Segundo: un Ziehl-Neelsen negativo nunca descarta tuberculosis, por eso el cultivo se hace siempre, y la tinción con auramina-rodamina existe precisamente para ganar sensibilidad frente al Ziehl-Neelsen clásico. Y tercero: el Mantoux indica contacto previo con el bacilo, nunca enfermedad activa, y tanto la infección natural antigua como la vacuna BCG pueden dar un resultado positivo.

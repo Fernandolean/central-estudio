@@ -1,0 +1,47 @@
+Una neumonía es una infección del parénquima pulmonar, pero esa definición tan simple esconde una pregunta que lo cambia todo: ¿es una neumonía típica o atípica? De la respuesta depende el agente que sospechas, la prueba que pides y hasta el aspecto de la radiografía. Esa distinción es el eje de todo este tema, así que vamos a construirla bien desde el principio.
+
+La neumonía típica está producida, sobre todo, por Streptococcus pneumoniae, un diplococo Gram positivo, más frecuente en menores de dos años y en mayores de sesenta y cinco. El cuadro es brusco: fiebre alta, tos productiva con un esputo de color óxido, el llamado esputo herrumbroso, dolor en el costado que aumenta al respirar, y escalofríos, que son un signo de que la bacteria ha pasado a la sangre. En la radiografía se ve una condensación de un único lóbulo pulmonar, es decir, afectación unilateral: un solo disparo, bien localizado.
+
+La neumonía atípica es harina de otro costal, y la producen sobre todo tres agentes: Mycoplasma pneumoniae, responsable de hasta un tercio de las neumonías de la comunidad en adultos jóvenes; Chlamydophila pneumoniae; y Coxiella burnetii, la fiebre Q, una zoonosis. El cuadro es más leve, con fiebre poco elevada, tos seca no productiva, y con frecuencia síntomas que no son propiamente respiratorios: dolor de cabeza, vómitos, diarrea. En la radiografía, en lugar de un único lóbulo condensado, aparecen infiltrados bilaterales, en los dos pulmones a la vez. Y hay un motivo estructural detrás de todo esto: estos tres agentes no se ven con la tinción de Gram y no crecen en los medios de cultivo tradicionales, así que su diagnóstico se hace por PCR. Este es un dato que se repite mucho, así que quédatelo con esta otra formulación: si el examen te describe una radiografía con infiltrados en ambos pulmones y un cultivo de esputo en el que solo ha crecido flora normal, no está describiendo un fallo de la técnica, está describiendo justo la firma de una neumonía atípica, casi siempre por Mycoplasma, porque ese germen concreto no puede crecer ahí aunque esté presente.
+
+El agente más probable también cambia con la edad: en niños dominan los virus respiratorios, sobre todo el respiratorio sincitial y el de la gripe, y después el neumococo; en adultos jóvenes y sanos manda Mycoplasma; en ancianos vuelven a ganar peso el virus de la gripe y el neumococo.
+
+Legionella pneumophila merece un apartado propio, porque no encaja del todo ni en típica ni en atípica: mezcla la gravedad de la primera con síntomas parecidos a los de la segunda, como dolor abdominal y diarrea. Se adquiere inhalando aerosoles contaminados de un reservorio de agua, típicamente aires acondicionados o torres de refrigeración, y por eso aparece casi siempre en forma de brotes, afectando sobre todo a personas mayores con patología pulmonar crónica de base. La prueba estrella para su diagnóstico es la detección de antígeno de Legionella en orina por inmunocromatografía, rápida y muy usada en la práctica. Y aquí va un contraste importante: Legionella no crece en el agar sangre habitual, necesita un medio especial llamado BCYE; si una pregunta dice que se cultiva en agar sangre convencional, es falsa.
+
+Otro cuadro con un agente muy característico es la neumonía por aspiración, que ocurre cuando un paciente con bajo nivel de consciencia deja pasar contenido de la orofaringe o del estómago hacia el pulmón. La flora resultante suele ser mixta, con bacterias aerobias y anaerobias a la vez, pero si el examen pregunta por un único agente típico de este cuadro, la respuesta casi siempre es Klebsiella pneumoniae, a menudo acompañada de Escherichia coli. Es un dato que conviene fijar bien porque los distractores habituales son Legionella, Mycoplasma o Mycobacterium tuberculosis, que no tienen nada que ver con la aspiración.
+
+En pacientes con factores predisponentes el patrón también cambia. En la enfermedad pulmonar obstructiva crónica, en las bronquiectasias o en la fibrosis quística, los agentes iniciales son los mismos de siempre, neumococo, Haemophilus influenzae y Staphylococcus aureus, pero con el tiempo y las reagudizaciones repetidas gana protagonismo Pseudomonas aeruginosa, junto con otros bacilos Gram negativos no fermentadores. En pacientes intubados en una unidad de cuidados intensivos ocurre algo parecido: al principio predominan Haemophilus influenzae y Staphylococcus aureus, y con una ventilación mecánica prolongada aparecen enterobacterias como Escherichia coli y Klebsiella pneumoniae, además de Pseudomonas.
+
+Sobre el diagnóstico, hay un criterio de calidad del esputo que se pregunta con frecuencia: para que una muestra de esputo se considere representativa del tracto respiratorio inferior, y no simple saliva contaminada por la boca, debe tener menos de diez células epiteliales y más de veinticinco leucocitos por campo, a cien aumentos. Muchas células epiteliales indican contaminación al pasar por la orofaringe; muchos leucocitos indican que la muestra viene de verdad de un proceso inflamatorio pulmonar, que es justo lo que interesa.
+
+En cuanto a los medios de cultivo, el agar sangre es rico y permite diferenciar bacterias por su tipo de hemólisis. El agar chocolate lleva los glóbulos rojos ya rotos, lo que libera los factores V y X que necesita Haemophilus influenzae para crecer; por eso Haemophilus crece en chocolate pero no en agar sangre, donde esos factores siguen atrapados dentro de los eritrocitos intactos. El agar McConkey es selectivo de bacterias Gram negativas y diferencia según fermenten o no la lactosa: Klebsiella pneumoniae, protagonista de la aspiración, fermenta la lactosa y da colonias rosas; Pseudomonas aeruginosa no la fermenta.
+
+Y para terminar de diferenciar neumococo de sus primos, hay una prueba clásica que aparece mucho: el disco de optoquina. Streptococcus pneumoniae y los estreptococos del grupo viridans son ambos alfa-hemolíticos en agar sangre, con un halo verdoso, así que a simple vista se parecen. La optoquina los separa: el neumococo es sensible, se inhibe alrededor del disco, y los viridans son resistentes, siguen creciendo igual. Si el examen pregunta por esta diferenciación y aparece la bacitracina como opción, recuerda que esa prueba es para otra cosa completamente distinta, para diferenciar Streptococcus pyogenes de otros estreptococos beta-hemolíticos, no para separar neumococo de viridans.
+
+Toca el repaso activo.
+
+Pregunta: en la radiografía de un paciente con sospecha de neumonía aparecen infiltrados bilaterales, y en el cultivo convencional del esputo solo crece flora normal. ¿Qué tipo de neumonía es la más probable?
+
+[PAUSA 3s]
+
+Respuesta: una neumonía atípica, probablemente por Mycoplasma pneumoniae. Si dudabas pensando en neumococo o Haemophilus, esos dos son agentes de neumonía típica y sí crecen en los medios de cultivo habituales, así que no encajan con un cultivo negativo; los agentes atípicos, en cambio, ni se ven al Gram ni crecen en medios convencionales, por eso hace falta PCR para confirmarlos.
+
+Pregunta: ¿qué bacteria se aísla con más frecuencia en una neumonía por aspiración?
+
+[PAUSA 3s]
+
+Respuesta: Klebsiella pneumoniae, muchas veces junto con Escherichia coli, por el paso de contenido orofaríngeo o gástrico al pulmón en pacientes con bajo nivel de consciencia. Si dudabas con Legionella, Mycoplasma o Mycobacterium tuberculosis, ninguno de los tres tiene relación con el mecanismo de aspiración: cada uno se asocia a una vía de adquisición completamente distinta.
+
+Pregunta: ¿qué características debe tener un esputo para considerarse una muestra de calidad, representativa del pulmón y no de la boca?
+
+[PAUSA 3s]
+
+Respuesta: menos de diez células epiteliales por campo, porque muchas indicarían contaminación al pasar por la orofaringe, y más de veinticinco leucocitos por campo, porque su presencia confirma que la muestra procede de verdad de un proceso inflamatorio pulmonar. Si pensabas que muchos leucocitos eran señal de mala muestra, es justo lo contrario: ahí sí queremos verlos en abundancia.
+
+Pregunta: Streptococcus pneumoniae y los estreptococos del grupo viridans son ambos alfa-hemolíticos en agar sangre. ¿Con qué prueba se diferencian?
+
+[PAUSA 3s]
+
+Respuesta: con el disco de optoquina, al que el neumococo es sensible y los viridans son resistentes. Si dudabas con la bacitracina, esa prueba se usa para otra diferenciación distinta, la de Streptococcus pyogenes frente a otros estreptococos beta-hemolíticos, no sirve para separar neumococo de viridans.
+
+Tres ideas para llevarte de esta pista. Primero: la neumonía típica, casi siempre por neumococo, da condensación unilateral y fiebre alta de inicio brusco; la atípica, por Mycoplasma, Chlamydophila o Coxiella, da infiltrados bilaterales, un cuadro más leve, y un cultivo convencional negativo porque esos agentes no crecen ahí. Segundo: cada contexto clínico tiene su agente característico que conviene memorizar como pareja fija, Klebsiella con la aspiración, Legionella con el agua contaminada y la antigenuria, Pseudomonas con la ventilación mecánica prolongada y la enfermedad pulmonar crónica. Y tercero: un esputo de calidad tiene pocas células epiteliales y muchos leucocitos, y el disco de optoquina, no el de bacitracina, es el que separa al neumococo de los estreptococos viridans cuando ambos son alfa-hemolíticos.

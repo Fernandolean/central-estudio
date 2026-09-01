@@ -1,0 +1,81 @@
+Si te preguntan en el examen quién dijo que lo similar cura lo similar, no dudes ni medio segundo. Esta es la confusión más repetida de todo el bloque de historia de la farmacia, y aparece prácticamente en cada convocatoria, casi siempre emparejada con otro personaje que dice justo lo contrario. Vamos a dejar esa pareja bien fijada, y de paso repasamos los periodos y los demás nombres propios que te puede pedir el examen.
+
+Empecemos por los grandes periodos en los que se divide la historia de la farmacia, porque te van a preguntar por ellos para situar una fecha o un personaje dentro de su etapa correcta.
+
+El periodo pretecnológico es el más antiguo de todos: el farmacéutico elabora personalmente cada preparado, sin ningún proceso industrial estandarizado detrás.
+
+El periodo empírico es anterior al método científico moderno: la terapéutica se basa en la experiencia y en la observación, no en la experimentación controlada. Dentro de este periodo empírico se distinguen varias etapas más pequeñas, que van desde lo puramente instintivo hasta un subperiodo ya más racional, basado en la prueba y el error, incluyendo la observación de animales enfermos como referencia. No hace falta que memorices el nombre de cada una de esas subetapas, pero sí que sepas que existen, porque el examen a veces pregunta directamente a qué periodo grande pertenece ese subperiodo experimental: pertenece al periodo empírico, no al tecnológico ni al biofarmacéutico.
+
+El periodo tecnológico abarca, más o menos, desde principios del siglo veinte hasta mil novecientos sesenta. Aquí es donde se tecnifica de verdad la fabricación de medicamentos, con procesos de síntesis química a escala industrial.
+
+El periodo biofarmacéutico llega justo después, y trae algo nuevo: empieza a estudiarse cómo la propia formulación condiciona la absorción y el efecto del fármaco en el organismo. Este periodo conecta directamente con lo que vas a estudiar en el tema siguiente, el de preformulación y biofarmacia.
+
+Y el periodo biotecnológico es el actual, el que vivimos ahora mismo: la ingeniería genética y la biotecnología como fuente de nuevos principios activos.
+
+Ahora los personajes, que es donde se concentran casi todas las preguntas de este bloque.
+
+Empédocles es el de la teoría de los cuatro elementos: fuego, aire, tierra y agua. Solo esos cuatro. Si en una opción de examen aparece "animales" como uno de los cuatro elementos, es la trampa típica de esta pregunta, y es falsa seguro.
+
+Hipócrates se enfrenta a la medicina mágico-religiosa anterior a él, y establece un principio que seguramente ya conoces de otro contexto: "primum non nocere", lo primero, no hacer daño. Para Hipócrates, la salud es el orden natural del cuerpo, lo que él llama la Physis, y la enfermedad es precisamente el desorden de ese equilibrio.
+
+Dioscórides es el autor del tratado "De Materia Médica", un texto clásico de botánica y farmacia que describe remedios de origen vegetal.
+
+Galeno da nombre, literalmente, a lo que hoy llamamos farmacia galénica. Su sello es la polifarmacia: combinar muchos fármacos de escasa especificidad en una misma preparación, en vez de aislar un único principio activo.
+
+Avicena es la gran figura de la farmacia y la medicina árabe medieval.
+
+Y ahora llegamos al punto que más se pregunta, y donde más gente falla: Hahnemann frente a Paracelso. Van casi siempre emparejados en el examen, en preguntas del tipo "quién dijo qué".
+
+Hahnemann acuñó la frase "similia similibus curentur", que en español significa "lo similar cura lo similar". De ahí nace la homeopatía. Grábate esta imagen: Hahnemann se mira en un espejo, y su reflejo es idéntico a él mismo. Eso es lo similar curando lo similar. Hahnemann, similar, homeopatía.
+
+Paracelso va por otro camino completamente distinto. Fue un alquimista, médico y astrólogo suizo del Renacimiento, de los siglos dieciséis y diecisiete. Introdujo el uso de sustancias inorgánicas y minerales como medicamento, una corriente que se conoce como iatroquímica, y se le asocia el principio contrario al de Hahnemann: "contraria contrariis curantur", lo contrario cura lo contrario, que es el origen histórico de la alopatía. Grábate esta otra imagen: Paracelso apaga un fuego con agua, que es exactamente lo contrario del fuego. Eso es lo contrario curando lo contrario. Paracelso, contrario, alopatía.
+
+Así que, resumiendo el contraste que más se pregunta: Hahnemann va con lo similar y con la homeopatía; Paracelso va con lo contrario y con la alopatía. Si el examen te da una frase en latín y te pregunta de quién es, fíjate solo en una palabra, similar o contrario, y ya sabes automáticamente si están hablando de Hahnemann o de Paracelso. Y no los mezcles con Galeno: la polifarmacia de Galeno es de la Antigüedad clásica, muchos siglos antes que la homeopatía y que la iatroquímica, y no tiene relación directa con ninguna de las dos corrientes.
+
+Y dos personajes más, ya de otra época bastante posterior. Edward Jenner es el padre de la inmunología, y el creador de la primera vacuna, contra la viruela. Y Alexander Fleming es el científico que descubrió la penicilina, el hito que abrió la era de los antibióticos.
+
+Un salto más hacia delante en el tiempo, ya para cerrar el repaso histórico. En los años sesenta del siglo pasado, el uso de la talidomida en mujeres embarazadas provocó graves malformaciones en los bebés, una de las tragedias que marcaron un antes y un después en la historia reciente de la farmacia. De aquel episodio nació la farmacovigilancia, la disciplina encargada de detectar y prevenir reacciones adversas de los medicamentos una vez que ya están comercializados y se usan en la población real. Es un buen ejemplo de que la historia de la farmacia no termina con Fleming ni con Jenner: sigue construyéndose con cada episodio que obliga a mejorar la seguridad de los medicamentos, y conecta directamente con esa garantía de seguridad de la que ya hablamos en el tema de legislación.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿qué frase se atribuye a Hahnemann, y qué corriente terapéutica originó?
+
+[PAUSA 3s]
+
+Respuesta: "similia similibus curentur", lo similar cura lo similar. Da origen a la homeopatía.
+
+Si has dudado pensando en Paracelso: Paracelso va justo por el lado contrario, nunca por el de lo similar. Si la frase habla de similitud, es Hahnemann, sin excepción.
+
+Pregunta: ¿y qué principio se asocia a Paracelso, y a qué corriente da origen?
+
+[PAUSA 3s]
+
+Respuesta: "contraria contrariis curantur", lo contrario cura lo contrario. Es el origen histórico de la alopatía.
+
+Si has dudado con Hipócrates: el principio que se asocia a Hipócrates es "primum non nocere", lo primero, no hacer daño, que es una idea distinta, sobre no perjudicar al paciente, no sobre cómo actúa el remedio frente a la enfermedad.
+
+Pregunta: ¿cuáles son los cuatro elementos de la teoría de Empédocles?
+
+[PAUSA 3s]
+
+Respuesta: fuego, aire, tierra y agua.
+
+Si has dudado incluyendo "animales": es el distractor clásico de esta pregunta. Los animales nunca formaron parte de la teoría de los cuatro elementos.
+
+Pregunta: ¿qué caracteriza la práctica farmacéutica de Galeno?
+
+[PAUSA 3s]
+
+Respuesta: la polifarmacia, es decir, combinar muchos principios activos de escasa especificidad en una misma preparación.
+
+Si has dudado pensando en la homeopatía porque suena a "mezclar cosas parecidas": son ideas opuestas. La homeopatía es de Hahnemann, mucho más tardía, y se basa en un único remedio elegido por similitud, no en combinar muchos productos a la vez como hacía Galeno.
+
+Pregunta: ¿quién descubrió la penicilina, y quién creó la primera vacuna?
+
+[PAUSA 3s]
+
+Respuesta: Alexander Fleming descubrió la penicilina. Edward Jenner creó la primera vacuna, contra la viruela.
+
+Si los has mezclado: piensa en Jenner como el pionero de las vacunas, y en Fleming como el pionero de los antibióticos. Son dos hitos distintos, de dos personas distintas, y en épocas distintas.
+
+Tres ideas para cerrar este tema. Primero: Hahnemann es lo similar y la homeopatía; Paracelso es lo contrario y la alopatía, y esa es la pareja que más cae en el examen de todo este bloque. Segundo: los cuatro elementos de Empédocles son fuego, aire, tierra y agua, nunca animales, y Galeno se identifica con la polifarmacia, no con la homeopatía. Y tercero: Jenner inventó la primera vacuna, contra la viruela, y Fleming descubrió la penicilina; no los intercambies, cada uno pertenece a una revolución médica distinta.

@@ -1,0 +1,1061 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Química Farmacéutica — Guía de estudio</title>
+<style>
+  :root{
+    --bg:#f4f5f7; --panel:#ffffff; --border:#e2e5ea; --text:#22262e; --muted:#6b7280;
+    --accent:#2563eb;
+    --p1:#2563eb; --p1bg:#eaf1ff;
+    --p2:#0f9d6c; --p2bg:#e8f8f0;
+    --p3:#8b3fc9; --p3bg:#f4eaff;
+    --pend:#b8860b; --pendbg:#fdf5e2;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Segoe UI', Arial, sans-serif; line-height:1.5;
+  }
+  header{
+    padding:26px 5vw 16px; border-bottom:1px solid var(--border);
+    position:sticky; top:0; background:rgba(255,255,255,0.96); backdrop-filter:blur(6px); z-index:50;
+  }
+  header h1{margin:0 0 4px; font-size:1.55rem; font-family:Georgia,serif; color:#111827;}
+  header p{margin:0; color:var(--muted); font-size:.9rem;}
+  nav{display:flex; gap:8px; flex-wrap:wrap; margin-top:12px;}
+  nav a{
+    color:var(--text); text-decoration:none; font-size:.83rem; padding:6px 12px;
+    border:1px solid var(--border); border-radius:20px; background:#fff; font-weight:600;
+  }
+  nav a:hover{border-color:var(--accent); color:var(--accent);}
+  .progress-wrap{margin-top:14px; max-width:440px;}
+  .progress-bar{height:8px; background:#e9ebef; border-radius:6px; overflow:hidden;}
+  .progress-fill{height:100%; background:linear-gradient(90deg,var(--p1),var(--p2)); width:0%; transition:width .3s;}
+  .progress-label{font-size:.78rem; color:var(--muted); margin-top:4px;}
+
+  main{padding:10px 5vw 60px;}
+  section.parcial{margin-top:34px;}
+  .parcial-title{
+    display:flex; align-items:baseline; gap:12px; margin-bottom:4px;
+    font-family:Georgia,serif; font-size:1.4rem; color:#111827;
+  }
+  .parcial-title .badge{font-size:.72rem; font-family:'Segoe UI',sans-serif; padding:4px 12px; border-radius:12px; font-weight:700;}
+  .parcial-sub{color:var(--muted); font-size:.88rem; margin:0 0 18px; max-width:900px;}
+
+  .tema-group{margin-bottom:24px;}
+  .tema-heading{
+    font-size:.98rem; font-weight:700; color:#374151; margin:0 0 12px;
+    padding:6px 0 6px 12px; border-left:4px solid var(--border);
+  }
+
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(380px,1fr)); gap:18px;}
+  .card{
+    background:var(--panel); border:1px solid var(--border); border-radius:14px;
+    overflow:hidden; display:flex; flex-direction:column;
+    box-shadow:0 1px 3px rgba(20,20,40,0.06);
+    border-top:4px solid var(--card-accent, var(--accent));
+  }
+  .card video{width:100%; display:block; background:#000; max-height:220px;}
+  .card-body{padding:16px 18px 18px;}
+  .card-code{font-size:.72rem; color:var(--muted); letter-spacing:.03em; text-transform:uppercase; font-weight:700;}
+  .card h3{margin:3px 0 8px; font-size:1.05rem; color:#111827;}
+  .card p.desc{margin:0 0 12px; font-size:.87rem; color:#4b5563;}
+
+  .keywords{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 12px;}
+  .kw{
+    font-size:.72rem; font-weight:600; padding:3px 9px; border-radius:10px;
+    background:var(--kw-bg, #eef2ff); color:var(--kw-fg, #3730a3);
+  }
+
+  details.idx{margin:0 0 12px; border:1px solid var(--border); border-radius:8px; background:#fafbfc;}
+  details.idx summary{
+    padding:8px 12px; cursor:pointer; font-size:.83rem; font-weight:700; color:#374151;
+    list-style:none; display:flex; align-items:center; gap:6px;
+  }
+  details.idx summary::-webkit-details-marker{display:none;}
+  details.idx summary::before{content:"▸"; font-size:.7rem; color:var(--muted);}
+  details.idx[open] summary::before{content:"▾";}
+  .idx-list{padding:0 12px 10px; margin:0;}
+  .idx-item{
+    display:flex; gap:8px; align-items:baseline; padding:4px 0; font-size:.8rem;
+    border-top:1px dashed #e9ebef;
+  }
+  .idx-item:first-child{border-top:none;}
+  .idx-time{
+    font-variant-numeric:tabular-nums; color:#fff; background:var(--accent);
+    border-radius:5px; padding:1px 6px; font-size:.72rem; font-weight:700; flex:none;
+    cursor:pointer; border:none;
+  }
+  .idx-time:hover{opacity:.85;}
+  .idx-title{color:#374151;}
+  .idx-approx{font-size:.68rem; color:var(--muted); padding:6px 12px 2px; font-style:italic;}
+
+  .card-actions{display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+  .btn{
+    font-size:.83rem; text-decoration:none; padding:8px 14px; border-radius:8px;
+    border:1px solid var(--border); color:#1f2937; background:#f3f4f6; font-weight:600;
+  }
+  .btn:hover{border-color:var(--accent); color:var(--accent); background:#fff;}
+  label.check{display:flex; align-items:center; gap:6px; font-size:.82rem; color:var(--muted); cursor:pointer; user-select:none;}
+  label.check input{width:16px; height:16px; accent-color:var(--p2);}
+  .card.done{opacity:.6;}
+  .card.done h3{text-decoration:line-through;}
+
+  .novideo-note{
+    font-size:.78rem; color:#8a6200; background:#fdf5e2; border:1px solid #f0dca0;
+    border-radius:6px; padding:8px 10px; margin-bottom:12px;
+  }
+
+  section.pendientes{margin-top:44px; padding-top:24px; border-top:1px dashed var(--border);}
+  .pend-list{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:10px; margin-top:14px;}
+  .pend-item{
+    background:var(--pendbg); border:1px solid #f0dca0; border-radius:10px; padding:10px 14px;
+    font-size:.85rem; display:flex; justify-content:space-between; gap:10px; align-items:center;
+  }
+  .pend-item .dur{color:var(--pend); font-size:.78rem;}
+  .pend-item a{color:var(--text); font-weight:600;}
+
+  footer{padding:30px 5vw 50px; color:var(--muted); font-size:.8rem; border-top:1px solid var(--border); margin-top:40px;}
+  footer a{color:var(--accent);}
+  code{background:#eef0f3; padding:1px 5px; border-radius:4px; font-size:.85em;}
+
+  @media (max-width:600px){
+    header{padding:18px 4vw 12px;}
+    main{padding:10px 4vw 50px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Química Farmacéutica — Guía de estudio</h1>
+  <p>27 clases clasificadas por parcial y tema, según el cronograma oficial del programa de la asignatura. Cada vídeo tiene un índice de contenidos con salto directo (minutos estimados a partir del texto). Actualizado el 04/08/2026.</p>
+  <nav>
+    <a href="#parcial1">Parcial 1 · Tema 0-4</a>
+    <a href="#parcial2">Parcial 2 · Tema 5-7(I)</a>
+    <a href="#parcial34">Parcial 3-4 · Tema 7(II)-11</a>
+    <a href="#pendientes">Sin vídeo</a>
+  </nav>
+  <div class="progress-wrap">
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-label" id="progressLabel">0 / 27 clases estudiadas</div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ==================== PARCIAL 1 (Tema 0-4, hasta Primer Examen Eliminatorio) ==================== -->
+  <section class="parcial" id="parcial1">
+    <div class="parcial-title"><span>Parcial 1</span><span class="badge" style="background:var(--p1bg);color:var(--p1);">Tema 0-4 — Introducción, ácido/base, LAD, farmacodinamia</span></div>
+    <p class="parcial-sub">Según el cronograma oficial, el Primer Examen Eliminatorio se sitúa justo después del Tema 4 (Grupo Farmacóforo), no antes. Repaso de orgánica, nomenclatura, especiación de fármacos, el proceso completo Liberación–Absorción–Distribución y el reconocimiento molecular fármaco-diana.</p>
+
+    <div class="tema-group">
+      <div class="tema-heading">Tema 0-1-2 — Introducción, repaso de orgánica, nomenclatura</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF01a" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF01a" src="QF01a_Tema1-2-3_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF01a · Tema 0-1-2-3 · Teoría</div>
+            <h3>Introducción: fármaco vs medicamento, DCI, repaso de orgánica</h3>
+            <div class="keywords">
+              <span class="kw">fármaco vs medicamento</span><span class="kw">DCI</span><span class="kw">serendipia</span>
+              <span class="kw">pKa</span><span class="kw">resonancia</span><span class="kw">efecto inductivo</span>
+            </div>
+            <p class="desc">Vídeo mal nombrado originalmente como "TEMA3Y4.mp4" — corregido. Cubre Tema 1 (descubrimiento), Tema 2 (nomenclatura, DCI) y arranca Tema 0 (repaso de orgánica) antes de entrar en Tema 3.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (17 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados a partir del texto — aproximados, no exactos</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',134)">02:14</button><span class="idx-title">Repaso de química orgánica antes del tema tres</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',256)">04:16</button><span class="idx-title">El tema tres: peso en el examen</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',376)">06:16</button><span class="idx-title">El proceso LADME</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',463)">07:43</button><span class="idx-title">Grupos orgánicos: hay que conocerlos todos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',554)">09:14</button><span class="idx-title">El hidrógeno más ácido y la base conjugada</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',649)">10:49</button><span class="idx-title">pH fisiológico y los distintos pH del organismo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',970)">16:10</button><span class="idx-title">Primera misión: grupos funcionales y sus pKa</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',1020)">17:00</button><span class="idx-title">Acidez: azufre, oxígeno, carbono, nitrógeno, fósforo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',1149)">19:09</button><span class="idx-title">El pKa: definición</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',1351)">22:31</button><span class="idx-title">Factores de acidez: número atómico y electronegatividad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',1561)">26:01</button><span class="idx-title">Formas resonantes</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',1737)">28:57</button><span class="idx-title">Movimientos de resonancia permitidos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',1958)">32:38</button><span class="idx-title">Efecto −R y efecto +R</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',2178)">36:18</button><span class="idx-title">Ejemplo: ácido carboxílico frente a alcohol</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',2249)">37:29</button><span class="idx-title">El efecto inductivo cuando todo lo demás es igual</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',2541)">42:21</button><span class="idx-title">De cara a prácticas: especiación de fármacos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF01a',2633)">43:53</button><span class="idx-title">Cierre: la tabla de pKa para el miércoles</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF01a_Tema1-2-3_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF01a"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="tema-group">
+      <div class="tema-heading">Tema 3 — Seminarios de clasificación ácido/base y especiación</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF_03" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_03" src="QF_03_Tema3_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_03 · Tema 3 · Seminario</div>
+            <h3>Especiación: arilamina + sulfonamida</h3>
+            <div class="keywords">
+              <span class="kw">especiación</span><span class="kw">arilamina</span><span class="kw">sulfonamida</span>
+              <span class="kw">pKa 2,17 / 5,80</span><span class="kw">predominio</span>
+            </div>
+            <p class="desc">Ejemplo completo de clasificación de grupos funcionales y curva de predominio de especies.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (10 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',22)">00:22</button><span class="idx-title">Introducción a la especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',615)">10:15</button><span class="idx-title">Identificación de los grupos del fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',1447)">24:07</button><span class="idx-title">Un tercer grupo: éter cíclico e imina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',1625)">27:05</button><span class="idx-title">Justificando la bajada de pKa de la arilamina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',1918)">31:58</button><span class="idx-title">La especiación paso a paso</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',2298)">38:18</button><span class="idx-title">Nomenclatura de las especies</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',2515)">41:55</button><span class="idx-title">Intervalo de predominio (regla del ±2)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',2904)">48:24</button><span class="idx-title">Relación con absorción/eliminación (adelanto LADME)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',3193)">53:13</button><span class="idx-title">Límites de existencia de cada especie</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_03',3336)">55:36</button><span class="idx-title">Vuelta al fármaco real: pKa 2,17 y 5,8</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_03_Tema3_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_03"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_04" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_04" src="QF_04_Tema3_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_04 · Tema 3 · Seminario</div>
+            <h3>Ácido carboxílico y fenol en un fármaco</h3>
+            <div class="keywords">
+              <span class="kw">ácido/base</span><span class="kw">alquilaminas</span><span class="kw">arilamina</span>
+              <span class="kw">amidina</span><span class="kw">guanidina</span>
+            </div>
+            <p class="desc">Asignación ácido/base, justificación de pKa por efectos −I/−R y primera especiación completa.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (11 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',22)">00:22</button><span class="idx-title">Organización del trabajo con la tabla de pKa</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',247)">04:07</button><span class="idx-title">Grupos ácidos: hidrógenos sobre azufre u oxígeno</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',380)">06:20</button><span class="idx-title">El problema de los hidrógenos sobre nitrógeno</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',987)">16:27</button><span class="idx-title">Repaso de pKa de grupos neutros y ácidos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',1069)">17:49</button><span class="idx-title">Grupos básicos: el pKa del ácido conjugado</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',1362)">22:42</button><span class="idx-title">Alquilaminas: primarias, secundarias, terciarias</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',1896)">31:36</button><span class="idx-title">Arilamina vs. amina aromática</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',2315)">38:35</button><span class="idx-title">Aminas aromáticas: hibridación, sin resonancia</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',2799)">46:39</button><span class="idx-title">Iminas</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',2874)">47:54</button><span class="idx-title">Amidina y guanidina: las bases más fuertes</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_04',3273)">54:33</button><span class="idx-title">Resumen para la próxima clase</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_04_Tema3_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_04"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_05" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_05" src="QF_05_Tema3_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_05 · Tema 3 · Seminario</div>
+            <h3>Liberación: clasificación de una amida (pKa 15,2)</h3>
+            <div class="keywords">
+              <span class="kw">LADME</span><span class="kw">liberación</span><span class="kw">disolución</span>
+              <span class="kw">sal</span><span class="kw">absorción</span>
+            </div>
+            <p class="desc">Por qué las amidas y alcoholes se consideran neutros a pH fisiológico salvo excepciones.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (7 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',20)">00:20</button><span class="idx-title">Visión general del proceso LADME (parcial 1)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',788)">13:08</button><span class="idx-title">Identificación de grupos funcionales</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',1365)">22:45</button><span class="idx-title">Contando carbonos y especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',1990)">33:10</button><span class="idx-title">Liberación: disolución a pH de saliva (6,8)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',3200)">53:20</button><span class="idx-title">Consecuencia: necesidad de proponer una sal</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',3860)">64:20</button><span class="idx-title">Absorción</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_05',4613)">76:53</button><span class="idx-title">Recordatorio final</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_05_Tema3_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_05"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_07" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_07" src="QF_07_Tema3-LAD_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_07 · Tema 3 / LAD · Seminario</div>
+            <h3>Transición a LAD: cristaluria y primeros ejercicios</h3>
+            <div class="keywords">
+              <span class="kw">LAD</span><span class="kw">cristaluria</span><span class="kw">barrera hematoencefálica</span>
+              <span class="kw">atrapamiento iónico</span><span class="kw">eliminación</span>
+            </div>
+            <p class="desc">Puente entre la clasificación de grupos funcionales y el proceso de Liberación-Absorción-Distribución.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (10 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',26)">00:26</button><span class="idx-title">Identificación de los grupos funcionales y sus pKa</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',516)">08:36</button><span class="idx-title">Especiación: tabla de dominancia</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',1087)">18:07</button><span class="idx-title">Etapa de liberación: disolución del fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',1744)">29:04</button><span class="idx-title">Formación de una sal para mejorar la liberación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',1915)">31:55</button><span class="idx-title">Absorción: incremento de pH</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',2574)">42:54</button><span class="idx-title">Barrera hematoencefálica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',2807)">46:47</button><span class="idx-title">Atrapamiento iónico</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',3145)">52:25</button><span class="idx-title">Ácidos y bases frente al atrapamiento iónico</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',3394)">56:34</button><span class="idx-title">Eliminación del fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_07',3970)">66:10</button><span class="idx-title">Cristaluria</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_07_Tema3-LAD_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_07"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" style="--card-accent:var(--p1);">
+          <div class="card-body">
+            <div class="card-code">QF02 · Tema 3 · Seminario</div>
+            <h3>Organización del primer parcial y clasificación ácido/base</h3>
+            <div class="keywords"><span class="kw">Tema 3</span><span class="kw">18 de noviembre</span><span class="kw">primer parcial</span></div>
+            <div class="novideo-note">⚠ Sin vídeo confirmado — su copia física probablemente se perdió con los duplicados ya borrados. El contenido está disponible en la guía.</div>
+            <p class="desc">El otro día ya estuvimos con esto: organización del primer parcial (fecha oficial 18 de noviembre) y cómo pedir el fármaco asignado.</p>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF02a_Tema3_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF02"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" style="--card-accent:var(--p1);">
+          <div class="card-body">
+            <div class="card-code">QF06 · Tema 3 · Seminario</div>
+            <h3>Especiación: aril carboxílico y fenol</h3>
+            <div class="keywords"><span class="kw">aril carboxílico</span><span class="kw">fenol</span><span class="kw">especiación</span></div>
+            <div class="novideo-note">⚠ Sin vídeo confirmado — su copia física probablemente se perdió con los duplicados ya borrados. El contenido está disponible en la guía.</div>
+            <p class="desc">Continuación del seminario de clasificación: por qué la repulsión entre cargas negativas próximas puede subir el pKa en vez de bajarlo.</p>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF06_Tema3_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF06"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="tema-group">
+      <div class="tema-heading">LAD — Liberación, Absorción y Distribución (proceso completo)</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF_08" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_08" src="QF_08_LAD_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_08 · LAD · Seminario</div>
+            <h3>Fármaco 172 — LAD completo</h3>
+            <div class="keywords"><span class="kw">tioéter</span><span class="kw">amidina</span><span class="kw">urea</span><span class="kw">tioamida</span></div>
+            <p class="desc">Especiación y desarrollo íntegro de liberación, absorción, barrera hematoencefálica y atrapamiento iónico.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (8 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',62)">01:02</button><span class="idx-title">Grupos funcionales</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',870)">14:30</button><span class="idx-title">Especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',1291)">21:31</button><span class="idx-title">A pH 2 (estómago) y pH 7,4 (sangre)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',1482)">24:42</button><span class="idx-title">Liberación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',1882)">31:22</button><span class="idx-title">Absorción</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',2193)">36:33</button><span class="idx-title">Paso a sangre (incremento de pH)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',2354)">39:14</button><span class="idx-title">Barrera hematoencefálica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_08',2591)">43:11</button><span class="idx-title">Atrapamiento iónico (paso placentario)</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_08_LAD_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_08"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_09" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_09" src="QF_09_LAD_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_09 · LAD · Seminario</div>
+            <h3>Fármaco 88 — atrapamiento iónico y paso placentario</h3>
+            <div class="keywords"><span class="kw">LogKe</span><span class="kw">Henderson-Hasselbalch</span><span class="kw">atrapamiento iónico</span></div>
+            <p class="desc">Comparación de ionización entre madre y feto; por qué los fármacos básicos no suelen dar problema de atrapamiento.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (10 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',8)">00:08</button><span class="idx-title">Introducción: presentación del fármaco 88</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',181)">03:01</button><span class="idx-title">Grupos ionizables: éter, amina terciaria, amina aromática</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',567)">09:27</button><span class="idx-title">¿Por qué el nitrógeno del anillo no es base?</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',791)">13:11</button><span class="idx-title">Conteo de carbonos, preparando la especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',1027)">17:07</button><span class="idx-title">Los dos procesos ya vistos: liberación y absorción</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',1172)">19:32</button><span class="idx-title">Especiación completa del fármaco 88</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',1925)">32:05</button><span class="idx-title">Hidrofilia/lipofilia: cálculo de LogKe</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',2635)">43:55</button><span class="idx-title">Liberación (pH 6,8, saliva): conclusión</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',2881)">48:01</button><span class="idx-title">Absorción (estómago, duodeno, íleon)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_09',3394)">56:34</button><span class="idx-title">Ionización a pH 7,4 y 8: Henderson-Hasselbalch</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_09_LAD_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_09"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF10" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF10" src="QF10_LAD_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF10 · LAD · Seminario</div>
+            <h3>Clasificación de grupos y dominancia de especies (dos fármacos)</h3>
+            <div class="keywords"><span class="kw">dominancia</span><span class="kw">dos fármacos</span><span class="kw">saliva</span></div>
+            <p class="desc">Ejercicio de clasificación ácido/base y curva de dominancia con dos fármacos de ejemplo.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (11 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',206)">03:26</button><span class="idx-title">Fármaco 1: identificación de grupos funcionales</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',966)">16:06</button><span class="idx-title">Fármaco 1: equilibrio de especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',1206)">20:06</button><span class="idx-title">La cuarta especie (minoritaria)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',1401)">23:21</button><span class="idx-title">Nombres de las cuatro especies</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',1586)">26:26</button><span class="idx-title">Dominancia de las especies según el pH</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',1960)">32:40</button><span class="idx-title">Especie mayoritaria en saliva</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',2169)">36:09</button><span class="idx-title">Fármaco 2: dos aminas (pKa 8,6 y 2,7)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',2392)">39:52</button><span class="idx-title">Fármaco 2: cómo parte y especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',2627)">43:47</button><span class="idx-title">Nombres de las especies del fármaco 2</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',2871)">47:51</button><span class="idx-title">Dominancia de las especies del fármaco 2</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF10',3062)">51:02</button><span class="idx-title">Especie mayoritaria en saliva (fármaco 2)</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF10_LAD_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF10"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_12" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_12" src="QF_12_LAD_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_12 · LAD · Seminario (clase especial)</div>
+            <h3>Sesión extra — ejercicio de examen y repaso ETS</h3>
+            <div class="keywords"><span class="kw">examen</span><span class="kw">cristaluria</span><span class="kw">sulfonamida/imida</span></div>
+            <p class="desc">Clase adicional de refuerzo sobre el proceso LAD, con ejercicios de examen fuera del temario estándar del seminario.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (13 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',32)">00:32</button><span class="idx-title">Grupos funcionales del fármaco del examen</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',464)">07:44</button><span class="idx-title">Orden de especiación por pKa</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',895)">14:55</button><span class="idx-title">Especiación del fármaco del examen</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',1088)">18:08</button><span class="idx-title">Liberación (disolución + ionización)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',1707)">28:27</button><span class="idx-title">Absorción</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',2191)">36:31</button><span class="idx-title">Barrera hematoencefálica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',2457)">40:57</button><span class="idx-title">Atrapamiento iónico</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',2847)">47:27</button><span class="idx-title">Eliminación renal</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',3232)">53:52</button><span class="idx-title">Cristaluria</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',4287)">71:27</button><span class="idx-title">Método alternativo (fármaco ácido + básico)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',4900)">81:40</button><span class="idx-title">Preguntas tipo test del examen</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',5208)">86:48</button><span class="idx-title">Segundo fármaco: sulfonamida/imida (pKa 4,9)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_12',5678)">94:38</button><span class="idx-title">Más preguntas tipo test</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_12_LAD_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_12"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF13" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF13" src="QF13_LAD_Repaso.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF13 · LAD · Repaso (cierre del bloque LAD)</div>
+            <h3>Fármaco 14 — repaso de distribución, cierre de LAD</h3>
+            <div class="keywords"><span class="kw">distribución</span><span class="kw">eliminación</span><span class="kw">repaso</span></div>
+            <p class="desc">Última sesión de LAD antes de empezar el Tema 4: distribución y aviso de que el lunes se explica eliminación. El Primer Examen Eliminatorio llega más adelante, tras el Tema 4.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (8 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',301)">05:01</button><span class="idx-title">Grupos funcionales</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',587)">09:47</button><span class="idx-title">Especiación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',1061)">17:41</button><span class="idx-title">Aplicación por proceso</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',1405)">23:25</button><span class="idx-title">Liberación (desarrollo completo)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',1731)">28:51</button><span class="idx-title">Absorción</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',2049)">34:09</button><span class="idx-title">Paso a sangre</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',2185)">36:25</button><span class="idx-title">Barrera hematoencefálica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF13',2300)">38:20</button><span class="idx-title">Atrapamiento iónico</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF13_LAD_Repaso.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF13"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF14a" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF14a" src="QF14a_RepasoGeneral.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF14a · Tema 1-2 · Repaso general</div>
+            <h3>Repaso extenso: DCI, cabeza de serie, biodisponibilidad, ATC</h3>
+            <div class="keywords"><span class="kw">DCI</span><span class="kw">cabeza de serie</span><span class="kw">ATC</span><span class="kw">biodisponibilidad</span><span class="kw">exámenes antiguos</span></div>
+            <p class="desc">Sesión larga (98 min) repasando muchos ejercicios de examen de años anteriores: nomenclatura, biodisponibilidad y especiación.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (32 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',89)">01:29</button><span class="idx-title">Orden del diseño de un fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',145)">02:25</button><span class="idx-title">Antibiótico del tema uno</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',202)">03:22</button><span class="idx-title">Antiparasitario con espirano y lactona</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',363)">06:03</button><span class="idx-title">Sales y contraión — biodisponibilidad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',725)">12:05</button><span class="idx-title">Penicilina y nomenclatura ATC</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',1215)">20:15</button><span class="idx-title">Fármaco con lactona — biodisponibilidad oral</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',1290)">21:30</button><span class="idx-title">Penicilina repetida</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',1397)">23:17</button><span class="idx-title">Nomenclatura ATC (continuación)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',1761)">29:21</button><span class="idx-title">Sertralina y fluoxetina — cabeza de serie</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',2094)">34:54</button><span class="idx-title">Examen 1P 2021 — diarilamina y sulfonamida</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',2271)">37:51</button><span class="idx-title">Quimioterápico vs farmacodinámico — penicilina/Viagra</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',2833)">47:13</button><span class="idx-title">Antiparasitario espirano/lactona (repetido) y logP</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',3310)">55:10</button><span class="idx-title">Especiación con Henderson-Hasselbalch</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',3443)">57:23</button><span class="idx-title">Examen del año pasado — atrapamiento fetal/materno</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',4105)">68:25</button><span class="idx-title">Antiviral</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',4404)">73:24</button><span class="idx-title">Formato del examen y organización del temario</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',4613)">76:53</button><span class="idx-title">DCI vs fármaco vs medicamento</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',5065)">84:25</button><span class="idx-title">Eliminación renal — pH de la orina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',5512)">91:52</button><span class="idx-title">Nacimiento de la química farmacéutica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF14a',5706)">95:06</button><span class="idx-title">Cierre de la sesión</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF14a_RepasoGeneral.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF14a"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF11" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF11" src="QF11_RepasoPreExamen_SintesisFenitoina.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF11 · Repaso pre-examen · Práctica 3</div>
+            <h3>Síntesis de fenitoína — repaso de examen</h3>
+            <div class="keywords"><span class="kw">fenitoína</span><span class="kw">síntesis</span><span class="kw">reactivo limitante</span><span class="kw">rendimiento</span></div>
+            <p class="desc">Corresponde a la Práctica 3 del temario oficial (síntesis de un antiepiléptico: fenitoína) y su producto secundario. Es un examen de laboratorio, independiente de los parciales de teoría.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (15 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',12)">00:12</button><span class="idx-title">Fenitoína frente al producto secundario</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',232)">03:52</button><span class="idx-title">Moles de bencilo (masa y pureza)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',334)">05:34</button><span class="idx-title">Moles de urea (masa y pureza)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',446)">07:26</button><span class="idx-title">Reactivos en disolución (masa desde volumen/densidad)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',616)">10:16</button><span class="idx-title">Reactivo limitante para la fenitoína</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',760)">12:40</button><span class="idx-title">Reactivo limitante para el producto secundario</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',904)">15:04</button><span class="idx-title">Gramos teóricos y rendimiento del secundario</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',1097)">18:17</button><span class="idx-title">Gramos teóricos de fenitoína</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',1185)">19:45</button><span class="idx-title">Rendimiento bruto de la fenitoína</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',1274)">21:14</button><span class="idx-title">Rendimiento de la recristalización</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',1440)">24:00</button><span class="idx-title">Mecanismo: nucleofilia de la urea, catálisis básica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',1864)">31:04</button><span class="idx-title">Purificación del producto secundario</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF11',2227)">37:07</button><span class="idx-title">Acidificación con HCl y filtración</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF11_RepasoPreExamen_SintesisFenitoina.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF11"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="tema-group">
+      <div class="tema-heading">Tema 4 — Farmacodinamia: reconocimiento molecular fármaco-diana (examinado en el Primer Parcial)</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF15" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF15" src="QF15_Tema4_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF15 · Tema 4 · Teoría (introducción)</div>
+            <h3>Primera clase de farmacodinamia: estereoisomería y aminoácidos</h3>
+            <div class="keywords"><span class="kw">farmacodinamia</span><span class="kw">ibuprofeno</span><span class="kw">estereoisomería</span></div>
+            <p class="desc">Arranque del Tema 4: qué se va a estudiar, ejemplo del ibuprofeno (enantiómero activo/inactivo) y primeras cadenas laterales de aminoácidos.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (6 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF15',165)">02:45</button><span class="idx-title">Estereoisomería, una pincelada</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF15',281)">04:41</button><span class="idx-title">Qué se va a ver en el tema 4 (y adelanto del 5)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF15',591)">09:51</button><span class="idx-title">Cadenas laterales de los aminoácidos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF15',1182)">19:42</button><span class="idx-title">Cómo van a ser los ejercicios de este tema</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF15',1496)">24:56</button><span class="idx-title">Repaso de la tabla de aminoácidos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF15',1689)">28:09</button><span class="idx-title">Introducción a la unión selectiva</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF15_Tema4_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF15"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_16" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_16" src="QF_16_Tema4_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_16 · Tema 4 · Teoría</div>
+            <h3>Farmacodinamia: unión fármaco-diana</h3>
+            <div class="keywords"><span class="kw">ligando endógeno</span><span class="kw">fuerzas intermoleculares</span><span class="kw">arginina</span></div>
+            <p class="desc">Introducción a la farmacodinamia, fuerzas intermoleculares implicadas y disposición espacial del fármaco en la diana. El profesor adelanta aquí que enzimas (Tema 9) se ven en "parcial tres" y agonistas/antagonistas (Tema 10) en "el cuarto parcial" — referencias a exámenes futuros, no al examen de este propio vídeo.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (6 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_16',14)">00:14</button><span class="idx-title">El fármaco compite con el ligando endógeno</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_16',401)">06:41</button><span class="idx-title">Los tres requisitos del reconocimiento molecular</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_16',664)">11:04</button><span class="idx-title">Cadenas laterales de los aminoácidos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_16',782)">13:02</button><span class="idx-title">Escala de fuerzas intermoleculares</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_16',2562)">42:42</button><span class="idx-title">Guanidina/arginina y amidina: anillo de ocho</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_16',3008)">50:08</button><span class="idx-title">Resumen: qué vamos a buscar siempre</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_16_Tema4_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_16"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF16b" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF16b" src="QF16b_Tema4_Teoria_video_alternativo.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF16b · Tema 4 · Teoría (misma clase que QF_16)</div>
+            <h3>Fuerzas intermoleculares fármaco-diana, en detalle</h3>
+            <div class="keywords"><span class="kw">Van der Waals</span><span class="kw">pi-stacking</span><span class="kw">enlace iónico reforzado</span></div>
+            <p class="desc">Copia física alternativa de la misma clase que QF_16, con índice propio: recorre cada tipo de fuerza intermolecular una por una.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (13 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',11)">00:11</button><span class="idx-title">Introducción: farmacodinamia y reconocimiento molecular</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',301)">05:01</button><span class="idx-title">Tres requisitos y cadenas laterales</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',752)">12:32</button><span class="idx-title">Fuerzas intermoleculares: de menor a mayor</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',952)">15:52</button><span class="idx-title">Van der Waals (London): aminoácidos apolares</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',1047)">17:27</button><span class="idx-title">Pi-stacking: fenilalanina, triptófano, tirosina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',1244)">20:44</button><span class="idx-title">Dipolo-dipolo: aminoácidos polares sin carga</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',1538)">25:38</button><span class="idx-title">Ion-dipolo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',1715)">28:35</button><span class="idx-title">Enlace de hidrógeno: dador, aceptor, amidas</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',1860)">31:00</button><span class="idx-title">Enlace iónico: ejemplo con la lisina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',1939)">32:19</button><span class="idx-title">Enlace iónico reforzado</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',2135)">35:35</button><span class="idx-title">Anillo de ocho: arginina y guanidina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',2545)">42:25</button><span class="idx-title">El mismo concepto con la amidina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF16b',2721)">45:21</button><span class="idx-title">Cierre: cómo será el examen</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF16b_Tema4_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF16b"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_17" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_17" src="QF_17_Tema4_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_17 · Tema 4 · Teoría</div>
+            <h3>Aminoácidos, cadenas laterales y estereoselectividad</h3>
+            <div class="keywords"><span class="kw">adaptación inducida</span><span class="kw">Easson-Stedman</span><span class="kw">racémicas</span></div>
+            <p class="desc">Clasificación de aminoácidos y su estado de protonación; modelo de los tres puntos para la enantioselectividad.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (8 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',19)">00:19</button><span class="idx-title">Cadenas laterales y clasificación de interacciones</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',733)">12:13</button><span class="idx-title">Ejemplo: comparación de dos fármacos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',1525)">25:25</button><span class="idx-title">Tamaño, forma y afinidad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',1860)">31:00</button><span class="idx-title">Adaptación inducida y conformación activa</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',2655)">44:15</button><span class="idx-title">Selectividad: la elige la diana, no el fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',2731)">45:31</button><span class="idx-title">Enantioselectividad y diastereoselectividad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',3062)">51:02</button><span class="idx-title">El modelo de los tres puntos (Easson-Stedman)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_17',3593)">59:53</button><span class="idx-title">Mezclas racémicas, coste de síntesis, genéricos</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_17_Tema4_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_17"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF18a" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF18a" src="QF18a_Tema4-5_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF18a · Tema 4/5 · Seminario</div>
+            <h3>Reconocimiento molecular y ligando endógeno</h3>
+            <div class="keywords"><span class="kw">enantiómeros</span><span class="kw">diastereómeros</span><span class="kw">Easson-Stedman</span></div>
+            <p class="desc">El fármaco compite con el ligando endógeno; cadenas laterales de los aminoácidos y fuerza de unión (afinidad).</p>
+            <details class="idx">
+              <summary>Índice de contenidos (7 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',184)">03:04</button><span class="idx-title">Recordatorio: tamaño y conformación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',389)">06:29</button><span class="idx-title">Estereoquímica: enantiómeros y diastereómeros</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',593)">09:53</button><span class="idx-title">Cómo se asigna R/S y E/Z</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',857)">14:17</button><span class="idx-title">Los tres puntos de Easson-Stedman</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',1217)">20:17</button><span class="idx-title">Casos al sintetizar fármacos con carbono quiral</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',1822)">30:22</button><span class="idx-title">Interpretación de los cocientes de actividad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF18a',1995)">33:15</button><span class="idx-title">Cierre de la sesión</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF18a_Tema4-5_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF18a"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF_21" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF_21" src="QF_21_Tema4_Repaso.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_21 · Tema 4 · Repaso</div>
+            <h3>Repaso extenso: estereoquímica y enantioselectividad</h3>
+            <div class="keywords"><span class="kw">gabapentina</span><span class="kw">GABA</span><span class="kw">amidina</span><span class="kw">acetilcolina</span></div>
+            <p class="desc">Sesión larga (103 min) con muchos ejercicios tipo test: gabapentina, aminoácidos básicos y puente hacia el Tema 5.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (17 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',17)">00:17</button><span class="idx-title">Introducción: el seminario y el parcial</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',367)">06:07</button><span class="idx-title">Cadenas apolares y fuerzas de Van der Waals</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',492)">08:12</button><span class="idx-title">Treonina, serina, tirosina y el flip-flop</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',718)">11:58</button><span class="idx-title">Enantioselectividad y diastereoselectividad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',1261)">21:01</button><span class="idx-title">Ejemplo: ibuprofeno, eutómero/distómero</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',1445)">24:05</button><span class="idx-title">Aspártico, glutámico: enlace iónico reforzado</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',2070)">34:30</button><span class="idx-title">Histidina: pKa y enlaces de hidrógeno</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',2520)">42:00</button><span class="idx-title">Lisina y arginina: los "ocho puntos"</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',3012)">50:12</button><span class="idx-title">La amidina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',3192)">53:12</button><span class="idx-title">Introducción al tema 5: grupo farmacóforo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',3418)">56:58</button><span class="idx-title">Test: GABA, gabapentina, pregabalina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',4150)">69:10</button><span class="idx-title">Test: acetilcolina y análogos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',5031)">83:51</button><span class="idx-title">Reglas del reconocimiento molecular</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_21',5613)">93:33</button><span class="idx-title">Carboxílico, sulfonamida, imida (isosteria pKa)</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_21_Tema4_Repaso.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_21"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF21b" style="--card-accent:var(--p1);">
+          <video controls preload="metadata" id="video-QF21b" src="QF21b_Tema4_Repaso_video_alternativo.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF21b · Tema 4 · Repaso (misma clase que QF_21)</div>
+            <h3>Repaso: eutómero, distómero, isosterismo</h3>
+            <div class="keywords"><span class="kw">eutómero</span><span class="kw">distómero</span><span class="kw">bioisosterismo</span></div>
+            <p class="desc">Copia física alternativa de la misma clase que QF_21, con más detalle sobre el índice eudísmico y varios ejercicios tipo test.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (22 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',954)">15:54</button><span class="idx-title">Aminoácidos ácidos: aspártico, glutámico</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',1383)">23:03</button><span class="idx-title">Tema 5: modificaciones moleculares y farmacóforo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',1996)">33:16</button><span class="idx-title">Aminoácidos básicos: lisina y arginina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',2582)">43:02</button><span class="idx-title">Test 1: del GABA a la gabapentina y pregabalina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',2968)">49:28</button><span class="idx-title">Eutómero, distómero e índice eudísmico</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',2996)">49:56</button><span class="idx-title">Test 2: acetilcolina y análogos</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',3367)">56:07</button><span class="idx-title">Isosterismo clásico y bioisosterismo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',3665)">61:05</button><span class="idx-title">Test 3: modificación de anillos y sustituyentes</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF21b',3869)">64:29</button><span class="idx-title">Test 4: carboxílico vs sulfonamida (isosteria pKa)</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF21b_Tema4_Repaso.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF21b"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PARCIAL 2 (Tema 5-6-7·I, hasta Segundo Examen Eliminatorio de Enero) ==================== -->
+  <section class="parcial" id="parcial2">
+    <div class="parcial-title"><span>Parcial 2</span><span class="badge" style="background:var(--p2bg);color:var(--p2);">Tema 5-6-7(I) — Farmacóforo, enzimas y metabolismo oxidativo</span></div>
+    <p class="parcial-sub">Según el cronograma oficial, el Segundo Examen Eliminatorio (enero) se sitúa justo después del Tema 7 fase I, no solo tras el Tema 5. Grupo farmacóforo, técnicas de modificación molecular (SAR/QSAR), reacciones enzimáticas y biotransformación de fármacos en fase I.</p>
+
+    <div class="tema-group">
+      <div class="tema-heading">Tema 5 — Grupo farmacóforo y modificación molecular</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF19a" style="--card-accent:var(--p2);">
+          <video controls preload="metadata" id="video-QF19a" src="QF19a_Tema5_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF19a · Tema 5 · Teoría (introducción)</div>
+            <h3>Grupo farmacóforo: primera clase</h3>
+            <div class="keywords"><span class="kw">farmacóforo</span><span class="kw">modificación molecular</span><span class="kw">bioisosterismo</span></div>
+            <p class="desc">Arranca Tema 5: qué es el grupo farmacóforo y cómo se detecta mediante cambios de grupo y medida de actividad.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (6 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF19a',134)">02:14</button><span class="idx-title">Qué es el grupo farmacóforo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF19a',423)">07:03</button><span class="idx-title">Los fines de la modificación molecular</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF19a',566)">09:26</button><span class="idx-title">Modificación molecular fija: tipos de aproximación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF19a',866)">14:26</button><span class="idx-title">Repaso: los tres grupos de mayor interacción</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF19a',1287)">21:27</button><span class="idx-title">Modificación de sustituyentes (lo nuevo de hoy)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF19a',1928)">32:08</button><span class="idx-title">Bioisosterismo</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF19a_Tema5_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF19a"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF20a" style="--card-accent:var(--p2);">
+          <video controls preload="metadata" id="video-QF20a" src="QF20a_Tema5_Seminario.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF20a · Tema 5 · Seminario</div>
+            <h3>Ejercicios de grupo farmacóforo</h3>
+            <div class="keywords"><span class="kw">MMF</span><span class="kw">alcohol/amina/ácido</span><span class="kw">simplificación</span></div>
+            <p class="desc">Segunda entrega del seminario: ionizar el fármaco a pH fisiológico y aplicar la modificación molecular fija.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (10 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',38)">00:38</button><span class="idx-title">Ionización del fármaco, aminoácidos de la diana</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',442)">07:22</button><span class="idx-title">Repaso tema 4 — unión farmacodinámica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',706)">11:46</button><span class="idx-title">Definición de grupo farmacóforo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',1028)">17:08</button><span class="idx-title">Ejemplo práctico: identificar el farmacóforo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',1702)">28:22</button><span class="idx-title">Simplificación del fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',1834)">30:34</button><span class="idx-title">Modificación molecular fija (MMF)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',2255)">37:35</button><span class="idx-title">Las tres aproximaciones de la MMF</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',2771)">46:11</button><span class="idx-title">Modificación del grupo alcohol</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',3070)">51:10</button><span class="idx-title">Modificación del grupo amina</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF20a',3371)">56:11</button><span class="idx-title">Modificación del grupo ácido carboxílico</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF20a_Tema5_Seminario.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF20a"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" style="--card-accent:var(--p2);">
+          <div class="card-body">
+            <div class="card-code">QF24 · Tema 5 · Repaso (pre-examen)</div>
+            <h3>Farmacóforo, modificación molecular y Easson-Stedman</h3>
+            <div class="keywords"><span class="kw">homología</span><span class="kw">ramificación</span><span class="kw">Easson-Stedman</span></div>
+            <div class="novideo-note">⚠ Corregido el 25/07/2026 (antes mal clasificado como "Tema 8-9"). Vídeo aún sin confirmar: se transcribieron los 16 vídeos pendientes y ninguno coincide con este contenido.</div>
+            <p class="desc">Homología, ramificación, bioisosterismo, eutómero/distómero y el modelo de Easson-Stedman.</p>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF24_Tema5_Repaso.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF24"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="tema-group">
+      <div class="tema-heading">Tema 6 — Enzimas y reacciones enzimáticas</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF_22" style="--card-accent:var(--p2);">
+          <video controls preload="metadata" id="video-QF_22" src="QF_22_Tema6_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_22 · Tema 6 · Teoría</div>
+            <h3>Enzimas: mecanismo ping-pong</h3>
+            <div class="keywords"><span class="kw">tríada catalítica</span><span class="kw">hidrólisis</span><span class="kw">ping-pong</span></div>
+            <p class="desc">Introducción a las enzimas implicadas en el metabolismo de fármacos y su mecanismo de acción.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (5 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_22',184)">03:04</button><span class="idx-title">Aminoácidos catalíticos y el centro activo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_22',978)">16:18</button><span class="idx-title">La tríada catalítica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_22',1346)">22:26</button><span class="idx-title">Los mecanismos de reacción del tema</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_22',1640)">27:20</button><span class="idx-title">El mecanismo ping-pong (hidrólisis de amidas)</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_22',2884)">48:04</button><span class="idx-title">Tarea: hidrólisis de éster con esterasa</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_22_Tema6_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_22"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-id="QF22b" style="--card-accent:var(--p2);">
+          <video controls preload="metadata" id="video-QF22b" src="QF22b_Tema6_Teoria_video_alternativo.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF22b · Tema 6 · Teoría (misma clase que QF_22)</div>
+            <h3>Enzimas: mecanismo ping-pong (copia alternativa)</h3>
+            <div class="keywords"><span class="kw">centro activo</span><span class="kw">enlace de coordinación</span><span class="kw">receptores vs enzimas</span></div>
+            <p class="desc">Copia física alternativa de la misma clase que QF_22.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (8 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',144)">02:24</button><span class="idx-title">Aminoácidos catalíticos y el centro activo</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',360)">06:00</button><span class="idx-title">Enlace de coordinación y enlace covalente</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',601)">10:01</button><span class="idx-title">Receptores vs enzimas</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',816)">13:36</button><span class="idx-title">La tríada catalítica</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',1155)">19:15</button><span class="idx-title">Tipos de mecanismos: hidrólisis</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',1434)">23:54</button><span class="idx-title">Mecanismo ping-pong: hidrólisis de amidas</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF22b',2548)">42:28</button><span class="idx-title">Tarea: hidrólisis de éster con esterasa</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF22b_Tema6_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF22b"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="tema-group">
+      <div class="tema-heading">Tema 7 (fase I) — Metabolismo oxidativo de fármacos</div>
+      <div class="grid">
+
+        <article class="card" data-id="QF_23" style="--card-accent:var(--p2);">
+          <video controls preload="metadata" id="video-QF_23" src="QF_23_Tema7_Teoria.mp4"></video>
+          <div class="card-body">
+            <div class="card-code">QF_23 · Tema 7 (fase I) · Teoría</div>
+            <h3>Metabolismo: oxidación de Fase I</h3>
+            <div class="keywords"><span class="kw">C-hidroxilación</span><span class="kw">N-desalquilación</span><span class="kw">regioselectividad</span></div>
+            <p class="desc">Reacciones de biotransformación oxidativa, "el verdadero tema 7" de cara al examen — corresponde al Segundo Parcial (fase I), no al tercero: la fase II se examina más adelante.</p>
+            <details class="idx">
+              <summary>Índice de contenidos (11 puntos)</summary>
+              <div class="idx-approx">⏱ minutos estimados — aproximados</div>
+              <div class="idx-list">
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',133)">02:13</button><span class="idx-title">Por qué se metaboliza un fármaco</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',567)">09:27</button><span class="idx-title">Finalidad: reacciones de fase I y fase II</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',902)">15:02</button><span class="idx-title">Resumen de las reacciones de fase I</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',1162)">19:22</button><span class="idx-title">C-hidroxilación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',1291)">21:31</button><span class="idx-title">Quimio-, regio- y estereoselectividad</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',1655)">27:35</button><span class="idx-title">Mecanismo de la C-hidroxilación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',1973)">32:53</button><span class="idx-title">Posiciones no activadas</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',2391)">39:51</button><span class="idx-title">Posiciones activadas</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',2961)">49:21</button><span class="idx-title">N-desalquilación</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',3407)">56:47</button><span class="idx-title">Ejemplo: dos metabolitos posibles</span></div>
+                <div class="idx-item"><button class="idx-time" onclick="seekTo('QF_23',3734)">62:14</button><span class="idx-title">Posición bencílica con cadena larga → ácido</span></div>
+              </div>
+            </details>
+            <div class="card-actions">
+              <a class="btn" href="GuiasEstudio/QF_23_Tema7_Teoria.pdf" target="_blank">📄 Guía de estudio</a>
+              <label class="check"><input type="checkbox" data-track="QF_23"> Estudiado</label>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PARCIAL 3-4 (sin clases grabadas todavía) ==================== -->
+  <section class="parcial" id="parcial34">
+    <div class="parcial-title"><span>Parcial 3 y 4</span><span class="badge" style="background:var(--p3bg);color:var(--p3);">Tema 7(II)-11 — Metabolismo fase II, dianas, inhibidores, receptores, DNA</span></div>
+    <p class="parcial-sub">
+      Según el cronograma oficial: el <strong>Tercer Examen Eliminatorio</strong> cubre Tema 7 (fase II), Tema 8 (dianas biológicas), Tema 9 (inhibidores enzimáticos) y Tema 10 (agonistas/antagonistas, parte); el <strong>Cuarto Examen Eliminatorio</strong> cubre el resto del Tema 10 y el Tema 11 (DNA como diana biológica).
+      Todavía no hay clases grabadas de esta parte del temario en la carpeta — cuando se añadan, irán aquí.
+    </p>
+  </section>
+
+  <!-- ==================== PENDIENTES ==================== -->
+  <section class="pendientes" id="pendientes">
+    <div class="parcial-title"><span>Sin vídeo confirmado</span><span class="badge" style="background:var(--pendbg);color:var(--pend);">2 clases</span></div>
+    <p class="parcial-sub">
+      Su contenido está disponible en la guía de estudio igualmente. Probablemente su copia física se perdió junto con los 82 duplicados que ya se borraron.
+      Detalle de todo el proceso de verificación (16 vídeos transcritos con Whisper, 9 confirmados, 2 duplicados, 2 reclasificados como Biofarmacia) en el historial de esta conversación.
+    </p>
+    <div class="pend-list">
+      <div class="pend-item"><a href="GuiasEstudio/QF02a_Tema3_Seminario.pdf" target="_blank">QF02 — Tema 3</a><span class="dur">guía disponible</span></div>
+      <div class="pend-item"><a href="GuiasEstudio/QF06_Tema3_Seminario.pdf" target="_blank">QF06 — Tema 3</a><span class="dur">guía disponible</span></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Química Farmacéutica · Guía de estudio generada localmente a partir de las transcripciones corregidas de cada clase.
+  Clasificación por parcial verificada contra el cronograma oficial del programa de la asignatura (documento PDF): Primer Examen tras Tema 4, Segundo Examen tras Tema 7·fase I, Tercer Examen tras Tema 10 (parcial), Cuarto Examen tras Tema 11.
+  Los índices de contenido usan minutos <strong>estimados</strong> (proporcionales a la posición del texto dentro de la transcripción), no marcas de tiempo exactas del vídeo — puede haber un margen de error de uno o dos minutos.
+  El progreso (casillas "Estudiado") se guarda solo en este navegador.
+</footer>
+
+<script>
+  const STORAGE_KEY = 'qf_estudio_progreso_v1';
+  function loadState(){
+    try{ return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }catch(e){ return {}; }
+  }
+  function saveState(state){
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  }
+  function updateProgress(){
+    const boxes = document.querySelectorAll('input[data-track]');
+    const total = boxes.length;
+    let done = 0;
+    boxes.forEach(b => { if(b.checked) done++; });
+    document.getElementById('progressFill').style.width = (total? (done/total*100):0) + '%';
+    document.getElementById('progressLabel').textContent = done + ' / ' + total + ' clases estudiadas';
+  }
+  function seekTo(videoId, seconds){
+    const v = document.getElementById('video-' + videoId);
+    if(!v) return;
+    v.currentTime = seconds;
+    v.scrollIntoView({behavior:'smooth', block:'center'});
+    v.play().catch(()=>{});
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const state = loadState();
+    document.querySelectorAll('input[data-track]').forEach(box => {
+      const id = box.getAttribute('data-track');
+      box.checked = !!state[id];
+      const card = box.closest('.card');
+      if(box.checked && card) card.classList.add('done');
+      box.addEventListener('change', () => {
+        const s = loadState();
+        s[id] = box.checked;
+        saveState(s);
+        if(card) card.classList.toggle('done', box.checked);
+        updateProgress();
+      });
+    });
+    updateProgress();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+Casi cualquier fármaco que lleve una amida o un éster, tarde o temprano, se va a encontrar con una enzima que se lo rompe. Y ese mecanismo de rotura, el que vas a ver una y otra vez en este tema, tiene un nombre que suena raro pero que se queda grabado enseguida: mecanismo ping-pong. Va a estar en el examen, seguro. Así que hoy vamos a montar ese mecanismo paso a paso, vamos a ver quién hace cada cosa dentro del centro activo de la enzima, y vamos a dejar clara la nomenclatura de las enzimas que rompen enlaces. Al final de esta pista, ese dibujo que ahora te suena a jeroglífico te va a salir casi automático.
+
+Empecemos por el reparto de papeles dentro del centro activo. Ahí dentro hay dos tipos de aminoácidos: unos que solo posicionan al sustrato, y otros que hacen la química de verdad, los que bajan la energía de activación y aceleran la reacción. A estos últimos se les llama aminoácidos catalíticos, y los tres protagonistas forman lo que se conoce como la tríada catalítica. Quédate con este dato, porque es de los más preguntados del tema: la tríada catalítica está formada por histidina, serina y aspártico. La histidina actúa como aceptora y dadora de hidrógeno gracias a su cadena lateral, y conviene saber dibujarla al menos una vez. La serina es la más sencilla de las tres, con un grupo hidroxilo cuyo oxígeno participa directamente en el ataque nucleofílico sobre el sustrato. Y el aspártico acompaña a las otras dos, pero con un papel distinto: no ataca directamente al sustrato en ningún momento, se limita a estabilizar todo el conjunto para que histidina y serina puedan hacer su trabajo con comodidad. Dicho de otra forma, si la histidina y la serina son las que manipulan el sustrato, el aspártico es el que sujeta el escenario para que no se desmonte.
+
+Hay un cuarto aminoácido que no forma parte de la tríada, pero que es igual de importante, y que se confunde muchísimo con ella: la lisina. La lisina no está en la tríada catalítica, hace su propio tipo de catálisis por separado, llamada catálisis electrostática. Su función es muy concreta: cada vez que en el mecanismo aparece un intermedio con una carga negativa, algo que a pH fisiológico no puede quedarse suelto así como así, la lisina se acerca con su grupo amino y estabiliza esa carga negativa. Sin la lisina, esos intermedios cargados serían inestables y el mecanismo no podría avanzar con la velocidad que necesita una reacción biológica. Repite esto para que no se te mezcle en el examen: tríada catalítica es histidina, serina y aspártico; la lisina hace catálisis electrostática por su cuenta, fuera de la tríada.
+
+En este tema hay dos grandes familias de mecanismos. Una son las reacciones de reducción-oxidación sobre un carbonilo. Y la otra es la hidrólisis, que es, sin discusión, el mecanismo estrella del tema. ¿Por qué se le llama estrella? Porque no es solo una reacción más entre varias posibles: es la que realmente ocurre en la mayoría de los casos a pH fisiológico, entre un setenta y un ochenta por ciento de las veces. Si en un examen te dan un fármaco con un enlace susceptible de romperse por agua, la apuesta más segura, con diferencia, es que la reacción mayoritaria va a ser una hidrólisis. La razón de fondo es sencilla: a pH fisiológico, el único nucleófilo realmente disponible en cantidad es la molécula de agua. No hay otro candidato razonable. Y esa hidrólisis puede romper distintos tipos de enlace: un enlace amida, un enlace éster, o un enlace fosfoéster. Este último es especialmente importante porque es exactamente el tipo de enlace que mantiene unida la cadena de ADN en sus extremos, el enlace que forma el esqueleto de azúcar y fosfato. El mecanismo de fondo es siempre el mismo, cambie el enlace que cambie: el agua ataca justo al lado del carbonilo, o del grupo equivalente en el caso del fosfoéster.
+
+Vamos ahora con el mecanismo ping-pong, paso a paso, porque es la parte que más cuesta la primera vez pero que luego se vuelve mecánica. Imagina que tenemos que romper un enlace peptídico, es decir, una amida, entre dos aminoácidos de una cadena. En el centro activo de la enzima tenemos a la histidina por un lado y a la serina por otro, trabajando juntas.
+
+Primer paso: catálisis básica. El nitrógeno de la histidina, que tiene un par de electrones libre, le quita un hidrógeno al grupo hidroxilo de la serina. En este momento la histidina está actuando como una base, de ahí el nombre de catálisis básica. Nada más perder ese hidrógeno, el oxígeno de la serina se queda con más densidad de carga negativa disponible, mucho más reactivo que antes.
+
+Segundo paso: primera adición. Ese mismo oxígeno de la serina, ya sin su hidrógeno, ataca como nucleófilo directamente al carbono del carbonilo del sustrato. La enzima queda unida covalentemente al sustrato en este punto, lo que se llama catálisis covalente. Y aquí aparece un intermedio con una carga negativa sobre el oxígeno que antes era el carbonilo, una carga que a pH fisiológico no puede sostenerse sola. Es justo en este momento cuando entra la lisina, haciendo su catálisis electrostática, estabilizando esa carga negativa para que el intermedio pueda existir el tiempo suficiente.
+
+Tercer paso: primera eliminación. Para que el primer fragmento del sustrato pueda separarse, ese par de electrones que baja no puede salir con una carga negativa desnuda, así que antes de que el grupo saliente se libere, captura el hidrógeno extra que la histidina tenía guardado desde el primer paso. Aquí pasamos de catálisis básica a catálisis ácida: la histidina, que había quitado un hidrógeno, ahora lo devuelve. Con esto queda liberado el primer producto, y la histidina recupera su forma neutra original, la misma con la que empezó.
+
+Cuarto paso: segunda adición. Ahora entra en juego la molécula de agua, el único nucleófilo disponible. La histidina repite exactamente el primer movimiento: le quita un hidrógeno al agua, otra vez catálisis básica. El oxígeno del agua, ya activado, ataca al carbono que sigue unido a la serina de la enzima. Otra vez aparece una carga negativa en el intermedio, y otra vez es la lisina quien la estabiliza con catálisis electrostática.
+
+Quinto paso: segunda eliminación. Para liberar a la serina y regenerar la enzima, hace falta de nuevo una catálisis ácida: la histidina cede el hidrógeno que acababa de captar del agua. Con esto se libera el segundo producto, y la enzima queda exactamente igual que al principio, lista para repetir el ciclo con otro sustrato.
+
+Y aquí está el porqué del nombre: el mecanismo se llama vulgarmente ping-pong porque la histidina va cediendo y recuperando el mismo hidrógeno de un lado a otro, primero haciendo catálisis básica y luego catálisis ácida, dos veces seguidas, como una pelota que rebota de un lado a otro sin parar. Primero quita un hidrógeno a la serina, luego lo devuelve; después quita un hidrógeno al agua, luego lo devuelve otra vez. Ese vaivén constante es el ping-pong.
+
+Nos queda la nomenclatura, que también se pregunta con frecuencia. Si la enzima rompe un enlace amida, se llama amidasa. Si ese enlace amida en concreto es un enlace peptídico, esa misma amidasa recibe también el nombre de peptidasa. Ojo con la relación entre estos dos términos, porque es fácil confundirla: todas las peptidasas son amidasas, porque un enlace peptídico es un caso particular de amida, pero no todas las amidasas son peptidasas, porque hay amidas que no forman parte de una cadena de aminoácidos. Si la enzima rompe un enlace éster, se llama esterasa, y aquí va otro dato que se repite mucho: la esterasa es, con diferencia, la enzima más abundante a pH fisiológico, por goleada frente a las demás. Y una última precisión de nomenclatura: tanto la amidasa como la esterasa son, en el fondo, hidrolasas, porque las dos necesitan una molécula de agua para poder catalizar la reacción.
+
+Vamos con el repaso activo. Preguntas cortas, tú respondes primero.
+
+Pregunta: ¿qué tres aminoácidos forman la tríada catalítica?
+
+[PAUSA 3s]
+
+Respuesta: histidina, serina y aspártico. La histidina y la serina hacen el trabajo directo sobre el sustrato, y el aspártico estabiliza el conjunto sin atacar nunca directamente. Si dudabas metiendo a la lisina en esta lista, cuidado: la lisina existe y es importante, pero no forma parte de esta tríada.
+
+Pregunta: en el mecanismo ping-pong, ¿qué papel desempeña la lisina cuando aparece una carga negativa en algún intermedio?
+
+[PAUSA 3s]
+
+Respuesta: estabiliza esa carga negativa mediante catálisis electrostática, un tipo de catálisis aparte de la tríada catalítica. Si dudabas pensando que la lisina ataca al sustrato como la serina, no: su función es puramente de estabilización de carga, nunca de ataque nucleofílico.
+
+Pregunta: en el primer paso del mecanismo ping-pong, la histidina le quita un hidrógeno a la serina. ¿Cómo se llama este tipo de catálisis, y qué hace justo después el oxígeno de la serina?
+
+[PAUSA 3s]
+
+Respuesta: se llama catálisis básica, porque la histidina actúa como base al quitar el hidrógeno. Justo después, el oxígeno de la serina, ya sin ese hidrógeno y con más densidad de carga negativa, ataca como nucleófilo al carbono del carbonilo del sustrato.
+
+Pregunta: ¿por qué el mecanismo de hidrólisis catalizado por la tríada histidina, serina y aspártico se llama, vulgarmente, mecanismo ping-pong?
+
+[PAUSA 3s]
+
+Respuesta: porque la histidina va cediendo y recuperando el mismo hidrógeno de forma alternativa, primero en una catálisis básica y después en una catálisis ácida, y esto se repite dos veces en el ciclo completo, como una pelota que va y viene sin parar entre dos jugadores.
+
+Pregunta: ¿por qué se dice que la hidrólisis es el mecanismo estrella de este tema?
+
+[PAUSA 3s]
+
+Respuesta: porque es la reacción que realmente ocurre con más frecuencia, entre un setenta y un ochenta por ciento de los casos a pH fisiológico. Si dudabas pensando en las reacciones redox del carbonilo como las más frecuentes, no: esas existen, pero son minoritarias frente a la hidrólisis.
+
+Para cerrar, tres ideas. Primero: la tríada catalítica es histidina, serina y aspártico, con la histidina y la serina atacando directamente y el aspártico estabilizando sin atacar nunca; la lisina queda fuera de esa tríada y hace su propia catálisis electrostática sobre las cargas negativas. Segundo: la hidrólisis es el mecanismo estrella del tema, porque es la reacción real en torno al setenta u ochenta por ciento de los casos a pH fisiológico, y siempre usa el agua como único nucleófilo disponible, ya sea sobre una amida, un éster o un fosfoéster, como los que mantienen unida la cadena de ADN. Y tercero: el mecanismo ping-pong avanza en dos ciclos idénticos de catálisis básica seguida de catálisis ácida, primero sobre la serina y después sobre el agua, y termina con la enzima regenerada exactamente como empezó, lista para el siguiente sustrato.

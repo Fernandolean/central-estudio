@@ -1,0 +1,39 @@
+========================================================================
+INFORME - Generacion del indice academico (CENTRAL_ESTUDIO)
+========================================================================
+Generado: 2026-08-27T11:28:42
+
+Total de recursos indexados: 391
+
+Por asignatura:
+  - Química Farmacéutica: 141 recursos, 8 temas, 0 sin clasificar por tema
+  - Bioquímica Clínica: 52 recursos, 8 temas, 6 sin clasificar por tema
+  - Farmacología: 48 recursos, 13 temas, 2 sin clasificar por tema
+  - Metodología de la Investigación: 41 recursos, 13 temas, 4 sin clasificar por tema
+  - Microbiología y Parasitología Clínica: 64 recursos, 17 temas, 3 sin clasificar por tema
+  - Tecnología Farmacéutica: 45 recursos, 12 temas, 0 sin clasificar por tema
+
+Detalle de 'sin clasificar por tema' (revisables a mano en la web):
+
+  [Bioquímica Clínica] (6)
+    - Resumen_Bioquimica_Clinica_2P.pdf  (apuntes)
+    - 2PBQYH_fotos_examen_corregido.pdf  (examen)
+    - Examen_bioquimica_2o_parcial_57preg.pdf  (examen)
+    - Tema6_calculo_aclaramiento_creatinina.pdf  (apuntes)
+    - wuolah-free-FOTO-EXAMEN-PARCIAL-2.pdf  (examen)
+    - wuolah-free-Test-1-parcial.pdf  (test)
+
+  [Farmacología] (2)
+    - wuolah-free-1P.pdf  (apuntes)
+    - wuolah-TODAS Las preguntas Test de Farma-1er control.doc  (test)
+
+  [Metodología de la Investigación] (4)
+    - EXAMEN_RESUELTO_CON_EXPLICACIONES_42preg_mas_formato_oficial.pdf  (examen)
+    - Captura_examen_Respondus_ejemplo.pdf  (examen)
+    - Tarea1_BusquedaBibliografica_ejemplo_Soledad.docx  (tarea)
+    - TAREA1_plantilla_blanco_Pubmed-ScienceDirect.docx  (tarea)
+
+  [Microbiología y Parasitología Clínica] (3)
+    - wuolah-free-cuaderno-de-practicas-micro-y-para-W.pdf  (practica)
+    - wuolah-free-primer-parcial-myp-clinica.pdf  (apuntes)
+    - wuolah-free-Segundo-parcial-MyP.pdf  (apuntes)

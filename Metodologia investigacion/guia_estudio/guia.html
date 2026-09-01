@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de Estudio — Examen de Metodología de la Investigación</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1c2733;
+    font-size: 10.3pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .cover {
+    height: 250mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    page-break-after: always;
+  }
+  .cover .pill {
+    background: #0e7c86; color: #fff; font-weight: 700; font-size: 13pt;
+    padding: 6px 18px; border-radius: 999px; margin-bottom: 24px; letter-spacing: .03em;
+  }
+  .cover h1 { font-size: 26pt; margin: 0 0 10px; color: #0a5e66; }
+  .cover h2 { font-size: 13pt; font-weight: 400; color: #5b6b78; margin: 0 0 40px; }
+  .cover .toc { text-align: left; max-width: 400px; margin-top: 30px; }
+  .cover .toc h3 { font-size: 11pt; color: #0a5e66; border-bottom: 1px solid #dde3e8; padding-bottom: 6px; }
+  .cover .toc ol { padding-left: 20px; font-size: 9.5pt; }
+  .cover .toc li { margin-bottom: 4px; }
+  .cover .note { margin-top: 40px; font-size: 8.5pt; color: #93a5b1; max-width: 420px; }
+
+  h1.tema {
+    font-size: 16pt; color: #fff; background: #0e7c86;
+    padding: 10px 14px; border-radius: 8px; margin: 0 0 4mm;
+    page-break-before: always;
+  }
+  h1.tema .num { opacity: .75; font-weight: 400; font-size: 11pt; display: block; }
+  h2 { font-size: 12.5pt; color: #0a5e66; border-bottom: 2px solid #e3f4f3; padding-bottom: 3px; margin: 6mm 0 3mm; }
+  h3 { font-size: 10.8pt; color: #0e7c86; margin: 4mm 0 2mm; }
+  p { margin: 2mm 0; text-align: justify; }
+  ul, ol { margin: 2mm 0; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  b, strong { color: #0a5e66; }
+  .callout {
+    background: #e3f4f3; border-left: 3px solid #0e7c86; border-radius: 4px;
+    padding: 2.5mm 4mm; margin: 3mm 0; font-size: 9.6pt;
+  }
+  .callout.warn { background: #fdf2e0; border-left-color: #b8790a; }
+  .callout.mnemo { background: #eef2f5; border-left-color: #5b6b78; font-style: italic; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 3mm 0 4mm; font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  th { background: #0e7c86; color: #fff; text-align: left; padding: 2mm 2.5mm; font-size: 8.6pt; }
+  td { border-bottom: 1px solid #dde3e8; padding: 2mm 2.5mm; vertical-align: top; }
+  tr:nth-child(even) td { background: #f4f7f9; }
+  .two-col { display: flex; gap: 6mm; }
+  .two-col > div { flex: 1; }
+  .footer-page { font-size: 7.5pt; color: #93a5b1; text-align: center; margin-top: 6mm; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PORTADA ===================== -->
+<div class="cover">
+  <div class="pill">METODOLOGÍA DE LA INVESTIGACIÓN</div>
+  <h1>Guía de Estudio — Examen tipo test</h1>
+  <h2>3º Grado en Farmacia · UAX — 30 preguntas, 45 minutos, sin penalización por fallo</h2>
+  <div class="toc">
+    <h3>Contenido</h3>
+    <ol>
+      <li>Método científico y generación de conocimiento</li>
+      <li>Hipótesis y contraste de hipótesis</li>
+      <li>Variables y su clasificación</li>
+      <li>Estadística descriptiva</li>
+      <li>Pruebas estadísticas y su aplicación</li>
+      <li>Diseño de estudios y muestreo</li>
+      <li>Documentación científica y bases de datos</li>
+      <li>Gestores bibliográficos y herramientas informáticas</li>
+      <li>Calidad y evaluación de publicaciones científicas</li>
+      <li>Referencias bibliográficas y normas de citación</li>
+      <li>Estructura del artículo científico</li>
+      <li>Publicación científica: proceso editorial y causas de rechazo</li>
+      <li>Lectura crítica de artículos científicos</li>
+    </ol>
+  </div>
+  <p class="note">Elaborada a partir de exámenes de convocatorias anteriores (muy repetidos entre sí, señal de que las mismas preguntas caen curso tras curso) y de ejemplos de tareas de compañeros ya corregidas. Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los conceptos y tablas que encontrarás aquí.</p>
+</div>
+
+<!-- ===================== TEMA 1 ===================== -->
+<h1 class="tema"><span class="num">Tema 1</span>Método científico y generación de conocimiento</h1>
+
+<h2>Qué es la ciencia</h2>
+<p>La definición que cae en examen (literal, memorízala): la ciencia es <b>el conocimiento que se obtiene aplicando un método sistemático y verificable de observación de hechos empíricos, y la obtención de proposiciones universales explicativas (leyes) por razonamiento tanto inductivo como deductivo</b>. Los hechos no se observan de forma directa y sin problemas a través de los sentidos, porque pueden estar influenciados por la percepción del observador.</p>
+
+<h2>Las 4 etapas del método científico</h2>
+<table>
+<tr><th>Etapa</th><th>En qué consiste</th></tr>
+<tr><td><b>1. Observación de la realidad</b></td><td>Punto de partida: recoger hechos empíricos</td></tr>
+<tr><td><b>2. Elaboración de hipótesis explicativas</b></td><td>Proponer una explicación tentativa y contrastable</td></tr>
+<tr><td><b>3. Contraste de las hipótesis</b></td><td>Someterlas a prueba (diseño experimental/observacional + estadística)</td></tr>
+<tr><td><b>4. Teoría científica</b></td><td>Conocimiento general resultante, ya validado</td></tr>
+</table>
+<div class="callout warn">Trampa de examen frecuente: opciones que dicen "consta <b>solamente</b> de inferencia inductiva" o "solamente de inferencia deductiva" son falsas — el método científico completo son las 4 etapas de la tabla, no un único tipo de razonamiento.</div>
+
+<h2>Inducción vs. deducción</h2>
+<table>
+<tr><th>Razonamiento</th><th>Dirección</th><th>Ejemplo de frase que lo describe</th></tr>
+<tr><td><b>Inductivo</b></td><td>De casos particulares → conclusión general</td><td>"N observaciones particulares ⇒ conclusión general"</td></tr>
+<tr><td><b>Deductivo</b></td><td>De una ley/enunciado general → casos particulares</td><td>"Enunciado general ⇒ modelos y predicción de casos particulares"</td></tr>
+</table>
+<p>Las leyes y teorías del conocimiento científico se derivan por <b>inducción</b> a partir de una base de hechos suministrada por la observación y la experimentación; una vez que se cuenta con ese conocimiento general, se recurre a él (razonamiento <b>deductivo</b>) para hacer predicciones y ofrecer explicaciones sobre casos concretos.</p>
+<div class="callout warn">Cuidado con la pregunta "cuando se aplica una ley o conclusión general a casos particulares, estamos hablando de...": aplicar algo general a casos particulares es, por definición, razonamiento <b>deductivo</b> — no lo confundas con la inducción (que va justo en la dirección contraria, de lo particular a lo general).</div>
+
+<h2>Observación científica</h2>
+<p>Las observaciones realizadas para generar conocimiento deben ser <b>activas y públicas</b> (no pasivas ni privadas): activas porque el investigador busca deliberadamente el dato, y públicas porque deben poder ser comprobadas/replicadas por otros.</p>
+
+<div class="callout mnemo">Truco: "ObservAP" — Observación = Activa y Pública. Si alguna opción dice "pasiva" o "privada", descártala.</div>
+
+<div class="footer-page">Tema 1 — Método científico y generación de conocimiento</div>
+
+<!-- ===================== TEMA 2 ===================== -->
+<h1 class="tema"><span class="num">Tema 2</span>Hipótesis y contraste de hipótesis</h1>
+
+<h2>Qué son las hipótesis</h2>
+<p>Son proposiciones tentativas acerca de: la relación entre dos o más variables, el ajuste de las observaciones a distribuciones teóricas, o la comparación (igualdad o diferencia) entre dos o más grupos de observaciones. Todas las siguientes afirmaciones sobre las hipótesis son ciertas a la vez (pregunta clásica de "todas son correctas"):</p>
+<ul>
+<li>Las hipótesis no se demuestran, sino que se rechazan o no se rechazan.</li>
+<li>Deben establecerse de manera que sea posible demostrar su falsedad (principio de <b>falsabilidad</b>).</li>
+<li>Deben poder contrastarse empíricamente.</li>
+</ul>
+
+<h2>H0 y H1</h2>
+<p>La <b>hipótesis nula (H0)</b> es la que se somete a contraste y afirma "no hay diferencia / no hay relación". La <b>hipótesis alternativa (H1)</b> es la que el investigador realmente sospecha y afirma "sí hay diferencia / sí hay relación".</p>
+<div class="callout">Ejemplo tipo examen: si H1 es "el consumo de antibióticos difiere entre hombres y mujeres", entonces H0 es exactamente la negación: <b>"no hay diferencias en la cantidad de antibióticos consumidos por hombres y mujeres"</b>. Una afirmación de este tipo NO puede ser solo el objetivo de la investigación — es la hipótesis en sí.</div>
+
+<h2>Regla de decisión con el p-valor</h2>
+<p>Una vez establecidas H0, H1, el nivel de significación α (habitualmente 5% = 0,05) y calculado el estadístico de contraste:</p>
+<div class="callout"><b>Si p &lt; α (p calculado menor que 0,05): se rechaza H0.</b> Si p ≥ α: se acepta/no se rechaza H0. Cuanto menor sea el p-valor, más confianza hay en que H1 sea cierta.</div>
+
+<h2>Errores tipo I y tipo II</h2>
+<table>
+<tr><th></th><th>H0 verdadera</th><th>H0 falsa (H1 cierta)</th></tr>
+<tr><td><b>Se rechaza H0</b></td><td>Error tipo I (α)</td><td>Decisión correcta</td></tr>
+<tr><td><b>Se acepta H0</b></td><td>Decisión correcta</td><td>Error tipo II (β)</td></tr>
+</table>
+<p>La probabilidad de rechazar H0 cuando en realidad es verdadera <b>implica cometer un error tipo I o α</b> (no tipo II, no potencia de contraste). La <b>potencia estadística</b> es la probabilidad de rechazar correctamente H0 cuando es falsa (1−β), es decir, lo contrario del error tipo II.</p>
+<div class="callout warn">No confundas "potencia de contraste" con "error tipo I": son conceptos que suelen aparecer como opciones distractoras cruzadas entre sí en la misma pregunta.</div>
+
+<div class="footer-page">Tema 2 — Hipótesis y contraste de hipótesis</div>
+
+<!-- ===================== TEMA 3 ===================== -->
+<h1 class="tema"><span class="num">Tema 3</span>Variables y su clasificación</h1>
+
+<table>
+<tr><th>Tipo de variable</th><th>Definición</th><th>Ejemplos típicos de examen</th></tr>
+<tr><td><b>Cualitativa nominal</b></td><td>Se expresa con letra/categoría, <u>sin</u> que exista un orden entre las categorías</td><td>Grupo sanguíneo (ABO), religión, provincia de nacimiento</td></tr>
+<tr><td><b>Cualitativa ordinal</b></td><td>Se expresa con letra/categoría, y <u>sí</u> es posible establecer un orden entre ellas</td><td>Grado de recuperación, consumo de alimento (escala), nivel de estudios</td></tr>
+<tr><td><b>Cuantitativa discreta</b></td><td>Se expresa con cifra <u>entera</u>, no admite valores intermediarios</td><td>Número de hijos, número de farmacias</td></tr>
+<tr><td><b>Cuantitativa continua</b></td><td>Se expresa con cifra que <u>sí</u> admite valores intermediarios</td><td>Altura, peso, concentración (p. ej. de sodio en sangre)</td></tr>
+</table>
+
+<div class="callout mnemo">Truco para no dudar entre discreta/continua: si tiene sentido preguntar "¿y un poquito más?" (1,5 hijos no tiene sentido, pero 1,75 m de altura sí), es <b>continua</b>. Si solo caben números enteros exactos, es <b>discreta</b>.</div>
+
+<div class="callout warn">Trampa clásica: "el grupo sanguíneo (ABO) puede considerarse..." — NO es cuantitativa de ningún tipo (no se puede promediar ni ordenar A, B, AB, 0), y tampoco es ordinal (no hay un orden natural entre los grupos). Es <b>cualitativa nominal</b>.</div>
+
+<div class="footer-page">Tema 3 — Variables y su clasificación</div>
+
+<!-- ===================== TEMA 4 ===================== -->
+<h1 class="tema"><span class="num">Tema 4</span>Estadística descriptiva</h1>
+
+<h2>Medidas de posición / tendencia central</h2>
+<table>
+<tr><th>Medida</th><th>Qué es</th></tr>
+<tr><td><b>Media</b></td><td>Promedio aritmético</td></tr>
+<tr><td><b>Mediana</b></td><td>Valor central al ordenar todos los datos</td></tr>
+<tr><td><b>Moda</b></td><td>Valor que <u>más se repite</u>, es decir, el de <b>mayor frecuencia absoluta</b></td></tr>
+<tr><td><b>Percentil</b></td><td>También es una medida de posición (no de dispersión)</td></tr>
+</table>
+<div class="callout warn">Trampa muy repetida en los exámenes reales: dan una tabla de estadísticos completa (media, mediana, moda, desviación estándar...) y preguntan "¿cuál es el valor con mayor frecuencia absoluta?". La respuesta SIEMPRE es la <b>moda</b>, nunca la media ni la mediana — aunque la media sea el número que "primero se ve" en la tabla.</div>
+
+<h2>Medidas de dispersión</h2>
+<table>
+<tr><th>Medida</th><th>Qué es</th></tr>
+<tr><td><b>Rango</b></td><td>Diferencia entre el valor máximo y el mínimo</td></tr>
+<tr><td><b>Varianza</b></td><td>Media de las desviaciones al cuadrado respecto a la media</td></tr>
+<tr><td><b>Desviación estándar</b></td><td>Raíz cuadrada de la varianza</td></tr>
+<tr><td><b>Coeficiente de variación (CV)</b></td><td>Desviación estándar dividida entre la media — permite comparar la variabilidad de dos grupos aunque tengan medias distintas</td></tr>
+</table>
+<div class="callout warn">Trampa de examen con dos métodos analíticos A y B: si te dan medias distintas para cada método y preguntan cuál es "mejor" (más preciso/menos variable), <b>NO</b> basta con comparar la desviación estándar o la varianza en bruto — hay que calcular el <b>coeficiente de variación</b> de cada uno. Se prefiere el método con <b>menor coeficiente de variación</b> ("menos CV es mejor").</div>
+
+<h2>Percentiles</h2>
+<p>El percentil 25 (P25) de una variable indica el valor por debajo del cual se encuentra el 25% de las observaciones. Ejemplo tipo examen: si el P25 de la talla de recién nacidos varones es 55 cm, significa que <b>el 25% de ellos tiene una talla inferior a 55 cm</b> (no "igual a", no "superior a").</p>
+
+<h2>Representación gráfica</h2>
+<p>Los <b>pictogramas</b> (y los diagramas de sectores) son un tipo de representación gráfica de <b>variables cualitativas</b>.</p>
+
+<div class="footer-page">Tema 4 — Estadística descriptiva</div>
+
+<!-- ===================== TEMA 5 ===================== -->
+<h1 class="tema"><span class="num">Tema 5</span>Pruebas estadísticas y su aplicación</h1>
+
+<h2>Paramétricos vs. no paramétricos</h2>
+<p>Los tests <b>paramétricos</b> son aquellos en los que <b>se conoce la distribución de los datos</b> (habitualmente normal); pueden aplicarse tanto a variables cualitativas como cuantitativas, no son exclusivos de un tipo. Los <b>no paramétricos</b> son aquellos en los que <b>se desconoce</b> la distribución de los datos.</p>
+
+<h2>Qué prueba usar según el caso</h2>
+<table>
+<tr><th>Situación</th><th>Prueba paramétrica</th><th>Prueba no paramétrica</th></tr>
+<tr><td>Comprobar si los datos siguen una distribución normal</td><td colspan="2"><b>Kolmogorov-Smirnov</b></td></tr>
+<tr><td>Comprobar homogeneidad de varianzas entre grupos</td><td colspan="2"><b>Test de Bartlett</b></td></tr>
+<tr><td>Comparar 2 grupos independientes</td><td>t-Student</td><td>Mann-Whitney</td></tr>
+<tr><td>Comparar 2 grupos relacionados/pareados</td><td>—</td><td>Wilcoxon</td></tr>
+<tr><td>Comparar 3+ grupos independientes</td><td>ANOVA de una vía (+ test post-hoc), si hay normalidad y homocedasticidad</td><td>—</td></tr>
+<tr><td>Correlacionar 2 variables cuantitativas</td><td>Correlación de Pearson</td><td>Correlación de Spearman</td></tr>
+<tr><td>Asociación entre 2 variables cualitativas</td><td colspan="2"><b>Chi-cuadrado (χ²)</b></td></tr>
+</table>
+
+<h2>Interpretar un ANOVA</h2>
+<p>Ejemplo tipo examen: tabla ANOVA con 4 dosis distintas de un medicamento, F alto y p-valor muy pequeño (p. ej. 2,4×10⁻⁹, muchísimo menor que 0,05). Como p &lt; α, <b>se rechaza H0</b> → <b>sí hay diferencias significativas</b> entre las dosis.</p>
+
+<h2>Interpretar un Chi-cuadrado</h2>
+<div class="callout">Regla fija: si <b>χ² experimental &lt; χ² teórico</b> (el de la tabla, según grados de libertad y α) → las variables son <b>independientes</b>, se acepta H0. Si <b>χ² experimental &gt; χ² teórico</b> → son <b>dependientes</b>, se rechaza H0.</div>
+
+<h2>Correlación de Pearson</h2>
+<table>
+<tr><th>Valor de r</th><th>Interpretación</th></tr>
+<tr><td>0 &lt; r ≤ 1</td><td>Correlación positiva</td></tr>
+<tr><td>r = 0</td><td>No hay correlación</td></tr>
+<tr><td>−1 ≤ r &lt; 0</td><td>Correlación negativa</td></tr>
+</table>
+<p>Ejemplo: r = 0,7 significa que existe <b>correlación positiva</b> entre las dos variables analizadas.</p>
+
+<h2>Distribuciones</h2>
+<p>La <b>distribución de Poisson</b> es la que se conoce como "distribución de sucesos raros", porque describe sucesos cuya probabilidad de ocurrencia es muy pequeña. No confundir con la distribución normal, que no tiene ese apodo.</p>
+
+<div class="footer-page">Tema 5 — Pruebas estadísticas y su aplicación</div>
+
+<!-- ===================== TEMA 6 ===================== -->
+<h1 class="tema"><span class="num">Tema 6</span>Diseño de estudios y muestreo</h1>
+
+<p>A la hora de seleccionar una muestra hay que tener en cuenta:</p>
+<ul>
+<li>Hay que definir <b>tanto la unidad de análisis como la población</b> (definir solo una de las dos es un error — trampa habitual: "hay que definir la unidad de análisis pero no la población" es <b>falso</b>).</li>
+<li>El muestreo de <b>sujetos voluntarios</b> es <b>no probabilístico</b>.</li>
+<li>El muestreo <b>estratificado</b> es <b>probabilístico</b>.</li>
+</ul>
+
+<table>
+<tr><th>Tipo de muestreo</th><th>¿Probabilístico?</th></tr>
+<tr><td>Sujetos voluntarios</td><td>No</td></tr>
+<tr><td>Estratificado</td><td>Sí</td></tr>
+</table>
+
+<div class="callout mnemo">"Voluntario, no probatorio" (voluntarios → no probabilístico) frente a "estratificado, sí garantizado" (estratificado → sí probabilístico).</div>
+
+<div class="footer-page">Tema 6 — Diseño de estudios y muestreo</div>
+
+<!-- ===================== TEMA 7 ===================== -->
+<h1 class="tema"><span class="num">Tema 7</span>Documentación científica y bases de datos</h1>
+
+<h2>Bases de datos científicas</h2>
+<p>Una base de datos científica incorpora, mediante estricta evaluación y selección, revistas que cumplen los requisitos que ella misma establece, registrando metadatos bibliográficos completos (incluidos resúmenes en inglés y referencias) y dando cobertura mundial a la revista. Las principales que aparecen en examen:</p>
+<table>
+<tr><th>Base de datos</th><th>Nota</th></tr>
+<tr><td><b>ScienceDirect</b></td><td>La más citada en los exámenes de esta asignatura</td></tr>
+<tr><td><b>PubMed</b></td><td>Especializada en ciencias de la salud/biomedicina</td></tr>
+<tr><td><b>Scopus</b></td><td>Multidisciplinar</td></tr>
+<tr><td><b>Web of Science (WOS)</b></td><td>Multidisciplinar, asociada a Journal Citation Reports</td></tr>
+</table>
+<div class="callout warn">No confundas una base de datos científica (ScienceDirect, PubMed...) con un gestor de referencias (Endnote) ni con una herramienta de encuestas (SurveyMonkey) — es un distractor recurrente meterlos juntos en las opciones de la misma pregunta.</div>
+
+<h2>Bibliografía gris</h2>
+<p>Es una fuente documental caracterizada por ser de <b>difícil acceso</b> y, aun así, <b>contener información valiosa</b> (no es "fácil acceso y sin nada importante", ni tampoco se define por estar "sin figuras en color").</p>
+
+<h2>Documentos científicos</h2>
+<p>Los documentos científicos son las publicaciones fundamentales, más reconocidas y fiables que hay que conocer para profundizar en una materia. Las publicaciones a congresos son un tipo de documentación científica.</p>
+
+<div class="footer-page">Tema 7 — Documentación científica y bases de datos</div>
+
+<!-- ===================== TEMA 8 ===================== -->
+<h1 class="tema"><span class="num">Tema 8</span>Gestores bibliográficos y herramientas informáticas</h1>
+
+<table>
+<tr><th>Herramienta</th><th>Para qué sirve</th></tr>
+<tr><td><b>Endnote / EndnoteWeb</b></td><td>Gestor de referencias bibliográficas: crea una base de datos personal de referencias a partir de búsquedas en catálogos, bases de datos y revistas electrónicas</td></tr>
+<tr><td><b>Mendeley</b></td><td>Gestor de referencias bibliográficas (alternativa a Endnote)</td></tr>
+<tr><td><b>SurveyMonkey</b></td><td>Confección de cuestionarios/encuestas para estudios experimentales u observacionales</td></tr>
+<tr><td><b>SPSS / Statgraphics</b></td><td>Software de análisis estadístico</td></tr>
+<tr><td><b>Excel</b></td><td>También permite calcular parámetros de estadística descriptiva</td></tr>
+</table>
+<div class="callout warn">Trampa: "es falso que parámetros de la estadística descriptiva puedan calcularse..." con la opción "únicamente aplicando la fórmula correspondiente" — esa es la respuesta FALSA que pide el enunciado, porque también pueden calcularse con calculadora científica, Excel o software especializado (SPSS, Statgraphics). No hace falta aplicar la fórmula a mano.</div>
+
+<div class="footer-page">Tema 8 — Gestores bibliográficos y herramientas informáticas</div>
+
+<!-- ===================== TEMA 9 ===================== -->
+<h1 class="tema"><span class="num">Tema 9</span>Calidad y evaluación de publicaciones científicas</h1>
+
+<h2>Indicadores de calidad</h2>
+<p>El <b>factor de impacto</b> (recogido en <b>Journal Citation Reports</b>, JCR) es el indicador de calidad científica más citado en examen, junto con el ISSN y la posición/cuartil de la revista dentro de su categoría.</p>
+
+<h2>Cuartiles</h2>
+<p>Las revistas se ordenan por factor de impacto dentro de su categoría, y se dividen en 4 cuartiles (Q1 a Q4). <b>Q1 es el mejor cuartil</b> (las revistas con mayor factor de impacto relativo de su categoría); Q3 y Q4 indican menor calidad relativa. Si una revista tiene rank 4 de 256 en su categoría, está en Q1 — claramente mejor que otra con rank 143 de 155 (Q3).</p>
+<div class="callout warn">No dejes que el número de factor de impacto "en bruto" te despiste: hay que compararlo <b>dentro de la categoría/especialidad de cada revista</b>, no en términos absolutos entre categorías distintas. Fíjate en el cuartil/rank, no solo en el valor del IF.</div>
+
+<h2>ISSN vs. ISBN</h2>
+<table>
+<tr><th>Código</th><th>Identifica</th></tr>
+<tr><td><b>ISSN</b></td><td>Una revista / publicación periódica</td></tr>
+<tr><td><b>ISBN</b></td><td>Un libro científico</td></tr>
+</table>
+
+<h2>Revisión por pares (peer review)</h2>
+<p>Según la American Library Association (ALA), una revista científica es una publicación periódica cuyos artículos <b>SÍ han sido evaluados PREVIAMENTE</b> (antes de publicarse) mediante un sistema de arbitraje por miembros de la comunidad científica, en un intento de asegurar un mínimo de estándares de calidad y validez científica.</p>
+<div class="callout warn">Trampa muy repetida: las opciones suelen cruzar dos ejes — "previamente" vs. "posteriormente", y "miembros de la comunidad científica" vs. "los propios autores". La combinación correcta es siempre <b>previamente + miembros de la comunidad científica</b> (nunca "posteriormente", nunca "los propios autores").</div>
+
+<div class="footer-page">Tema 9 — Calidad y evaluación de publicaciones científicas</div>
+
+<!-- ===================== TEMA 10 ===================== -->
+<h1 class="tema"><span class="num">Tema 10</span>Referencias bibliográficas y normas de citación</h1>
+
+<h2>Reglas generales</h2>
+<ul>
+<li>Las referencias bibliográficas se registran en el manuscrito <b>en función de las exigencias de la revista</b> donde se va a publicar (no siempre tienen que seguir un único estilo fijo como Vancouver — depende de las normas de cada revista).</li>
+<li>Los nombres de las revistas pueden abreviarse siguiendo <b>guías nacionales o internacionales</b> (no según el criterio personal del autor).</li>
+<li>Las referencias deben recoger documentos que SÍ sean recuperables por el lector (nunca documentos no recuperables).</li>
+<li>No deben citarse de forma indiscriminada.</li>
+</ul>
+
+<h2>Localizar un artículo a partir de su referencia</h2>
+<p>Para localizar un artículo concreto hace falta una referencia completa: autor, revista (abreviada), año, volumen y páginas — por ejemplo <i>"Int J Pharm, 1996;133:97-105"</i> permite localizarlo mejor que solo el nombre del autor y el año.</p>
+
+<h2>Elementos de una referencia tipo</h2>
+<p>Ejemplo de referencia real usada en examen: <i>"Ramus SJ, Kartsonaki C, [...] et al. Genetic variation at 9p22.2 and ovarian cancer risk for BRCA1 and BRCA2 mutation carriers. J Natl Cancer Inst. 2011; 103(2):105–16."</i></p>
+<table>
+<tr><th>Elemento</th><th>Valor en el ejemplo</th></tr>
+<tr><td>Año</td><td>2011</td></tr>
+<tr><td><b>Volumen</b></td><td><b>103</b> (el número justo después del año, antes del paréntesis)</td></tr>
+<tr><td>Número (fascículo)</td><td>2 (entre paréntesis)</td></tr>
+<tr><td>Páginas</td><td>105–16 (es decir, 105 a 116)</td></tr>
+</table>
+<div class="callout warn">Trampa de examen: piden "el volumen" y las opciones incluyen también el número de fascículo (2) y la primera página (105) como distractores. El volumen es el número que va inmediatamente después del año y antes del paréntesis: en este caso <b>103</b>.</div>
+
+<div class="footer-page">Tema 10 — Referencias bibliográficas y normas de citación</div>
+
+<!-- ===================== TEMA 11 ===================== -->
+<h1 class="tema"><span class="num">Tema 11</span>Estructura del artículo científico</h1>
+
+<h2>La introducción</h2>
+<p>Debe cumplir a la vez (pregunta típica de "todas son correctas"):</p>
+<ul>
+<li>Describir el <b>qué</b> y el <b>porqué</b> de la investigación.</li>
+<li>Indicar el propósito del artículo y una justificación del estudio.</li>
+<li>Definir el problema (pregunta) de investigación y plantear los objetivos.</li>
+</ul>
+
+<h2>La discusión</h2>
+<p>Debe cumplir a la vez:</p>
+<ul>
+<li>Analizar e interpretar los datos de la investigación según la metodología empleada, para concretar una respuesta (conclusión) a la pregunta (objetivo) de la investigación.</li>
+<li>Describir el significado de los hallazgos del estudio y las conclusiones que deriven de ellos.</li>
+<li>Destacar los aspectos nuevos y relevantes del estudio y las principales conclusiones que deriven de ellos.</li>
+</ul>
+<div class="callout warn">Trampa de examen: "en la discusión de un artículo estándar, es falso que..." con 3 opciones que describen correctamente la discusión (las de la lista de arriba) y una cuarta opción "todas son falsas". Ojo con leer bien si te piden lo <b>verdadero</b> o lo <b>falso</b> — en ese caso concreto ninguna de las 3 descripciones es falsa, así que "todas son falsas" es la opción incorrecta a marcar como respuesta a "qué es falso" solo si el resto son ciertas; lee el enunciado dos veces antes de responder.</div>
+
+<div class="footer-page">Tema 11 — Estructura del artículo científico</div>
+
+<!-- ===================== TEMA 12 ===================== -->
+<h1 class="tema"><span class="num">Tema 12</span>Publicación científica: proceso editorial y causas de rechazo</h1>
+
+<h2>Causas de rechazo de un manuscrito</h2>
+<ul>
+<li>El título contiene el nombre comercial de un producto (debe usarse el nombre genérico/científico).</li>
+<li>No colocar títulos a las tablas, gráficos y figuras.</li>
+<li>Las referencias bibliográficas no coinciden con las referencias señaladas en el texto.</li>
+</ul>
+<div class="callout">Estas tres causas suelen aparecer juntas como opciones a/b/c en la misma pregunta, con "todas las opciones son correctas" como cuarta opción — y, efectivamente, en ese planteamiento concreto sí lo son las tres a la vez.</div>
+
+<div class="footer-page">Tema 12 — Publicación científica: proceso editorial y causas de rechazo</div>
+
+<!-- ===================== TEMA 13 ===================== -->
+<h1 class="tema"><span class="num">Tema 13</span>Lectura crítica de artículos científicos</h1>
+
+<h2>Definición y componentes</h2>
+<p>La lectura crítica es la capacidad del lector para hacer consciente una postura propia sobre lo expresado en el texto, descubriendo los supuestos implícitos, la idea directriz y los puntos fuertes y débiles de los argumentos, y proponer otros planteamientos que superen los del autor, para así reafirmar o modificar su propia postura.</p>
+<div class="callout"><b>Los tres componentes de la lectura crítica son: interpretar, enjuiciar y proponer.</b> Es la respuesta correcta siempre que aparezca esta pregunta — las otras opciones intentan quitar uno de los tres verbos ("sin proponer", "no enjuiciar") y son incorrectas.</div>
+
+<h2>Qué debe valorar una lectura crítica completa</h2>
+<p>Basado en el modelo de tareas corregidas de la asignatura, una lectura crítica bien hecha valora, en este orden:</p>
+<ol>
+<li>Título y resumen</li>
+<li>Introducción y justificación</li>
+<li>Objetivo</li>
+<li>Diseño del estudio</li>
+<li>Muestra y criterios de selección</li>
+<li>Variables e instrumentos de medida</li>
+<li>Análisis estadístico</li>
+<li>Presentación de resultados</li>
+<li>Discusión</li>
+<li>Conclusiones</li>
+<li>Limitaciones</li>
+<li>Aspectos éticos y conflicto de intereses</li>
+<li>Bibliografía</li>
+</ol>
+<p>Y, sobre todo, debe comprobar la <b>coherencia</b> entre objetivos, método, resultados y conclusiones: que el estudio realmente responda con su metodología a la pregunta que se planteó, y que las conclusiones no vayan más allá de lo que los resultados permiten afirmar.</p>
+
+<div class="callout mnemo">Acróstico para los 3 verbos: <b>I</b>nterpretar (qué dice el texto) → <b>E</b>njuiciar (si los argumentos son sólidos) → <b>P</b>roponer (qué harías tú distinto). "IEP", en ese orden.</div>
+
+<div class="footer-page">Tema 13 — Lectura crítica de artículos científicos</div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+Imagina dos frascos con el mismo principio activo, mismo lote de fabricante, misma fórmula química exacta. Y aun así, uno se disuelve rápido y el otro se queda medio sin disolver en el estómago. No es magia, es estado sólido: la misma molécula puede empaquetarse de formas distintas, y esas formas distintas se comportan de manera distinta. De eso habla esta pista: de cristales, de formas amorfas, de polimorfismo, y de cómo se detecta todo esto en el laboratorio antes de que se convierta en un problema en el paciente.
+
+Empecemos por cómo se comporta un sólido cuando le aplicas una fuerza. Hay dos tipos. El sólido elástico se deforma mientras dura la fuerza, y en cuanto la fuerza desaparece, el sólido vuelve exactamente a su forma original. Es una deformación reversible. El sólido plástico es distinto: existe un límite de fuerza a partir del cual el sólido se deforma de manera permanente, sin llegar a romperse del todo. Esa deformación ya no se recupera cuando dejas de aplicar la fuerza. Y aquí va el dato que más preguntan de esta parte: la deformación plástica es típica de los sólidos amorfos. Los sólidos cristalinos, en cambio, tienden a comportarse como elásticos hasta que se fracturan. Si te preguntan qué tipo de sólido se deforma de forma permanente y no vuelve a su forma, la respuesta casi siempre es amorfo, no cristalino.
+
+Ahora, qué es exactamente un cristal. Un cristal tiene una red interna: una disposición ordenada y repetida de átomos, moléculas o iones en las tres dimensiones del espacio. Esa red interna es la que define la identidad química y física profunda del compuesto. Pero el aspecto externo del cristal, lo que se llama hábito cristalino, puede cambiar según las condiciones en las que se ha formado: el disolvente usado, la temperatura, la velocidad de enfriamiento. Así que puedes tener el mismo compuesto, con la misma red cristalina interna, mostrando formas externas distintas según cómo se ha cristalizado. Ojo con esto, porque es una trampa típica de examen: el hábito cristalino es el aspecto externo, no el interno; lo que se mantiene constante para una misma forma es la red interna, no la apariencia de fuera.
+
+El polimorfismo va un paso más allá: es la capacidad de un compuesto de cristalizar en más de una forma, con redes internas distintas entre sí, no solo aspectos externos distintos. Si una sustancia cristaliza de varias formas bajo las mismas condiciones, solo una de esas formas es la termodinámicamente estable. Las demás son metaestables, y con el tiempo tienden a transformarse en la forma estable. Esto importa mucho en farmacia porque cada forma polimórfica puede tener un punto de fusión distinto, una solubilidad distinta y una estabilidad distinta, aunque la fórmula química sea exactamente la misma.
+
+Relacionado con esto están los hidratos y los solvatos. Son compuestos cristalinos que incorporan, dentro de su propia red cristalina, moléculas de agua o de otro disolvente, en una proporción estequiométrica, es decir, en una proporción fija y definida, no aleatoria. Si lo que se incorpora es agua, se llama hidrato. Si es cualquier otro disolvente, se llama solvato en general. Fíjate en el matiz: no es que el agua esté simplemente mezclada con el sólido, es que forma parte de la propia estructura cristalina, en una cantidad exacta y constante.
+
+Y aquí viene un dato que se repite mucho en el banco de preguntas, así que te lo digo de dos maneras distintas para que se quede grabado. Primera forma de decirlo: la forma anhidra de un compuesto, es decir, la que no lleva agua en su red, se disuelve en general antes y más rápido que su correspondiente hidrato. Segunda forma de decirlo, más adelante en la misma idea: si tienes que elegir entre trabajar con la forma hidratada o con la forma anhidra de un principio activo para conseguir mejor biodisponibilidad, la anhidra gana casi siempre, porque el hidrato ya está parcialmente estabilizado por esas moléculas de agua atrapadas en su red, y necesita menos energía para llegar al equilibrio, lo cual se traduce en una disolución más lenta. Como norma general en preformulación, se prefiere la forma anhidra frente al hidrato precisamente por esto.
+
+Otro factor que afecta a la velocidad de disolución, y que también se repite bastante en el examen, es el tamaño de partícula. Cuanto mayor es el tamaño de partícula, menor es la superficie de contacto con el disolvente, y por tanto menor la solubilidad aparente y la velocidad de disolución. Dicho de otra forma, y esta es la segunda vez que te lo digo: si reduces el tamaño de partícula de un sólido, aumentas su superficie específica, y esa mayor superficie hace que se disuelva más deprisa. Es la misma lógica por la que un terrón de azúcar entero tarda más en disolverse en el café que el mismo azúcar molido. Este principio es tan importante que le vamos a dedicar toda la siguiente pista, la de reducción de tamaño de partícula.
+
+Ahora, un punto que suele aparecer como pregunta de verdadero o falso: las sustancias amorfas son inestables durante el almacenamiento. Con el tiempo, pueden cristalizar espontáneamente, y ese cambio de estado altera tanto su estabilidad como su velocidad de disolución, pudiendo generar precipitados inesperados y modificar la biodisponibilidad del medicamento ya fabricado. Si en una pregunta te dicen que las formas amorfas son estables durante el almacenamiento, esa opción es falsa casi seguro.
+
+Vamos con las técnicas para caracterizar todo esto: punto de fusión, polimorfos, hidratos. Hay cuatro técnicas que tienes que tener claras, y una quinta que se usa para otra cosa distinta, que es la trampa favorita del examen. El método del capilar te da un valor aproximado del punto de fusión, no exacto: metes una muestra en un tubo capilar muy fino, calientas poco a poco, y observas en qué rango de temperatura funde. Es sencillo, pero impreciso. Luego tienes tres técnicas que sí son técnicas térmicas, es decir, que se basan en observar cómo cambia el material frente a la temperatura: la microscopía de platina caliente, donde observas visualmente el sólido mientras se calienta de forma controlada; la calorimetría diferencial de barrido, que mide los flujos de calor asociados a las transiciones del material, como la fusión o los cambios de forma cristalina; y la termogravimetría, que registra cómo cambia el peso de la muestra a medida que sube la temperatura, muy útil para detectar la pérdida de agua de un hidrato. Estas tres, microscopía de platina caliente, calorimetría diferencial de barrido y termogravimetría, son técnicas térmicas. Y la quinta técnica, la difracción de rayos X, no lo es: se usa para estudiar directamente la estructura cristalina del material, no para observar su comportamiento frente al calor. Si en el examen te preguntan cuál de estas técnicas no es una técnica térmica, la respuesta es la difracción de rayos X.
+
+Por último, un apunte breve sobre los lotes experimentales: se utilizan para analizar la estabilidad de un producto antes de fabricarlo a gran escala. Son útiles, orientan bastante bien, pero sus resultados no se pueden dar por completamente extrapolables sin más al producto ya fabricado a escala comercial real; el proceso de escalado puede introducir diferencias.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: un compuesto cristaliza en dos formas distintas bajo exactamente las mismas condiciones. ¿Cuántas de esas formas son termodinámicamente estables?
+
+[PAUSA 3s]
+
+Respuesta: solo una. Es la definición misma de polimorfismo: puede haber varias formas cristalinas posibles, pero solo una es la estable; el resto son metaestables y tienden, con el tiempo, a transformarse en esa forma estable.
+
+Si has dudado pensando que podían ser estables varias a la vez: no, eso rompería la lógica termodinámica del sistema; solo hay un mínimo de energía real, y solo una forma lo ocupa.
+
+Pregunta: ¿qué tipo de sólido presenta, de forma típica, deformación plástica: el cristalino o el amorfo?
+
+[PAUSA 3s]
+
+Respuesta: el amorfo. Al no tener una red ordenada que oponga resistencia estructural, se deforma de manera permanente bajo una fuerza, sin volver a su forma original.
+
+Si has dudado con el cristalino: los sólidos cristalinos se comportan más bien como elásticos, recuperando su forma cuando cesa la fuerza, hasta que llegan a un punto de fractura.
+
+Pregunta: entre la forma anhidra y la forma hidratada de un mismo compuesto, ¿cuál se disuelve más rápido, en general?
+
+[PAUSA 3s]
+
+Respuesta: la forma anhidra. El hidrato ya está parcialmente estabilizado por el agua atrapada en su red cristalina, así que necesita menos energía para el equilibrio, y eso se traduce en una disolución más lenta.
+
+Si has dudado pensando que el hidrato se disuelve antes por "ya tener agua": es justo al revés; esa agua ya incorporada es lo que ralentiza el proceso, no lo que lo acelera.
+
+Pregunta: de estas cuatro técnicas, método del capilar, microscopía de platina caliente, calorimetría diferencial de barrido y difracción de rayos X, ¿cuál es la única que no se considera una técnica térmica?
+
+[PAUSA 3s]
+
+Respuesta: la difracción de rayos X. Las otras tres se basan en observar el comportamiento del material frente a la temperatura; la difracción de rayos X estudia directamente la estructura cristalina, sin necesidad de variar la temperatura.
+
+Si has dudado con el método del capilar: el capilar sí es una técnica relacionada con el calor, aunque solo dé un valor aproximado del punto de fusión, no exacto.
+
+Antes de cerrar, tres ideas para quedarte con lo esencial de esta pista. Primero: el hábito cristalino es solo el aspecto externo del cristal y puede cambiar; la red interna, en cambio, es lo que de verdad define la forma cristalina, y en el polimorfismo, de todas las formas posibles solo una es la estable. Segundo: la forma anhidra se disuelve más rápido que el hidrato correspondiente, y a menor tamaño de partícula, mayor es la solubilidad aparente; las sustancias amorfas, además, son inestables durante el almacenamiento y pueden cristalizar con el tiempo. Tercero: para caracterizar el punto de fusión y los polimorfos, memoriza el método del capilar, que da un valor aproximado, no exacto, y las tres técnicas térmicas propiamente dichas: microscopía de platina caliente, calorimetría diferencial de barrido y termogravimetría. La que no es una técnica térmica, y es la trampa típica del examen, es la difracción de rayos X, que se usa para estudiar la estructura cristalina en sí misma.

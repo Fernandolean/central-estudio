@@ -1,0 +1,83 @@
+Purinas y pirimidinas son las trampas favoritas de examen en este bloque: el enunciado intercambia a propósito el síndrome de Lesch-Nyhan con las pirimidinas, o la aciduria orótica con las purinas, y si no tienes clarísimo cuál es cuál, caes. Lo mismo pasa con tres enfermedades de transporte de aminoácidos que suenan parecidísimas entre sí. Esta pista está pensada para que salgas con esas confusiones resueltas, además del ciclo de la urea bien entendido, que tiene una trampa propia igual de repetida.
+
+La digestión de las proteínas funciona como una cascada de zimógenos, parecida a la de los factores de coagulación. El ácido clorhídrico gástrico activa el pepsinógeno a pepsina; en el intestino, la enteroquinasa activa el tripsinógeno a tripsina, que activa en cascada al resto de proteasas pancreáticas hasta dejar oligopéptidos, y el enterocito termina el trabajo hasta aminoácidos libres, absorbidos por transportadores específicos de cada grupo. Estos mismos transportadores existen en el túbulo renal, y ahí un fallo es más grave: el aminoácido se pierde por la orina, la aminoaciduria.
+
+Hay tres enfermedades de transporte que el examen adora mezclar entre sí. La cistinuria afecta a los aminoácidos dibásicos, cistina, lisina, arginina y ornitina; la cistina perdida por la orina es poco soluble, sobre todo en medio ácido, así que precipita en cristales hexagonales planos, con riesgo de cálculos renales. La enfermedad de Hartnup afecta a los aminoácidos neutros, sobre todo el triptófano: su pérdida impide sintetizar NAD y produce picores y fotosensibilidad, y el triptófano no absorbido, metabolizado por bacterias intestinales, da indicán, que mancha las heces de azul, el síndrome del pañal azul. Y la iminoglicinuria afecta a glicina, prolina e hidroxiprolina, la más tranquila de las tres, casi siempre asintomática. Para diferenciarlas rápido: cristales hexagonales es cistinuria, heces azules es Hartnup, sin signo característico es iminoglicinuria.
+
+Ojo con un nombre casi idéntico a cistinuria pero de enfermedad distinta: la cistinosis, donde el defecto no es un transportador de membrana en riñón e intestino, sino uno que saca la cistina del lisosoma. Aquí la cistina se acumula dentro de la célula, no aparece en la orina, y daña riñón y ojo, con cristales en la córnea. Cistinuria con cristales en orina, cistinosis con acúmulo intracelular sin cristales en orina: nombres parecidos, mecanismos opuestos.
+
+Cuando falta una enzima en una ruta de degradación de aminoácidos, el intermediario anterior se acumula, a veces hasta niveles tóxicos, y puede faltar el producto final. Para diagnosticar se usa el aminograma, el perfil completo de aminoácidos por HPLC, y el test de Guthrie, una prueba microbiológica en la que una cepa bacteriana con un requerimiento nutricional concreto crece o no según ese aminoácido esté en exceso o en defecto.
+
+Entre los aminoácidos aromáticos, el caso más conocido es la fenilcetonuria: falta la fenilalanina hidroxilasa, o su cofactor BH cuatro, y la fenilalanina se acumula generando metabolitos tóxicos para el cerebro, con caída de la tirosina. Sin tratamiento produce retraso mental e hipopigmentación, porque la fenilalanina inhibe la tirosinasa. Se detecta en el cribado neonatal, la prueba del talón, y se trata con restricción de fenilalanina, a veces junto con BH cuatro.
+
+La tirosinemia tipo uno, por déficit de fumarilacetoacetasa, es la más grave: genera succinilacetona, un metabolito muy lesivo que daña hígado, riñón y sistema nervioso central, con evolución frecuente a cirrosis. La tirosinemia tipo dos, por déficit de tirosina transaminasa, es mucho más leve, con afectación cutánea y ocular.
+
+Y aquí llega una de las confusiones más repetidas del bloque: la alcaptonuria, por déficit de homogentísico oxidasa, produce una orina que se oscurece al exponerse al aire o a la luz, por el ácido homogentísico acumulado, que además se deposita en cartílagos dando ocronosis y artritis. No la confundas con el pañal azul de Hartnup: orina oscura con el aire es alcaptonuria, heces azules por indicán es Hartnup. Y el albinismo cierra el grupo, por déficit de tirosinasa, la enzima que fabrica melanina.
+
+En los aminoácidos azufrados, la protagonista es la homocistinuria, otra de las que más se repite en examen: déficit de cistationina sintasa, o de metionina sintasa, muchas veces por falta de vitamina B seis, cobalamina o folato. Se acumulan homocisteína y metionina, con alteraciones esqueléticas, osteoporosis y tórax en quilla, tromboembolias, y luxación del cristalino. Se trata con restricción de metionina y vitamina B seis.
+
+Ya has visto la cistinuria, con cristales en orina, y la cistinosis, con acúmulo intracelular sin cristales. Quedan dos: la cistationuria, déficit de cistationasa, con acúmulo de cistationina; y el déficit de sulfito oxidasa, de los cuadros más graves del bloque, con dismorfia facial, convulsiones, retraso mental grave y fallecimiento antes de los dos años, sin tratamiento eficaz.
+
+De los básicos y ramificados, quédate con dos ideas. Entre los básicos, la hiperlisinemia acumula lisina, que además inhibe el ciclo de la urea. Entre los ramificados, leucina, isoleucina y valina, está la EOJA, la enfermedad de la orina con olor a jarabe de arce, otra de las más repetidas: déficit de las enzimas que los catabolizan, con ácidos orgánicos de olor característico, y marcador patognomónico la aloisoleucina. Puede dar hiperamonemia, porque esos ácidos orgánicos inhiben la primera enzima del ciclo de la urea.
+
+El ciclo de la urea ocurre entero en el hígado, y su función es eliminar el amonio en forma de urea. El amonio y el bicarbonato se condensan en carbamoil fosfato, por la carbamoil fosfato sintetasa uno; el carbamoil fosfato se une a la ornitina para formar citrulina, por la ornitina transcarbamoilasa; la citrulina se une a aspartato formando argininosuccinato, que se rompe en arginina y fumarato; y por último la arginina se hidroliza en urea, que se elimina por la orina, y ornitina, que se regenera para otra vuelta. Los déficits más frecuentes y graves son los de las dos primeras enzimas.
+
+Aquí está la trampa más repetida de todo el bloque, y quiero que te quede clavada: cuando el ciclo de la urea falla, la urea en sangre baja, no sube, porque el ciclo no consigue completarse; lo que sí sube es el amonio. La frase "una urea alta en sangre indica una alteración del ciclo de la urea" es falsa, al revés de lo que parece intuitivo: lo indicativo no es la urea alta, es el amonio alto.
+
+En cifras: hiperamonemia por encima de cuarenta micromoles por litro, y por encima de sesenta hay riesgo de daño neuronal y edema cerebral, porque el amonio se combina con glutamato formando glutamina, molécula que arrastra agua hacia las células cerebrales. El diagnóstico definitivo es la actividad enzimática en biopsia hepática, y el tratamiento combina dieta hipoproteica, benzoato o fenilacetato como vía alternativa para el nitrógeno, y en casos graves, trasplante hepático.
+
+Las purinas, adenina y guanina, y las pirimidinas, citosina, timina y uracilo, forman parte de los ácidos nucleicos, de cofactores como el NAD, y de nucleótidos como el ATP. Se sintetizan de novo, una vía cara en energía, o se reciclan por rutas de salvamento, mucho más baratas. Dato clave para no confundir: en la degradación de las purinas siempre se llega al mismo producto final, el ácido úrico, que además actúa como antioxidante. Las pirimidinas, en cambio, no tienen un producto final común de degradación, aunque sí comparten un intermediario en su síntesis, el orotato.
+
+Cuando sobra ácido úrico aparece la gota. La gota primaria se debe sobre todo a una eliminación renal insuficiente, aunque también puede haber exceso de purinas en la dieta o más síntesis de novo, y es más frecuente en hombres de mediana edad. La secundaria aparece por otras causas, como la glucogenosis tipo uno o la quimioterapia, y la juvenil familiar es temprana, grave y autosómica recesiva. El urato monosódico precipita en cristales con forma de estrella, con artritis dolorosa, tofos y cálculos urinarios, en progresión de hiperuricemia asintomática a gota aguda y luego crónica. El tratamiento de referencia es el alopurinol, análogo de la hipoxantina que inhibe la xantina oxidasa, aunque no revierte el daño ya establecido.
+
+Dentro de la hiperuricemia, el síndrome de Lesch-Nyhan, por déficit de la enzima HGPRT, impide reciclar las purinas por la vía de salvamento, y la síntesis de novo aumenta compensatoriamente: aparece hiperuricemia con hiperuricosuria, anemia megaloblástica por consumo de folato, y un cuadro neurológico grave con autolesión, agresividad y retraso mental y de crecimiento.
+
+Del lado contrario, con menos ácido úrico, está la xantinuria hereditaria, por déficit de xantina oxidasa: no se pasa de hipoxantina a xantina ni de xantina a ácido úrico, así que se acumulan ambas, formando cristales lisos, ovalados, marrón-anaranjados, distintos de los de estrella de la gota y de los hexagonales de la cistinuria. Y el déficit de adenosina desaminasa, la ADA, provoca inmunodeficiencia combinada grave por toxicidad sobre linfocitos B, T y NK.
+
+Del lado de las pirimidinas está la aciduria orótica hereditaria, por déficit de OPRT y ODC, que impiden fabricar nucleótidos pirimidínicos desde el orotato. Se acumula ácido orótico, con anemia megaloblástica, retraso mental y alteración del pH.
+
+Y aquí cierra el círculo de la confusión con la que empezaba la pista: Lesch-Nyhan y xantinuria son alteraciones de las purinas, no de las pirimidinas. La aciduria orótica hereditaria es justo al revés, de las pirimidinas, no de las purinas. Aparecen constantemente intercambiadas como distractor, memoriza el emparejamiento correcto.
+
+Vamos con las preguntas.
+
+Pregunta: tres enfermedades del transporte de aminoácidos suenan parecidas: cistinuria, Hartnup e iminoglicinuria. ¿Cómo las diferencias rápido?
+
+[PAUSA 3s]
+
+Respuesta: por el signo característico. Cristales hexagonales y cálculos renales es cistinuria, por baja solubilidad de la cistina en medio ácido. Heces o pañal azul por indicán es Hartnup, por pérdida de triptófano. Y sin ningún signo llamativo, casi siempre asintomática, es iminoglicinuria.
+
+Si has dudado con la cistinosis: no es un defecto de transporte de membrana como la cistinuria, es una enfermedad lisosomal, con la cistina acumulada dentro de la célula, sin aparecer en la orina.
+
+Pregunta: ¿a qué grupo de aminoácidos pertenece la homocistinuria, y qué la diferencia de la cistinuria?
+
+[PAUSA 3s]
+
+Respuesta: es una alteración de los aminoácidos azufrados, por déficit de cistationina sintasa o metionina sintasa, con acúmulo de homocisteína y metionina, tromboembolias, alteraciones óseas y luxación del cristalino. Es distinta de la cistinuria, defecto de transporte renal de aminoácidos dibásicos con cálculos de cistina.
+
+Si has dudado con la cistationuria: es un déficit de cistationasa, mucho más leve, con acúmulo de cistationina, no de homocisteína.
+
+Pregunta: la enfermedad de la orina con olor a jarabe de arce, ¿qué grupo de aminoácidos afecta, y qué marcador confirma el diagnóstico?
+
+[PAUSA 3s]
+
+Respuesta: los alifáticos ramificados, leucina, isoleucina y valina. El marcador patognomónico es la aloisoleucina, un intermediario que solo aparece en esta enfermedad.
+
+Si has dudado con los no ramificados: esos son glicina, prolina e hidroxiprolina, y dan cuadros distintos, mucho menos relevantes.
+
+Pregunta: la alcaptonuria, ¿por qué se oscurece la orina, y cómo no confundirla con la enfermedad de Hartnup?
+
+[PAUSA 3s]
+
+Respuesta: se oscurece al exponerse al aire o a la luz por el ácido homogentísico acumulado, que además se deposita en cartílagos dando ocronosis y artritis. No la confundas con Hartnup: ahí lo que cambia de color son las heces, de azul, por el indicán del triptófano no absorbido, no la orina.
+
+Si has dudado con la fenilcetonuria: no cambia el color de la orina, su clínica es el retraso mental por acúmulo de fenilalanina.
+
+Pregunta: el síndrome de Lesch-Nyhan y la xantinuria hereditaria, ¿son alteraciones de las purinas o de las pirimidinas? ¿Y la aciduria orótica hereditaria?
+
+[PAUSA 3s]
+
+Respuesta: Lesch-Nyhan y xantinuria son de las purinas. Lesch-Nyhan, por déficit de HGPRT, da hiperuricemia grave; xantinuria, por déficit de xantina oxidasa, da justo lo contrario, hipouricemia. La aciduria orótica hereditaria es al revés, de las pirimidinas, por déficit de OPRT y ODC.
+
+Si has dudado con la xantinuria: es un error muy explotado en examen, cursa con hipouricemia, no hiperuricemia, porque el ácido úrico ni siquiera llega a formarse.
+
+Tres ideas para llevarte de esta pista. Primero, no mezcles las tres enfermedades de transporte: cristales hexagonales es cistinuria, heces azules es Hartnup, sin signos es iminoglicinuria, y ojo con la cistinosis, que suena parecido pero es lisosomal y completamente distinta. Segundo, cuando el ciclo de la urea falla, la urea baja y el amonio sube, nunca al revés, y ese amonio es peligroso a partir de sesenta micromoles por litro porque genera edema cerebral. Y tercero, Lesch-Nyhan y xantinuria son de las purinas, la aciduria orótica hereditaria es de las pirimidinas, y el examen intercambia estos nombres constantemente para ver si te pilla.

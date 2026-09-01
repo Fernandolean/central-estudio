@@ -1,0 +1,71 @@
+Dos apoproteínas se confunden constantemente en examen, y aunque las dos empiecen por apo, hacen trabajos opuestos. Una está en el quilomicrón y activa una enzima en el capilar para que la grasa de la dieta salga hacia los tejidos. La otra está en la LDL y es la que reconoce el receptor que decide si el colesterol entra en la célula. Confundirlas es el error más típico de todo el bloque de lípidos. De eso va esta pista: de cómo se digiere y transporta la grasa que comes, qué apoproteína hace qué, y qué pasa cuando el sistema falla y aparece una dislipemia.
+
+La grasa de la dieta es hidrófoba, así que antes de absorberse tiene que emulsionarse. Las sales y los ácidos biliares, con el movimiento intestinal, forman micelas mixtas, hidrófilas por fuera y con la grasa escondida por dentro, que atraviesan la capa de agua que rodea al enterocito. Dentro de la célula intestinal, los lípidos se reorganizan en quilomicrones, que no van directos a la sangre, sino que salen por la vía linfática hasta el conducto torácico, y de ahí a la circulación.
+
+Aquí aparece la primera apoproteína clave de la pista. El quilomicrón lleva en su superficie la apo C dos, que al llegar al capilar activa una enzima anclada al endotelio, la lipoproteína lipasa, o LPL, y esta hidroliza los triglicéridos del quilomicrón liberando ácidos grasos y glicerol para el tejido. Sin apo C dos no hay activación de la LPL, y sin LPL no hay liberación de grasa. Guárdate este dato, lo necesitarás otra vez.
+
+Cualquier fallo en la digestión, absorción o transporte de la grasa produce siempre el mismo signo: esteatorrea, heces con grasa, casi siempre con diarrea. Es una frase que cae literal en examen: la esteatorrea aparece siempre que hay una alteración en la digestión, absorción o transporte de los lípidos. Las causas pueden ser hepatobiliares, sin sales biliares no se forma la micela, pancreáticas, sin la enzima que digiere el triglicérido, intestinales, por fallo del peristaltismo, o por linfangiectasia, cuando los vasos linfáticos dañados atrapan dentro del enterocito los quilomicrones que ya se habían formado.
+
+Hay un caso más que se pregunta muchísimo: la abetalipoproteinemia. Aquí falta la apoproteína B, tanto la B cien como la B cuarenta y ocho, así que el enterocito no puede montar el quilomicrón, y la grasa se acumula dentro de la célula intestinal. Sin quilomicrones circulando, la enzima LCAT usa como sustrato alternativo la membrana de los glóbulos rojos, deformándolos en espículas: es la acantocitosis. Como además faltan quilomicrones, no se absorbe bien la vitamina E, y su déficit produce ataxia y degeneración de la retina. Un lactante que no gana peso, con acantocitos en el frotis y ausencia de quilomicrones y VLDL en el estudio lipídico, tiene el síndrome de Bassen-Kornzweig, confirmado porque en la electroforesis de lipoproteínas no aparece la banda del quilomicrón. Repite la cadena mentalmente: abetalipoproteinemia, acantocitosis por la LCAT sobre el eritrocito, Bassen-Kornzweig con ataxia por el déficit de vitamina E. Aquí no hay exceso de quilomicrones, hay ausencia total, justo lo contrario de lo que vas a ver con el tipo uno de Frederickson.
+
+Todas las lipoproteínas comparten la misma arquitectura: un núcleo hidrófobo con triglicéridos y colesterol esterificado, envuelto en una capa hidrófila de fosfolípidos, colesterol libre y apoproteínas, que son la parte que importa porque son las que reconocen los receptores.
+
+El quilomicrón, ya lo conoces, viene del intestino y transporta triglicéridos de la dieta. La VLDL viene del hígado y transporta triglicéridos fabricados por el propio hígado, con apo B cien en su superficie. Cuando la LPL le quita triglicéridos, la VLDL se convierte en IDL, un remanente que es el paso intermedio hacia la LDL, que ya solo lleva apo B cien y reparte colesterol a los tejidos periféricos.
+
+Aquí está la segunda apoproteína clave de la pista. La apo B cien de la LDL es la que reconoce el receptor de LDL, presente en casi todos los tejidos. Compárala con la que has visto antes: la apo C dos activa una enzima en el capilar, mientras que la apo B cien es reconocida por un receptor en la superficie celular. Una activa, la otra es reconocida: los dos papeles de apoproteína que más se confunden en examen.
+
+La quinta pieza es la HDL, fabricada en el hígado y en el intestino, que hace el camino contrario a la LDL: recoge colesterol sobrante de los tejidos periféricos y lo devuelve al hígado. Es el transporte reverso del colesterol, y es la razón por la que la HDL es la lipoproteína buena. Su componente principal, el que le da estabilidad estructural, es la apo A uno.
+
+Con esto ya tienes el dato de riesgo cardiovascular que más se pregunta: el quilomicrón y la HDL no son aterogénicos, mientras que la LDL sí lo es, y con ella la Lp a, parecida a la LDL y que además favorece que las plaquetas se agreguen. No aterogénico es quilomicrón y HDL; aterogénico es LDL y Lp a.
+
+Cierra el mapa con dos enzimas y dos receptores más. La LCAT, ya la conoces, esterifica el colesterol libre asociada a la HDL, y la CETP intercambia colesterol de la HDL por triglicéridos de VLDL, IDL y LDL. Además del receptor de LDL, existe el receptor de apo E, que reconoce remanentes como la IDL y solo está en el hígado. Y existe el receptor scavenger, o basurero, en los macrófagos, que reconoce LDL oxidada y Lp a sin estar regulado, captando sin frenarse nunca. Esa captación sin control convierte al macrófago en célula espumosa, y su acúmulo en un endotelio dañado, junto con plaquetas y tejido conectivo, forma la placa de ateroma.
+
+Ahora, qué pasa cuando el sistema falla. Las dislipemias son primarias si el problema está en el propio metabolismo de la lipoproteína, o secundarias si otra enfermedad repercute sobre él, y son hiperlipoproteinemias con exceso o hipolipoproteinemias con defecto. De hipolipoproteinemias recuerda tres: la abetalipoproteinemia, la hipobetalipoproteinemia familiar, y el déficit de apo A, la enfermedad de Tangier.
+
+Para las hiperlipoproteinemias se usa la clasificación de Frederickson, aceptada por la organización mundial de la salud, que se basa en qué lipoproteína está elevada, quilomicrón, VLDL o LDL, sin valorar nunca la HDL. El tipo uno, ya lo conoces, es la hiperquilomicronemia familiar por déficit de LPL o de apo C dos. El tipo dos A es la hipercolesterolemia familiar, por defecto del receptor de LDL. El tipo dos B suma VLDL y LDL elevadas. El tipo tres, disbetalipoproteinemia, es por defecto de apo E, con acúmulo de IDL. El tipo cuatro, hipertrigliceridemia familiar, es por exceso de síntesis de VLDL. Y el tipo cinco combina quilomicrones y VLDL elevados, por lipólisis insuficiente.
+
+Aquí tienes el truco que te ahorra memorizar tipo por tipo: los tipos uno y cinco fallan por un problema de lipólisis, no se degrada bien el triglicérido, por LPL o por apo C dos. El tipo cuatro falla al revés, por exceso de síntesis de VLDL. Y los tres tipos centrales, dos A, dos B y tres, fallan por un problema de captación por receptores, ya sea el receptor de LDL o el de apo E. Lipólisis en los extremos, síntesis en el cuatro, receptores en el medio.
+
+Sobre los signos cutáneos: los xantomas, con triglicéridos o colesterol altos, y las xantelasmas, sobre todo con colesterol alto, no son exclusivos de ningún tipo de dislipemia. Es un distractor típico decir que son patognomónicos de las hipertrigliceridemias, y no lo son.
+
+Para el estudio del perfil lipídico se necesita una muestra en ayunas de entre doce y catorce horas, evitando cambios de dieta, ejercicio, tabaco o alcohol los días previos. Una prueba sencilla y muy preguntada es dejar el suero en reposo a cuatro grados durante toda la noche: capa cremosa en superficie es exceso de quilomicrones, turbidez homogénea por debajo sin capa es exceso de VLDL, y la LDL y la HDL no cambian el aspecto del suero.
+
+El LDL colesterol casi nunca se mide directamente: se calcula con la fórmula de Friedewald, colesterol total menos HDL colesterol menos triglicéridos divididos entre cinco, porque ese cociente estima el colesterol que lleva la VLDL. Esta fórmula deja de ser fiable con triglicéridos muy altos o con quilomicrones presentes, así que no es aplicable en los tipos dos B, cuatro y cinco. El HDL colesterol no sale de Friedewald, se mide aparte, precipitando con ácido fosfotúngstico las lipoproteínas que llevan apo B, LDL y VLDL, y cuantificando lo que queda en el sobrenadante. No mezcles las dos técnicas.
+
+Como alternativa, la apo B en plasma refleja el conjunto de VLDL más LDL, las aterogénicas, y la apo A refleja la HDL, la antiaterogénica. Y si quieres ver qué lipoproteína está alterada, se hace un lipidograma, una electroforesis en gel revelada con un colorante específico para grasas.
+
+Vamos con las preguntas.
+
+Pregunta: en el quilomicrón, ¿qué apoproteína activa la lipoproteína lipasa, y qué apoproteína de la LDL reconoce el receptor de LDL?
+
+[PAUSA 3s]
+
+Respuesta: la apo C dos activa la LPL en el capilar, y la apo B cien de la LDL es la que reconoce el receptor de LDL. Son las dos apoproteínas que más se confunden en examen: una activa una enzima, la otra es reconocida por un receptor.
+
+Si has dudado con la apo A: la apo A uno es la que da estabilidad estructural a la HDL, no tiene nada que ver con activar la LPL ni con el receptor de LDL.
+
+Pregunta: un lactante con dificultad para ganar peso presenta acantocitos en el frotis, y el estudio lipídico muestra ausencia de quilomicrones y de VLDL. ¿Qué enfermedad es?
+
+[PAUSA 3s]
+
+Respuesta: abetalipoproteinemia, base del síndrome de Bassen-Kornzweig. Al faltar apo B no se forman quilomicrones, la LCAT usa los eritrocitos como sustrato alternativo y los deforma en acantocitos, y el déficit de vitamina E asociado produce ataxia.
+
+Si has dudado con el déficit de apo C dos: ese déficit hace justo lo contrario, acumula quilomicrones en plasma en vez de hacerlos desaparecer.
+
+Pregunta: ¿cuáles de las lipoproteínas plasmáticas NO tienen propiedades aterogénicas?
+
+[PAUSA 3s]
+
+Respuesta: el quilomicrón y la HDL. La LDL y la Lp a sí son aterogénicas: la LDL porque se oxida y es captada sin control por el receptor scavenger, formando células espumosas, y la Lp a porque además favorece la agregación plaquetaria.
+
+Si has dudado con la VLDL: el par seguro para esta pregunta es siempre quilomicrón y HDL, no la VLDL.
+
+Pregunta: ¿a qué tipo de la clasificación de Frederickson corresponde un paciente con déficit de lipoproteína lipasa, dolor abdominal, pancreatitis de repetición, y una capa cremosa en el suero tras el reposo en frío?
+
+[PAUSA 3s]
+
+Respuesta: tipo uno, la hiperquilomicronemia familiar. Sin LPL no se degradan los quilomicrones, se acumulan en plasma, suben mucho los triglicéridos, y por su tamaño y baja densidad forman esa capa cremosa característica.
+
+Si has dudado con el tipo cuatro: el tipo cuatro también da triglicéridos altos, pero por exceso de síntesis de VLDL, no por fallo de LPL, y en el suero da turbidez homogénea, no capa cremosa.
+
+Tres ideas para llevarte de esta pista. Primero, la apo C dos activa la LPL en el capilar, y es distinta de la apo B cien, reconocida por el receptor de LDL: los dos papeles de apoproteína que más se confunden en examen. Segundo, el quilomicrón y la HDL no son aterogénicos, la LDL y la Lp a sí lo son, y la clave está en el receptor scavenger de los macrófagos, no regulado, que forma células espumosas. Y tercero, en Frederickson los tipos uno y cinco fallan por lipólisis, el cuatro por exceso de síntesis, y los tipos dos A, dos B y tres por fallo de receptores.

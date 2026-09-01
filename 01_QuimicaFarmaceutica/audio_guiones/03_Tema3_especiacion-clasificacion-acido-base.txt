@@ -1,0 +1,55 @@
+Este bloque, tú solo, vale más que todo el resto del primer parcial junto. El ejercicio completo del fármaco asignado supone entre seis coma cinco y ocho puntos del examen. El resto, tres coma cinco puntos, es tipo test sobre los temas anteriores, y ojo, porque en ese test las respuestas incorrectas restan. Así que si dudas de verdad, mejor dejarla en blanco. Con esto ya sabes por dónde va la partida: aquí es donde se decide la nota, y lo que vamos a repasar ahora es exactamente lo que hace falta para no perder esos puntos.
+
+Empecemos por cómo se comportan los grupos funcionales, porque de eso depende todo el ejercicio de especiación. Primero, una regla que se repite en todas las clases y que conviene grabarse literalmente: todos los hidrógenos que cuelgan de un oxígeno o de un azufre son ácidos. Siempre. Sin excepciones ni casos raros. El problema de verdad, el que exige pensar, está en los hidrógenos que cuelgan de un nitrógeno, porque ahí sí hay que estudiar cada grupo por separado.
+
+Y aquí llegamos a la pareja que más se confunde en el examen: amida frente a amina. Una amina, ya sea alifática o aromática, siempre es básica, y en el esquema de especiación siempre parte protonada, con carga positiva, desde el primer momento. Una amida, en cambio, nunca actúa como base, a pesar de tener también un nitrógeno con un par de electrones libres. ¿Por qué? Porque ese par libre del nitrógeno de la amida está siempre resonando hacia el carbonilo que tiene al lado, un carbonilo con un efecto menos erre muy fuerte. El par de electrones prefiere deslocalizarse hacia ese carbonilo antes que quedarse disponible para captar un protón. Por eso la amida nunca es base, y como ácido es además muy débil, con un pe ka alrededor de catorce, así que a pH fisiológico la das prácticamente por neutra salvo que el enunciado te diga explícitamente lo contrario. Repite esto en tu cabeza cada vez que veas un nitrógeno en un fármaco: si el nitrógeno cuelga de un carbonilo, amida, nunca base; si el nitrógeno está aislado, sin ese carbonilo pegado, amina, siempre básica y siempre parte protonada.
+
+Dentro de las aminas hay un matiz importante. Una amina alifática normal es una base con basicidad completa. Pero si el nitrógeno cuelga directamente de un anillo aromático, como en una amina aromática, sus electrones libres empiezan a resonar también con el anillo, y eso le resta basicidad frente a una amina alifática corriente. Por eso una amina aromática es una base más débil, con un pe ka aproximado entre cuatro y seis, mientras que una amina alifática normal tiene un pe ka bastante más alto.
+
+Y en el extremo contrario de la tabla tienes la guanidina y la amidina, las bases más fuertes con las que vas a trabajar en todo el curso, con un pe ka aproximado entre doce y trece. Esto conviene repetirlo de dos formas distintas porque es un dato muy preguntado: la guanidina es la base más fuerte de toda la tabla de pe ka que usamos en clase, y eso significa que, a cualquier pH fisiológico razonable, la guanidina está protonada prácticamente siempre, sin excepción. Dicho de otra manera: por muy alto que suba el pH dentro de los rangos que vemos en fisiología, nunca vas a encontrar una guanidina sin protonar. En una amidina, que tiene dos nitrógenos, el que se protona es siempre el que tiene el doble enlace, el nitrógeno con hibridación sp dos que no participa en ninguna resonancia adicional. El otro nitrógeno de la amidina sí tiene su par de electrones deslocalizado por resonancia, igual que le pasaba al nitrógeno de la amida, así que ese otro nitrógeno queda mucho menos disponible para aceptar el protón.
+
+Con la clasificación de grupos ya en la cabeza, vamos al método de especiación paso a paso, que es literalmente lo que vas a tener que ejecutar con el fármaco que te hayan asignado. Primer paso: identificas todos los grupos ionizables del fármaco y les asignas el pe ka que da el enunciado. En el examen los valores de pe ka te los dan sueltos, sin decirte a qué grupo corresponde cada uno; tienes que razonarlo tú comparando con los rangos aproximados de la tabla de pe ka que hemos visto en clase. Segundo paso: planteas la especie de partida. Los grupos ácidos parten neutros, con su hidrógeno puesto; los grupos básicos parten protonados, con carga positiva. Tercer paso: vas perdiendo hidrógenos en orden, y el orden es siempre de menor a mayor pe ka: el primer protón que se pierde es el del grupo con el pe ka más bajo. Cuarto paso: nombras las especies de forma correlativa, especie uno, especie dos, especie tres, y así sucesivamente según vas perdiendo protones.
+
+El quinto paso es una regla que también conviene repetir con otras palabras porque es la base de casi todos los cálculos de este tema: la regla de más menos dos. Cada especie empieza a aparecer, en cantidad ya relevante, dos unidades de pH antes de su propio pe ka, y se vuelve prácticamente la única especie presente dos unidades de pH después de ese mismo pe ka. Dicho de otro modo: alrededor de cada pe ka hay una zona de cuatro unidades de pH, dos por debajo y dos por encima, donde conviven la forma con el protón y la forma sin él; fuera de esa zona, domina claramente una sola especie.
+
+Y ahora el punto que más se olvida y que más puntos cuesta si no lo declaras: la cuarta especie. Casi todos los fármacos de examen tienen exactamente dos pe ka reales, lo que en teoría te da solo tres especies posibles: la de partida, una intermedia, y la final tras perder los dos protones. Pero en el guion siempre hay que construir una cuarta especie más, aunque en la práctica esa especie casi nunca existe de verdad en cantidad significativa. ¿Cómo se obtiene? Es la combinación contraria a la especie de partida: en vez de perder primero el protón de menor pe ka y después el de mayor pe ka, como ocurre en el camino real, te imaginas que se pierde primero el protón que normalmente se pierde en segundo lugar, dejando el otro todavía puesto. Esa combinación cruzada es la cuarta especie. Y hay que etiquetarla siempre como minoritaria en todo el rango de pH fisiológico: no tiene sentido químico dominante en ningún punto real, pero el guion de examen exige que la declares igualmente, así que nunca la dejes fuera del ejercicio.
+
+Repitamos esto una vez más porque es de lo más preguntado del bloque: con dos pe ka reales tienes cuatro especies que declarar en total, no tres. Tres siguen el camino normal de pérdida de protones, y la cuarta es la combinación cruzada, minoritaria siempre, pero obligatoria de mencionar.
+
+Por último, una regla de clasificación de fuerza que ya viste en el tema cero y que aquí se aplica sin parar. A pH fisiológico, siete con cuatro, un ácido con un pe ka claramente por debajo de ese valor está mayoritariamente ionizado, así que se clasifica como ácido fuerte. Una base con un pe ka claramente por encima de siete con cuatro está mayoritariamente protonada, así que se clasifica como base fuerte. Por ejemplo, un ácido con pe ka cuatro con cinco y una base con pe ka nueve son, los dos, fuertes a pH fisiológico: el ácido porque su pe ka está muy por debajo de siete con cuatro y ya ha perdido su protón, y la base porque su pe ka está muy por encima y todavía lo conserva.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: ¿cuál es la regla general, repetida varias veces en las clases de especiación, para saber si un hidrógeno situado sobre azufre o sobre oxígeno es ácido?
+
+[PAUSA 3s]
+
+Respuesta: siempre lo es. Todos los hidrógenos que cuelgan de un oxígeno o de un azufre son ácidos, sin excepción. El caso que de verdad hay que estudiar con cuidado es el del hidrógeno sobre nitrógeno.
+
+Pregunta: ¿por qué una amida nunca puede actuar como base, a pesar de tener un nitrógeno con un par de electrones libres?
+
+[PAUSA 3s]
+
+Respuesta: porque ese par libre resuena constantemente hacia el carbonilo que tiene al lado, un carbonilo con efecto menos erre muy fuerte. El par de electrones nunca está disponible para captar un protón, así que la amida nunca es base.
+
+Si has dudado y has pensado que amida y amina se comportan igual porque las dos tienen nitrógeno: es el error más típico de este bloque. La amina, sin carbonilo al lado, siempre es básica y parte protonada; la amida, con el carbonilo pegado, nunca es básica.
+
+Pregunta: la guanidina es la base más fuerte de toda la tabla de pe ka usada en clase, con un valor aproximado entre doce y trece. ¿Qué implica esto a pH fisiológico?
+
+[PAUSA 3s]
+
+Respuesta: que está protonada prácticamente siempre, a cualquier pH fisiológico razonable. No hay duda posible con la guanidina: parte protonada y se mantiene así en todo el rango que vamos a manejar en los ejercicios.
+
+Pregunta: según la regla usada durante todo el curso para el pH fisiológico de siete con cuatro, ¿cómo se clasifican un ácido con pe ka cuatro con cinco y una base con pe ka nueve?
+
+[PAUSA 3s]
+
+Respuesta: los dos son fuertes. El ácido, porque su pe ka está por debajo de siete con cuatro y por tanto está mayoritariamente ionizado; la base, porque su pe ka está por encima de siete con cuatro y por tanto está mayoritariamente protonada. Los dos están, cada uno a su manera, claramente del lado cargado.
+
+Última pregunta, la más importante de todo el bloque: en un fármaco con solo dos pe ka reales se construye también una cuarta especie que en la práctica casi nunca existe de verdad. ¿Cómo se obtiene esa especie y cómo hay que etiquetarla?
+
+[PAUSA 3s]
+
+Respuesta: se obtiene invirtiendo el orden de pérdida de protones respecto a la especie de partida, es decir, perdiendo primero el protón que normalmente se pierde en segundo lugar. Y hay que etiquetarla siempre como minoritaria en todo el rango de pH fisiológico, aunque haya que declararla igualmente en el ejercicio.
+
+Cerramos con tres ideas fuerza. Primero: todo hidrógeno sobre oxígeno o azufre es ácido sin excepción, mientras que el nitrógeno hay que estudiarlo caso por caso; la amida nunca es base porque su par libre resuena hacia el carbonilo, mientras que la amina siempre es básica y parte protonada, y la guanidina y la amidina son las bases más fuertes de la tabla. Segundo: el método de especiación sigue siempre el mismo orden, identificar grupos y pe ka, plantear la especie de partida, perder protones del pe ka más bajo al más alto, nombrar las especies correlativamente, y aplicar la regla de más menos dos alrededor de cada pe ka. Tercero: con dos pe ka reales hay que declarar cuatro especies, no tres, porque la cuarta especie, la combinación cruzada y minoritaria, es obligatoria en el guion aunque apenas exista en la realidad. Domina estos tres bloques y tienes resuelta la parte del examen que de verdad decide la nota del primer parcial.

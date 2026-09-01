@@ -1,0 +1,63 @@
+Cerramos el bloque de hidratos de carbono con dos grupos de enfermedades que tienen algo en común: en ninguna de las dos el problema está en un monosacárido suelto, sino en cómo el cuerpo junta o separa azúcares más grandes, los disacáridos y los polisacáridos. Esta pista repasa qué pasa cuando falta una disacaridasa intestinal, y qué pasa cuando falla alguna de las muchas enzimas que sintetizan o degradan el glucógeno. Y de paso, un vistazo rápido a otro grupo de enfermedades por acúmulo que también entra en el examen, las mucopolisacaridosis.
+
+Las alteraciones del metabolismo de los disacáridos aparecen porque falla la actividad de alguna oligosacaridasa concreta del intestino delgado, ya sea por un fallo congénito o por una enfermedad adquirida. La intolerancia hereditaria a la sacarosa y la isomaltosa es autosómica recesiva, y se debe a la ausencia del complejo sacarasa isomaltasa en las microvellosidades intestinales; como ese mismo complejo participa también en la digestión del almidón, estos pacientes toleran mal la patata y otros alimentos con almidón. Y aquí hay un dato que se pregunta bastante: la tolerancia a la sacarosa y al almidón mejora con la edad, no empeora, porque al crecer el intestino aumenta la cantidad total de enzima disponible.
+
+La intolerancia hereditaria a la lactosa, por déficit de lactasa, es muy rara, y se manifiesta de forma muy precoz, con diarrea, deshidratación y un meteorismo abdominal exagerado ya desde el nacimiento. No la confundas con la intolerancia adquirida a la lactosa, muchísimo más frecuente: la actividad de la lactasa es alta durante la lactancia, cuando la leche es el alimento principal, y cae de forma natural tras el destete, quedando baja el resto de la vida en gran parte de la población, aunque algunas personas mantienen actividad elevada de por vida. Los adultos con esta forma adquirida se adaptan a su nivel de tolerancia y suelen tener síntomas más leves que en la forma hereditaria.
+
+Para el diagnóstico, en un análisis de heces se observa un descenso del pH por debajo de cinco con cinco, y un aumento marcado del ácido láctico, junto con la presencia del disacárido sin digerir; medir sacarosa o lactosa en orina no tiene ningún interés. La prueba más usada es la sobrecarga oral: se suprime antes el disacárido sospechoso, se dan cincuenta gramos, y se mide la glucemia varias veces hasta las tres horas. En una persona normal aparece un pico de hiperglucemia de en torno a doscientos cincuenta miligramos por decilitro entre los treinta y los sesenta minutos. Y aquí está la trampa que más se repite de esta sección, así que vale la pena decirla dos veces: el resultado se considera positivo, indicativo de intolerancia, cuando el pico de glucemia es inferior a doscientos miligramos por decilitro, junto con síntomas durante la prueba. Suena contraintuitivo, un pico bajo como signo de enfermedad, pero tiene lógica: si el disacárido no se hidroliza ni se absorbe bien, la glucosa apenas sube. La confirmación se hace midiendo la actividad enzimática en una biopsia de mucosa intestinal.
+
+Pasemos al glucógeno. Su síntesis, activada por la insulina, va de la glucosa a glucosa seis fosfato por la hexoquinasa, de ahí a glucosa uno fosfato, y de ahí al glucógeno mismo, gracias a la glucógeno sintasa, que forma la cadena principal, y la enzima ramificante, que crea los puntos de ramificación. Su degradación, activada por el glucagón, va en sentido contrario: la glucógeno fosforilasa libera glucosa uno fosfato, la enzima desramificante libera la glucosa de los puntos de ramificación, y finalmente, solo en el hígado, la glucosa seis fosfatasa libera la glucosa que sale a la sangre.
+
+Las glucogenosis son deficiencias congénitas de estas enzimas o de algún transportador relacionado, y afectan sobre todo al hígado y al músculo. Hay varios tipos con nombre propio que merece la pena fijar. La enfermedad de Von Gierke, tipo uno, es un déficit de glucosa seis fosfatasa, con acúmulo de glucógeno en hígado y riñón, hipoglucemia, hiperlacticemia y sin respuesta al glucagón. La enfermedad de Pompe, tipo dos, es un déficit de una glucosidasa lisosomal, y es la única glucogenosis de origen lisosomal, con el glucógeno acumulándose dentro de los lisosomas. La de Cori o Forbes, tipo tres, es un déficit de la enzima desramificante, y la de Andersen, tipo cuatro, un déficit de la enzima ramificante, ambas con una estructura anormal del glucógeno. La de McArdle, tipo cinco, es un déficit de la fosforilasa muscular, con acúmulo en el músculo, y la de Hers, tipo seis, el mismo tipo de déficit pero en la fosforilasa hepática. Y la de Tauri, tipo siete, es un déficit de fosfofructoquinasa muscular.
+
+Clínicamente se agrupan en dos bloques. Las hepáticas, tipos uno, tres, seis y ocho, dan hipoglucemia, hiperlacticemia, hepatomegalia sin respuesta al glucagón, alteración de las pruebas hepáticas, y manifestaciones ya entre el primer mes y el primer año de vida. Las musculares, tipos cinco y siete, dan menos suministro rápido de energía para la contracción muscular, con síntomas leves que se notan sobre todo en jóvenes tras un ejercicio violento.
+
+Y aquí va la trampa de verdadero o falso más repetida de todo el bloque, así que la decimos de dos formas. Primera forma: no todas las glucogenosis acumulan glucógeno, hay una excepción, la tipo nueve, también llamada tipo cero, por déficit de glucógeno sintasa, que al no poder sintetizar glucógeno tiene justo lo contrario, un déficit de glucógeno. Segunda forma: si el examen dice que en todas las glucogenosis se acumula glucógeno sin excepción, esa afirmación es falsa, porque la tipo nueve es precisamente la que tiene menos glucógeno de lo normal, no más.
+
+Para el diagnóstico se mide la actividad enzimática en biopsia hepática o muscular, con estudio microscópico del glucógeno acumulado. Las pruebas funcionales dependen del tipo: para las glucogenosis hepáticas se usa el test del glucagón, administrado por vía intramuscular, midiendo después glucosa y lactato; para las musculares se usa el test de isquemia, que estudia la degradación del glucógeno y la producción de lactato con el ejercicio. No cruces estas dos pruebas, porque el examen pregunta en los dos sentidos: test del glucagón es hepáticas, test de isquemia es musculares.
+
+Para terminar con los polisacáridos, un grupo distinto pero relacionado: las mucopolisacaridosis. Son enfermedades lisosomales, causadas por el déficit de alguna enzima que degrada los glucosaminoglucanos, que por eso se acumulan dentro de los lisosomas; el cribado se hace con la prueba de Berry, una prueba cualitativa que detecta estos glucosaminoglucanos en orina. Casi todas se transmiten con carácter autosómico recesivo, con una excepción que el examen busca específicamente: la enfermedad de Hunter, tipo dos, por déficit de iduronato dos sulfatasa, que se transmite ligada al cromosoma X, no de forma autosómica recesiva como el resto. Dentro de este grupo, el síndrome de Sanfilippo, tipo tres, es el raro de la familia: acumula un único glucosaminoglucano, apenas da problemas físicos u óseos, pero produce el retraso mental más severo de todos, justo al contrario que Hurler o Morquio, donde predominan las alteraciones esqueléticas y viscerales sobre las neurológicas.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: en la intolerancia hereditaria a la sacarosa y la isomaltosa, ¿la tolerancia a estos azúcares mejora o empeora con la edad?
+
+[PAUSA 3s]
+
+Respuesta: mejora con la edad, porque al crecer el intestino aumenta la cantidad total de enzima disponible.
+
+Si has dudado y pensabas que empeoraba: es lógico pensarlo tratándose de una enfermedad genética, pero aquí el crecimiento intestinal juega a favor del paciente, no en contra.
+
+Pregunta: en la prueba de sobrecarga oral de un disacárido, ¿qué resultado se considera positivo, indicativo de intolerancia?
+
+[PAUSA 3s]
+
+Respuesta: un pico de glucemia inferior a doscientos miligramos por decilitro, junto con síntomas digestivos durante la prueba.
+
+Si has dudado porque esperabas un pico alto: aquí es al revés que en la diabetes; si el disacárido no se digiere ni se absorbe, la glucosa apenas sube, así que el pico bajo es el signo de alarma.
+
+Pregunta: ¿qué tiene de especial la glucogenosis tipo nueve, también llamada tipo cero, frente al resto de glucogenosis?
+
+[PAUSA 3s]
+
+Respuesta: que cursa con déficit de glucógeno, no con acúmulo, porque el fallo está en la glucógeno sintasa, la enzima que lo fabrica.
+
+Si has dudado pensando que todas acumulan glucógeno: es la trampa de verdadero o falso más repetida del bloque; todas las demás acumulan, esta es la única excepción con déficit.
+
+Pregunta: para diagnosticar una glucogenosis hepática y una muscular, ¿qué prueba funcional se usa en cada caso?
+
+[PAUSA 3s]
+
+Respuesta: para la hepática, el test del glucagón. Para la muscular, el test de isquemia.
+
+Si has dudado y las cruzabas: piensa que el glucagón actúa sobre todo en el hígado, mientras que la isquemia y el ejercicio son fenómenos musculares.
+
+Pregunta: de todas las mucopolisacaridosis, ¿cuál no se transmite de forma autosómica recesiva, y cómo se transmite en su lugar?
+
+[PAUSA 3s]
+
+Respuesta: la enfermedad de Hunter, que se transmite ligada al cromosoma X.
+
+Si has dudado con cuál era la excepción: el resto, Hurler, Sanfilippo, Morquio, son todas autosómicas recesivas; Hunter es la única ligada al sexo, y el examen la busca específicamente por eso.
+
+Tres ideas fuerza para cerrar el bloque de hidratos de carbono. Primero, en las intolerancias a disacáridos, la tolerancia a la sacarosa y al almidón mejora con la edad, y en la sobrecarga oral, un pico de glucemia bajo, no alto, es el signo de intolerancia. Segundo, en las glucogenosis, el test del glucagón sirve para las formas hepáticas y el test de isquemia para las musculares, y la única excepción que no acumula glucógeno, sino que lo pierde, es la tipo nueve o tipo cero. Y tercero, entre las mucopolisacaridosis, todas son autosómicas recesivas excepto la enfermedad de Hunter, que va ligada al cromosoma X.

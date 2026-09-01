@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Chuleta de Mnemotecnias — Farmacología P1</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #232733;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    background: #fff;
+  }
+  .cover {
+    height: 273mm;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; page-break-after: always;
+    background: radial-gradient(circle at 30% 20%, #ffe27a 0%, transparent 45%),
+                radial-gradient(circle at 80% 70%, #7ae0ff 0%, transparent 45%),
+                linear-gradient(135deg,#1c2733,#0a5e66);
+    color: #fff; border-radius: 18px;
+  }
+  .cover .emoji-row { font-size: 34pt; margin-bottom: 10px; letter-spacing: 6px; }
+  .cover h1 { font-size: 28pt; margin: 0 0 6px; }
+  .cover h2 { font-size: 13pt; font-weight: 400; opacity: .9; max-width: 420px; margin: 0 0 30px; }
+  .cover .hint { max-width: 420px; font-size: 9.5pt; opacity: .85; background: rgba(255,255,255,.12); border-radius: 10px; padding: 12px 18px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .card {
+    border-radius: 14px; padding: 5mm; page-break-inside: avoid;
+    border: 2px solid var(--c); background: var(--bg);
+  }
+  .card .icon { font-size: 20pt; }
+  .card h3 { margin: 2mm 0 1mm; font-size: 11.5pt; color: var(--c); }
+  .card .tagline { font-size: 8.3pt; font-style: italic; color: #55606b; margin-bottom: 2mm; }
+  .card .story {
+    background: #fff; border-radius: 8px; padding: 2.5mm 3mm; font-size: 8.8pt;
+    margin-bottom: 2mm; border-left: 3px solid var(--c);
+  }
+  .card .takeaway {
+    font-size: 8.6pt; background: var(--c); color: #fff; border-radius: 8px; padding: 2.5mm 3mm;
+    font-weight: 700;
+  }
+  .card .takeaway span { font-weight: 400; }
+  .acronym { display: flex; flex-direction: column; gap: 1mm; margin-bottom: 2mm; }
+  .acronym div { display: flex; gap: 2mm; font-size: 8.6pt; align-items: baseline; }
+  .acronym b { color: var(--c); font-size: 11pt; width: 14px; flex: 0 0 auto; }
+  .section-title { font-size: 13pt; color: #0a5e66; margin: 6mm 0 3mm; font-weight: 800; }
+  .section-title:first-of-type { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="emoji-row">🧠💊🔥</div>
+  <h1>Chuleta de Mnemotecnias</h1>
+  <h2>Los trucos absurdos que se quedan grabados cuando el dato "lógico" se olvida — Primer Parcial de Farmacología</h2>
+  <div class="hint">Úsala junto al simulador y la guía de estudio: cuando falles una pregunta, busca aquí el truco de la combinación que le corresponde. Lo raro se recuerda mejor que lo razonable.</div>
+</div>
+
+<div class="section-title">🧪 Fundamentos</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">💥</span>
+    <h3>Cinética vs Dinamia</h3>
+    <div class="tagline">Las dos mitades de la Farmacología que todo el mundo confunde</div>
+    <div class="story">"KINÉTICA" suena a movimiento (cinta KINÉtica de un gimnasio): es <b>lo que el cuerpo le hace al fármaco</b> mientras se mueve por dentro (LADME). "DINAMIA" suena a DINAMITA 💥: es <b>lo que el fármaco le hace explotar al cuerpo</b> (su efecto, su mecanismo).</div>
+    <div class="takeaway">Cinética = el cuerpo mueve al fármaco. Dinamia = el fármaco "explota" su efecto.</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🏠</span>
+    <h3>La regla del "en casa" (ionización)</h3>
+    <div class="tagline">Para saber si un fármaco atraviesa membranas</div>
+    <div class="story">Imagina que un fármaco ácido "vive" en un barrio ácido y otro básico "vive" en un barrio básico. Si el fármaco está en <b>SU propio barrio (mismo pH)</b>, está tranquilo, en casa, relajado = <b>NO ionizado</b> (liposoluble, cruza membranas). Si está en el barrio contrario, está nervioso, nada tranquilo = <b>ionizado</b> (polar, no cruza, pero se elimina mejor por orina).</div>
+    <div class="takeaway">Mismo ambiente = No Ionizado (pasa). Ambiente contrario = Ionizado (no pasa, se elimina).</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🚪</span>
+    <h3>Los porteros de la membrana</h3>
+    <div class="tagline">5 formas de entrar a la fiesta (la célula)</div>
+    <div class="acronym">
+      <div><b>F</b> Filtración: cuela gratis a los pequeños e hidrosolubles, sin gasto ni cola.</div>
+      <div><b>DP</b> Difusión pasiva: el liposoluble VIP, entra solo porque puede — el más usado.</div>
+      <div><b>DF</b> Difusión facilitada: un amigo (transportador) le abre la puerta, sin pagar (ATP).</div>
+      <div><b>TA</b> Transporte activo: paga entrada (ATP) y encima entra a contracorriente.</div>
+      <div><b>E/E</b> Endo/Exocitosis: se lo tragan entero — solo para los "gordos" (alto peso molecular).</div>
+    </div>
+    <div class="takeaway">Solo DF y TA son saturables e inhibibles (necesitan "amigo" transportador).</div>
+  </div>
+
+  <div class="card" style="--c:#6a4fb3; --bg:#efe9fb;">
+    <span class="icon">🧫</span>
+    <h3>Fases del ensayo clínico</h3>
+    <div class="tagline">De la rata al mercado</div>
+    <div class="acronym">
+      <div><b>Pre</b> Preclínica: animales y cultivos — nada de humanos todavía.</div>
+      <div><b>I</b> Sujetos Sanos (voluntarios sanos) — seguridad básica.</div>
+      <div><b>II</b> busca la dosis en pacientes (pocos).</div>
+      <div><b>III</b> el Gran combate: se compara con el tratamiento estándar.</div>
+      <div><b>IV</b> for-IV-gilancia: ya en el mercado, vigilar RAM a largo plazo.</div>
+    </div>
+    <div class="takeaway">"Sujetos Sanos" en Fase I es la trampa más repetida en examen.</div>
+  </div>
+
+</div>
+
+<div class="section-title">🧬 Farmacodinamia</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">👪</span>
+    <h3>La familia Fosfolipasa</h3>
+    <div class="tagline">Quién genera qué segundo mensajero</div>
+    <div class="story">La <b>Adenilato Ciclasa</b> es la más simple: solo tiene un hijo, el <b>AMPc</b> (Ambas empiezan por A). La <b>Fosfolipasa C</b> es la Cotilla: reparte Cotilleos dobles, <b>IP3 y DAG</b>. Las Fosfolipasas <b>A2 y D</b> son hermanas: ambas comparten el mismo apellido, <b>Ácido Araquidónico</b> — pero la D además tiene una hija extra, el <b>Ácido Fosfatídico</b>.</div>
+    <div class="takeaway">AC→AMPc · FL-C→IP3/DAG · FL-A2→Ác.Araquidónico · FL-D→Ác.Araquidónico + Ác.Fosfatídico</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🎚️</span>
+    <h3>La pendiente y la altura</h3>
+    <div class="tagline">Leer las curvas dosis-respuesta sin liarte</div>
+    <div class="story">En la curva [FR] vs [F]: cuanto más a la <b>izquierda</b>, más <b>afinidad</b> (llega antes a la fiesta). En la curva efecto-log[F]: la <b>altura</b> es la <b>eficacia</b> (cuánto grita el fármaco) y la <b>pendiente</b> es la <b>toxicidad/seguridad</b> (cuanto más empinada, más peligrosa la subida).</div>
+    <div class="takeaway">Izquierda = afinidad · Altura = eficacia · Pendiente = toxicidad (↑pendiente = ↓seguridad)</div>
+  </div>
+
+</div>
+
+<div class="section-title">⚡ Sistema Nervioso Autónomo — el bloque que más pesa</div>
+<div class="grid">
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🏃‍♂️💨</span>
+    <h3>Lucha o Huida (Simpático)</h3>
+    <div class="tagline">Te persigue un león</div>
+    <div class="story">Si te persigue un león necesitas: ver bien (pupilas <b>grandes</b> = midriasis), correr (corazón <b>rápido</b>, bronquios <b>abiertos</b>), y NO perder tiempo digiriendo ni meando (intestino y vejiga <b>parados</b>). Eso es exactamente el Simpático.</div>
+    <div class="takeaway">Simpático = huir del león: midriasis, taquicardia, broncodilatación, freno digestivo/urinario.</div>
+  </div>
+
+  <div class="card" style="--c:#1c8a4b; --bg:#e5f6ec;">
+    <span class="icon">🛋️🍽️</span>
+    <h3>Descansa y Digiere (Parasimpático)</h3>
+    <div class="tagline">Sofá después de comer</div>
+    <div class="story">Después de comer en el sofá: pupilas pequeñas (no necesitas ver lejos = miosis), corazón tranquilo, y todo el cuerpo se dedica a digerir y hacer pis a gusto. Justo lo contrario del león.</div>
+    <div class="takeaway">Parasimpático = sofá: miosis, bradicardia, broncoconstricción, digestión y micción activadas.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">💓 🫁🫁</span>
+    <h3>1 corazón, 2 pulmones</h3>
+    <div class="tagline">El truco más usado del mundo para Beta 1 y Beta 2</div>
+    <div class="story">Tienes <b>UN</b> corazón → receptor Beta <b>1</b> → corazón. Tienes <b>DOS</b> pulmones → receptor Beta <b>2</b> → bronquios (broncodilatación). No hace falta memorizar nada más.</div>
+    <div class="takeaway">Beta1 = 1 corazón (taquicardia) · Beta2 = 2 pulmones (broncodilatación, también útero y vasos musculares)</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🛑</span>
+    <h3>Alfa 2, el freno de mano</h3>
+    <div class="tagline">El receptor que hace lo contrario que sus hermanos</div>
+    <div class="story">Todos los receptores adrenérgicos amplifican la noradrenalina... excepto Alfa 2, que es un "chivato": cuando detecta demasiada NA suelta el freno de mano y dice "¡ya vale, dejad de soltar NA!". Por eso un <b>agonista</b> alfa-2 (como la clonidina) frena el sistema simpático (parece "lo contrario" de un simpaticomimético).</div>
+    <div class="takeaway">Agonista alfa-2 = simpaticolítico (frena la NA). Antagonista alfa-2 = simpaticomimético.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🥵🌡️🦇</span>
+    <h3>El síndrome anticolinérgico</h3>
+    <div class="tagline">"Rojo, seco, ciego, loco y caliente" (atropina y compañía en sobredosis)</div>
+    <div class="acronym">
+      <div><b>🔴</b> Rojo como un tomate — vasodilatación cutánea.</div>
+      <div><b>🏜️</b> Seco como un hueso — boca seca, sin sudor.</div>
+      <div><b>🦇</b> Ciego como un murciélago — midriasis, visión borrosa.</div>
+      <div><b>🤪</b> Loco como una cabra — delirio, agitación central.</div>
+      <div><b>🌡️</b> Caliente como una liebre — hipertermia (no suda).</div>
+    </div>
+    <div class="takeaway">Clásico toxidrome de sobredosis por atropina, escopolamina o antihistamínicos.</div>
+  </div>
+
+  <div class="card" style="--c:#1c8a4b; --bg:#e5f6ec;">
+    <span class="icon">👴💊</span>
+    <h3>Los 3 usos de oro de los colinérgicos directos</h3>
+    <div class="tagline">Carbacol, Betanecol, Pilocarpina</div>
+    <div class="story">Piensa en 3 tuberías atascadas: la <b>vejiga</b> (Carbacol, retención urinaria), el <b>intestino</b> (Betanecol, íleo paralítico) y el <b>ojo</b> (Pilocarpina, glaucoma — abre el "desagüe" del humor acuoso).</div>
+    <div class="takeaway">Carbacol→vejiga · Betanecol→intestino · Pilocarpina→glaucoma</div>
+  </div>
+
+</div>
+
+<div class="section-title">💊 SNC, opioides, AINEs</div>
+<div class="grid">
+
+  <div class="card" style="--c:#6a4fb3; --bg:#efe9fb;">
+    <span class="icon">💉</span>
+    <h3>M-O-R-F-I-N-A</h3>
+    <div class="tagline">La palabra que contiene todos sus efectos</div>
+    <div class="acronym">
+      <div><b>M</b> Miosis (pupila puntiforme)</div>
+      <div><b>O</b> Obstipación (estreñimiento — nunca diarrea)</div>
+      <div><b>R</b> Respiración deprimida (causa de muerte en sobredosis)</div>
+      <div><b>F</b> Frena la tos (antitusígeno, como la codeína)</div>
+      <div><b>I</b> Induce tolerancia con el uso repetido</div>
+      <div><b>N</b> Náuseas y vómitos</div>
+      <div><b>A</b> Analgesia potente</div>
+    </div>
+    <div class="takeaway">Si la pregunta dice "genera diarrea", es FALSO — la morfina estriñe.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🚓 🏠</span>
+    <h3>Naloxona vs Naltrexona</h3>
+    <div class="tagline">El poli de urgencias vs. el poli que se muda al barrio</div>
+    <div class="story"><b>Naloxona</b>: llega en coche patrulla, IV, rapidísima — para la sobredosis AGUDA. <b>Naltrexona</b>: se muda al barrio, oral, de acción prolongada — para mantener la deshabituación CRÓNICA.</div>
+    <div class="takeaway">-LOX-ona = urgencia aguda · -TREX-ona = tratamiento crónico de deshabituación</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">👨‍👩‍👧‍👦</span>
+    <h3>Los apellidos de los AINEs</h3>
+    <div class="tagline">Clasifícalos por cómo terminan</div>
+    <div class="acronym">
+      <div><b>-profeno/-oxeno</b> Arilpropiónicos: Ibuprofeno, Dexketoprofeno, Naproxeno (la familia deportista).</div>
+      <div><b>-faco/-cina</b> Arilacéticos: Diclofenaco, Aceclofenaco, Indometacina.</div>
+      <div><b>-coxib</b> Coxibs VIP, selectivos COX-2: Celecoxib, Rofecoxib.</div>
+      <div><b>El incógnito</b> Paracetamol: parece un AINE pero casi no es antiinflamatorio.</div>
+    </div>
+    <div class="takeaway">Si termina en "-coxib" → selectivo COX-2, menos gastrolesivo, más riesgo cardiovascular.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🏎️🚶</span>
+    <h3>La carrera de las vías</h3>
+    <div class="tagline">Quién llega antes a la sangre</div>
+    <div class="story">Imagina una carrera: la <b>Intravenosa</b> ya sale puesta en la línea de meta (sin fase de absorción). La <b>Intramuscular</b> corre en coche (zona muy vascularizada). La <b>Subcutánea</b> va en bici (más lenta que el músculo). Y la <b>Oral</b> va caminando, parándose a comer por el camino (efecto de primer paso hepático, estómago lleno/vacío).</div>
+    <div class="takeaway">Velocidad de absorción: IV &gt; IM &gt; SC &gt; Oral</div>
+  </div>
+
+</div>
+
+</body>
+</html>

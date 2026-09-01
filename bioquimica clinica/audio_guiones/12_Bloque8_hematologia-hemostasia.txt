@@ -1,0 +1,75 @@
+Cuando te sacan sangre para un hemograma, en realidad te están contando una historia sobre tres tipos de anemia distintas con solo dos letras: VCM y HCM. Saber leerlas bien es la diferencia entre acertar media docena de preguntas de golpe o fallarlas todas por confundir un volumen con un contenido. De eso, y de cómo se para una hemorragia paso a paso, va esta pista.
+
+Un adulto tiene entre cinco y seis litros de sangre. Aproximadamente la mitad de ese volumen son células, eritrocitos, leucocitos y plaquetas, y la otra mitad es la fase líquida, el plasma. El plasma es agua en un noventa por ciento; el resto son solutos, sobre todo proteínas, alrededor del setenta por ciento de esos solutos, con iones inorgánicos, metabolitos y productos de desecho completando el resto, además de trazas de hormonas y vitaminas.
+
+La hematología estudia estos elementos formes de la sangre, sus precursores, y sus trastornos, tanto estructurales como bioquímicos. Los órganos hemolinfoproductores son el bazo, la médula ósea, los ganglios linfáticos y el timo.
+
+Vamos con los tipos celulares, porque el examen pregunta mucho por su origen y su función.
+
+Los eritrocitos, o hematíes, son discos bicóncavos deformables, de entre seis y ocho micras, con vida media de ciento veinte días, y transportan oxígeno y dióxido de carbono; normocíticos y normocrómicos en condiciones normales. Las plaquetas son fragmentos de entre una y cuatro micras, con vida media mucho más corta, de solo unos siete días, primeras en llegar cuando hay una lesión vascular, formando el tapón plaquetario. Vienen del citoplasma de los megacariocitos, no de fragmentar eritrocitos, dato muy preguntado.
+
+Los neutrófilos son los granulocitos más abundantes, con vida media de horas a pocos días, fagocitan hongos y bacterias, y suben en infección bacteriana y en la leucemia mieloide crónica. Los basófilos son los granulocitos menos abundantes, y participan en la anafilaxia, la alergia y la inflamación. Los eosinófilos, menos frecuentes que los neutrófilos, se especializan en la defensa contra parásitos y en modular la alergia.
+
+Los linfocitos son las células mononucleares de mayor tamaño, de la línea linfoide, responsables de la inmunidad específica o adquirida. Los monocitos, también mononucleares, se diferencian en macrófagos al migrar a los tejidos, donde defienden de infecciones bacterianas y fúngicas; pertenecen a la línea mieloide.
+
+Trampa muy repetida en examen: los linfocitos son mononucleares, de la línea linfoide, NO son leucocitos polimorfonucleares, eso son los neutrófilos, los basófilos y los eosinófilos, de la línea mieloide. Y recuerda otra vez: las plaquetas vienen de fragmentar el citoplasma de los megacariocitos, no de fragmentar eritrocitos. Último matiz importante: tener más plaquetas de lo normal, la trombocitosis, no aumenta el riesgo de sangrado; es justo la disminución, la trombocitopenia o plaquetopenia, la que aumenta el riesgo de hematomas y sangrado excesivo.
+
+Y ahora la parte que más se confunde de todo el bloque: los índices eritrocitarios del hemograma. Tres siglas casi idénticas, así que distínguelas bien por lo que miden y por su unidad, porque leer la unidad de la respuesta es la forma más rápida de acertar en examen.
+
+El VCM, volumen corpuscular medio, mide el volumen de cada hematíe, en femtolitros. La HCM, hemoglobina corpuscular media, mide el contenido de hemoglobina de cada hematíe, en picogramos. Y la CHCM, concentración de hemoglobina corpuscular media, mide la cantidad de hemoglobina, en gramos, por decilitro de hematíes, calculada a partir de la hemoglobina y el hematocrito. Volumen, contenido, concentración: si te dan la unidad de la respuesta, en femtolitros es VCM, en picogramos HCM, en gramos por decilitro CHCM.
+
+Esto es la base de una de las preguntas más rentables del bloque: identificar el tipo de anemia por el patrón de VCM y HCM. Si los dos están disminuidos, hablamos de anemia microcítica e hipocrómica, típica del déficit de hierro, la anemia ferropénica, muy frecuente en mujeres en edad fértil. Si el VCM está aumentado, hablamos de anemia macrocítica, típica del déficit de vitamina B doce o de folato, la anemia megaloblástica. Y si el VCM está en rango normal, hablamos de anemia normocítica, como en la insuficiencia renal crónica, por el déficit de eritropoyetina.
+
+Repito el contraste porque es el que más se pregunta: hierro bajo da microcitosis, hematíes pequeños, con VCM y HCM los dos bajos. Vitamina B doce o folato bajos dan justo lo contrario, macrocitosis, con el VCM alto. Son mecanismos opuestos, hay que tenerlos completamente separados en la cabeza.
+
+Los constituyentes mínimos de un hemograma son la concentración de hemoglobina, el recuento de células sanguíneas, los índices eritrocitarios, y el examen morfológico al microscopio. Ojo con una combinación falsa muy usada como distractor: el hemograma NO incluye la concentración de albúmina, ni tampoco el tiempo de hemorragia, que pertenece al estudio de la hemostasia, justo lo que viene ahora.
+
+La hemostasia es el proceso que impide que la sangre se escape al espacio extravascular cuando hay una lesión. Participan el sistema vascular, las plaquetas, y los factores de coagulación, en tres etapas sucesivas, cada una con su duración y su prueba propia.
+
+La hemostasia primaria dura entre tres y cinco minutos: vasoconstricción más agregación plaquetaria, el tapón plaquetario. Se valora con el tiempo de hemorragia, o tiempo de sangría, que se abrevia TS, normal alrededor de tres minutos, y refleja tanto la capacidad de los capilares para contraerse como la de las plaquetas para adherirse y agregarse.
+
+La coagulación dura entre cinco y diez minutos, y transforma el fibrinógeno en fibrina, por tres vías. La intrínseca activa en cadena los factores doce, once y nueve, hasta activar el factor diez, y se valora con el TTPA, el tiempo de tromboplastina parcial activada. La extrínseca se activa cuando el factor tisular se junta con el factor siete activado, también hasta el factor diez, y se valora con el tiempo de protrombina, o tiempo de Quick. Y la vía común, desde el factor diez activado hasta la trombina y la fibrina, se valora con el tiempo de trombina.
+
+Dato muy preguntado: el tiempo de protrombina estudia la vía extrínseca de la coagulación, no la hemostasia primaria, que se estudia con el tiempo de hemorragia. Y no confundas el tiempo de protrombina, vía extrínseca, con el tiempo de trombina, vía común; suenan parecido pero miden cosas distintas.
+
+La fibrinólisis, última etapa, tarda entre cuarenta y setenta y dos horas, y consiste en la disolución enzimática del coágulo por la plasmina, con productos de degradación de la fibrina como marcador.
+
+Terminamos con la hematopoyesis: el proceso encadenado que parte de la célula troncohematopoyética, con autorrenovación, diferenciación y maduración, hasta producir células sanguíneas funcionales. Como la mayoría de las células de la sangre viven poco tiempo, este proceso tiene que funcionar de forma continua para reponerlas.
+
+Durante el desarrollo, la hematopoyesis va cambiando de órgano. Empieza en el saco vitelino, en la fase embrionaria más temprana. El hígado toma protagonismo desde aproximadamente el primer mes intrauterino, el bazo desde el tercer mes, y la médula ósea se vuelve dominante hacia el sexto o séptimo mes intrauterino, siendo prácticamente exclusiva durante toda la vida después de nacer. Si la médula ósea falla, el hígado y el bazo pueden reactivar de forma transitoria su papel hematopoyético fetal, la hematopoyesis extramedular.
+
+En el adulto, la médula ósea con actividad hematopoyética se concentra en huesos concretos: el cráneo, las costillas, el esternón, la cresta ilíaca, y las cabezas del húmero y del fémur. Su función es el anidamiento, el crecimiento y la diferenciación de las células sanguíneas, sobre un microambiente hematopoyético con un componente celular, fibroblastos, osteoblastos, osteoclastos, adipocitos y células endoteliales, y otro extracelular, colágeno, fibronectina y laminina.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿qué mide exactamente la hemoglobina corpuscular media, la HCM?
+
+[PAUSA 3s]
+
+Respuesta: el contenido medio de hemoglobina, en picogramos, que hay dentro de cada hematíe. Si has dudado con el VCM: ese mide el volumen del hematíe, en femtolitros, no su contenido de hemoglobina.
+
+Pregunta: una mujer joven tiene la hemoglobina baja, con el VCM y la HCM también disminuidos. ¿Qué tipo de anemia es la más probable, y por qué?
+
+[PAUSA 3s]
+
+Respuesta: una anemia microcítica e hipocrómica, típicamente por déficit de hierro; sin hierro suficiente para fabricar hemoglobina, el hematíe sale más pequeño y con menos hemoglobina dentro. Si has dudado con el déficit de vitamina B doce: ese da justo el patrón contrario, una anemia macrocítica, con el VCM aumentado.
+
+Pregunta: ¿por qué es tan importante el recuento de plaquetas en el estudio de un trastorno hemorrágico?
+
+[PAUSA 3s]
+
+Respuesta: porque un número bajo de plaquetas, la trombocitopenia, aumenta directamente el riesgo de sangrado, ya que las plaquetas son las primeras en formar el tapón que tapona una lesión vascular pequeña. Si has dudado pensando que un número alto es lo peligroso: al contrario, la trombocitosis no dispara el riesgo de sangrado; el riesgo lo dispara la falta de plaquetas.
+
+Pregunta: ¿qué prueba de laboratorio se usa para valorar la hemostasia primaria?
+
+[PAUSA 3s]
+
+Respuesta: el tiempo de hemorragia, o tiempo de sangría. Si has dudado con el tiempo de protrombina: ese valora la vía extrínseca de la coagulación, una etapa posterior a la hemostasia primaria, no la hemostasia primaria en sí.
+
+Pregunta: ¿qué órgano es responsable del anidamiento, el crecimiento y la diferenciación de las células sanguíneas?
+
+[PAUSA 3s]
+
+Respuesta: la médula ósea, gracias a su microambiente hematopoyético. Si has dudado con la célula troncohematopoyética: esa célula es la que se anida, crece y se diferencia dentro de la médula, pero el órgano que ofrece ese entorno de soporte es la médula ósea misma.
+
+Tres ideas para cerrar. Primera: el VCM mide volumen en femtolitros, la HCM mide contenido de hemoglobina en picogramos, y la CHCM mide concentración en gramos por decilitro; y su patrón define el tipo de anemia, microcítica con hierro bajo, macrocítica con vitamina B doce o folato bajos, normocítica en procesos como la insuficiencia renal crónica. Segunda: el tiempo de hemorragia estudia la hemostasia primaria, el TTPA la vía intrínseca, el tiempo de protrombina la vía extrínseca, y el tiempo de trombina la vía común; no mezcles estos nombres tan parecidos. Tercera: las plaquetas vienen de los megacariocitos, no de los eritrocitos, y es la falta de plaquetas, no el exceso, lo que dispara el riesgo de sangrado.

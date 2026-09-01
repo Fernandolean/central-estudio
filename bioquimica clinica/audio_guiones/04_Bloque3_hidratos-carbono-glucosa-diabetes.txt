@@ -1,0 +1,63 @@
+Si hay un tema estrella en todo el examen de este bloque, es este. La glucosa es, con diferencia, el hidrato de carbono más preguntado de toda la asignatura, y dentro de la glucosa, la diabetes mellitus es la reina indiscutible. Hoy vemos qué pasa cuando fallan las enzimas que degradan o fabrican glucosa, cómo el cuerpo mantiene la glucemia estable entre comidas, y todo lo esencial sobre la diabetes: su clasificación, sus criterios diagnósticos y las pruebas que la miden. Esta pista merece más de una escucha.
+
+Empecemos por los fallos congénitos de la propia vía glucolítica. El más frecuente, con diferencia, es el déficit de piruvato quinasa: la actividad enzimática cae a entre un cinco y un veinticinco por ciento de lo normal, lo que reduce el flujo de la vía y la síntesis de ATP. Otro fallo clásico es el déficit de fosfohexosa isomerasa, que bloquea el paso de glucosa seis fosfato a fructosa seis fosfato. Los dos afectan sobre todo a los eritrocitos, y aquí hay una trampa que se repite muchísimo, con formulaciones distintas en el banco de preguntas: decir que estas alteraciones afectan a todas las células excepto a los eritrocitos es justo al revés. El eritrocito no tiene mitocondrias, depende casi por completo de la glucólisis anaerobia para fabricar su ATP, así que es precisamente el tipo celular más afectado, no el más protegido. Menos ATP significa menos capacidad de mantener la membrana del glóbulo rojo, lo que produce hemólisis crónica, con anemia hemolítica, esplenomegalia y cálculos biliares precoces.
+
+En la vía contraria, la gluconeogénesis, el déficit de piruvato carboxilasa bloquea el paso de piruvato a oxalacetato, así que el piruvato se desvía hacia lactato y alanina, dando acidosis láctica y alaninemia. Y la ausencia total de fructosa uno seis bifosfatasa impide la gluconeogénesis por completo: estos pacientes solo pueden obtener glucosa a partir del glucógeno almacenado, así que necesitan comer con mucha frecuencia para evitar la hipoglucemia, aunque, y esto también se pregunta, su desarrollo y crecimiento suelen ser normales.
+
+La ruta de las pentosas fosfato tiene su propio fallo típico: el déficit de glucosa seis fosfato deshidrogenasa, que afecta sobre todo a los eritrocitos, porque dependen de esta ruta como fuente principal de NADPH, necesario para su protección antioxidante; sin él, hay hemólisis. Dentro de esta misma ruta aparece el síndrome de Wernicke Korsakoff, causado por una deficiencia crónica de tiamina, la vitamina B uno, necesaria para que funcionen las transcetolasas de esta vía, y que cursa con alteraciones motoras y del comportamiento. Fíjate en dos cosas que el examen confunde a propósito: este síndrome es una alteración de la vía de la glucosa, no de la fructosa ni de la galactosa, y se debe a un déficit de tiamina, no de biotina.
+
+Vamos con la homeostasis hormonal de la glucosa, la base para entender la diabetes. Hay una sola hormona hipoglucemiante, la insulina, y un grupo entero de hormonas hiperglucemiantes que trabajan en su contra: el glucagón, la adrenalina, la somatotropina, la tiroxina y el cortisol. La insulina inhibe la glucogenólisis, la gluconeogénesis, la lipólisis, la cetogénesis y la proteólisis, y al mismo tiempo estimula la entrada de glucosa en el músculo y el tejido adiposo, la glucólisis, la síntesis de glucógeno, la síntesis de proteínas y la entrada de potasio en la célula. La glucemia se mantiene estable gracias al equilibrio entre esta única hormona que la baja y ese grupo de hormonas que la suben; cuando ese equilibrio se rompe por un déficit absoluto o relativo de insulina, aparece la diabetes mellitus.
+
+La diabetes mellitus es, por definición, un síndrome caracterizado por hiperglucemia, consecuencia de una deficiencia absoluta o relativa de insulina, por alteración de su síntesis, su secreción o su función. Afecta al metabolismo glucídico, lipídico, proteico e hidromineral a la vez, y a largo plazo produce complicaciones importantes en ojos, nervios, vasos sanguíneos y riñones: microangiopatías, retinopatías, nefropatías, neuropatías y macroangiopatías, siendo una causa relevante de ceguera y de amputación de extremidades, además de favorecer la insuficiencia renal y la cardiopatía isquémica.
+
+Según la clasificación de la Asociación Americana de Diabetes se distinguen cuatro grupos, no tres, y este número es otra trampa repetida: tipo uno, tipo dos, gestacional, y un cuarto grupo de otras causas, como defectos genéticos, enfermedades del páncreas o ciertos fármacos.
+
+La diabetes tipo uno es insulinodependiente, antes llamada juvenil, y supone entre un quince y un veinte por ciento de los casos. Se debe a la destrucción autoinmune de las células beta del páncreas, con un inicio brusco, poliuria, polidipsia y pérdida de peso, y en niños y adolescentes la cetoacidosis suele ser la primera manifestación. La diabetes tipo dos es insulino independiente, supone entre un ochenta y un noventa por ciento de los casos, y aparece sobre todo en mayores de cuarenta años; aquí no hay destrucción de los islotes, sino resistencia periférica a la insulina, con insulinemia normal o incluso elevada, y factores de riesgo como la edad, la obesidad y el sedentarismo. Puede ser completamente asintomática durante años, con un periodo silente largo, y la cetoacidosis es rara salvo que se sume otra enfermedad. Y la diabetes gestacional aparece en el segundo o tercer trimestre del embarazo, por un aumento fisiológico de la resistencia a la insulina propio de esa etapa, con niveles de insulina elevados, no bajos, y normalmente se normaliza tras el parto.
+
+Vamos con los criterios diagnósticos, que se preguntan con cifras concretas. Se considera diagnóstico de diabetes una glucemia aleatoria por encima de doscientos miligramos por decilitro junto con síntomas; una glucemia en ayunas, de al menos ocho horas, por encima de ciento veintiséis miligramos por decilitro; o una glucemia, a las dos horas de una sobrecarga oral de glucosa, por encima de doscientos miligramos por decilitro. En esa sobrecarga, con setenta y cinco gramos de glucosa, en una persona sana el pico aparece entre los treinta y los sesenta minutos y puede superar los doscientos miligramos por decilitro, pero a las dos horas la glucemia ya debe haber bajado por debajo de ciento cuarenta miligramos por decilitro. Cuando la glucemia en ayunas es normal pero a las dos horas se queda muy elevada, sin llegar al criterio de diabetes, se habla de intolerancia a la glucosa, un estadio intermedio.
+
+Entre las demás pruebas están la glucosuria, los cuerpos cetónicos en sangre y orina, la insulina y el péptido C, la albuminuria, y la hemoglobina glicosilada, el indicador de control diabético por excelencia. Y aquí hay un dato que merece la pena fijar de dos formas: la hemoglobina glicosilada no refleja la glucemia del momento, como sí hace una glucemia puntual, sino la concentración media de glucosa en plasma durante aproximadamente los dos últimos meses, que es más o menos la vida media del eritrocito. Dicho de otra manera, mientras la glucemia es una foto del instante, la hemoglobina glicosilada es la media de los últimos dos meses.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: además de la insulina, ¿qué otras hormonas intervienen en la homeostasis de la glucosa, y qué efecto tienen?
+
+[PAUSA 3s]
+
+Respuesta: el glucagón, la adrenalina, la somatotropina, la tiroxina y el cortisol, y todas ellas son hiperglucemiantes, suben la glucosa. La insulina es la única hormona hipoglucemiante.
+
+Si has dudado pensando que alguna de estas también baja la glucosa: ninguna lo hace, la insulina está sola en su función, y todo el resto del grupo trabaja en sentido contrario a ella.
+
+Pregunta: ¿qué diferencia principal hay entre la diabetes tipo uno y la diabetes tipo dos?
+
+[PAUSA 3s]
+
+Respuesta: la tipo uno es insulinodependiente, por destrucción autoinmune de las células beta, de inicio brusco y típica de gente joven. La tipo dos es insulino independiente, por resistencia periférica a la insulina, de instauración lenta y típica de mayores de cuarenta años.
+
+Si has dudado con cuál tiene la insulina elevada: en la tipo dos la insulinemia puede ser normal o incluso alta, porque el problema es de resistencia, no de producción; en la tipo uno la insulina falta porque las células que la fabrican están destruidas.
+
+Pregunta: según la Asociación Americana de Diabetes, ¿en cuántos grupos se clasifica la diabetes mellitus?
+
+[PAUSA 3s]
+
+Respuesta: en cuatro grupos, tipo uno, tipo dos, gestacional, y otras causas.
+
+Si has dudado y pensabas que eran tres: es el error más común, mucha gente olvida el cuarto grupo de otras causas específicas, pero la clasificación oficial tiene cuatro.
+
+Pregunta: ¿qué información da la hemoglobina glicosilada que no da una glucemia puntual?
+
+[PAUSA 3s]
+
+Respuesta: la concentración media de glucosa en plasma durante aproximadamente los dos últimos meses, en vez de un valor del momento exacto de la extracción.
+
+Si has dudado pensando que mide lo mismo que la glucemia capilar: son cosas distintas, la glucemia es un instante, la hemoglobina glicosilada es una media prolongada, por eso es el indicador de control a largo plazo.
+
+Pregunta: los defectos congénitos de la glucólisis, ¿a qué tipo de célula afectan más?
+
+[PAUSA 3s]
+
+Respuesta: al eritrocito.
+
+Si has dudado y pensabas que el eritrocito era el menos afectado: es justo la trampa del examen; el eritrocito no tiene mitocondrias y depende casi en exclusiva de la glucólisis para fabricar su ATP, así que es la célula más vulnerable a estos defectos, no la más protegida.
+
+Tres ideas fuerza para cerrar. Primero, la insulina es la única hormona que baja la glucosa frente a un grupo entero que la sube, y el eritrocito es la célula más vulnerable a los defectos de la glucólisis, no la más protegida, precisamente porque depende de ella en exclusiva. Segundo, la diabetes mellitus se clasifica en cuatro grupos, no tres, y la tipo uno es autoinmune y de inicio brusco, mientras que la tipo dos es por resistencia periférica y de instauración lenta. Y tercero, para el diagnóstico manda la cifra, ciento veintiséis en ayunas o doscientos tras la sobrecarga, y la hemoglobina glicosilada resume los últimos dos meses, no el momento presente.

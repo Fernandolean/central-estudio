@@ -1,0 +1,77 @@
+Si tuvieras que apostar en qué bloque va a caer más preguntas seguras del examen, apuesta por este. Veintinueve preguntas en el banco del simulador, y veintidós de ellas repetidas casi literalmente de una convocatoria a otra. En proporción, es el bloque más rentable de toda la asignatura: estudiar bien este contenido puede darte más puntos por minuto invertido que cualquier otro tema del parcial. Quédate con tres cosas de esta pista: las cinco garantías que la ley exige a todo medicamento, la diferencia entre fórmula magistral y preparado oficinal, que es la comparación más preguntada de todo el banco, y los libros que tiene que tener sí o sí una oficina de farmacia.
+
+Empezamos por las garantías. Todo medicamento legalmente reconocido en España tiene que cumplir cinco garantías, recogidas en la Ley veintinueve barra dos mil seis. Son calidad, seguridad, eficacia, identificación e información. Cinco palabras, y tienes que saber qué exige cada una por separado, porque al examen le encanta colarte un intruso, como "disponibilidad", "eficiencia" o "rentabilidad", que suenan parecido pero no forman parte de esta lista.
+
+La calidad exige que la composición cualitativa y cuantitativa del medicamento esté claramente definida y establecida. Es decir, que se sepa exactamente qué lleva y en qué cantidad.
+
+La seguridad exige que, en condiciones normales de uso, el medicamento no produzca efectos tóxicos o indeseables desproporcionados respecto al beneficio que aporta. Para comprobarlo, los estudios toxicológicos tienen que seguir las Buenas Prácticas de Laboratorio, y los estudios en animales tienen que respetar la normativa de protección animal. Ojo con una pregunta trampa muy típica de este apartado: si una opción dice que un medicamento puede salir al mercado aunque sus riesgos sean mayores que sus beneficios, esa opción es falsa. Es justo al revés: si los riesgos superan a los beneficios, el medicamento no se autoriza.
+
+La eficacia exige que el medicamento sea eficaz en las indicaciones terapéuticas para las que se ofrece. Esto se demuestra con estudios preclínicos y ensayos clínicos, y el efecto terapéutico se tiene que cuantificar para las distintas dosis y en todas las indicaciones que se soliciten.
+
+La identificación es la garantía que trae más detalles concretos. A cada principio activo se le asigna una Denominación Oficial Española, que se abrevia D O E, y que tiene que ser lo más próxima posible a la Denominación Común Internacional. El nombre comercial del medicamento sí puede ser un nombre de fantasía, siempre que no se confunda con la denominación común. Y los medicamentos genéricos se identifican con las siglas E F G. Anota bien qué significan, porque es una pregunta que cae siempre: E F G quiere decir Equivalente Farmacéutico Genérico. No es "excipiente farmacéutico genérico", ni "especialidades farmacéuticas genéricas": es Equivalente Farmacéutico Genérico.
+
+Y la información exige que los datos del medicamento sean precisos, comprensibles, y estén en un formato accesible, al menos en lengua española. Con esa información se elaboran la ficha técnica, el prospecto y el etiquetado.
+
+Para que estas cinco garantías no se te mezclen, hay un truco mental muy útil. Imagínate que llegas a una casa: la calidad es la propia casa, bien construida y bien definida. En la puerta hay un buen seguro, que es la seguridad. Te abre un portero muy eficiente, que es la eficacia. Antes de dejarte pasar te pide el D N I, que es la identificación. Y ya dentro, te entrega un folleto informativo bien claro sobre el edificio, que es la información. Calidad, seguridad, eficacia, identificación, información: la casa, el seguro, el portero eficiente, el D N I, y el folleto.
+
+Ahora la comparación más repetida de todo el banco: fórmula magistral frente a preparado oficinal. Casi siempre se pregunta en formato "señala la diferencia" o "señala la afirmación falsa", así que lo importante aquí no es memorizar cada dato suelto, sino tener clarísimo el criterio que separa a uno de otro.
+
+La fórmula magistral va destinada a un paciente individual y concreto. Necesita receta médica, porque la elabora el farmacéutico, o bajo su dirección, siguiendo exactamente lo que ha prescrito el médico para ese paciente en particular. Y, como es individual, no se elabora en grandes cantidades, y tampoco está descrita de antemano en ningún sitio: se ajusta a la prescripción concreta que llega a la farmacia.
+
+El preparado oficinal, en cambio, va destinado a un colectivo de pacientes, a cualquier usuario de la farmacia. No necesita receta médica. También lo elabora el farmacéutico, pero siguiendo las normas técnicas del Formulario Nacional, no una prescripción individual. Y como no depende de un paciente concreto, sí se puede elaborar en grandes cantidades, y además está descrito y numerado de antemano en ese mismo Formulario Nacional.
+
+Si te examinas esto con una frase resumen: la fórmula magistral es individual y necesita receta; el preparado oficinal es colectivo y no la necesita. Por eso, cualquier opción que diga que "ambas necesitan receta médica", o que "ambas se pueden fabricar en grandes cantidades", es casi seguro la respuesta falsa. Solo una de las dos cumple cada una de esas condiciones, nunca las dos a la vez.
+
+Subiendo un nivel, la Ley veintinueve barra dos mil seis reconoce cuatro grandes grupos de medicamentos: los medicamentos de uso humano y veterinario, que incluyen a los genéricos como un subtipo dentro de ese mismo grupo; las fórmulas magistrales; los preparados oficinales; y los medicamentos especiales.
+
+Dentro de los medicamentos especiales están las vacunas y medicamentos biológicos, los medicamentos de terapia avanzada, ya sea génica o celular, los radiofármacos, los gases medicinales, los medicamentos homeopáticos, los medicamentos a base de plantas medicinales, y los medicamentos de origen humano, como los hemoderivados.
+
+Y aquí está otra trampa muy repetida: el medicamento genérico no es un medicamento especial. Es un subtipo dentro de los medicamentos de uso humano y veterinario, nada más. Si una opción de examen mete al genérico en la lista de medicamentos especiales, junto a las vacunas o los radiofármacos, esa opción es falsa. Lo repito porque se pregunta mucho: el genérico va dentro de uso humano y veterinario; los especiales son una categoría aparte, con vacunas, radiofármacos, gases medicinales, homeopáticos, plantas medicinales y hemoderivados.
+
+Sobre el medicamento genérico en concreto, tiene que cumplir tres condiciones a la vez: la misma composición cualitativa y cuantitativa de principio activo que el medicamento de referencia, la misma forma farmacéutica, y bioequivalencia demostrada mediante estudios de biodisponibilidad. Lo que sí puede cambiar, sin que deje de ser genérico, son los excipientes. Puede llevar excipientes distintos a los del medicamento de marca, y eso no invalida en absoluto que sea un genérico legítimo.
+
+Y para cerrar, los libros que toda oficina de farmacia tiene que tener obligatoriamente. Son cuatro: el libro recetario, la Real Farmacopea Española, el Formulario Nacional, y el libro de estupefacientes y psicótropos. Fíjate en dos matices que le encantan al examen. Primero, el Vademécum no es de tenencia obligatoria: es una guía comercial elaborada por los propios laboratorios, útil en la práctica diaria, pero no un texto legal exigido por la normativa. Y segundo, si en una pregunta ves "Farmacopea Europea", desconfía: el libro exigido por la legislación española es la Real Farmacopea Española, no la europea.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿cuáles son las cinco garantías que la Ley veintinueve barra dos mil seis exige a todo medicamento?
+
+[PAUSA 3s]
+
+Respuesta: calidad, seguridad, eficacia, identificación e información.
+
+Si has dudado con "eficiencia" o "disponibilidad": ninguna de las dos forma parte de la lista legal, aunque suenen parecidas. La palabra correcta es eficacia, no eficiencia; y disponibilidad no es una garantía reconocida por esta ley.
+
+Pregunta: ¿cuál es la diferencia clave entre fórmula magistral y preparado oficinal?
+
+[PAUSA 3s]
+
+Respuesta: la fórmula magistral es individual, para un paciente concreto, y necesita receta médica. El preparado oficinal es para un colectivo de pacientes y no necesita receta.
+
+Si has dudado pensando que ambas necesitan receta: solo la fórmula magistral la necesita. El preparado oficinal se elabora siguiendo el Formulario Nacional, sin depender de una prescripción individual.
+
+Pregunta: ¿es el medicamento genérico un medicamento especial?
+
+[PAUSA 3s]
+
+Respuesta: no. Es un subtipo de medicamento de uso humano y veterinario.
+
+Si has dudado porque las siglas E F G suenan a algo excepcional: los medicamentos especiales son otra categoría totalmente distinta, la de vacunas, radiofármacos, gases medicinales, homeopáticos y similares. El genérico no forma parte de ese grupo.
+
+Pregunta: ¿qué significan las siglas E F G?
+
+[PAUSA 3s]
+
+Respuesta: Equivalente Farmacéutico Genérico.
+
+Si has dudado con "excipiente farmacéutico genérico": la palabra clave es "equivalente", no "excipiente". Fíjate en esa primera letra la próxima vez que la veas escrita.
+
+Pregunta: de estos cuatro, el libro de psicótropos, la Real Farmacopea Española, el Formulario Nacional y el Vademécum, ¿cuál NO es de tenencia obligatoria en la oficina de farmacia?
+
+[PAUSA 3s]
+
+Respuesta: el Vademécum.
+
+Si has dudado porque el Vademécum se usa muchísimo en la práctica diaria: es verdad que se consulta constantemente, pero es una guía comercial de los laboratorios, no un texto de tenencia legal obligatoria. Los otros tres sí lo son.
+
+Tres ideas para cerrar este tema. Primero: las cinco garantías del medicamento son calidad, seguridad, eficacia, identificación e información, y ninguna palabra parecida, como eficiencia o disponibilidad, forma parte de esa lista. Segundo: la fórmula magistral es individual y necesita receta médica; el preparado oficinal es para un colectivo y no la necesita; y el medicamento genérico nunca es un medicamento especial, es un subtipo de medicamento de uso humano. Y tercero: los libros obligatorios en la oficina de farmacia son el libro recetario, la Real Farmacopea Española, el Formulario Nacional y el libro de estupefacientes y psicótropos; el Vademécum se queda fuera de esa lista.

@@ -1,0 +1,45 @@
+El fármaco ya ha sido absorbido, ya está en la sangre. Pero estar en la sangre no es lo mismo que estar donde tiene que hacer efecto. Ahora empieza el reparto: cómo se distribuye ese fármaco por el cuerpo, qué tejidos lo esconden, qué barreras se le resisten, y por qué a veces se queda pegado en un sitio inesperado en vez de llegar a su diana. De eso trata la distribución, y aquí hay una idea que vertebra casi todo el bloque: solo una parte del fármaco que circula por la sangre está realmente disponible para actuar.
+
+La distribución comprende varios movimientos a la vez, no fases separadas en el tiempo. El fármaco circula por la sangre hacia el órgano donde tiene que actuar, cruza barreras especiales como la barrera hematoencefálica o la barrera placentaria si hace falta, se deposita en distintos tejidos, y también circula hacia el órgano que después lo va a metabolizar o a eliminar.
+
+Y aquí llega la idea central del tema. De todo el fármaco que hay en sangre, una parte va unida a proteínas plasmáticas, sobre todo a la albúmina, y otra parte va libre. Solo el fármaco libre es activo, solo el libre puede salir del torrente sanguíneo y llegar hasta su diana, porque se mueve a favor de gradiente de concentración. El fármaco unido a la albúmina no hace nada por sí mismo mientras sigue unido: actúa como un reservorio, una reserva que se va liberando poco a poco a medida que la fracción libre se va consumiendo. Y esa unión a la albúmina es reversible, así que el reservorio se vacía y aporta fármaco libre nuevo según hace falta.
+
+La cantidad de albúmina disponible no es fija, cambia según la situación del paciente, y esto se pregunta mucho combinado con lo anterior. En traumatismos y en quemaduras, la concentración de albúmina aumenta. En cambio, en la malnutrición y en la diabetes, la concentración de albúmina disminuye. La insuficiencia renal también altera el grado de unión del fármaco a las proteínas plasmáticas. Y hay una situación clásica de examen: si dos fármacos compiten por unirse a la misma proteína plasmática, uno puede desplazar al otro de su sitio de unión, liberando de golpe más fármaco libre del habitual, y eso puede generar una interacción peligrosa, porque de repente circula más fármaco activo del que el organismo esperaba manejar.
+
+De esta relación entre fármaco libre y fármaco unido sale un concepto que hay que dominar: el volumen de distribución. Cuando un fármaco tiene poca unión a proteínas plasmáticas pero mucha afinidad por las proteínas de los tejidos, ese fármaco se esconde en los tejidos, queda poco en el plasma, y decimos que tiene un volumen de distribución elevado. Al contrario, cuando un fármaco tiene mucha unión a proteínas plasmáticas, tiende a quedarse más tiempo en el compartimento plasmático, y decimos que tiene un volumen de distribución bajo. Repite la relación porque es la que más preguntan: mucha unión a proteínas del plasma es igual a volumen de distribución bajo, y mucha fijación a los tejidos es igual a volumen de distribución elevado.
+
+Vamos con las barreras especiales, que tienen cada una su propia lógica. La barrera hematoencefálica es muy lipídica, así que solo la cruzan con facilidad los fármacos altamente liposolubles; un fármaco hidrosoluble lo tiene muy difícil para llegar al sistema nervioso central por esta vía. Ojo con un dato que preguntan bastante: la meningitis altera esta barrera y la vuelve más permeable de lo normal, y eso es precisamente parte de lo que la hace tan peligrosa, porque permite pasar tanto fármacos que normalmente no entrarían como los propios patógenos que causan la infección.
+
+La barrera placentaria funciona con otra lógica. Es más permeable en las fases iniciales de la gestación, porque en ese momento tiene menor grosor y menor superficie que más adelante en el embarazo. Y aquí va la norma de seguridad que hay que memorizar tal cual: se asume que todos los fármacos administrados a la madre pueden atravesar la placenta y afectar al feto, salvo que se demuestre expresamente lo contrario. Exactamente la misma asunción se aplica a la leche materna: se da por hecho que un fármaco puede pasar a la leche, salvo que haya evidencia de que no lo hace.
+
+Para cerrar el bloque, conviene tener clara en conjunto la lista de factores que condicionan la distribución: la dosis y la vía de administración elegidas, el grado de ionización del fármaco, es decir su pe ka, su liposolubilidad, el grado de unión tanto a proteínas plasmáticas como a proteínas de los tejidos, y el flujo sanguíneo del tejido en cuestión. Este último factor es más intuitivo de lo que parece: órganos muy vascularizados, como el cerebro, el hígado o el riñón, reciben el fármaco casi de inmediato; en cambio, tejidos poco vascularizados, como el hueso o la grasa, lo reciben mucho más despacio, aunque a veces terminen acumulando más cantidad a largo plazo. Y hay ejemplos concretos de fijación tisular que aparecen en examen: las tetraciclinas se fijan preferentemente al hueso, y los fármacos muy liposolubles se acumulan en el tejido adiposo, quedando ahí almacenados durante más tiempo del esperado.
+
+Nota además que el mismo grado de ionización que decidía si un fármaco atravesaba membranas en la absorción vuelve a aparecer aquí: un fármaco no ionizado, liposoluble, se distribuye con facilidad a los tejidos; uno ionizado, hidrosoluble, tiende a quedarse más limitado al plasma y a los espacios extracelulares. Es la misma regla de siempre, aplicada ahora al reparto por el organismo en lugar de al simple cruce de una membrana.
+
+Vamos con la recuperación activa. Cuatro preguntas, tómate un segundo real en cada pausa.
+
+Pregunta: un fármaco va unido en su mayor parte a la albúmina plasmática. ¿Esa fracción unida es la que hace efecto, o es la fracción libre?
+
+[PAUSA 3s]
+
+Respuesta: es la fracción libre la que hace efecto. La fracción unida a la albúmina actúa como reservorio, no ejerce efecto mientras sigue unida; solo cuando se libera y pasa a ser fármaco libre puede salir de la sangre y actuar sobre su diana.
+
+Pregunta: un fármaco se une muy poco a las proteínas plasmáticas pero mucho a las proteínas de los tejidos. ¿Tiene un volumen de distribución elevado o bajo?
+
+[PAUSA 3s]
+
+Respuesta: elevado. Al preferir los tejidos, se esconde ahí y queda poco en el plasma, y eso es precisamente lo que define un volumen de distribución elevado. Si has dudado, recuerda la relación inversa: es la mucha unión a proteínas plasmáticas la que da un volumen de distribución bajo, no al revés.
+
+Pregunta: verdadero o falso, la meningitis hace que la barrera hematoencefálica sea menos permeable, protegiendo mejor al sistema nervioso central.
+
+[PAUSA 3s]
+
+Respuesta: falso, es justo lo contrario. La meningitis vuelve la barrera hematoencefálica más permeable, no menos, y por eso pueden entrar tanto fármacos que normalmente no cruzarían como los propios microorganismos causantes de la infección.
+
+Pregunta: si no hay estudios que confirmen lo contrario, ¿qué se asume sobre un fármaco administrado a una mujer embarazada, que atraviesa la placenta o que no la atraviesa?
+
+[PAUSA 3s]
+
+Respuesta: se asume que sí la atraviesa y que puede afectar al feto, salvo que se demuestre lo contrario. Es la misma norma de precaución que se aplica a la leche materna: por defecto se sospecha que el fármaco pasa, no que se queda fuera.
+
+Y con esto cerramos. Tres ideas fuerza. Primero: solo el fármaco libre es activo, la fracción unida a la albúmina es reservorio, y la competencia entre dos fármacos por la misma proteína puede desplazar fármaco libre de golpe y generar toxicidad. Segundo: mucha unión a proteínas plasmáticas da un volumen de distribución bajo, y mucha fijación a los tejidos da un volumen de distribución elevado. Y tercero: se asume por defecto que todo fármaco atraviesa la barrera placentaria y pasa a la leche materna, salvo que se demuestre lo contrario; y ojo, porque es la meningitis la que vuelve más permeable la barrera hematoencefálica, nunca al revés.

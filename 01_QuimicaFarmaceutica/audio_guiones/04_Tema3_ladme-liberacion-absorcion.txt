@@ -1,0 +1,65 @@
+Liberación y absorción van a estar sí o sí en tu examen, con puntuación propia y separada: la especiación vale unos dos puntos, la liberación aproximadamente uno con cinco, y la absorción otros dos. Así que esto no es contenido opcional, es donde se juega buena parte de la nota, justo después del bloque de especiación que ya has repasado. Vamos a fijar el guion exacto que hay que seguir para cada una, porque aquí el examen no solo puntúa el cálculo: puntúa también frases muy concretas que hay que escribir, y si no las escribes, pierdes esos puntos aunque el cálculo esté perfecto.
+
+Antes de entrar en el guion, fijemos la idea que sostiene todo el bloque, porque es justo lo que más se confunde entre liberación y absorción: en cada etapa interesa una especie distinta, y son especies opuestas. En la liberación, el fármaco tiene que disolverse en un medio acuoso, la saliva, así que lo que interesa es la especie ionizada, con carga, porque una carga se disuelve mejor en agua. En la absorción, el fármaco tiene que atravesar la bicapa lipídica del tracto digestivo, así que lo que interesa ahí es justo lo contrario, la especie neutra, sin carga, porque lo apolar atraviesa mejor una membrana apolar. Repite esto en tu cabeza cada vez que dudes: liberación quiere carga, absorción quiere neutralidad. Son procesos consecutivos con necesidades contrarias, y ese contraste es la base de todo el razonamiento de este bloque.
+
+Vamos con el guion de liberación, paso a paso. Primer paso: la definición. Tiene que ser corta, tenla preparada de memoria antes de entrar al examen, porque quien no la incluya no puntúa nada de ese apartado, por muy bien que le salga después el cálculo. La liberación es el paso del fármaco sólido a especies en disolución, planteado como un equilibrio entre disolverse y estar ionizado, evaluado al pH de la saliva, que es aproximadamente seis con ocho.
+
+Segundo paso: el cálculo de Lenke. Aquí hay una regla fija que no falla nunca: la tabla de Lenke se aplica siempre a la especie neutra, sin excepción, independientemente de si esa especie neutra es la que domina o no al pH de trabajo. Sumas los carbonos equivalentes de solubilidad que aportan los grupos funcionales de esa especie neutra, y si esa suma es menor que los carbonos reales de la molécula, la conclusión es que la hidrofilia es menor que la lipofilia, y por tanto esa especie neutra es insoluble.
+
+Tercer paso: asignas el carácter ácido o básico de cada grupo, que ya viene resuelto de la especiación que hiciste antes.
+
+Cuarto paso, el más largo: miras qué especies existen realmente al pH de la saliva, seis con ocho, y evalúas su solubilidad, con tres posibles resultados. Si las dos especies presentes a ese pH son solubles, la conclusión es liberación buena pero lenta. Si ninguna de las dos es soluble, la liberación es lenta y mala, y hay que proponer una sal para arreglarlo. Y el caso más delicado: si solo una de las dos especies es soluble, hay que mirar si esa especie soluble supera el sesenta por ciento del total a ese pH; si no llega al sesenta por ciento, aunque sea la mayoritaria de las dos, también hay que proponer una sal, y ese porcentaje exacto se calcula con la ecuación de Henderson Hasselbalch.
+
+Sobre Lenke, un dato que conviene repetir porque explica por qué proponer una sal casi siempre soluciona el problema: una especie con carga, es decir, una sal, aporta entre veinte y treinta carbonos equivalentes de solubilidad, casi siempre suficiente por sí sola para hacer soluble a la especie ionizada, aunque el resto de la molécula sea muy lipófilo.
+
+Y aquí entra la ecuación de Henderson Hasselbalch, en el formato exacto que se usa en esta asignatura: el pH es igual al pe ka más el logaritmo del cociente entre la base y el ácido. El ácido de ese cociente es siempre la especie con un hidrógeno de más, la que está a la izquierda del equilibrio de especiación; la base es la especie que queda después de perder ese hidrógeno, la que está a la derecha. Para calcular el porcentaje, se asigna una equis a la especie con carga, que es la que estás calculando, y cien menos equis a la especie neutra correspondiente, y se despeja la ecuación.
+
+Cuando el porcentaje no llega al sesenta por ciento necesario, toca proponer una sal, y aquí hay una regla sencilla para elegirla. Si el problema está en un grupo básico, como una amina, se enfrenta el fármaco a un ácido, por ejemplo ácido clorhídrico, y se obtiene un hidrocloruro, con una carga positiva permanente. Si el problema está en un grupo ácido, se enfrenta a una base, por ejemplo hidróxido sódico, y se obtiene una sal sódica o un fosfato, con carga negativa permanente.
+
+El ejemplo de referencia que se repite en clase es el ibuprofeno con arginina. La arginina lleva una guanidina, y ya sabes de la especiación que la guanidina es de las bases más fuertes de toda la tabla, con un pe ka entre doce y trece. Eso garantiza que la arginina va a estar protonada, con carga permanente, prácticamente a cualquier pH fisiológico. Esa carga permanente es justo lo que acelera muchísimo la disolución del fármaco. Por eso el ibuprofeno con arginina se libera y hace efecto antes que el ibuprofeno solo: la carga fija de la guanidina asegura una liberación rápida desde el primer momento, sin depender de si el fármaco por sí mismo se ioniza bien o mal al pH de la saliva.
+
+Ahora, el guion de absorción, que retoma exactamente donde lo dejó la liberación pero con el objetivo invertido. Primer paso, otra vez, la definición corta, con la misma limitación de tiempo que antes. Segundo paso: la estructura del fármaco, que ya tienes identificada. Tercer paso: la especiación, que ya está hecha desde el principio del ejercicio.
+
+Cuarto paso, el corazón de este apartado: hay que especiar el fármaco en tres puntos concretos del tracto gastrointestinal. En el estómago, a pH dos. En el duodeno, a pH cinco con cinco. Y en el íleon, a pH ocho. En cada uno de esos tres puntos calculas qué especies hay presentes, y el punto con mayor proporción de especie neutra es, por definición, el sitio donde el fármaco se absorbe mejor, porque recuerda, la especie neutra es la que atraviesa la bicapa lipídica.
+
+Quinto paso: si en alguno de esos tres puntos coexisten dos especies, calculas el porcentaje exacto con Henderson Hasselbalch, igual que hiciste en liberación, para saber cuál domina realmente.
+
+Y el sexto paso es el que más puntos cuesta perder si te lo saltas, porque puntúa aparte del cálculo, como teoría pura: hay que escribir, de forma literal, esta conclusión. Que a mayor pH domina la especie menos polar, que hay mayor fuerza de atracción por la bicapa lipídica, mayor difusión pasiva, y mayor absorción. Esta frase no es un resumen libre que puedas parafrasear a tu manera: hay que escribirla completa, con esos cuatro elementos encadenados, porque así es como se puntúa en la corrección. Quien no la escriba no puntúa ese apartado, aunque el cálculo numérico esté perfecto.
+
+Repitamos el contraste central una vez más, porque es la idea que más se pregunta indirectamente en todo este bloque: en liberación, el fármaco necesita disolverse en un medio acuoso, así que interesa la especie cargada, la ionizada. En absorción, el fármaco necesita atravesar una membrana lipídica, así que interesa la especie sin carga, la neutra. Es el mismo fármaco, la misma especiación de base, pero cada etapa del proceso busca justo lo contrario que la anterior.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: ¿qué tipo de especie interesa para la etapa de liberación, en disolución acuosa, y cuál para la etapa de absorción, en la bicapa lipídica?
+
+[PAUSA 3s]
+
+Respuesta: en liberación interesa la especie ionizada, porque una carga se disuelve mejor en un medio acuoso como la saliva. En absorción interesa la especie neutra, porque solo lo apolar atraviesa bien una membrana lipídica. Son necesidades exactamente contrarias.
+
+Si has dudado y has pensado que en las dos etapas interesa lo mismo: es el error más común de este bloque. Liberación y absorción son procesos consecutivos pero con objetivos opuestos, y confundirlos te hace fallar media especiación del ejercicio.
+
+Pregunta: cuando en un pH determinado coexisten una especie soluble y otra insoluble, ¿qué porcentaje debe alcanzar la especie soluble para considerar buena la liberación?
+
+[PAUSA 3s]
+
+Respuesta: por encima del sesenta por ciento. Si la especie soluble no llega a ese sesenta por ciento, aunque sea la mayoritaria de las dos presentes, hay que proponer una sal para mejorar la liberación.
+
+Pregunta: el ibuprofeno con arginina se libera y hace efecto más rápido que el ibuprofeno solo. ¿Por qué?
+
+[PAUSA 3s]
+
+Respuesta: porque la arginina lleva una guanidina, muy básica, con un pe ka entre doce y trece, que asegura una carga positiva permanente a cualquier pH fisiológico. Esa carga fija acelera la disolución del fármaco desde el principio.
+
+Pregunta: ¿en qué tres puntos del tracto gastrointestinal hay que estudiar la especiación de un fármaco para analizar su absorción?
+
+[PAUSA 3s]
+
+Respuesta: en el estómago, a pH dos; en el duodeno, a pH cinco con cinco; y en el íleon, a pH ocho. El punto con mayor proporción de especie neutra es donde mejor se absorbe el fármaco.
+
+Última pregunta: según el guion de fármacos, ¿qué conclusión teórica hay que escribir siempre, de forma literal, en el apartado de absorción?
+
+[PAUSA 3s]
+
+Respuesta: que a mayor pH domina la especie menos polar, que hay mayor fuerza de atracción por la bicapa lipídica, mayor difusión pasiva, y mayor absorción. Es una frase que puntúa aparte del cálculo, así que hay que escribirla completa y literal, no resumida.
+
+Cerramos con tres ideas fuerza. Primero: liberación y absorción buscan especies opuestas, ionizada para disolverse en la saliva, neutra para atravesar la bicapa lipídica del tracto digestivo, y esa oposición es la clave de todo el bloque. Segundo: en liberación, Lenke se aplica siempre a la especie neutra, y la especie soluble a pH de saliva tiene que superar el sesenta por ciento, o si no hay que proponer una sal, como en el caso del ibuprofeno con arginina, donde la guanidina asegura carga permanente y acelera la disolución. Tercero: en absorción hay que especiar en estómago a pH dos, duodeno a pH cinco con cinco, e íleon a pH ocho, y siempre hay que escribir la frase literal sobre que a mayor pH domina la especie menos polar y por tanto hay mayor absorción, porque esa frase puntúa aparte del cálculo. Con este guion resuelto tienes cerrados prácticamente cuatro puntos del examen del primer parcial.

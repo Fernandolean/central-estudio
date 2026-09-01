@@ -1,0 +1,59 @@
+Dos fármacos comparten exactamente el mismo código de letras y solo cambia el último número: uno termina en cero uno y el otro en cero seis. ¿Qué relación hay entre ellos? Esta pregunta, en distintas variantes, aparece muchísimo en el tipo test del primer parcial, y viene directamente del tema uno y del tema dos. Son temas que pesan poco en la nota final, apenas dos o tres preguntas, pero son casi regaladas si te los has leído una vez con atención. El truco está en no confundir cuatro o cinco conceptos que suenan parecido. Vamos a dejarlos bien separados.
+
+Empecemos por la base: fármaco, medicamento, cabeza de serie y denominación común internacional. Un fármaco es la sustancia pura que llega a la diana biológica y produce el efecto. Un medicamento es ese mismo fármaco ya formulado con excipientes, envasado, listo para dárselo al paciente en una forma farmacéutica concreta. La trampa clásica de examen consiste en dar la definición de fármaco y decir que es la de medicamento, o al revés. Fíjate en la diferencia real: el fármaco es la molécula pura y activa; el medicamento es el producto final que compras en la farmacia, con el fármaco dentro más todo lo demás.
+
+El cabeza de serie es el primer compuesto que se descubre con la actividad buscada, aquel del que derivan por optimización sucesiva los siguientes fármacos de su familia. Y aquí viene un dato que se pregunta mucho porque suena contraintuitivo: el cabeza de serie no tiene por qué comercializarse nunca. A veces el laboratorio directamente comercializa una versión optimizada suya, y el cabeza de serie original se queda solo con su denominación común internacional, sin nombre comercial propio. La denominación común internacional, o DCI, es justamente eso: el nombre genérico del principio activo, exista o no un medicamento comercializado con él. Por eso puedes memorizar esta frase: todo fármaco tiene DCI, pero no todo fármaco tiene nombre comercial.
+
+Con estos cuatro conceptos ya puedes entender qué es un fármaco me-too: una copia con la misma diana y la misma actividad que el cabeza de serie, desarrollada normalmente por otro laboratorio. El ejemplo que se repite en clase es el de la sertralina y la fluoxetina. Las dos tienen actividad equivalente y una estructura casi calcada. Pero solo una de las dos es el cabeza de serie real, y se identifica por su código: el cabeza de serie siempre lleva el número final cero uno. La fluoxetina, aunque parezca la más conocida, no lleva ese número, así que no puede ser el cabeza de serie. La sertralina, con un número más alto, es la copia, el fármaco me-too. Ojo con esto: que un fármaco esté comercializado no dice nada sobre si es o no el cabeza de serie; lo único que lo determina es ser el primero de la familia.
+
+Esto nos lleva directamente a la nomenclatura ATC, que es como un código de identidad para cada fármaco. Las letras y números de este código no son aleatorios, y entenderlos te resuelve de un plumazo bastantes preguntas de test. La primera letra indica el órgano o sistema al que se dirige el fármaco. Los números que vienen después marcan el grupo terapéutico. La siguiente letra concreta el subgrupo terapéutico. Otra letra más indica el grupo químico del fármaco. Y, por último, el número final es el que te dice si estás ante el cabeza de serie o ante una copia: el número final cero uno es siempre el cabeza de serie, y a partir de ahí, cero dos, cero tres, y así sucesivamente, van las optimizaciones y copias posteriores.
+
+Aquí está la clave de la pregunta con la que empezábamos: si dos fármacos comparten todas las letras del código y solo cambia el número final, significa que van al mismo órgano, al mismo grupo terapéutico, al mismo subgrupo, y tienen el mismo grupo químico. Son, literalmente, fármacos de la misma familia. El que lleva el número más bajo, normalmente cero uno, es el cabeza de serie; el resto son fármacos me-too, copias mejoradas que se han ido sintetizando después. Si en cambio cambia alguna de las letras intermedias, ya no estamos ante una simple copia, sino ante fármacos con distinto subgrupo terapéutico o distinta diana, aunque compartan el mismo órgano de acción.
+
+Cambiemos de tema dentro del mismo bloque: la serendipia, es decir, el descubrimiento por casualidad. El ejemplo que la profesora repite en clase, y que ha caído en examen tipo test más de una vez, es el Viagra. No se desarrolló buscando lo que hoy conocemos. Se estaba investigando como fármaco cardiovascular, concretamente para tratar la angina de pecho, buscando un efecto vasodilatador sobre el corazón. Durante los ensayos apareció un efecto secundario que acabó siendo mucho más comercial que el objetivo original, y ese efecto secundario se convirtió en el propio fármaco. Este tipo de dato curioso, de los que parecen anécdota, es justo lo que suele caer en el tipo test de este bloque, así que merece la pena recordarlo bien.
+
+Y ya que hablamos del Viagra, aprovechemos para fijar una distinción que se confunde constantemente: fármaco quimioterápico frente a fármaco farmacodinámico. Un fármaco quimioterápico es el que actúa sobre cualquier ácido nucleico, ya sea ADN o ARN, interfiriendo en su síntesis. Esta definición vale tanto para un fármaco que mata células cancerosas como para un antibiótico que ataca a una bacteria, o para un antiviral que bloquea la replicación de un virus: los tres comparten el mismo mecanismo de fondo, atacar al material genético. Un fármaco farmacodinámico es, en cambio, todo lo contrario: cualquier fármaco que actúa sobre una función fisiológica del cuerpo sin tocar el ácido nucleico, por ejemplo bajando la tensión arterial o el colesterol.
+
+Aquí es donde entra la penicilina, otro ejemplo muy preguntado. La penicilina es un antibiótico, y por tanto se dirige a un microorganismo. Ojo con la trampa habitual del examen: como es un antibiótico, no es un fármaco farmacodinámico, sino quimioterápico, porque interfiere con la síntesis del material genético o de estructuras esenciales del microorganismo, igual que un fármaco anticanceroso interfiere con el ADN de una célula tumoral. El Viagra, en cambio, aunque también se descubriera por serendipia igual que la penicilina en su día, es farmacodinámico: actúa sobre un mecanismo fisiológico normal del cuerpo, no sobre un ácido nucleico. Fíjate en que estas dos clasificaciones, cómo se descubrió el fármaco y qué tipo de mecanismo tiene, son cosas completamente distintas, y el examen le gusta mezclarlas para despistar.
+
+Vamos con otro par que se confunde mucho: fármaco activo frente a profármaco. El ejemplo de examen es el paracetamol, junto con la acetanilida y la fenacetina. Un profármaco es un compuesto que hay que transformar metabólicamente, dentro del cuerpo, para que llegue a convertirse en el fármaco realmente activo. La acetanilida y la fenacetina son profármacos del paracetamol: el fármaco activo de verdad, el que llega a la diana biológica, es el paracetamol; los otros dos son solo la forma de partida. Curiosamente, la acetanilida se absorbe mejor que el propio paracetamol, porque es más lipófila: el paracetamol tiene un grupo hidroxilo que le añade polaridad y dificulta un poco su paso a través de las membranas. Pero la acetanilida no se puede eliminar directamente del cuerpo tal cual; el hígado tiene que meterle ese grupo hidroxilo mediante metabolismo, y así se genera el paracetamol activo. Es una trampa típica de test decir que un profármaco se absorbe peor que el fármaco final: normalmente es justo al revés, porque el profármaco suele ser más lipófilo.
+
+Un último bloque, breve pero que conviene tener anclado: el orden correcto en el diseño de un fármaco. Primero se hace el estudio fisiológico, después se elige la diana, luego se obtiene el cabeza de serie junto con los estudios de relación entre estructura y actividad, y por último se hace la optimización. Cuando en el examen aparecen las siglas REA, se están refiriendo exactamente a eso: relación estructura actividad, el proceso de ir cambiando pequeños detalles de la molécula para ver cómo varía su efecto.
+
+Vamos a fijar todo esto con unas preguntas rápidas.
+
+Pregunta: ¿cuál es la diferencia fundamental entre fármaco y medicamento, tal como se explica en clase?
+
+[PAUSA 3s]
+
+Respuesta: el fármaco es la sustancia pura que llega a la diana biológica y produce el efecto. El medicamento es ese fármaco ya formulado, con excipientes y en una forma farmacéutica concreta, listo para el paciente.
+
+Si has dudado y has definido el fármaco como la molécula prototipo: cuidado, esa es la definición de cabeza de serie, no de fármaco ni de medicamento. Son tres cosas distintas.
+
+Pregunta: dos fármacos tienen el mismo código ATC salvo por el número final, por ejemplo uno terminado en cero uno y otro en cero seis. ¿Qué relación hay entre ellos?
+
+[PAUSA 3s]
+
+Respuesta: son fármacos de la misma familia. El que lleva el número cero uno es el cabeza de serie, y el resto, con números más altos, son fármacos me-too, copias posteriores de esa misma familia.
+
+Pregunta: el Viagra es el ejemplo clásico de fármaco descubierto por serendipia. ¿Para qué se estaba investigando originalmente?
+
+[PAUSA 3s]
+
+Respuesta: se investigaba como fármaco cardiovascular, buscando tratar la angina de pecho mediante un efecto vasodilatador.
+
+Pregunta: ¿cómo se clasifica la penicilina según la distinción entre fármaco quimioterápico y fármaco farmacodinámico?
+
+[PAUSA 3s]
+
+Respuesta: como quimioterápico. Al ser un antibiótico, actúa interfiriendo con estructuras esenciales del microorganismo, de forma parecida a como un fármaco anticanceroso interfiere con el ácido nucleico de una célula tumoral. Nunca es farmacodinámico.
+
+Si has dudado entre las dos opciones: recuerda la regla simple, si el fármaco ataca microorganismos, células cancerosas o virus, casi siempre es quimioterápico; si regula una función normal del cuerpo, como la tensión o el colesterol, es farmacodinámico.
+
+Última pregunta: la acetanilida y la fenacetina son profármacos del paracetamol. ¿Qué significa exactamente esto?
+
+[PAUSA 3s]
+
+Respuesta: que ni la acetanilida ni la fenacetina son el fármaco activo real. El fármaco que de verdad llega a la diana biológica es el paracetamol. La acetanilida y la fenacetina necesitan transformarse metabólicamente en el hígado, ganando un grupo hidroxilo, para convertirse en paracetamol.
+
+Cerramos con tres ideas fuerza. Primero: fármaco, medicamento y cabeza de serie son tres cosas distintas; el fármaco es la molécula pura, el medicamento es el producto formulado, y el cabeza de serie es el primero de su familia, que no tiene por qué estar comercializado. Segundo: la nomenclatura ATC codifica órgano, grupo terapéutico, subgrupo y grupo químico, y el número final distingue al cabeza de serie, siempre cero uno, de sus copias posteriores o fármacos me-too. Tercero: no confundas cómo se descubrió un fármaco, por ejemplo por serendipia como el Viagra o la penicilina, con su mecanismo de acción, quimioterápico si ataca un ácido nucleico como hacen los antibióticos, o farmacodinámico si regula una función fisiológica normal. Con esto tienes cubierto lo esencial del tema uno y el tema dos para el tipo test del primer parcial.

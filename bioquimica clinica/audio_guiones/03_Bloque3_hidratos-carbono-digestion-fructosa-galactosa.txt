@@ -1,0 +1,65 @@
+Un hidrato de carbono de la dieta tiene que cruzar la pared del intestino delgado antes de servir para algo, y no todos cruzan por la misma puerta ni al mismo ritmo. Y una vez dentro, hígado y riñón tienen que saber qué hacer con dos azúcares en concreto, la fructosa y la galactosa, que cuando algo falla en su metabolismo dan lugar a algunas de las enfermedades hereditarias más preguntadas del bloque. Hoy vemos cómo se digiere y se absorbe un hidrato de carbono, y qué pasa cuando el manejo de la fructosa o de la galactosa se rompe. El examen adora confundir estas enfermedades entre sí, así que vamos a fijar bien los contrastes.
+
+Empecemos por la digestión. De los hidratos de carbono de la dieta, son digeribles el almidón, las dextrinas y la sacarosa, y en menor proporción el glucógeno, la glucosa, la maltosa y la fructosa. No son digeribles, es decir son fibra, la celulosa, la inulina, el agar y otros polisacáridos vegetales complejos. Tres enzimas hacen el trabajo principal: la lactasa rompe la lactosa en galactosa y glucosa; la amilasa rompe el almidón en maltosa, maltotriosa y dextrinas límite, que luego otras enzimas terminan de convertir en glucosa; y la sacarasa rompe la sacarosa en glucosa y fructosa.
+
+Una vez rotos en monosacáridos, la absorción en el enterocito depende de transportadores específicos. En la membrana que mira hacia la luz intestinal está el SGLT uno, que cotransporta sodio con glucosa o galactosa; y está el GLUT cinco, específico para la fructosa, que funciona sin depender del sodio. En la membrana que mira hacia la sangre está la bomba de sodio y potasio, que mantiene el gradiente necesario para que el SGLT uno funcione, y está el GLUT dos, la puerta de salida común para glucosa, galactosa y fructosa hacia la circulación. Cuando falta la enzima digestiva de un azúcar, ese hidrato de carbono llega intacto al colon y las bacterias lo fermentan, produciendo gases y ácidos: de ahí la hinchazón abdominal y el meteorismo, además de un descenso del pH que daña la pared intestinal. Y como ese bolo sin digerir es hiperosmótico, arrastra agua consigo y provoca diarreas hídricas, un cuadro de malabsorción.
+
+Vamos con la fructosa. Su absorción intestinal es más lenta que la de la glucosa o la galactosa, y depende de un sistema de transporte relacionado con el oxígeno, aunque, una vez dentro, su metabolismo hepático es más rápido que el de la glucosa. En torno al sesenta por ciento de los adultos tiene capacidad limitada para absorber fructosa, algo que se corrige dándola junto con glucosa. Su efecto sobre la liberación de insulina es inferior al de la glucosa, y su entrada en las células es independiente de la insulina. Dato clásico de examen: la administración intravenosa rápida de fructosa en una persona sana provoca un metabolismo hepático tan rápido que puede causar hipoglucemia, por inhibición de la degradación del glucógeno, hiperuricemia, por degradación de nucleótidos de adenina, y acidosis láctica, las tres cosas a la vez, derivadas del acúmulo agudo de fructosa uno fosfato.
+
+Hay dos enfermedades hereditarias de la fructosa, y es fácil confundirlas si no las tienes bien separadas. La fructosuria esencial o benigna se debe a un déficit de fructoquinasa, es autosómica recesiva, y suele ser asintomática e infrecuente: solo se detecta porque, tras la ingesta, la fructosa sube rápido en sangre y en orina, muchas veces como hallazgo casual en un análisis de rutina. La intolerancia hereditaria a la fructosa es mucho más grave, y se debe a un déficit de aldolasa B, también autosómica recesiva. Aquí se acumula fructosa uno fosfato, que secuestra fosfato inorgánico; ese descenso de fosfato bloquea una enzima que degrada nucleótidos de adenina, con lo que se acumula ácido úrico y aparece hiperuricemia; además interfiere con la gluconeogénesis, provocando hipoglucemia, y el exceso de piruvato se reduce a lactato, provocando hiperlacticemia. Dicho de otra forma, y merece la pena repetirlo porque es de lo más preguntado del bloque: el bloqueo de la aldolasa B da, a la vez, hipoglucemia, hiperlacticemia e hiperuricemia. Clínicamente es silente mientras no se ingiera fructosa ni sacarosa, así que los síntomas aparecen típicamente tras el destete, con pérdida de peso, vómitos, sudoración, dolor abdominal, alteración hepática, y si no se retira la fructosa de la dieta, insuficiencia renal y hepática, convulsiones e incluso la muerte.
+
+Para diferenciarlas hay una prueba de sobrecarga oral de fructosa que es la trampa más repetida de todo el bloque, así que vamos a fijarla con cuidado. En la fructosuria esencial, tras la sobrecarga, la fructosa en sangre sube y baja lentamente, sin provocar hipoglucemia, y desaparece hacia las seis horas. En la intolerancia hereditaria, la prueba se considera positiva cuando aparece un pico de hipoglucemia entre los treinta y los sesenta minutos, no un pico de hipofructosemia, que es como el examen intenta despistarte. Así que quédate con esto de dos formas distintas: un pico de hipoglucemia a los treinta o sesenta minutos apunta a intolerancia hereditaria por aldolasa B; que la fructosa persista en sangre más allá de las seis horas también apunta a intolerancia hereditaria, mientras que su desaparición a las seis horas, sin hipoglucemia, es propia de la fructosuria esencial, la forma benigna. La confirmación definitiva de la intolerancia hereditaria se hace midiendo la actividad de la aldolasa B en una biopsia hepática o de mucosa intestinal, y el tratamiento en ambos casos es simplemente eliminar la fructosa, y en su caso la sacarosa, de la dieta.
+
+Pasemos a la galactosa. Su fuente principal es la leche, a través de la lactosa, que como ya hemos visto se rompe en galactosa y glucosa. Aquí hay un contraste importante con la glucosa que veremos en la próxima pista: la concentración plasmática de galactosa depende de la ingesta, de la depuración renal y del metabolismo enzimático, pero no existe ninguna regulación hormonal específica de la galactosa, a diferencia de la glucosa, que sí está regulada por hormonas como la insulina.
+
+La vía principal, la vía de Leloir, sigue esta secuencia: la galactosa se convierte en galactosa uno fosfato por la galactoquinasa, que pasa a UDP galactosa por la uridiltransferasa, que pasa a UDP glucosa por la epimerasa, y termina en glucosa uno fosfato. Hay además dos vías alternativas minoritarias: la aldosa reductasa, que convierte galactosa en galactitol y está activa sobre todo en el cristalino, y la galactosa deshidrogenasa, que en el hígado convierte galactosa en galactonato.
+
+De estas tres enzimas salen tres galactosemias, de gravedad muy distinta. La deficiencia de galactoquinasa impide fosforilar bien la galactosa en el hígado, aparece galactosemia y galactosuria, y el exceso se desvía por la vía alternativa hacia galactitol, que se acumula en el cristalino y da cataratas por efecto osmótico. La deficiencia de uridiltransferasa es el cuadro clásico y el más grave: retraso mental moderado, vómitos y diarrea con retraso del crecimiento, y la acumulación de galactosa uno fosfato produce ictericia, hepatomegalia, hemólisis grave y cataratas; al retirar la galactosa todo eso revierte, excepto el retraso mental. Y la deficiencia de epimerasa tiene dos formas, una benigna, limitada a glóbulos rojos y blancos, y otra generalizada y severa, parecida a la clásica.
+
+Aquí va otra trampa que el examen busca a propósito, y conviene repetirla con otras palabras: el responsable de las cataratas en cualquiera de las galactosemias es el galactitol, el que se acumula en el cristalino por la vía alternativa de la aldosa reductasa. No es el galactonato, que es un producto distinto, generado en el hígado por otra vía alternativa completamente diferente y sin relación con el cristalino. Dicho de otra forma: cataratas, galactitol, cristalino; galactonato, hígado, sin cataratas.
+
+Para el diagnóstico se identifica galactosa en sangre u orina como sustancia reductora, con cromatografía o tiras de galactosa oxidasa; no se recomienda la sobrecarga oral con galactosa, porque puede ser peligrosa. La confirmación se hace cuantificando galactosa uno fosfato, galactitol y actividad enzimática, pero en un hemolizado de eritrocitos, no en una biopsia hepática. No cruces los métodos: fructosa se confirma en biopsia hepática o de mucosa intestinal; galactosa se confirma en hemolizado de eritrocitos. El tratamiento, igual que con la fructosa, es eliminar la galactosa de la dieta.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: la fructosuria esencial y la intolerancia hereditaria a la fructosa, ¿por qué déficit enzimático se producen respectivamente?
+
+[PAUSA 3s]
+
+Respuesta: la fructosuria esencial por déficit de fructoquinasa, y es benigna. La intolerancia hereditaria por déficit de aldolasa B, y es mucho más grave.
+
+Si has dudado con cuál enzima va con cuál: piensa que la aldolasa B es la que da el cuadro grave, con hipoglucemia, hiperlacticemia e hiperuricemia; la fructoquinasa da el cuadro asintomático.
+
+Pregunta: en una sobrecarga oral de fructosa, ¿qué significa que aparezca un pico de hipoglucemia entre los treinta y los sesenta minutos?
+
+[PAUSA 3s]
+
+Respuesta: que la prueba es positiva para intolerancia hereditaria a la fructosa, por déficit de aldolasa B.
+
+Si has dudado y pensabas en un pico de hipofructosemia: ese no es el criterio, el dato que se busca es el descenso de la glucosa, no de la fructosa; la fructosa acumulada es la que bloquea la glucogenólisis y provoca esa hipoglucemia.
+
+Pregunta: ¿qué transportador usa la fructosa para entrar en el enterocito, y en qué se diferencia del que usan la glucosa y la galactosa?
+
+[PAUSA 3s]
+
+Respuesta: la fructosa entra por el GLUT cinco, en la membrana apical, sin depender del sodio. La glucosa y la galactosa entran juntas por el SGLT uno, que sí depende del gradiente de sodio.
+
+Si has dudado con cuál de los dos es el que coentra con sodio: el nombre te da la pista, SGLT lleva sodio en las siglas; GLUT cinco funciona solo, por difusión facilitada.
+
+Pregunta: en las galactosemias, ¿qué sustancia se acumula en el cristalino y provoca las cataratas?
+
+[PAUSA 3s]
+
+Respuesta: el galactitol.
+
+Si has dudado con el galactonato: el galactonato se acumula en el hígado, por una vía alternativa distinta, y no tiene relación con el cristalino ni con las cataratas; es el distractor clásico de esta pregunta.
+
+Pregunta: para confirmar definitivamente una intolerancia hereditaria a la fructosa y una galactosemia, ¿qué prueba se usa en cada caso?
+
+[PAUSA 3s]
+
+Respuesta: para la fructosa, actividad enzimática en biopsia hepática o de mucosa intestinal. Para la galactosa, actividad enzimática en un hemolizado de eritrocitos.
+
+Si has dudado y las cruzabas: es un error muy fácil porque las dos son biopsias o muestras poco intuitivas; la clave para no liarte es que la galactosa se mira en sangre, en los glóbulos rojos, y la fructosa se mira en tejido, hígado o intestino.
+
+Y nos quedamos con tres ideas fuerza. Primero, la digestión de los hidratos de carbono depende de enzimas específicas, lactasa, amilasa y sacarasa, y de transportadores igual de específicos, SGLT uno con sodio para glucosa y galactosa, y GLUT cinco sin sodio para la fructosa; si falta la enzima correspondiente, el azúcar sin digerir fermenta en el colon y da hinchazón, gases y diarrea. Segundo, en la fructosa hay que distinguir la fructosuria esencial, benigna, por déficit de fructoquinasa, de la intolerancia hereditaria, grave, por déficit de aldolasa B, y el dato que las separa en la sobrecarga oral es el pico de hipoglucemia entre los treinta y los sesenta minutos, propio de la intolerancia hereditaria. Y tercero, en la galactosa, las cataratas las provoca siempre el galactitol acumulado en el cristalino, nunca el galactonato, y la confirmación diagnóstica se hace en hemolizado de eritrocitos, no en biopsia hepática como en la fructosa.

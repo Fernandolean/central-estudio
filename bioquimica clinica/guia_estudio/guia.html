@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de Estudio — Bioquímica Clínica y Hematología</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1c2733;
+    font-size: 10.3pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .cover {
+    height: 250mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    page-break-after: always;
+  }
+  .cover .pill {
+    background: #0e7c86; color: #fff; font-weight: 700; font-size: 13pt;
+    padding: 6px 18px; border-radius: 999px; margin-bottom: 24px; letter-spacing: .03em;
+  }
+  .cover h1 { font-size: 26pt; margin: 0 0 10px; color: #0a5e66; }
+  .cover h2 { font-size: 13pt; font-weight: 400; color: #5b6b78; margin: 0 0 40px; }
+  .cover .toc { text-align: left; max-width: 400px; margin-top: 30px; }
+  .cover .toc h3 { font-size: 11pt; color: #0a5e66; border-bottom: 1px solid #dde3e8; padding-bottom: 6px; }
+  .cover .toc ol { padding-left: 20px; font-size: 9.5pt; }
+  .cover .toc li { margin-bottom: 4px; }
+  .cover .note { margin-top: 40px; font-size: 8.5pt; color: #93a5b1; max-width: 420px; }
+
+  h1.tema {
+    font-size: 16pt; color: #fff; background: #0e7c86;
+    padding: 10px 14px; border-radius: 8px; margin: 0 0 4mm;
+    page-break-before: always;
+  }
+  h1.tema .num { opacity: .75; font-weight: 400; font-size: 11pt; display: block; }
+  h2 { font-size: 12.5pt; color: #0a5e66; border-bottom: 2px solid #e3f4f3; padding-bottom: 3px; margin: 6mm 0 3mm; }
+  h3 { font-size: 10.8pt; color: #0e7c86; margin: 4mm 0 2mm; }
+  p { margin: 2mm 0; text-align: justify; }
+  ul, ol { margin: 2mm 0; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  b, strong { color: #0a5e66; }
+  .callout {
+    background: #e3f4f3; border-left: 3px solid #0e7c86; border-radius: 4px;
+    padding: 2.5mm 4mm; margin: 3mm 0; font-size: 9.6pt;
+  }
+  .callout.warn { background: #fdf2e0; border-left-color: #b8790a; }
+  .callout.mnemo { background: #eef2f5; border-left-color: #5b6b78; font-style: italic; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 3mm 0 4mm; font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  th { background: #0e7c86; color: #fff; text-align: left; padding: 2mm 2.5mm; font-size: 8.6pt; }
+  td { border-bottom: 1px solid #dde3e8; padding: 2mm 2.5mm; vertical-align: top; }
+  tr:nth-child(even) td { background: #f4f7f9; }
+  .two-col { display: flex; gap: 6mm; }
+  .two-col > div { flex: 1; }
+  .footer-page { font-size: 7.5pt; color: #93a5b1; text-align: center; margin-top: 6mm; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PORTADA ===================== -->
+<div class="cover">
+  <div class="pill">BIOQUÍMICA CLÍNICA Y HEMATOLOGÍA</div>
+  <h1>Guía de Estudio</h1>
+  <h2>Combinaciones razonadas para memorizar conceptos, mecanismos y casos clínicos</h2>
+  <div class="toc">
+    <h3>Contenido</h3>
+    <ol>
+      <li>Fundamentos de la Bioquímica Clínica</li>
+      <li>Equilibrio Hidroelectrolítico y Ácido-Base</li>
+      <li>Metabolismo de los Hidratos de Carbono</li>
+      <li>Metabolismo de los Lípidos</li>
+      <li>Metabolismo de los Compuestos Nitrogenados</li>
+      <li>Función Hepática y Renal</li>
+      <li>Proteínas Plasmáticas</li>
+      <li>Hematología y Hemostasia</li>
+    </ol>
+  </div>
+  <p class="note">Elaborada a partir de apuntes de clase y del análisis de exámenes de convocatorias anteriores. Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los conceptos y tablas que encontrarás aquí.</p>
+</div>
+
+<h1 class="tema"><span class="num">Bloque 1</span>Fundamentos de la Bioquímica Clínica</h1>
+
+<h2>¿Para qué sirven las pruebas bioquímicas?</h2>
+<p>Una <b>magnitud bioquímica</b> es una propiedad medible en un sistema biológico (una concentración,
+una actividad enzimática, un pH...). Las pruebas bioquímicas que se construyen sobre esas magnitudes
+son la herramienta básica del laboratorio clínico y tienen varias utilidades simultáneas: son un
+elemento fundamental para el <b>diagnóstico</b> y el <b>pronóstico</b>, sirven para el
+<b>seguimiento</b> de la evolución de una enfermedad, y se emplean también en la
+<b>monitorización toxicológica</b> y en estudios farmacológicos.</p>
+
+<div class="callout">Cuando una pregunta de examen enumera varias utilidades de las pruebas bioquímicas
+(diagnóstico, pronóstico, seguimiento, monitorización toxicológica/farmacológica) y ofrece
+"todas las anteriores son ciertas", esa suele ser la respuesta correcta: no son usos excluyentes.</div>
+
+<h2>El espécimen</h2>
+<p>Un <b>espécimen</b> es una muestra representativa de un ser biológico, tomada en un momento
+determinado, sobre la que se realiza el análisis. No todos los especímenes sirven para todo: la
+elección del tipo de muestra depende de qué se quiera determinar.</p>
+
+<table>
+<tr><th>Qué se quiere determinar</th><th>Espécimen adecuado</th><th>Nota</th></tr>
+<tr><td>pH y gases (gasometría)</td><td><b>Sangre arterial</b></td><td>Punción arterial</td></tr>
+<tr><td>Colesterol y bioquímica general</td><td>Sangre venosa</td><td>Punción venosa; cuidado con la hemólisis</td></tr>
+<tr><td>Toxicidad o interacción medicamentosa</td><td>Orina, sangre y heces</td><td>Monitorización farmacológica/toxicológica</td></tr>
+<tr><td>Diagnóstico prenatal</td><td>Líquido amniótico</td><td>Amniocentesis</td></tr>
+<tr><td>Funciones digestivas / disacáridos</td><td>Heces</td><td>Refrigerar o medir rápido: la acción bacteriana altera la composición</td></tr>
+</table>
+
+<div class="callout warn">La sangre venosa <b>no permite determinar gases ni pH</b> — para eso se
+necesita siempre un espécimen de sangre arterial. Es una de las confusiones más preguntadas.</div>
+
+<h3>Suero frente a plasma</h3>
+<p>Si a la sangre se le añade un <b>anticoagulante</b> y se centrifuga, se obtiene <b>plasma</b>: tiene
+la misma composición que el suero más las proteínas del coágulo (fundamentalmente el fibrinógeno). Si,
+en cambio, se deja que la sangre coagule espontáneamente y después se centrifuga, se obtiene
+<b>suero</b> (plasma sin los factores de coagulación consumidos en el coágulo).</p>
+
+<h3>Conservación del espécimen: errores preanalíticos típicos</h3>
+<p>La composición de un espécimen (por ejemplo, una orina de 24 horas) puede alterarse si no se maneja
+correctamente:</p>
+<ul>
+<li>Si se almacena en un recipiente <b>transparente</b> cuando el analito es fotosensible (debe usarse
+un recipiente opaco).</li>
+<li>Si el recipiente <b>no lleva conservante</b>: la acción bacteriana cambia la composición de la
+muestra.</li>
+<li>Si se <b>congela y descongela varias veces</b>: produce turbidez.</li>
+<li>La sangre debe almacenarse a la temperatura apropiada según el analito (4 ºC, −20 ºC o −80 ºC).</li>
+</ul>
+
+<div class="callout warn">Cuando el examen pregunta "¿puede un espécimen de orina de 24 h sufrir
+cambios en su composición?" y ofrece varias causas distintas (recipiente transparente, falta de
+conservante, ciclos de congelación/descongelación), la respuesta correcta suele ser
+"<b>todas las opciones anteriores son correctas</b>": las tres son causas reales de alteración.</div>
+
+<h2>Las tres fases del proceso analítico</h2>
+<table>
+<tr><th>Fase</th><th>Qué incluye</th></tr>
+<tr><td><b>Preanalítica</b></td><td>Solicitud del análisis, obtención del espécimen del paciente,
+identificación, transporte al laboratorio, recepción e informatización, conservación y procesado.</td></tr>
+<tr><td><b>Analítica</b></td><td>Medición, control de calidad, validación (y elaboración del informe).</td></tr>
+<tr><td><b>Postanalítica</b></td><td>Entrega del resultado y decisión clínica (interpretación).</td></tr>
+</table>
+
+<div class="callout">La medición, el control de calidad y la validación son, por definición, la fase
+<b>analítica</b> — no la preanalítica ni la postanalítica. Es de las preguntas de "encajar la fase"
+más repetidas.</div>
+
+<h2>Intervalos de referencia (IR)</h2>
+<p>Un intervalo de referencia se obtiene a partir de una <b>población presuntamente sana</b>. No son un
+dato universal: <b>varían entre poblaciones</b> (edad, sexo, etnia, método analítico...) y, por tanto,
+cada laboratorio debe establecer o verificar sus propios IR. Los IR no informan por sí solos del estado
+de salud de un individuo concreto: son un rango de comparación, no un diagnóstico.</p>
+
+<div class="callout warn">Trampa muy repetida: una opción de examen afirma que, "según establece la
+Federación Internacional de Química Clínica (IFCC), bastan al menos <b>20 individuos</b>" para fijar un
+intervalo de referencia fiable. Es <b>falso</b>: la IFCC exige un mínimo de <b>120 individuos</b> para
+el método no paramétrico habitual. "20" es el distractor clásico.</div>
+
+<h2>Validez de una prueba: sensibilidad, especificidad y eficiencia diagnóstica</h2>
+<p>Al comparar el resultado de una prueba (dentro/fuera del intervalo de referencia) con el estado real
+del paciente (sano/enfermo) se generan cuatro categorías:</p>
+
+<table>
+<tr><th>Resultado</th><th>Definición</th></tr>
+<tr><td><b>Verdadero positivo (VP)</b></td><td>Individuo <b>enfermo</b> cuyo resultado está <b>fuera</b> del IR (la prueba detecta correctamente la enfermedad)</td></tr>
+<tr><td><b>Falso positivo (FP)</b></td><td>Individuo <b>sano</b> cuyo resultado está <b>fuera</b> del IR (falsa alarma)</td></tr>
+<tr><td><b>Verdadero negativo (VN)</b></td><td>Individuo <b>sano</b> cuyo resultado está <b>dentro</b> del IR (correctamente descartado)</td></tr>
+<tr><td><b>Falso negativo (FN)</b></td><td>Individuo <b>enfermo</b> cuyo resultado está <b>dentro</b> del IR (la prueba no detecta la enfermedad)</td></tr>
+</table>
+
+<p>A partir de estas cuatro categorías se calculan:</p>
+<ul>
+<li><b>Sensibilidad diagnóstica</b> = VP / (VP + FN) — capacidad de la prueba de detectar correctamente
+a los enfermos.</li>
+<li><b>Especificidad diagnóstica</b> = VN / (VN + FP) — capacidad de la prueba de descartar
+correctamente a los sanos.</li>
+<li><b>Eficiencia diagnóstica</b> (exactitud global) = (VP + VN) / N total.</li>
+</ul>
+
+<div class="callout">Ejemplo resuelto (síndrome de Cushing): de una tabla de resultados se obtiene
+Test(+)/Sanos = 20, Test(+)/Enfermos = 40, Test(−)/Sanos = 80, Test(−)/Enfermos = 20.<br>
+Enfermos totales = 60 (VP 40 + FN 20) → Sensibilidad = 40/60 = <b>66,7 %</b>.<br>
+Sanos totales = 100 (VN 80 + FP 20) → Especificidad = 80/100 = <b>80 %</b>.<br>
+Eficiencia diagnóstica = (40 + 80) / 160 = <b>75 %</b>.</div>
+
+<div class="callout warn">No confundir <b>sensibilidad diagnóstica</b> (capacidad de una prueba de
+identificar correctamente a los enfermos, VP/(VP+FN)) con <b>sensibilidad analítica</b> (capacidad de
+un método de detectar concentraciones muy pequeñas de un analito, es decir, su límite de detección).
+Son dos conceptos distintos que el examen tiende a mezclar en la misma frase.</div>
+
+<div class="footer-page">Bloque 1 — Fundamentos de la Bioquímica Clínica</div>
+
+
+<h1 class="tema"><span class="num">Bloque 2</span>Equilibrio Hidroelectrolítico y Ácido-Base</h1>
+
+<h2>Compartimentos corporales y electrolitos principales</h2>
+<p>El agua corporal se reparte entre el líquido intracelular (LIC) y el líquido extracelular (LEC), y
+cada compartimento tiene un patrón de electrolitos característico:</p>
+
+<table>
+<tr><th>Compartimento</th><th>Electrolitos principales</th></tr>
+<tr><td><b>Líquido extracelular (LEC)</b></td><td>Sodio (Na⁺), cloruro (Cl⁻) e hidrogenocarbonato/bicarbonato (HCO₃⁻)</td></tr>
+<tr><td><b>Líquido intracelular (LIC)</b></td><td>Potasio (K⁺), fosfatos y proteínas</td></tr>
+</table>
+
+<div class="callout warn">El examen suele mezclar iones de ambos compartimentos en la misma opción
+(p. ej. "sodio, potasio y proteínas"). Recuerda el reparto limpio: Na⁺/Cl⁻/HCO₃⁻ es extracelular;
+K⁺/fosfatos/proteínas es intracelular.</div>
+
+<table>
+<tr><th>Magnitud</th><th>Intervalo de referencia orientativo</th></tr>
+<tr><td>Na⁺</td><td>136 - 146 mmol/L</td></tr>
+<tr><td>K⁺</td><td>3,5 - 5,1 mmol/L</td></tr>
+<tr><td>Cl⁻</td><td>98 - 106 mmol/L</td></tr>
+<tr><td>HCO₃⁻</td><td>22 - 28 mmol/L</td></tr>
+<tr><td>pCO₂</td><td>35 - 45 mmHg</td></tr>
+<tr><td>pO₂</td><td>80 - 90 mmHg</td></tr>
+</table>
+
+<h2>Balance hídrico</h2>
+<p>El contenido acuoso del organismo está regulado principalmente por el volumen del líquido
+extracelular y, de forma secundaria, por otros factores. El aporte de agua <b>no proviene únicamente
+de la ingesta de líquidos</b>: hay que sumar el agua de los alimentos y el <b>agua metabólica</b>
+(producida por la oxidación de nutrientes). La eliminación se produce fundamentalmente por
+<b>orina</b> (vía principal), y también por heces, por vía pulmonar (perspiración insensible) y por el
+sudor, que puede ser una vía de gran importancia en determinadas circunstancias (fiebre, ejercicio,
+calor).</p>
+
+<div class="callout warn">"El aporte de agua proviene únicamente de la ingesta" es una afirmación
+<b>falsa</b>: existe además agua metabólica endógena procedente del catabolismo.</div>
+
+<h2>Regulación: dos ejes hormonales distintos</h2>
+<p>Conviene no mezclar los dos sistemas que regulan el equilibrio hidroelectrolítico: uno controla la
+<b>concentración</b> (osmolalidad) y otro el <b>volumen</b> circulante.</p>
+
+<table>
+<tr><th>Eje</th><th>Qué regula</th><th>Hormona / sistema</th><th>Mecanismo</th></tr>
+<tr><td>Osmolalidad</td><td>Concentración de solutos (tonicidad)</td><td>Vasopresina (ADH) + sed</td>
+<td>Los osmorreceptores hipotalámicos detectan el ↑ de osmolalidad → estimulan la sed y la liberación
+de ADH → la ADH <b>aumenta la permeabilidad al agua</b> de las células del túbulo renal → ↑
+reabsorción de agua libre</td></tr>
+<tr><td>Volumen plasmático</td><td>Volumen circulante efectivo</td><td>Sistema renina-angiotensina-aldosterona (SRAA)</td>
+<td>El aparato yuxtaglomerular detecta ↓ de perfusión/volumen → libera renina → angiotensina II →
+aldosterona (corteza suprarrenal) → ↑ reabsorción renal de Na⁺ (y agua) y ↑ excreción de K⁺</td></tr>
+</table>
+
+<div class="callout warn">Trampa clásica: la <b>renina</b> se libera en el aparato yuxtaglomerular del
+riñón; la <b>aldosterona</b> se libera en la corteza de las glándulas suprarrenales. Son órganos
+distintos y el examen los intercambia a propósito.</div>
+
+<h3>Hipovolemia e hipervolemia</h3>
+<table>
+<tr><th>Situación</th><th>Definición</th><th>Mecanismo de compensación</th></tr>
+<tr><td><b>Hipovolemia</b></td><td>Déficit de agua y de sodio</td><td>Se favorece/activa el SRAA:
+disminuye la excreción renal de Na⁺ y agua (se retienen)</td></tr>
+<tr><td><b>Hipervolemia</b></td><td>Aumento del agua corporal total junto con un aumento más o menos
+equilibrado de sodio</td><td>Se minimiza el SRAA: aumenta la excreción renal de Na⁺ y agua</td></tr>
+</table>
+
+<h3>Fuerzas de Starling</h3>
+<p>El intercambio de líquido entre el capilar y el intersticio depende del equilibrio entre la
+<b>presión hidrostática</b> (empuja líquido fuera del capilar) y la <b>presión oncótica</b> (coloidosmótica,
+lo retiene dentro). El trastorno de las fuerzas de Starling aparece cuando ↑ la presión hidrostática o
+↓ la presión oncótica de los capilares (o la combinación inversa) y es típico de la
+<b>hipervolemia</b>, donde favorece la formación de edema.</p>
+
+<h3>Hipoaldosteronismo e hiperaldosteronismo</h3>
+<table>
+<tr><th>Situación</th><th>Sodio</th><th>Potasio</th></tr>
+<tr><td><b>Hiperaldosteronismo</b></td><td>Hipernatremia (hipervolémica)</td><td>Hipopotasemia</td></tr>
+<tr><td><b>Hipoaldosteronismo</b></td><td>Hiponatremia</td><td>Hiperpotasemia</td></tr>
+</table>
+<p>Tiene sentido fisiológico directo: la aldosterona retiene Na⁺ y elimina K⁺; su exceso sube el sodio
+y baja el potasio, y su déficit hace exactamente lo contrario.</p>
+
+<h3>Alteraciones del potasio</h3>
+<p>La <b>hiperpotasemia</b> (K⁺ claramente por encima de 5,1 mmol/L, p. ej. 6,5 mmol/L) puede deberse a
+un desequilibrio entre el líquido extracelular y el intracelular provocado por una <b>acidosis</b> (los
+H⁺ entran en la célula y desplazan K⁺ hacia fuera) o por un <b>déficit de insulina</b> (la insulina
+favorece fisiológicamente la entrada de K⁺ en las células, de modo que su falta deja más K⁺ en el
+plasma); también puede deberse a ingestión excesiva de potasio junto con escasa excreción renal.</p>
+
+<div class="callout warn">Si una pregunta sobre hiperpotasemia incluye como opción "los niveles de
+potasio en sangre son de 4 mmol/L", esa opción es la falsa: 4 mmol/L está dentro del intervalo normal
+(3,5-5,1), no es hiperpotasemia.</div>
+
+<h3>Pseudonatremia</h3>
+<p>La pseudonatremia es un <b>artefacto de laboratorio</b>, no una alteración real del balance de
+sodio: aparece en personas con <b>hiperproteinemia</b> o <b>hiperlipidemia</b>. El exceso de proteínas
+o lípidos en el plasma reduce proporcionalmente la fracción acuosa donde se disuelve el sodio, de modo
+que algunos métodos de medida (que asumen una fracción acuosa fija) informan una [Na⁺] falsamente baja
+aunque la concentración de sodio en el agua plasmática sea normal.</p>
+
+<div class="callout warn">El distractor típico ofrece "hipoproteinemia" o "hipolipidemia" como causa de
+pseudonatremia: es justo al revés, es el <b>exceso</b> (hiper-) de proteínas o lípidos el que la
+produce.</div>
+
+<h3>Osmolalidad plasmática y brecha (gap) osmolal</h3>
+<p>La osmolalidad plasmática calculada depende principalmente del sodio, pero <b>no solo</b> de él:
+también contribuyen la glucosa y la urea. Una osmolalidad elevada no implica siempre un exceso de
+sodio.</p>
+<p>La <b>brecha osmolal</b> es la diferencia entre la osmolalidad <b>medida</b> (con osmómetro) y la
+osmolalidad <b>calculada</b> a partir de Na⁺, glucosa y urea. Un valor <b>superior a 10 mmol/kg</b>
+indica la presencia de solutos osmóticamente activos no medidos por la fórmula (por ejemplo, etanol,
+metanol o etilenglicol) y es un dato clásico de sospecha de <b>intoxicación etílica</b> u otra
+intoxicación por alcoholes.</p>
+
+<h2>Equilibrio ácido-base</h2>
+
+<h3>Origen de los protones</h3>
+<p>El catabolismo celular tiende a <b>acidificar</b> el medio interno, y el pH intracelular es más
+ácido que el extracelular. Los protones (H⁺) proceden fundamentalmente de: la degradación completa de
+las proteínas (aminoácidos azufrados → sulfatos), la degradación completa de los ácidos nucleicos y
+fosfolípidos (→ <b>fosfatos</b>), y la degradación parcial de los glúcidos y los triglicéridos (→
+ácidos orgánicos, como el láctico, y cuerpos cetónicos).</p>
+
+<div class="callout warn">Pregunta repetida: "los fosfatos obtenidos en el catabolismo celular
+proceden principalmente de…" La respuesta correcta es la <b>degradación de ácidos nucleicos</b> (y
+fosfolípidos) — no de las proteínas (que aportan sulfatos) ni de lípidos o hidratos de carbono.</div>
+
+<h3>Mantenimiento del equilibrio: tres procesos</h3>
+<p>El equilibrio ácido-base depende del equilibrio entre tres procesos: la <b>producción</b> de
+protones, su <b>amortiguamiento</b> (sistemas tampón) y transporte, y su <b>excreción</b>/eliminación.</p>
+
+<table>
+<tr><th>Sistema tampón</th><th>Localización</th><th>Cómo actúa</th></tr>
+<tr><td>Ácido carbónico / hidrogenocarbonato</td><td>Extracelular (plasma)</td>
+<td>H₂CO₃ ⇌ HCO₃⁻ + H⁺; es el sistema amortiguador más importante del medio extracelular</td></tr>
+<tr><td>Hemoglobina</td><td>Intracelular (eritrocito)</td>
+<td>Los protones se unen rápidamente a los residuos de <b>histidina</b> de la hemoglobina</td></tr>
+</table>
+
+<div class="callout warn">Trampa: el aminoácido de la hemoglobina que capta los protones en el
+eritrocito es la <b>histidina</b>, no la cisteína ni ningún otro residuo.</div>
+
+<table>
+<tr><th>Tipo de ácido</th><th>Vía de eliminación</th></tr>
+<tr><td>Ácidos fijos (no volátiles)</td><td><b>Renal</b></td></tr>
+<tr><td>Ácidos volátiles (CO₂)</td><td><b>Respiratoria</b></td></tr>
+</table>
+
+<div class="callout warn">El hidrogenocarbonato (HCO₃⁻) se recupera/regenera fundamentalmente por un
+mecanismo <b>renal</b>, no respiratorio — el examen ofrece "respiratorio" como distractor con
+frecuencia.</div>
+
+<h3>Magnitudes para valorar el estado ácido-base</h3>
+<p>Se analizan tres magnitudes conjuntamente: <b>pH</b>, <b>pCO₂</b> y <b>[HCO₃⁻]</b> (gasometría),
+determinadas sobre un espécimen de <b>sangre arterial</b>.</p>
+
+<h3>Las cuatro alteraciones ácido-base primarias</h3>
+<table>
+<tr><th>Alteración</th><th>pH</th><th>Magnitud primaria alterada</th><th>Causas típicas</th><th>Compensación</th></tr>
+<tr><td>Acidosis respiratoria</td><td>&lt; 7,35</td><td>↑ pCO₂</td>
+<td>Hipoventilación: EPOC, depresión del centro respiratorio, traumatismo torácico</td>
+<td>Renal: ↑ reabsorción/generación de HCO₃⁻</td></tr>
+<tr><td>Acidosis metabólica</td><td>&lt; 7,35</td><td>↓ HCO₃⁻</td>
+<td>Cetoacidosis diabética, insuficiencia renal, acidosis láctica</td>
+<td>Respiratoria: hiperventilación (↓ pCO₂)</td></tr>
+<tr><td>Alcalosis respiratoria</td><td>&gt; 7,45</td><td>↓ pCO₂</td>
+<td>Hiperventilación: ansiedad, altitud</td>
+<td>Renal: ↓ reabsorción de HCO₃⁻</td></tr>
+<tr><td>Alcalosis metabólica</td><td>&gt; 7,45</td><td>↑ HCO₃⁻</td>
+<td>Vómitos, hipopotasemia</td>
+<td>Respiratoria: hipoventilación (↑ pCO₂)</td></tr>
+</table>
+
+<div class="callout mnemo">Para no perderte entre las cuatro combinaciones: en las alteraciones
+<b>metabólicas</b>, el pH y el HCO₃⁻ se mueven en el <b>mismo</b> sentido (ambos suben en la alcalosis
+metabólica, ambos bajan en la acidosis metabólica). En las <b>respiratorias</b>, el pH y el pCO₂ se
+mueven en sentido <b>contrario</b> (el pCO₂ sube cuando el pH baja, y viceversa).</div>
+
+<h3>Compensación total frente a parcial</h3>
+<p>Cuando se pone en marcha el mecanismo de compensación (respiratorio si la alteración primaria es
+metabólica, renal si la alteración primaria es respiratoria), se dice que la compensación es
+<b>total</b> cuando las magnitudes respiratoria y metabólica siguen alteradas pero el <b>pH sanguíneo
+se ha normalizado</b>; es <b>parcial</b> cuando las magnitudes siguen alteradas y el pH sanguíneo
+también sigue fuera de rango.</p>
+
+<div class="callout">Caso ilustrativo: varón de 27 años, jugador de baloncesto, sufre un fuerte
+impacto en el pecho; acude al hospital cuatro días después por dificultad respiratoria. Analítica:
+pCO₂ 77 mmHg (IR 35-45, muy elevada), HCO₃⁻ 37 mmol/L (IR 22-28, elevado), pO₂ 65 mmHg (IR 80-90,
+bajo), K⁺ 6,1 mmol/L (algo elevado), Na⁺ y Cl⁻ próximos a la normalidad. Lectura: el traumatismo
+torácico provoca hipoventilación → <b>acidosis respiratoria</b> (pCO₂ muy alto); el riñón responde
+generando y reteniendo más HCO₃⁻ como <b>compensación metabólica</b> — coherente con que hayan pasado
+ya varios días, tiempo suficiente para que actúe la compensación renal (más lenta que la
+respiratoria).</div>
+
+<div class="footer-page">Bloque 2 — Equilibrio Hidroelectrolítico y Ácido-Base</div>
+
+
+<h1 class="tema"><span class="num">Bloque 3</span>Metabolismo de los Hidratos de Carbono</h1>
+
+<h2>Digestión y absorción de hidratos de carbono</h2>
+<p>De los hidratos de carbono de la dieta, son <b>digeribles</b> el almidón y las dextrinas, la
+sacarosa y, en menor proporción, el glucógeno, la glucosa, la maltosa y la fructosa. Son
+<b>no digeribles</b> (fibra) la celulosa, la inulina, el agar y otros heteropolisacáridos vegetales.</p>
+
+<table>
+<tr><th>Disacárido/polisacárido</th><th>Enzima</th><th>Productos</th></tr>
+<tr><td>Lactosa</td><td>Lactasa</td><td>Galactosa + Glucosa</td></tr>
+<tr><td>Almidón</td><td>Amilasa → maltosa, maltotriosa, dextrinas límite → α-glucosidasas</td><td>Glucosa</td></tr>
+<tr><td>Sacarosa</td><td>Sacarasa</td><td>Glucosa + Fructosa</td></tr>
+</table>
+
+<p>La absorción en el enterocito se realiza mediante transportadores específicos: <b>SGLT1</b>
+(cotransportador de Na⁺/glucosa-galactosa, dependiente de 2 Na⁺, en membrana apical), <b>GLUT5</b>
+(transportador de fructosa, en membrana apical), la <b>bomba Na⁺/K⁺-ATPasa</b> (membrana basolateral,
+mantiene el gradiente de Na⁺) y <b>GLUT2</b> (salida de glucosa/galactosa/fructosa hacia la sangre, en
+membrana basolateral).</p>
+
+<p>Cuando falta la enzima digestiva correspondiente, el hidrato de carbono no digerido se acumula y es
+fermentado por las bacterias intestinales, produciendo gases y ácidos: molestias intestinales,
+hinchazón abdominal y meteorismo, y un descenso del pH que daña la pared intestinal y provoca
+malabsorción. Además, el bolo alimenticio hiperosmótico causa diarreas hídricas → síndrome de
+malabsorción.</p>
+
+<h2>Alteraciones del metabolismo de la fructosa</h2>
+<p>La absorción intestinal de fructosa depende de un sistema de transporte relacionado con el oxígeno y
+es más lenta que la de la glucosa y la galactosa (aunque su metabolización hepática, una vez absorbida,
+es más rápida). En torno al 60 % de los adultos tiene una capacidad limitada para absorber fructosa
+(malabsorción, que se corrige administrando glucosa junto con la fructosa). Su efecto estimulante sobre
+la liberación de insulina es <b>inferior</b> al de la glucosa, y su captación celular es
+<b>independiente</b> de la insulina.</p>
+
+<div class="callout warn">Precaución clásica de examen: la administración <b>intravenosa</b> de
+fructosa en una persona sana provoca un metabolismo hepático muy rápido que puede causar
+<b>hipoglucemia</b> (por inhibición de la degradación de glucógeno), <b>hiperuricemia</b> (por aumento
+de la degradación de nucleótidos de adenina) y <b>acidosis láctica</b> — las tres consecuencias derivan
+del acúmulo agudo de fructosa-1-fosfato.</div>
+
+<table>
+<tr><th>Patología</th><th>Enzima deficiente</th><th>Herencia</th><th>Clínica</th></tr>
+<tr><td><b>Fructosuria esencial o benigna</b></td><td>Fructoquinasa</td><td>Autosómica recesiva</td>
+<td>Asintomática e infrecuente; rápido ↑ de fructosa en sangre y orina tras la ingesta; diagnóstico
+rápido en un análisis de rutina de orina</td></tr>
+<tr><td><b>Intolerancia hereditaria a la fructosa</b></td><td>Aldolasa B (fructosa-1-fosfato aldolasa)</td>
+<td>Autosómica recesiva</td>
+<td>↑ fructosa y ↑ fructosa-1-P → hiperuricemia, hiperlacticemia e hipoglucemia; asintomática mientras
+no se ingiera fructosa/sacarosa (manifestación típica tras el destete): pérdida de peso, vómitos,
+sudoración, dolor abdominal, alteración hepática, insuficiencia renal y hepática, convulsiones y
+muerte si no se retira la fructosa de la dieta</td></tr>
+</table>
+
+<p>El bloqueo de la aldolasa B provoca acúmulo de fructosa-1-P, que secuestra fosfato inorgánico; ese
+descenso de Pi bloquea la AMP-desaminasa (se acumula AMP → IMP → ácido úrico ⇒ hiperuricemia) e
+interfiere con la gluconeogénesis (⇒ hipoglucemia), mientras el exceso de piruvato se reduce a lactato
+(⇒ hiperlacticemia).</p>
+
+<p><b>Pruebas diagnósticas:</b> sobrecarga oral de fructosa (1 g/kg). En la fructosuria esencial, la
+fructosemia sube de ~10 mg/dl hasta ~30 mg/dl y desciende lentamente, desapareciendo a las 6 horas. En
+la intolerancia hereditaria, la prueba es positiva si aparece un <b>pico de hipoglucemia entre los
+30 y los 60 minutos</b>. La confirmación definitiva se hace determinando la actividad enzimática en
+biopsia hepática y/o de mucosa intestinal. Tratamiento: eliminar la fructosa de la dieta.</p>
+
+<div class="callout warn">Es la trampa más repetida del bloque: en la sobrecarga oral de fructosa, un
+<b>pico de hipoglucemia</b> a los 30-60 minutos indica <b>intolerancia hereditaria</b> (aldolasa B) —
+no un "pico de hipofructosemia". Que la fructosa <b>persista</b> en sangre más allá de las 6 horas
+también apunta a intolerancia hereditaria; que la fructosa <b>desaparezca</b> a las 6 horas es propio
+de la fructosuria esencial (benigna).</div>
+
+<h2>Alteraciones del metabolismo de la galactosa</h2>
+<p>Su fuente principal es la leche (lactosa = galactosa + glucosa). La [galactosa] plasmática depende
+de la ingesta, la depuración renal y el metabolismo enzimático — <b>no existe regulación hormonal</b>
+de la galactosa.</p>
+
+<p>Vía principal (vía de Leloir): Galactosa —(galactoquinasa)→ Galactosa-1-P —(galactosa-1-P
+uridiltransferasa)→ UDP-Galactosa —(UDP-galactosa-4-epimerasa)→ UDP-Glucosa —(UDP-glucosa
+pirofosforilasa)→ Glucosa-1-P. Existen además dos vías alternativas: la aldosa reductasa (galactosa →
+galactitol, activa en cristalino, nervios periféricos y células de Schwann) y la galactosa
+deshidrogenasa (galactosa → galactonato → xilulosa-1-P, en hígado).</p>
+
+<table>
+<tr><th>Galactosemia</th><th>Enzima deficiente</th><th>Consecuencias</th></tr>
+<tr><td><b>Deficiencia de galactoquinasa</b></td><td>Galactoquinasa</td>
+<td>No hay fosforilación hepática eficiente ⇒ galactosemia/galactosuria; por la vía alternativa se
+acumula <b>galactitol</b> en el cristalino → efecto osmótico → <b>cataratas</b> (la aldosa reductasa
+también consume NADPH, necesario para la transparencia del cristalino)</td></tr>
+<tr><td><b>Deficiencia de galactosa-1-P uridiltransferasa</b> (clásica)</td>
+<td>Gal-1-P uridiltransferasa</td>
+<td>Cuadro más grave: retraso mental moderado, vómitos y diarrea (retraso del crecimiento); la
+acumulación de galactosa-1-P produce ictericia y hepatomegalia, hemólisis grave y cataratas. Al
+retirar la galactosa se revierten los síntomas <b>excepto el retraso mental</b></td></tr>
+<tr><td><b>Deficiencia de galactosa epimerasa</b></td><td>UDP-galactosa-4-epimerasa</td>
+<td>Dos formas: benigna (solo eritrocitos y leucocitos, actividad normal en fibroblastos e hígado) y
+severa (generalizada, similar a la clásica, responde a dieta baja en galactosa); se acumulan
+UDP-galactosa y galactosa-1-P</td></tr>
+</table>
+
+<div class="callout warn">El responsable de las cataratas en la galactosemia es el
+<b>galactitol</b>, no el "galactonato" (que es el producto de la vía alternativa hepática de la
+galactosa deshidrogenasa, sin relación con el cristalino) — el examen los confunde deliberadamente.</div>
+
+<p><b>Pruebas diagnósticas:</b> identificación de galactosa en sangre u orina (sustancias reductoras),
+cromatografía o tiras reactivas de galactosa oxidasa; <b>no</b> se recomienda la sobrecarga oral con
+galactosa; la confirmación se hace cuantificando galactosa-1-P, galactitol, galactonato y actividad
+enzimática en un <b>hemolizado de eritrocitos</b> (no biopsia hepática). Tratamiento: eliminar la
+galactosa de la dieta.</p>
+
+<div class="callout warn">No mezclar el método de confirmación: para la <b>fructosa</b> se usa biopsia
+hepática y/o de mucosa intestinal; para la <b>galactosa</b> se usa hemolizado de eritrocitos (actividad
+enzimática en glóbulos rojos).</div>
+
+<h2>Alteraciones del metabolismo de la glucosa</h2>
+
+<h3>Glucólisis y gluconeogénesis</h3>
+<table>
+<tr><th>Alteración</th><th>Enzima deficiente</th><th>Consecuencias</th></tr>
+<tr><td>Glucólisis (fallo congénito más frecuente de la vía)</td><td>Piruvato quinasa</td>
+<td>Actividad reducida al 5-25 % de lo normal; ↓ flujo glucolítico y ↓ síntesis de ATP</td></tr>
+<tr><td>Glucólisis (afecta sobre todo a eritrocitos)</td><td>Fosfohexosa isomerasa</td>
+<td>Bloqueo Glucosa-6-P → Fructosa-6-P; ↓ ATP → lisis de eritrocitos, esplenomegalia, cálculos
+biliares precoces, anemias hemolíticas</td></tr>
+<tr><td>Gluconeogénesis</td><td>Piruvato carboxilasa</td>
+<td>Piruvato no se convierte en oxalacetato ⇒ ↓ ciclo de Krebs; el piruvato se desvía a lactato y
+alanina ⇒ acidosis láctica y alaninemia</td></tr>
+<tr><td>Gluconeogénesis (ausencia total)</td><td>Fructosa-1,6-bisfosfatasa</td>
+<td>No hay gluconeogénesis; solo pueden obtener glucosa a partir del glucógeno, por lo que necesitan
+ingesta frecuente para evitar hipoglucemia; desarrollo y crecimiento normales</td></tr>
+</table>
+
+<div class="callout warn">Trampa habitual: "las alteraciones de la glucólisis afectan a prácticamente
+todas las células <b>excepto</b> a los eritrocitos" es <b>falsa</b>. Es justo lo contrario: el
+eritrocito, que carece de mitocondrias y depende casi por completo de la glucólisis anaerobia para
+obtener ATP, es uno de los tipos celulares más afectados (de ahí las anemias hemolíticas).</div>
+
+<h3>Ruta de las pentosas fosfato</h3>
+<p>Fase oxidativa: glucosa-6-P → 6 NADPH + 3 CO₂ → ribulosa-5-P. Fase no oxidativa: ribosa-5-P →
+nucleótidos. La alteración de la <b>glucosa-6-fosfato deshidrogenasa</b> afecta sobre todo a los
+<b>eritrocitos</b>, que dependen de esta ruta como fuente principal de NADPH (protección
+antioxidante) → hemólisis.</p>
+
+<p>El <b>síndrome de Wernicke-Korsakoff</b> se debe a una deficiencia crónica de <b>tiamina</b>
+(vitamina B1), necesaria para el correcto funcionamiento de las transcetolasas de la ruta de las
+pentosas fosfato; cursa con alteraciones motoras y del comportamiento.</p>
+
+<div class="callout warn">El síndrome de Wernicke-Korsakoff es una alteración de la ruta de la
+<b>glucosa</b> (concretamente de las pentosas fosfato), no de la fructosa ni de la galactosa — y se
+debe a un déficit de <b>tiamina</b>, no de biotina.</div>
+
+<h3>Homeostasis hormonal de la glucosa</h3>
+<table>
+<tr><th>Hormonas hiperglucemiantes</th><th>Hormona hipoglucemiante</th></tr>
+<tr><td>Glucagón, adrenalina, somatotropina, tiroxina, cortisol</td><td>Insulina (la única)</td></tr>
+</table>
+<p>La insulina <b>inhibe</b> la glucogenólisis, la gluconeogénesis, la lipólisis, la cetogénesis y la
+proteólisis; y <b>estimula</b> la entrada de glucosa en músculo y tejido adiposo, la glucólisis, la
+síntesis de glucógeno, la síntesis de proteínas y la entrada de iones (como K⁺) en la célula. Una
+alteración de este equilibrio hormonal conduce a la diabetes mellitus.</p>
+
+<h3>Diabetes mellitus</h3>
+<p>Síndrome caracterizado por <b>hiperglucemia</b>, consecuencia de una deficiencia absoluta o relativa
+de insulina por alteración de su síntesis, secreción o función. Afecta al metabolismo glucídico,
+lipídico, proteico e hidromineral. Es una enfermedad común y grave que produce complicaciones a largo
+plazo en ojos, nervios, vasos sanguíneos y riñones, con aumento de la morbilidad y la mortalidad;
+es causa importante de ceguera y de amputación de extremidades en adultos, y favorece la insuficiencia
+renal y la cardiopatía isquémica.</p>
+
+<div class="callout warn">Trampa: la diabetes mellitus se clasifica según la ADA en <b>cuatro</b>
+grupos (tipo 1, tipo 2, gestacional, y otras causas), no en tres.</div>
+
+<table>
+<tr><th>Diabetes tipo 1</th><th>Diabetes tipo 2</th><th>Diabetes gestacional</th></tr>
+<tr><td>Insulinodependiente / juvenil (15-20 % de los casos)</td>
+<td>Insulino-independiente (80-90 % de los casos), &gt; 40 años</td>
+<td>Aparece en el 2º-3er trimestre del embarazo</td></tr>
+<tr><td>Destrucción autoinmune de las células β; desencadenante genético, ambiental, vírico o químico</td>
+<td>Resistencia periférica a la insulina; islotes de Langerhans a priori normales; insulinemia normal
+o elevada; factores de riesgo: edad, obesidad, sedentarismo</td>
+<td>↑ fisiológico de la resistencia a la insulina propio del embarazo; se normaliza tras el parto</td></tr>
+<tr><td>Inicio brusco al quedar ≤ 10 % de células β sanas: poliuria, polidipsia, pérdida de peso;
+la cetoacidosis suele ser la primera manifestación en niños y adolescentes</td>
+<td>Hiperglucemia gradual, periodo asintomático prolongado (pueden ser completamente asintomáticos);
+cetoacidosis rara, salvo por otra enfermedad</td>
+<td>—</td></tr>
+</table>
+
+<p>Complicaciones tardías: microangiopatías, retinopatías, nefropatías, neuropatías y
+macroangiopatías.</p>
+
+<h4>Pruebas diagnósticas de la diabetes mellitus</h4>
+<table>
+<tr><th>Criterio</th><th>Valor</th></tr>
+<tr><td>Síntomas de diabetes + glucemia aleatoria</td><td>&gt; 200 mg/dl (11,1 mmol/L)</td></tr>
+<tr><td>Glucemia en ayunas (&gt; 8 h)</td><td>&gt; 126 mg/dl (7 mmol/L)</td></tr>
+<tr><td>Glucemia a las 2 h de la sobrecarga oral</td><td>&gt; 200 mg/dl (11,1 mmol/L)</td></tr>
+</table>
+<p>Sobrecarga oral de glucosa (embarazadas): 75 g de glucosa oral tras 3 días de dieta normal; se mide
+la glucemia basal y cada 30 min hasta las 2 h. En una persona sana el pico (30-60 min) puede superar
+200 mg/dl, pero a los 120 min debe descender por debajo de 140 mg/dl (7,8 mmol/L). En la
+<b>intolerancia a la glucosa</b>, la glucemia en ayunas es normal pero se mantiene muy elevada a las
+2 horas.</p>
+<p>Otras determinaciones: glucosuria (Benedict, Fehling, tiras reactivas), cuerpos cetónicos en sangre
+y orina (tiras reactivas), insulina y péptido C (inmunoanálisis competitivo), albuminuria
+(inmunoanálisis) y <b>glicohemoglobina (HbA1c)</b>.</p>
+
+<div class="callout">La hemoglobina glucosilada es el indicador de control diabético por excelencia:
+informa de la [glucosa] plasmática <b>media de los dos últimos meses</b> aproximadamente (vida media
+del eritrocito), no de un valor puntual como la glucemia.</div>
+
+<h2>Alteraciones del metabolismo de los disacáridos</h2>
+<p>Aparecen por disminución de la actividad de alguna oligosacaridasa específica del intestino delgado,
+por fallo congénito o por enfermedad adquirida.</p>
+
+<table>
+<tr><th>Entidad</th><th>Características</th></tr>
+<tr><td><b>Intolerancia hereditaria a sacarosa e isomaltosa</b></td>
+<td>Autosómica recesiva; ausencia de sacarasa-isomaltasa en las microvellosidades; el almidón se
+tolera mal (el 30 % son α-dextrinas con uniones α(1-6) generadas por la amilasa pancreática, que la
+isomaltasa no puede hidrolizar); control genético común a sacarosa e isomaltasa; la tolerancia a la
+sacarosa y al almidón (patata) <b>mejora con la edad</b>, al crecer el intestino y aumentar la
+cantidad total de enzima</td></tr>
+<tr><td><b>Intolerancia hereditaria a la lactosa</b></td>
+<td>Déficit de lactasa; muy rara; clínica precoz (diarrea, deshidratación), meteorismo abdominal
+exagerado; acompañada de déficit de glucosilceramidasa; mejoría rápida al retirar la lactosa</td></tr>
+<tr><td><b>Intolerancia adquirida a la lactosa</b></td>
+<td>La actividad de la lactasa es alta durante la infancia (leche como alimento principal) y cae tras
+el destete, permaneciendo baja el resto de la vida (aunque hay personas en las que persiste elevada);
+los adultos se adaptan a su nivel de tolerancia y presentan síntomas menos graves</td></tr>
+</table>
+
+<p><b>Pruebas bioquímicas:</b> análisis de heces (descenso de pH ~5,5, inespecífico por sí solo; gran
+aumento del ácido láctico, &gt; 0,5 mol/día; presencia de algún disacárido); la determinación de
+sacarosa o lactosa en orina <b>no tiene interés</b>. Sobrecarga oral (suprimiendo antes de la prueba
+el disacárido sospechoso): se ingieren 50 g del disacárido y se mide la glucemia a 0, 30, 60, 90, 120
+y 180 min. En un individuo normal aparece un pico de hiperglucemia de ~250 mg/dl a los 30-60 min.
+<b>Resultado positivo</b> (indica deficiencia): pico <b>inferior a 200 mg/dl</b>, junto con aparición
+de síntomas (dolor abdominal, diarrea) durante la prueba. Confirmación: actividad enzimática en
+biopsia de mucosa intestinal.</p>
+
+<div class="callout warn">El criterio de positividad en la sobrecarga oral de un disacárido es
+contraintuitivo: se considera positivo (es decir, indicativo de intolerancia) un pico de glucemia
+<b>por debajo</b> de 200 mg/dl — porque, al no hidrolizarse ni absorberse bien el disacárido, la
+glucemia apenas sube.</div>
+
+<h2>Alteraciones del metabolismo de los polisacáridos</h2>
+
+<h3>Glucógeno: síntesis y degradación</h3>
+<p><b>Glucogenogénesis</b> (activada por insulina, en hígado y músculo): Glucosa —(hexoquinasa)→
+Glucosa-6-P —(fosfoglucomutasa)→ Glucosa-1-P → (con glucogenina, glucógeno sintasa forma enlaces
+α(1-4) y la enzima ramificante forma enlaces α(1-6)) → Glucógeno.<br>
+<b>Glucogenólisis</b> (activada por glucagón, en hígado): Glucógeno —(fosforilasa)→ Glucosa-1-P (la
+enzima desramificante libera glucosa en los puntos de ramificación) —(fosfoglucomutasa)→ Glucosa-6-P
+—(glucosa-6-fosfatasa, solo en hígado)→ Glucosa, que sale a la sangre.</p>
+
+<h3>Glucogenosis</h3>
+<p>Deficiencias congénitas en enzimas o transportadores del metabolismo del glucógeno; distintas
+alteraciones enzimáticas pueden dar manifestaciones clínicas similares. Los órganos más afectados son
+el hígado y el músculo.</p>
+
+<table>
+<tr><th>Tipo</th><th>Nombre</th><th>Enzima deficiente</th><th>Consecuencia</th></tr>
+<tr><td>I</td><td>Von Gierke</td><td>Glucosa-6-fosfatasa</td><td>Acúmulo de glucógeno en hígado y riñón; hipoglucemia, hiperlacticemia, sin respuesta a glucagón</td></tr>
+<tr><td>II</td><td>Pompe</td><td>α-1,4-glucosidasa (lisosomal)</td><td>Acúmulo de glucógeno <b>en los lisosomas</b> (única de origen subcelular/lisosomal)</td></tr>
+<tr><td>III</td><td>Cori / Forbes</td><td>Enzima desramificante</td><td>Estructura anormal del glucógeno</td></tr>
+<tr><td>IV</td><td>Andersen</td><td>Enzima ramificante</td><td>Estructura anormal del glucógeno</td></tr>
+<tr><td>V</td><td>McArdle</td><td>Glucógeno fosforilasa muscular</td><td>Acúmulo de glucógeno en músculo</td></tr>
+<tr><td>VI</td><td>Hers</td><td>Glucógeno fosforilasa hepática</td><td>Acúmulo de glucógeno (hepático)</td></tr>
+<tr><td>VII</td><td>Tauri</td><td>Fosfofructoquinasa muscular</td><td>Acúmulo de glucógeno en músculo</td></tr>
+<tr><td>VIII</td><td>—</td><td>Fosforilasa b quinasa</td><td>Acúmulo de glucógeno</td></tr>
+<tr><td>IX (o 0)</td><td>—</td><td>Glucógeno sintasa</td><td><b>Déficit</b> de glucógeno (no acúmulo)</td></tr>
+<tr><td>XI</td><td>Fanconi-Bickel</td><td>GLUT-2</td><td>Acúmulo de glucógeno</td></tr>
+</table>
+
+<p>Clínicamente se agrupan en: <b>hepáticas</b> (tipos I, III, VI y VIII) — hipoglucemia,
+hiperlacticemia, hepatomegalia sin respuesta a glucagón, hipercolesterolemia e hiperTG, pruebas
+hepáticas anormales, osteoporosis; signos y síntomas entre 1 mes y 1 año de vida — y
+<b>musculares</b> (tipos V y VII) — disminución del suministro rápido de combustible metabólico para
+la contracción muscular, síntomas débiles, evidentes en jóvenes tras ejercicio violento.</p>
+
+<div class="callout warn">"En todas las glucogenosis se produce un acúmulo de glucógeno" es
+<b>falso</b>: la glucogenosis tipo IX (o 0), por déficit de glucógeno sintasa, es la única excepción y
+cursa con <b>deficiencia</b> de glucógeno. Es una de las preguntas de verdadero/falso más repetidas
+del bloque.</div>
+
+<p><b>Pruebas diagnósticas:</b> actividad enzimática en biopsia hepática o muscular; estudio
+microscópico de la acumulación de glucógeno.</p>
+<ul>
+<li><b>Glucogenosis hepática:</b> test del glucagón (administración i.m. y determinación de glucosa y
+lactato). Tratamiento: alimentación frecuente y rica en hidratos de carbono (evitar hipoglucemia y
+acidosis láctica); trasplante hepático ocasional.</li>
+<li><b>Glucogenosis muscular:</b> test de isquemia (estudio de la degradación de glucógeno y la
+producción de lactato).</li>
+</ul>
+
+<div class="callout warn">No cruzar las pruebas: test del <b>glucagón</b> → glucogenosis
+<b>hepáticas</b>; test de <b>isquemia</b> → glucogenosis <b>musculares</b>. El examen pregunta en
+ambos sentidos.</div>
+
+<h3>Mucopolisacaridosis</h3>
+<p>Enfermedades <b>lisosomales</b> congénitas por deficiencia de enzimas implicadas en la
+<b>degradación</b> (no en la síntesis) de los glucosaminoglucanos (GAG), que se acumulan en los
+lisosomas. Diagnóstico de cribado: prueba de Berry (cualitativa, detección de GAG en orina).</p>
+
+<table>
+<tr><th>Síndrome</th><th>Enzima deficiente</th><th>GAG acumulado</th><th>Herencia</th><th>Síntomas</th></tr>
+<tr><td>Tipo I — Hurler-Scheie</td><td>α-L-iduronidasa</td><td>Heparán sulfato, dermatán sulfato</td>
+<td>Autosómica recesiva</td>
+<td>Macrocefalia, anomalías esqueléticas (facies tosca), hepatomegalia, retraso mental severo</td></tr>
+<tr><td>Tipo II — Hunter</td><td>Iduronato-2-sulfatasa</td><td>Heparán sulfato, dermatán sulfato</td>
+<td><b>Ligada al sexo (X)</b></td>
+<td>Dolicocefalia e hidrocefalia, anomalías esqueléticas, retraso mental, enfermedad cardiaca</td></tr>
+<tr><td>Tipo III — Sanfilippo</td><td>Heparán sulfatasa; N-acetilglucosaminidasa;
+N-acetilglucosamina-6-sulfatasa</td><td>Heparán sulfato</td><td>Autosómica recesiva</td>
+<td>Defectos físicos leves; retraso mental <b>severo</b>; problemas para caminar</td></tr>
+<tr><td>Tipo IV — Morquio</td><td>Galactosa-6-sulfatasa; β-galactosidasa</td>
+<td>Queratán sulfato, condroitín sulfato</td><td>Autosómica recesiva</td>
+<td>Macrocefalia, anomalías esqueléticas, hepatomegalia, retraso mental severo</td></tr>
+</table>
+
+<div class="callout warn">"Todas las mucopolisacaridosis se transmiten con carácter autosómico
+recesivo" es <b>falso</b>: la enfermedad de <b>Hunter (tipo II)</b> es la única que se transmite
+<b>ligada al sexo</b> (cromosoma X). Es la excepción que el examen busca específicamente.</div>
+
+<div class="callout mnemo">Sanfilippo (tipo III) es el "raro" de la tabla: acumula un único GAG
+(heparán sulfato), apenas da problemas físicos/óseos, pero el retraso mental es el más severo de
+todos — al contrario que Hurler o Morquio, donde predominan las alteraciones esqueléticas y
+viscerales.</div>
+
+<div class="footer-page">Bloque 3 — Metabolismo de los Hidratos de Carbono</div>
+<h1 class="tema"><span class="num">Bloque 4</span>Metabolismo de los Lípidos</h1>
+
+<h2>Digestión, absorción y transporte de lípidos de la dieta</h2>
+<p>Las grasas de la dieta empiezan a digerirse en el estómago (sobre todo en niños) y, de forma más relevante, en el intestino del adulto. Como los lípidos son hidrófobos, el organismo necesita <b>emulsionarlos</b>: las sales y ácidos biliares, junto con el peristaltismo, forman <b>micelas mixtas</b> (cara externa hidrófila, núcleo lipofílico) que atraviesan la capa acuosa hasta el enterocito. Dentro del enterocito los lípidos se reorganizan en <b>quilomicrones (QM)</b>, que salen por vía linfática hasta el conducto torácico y de ahí a la sangre. En el capilar, la <b>lipoproteína lipasa (LPL)</b>, activada al reconocer la apoproteína C-II del quilomicrón, libera ácidos grasos y glicerol para que los capten los tejidos.</p>
+
+<table>
+<tr><th>Vitamina</th><th>Función principal</th><th>Consecuencia del déficit</th></tr>
+<tr><td><b>A</b> (retinol / β-caroteno)</td><td>Fisiología de la visión</td><td>Alteraciones visuales</td></tr>
+<tr><td><b>D</b></td><td>Se activa por el sol; metabolismo del calcio y formación ósea</td><td>Raquitismo (niños); osteomalacia/deformidades óseas (adultos)</td></tr>
+<tr><td><b>E</b> (tocoferol)</td><td>Antioxidante; tejido conjuntivo; caracteres sexuales secundarios</td><td>Ataxia (por eso aparece en el síndrome de Bassen-Kornzweig)</td></tr>
+<tr><td><b>K</b></td><td>Coagulación (síntesis de varios factores)</td><td>Tendencia al sangrado</td></tr>
+</table>
+
+<div class="callout warn">Cualquier alteración de la digestión/absorción/transporte de lípidos cursa <b>siempre</b> con esteatorrea (y muy frecuentemente diarrea) — es un dato que se pregunta literalmente en examen ("la esteatorrea aparece siempre cuando hay alteración en digestión, absorción y transporte de lípidos": verdadero).</div>
+
+<h3>Causas de malabsorción lipídica</h3>
+<table>
+<tr><th>Causa</th><th>Mecanismo</th></tr>
+<tr><td><b>Hepatobiliares</b> (hepatocelulares/obstructivas)</td><td>No hay suficientes ácidos/sales biliares para emulsionar, o hay obstrucción de su almacenamiento en la vesícula → no hay micela → la grasa queda retenida</td></tr>
+<tr><td><b>Pancreáticas</b></td><td>Faltan enzimas digestivas (ej. diabetes con afectación exocrina)</td></tr>
+<tr><td><b>Intestinales</b></td><td>Fallo del peristaltismo (dietas pobres en fibra, encamamiento)</td></tr>
+<tr><td><b>Linfangiectasia</b></td><td>Los vasos linfáticos dañados no permiten el paso de las lipoproteínas ya formadas en el enterocito → se acumulan y "atascan" al enterocito</td></tr>
+<tr><td><b>Abetalipoproteinemia</b></td><td>Déficit de apoproteína B (B-100 y B-48) → no se forman QM → acumulación de grasa en el enterocito</td></tr>
+</table>
+
+<div class="callout">La <b>abetalipoproteinemia</b> es un caso muy preguntado: sin QM, la enzima LCAT usa los eritrocitos como sustrato alternativo para esterificar colesterol, deformando su membrana (<b>acantocitosis</b> — hematíes en forma de espinas). El déficit asociado de vitamina E liposoluble produce ataxia y retinitis pigmentosa: <b>síndrome de Bassen-Kornzweig</b>. Diagnóstico: ausencia de banda de QM en la electroforesis de lipoproteínas plasmáticas.</div>
+
+<h2>Metabolismo de las lipoproteínas</h2>
+<p>Las lipoproteínas transportan lípidos por sangre y linfa. Estructura: núcleo hidrófobo (triglicéridos y ésteres de colesterol) recubierto de una capa hidrófila (fosfolípidos, colesterol libre y apoproteínas, clave para el reconocimiento por receptores). No hace falta memorizar todas las características físico-químicas, pero sí la <b>composición en apoproteínas</b> y qué transporta mayoritariamente cada una.</p>
+
+<table>
+<tr><th>Lipoproteína</th><th>Origen</th><th>Transporta mayoritariamente</th><th>Apoproteínas</th><th>Electroforesis</th></tr>
+<tr><td><b>QM</b></td><td>Intestino</td><td>TG exógenos (de la dieta)</td><td>A, B-48, C, E</td><td>Origen</td></tr>
+<tr><td><b>VLDL</b></td><td>Hígado</td><td>TG endógenos (sintetizados en hígado)</td><td>B-100, C, D, E</td><td>pre-β</td></tr>
+<tr><td><b>IDL</b></td><td>Remanente de VLDL (tras ceder TG)</td><td>Precursora de LDL</td><td>B-100, C, D, E</td><td>pre-β y β</td></tr>
+<tr><td><b>LDL</b></td><td>Circulación (a partir de IDL)</td><td>Colesterol (reparto a tejidos)</td><td>B-100</td><td>β</td></tr>
+<tr><td><b>HDL</b></td><td>Hígado e intestino</td><td>Colesterol (retorno de tejidos al hígado)</td><td>A, C, D, E</td><td>α</td></tr>
+<tr><td><b>VHDL</b></td><td>Intestino, tejido adiposo</td><td>Ácidos grasos libres</td><td>Albúmina</td><td>—</td></tr>
+</table>
+
+<div class="callout warn"><b>QM → no aterogénicos. LDL → aterogénicas. HDL → antiaterogénicas.</b> Las Lp(a) se parecen a las LDL y aunque no tienen propiedades aterogénicas per se, sí se consideran factor de riesgo por favorecer la agregación plaquetaria — su determinación es paralela a la de LDL. Ojo con las preguntas que preguntan "cuáles NO tienen riesgo aterogénico": la respuesta es QM y HDL.</div>
+
+<table>
+<tr><th>Enzima</th><th>Función</th></tr>
+<tr><td><b>Lipoproteína lipasa (LPL)</b></td><td>Degrada los TG de QM y VLDL (se activa por Apo C-II)</td></tr>
+<tr><td><b>Lecitina-colesterol aciltransferasa (LCAT)</b></td><td>Esterifica el colesterol circulante; asociada a HDL</td></tr>
+<tr><td><b>Triglicérido lipasa hepática (HTGL)</b></td><td>Similar a LPL; además degrada fosfolípidos</td></tr>
+<tr><td><b>Proteína transferidora de ésteres de colesterol (CETP)</b></td><td>Intercambia colesterol de HDL por TG de VLDL/IDL/LDL</td></tr>
+</table>
+
+<table>
+<tr><th>Receptor</th><th>Reconoce</th><th>Localización / rasgo</th></tr>
+<tr><td>Receptor de Apo B-100</td><td>LDL</td><td>Todos los tejidos</td></tr>
+<tr><td>Receptor de Apo E</td><td>Remanentes (IDL, QM remanentes)</td><td>Hígado (único órgano con este receptor)</td></tr>
+<tr><td>Receptor "scavenger" (basurero)</td><td>Lipoproteínas modificadas: Lp(a), βVLDL, LDL oxidadas</td><td>Macrófagos y sistema reticuloendotelial. <b>No regulado</b> → captación permanente → células espumosas → placa de ateroma</td></tr>
+</table>
+
+<div class="callout">La placa de ateroma se forma cuando LDL cargadas de colesterol se acumulan en zonas de lesión endotelial; los macrófagos las fagocitan sin control (receptor scavenger) y se convierten en <b>células espumosas</b>. Después llegan plaquetas y factores de coagulación, se forma tejido conectivo y la pared se engrosa hasta poder ocluir el vaso.</div>
+
+<h2>Alteraciones de las lipoproteínas: dislipemias</h2>
+<p>Pueden ser <b>primarias</b> (el propio metabolismo de la lipoproteína está comprometido) o <b>secundarias</b> (otra patología repercute sobre él), y cursar con exceso (hiperlipoproteinemias) o defecto (hipolipoproteinemias). La <b>clasificación de Frederickson</b>, aceptada por la OMS, se basa en el fenotipo (aspecto del suero, colesterol y TG, y qué lipoproteínas están alteradas — QM, VLDL, LDL; <b>no valora HDL</b>), no en la causa.</p>
+
+<table>
+<tr><th>Tipo</th><th>Nombre</th><th>Alteración</th><th>Lípido elevado</th><th>Defecto</th></tr>
+<tr><td><b>I</b></td><td>Hiperquilomicronemia familiar / déficit LPL familiar</td><td>↑QM</td><td>TG (↑↑)</td><td>LPL o Apo C-II (↓lipólisis)</td></tr>
+<tr><td><b>IIa</b></td><td>Hipercolesterolemia familiar</td><td>↑LDL</td><td>Colesterol (↑↑)</td><td>Receptor de LDL</td></tr>
+<tr><td><b>IIb</b></td><td>Hiperbetalipoproteinemia familiar</td><td>↑VLDL y LDL</td><td>Colesterol y TG (↑)</td><td>Receptor LDL / ↑ síntesis VLDL</td></tr>
+<tr><td><b>III</b></td><td>Disbetalipoproteinemia familiar</td><td>↑IDL</td><td>Colesterol y TG (↑)</td><td>Apo E</td></tr>
+<tr><td><b>IV</b></td><td>Hipertrigliceridemia familiar</td><td>↑VLDL</td><td>TG (↑)</td><td>↑ síntesis de VLDL</td></tr>
+<tr><td><b>V</b></td><td>—</td><td>↑QM y VLDL</td><td>TG (↑↑)</td><td>↓ LPL (↓lipólisis)</td></tr>
+</table>
+
+<div class="callout mnemo">Truco para recordar el mecanismo: tipos <b>I y V</b> fallan en la <b>lipólisis</b> (LPL/Apo C-II), el tipo <b>IV</b> falla por <b>exceso de síntesis</b> de VLDL, y los tipos <b>IIa, IIb y III</b> (los "centrales") fallan por problemas de <b>captación</b> (receptores).</div>
+
+<div class="callout warn">Los <b>xantomas</b> (hiperTG o hiperColesterol) y las <b>xantelasmas</b> (hiperColesterol) NO son exclusivos ni patognomónicos de ninguna dislipemia concreta — es un distractor típico afirmar que "son características patognomónicas de las hipertrigliceridemias" (falso). El arcus senilis también puede acompañar estos cuadros.</div>
+
+<h3>Consideraciones preanalíticas y pruebas diagnósticas</h3>
+<p>Muestra en ayunas de 12-14h; evitar cambios de dieta, ejercicio intenso, tabaco o alcohol en los días previos (el ejercicio ↑HDL-Col y ↓TG/LDL-Col; el tabaco ↑LDL-Col y TG; el alcohol moderado ↑HDL-Col pero en exceso ↑TG).</p>
+
+<table>
+<tr><th>Prueba</th><th>Qué informa</th></tr>
+<tr><td>Aspecto del suero tras reposo 12h a 4ºC</td><td>Capa superficial lechosa → ↑QM. Turbidez del infranadante → ↑VLDL. LDL y HDL no modifican la transparencia</td></tr>
+<tr><td>Colesterol total y TG (métodos enzimáticos)</td><td>Riesgo elevado: colesterol &gt; 240 mg/dl; TG &gt; 200 mg/dl</td></tr>
+<tr><td>Colesterol LDL y HDL</td><td>Riesgo elevado: LDL-Col &gt; 160 mg/dl; HDL-Col &lt; 35 mg/dl</td></tr>
+<tr><td>HDL-Col</td><td>Precipitación selectiva de LP con Apo B (LDL, VLDL) mediante ácido fosfotúngstico; el HDL queda en el sobrenadante y se cuantifica</td></tr>
+<tr><td>LDL-Col — Fórmula de Friedewald</td><td>LDL-Col = Colesterol total − (TG/5) − HDL-Col. El término TG/5 estima el colesterol en VLDL</td></tr>
+<tr><td>Apo B plasmática</td><td>Refleja [VLDL]+[LDL] (aterógenas) — alternativa a LDL-Col</td></tr>
+<tr><td>Apo A plasmática</td><td>Refleja [HDL] (antiaterógena) — alternativa a HDL-Col</td></tr>
+<tr><td>Electroforesis (lipidograma)</td><td>Geles de agarosa/acetato de celulosa/poliacrilamida, revelado con negro sudán o rojo 5B; muestra qué lipoproteína está alterada</td></tr>
+</table>
+
+<div class="callout warn">La fórmula de Friedewald <b>no es aplicable</b> en las dislipemias tipo IIb, IV y V (porque el TG/5 deja de estimar bien el colesterol-VLDL cuando los TG están muy elevados o hay QM). No confundas: la <b>HDL-Col</b> se determina por precipitación con ácido fosfotúngstico, no por Friedewald (esa fórmula es para LDL-Col).</div>
+
+<h2>Metabolismo de los ácidos grasos y cuerpos cetónicos</h2>
+<p>Los ácidos grasos se degradan por <b>β-oxidación</b> en la mitocondria. Como se acumulan en el citoplasma, deben activarse (unión a CoA), transportarse unidos a <b>carnitina</b> y entrar a la mitocondria antes de romperse en fragmentos de 2 carbonos (acetil-CoA); si el número de carbonos es impar, se genera también un propionil-CoA de 3 carbonos. Ambos se incorporan al ciclo de Krebs.</p>
+
+<table>
+<tr><th>Alteración</th><th>Mecanismo</th><th>Clínica</th></tr>
+<tr><td><b>Déficit de carnitina</b></td><td>Insuficiente carnitina (dieta, síntesis, o aumento del consumo por infecciones, insuficiencia renal, cirrosis, valproato) o fallo del transportador/CPT (carnitina palmitoil transferasa)</td><td>Hipoglucemia, calambres y debilidad muscular por falta de energía</td></tr>
+<tr><td><b>Alteraciones de la β-oxidación</b> (déficit de acil-CoA deshidrogenasa: MCAD, LCAD, SCAD)</td><td>La más frecuente es el déficit de MCAD (cadena media)</td><td>Hipoglucemia, hipocetonemia e <b>hiperamonemia</b>; hepatomegalia, miocardiopatía; grave en bebés &lt;2 años tras ayuno o infección</td></tr>
+<tr><td><b>Alteración de la α-oxidación</b></td><td>No se oxida el ácido fitánico (metilado en Cβ)</td><td>Enfermedad de <b>Refsum</b>: alteración de la mielina, retinitis pigmentosa</td></tr>
+<tr><td><b>Déficit de oxidación peroxisómica</b></td><td>Acúmulo de ácidos grasos de cadena muy larga</td><td>Afecta corteza suprarrenal y mielina → demencia</td></tr>
+<tr><td><b>Alteración de la síntesis de ácidos grasos</b></td><td>Déficit de acetil-CoA carboxilasa o de su cofactor, la <b>biotina</b> (no se forma malonil-CoA)</td><td>Déficit de agente tensioactivo pulmonar (surfactante) → problemas respiratorios graves en neonatos</td></tr>
+</table>
+
+<div class="callout warn">Trampa muy repetida en examen: el déficit de <b>acetil-CoA carboxilasa</b> (o de biotina, su cofactor) afecta a la <b>síntesis</b> de ácidos grasos, NO a su degradación ni a los cuerpos cetónicos. "El déficit de biotina impide la síntesis de ácidos grasos" es verdadero precisamente por esto.</div>
+
+<p>Los <b>cuerpos cetónicos</b> se sintetizan a partir de acetil-CoA (fisiológicamente &lt;0,2 mM/día). Cuando se agota el glucógeno (reserva corta) el organismo moviliza TG (reserva larga) por lipólisis; si el ciclo de Krebs se satura, el exceso de acetil-CoA se deriva a cuerpos cetónicos. Niveles de 3-5 mM aún son aceptables en ayuno, pero un exceso (p. ej. cetoacidosis diabética, típica de diabetes tipo I) provoca acidosis porque son compuestos ácidos.</p>
+
+<h2>Metabolismo de los triacilglicéridos</h2>
+<p>Los TG (glicerol + 3 ácidos grasos) son la reserva energética a largo plazo. Se sintetizan en el hígado y se distribuyen empaquetados en VLDL. Si no hay suficiente VLDL para transportarlos, se acumulan en el hígado → <b>esteatosis hepática</b> (reversible, salvo que evolucione a cirrosis). Se almacenan en tejido adiposo blanco (reserva) y marrón (termorregulación).</p>
+
+<table>
+<tr><th>Alteración</th><th>Mecanismo</th><th>Clave diagnóstica</th></tr>
+<tr><td><b>Déficit de glicerol quinasa</b></td><td>No se fosforila el glicerol → no se sintetizan nuevos TG, pero se acumula glicerol libre</td><td><b>Pseudohipertrigliceridemia</b>: las técnicas habituales de TG en realidad miden glicerol, así que dan valores falsamente muy elevados. Se corrige con técnicas que separan los componentes</td></tr>
+<tr><td><b>Déficit de lipasa lisosomal</b> (enfermedad de Wolman)</td><td>No se hidrolizan los TG acumulados en lisosomas</td><td>Esteatorrea, distensión abdominal, hepatomegalia, calcificación suprarrenal</td></tr>
+</table>
+
+<div class="callout warn">No confundir la pseudohipertrigliceridemia por déficit de glicerol quinasa (un problema analítico, no un exceso real de TG) con una hipertrigliceridemia genuina — es una pregunta clásica de "qué está pasando realmente" en el laboratorio.</div>
+
+<h2>Metabolismo de los fosfoacilglicéridos y esfingolípidos</h2>
+<p>Muy abundantes en membranas (los esfingolípidos especialmente en neuronas) y en fluidos como la bilis o el surfactante pulmonar. Sus alteraciones —de síntesis o de degradación— casi siempre cursan con clínica neurológica.</p>
+
+<table>
+<tr><th>Enfermedad</th><th>Grupo</th><th>Déficit / mecanismo</th><th>Clínica</th></tr>
+<tr><td>Déficit de <b>dipalmitoil lecitina</b></td><td>Fosfoacilglicéridos</td><td>No se forma bien el surfactante pulmonar</td><td>Distrés respiratorio grave en neonatos</td></tr>
+<tr><td>Déficit de <b>plasmalógenos</b> — Síndrome de <b>Zellweger</b></td><td>Fosfoacilglicéridos (contienen un éter)</td><td>Faltan plasmalógenos, que protegen de radicales libres generados por radiación UV</td><td>Fotosensibilidad cutánea marcada</td></tr>
+<tr><td><b>Esfingolipidosis</b> (Tay-Sachs, Gaucher, Krabbe, gangliosidosis GM1/Landing...)</td><td>Esfingolípidos</td><td>Enfermedades lisosomales de la degradación</td><td>Alteraciones neurológicas graves, hepato/esplenomegalia, pueden llegar a descerebración y caquexia (atrofia multiorgánica)</td></tr>
+<tr><td>Defectos en <b>saposinas</b></td><td>Esfingolípidos</td><td>Las saposinas "desanclan" los esfingolípidos de la membrana para su degradación; sin ellas se acumulan igual que en las esfingolipidosis</td><td>Clínica neurológica similar a las esfingolipidosis</td></tr>
+</table>
+
+<div class="callout warn">Trampa muy frecuente: el <b>síndrome de Zellweger</b> (plasmalógenos) es una alteración de los <b>fosfoacilglicéridos</b>, NO de los esfingolípidos — a pesar de que suele aparecer junto a Tay-Sachs/Gaucher en las opciones de test. Y al revés: el déficit de <b>saposinas</b> es una alteración de los <b>esfingolípidos</b>, no de los fosfoacilglicéridos, aunque el enunciado a veces las mezcle a propósito.</div>
+
+<h2>Otras alteraciones del metabolismo lipídico</h2>
+<table>
+<tr><th>Entidad</th><th>Descripción</th></tr>
+<tr><td><b>Obesidad</b></td><td>Acumulación excesiva de TG en tejido adiposo subcutáneo (se valora con el IMC). Asociada a diabetes tipo II, hipertensión, dislipemias, cálculos biliares, trastornos respiratorios/musculoesqueléticos y varios cánceres (mama, endometrio, vesícula biliar, colon)</td></tr>
+<tr><td><b>Lipodistrofias</b></td><td>Almacenamiento inespecífico de grasa en diversos tejidos; frecuentes en tratamiento insulínico o por agresión a la mucosa intestinal</td></tr>
+</table>
+
+<div class="footer-page">Bloque 4 — Metabolismo de los Lípidos</div>
+
+<h1 class="tema"><span class="num">Bloque 5</span>Metabolismo de los Compuestos Nitrogenados</h1>
+
+<h2>Digestión de las proteínas y transporte de aminoácidos</h2>
+<p>La digestión proteica es secuencial y depende de zimógenos que se activan en cascada (como los factores de coagulación): en el <b>estómago</b>, el pepsinógeno se activa a pepsina por el HCl; en el <b>intestino</b>, el tripsinógeno se activa a tripsina por la enteroquinasa, y la tripsina a su vez activa otras proteasas (quimotripsina, carboxipeptidasas, elastasa) que generan oligopéptidos; en el <b>enterocito</b> se completa la hidrólisis (tripeptidasas, dipeptidasas) hasta aminoácidos libres.</p>
+
+<p>Los aminoácidos se reabsorben mediante transportadores específicos de grupo, presentes tanto en el intestino como en el <b>túbulo renal</b> (aquí el fallo es más grave: si no se reabsorben, se pierden por la orina → <b>aminoaciduria</b>).</p>
+
+<table>
+<tr><th>Enfermedad</th><th>Aminoácidos afectados</th><th>Clínica / diagnóstico</th></tr>
+<tr><td><b>Cistinuria</b></td><td>Cistina, lisina, arginina, ornitina (dibásicos)</td><td><b>Cristales hexagonales planos</b> en sedimento urinario; cálculos (urolitiasis); prueba cualitativa del nitroprusiato (turbidez)</td></tr>
+<tr><td><b>Iminoglicinuria</b></td><td>Glicina, prolina, hidroxiprolina</td><td>Poco frecuente, prácticamente asintomática; diagnóstico por presencia de estos aa en orina</td></tr>
+<tr><td><b>Enfermedad de Hartnup</b></td><td>Aminoácidos neutros (alanina, asparagina, glutamina, treonina, serina, triptófano, tirosina, fenilalanina, histidina)</td><td>El déficit de triptófano impide la síntesis de NAD; picores, fotosensibilidad; heces con manchas azuladas por el <b>indicán</b> (metabolito bacteriano del Trp) → <b>"síndrome del pañal azul"</b></td></tr>
+</table>
+
+<div class="callout warn">No confundir la tríada de transportadores: cristales <b>hexagonales</b> → cistinuria; manchas <b>azules</b> en heces/pañal → Hartnup; asintomática y sin signo característico → iminoglicinuria. Y no confundir la <b>cistinuria</b> (defecto de transporte, cristales en orina) con la <b>cistinosis</b> (enfermedad lisosomal de depósito de cistina, sin cristales en orina — ver más abajo en aminoácidos azufrados): son nombres muy parecidos pero mecanismos distintos.</div>
+
+<h2>Alteraciones generales del metabolismo de los aminoácidos</h2>
+<p>La degradación de aminoácidos implica transaminación (transferencia del grupo amino a un α-cetoácido, normalmente α-cetoglutarato → glutamato) y desaminación oxidativa, liberando amonio que entra al ciclo de la urea. Cuando falta una enzima de una ruta, el intermediario anterior se acumula (a veces a niveles tóxicos) y puede faltar el producto final (p. ej. neurotransmisores derivados de fenilalanina).</p>
+
+<table>
+<tr><th>Herramienta diagnóstica</th><th>Utilidad</th></tr>
+<tr><td>Aminograma (HPLC, electroforesis)</td><td>Perfil completo de aminoácidos e intermediarios en sangre/orina/LCR</td></tr>
+<tr><td>Test de Guthrie</td><td>Prueba microbiológica cualitativa: si falta el aa necesario para una cepa bacteriana concreta, ésta no crece</td></tr>
+<tr><td>Signo patognomónico</td><td>Ej.: la <b>aloisoleucina</b> sólo aparece en la enfermedad de la orina con olor a jarabe de arce (EOJA) — confirma el diagnóstico</td></tr>
+<tr><td>Ácidos orgánicos en orina</td><td>Acidurias orgánicas típicas de alteraciones de aminoácidos alifáticos ramificados</td></tr>
+<tr><td>[NH4+] en sangre</td><td>Hiperamonemia si &gt; 40 mmol/L (común a la mayoría de estas enfermedades)</td></tr>
+</table>
+
+<h3>Aminoácidos aromáticos</h3>
+<table>
+<tr><th>Enfermedad</th><th>Déficit</th><th>Se acumula</th><th>Clínica</th></tr>
+<tr><td><b>Fenilcetonuria (PKU)</b></td><td>Fenilalanina hidroxilasa (o su cofactor BH4)</td><td>Fenilalanina → fenilacetona, fenilpiruvato, fenilactato (tóxicos cerebrales); ↓tirosina</td><td>Retraso mental si no se trata; hipopigmentación (Phe inhibe tirosinasa). Cribado neonatal (prueba del talón). Tto.: restricción de Phe ± BH4</td></tr>
+<tr><td><b>Tirosinemia tipo I</b> (hepatorrenal)</td><td>Fumarilacetoacetasa</td><td>Tirosina, succinilacetona (lesiva), fumarilacetoacetato</td><td>La más grave: hígado, riñón y SNC (cirrosis, hemosiderosis). Autosómica recesiva</td></tr>
+<tr><td><b>Tirosinemia tipo II</b> (oculocutánea / Richner-Hanhart)</td><td>Tirosina transaminasa citosólica hepática</td><td>Tirosina (20-50 mg/dl)</td><td>Retraso mental leve-moderado, afectación cutánea y ocular; más leve que la tipo I</td></tr>
+<tr><td><b>Alcaptonuria</b></td><td>Homogentísico oxidasa</td><td>Ácido homogentísico → ácido benzoquinoacético</td><td>Se deposita en cartílagos: <b>ocronosis</b> y artritis; orina que se oscurece con el aire/luz</td></tr>
+<tr><td><b>Albinismo</b></td><td>Tirosinasa (no forma melanina)</td><td>—</td><td>Ocular (retina) u oculocutáneo (más severo); fotofobia, nistagmo, estrabismo</td></tr>
+</table>
+
+<div class="callout warn">La <b>alcaptonuria</b> se pregunta mucho: produce coloración <b>oscura</b> de la orina por ácido homogentísico oxidado — no confundir con el "pañal azul" de Hartnup (indicán) ni atribuirla a pérdida de triptófano (eso es Hartnup) ni a un defecto de la prolina.</div>
+
+<h3>Aminoácidos azufrados</h3>
+<table>
+<tr><th>Enfermedad</th><th>Déficit</th><th>Clínica / diagnóstico</th></tr>
+<tr><td><b>Homocistinuria</b></td><td>Cistationina sintasa (o metionina sintasa); frecuentemente por déficit de cofactores B6, cobalamina o folato</td><td>↑Homocisteína y metionina: alteraciones esqueléticas (osteoporosis, tórax en quilla), tromboembolias, luxación del cristalino, retraso mental. Tto.: restricción de Met + vitamina B6</td></tr>
+<tr><td><b>Cistinosis</b></td><td>Transportador que saca la cistina de los lisosomas</td><td>Acúmulo intracelular de cistina (NO en orina, a diferencia de la cistinuria); afecta riñón y ojos; cristales de cistina en córnea</td></tr>
+<tr><td><b>Cistationuria</b></td><td>Cistationasa (enzima dependiente de piridoxina)</td><td>↑Cistationina en plasma y orina</td></tr>
+<tr><td><b>Déficit de sulfito oxidasa</b></td><td>Sulfito oxidasa hepática (o su cofactor, molibdeno)</td><td>Dismorfia facial, convulsiones, retraso mental grave; fallecimiento antes de los 2 años; sin tratamiento</td></tr>
+</table>
+
+<h3>Aminoácidos básicos, alifáticos no ramificados y ramificados</h3>
+<table>
+<tr><th>Enfermedad</th><th>Grupo</th><th>Detalle</th></tr>
+<tr><td>Hiperlisinemia</td><td>Básicos</td><td>Déficit de lisina-α-cetoglutarato-reductasa; la lisina inhibe el ciclo de la urea</td></tr>
+<tr><td>Argininemia</td><td>Básicos</td><td>↑Arginina en plasma y LCR</td></tr>
+<tr><td>Histidemia</td><td>Básicos</td><td>Déficit de histidina-amoníaco-liasa</td></tr>
+<tr><td>Hiperglicinemia / Hiperprolinemia / Hidroxiprolinemia</td><td>Alifáticos no ramificados</td><td>Poco relevantes; pueden cursar con retraso mental</td></tr>
+<tr><td><b>Enfermedad de la orina con olor a jarabe de arce (EOJA)</b></td><td>Alifáticos <b>ramificados</b> (leucina, isoleucina, valina)</td><td>Acidurias orgánicas (olor a jarabe de arce por los oxoácidos; olor a queso rancio por el ácido isovalérico en otras variantes). Puede haber hiperamonemia por inhibición de la carbamoil-fosfato sintetasa. Tto.: restricción proteica</td></tr>
+</table>
+
+<div class="callout warn">"La enfermedad de la orina con olor a jarabe de arce se debe a una alteración de los aminoácidos alifáticos <b>ramificados</b>" — es una pregunta literal de examen; no la confundas con los "no ramificados" (glicina, prolina).</div>
+
+<h2>Alteraciones del ciclo de la urea</h2>
+<p>El ciclo de la urea ocurre íntegramente en el hígado y es la vía para eliminar el amonio (procedente de proteínas, purinas e intestino) en forma de urea.</p>
+
+<table>
+<tr><th>Paso</th><th>Reacción</th><th>Enzima</th></tr>
+<tr><td>1</td><td>Amonio + bicarbonato → carbamoil-fosfato</td><td>Carbamoil-fosfato-sintetasa I</td></tr>
+<tr><td>2</td><td>Carbamoil-fosfato + ornitina → citrulina</td><td>Ornitina-transcarbamoilasa</td></tr>
+<tr><td>3</td><td>Citrulina + aspartato → argininosuccinato</td><td>Argininosuccinato-sintetasa (citoplasmática)</td></tr>
+<tr><td>4</td><td>Argininosuccinato → arginina + fumarato</td><td>Argininosuccinato-liasa</td></tr>
+<tr><td>5</td><td>Arginina + H2O → urea + ornitina (se regenera)</td><td>Arginasa I</td></tr>
+</table>
+
+<p>Los déficits más frecuentes y graves son los de las <b>dos primeras enzimas</b> (carbamoil-fosfato sintetasa I y ornitina transcarbamoilasa), con manifestaciones tempranas y severas. La arginina es a la vez producto final de otra ruta e intermediario del ciclo: sin arginina suficiente, el ciclo no se completa.</p>
+
+<div class="callout warn">Trampa de examen muy repetida: si el ciclo de la urea falla, la <b>urea disminuye</b> (no se sintetiza) y es el <b>amonio</b> el que se acumula. La afirmación "concentraciones elevadas de urea en sangre son indicativas de una alteración del ciclo de la urea" es <b>FALSA</b> — lo indicativo es la hiperamonemia, no la urea alta.</div>
+
+<div class="callout">Amonio &gt; 60 mmol/L → daño neuronal y edema cerebral (se combina con glutamato para formar glutamina, osmóticamente activa). Diagnóstico definitivo: actividad enzimática en biopsia hepática. Tratamiento: dieta hipoproteica, benzoato/fenilacetato (vías alternativas de excreción de nitrógeno) y, en casos graves, trasplante hepático.</div>
+
+<h2>Metabolismo de las purinas y pirimidinas</h2>
+<p>Purinas (adenina, guanina) y pirimidinas (citosina, timina, uracilo) forman ácidos nucleicos, cofactores (NAD, CoA, FAD) y nucleótidos (ATP, GTP...). Existen rutas de síntesis <i>de novo</i> (caras energéticamente) y <b>rutas de salvamento</b> (reciclado, más baratas). En la degradación de las <b>purinas</b> siempre se forma <b>ácido úrico</b> como producto final común (antioxidante; 1/3 se elimina por heces, 2/3 por orina); las <b>pirimidinas</b> no tienen un producto final común de degradación, aunque en su síntesis sí comparten intermediario: el <b>orotato</b>.</p>
+
+<h3>Alteraciones de las purinas — hiperuricemia</h3>
+<table>
+<tr><th>Entidad</th><th>Mecanismo</th><th>Clínica</th></tr>
+<tr><td><b>Gota primaria</b></td><td>Exceso de purinas en dieta, ↑síntesis de novo; déficit de HPRT o hiperactividad de PRPS</td><td>Hombres de mediana edad</td></tr>
+<tr><td><b>Gota secundaria</b></td><td>Glucogenosis tipo I, recambio celular acelerado, quimioterapia, ↓eliminación renal</td><td>—</td></tr>
+<tr><td><b>Gota juvenil familiar</b></td><td>Autosómica recesiva</td><td>Edad temprana, grave</td></tr>
+<tr><td><b>Síndrome de Lesch-Nyhan</b></td><td>Déficit de <b>HGPRT</b> (hipoxantina-guanina-fosforribosiltransferasa) → ↑síntesis de novo</td><td>Hiperuricemia con hiperuricosuria, anemia megaloblástica (consumo de folato); autolesión, agresividad, retraso mental y de crecimiento (2-3 años)</td></tr>
+</table>
+
+<p>La gota cursa con depósito de cristales de urato monosódico (forma <b>estrellada</b> al microscopio de luz polarizada): artritis dolorosa, tofos, urolitiasis. Estadios: hiperuricemia asintomática → gota aguda → gota crónica. Tratamiento: <b>alopurinol</b> (análogo de hipoxantina, inhibe la xantina oxidasa) — reduce la formación de ácido úrico pero no revierte el daño neurológico ya establecido.</p>
+
+<h3>Alteraciones de las purinas — hipouricemia y otras</h3>
+<table>
+<tr><th>Entidad</th><th>Mecanismo</th><th>Clínica</th></tr>
+<tr><td><b>Xantinuria hereditaria</b></td><td>Déficit de <b>xantina oxidasa</b> (no pasa hipoxantina→xantina→ácido úrico)</td><td>Acumulación de xantina e hipoxantina; cristales lisos ovalados marrón-anaranjados; puede dar insuficiencia renal</td></tr>
+<tr><td><b>Inmunodeficiencia combinada grave</b></td><td>Déficit de adenosina desaminasa (ADA)</td><td>↓Linfocitos B, T y NK; infecciones y alteraciones neurológicas graves desde edad temprana</td></tr>
+</table>
+
+<h3>Alteraciones de las pirimidinas</h3>
+<table>
+<tr><th>Entidad</th><th>Mecanismo</th><th>Clínica</th></tr>
+<tr><td><b>Aciduria orótica hereditaria</b></td><td>Déficit de OPRT y/o ODC (síntesis de pirimidinas)</td><td>↑Ácido orótico (cristales, puede obstruir vía urinaria); anemia, retraso mental, alteración del pH. También puede ser secundaria a alteraciones del ciclo de la urea (falta carbamoil-fosfato) o a fármacos (alopurinol)</td></tr>
+</table>
+
+<div class="callout warn">Confusión muy explotada en examen: el síndrome de <b>Lesch-Nyhan</b> y la <b>xantinuria</b> son alteraciones del metabolismo de las <b>purinas</b> (no de las pirimidinas); la <b>aciduria orótica hereditaria</b> es al revés, una alteración de las <b>pirimidinas</b> (no de las purinas). Aparecen constantemente intercambiadas como distractor.</div>
+
+<div class="footer-page">Bloque 5 — Metabolismo de los Compuestos Nitrogenados</div>
+
+<h1 class="tema"><span class="num">Bloque 6</span>Función Hepática y Renal</h1>
+
+<h2>Función hepática: magnitudes bioquímicas</h2>
+<p>El hígado realiza homeostasis de proteínas, glúcidos y lípidos, y detoxifica compuestos endógenos/exógenos (oxidación/reducción/hidrólisis vía citocromo P450, y conjugación con sulfatos, ácido glucurónico o HdC para aumentar la polaridad y eliminarlos por bilis u orina). Los <b>hepatocitos</b> hacen el trabajo metabólico; las <b>células de Kupffer</b> son el sistema fagocítico (p. ej. reciclaje de células sanguíneas).</p>
+<p>Las magnitudes bioquímicas hepáticas <b>no informan de la función metabólica del hígado</b>, sino de si hay lesión, de qué tipo y de su extensión.</p>
+
+<table>
+<tr><th>Magnitud</th><th>Qué informa</th><th>Detalle clave</th></tr>
+<tr><td><b>Bilirrubina</b></td><td>Colestasis</td><td>Procede de la degradación del grupo hemo (~450 µmol/día). Insoluble en agua → viaja unida a albúmina → se esterifica (conjuga) en el hígado → se excreta con la bilis. Las bacterias intestinales la transforman en estercobilinógeno (heces) y urobilinógeno (orina). Neurotóxica: cuidado especial en neonatos (ictericia)</td></tr>
+<tr><td><b>AST (GOT) y ALT (GPT)</b></td><td>Integridad de las células hepáticas</td><td>Inespecíficas (no dicen la causa exacta), pero el cociente AST/ALT orienta el tipo de lesión (ver tabla siguiente)</td></tr>
+<tr><td><b>Fosfatasa alcalina</b></td><td>Colestasis</td><td>Isoenzima presente en hueso, hígado, intestino, placenta y riñón. Elevada fisiológicamente en niños (crecimiento óseo). En adultos, su elevación sugiere obstrucción del tracto biliar (piedras, tumores, cirrosis) — pero <b>sola no confirma origen hepático</b></td></tr>
+<tr><td><b>γ-glutamiltransferasa (GGT)</b></td><td>Colestasis (indicador muy sensible)</td><td>Presente en todos los tejidos. Se eleva por colestasis, fármacos, alcohol o tumores (útil para seguimiento tumoral)</td></tr>
+<tr><td><b>Albúmina</b></td><td>Capacidad de síntesis</td><td>Proteína mayoritaria del hígado; vida media ~15-20 días. Su caída (hipoalbuminemia) ocurre sobre todo en hepatopatía crónica avanzada, y sólo raramente en lesión aguda</td></tr>
+</table>
+
+<div class="callout warn">Trampa clásica: si la <b>fosfatasa alcalina</b> aparece elevada en solitario, NO se puede confirmar alteración hepática — necesita ir acompañada de una elevación de la <b>GGT</b> para atribuirse al hígado (podría venir del hueso, especialmente en niños).</div>
+
+<table>
+<tr><th>Cociente AST/ALT</th><th>Interpretación</th></tr>
+<tr><td>&lt; 1</td><td>Enfermedad aguda (hepatitis)</td></tr>
+<tr><td>&gt; 1</td><td>Enfermedad crónica, necrosis masiva</td></tr>
+<tr><td>&gt; 2</td><td>80% de los casos por causa alcohólica (hepatitis alcohólica)</td></tr>
+</table>
+
+<table>
+<tr><th>Otro criterio diferenciador</th><th>Orienta a</th></tr>
+<tr><td>Albúmina muy disminuida</td><td>Hepatitis alcohólica</td></tr>
+<tr><td>Tiempo de protrombina prolongado</td><td>Hepatitis tóxica</td></tr>
+<tr><td>Cociente ALT/LDH &lt; 1,5</td><td>Hepatitis isquémica</td></tr>
+</table>
+
+<div class="callout warn">Memoriza bien el sentido del cociente AST/ALT — es de las preguntas más repetidas del bloque: menor que 1 = <b>agudo</b>; mayor que 1 = <b>crónico</b>; mayor que 2 = <b>alcohol</b>. Otras proteínas de apoyo al diagnóstico hepático específico: tiempo de protrombina, globulinas, ceruloplasmina (cobre), α-fetoproteína (tumoral), α1-antitripsina.</div>
+
+<h2>Enfermedades hepáticas</h2>
+<table>
+<tr><th></th><th>Aguda (&lt; 6 meses)</th><th>Crónica (&gt; 6 meses)</th></tr>
+<tr><td><b>Causas</b></td><td>Tóxicos (paracetamol, valproato, setas, halotano), infecciones (hepatitis A/B/C, CMV, Epstein-Barr, Coxsackie), perfusión inadecuada (hepatitis isquémica)</td><td>Alcohol, hepatitis vírica (VHB), enfermedades autoinmunes</td></tr>
+<tr><td><b>Evolución</b></td><td>Cura / cronifica / insuficiencia hepática aguda (urgencia médica)</td><td>Se mantiene o evoluciona a <b>cirrosis</b> (irreversible): retracción hepática, desestructuración y fibrosis</td></tr>
+<tr><td><b>Alteraciones</b></td><td>↓Na y Ca, alteración ácido-base, hipoglucemia, insuficiencia renal por tóxicos (↑NH4 al fallar el ciclo de la urea), hipoalbuminemia (edema/ascitis), ↓factores de coagulación</td><td>Sin marcador precoz; en fase tardía: ictericia, encefalopatía (por amonio), sangrado, ascitis, mala digestión de grasas, menor metabolización de fármacos y menor respuesta inmune</td></tr>
+</table>
+
+<div class="callout warn">Un hígado cirrótico es indicativo de una <b>enfermedad hepática crónica</b>, no de insuficiencia renal (aunque la insuficiencia hepática aguda sí puede secundariamente dañar el riñón por acumulación de tóxicos) — no mezcles ambos órganos en esta pregunta tipo test.</div>
+
+<h2>Función renal: función glomerular</h2>
+<p>El riñón regula el equilibrio hidroelectrolítico y ácido-base, excreta metabolitos por la orina y tiene función endocrina: sintetiza <b>eritropoyetina</b> (↑Hb), <b>calcitriol</b> (↑reabsorción de Ca intestinal) y <b>renina</b> (eje angiotensina); es diana de vasopresina, aldosterona y paratirina. La unidad funcional es la <b>nefrona</b> (glomérulo + cápsula de Bowman + túbulos).</p>
+<p>La sangre llega al glomérulo a alta presión (~140 ml/min) y se ultrafiltra (el ultrafiltrado tiene la composición del plasma pero sin proteínas). El parámetro clave es el <b>aclaramiento plasmático (Cl)</b>: volumen de plasma depurado de una sustancia por unidad de tiempo.</p>
+
+<div class="callout">Fórmula de aclaramiento: <b>Cl (ml/min) = ([marcador]orina / [marcador]plasma) × V orina (ml/min)</b>. El marcador ideal debe tener concentración plasmática constante, no metabolizarse, y filtrarse y excretarse libremente sin secreción/reabsorción/degradación. Se usa la <b>creatinina</b> (endógena, evita alergias) o marcadores exógenos (inulina, EDTA, cromo).</div>
+
+<table>
+<tr><th></th><th>Creatinina</th><th>Urea</th></tr>
+<tr><td><b>Origen</b></td><td>Degradación de la creatina muscular; liberación proporcional a la masa muscular</td><td>Degradación del metabolismo proteico</td></tr>
+<tr><td><b>Eliminación</b></td><td>Exclusivamente renal</td><td>Renal (también aumenta en orina si hay diuresis elevada)</td></tr>
+<tr><td><b>Intervalo de referencia del aclaramiento</b></td><td>80-120 ml/min</td><td>—</td></tr>
+<tr><td><b>Causas de elevación en sangre</b></td><td>Reducción del filtrado glomerular</td><td>Dieta rica en proteínas, estados catabólicos (fiebre, estrés), sangrado gastrointestinal, baja perfusión renal (deshidratación, hemorragia, insuficiencia cardiaca), obstrucción de vías urinarias</td></tr>
+<tr><td><b>Cuantificación</b></td><td>Reacción de Jaffé (picrato sódico en medio básico → complejo rojo-anaranjado, 520 nm); también HPLC</td><td>Método enzimático con ureasa (degrada a amonio, se cuantifica el color); electrodos selectivos de NH4+</td></tr>
+</table>
+
+<div class="callout warn">La <b>creatinina plasmática por sí sola es poco sensible</b>: puede no elevarse hasta que el filtrado glomerular ya ha caído a la mitad. Un valor de creatinina "normal" NO descarta alteración renal — por eso se valora junto con la urea. Cociente fisiológico [urea]/[creatinina] plasmáticas: 41-80 mmol urea / mmol creatinina; por encima sugiere causa prerrenal u obstrucción postrenal, por debajo sugiere acidosis tubular renal.</div>
+
+<h3>Proteinuria</h3>
+<table>
+<tr><th>Situación</th><th>Albúmina en orina (24h)</th></tr>
+<tr><td>Normal</td><td>&lt; 25 mg/24h</td></tr>
+<tr><td>Microalbuminuria</td><td>25-300 mg/24h</td></tr>
+<tr><td>Lesión de la membrana basal glomerular</td><td>&gt; 250 mg/24h</td></tr>
+</table>
+<p>Las proteínas totales en orina deben ser &lt; 30 mg/24h; por encima sugiere glomerulonefritis o síndrome nefrótico (con edema, hiperlipidemia, lipiduria). También puede ser fisiológica (ejercicio, estrés, fiebre, ortostatismo). Determinación: tiras reactivas (baja sensibilidad, alta especificidad — poco útiles en fases tempranas), nefelometría, electroforesis, inmunoensayos, proteinograma. Muy importante respetar el tiempo de recogida de la orina de 24h.</p>
+
+<h3>Ejemplo práctico resuelto: cálculo del aclaramiento de creatinina</h3>
+<table>
+<tr><th>Datos del enunciado</th><th>Ejemplo 2</th><th>Ejemplo 3</th></tr>
+<tr><td>Volumen de orina</td><td>2400 ml en 20h</td><td>2160 ml en 24h</td></tr>
+<tr><td>[Creatinina] orina</td><td>8 mmol/L</td><td>7,5 mmol/L</td></tr>
+<tr><td>[Creatinina] plasma</td><td>200 µmol/L = 0,2 mmol/L</td><td>150 µmol/L = 0,15 mmol/L</td></tr>
+<tr><td>Cálculo</td><td>Cl = (8 / 0,2) × (2400/1200) = 40 × 2</td><td>Cl = (7,5 / 0,15) × (2160/1440) = 50 × 1,5</td></tr>
+<tr><td><b>Resultado</b></td><td><b>80 ml/min</b> (dentro del IR 80-120)</td><td><b>75 ml/min</b> (algo bajo)</td></tr>
+</table>
+
+<div class="callout mnemo">Truco de conversión: pasa siempre las horas de recogida a minutos (×60) y homogeneiza las unidades de concentración (1 µmol = 10⁻³ mmol) antes de aplicar la fórmula. Si te cambian el tiempo de recogida real (p. ej. de 24h a 17h en el ejemplo 3 de los apuntes), el aclaramiento calculado varía — por eso es tan importante respetar y anotar bien el tiempo exacto de recogida de orina.</div>
+
+<h2>Función tubular</h2>
+<p>Se reabsorbe ~99% de los 180 L/día filtrados. Se valoran tres aspectos: regulación de líquidos corporales, equilibrio ácido-base e integridad del epitelio.</p>
+
+<table>
+<tr><th>Prueba</th><th>Procedimiento</th><th>Resultado fisiológico</th></tr>
+<tr><td>Osmolalidad orina/plasma basal</td><td>Comparar ambas osmolalidades (orina ≥700 mmol/kg; plasma 285-295 mmol/kg)</td><td>Cociente 1-3; si &lt;1, disfunción tubular</td></tr>
+<tr><td>Restricción hídrica</td><td>Sin líquidos 24h; medir osmolalidad de orina en las 12h siguientes</td><td>Cociente orina/plasma ≥ 2</td></tr>
+<tr><td>Capacidad de dilución</td><td>Ingesta de 1-1,2 L de agua; orina cada hora durante 4h</td><td>Osmolalidad de orina &lt; 100 mmol/kg</td></tr>
+<tr><td>Administración de vasopresina sintética</td><td>Medir osmolalidad de orina tras la administración</td><td>&gt; 700 mmol/kg; si no concentra → diabetes insípida</td></tr>
+<tr><td>Prueba de carga ácida</td><td>Cloruro de amonio oral; recoger orina 8h después</td><td>pH de orina &lt; 5,3; si no baja, hay acidosis tubular renal</td></tr>
+</table>
+
+<p>El riñón reabsorbe HCO3⁻ y excreta protones (como NH4+, sulfatos, fosfatos). En la <b>acidosis tubular renal</b> falla la secreción distal de H+ y la reabsorción proximal de HCO3⁻ (a veces por déficit de aldosterona). La integridad del epitelio tubular se valora con la proteinuria específica (↑α y β-microglobulina), glucosuria y aminoaciduria.</p>
+
+<div class="callout warn">Distinción clave que se pregunta con frecuencia: la <b>proteinuria glomerular</b> es <b>inespecífica / no selectiva</b> (se pierden proteínas de muy diverso tamaño porque la barrera está rota), mientras que la <b>proteinuria tubular</b> es <b>específica / selectiva</b> (sólo se pierden proteínas pequeñas que se filtran con normalidad pero que los túbulos ya no reabsorben). Es fácil que el enunciado las intercambie a propósito.</div>
+
+<div class="callout">Síndrome de Fanconi y litiasis renal son ejemplos de defectos tubulares específicos; los defectos tubulares generales incluyen acidosis tubular renal, aminoaciduria y proteinuria tubular, y pueden deberse a metales pesados, toxinas o enfermedades metabólicas como la cistinosis.</div>
+
+<h2>Enfermedades renales</h2>
+<table>
+<tr><th></th><th>Prerrenal</th><th>Renal (parenquimal)</th><th>Postrenal</th></tr>
+<tr><td><b>Causa</b></td><td>↓Perfusión: hemorragia, pérdidas GI/urinarias/cutáneas, ↓gasto cardiaco, obstrucción de arteria renal</td><td>Necrosis por isquemia/toxicidad, inflamación glomerular, lesión intersticial</td><td>Obstrucción: cálculo, carcinoma de cérvix/próstata/vejiga</td></tr>
+<tr><td><b>[Creatinina]orina/[Creatinina]plasma</b></td><td>↑↑</td><td>↓↓</td><td>—</td></tr>
+<tr><td><b>Na en orina</b></td><td>↓↓</td><td>↑↑</td><td>—</td></tr>
+<tr><td><b>Osmolalidad de orina</b></td><td>↑↑</td><td>↓↓</td><td>—</td></tr>
+<tr><td><b>Otros</b></td><td>↑K plasma, acidosis metabólica, oliguria</td><td>—</td><td>Puede evolucionar a necrosis tubular aguda</td></tr>
+</table>
+
+<p><b>Insuficiencia renal aguda (IRA):</b> caída brusca del filtrado en horas/días, con fallo hidroelectrolítico y ácido-base (acidosis metabólica, hiperpotasemia), ↑urea y ↑creatinina plasmáticas. Diuresis: oliguria (≤400 ml/día), anuria (~0 ml/día), o diuresis elevada (sugiere disfunción tubular predominante). Es una situación grave con riesgo vital; puede curar, cronificar o llevar a fallo renal. La hiperpotasemia marcada es indicación de inicio de diálisis.</p>
+
+<p><b>Insuficiencia renal crónica (IRC):</b> pérdida progresiva e irreversible de nefronas; asintomática hasta que sólo queda ~10% de función renal. Manifestaciones: fallo hidroelectrolítico (hiperpotasemia, acidosis metabólica), <b>anemia</b> (↓eritropoyetina), alteración del metabolismo del calcio/fósforo (↓calcitriol → ↓eliminación de fosfato), edemas por pérdida de proteínas, hipertensión. Tratamiento: control de agua/sodio, resinas de intercambio (hiperpotasemia), sales de aluminio/magnesio (hiperfosfatemia), vitamina D hidroxilada, restricción proteica, diálisis, trasplante.</p>
+
+<div class="callout warn">Trampa de examen bien documentada: <b>bajas concentraciones de hemoglobina en sangre son indicativas de insuficiencia renal CRÓNICA</b> (por el déficit de eritropoyetina), no de insuficiencia renal aguda (en la aguda lo característico es la subida rápida de urea y creatinina). Igualmente, la <b>hipoalbuminemia</b> orienta a insuficiencia <b>hepática</b> crónica, no renal — no mezcles qué magnitud informa de qué órgano.</div>
+
+<div class="footer-page">Bloque 6 — Función Hepática y Renal</div>
+
+<h1 class="tema"><span class="num">Bloque 7</span>Proteínas Plasmáticas</h1>
+
+<h2>Generalidades y clasificación</h2>
+<p>Existen más de 300 proteínas plasmáticas distintas. Se dividen en <b>específicas del plasma</b> (ejercen su función allí mismo) y <b>no específicas</b> (están de paso, para ser transportadas, o llegan por daño tisular).</p>
+
+<table>
+<tr><th>Función</th><th>Proteína(s) representativa(s)</th></tr>
+<tr><td>Presión osmótica</td><td>Todas, sobre todo la albúmina</td></tr>
+<tr><td>Transporte de sustancias insolubles en agua</td><td>Transferrina (Fe), apoproteínas (lípidos), prealbúmina y RBP (vitamina A)</td></tr>
+<tr><td>Equilibrio ácido-base</td><td>Todas las proteínas</td></tr>
+<tr><td>Reserva nitrogenada</td><td>Albúmina</td></tr>
+<tr><td>Defensa</td><td>Inmunoglobulinas, complemento, PCR</td></tr>
+<tr><td>Coagulación</td><td>Proteínas de la coagulación</td></tr>
+</table>
+
+<h2>Determinación de proteínas totales</h2>
+<p>La concentración de proteínas plasmáticas totales (57-80 g/L) varía por cambios en la síntesis, en la degradación o en el volumen de distribución (ej. compresor al extraer sangre, cambios posturales). En la práctica sólo refleja bien los cambios de las proteínas más abundantes (albúmina, inmunoglobulinas).</p>
+
+<table>
+<tr><th>Método</th><th>Fundamento</th></tr>
+<tr><td><b>Reacción de Biuret</b></td><td>El Cu2+ (en medio básico) forma un complejo violeta con los oxígenos del carbonilo y el nitrógeno del enlace peptídico</td></tr>
+<tr><td><b>Reacción de Bradford</b></td><td>Azul de Coomassie</td></tr>
+<tr><td><b>Método de Lowry</b></td><td>Reducción del ácido fosfotúngstico por triptófano y tirosina</td></tr>
+</table>
+
+<div class="callout warn">Biuret, Bradford y Lowry son métodos para <b>proteínas TOTALES</b>. Los métodos <b>inmunoquímicos</b> (nefelometría, turbidimetría, inmunodifusión radial) y los de inmunoanálisis con reactivo marcado (RIA, EIA, fluoroinmunoanálisis, luminoinmunoanálisis) son para <b>proteínas ESPECÍFICAS</b>. Este emparejamiento se pregunta constantemente y en sentido invertido como distractor ("Biuret se usa para cuantificar proteínas específicas" = falso).</div>
+
+<h2>Proteinograma (electroforesis de proteínas plasmáticas)</h2>
+<p>Separación en acetato de celulosa en fracciones ordenadas por movilidad: prealbúmina, <b>albúmina</b> (el pico mayor), <b>α1</b>, <b>α2</b>, <b>β</b> y <b>γ</b>-globulinas.</p>
+
+<table>
+<tr><th>Fracción</th><th>Proteínas principales</th></tr>
+<tr><td>Prealbúmina</td><td>Prealbúmina (transporte de tiroxina y vitamina A)</td></tr>
+<tr><td>Albúmina</td><td>Albúmina</td></tr>
+<tr><td><b>α1</b></td><td>α1-glucoproteína ácida; <b>α1-antitripsina</b></td></tr>
+<tr><td><b>α2</b></td><td><b>α2-macroglobulina; ceruloplasmina; haptoglobina</b></td></tr>
+<tr><td><b>β</b></td><td><b>Transferrina</b>; complemento C3</td></tr>
+<tr><td><b>γ</b></td><td>IgG, IgA, IgM</td></tr>
+</table>
+
+<div class="callout warn">Pregunta de examen muy repetida: "¿en qué región del proteinograma aparece la ceruloplasmina?" → <b>α2</b> (junto con haptoglobina y α2-macroglobulina), NO en β (ahí va la transferrina) ni en γ (ahí van las inmunoglobulinas). Memoriza el bloque α2 completo porque es el más preguntado y el más confundido con β.</div>
+
+<div class="callout">Una banda discreta y estrecha en la fracción <b>γ</b> corresponde a un componente <b>monoclonal</b> (paraproteína) — puede ser signo de malignidad (p. ej. mieloma múltiple). Una banda débil puede corresponder a prealbúmina.</div>
+
+<h2>Albúmina</h2>
+<p>Proteína más abundante del plasma (35-52 g/L), de síntesis hepática, vida media ~15-20 días, catabolizada en múltiples tejidos. Funciones: presión oncótica, almacén de aminoácidos, transporte de ácidos grasos, bilirrubina, hormonas y cationes (Ca, Cu...).</p>
+
+<table>
+<tr><th>Alteración</th><th>Causa</th></tr>
+<tr><td>Hiperalbuminemia</td><td>Artefacto (estasis venosa, infusión parenteral) o real (deshidratación)</td></tr>
+<tr><td>Analbuminemia</td><td>Enfermedad hereditaria rara; &lt;250 mg/L; edema leve</td></tr>
+<tr><td>Bisalbuminemia</td><td>Variante con distinta movilidad electroforética (2 bandas); sin repercusión clínica</td></tr>
+</table>
+
+<div class="callout">La albúmina es útil como marcador nutricional a largo plazo (semanas-meses) y como parámetro de función hepática: <b>disminuye en enfermedad hepática crónica</b> pero se mantiene <b>normal en la hepatitis aguda</b> — otra pareja de datos muy preguntada.</div>
+
+<h2>Proteínas de fase aguda y PCR</h2>
+<div class="callout warn">Las proteínas de fase aguda se incluyen en las fracciones <b>α1 y α2</b> del proteinograma — NO "todas las de la fracción β" ni "todas las de la fracción γ" (distractores habituales). Ejemplos: ceruloplasmina (α2), haptoglobina (α2), α1-antitripsina (α1), PCR.</div>
+
+<p>La <b>proteína C reactiva (PCR)</b> es el arquetipo de proteína de fase aguda humana: no glucosilada, de síntesis hepática en respuesta a citocinas de monocitos/macrófagos, se une al polisacárido C de neumococos. Se eleva 100-1000 veces en 24-48h tras el daño tisular, se dobla cada 8h y alcanza el máximo a las 50h. Poco específica, pero muy útil para seguimiento de la actividad inflamatoria.</p>
+
+<table>
+<tr><th>Aplicaciones clínicas de la PCR</th></tr>
+<tr><td>Detectar infecciones/rechazo en trasplantados e inmunosuprimidos</td></tr>
+<tr><td>Seguimiento postoperatorio</td></tr>
+<tr><td>Enfermedades intestinales inflamatorias y del tejido conjuntivo</td></tr>
+<tr><td>Complicaciones del embarazo (rotura precoz de membranas)</td></tr>
+<tr><td>Diferenciar meningitis vírica de bacteriana</td></tr>
+<tr><td>Diferenciar el origen bacteriano de infecciones neonatales</td></tr>
+</table>
+
+<h2>Enzimología clínica (enzimas plasmáticas de interés diagnóstico)</h2>
+<table>
+<tr><th>Enzima</th><th>Origen principal</th><th>Utilidad clínica</th></tr>
+<tr><td>γ-glutamiltransferasa</td><td>Hígado, riñón</td><td>Enfermedad hepática (hepatobiliar, alcoholismo)</td></tr>
+<tr><td>Lactato deshidrogenasa (LDH)</td><td>Corazón, hígado, músculo esquelético, eritrocitos, plaquetas, ganglios</td><td>Infarto de miocardio, hemólisis, enfermedades hepáticas</td></tr>
+<tr><td>5´-nucleotidasa</td><td>Hígado</td><td>Enfermedad hepatobiliar</td></tr>
+<tr><td>Lipasa (y amilasa)</td><td>Páncreas</td><td>Enfermedad pancreática (pancreatitis)</td></tr>
+</table>
+
+<div class="footer-page">Bloque 7 — Proteínas Plasmáticas</div>
+
+<h1 class="tema"><span class="num">Bloque 8</span>Hematología y Hemostasia</h1>
+
+<h2>Introducción y composición de la sangre</h2>
+<p>La hematología estudia los elementos formes de la sangre y sus precursores, así como sus trastornos estructurales y bioquímicos. Los órganos hemolinfoproductores son el bazo, la médula ósea, los ganglios linfáticos y el timo.</p>
+<p>Un adulto tiene 5-6 litros de sangre: aproximadamente la mitad del volumen son células (eritrocitos, leucocitos, plaquetas) y la otra mitad es la fase líquida (plasma), compuesta por agua (90%) y solutos (proteínas ~70%, iones inorgánicos ~10%, metabolitos y productos de desecho ~20%, además de hormonas, vitaminas y elementos traza en concentraciones muy bajas).</p>
+
+<h2>Células sanguíneas</h2>
+<table>
+<tr><th>Tipo celular</th><th>Tamaño / vida media</th><th>Función</th></tr>
+<tr><td><b>Eritrocitos</b> (hematíes)</td><td>Disco bicóncavo, 6-8 µm, deformable; ~120 días</td><td>Transporte de O2/CO2. Normocíticos (tamaño normal) y normocrómicos (tinción proporcional a su Hb)</td></tr>
+<tr><td><b>Plaquetas</b></td><td>1-4 µm; ~7 días</td><td>Fragmentos del citoplasma de megacariocitos. Primeras en acudir a la lesión vascular: tapón plaquetario primario mientras se activa la coagulación</td></tr>
+<tr><td><b>Neutrófilos</b> (granulocito)</td><td>11-13 µm; horas-pocos días</td><td>Los más abundantes; fagocitan hongos y bacterias; ↑ en infección bacteriana y leucemia mieloide crónica</td></tr>
+<tr><td><b>Basófilos</b> (granulocito)</td><td>Los menos abundantes</td><td>Reacción anafiláctica, alergia, inflamación</td></tr>
+<tr><td><b>Eosinófilos</b> (granulocito)</td><td>Menos frecuentes que neutrófilos</td><td>Alergias, anafilaxis; ↑ en parasitosis</td></tr>
+<tr><td><b>Linfocitos</b> (mononuclear)</td><td>Los de mayor tamaño</td><td>Inmunidad específica/adquirida; línea <b>linfoide</b></td></tr>
+<tr><td><b>Monocitos</b> (mononuclear)</td><td>14-16 µm; algunos días</td><td>Se diferencian a macrófagos en tejido; defienden de infecciones bacterianas/fúngicas; línea <b>mieloide</b></td></tr>
+</table>
+
+<div class="callout warn">Trampa muy repetida: los <b>linfocitos</b> son <b>mononucleares/agranulocitos</b> de la línea <b>linfoide</b> — NO son "leucocitos polimorfonucleares" (eso describe a neutrófilos/basófilos/eosinófilos, línea mieloide). Y las plaquetas <b>no</b> proceden de la fragmentación de eritrocitos, sino del citoplasma de los <b>megacariocitos</b>. Un mayor número de plaquetas (trombocitosis) no aumenta el riesgo de sangrado — es la <b>disminución</b> (plaquetopenia/trombocitopenia) la que aumenta el riesgo de hematomas y sangrado excesivo.</div>
+
+<h2>Índices eritrocitarios del hemograma</h2>
+<table>
+<tr><th>Índice</th><th>Qué mide</th><th>Unidad</th></tr>
+<tr><td><b>VCM</b> (volumen corpuscular medio)</td><td>Volumen medio de cada hematíe</td><td>Femtolitros (fL)</td></tr>
+<tr><td><b>HCM</b> (hemoglobina corpuscular media)</td><td>Contenido medio de Hb en cada hematíe</td><td>Picogramos (pg)</td></tr>
+<tr><td><b>CHCM</b> (concentración de hemoglobina corpuscular media)</td><td>Cantidad de Hb (g) contenida en 1 dl de hematíes; se calcula a partir de la [Hb] y el hematocrito</td><td>g/dl</td></tr>
+</table>
+
+<div class="callout warn">VCM, HCM y CHCM se confunden constantemente en examen porque suenan casi igual: <b>VCM = volumen</b> (fL), <b>HCM = contenido</b> de Hb por hematíe (pg), <b>CHCM = concentración</b> de Hb por dl de hematíes (g/dl, calculada a partir de Hb y hematocrito). Lee la unidad de la respuesta para identificar cuál te están pidiendo.</div>
+
+<div class="callout">Los constituyentes mínimos de un hemograma son: concentración de hemoglobina, concentración/recuento de células sanguíneas, índices eritrocitarios y examen morfológico de las células al microscopio. <b>No incluye la concentración de albúmina</b> ni el tiempo de hemorragia (eso pertenece al estudio de la hemostasia, no al hemograma de rutina) — es una combinación falsa muy usada como distractor.</div>
+
+<h2>Hemostasia</h2>
+<p>Proceso que impide la salida de sangre al espacio extravascular. Componentes: sistema vascular, plaquetas y factores de coagulación. Se estudia en tres etapas.</p>
+
+<table>
+<tr><th>Etapa</th><th>Duración</th><th>Qué ocurre</th><th>Prueba de laboratorio</th></tr>
+<tr><td><b>1. Hemostasia primaria</b></td><td>3-5 min</td><td>Vasoconstricción + agregación plaquetaria (tapón plaquetario)</td><td><b>Tiempo de hemorragia/sangría (TS)</b>, normal ~3 min: valora la capacidad constrictora de los capilares y la capacidad adherente/agregante de las plaquetas</td></tr>
+<tr><td><b>2. Coagulación</b></td><td>5-10 min</td><td>Consolidación del tapón: fibrinógeno → fibrina</td><td>Ver tabla de vías más abajo</td></tr>
+<tr><td><b>3. Fibrinólisis</b></td><td>40-72 h</td><td>Disolución enzimática del coágulo (plasmina)</td><td>Productos de degradación de fibrina; complejos plasmina-antiplasmina</td></tr>
+</table>
+
+<table>
+<tr><th>Vía de la coagulación</th><th>Factores implicados</th><th>Prueba</th></tr>
+<tr><td><b>Intrínseca</b></td><td>XII → XIIa (con cininógeno de alto peso molecular y calicreína) → activa XI → XIa → IXa (con fosfolípido, Ca2+ y VIIIa) → activa X</td><td><b>TTPA</b> (tiempo de tromboplastina parcial activada): tiempo que tarda en coagular un plasma pobre en plaquetas tras recalcificarlo</td></tr>
+<tr><td><b>Extrínseca</b></td><td>Factor tisular + VIIa → activa X</td><td><b>Tiempo de protrombina / de Quick (TP)</b>: coagulación de un plasma pobre en plaquetas en presencia de Ca2+ y tromboplastina hística</td></tr>
+<tr><td><b>Común</b></td><td>X → Xa (con Ca2+) → protrombina → trombina (con fosfolípido/Va/Ca2+) → fibrinógeno → fibrina</td><td><b>Tiempo de trombina (TT)</b>: tiempo que tarda en coagular un PPP al añadir una pequeña cantidad de trombina</td></tr>
+</table>
+
+<div class="callout warn">El <b>tiempo de protrombina (TP/Quick)</b> estudia la vía <b>extrínseca de la coagulación</b>, NO la hemostasia primaria (afirmación falsa muy usada como distractor). Lo que sí estudia la hemostasia primaria es el <b>tiempo de hemorragia/sangría (TS)</b>. No confundas tampoco el TP (vía extrínseca) con el TT o tiempo de trombina (vía común).</div>
+
+<h2>Hematopoyesis</h2>
+<p>Serie de fenómenos encadenados que parte de la célula troncohematopoyética (CTH): autorrenovación, diferenciación y maduración hasta producir elementos formes funcionales. Como la mayoría de las células sanguíneas tienen vida corta, las CTH deben reponerlas continuamente.</p>
+
+<table>
+<tr><th>Órgano</th><th>Periodo de actividad hematopoyética</th></tr>
+<tr><td>Saco vitelino</td><td>Fase embrionaria más temprana (decreciente desde el inicio)</td></tr>
+<tr><td>Hígado</td><td>Desde el 1er mes intrauterino</td></tr>
+<tr><td>Bazo</td><td>Desde el 3er mes intrauterino</td></tr>
+<tr><td><b>Médula ósea</b></td><td>Se vuelve dominante hacia el 6º-7º mes intrauterino y es prácticamente exclusiva durante toda la vida postnatal</td></tr>
+</table>
+
+<div class="callout">Si hay un fallo medular, el hígado y el bazo pueden reasumir su papel hematopoyético fetal (hematopoyesis extramedular).</div>
+
+<p>En el adulto, la médula ósea hematopoyéticamente activa se localiza en cráneo, costillas, esternón, cresta ilíaca y cabeza de húmero y fémur. Su función es el anidamiento, crecimiento y diferenciación de las células sanguíneas, sobre un <b>microambiente hematopoyético</b> formado por:</p>
+
+<table>
+<tr><th>Componente celular</th><th>Componente extracelular</th></tr>
+<tr><td>Fibroblastos, osteoblastos/osteoclastos, adipocitos, células endoteliales, linfocitos, macrófagos/monocitos, células estromales</td><td>Colágeno, fibronectina, glucosaminoglucanos, laminina, adiponectina</td></tr>
+</table>
+
+<div class="footer-page">Bloque 8 — Hematología y Hemostasia</div>
+
+</body>
+</html>

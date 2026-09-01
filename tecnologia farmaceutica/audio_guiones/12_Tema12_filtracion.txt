@@ -1,0 +1,39 @@
+Cuando cuelas café con un filtro de papel, estás haciendo, a pequeña escala, exactamente lo mismo que hace una planta farmacéutica para separar un sólido de un líquido. El café molido se queda arriba, el líquido pasa. Esa operación tan sencilla tiene un vocabulario propio que se pregunta con nombre y apellido, y un par de trampas que vale la pena fijar bien, aunque este sea el bloque más corto de toda la asignatura. Vamos con ello.
+
+La filtración es el procedimiento para separar un sólido disperso de un fluido, ya sea líquido o gas, haciéndolo pasar a través de un medio filtrante. Hay tres palabras clave que hay que saber distinguir sin dudar, porque son las que más se preguntan de este bloque. El medio filtrante es la barrera física, por ejemplo un papel de filtro o una membrana, que deja pasar el fluido pero impide el paso de las partículas sólidas dispersas en él. La torta es el sólido que queda retenido y se va acumulando encima del medio filtrante a medida que avanza el proceso, como el poso de café que se queda en el filtro. Y el filtrado, que también se llama efluente, es el fluido que ya ha atravesado el medio filtrante, limpio de sólidos: en el ejemplo del café, sería el café líquido que cae a la taza.
+
+Repitamos estos tres términos con otras palabras, porque se confunden fácilmente en un examen tipo test. Si te preguntan por la barrera en sí, la respuesta es medio filtrante. Si te preguntan por lo que se queda pegado encima de esa barrera, la respuesta es torta. Y si te preguntan por lo que sale limpio por el otro lado, la respuesta es filtrado o efluente, que son dos nombres para lo mismo.
+
+En cuanto a los tipos de filtración, se clasifican según los estados que se combinan en la mezcla. Existe la filtración entre sólido y líquido, que es la más habitual, por ejemplo separar un precipitado de una disolución. Existe la filtración entre sólido y gas, como los filtros de aire que retienen partículas sólidas en suspensión en el aire que respiramos. Y existe la filtración entre líquido y líquido, que se usa para separar líquidos inmiscibles, es decir, que no se mezclan entre sí, con ayuda de medios filtrantes específicos. Lo que no existe como tipo de filtración real es la filtración entre gas y gas. Esta es la trampa de examen más repetida del bloque: dos gases se mezclan de forma completamente homogénea entre sí, y no hay ninguna barrera física porosa capaz de retener un gas disperso en otro gas del mismo modo en que se retiene un sólido en un fluido. Si en una lista de opciones ves gas y gas como supuesto tipo de filtración, es la respuesta incorrecta casi con toda seguridad.
+
+Dos operaciones más, relacionadas pero distintas de la filtración, que conviene tener localizadas. La extracción es el procedimiento mediante el cual se consigue aislar un componente, o un grupo de componentes, que se encuentra dentro de una mezcla compleja. Un ejemplo típico es aislar el principio activo de una droga vegetal, es decir, de una planta medicinal. No confundas extracción con filtración: la filtración separa un sólido de un fluido usando una barrera física, mientras que la extracción aísla un componente concreto de dentro de una mezcla, normalmente con ayuda de un disolvente.
+
+Y por último, los objetivos de la granulación, que es el proceso de agrupar partículas finas en gránulos más grandes. Tiene cuatro objetivos que conviene saber enumerar. El primero es disminuir la generación de polvo ambiental durante la fabricación o la manipulación del producto, algo importante tanto por seguridad como por higiene industrial. El segundo es prevenir los procesos de desmezclado, es decir, la segregación: al agrupar las partículas en gránulos, es más difícil que los componentes se vuelvan a separar entre sí. El tercero es mejorar las propiedades reológicas, o sea de flujo, de la mezcla pulverulenta, facilitando el llenado de máquinas de comprimir, encapsuladoras y equipos similares. Y el cuarto es modificar la densidad del producto, para mejorar su manejabilidad.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿cómo se llama la barrera que deja pasar el fluido pero retiene el sólido, y cómo se llama el sólido que queda retenido encima de esa barrera?
+
+[PAUSA 3s]
+
+Respuesta: la barrera es el medio filtrante, y el sólido retenido encima es la torta. No los confundas: el medio filtrante es el material del filtro en sí, la torta es lo que se va acumulando sobre él.
+
+Pregunta: ¿existe la filtración entre gas y gas como tipo de filtración reconocido?
+
+[PAUSA 3s]
+
+Respuesta: no. Es la trampa de examen más repetida de este bloque. Los tipos reales son sólido y líquido, sólido y gas, y líquido y líquido para líquidos inmiscibles, pero dos gases se mezclan de forma homogénea entre sí y no se pueden separar con una barrera filtrante convencional.
+
+Pregunta: ¿en qué se diferencian la filtración y la extracción?
+
+[PAUSA 3s]
+
+Respuesta: la filtración separa un sólido disperso de un fluido usando una barrera física, el medio filtrante. La extracción aísla un componente o grupo de componentes de dentro de una mezcla compleja, por ejemplo el principio activo de una planta medicinal. Si dudaste porque las dos operaciones separan algo de una mezcla, la diferencia está en el mecanismo: una usa una barrera física, la otra normalmente usa un disolvente.
+
+Pregunta: nombra los cuatro objetivos de la granulación.
+
+[PAUSA 3s]
+
+Respuesta: disminuir el polvo ambiental durante la fabricación, prevenir la segregación o desmezclado, mejorar el flujo de la mezcla para facilitar el llenado de máquinas de comprimir y encapsuladoras, y modificar la densidad del producto para mejorar su manejabilidad.
+
+Y las tres ideas fuerza de este bloque tan breve. Primero, hay que distinguir bien los tres términos de vocabulario: medio filtrante es la barrera, torta es el sólido retenido, y filtrado o efluente es el fluido ya limpio. Segundo, los tipos de filtración reconocidos combinan sólido y líquido, sólido y gas, o líquido y líquido, pero la filtración entre gas y gas no existe, y esa es la trampa que más se repite. Tercero, la granulación persigue cuatro objetivos muy concretos: menos polvo ambiental, menos segregación, mejor flujo para las máquinas de comprimir, y una densidad más manejable.

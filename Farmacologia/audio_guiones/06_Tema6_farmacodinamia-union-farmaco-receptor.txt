@@ -1,0 +1,85 @@
+Ya sabes que un fármaco necesita una diana para actuar. Pero engancharse a esa diana no es cuestión de todo o nada, hay grados. Dos fármacos pueden unirse exactamente al mismo receptor y comportarse de forma completamente distinta: uno activa el receptor a tope, otro solo un poco, y un tercero se une y no activa nada. La diferencia la marca un único parámetro, la actividad intrínseca, representada con la letra griega alfa. De esta pista te llevas cuatro cosas: qué es afinidad, qué es eficacia, cómo se leen las curvas dosis respuesta con solo mirar su forma, y cómo se clasifican agonistas y antagonistas según ese valor de alfa. La primera pieza es la afinidad.
+
+La afinidad es la fuerza de atracción química entre el fármaco y su receptor: cuanta más afinidad tiene un fármaco, con menos cantidad necesita para engancharse a su receptor. En la gráfica se ve en la lateralidad de la curva, cuanto más hacia la izquierda, más afinidad, porque hace falta menos concentración para el mismo efecto. Y un matiz que le encanta al examen: la constante que mide esto, la Ka, es inversamente proporcional a la afinidad, una Ka baja significa mucha afinidad y una Ka alta significa poca. Suena contraintuitivo, así que repítelo: a menor Ka, mayor afinidad.
+
+La eficacia, que también se llama efecto o actividad intrínseca, es otra cosa completamente distinta de la afinidad: no mide cuánto se engancha el fármaco, mide cuánta respuesta biológica genera una vez enganchado. En la gráfica se lee en la altura de la curva: cuanto más alta, más eficaz, más efecto máximo puede producir.
+
+Se nombra también un cuarto concepto junto a estos dos, la potencia: la cantidad de fármaco que hace falta para un efecto determinado, cuanto menos necesitas, más potente es. Está ligada a esa misma posición izquierda de la curva, pero no la confundas con la eficacia: un fármaco puede ser muy potente y aun así tener un efecto máximo modesto. Son preguntas distintas, cuánta dosis hace falta, y hasta dónde llega el efecto.
+
+Y luego está la pendiente de la curva, que aquí no mide ni afinidad ni eficacia, mide toxicidad y seguridad. Cuanto más empinada la pendiente de la curva de efecto frente al logaritmo de la concentración, más tóxico y menos seguro es el fármaco, porque pasar de un efecto pequeño a uno muy grande, incluso tóxico, exige subir muy poco la dosis. Una pendiente suave da más margen antes de llegar a niveles peligrosos.
+
+Resume estos tres en una frase que te puedes repetir como un mantra antes del examen: lateralidad es afinidad, altura es eficacia, pendiente es toxicidad y seguridad.
+
+Ahora la actividad intrínseca, la pieza que te permite clasificar cualquier fármaco que se una a un receptor. Se representa con la letra griega alfa, y puede tomar valores entre cero y uno.
+
+Cuando alfa vale cero, el fármaco es un antagonista. Ojo con esto, porque es la trampa más repetida del tema: un antagonista sí tiene afinidad, se engancha perfectamente al receptor, incluso puede tener muchísima afinidad. Lo que no tiene es actividad intrínseca, es decir, se engancha pero no genera ningún efecto propio. Solo ocupa el sitio.
+
+Cuando alfa vale uno, el fármaco es un agonista puro, o agonista total: tiene afinidad y además tiene la eficacia máxima posible sobre ese receptor.
+
+Y entre medias, cuando alfa vale más de cero pero menos de uno, el fármaco es un agonista parcial: tiene afinidad y genera efecto propio, pero ese efecto nunca llega al máximo, por mucho que ocupe absolutamente todos los receptores disponibles. Un agonista parcial que ocupa el cien por cien de los receptores sigue sin producir el efecto máximo, porque su techo de eficacia está limitado por su propio valor de alfa, no por cuántos receptores ocupe.
+
+Así que los tres se diferencian solo por ese número: alfa cero es el antagonista puro, sin efecto propio; alfa entre cero y uno es el agonista parcial, con efecto limitado aunque ocupe todos los receptores; y alfa uno es el agonista puro, con el efecto máximo posible. Y recuerda la base común: los tres tienen afinidad, eso no los diferencia. Lo único que cambia es cuánta actividad intrínseca tienen.
+
+Cambiamos de tercio: los tipos de antagonismo farmacológico son cinco, y también se confunden mucho entre ellos.
+
+El primero es el antagonismo fisiológico: dos fármacos con efectos opuestos que actúan sobre dianas completamente distintas, sin compartir receptor, y que se anulan entre sí. El ejemplo típico es un vasodilatador frente a un vasoconstrictor.
+
+El segundo es el antagonismo químico: dos sustancias reaccionan directamente entre sí en la propia disolución, antes de llegar a ningún receptor, y como resultado de esa reacción química, las dos pierden su efecto.
+
+El tercero es el antagonismo farmacocinético: un fármaco no toca el receptor del otro, sino que altera su farmacocinética, por ejemplo cambiando el pH de la zona de absorción, y así reduce la cantidad que llega a hacer efecto.
+
+Los dos últimos son los que más se preguntan, porque comparten receptor y solo se diferencian en un matiz. En el antagonismo competitivo reversible, agonista y antagonista compiten por el mismo receptor con una unión que se puede romper: si subes mucho la concentración del agonista, este termina desplazando al antagonista, porque hay más moléculas compitiendo por el mismo sitio, y la unión de ambos es reversible.
+
+El antagonismo competitivo irreversible, o no equilibrado, empieza igual, compitiendo por el mismo receptor, pero el antagonista se queda unido de forma permanente. Y aquí está la diferencia clave: por mucha concentración de agonista que añadas, no lo desplazas, porque su unión ya no depende de una competencia dinámica, es prácticamente fija.
+
+Así que para decidir entre estos dos en un examen, la pregunta es siempre la misma: si subo la concentración del agonista, se desplaza el antagonista o no. Si se desplaza, es competitivo reversible; si no se desplaza pase lo que pase, es competitivo irreversible.
+
+Antes de pasar a la parte de repaso, un concepto rápido pero que también entra: la desensibilización, que es exactamente lo mismo que la taquifilaxia, son sinónimos totalmente intercambiables. Los dos nombres describen lo mismo: el efecto de un fármaco se va reduciendo poco a poco según lo sigues administrando de forma continuada o repetida, aunque no cambies la dosis.
+
+Las causas son variadas: puede ser que el propio receptor se altere o se pierda con el uso repetido, que se agoten los mediadores necesarios para producir el efecto, que aumente la degradación metabólica del fármaco, que el organismo se adapte fisiológicamente al estímulo continuo, o que la célula empiece a expulsar activamente el fármaco hacia fuera. Sea cual sea la causa concreta, el resultado observable es siempre el mismo: cada vez hace falta más fármaco, o el mismo fármaco hace cada vez menos efecto. Y si en el examen ves desensibilización y taquifilaxia como si fueran dos conceptos distintos, ya sabes que es una trampa, porque son la misma cosa dicha con dos nombres distintos.
+
+Antes de las preguntas, recuerda la idea que más se le escapa a la gente: la unión fármaco receptor es, casi siempre, un enlace iónico y reversible, que sigue la ley de acción de masas, cuanta más concentración, más receptores ocupados. Esto aplica igual a agonistas puros, parciales y antagonistas: los tres tienen afinidad. Lo único que cambia entre ellos es su actividad intrínseca, la alfa, no la afinidad.
+
+Vamos con la recuperación activa. Cuatro preguntas, tómate un segundo real en cada pausa.
+
+Pregunta: tienes un agonista y un antagonista compitiendo por el mismo receptor, con una unión reversible en los dos casos. Si aumentas mucho la concentración del agonista, qué pasa con el efecto.
+
+[PAUSA 3s]
+
+Respuesta: el efecto del agonista termina imponiéndose, porque al haber muchas más moléculas de agonista, este desplaza al antagonista del receptor. Es la definición exacta de antagonismo competitivo reversible: la ley de acción de masas decide quién gana, y depende de las concentraciones relativas.
+
+Si has contestado que el antagonista se queda fijo pase lo que pase, te has ido al antagonismo competitivo irreversible, donde sí queda unido de forma permanente y no se desplaza aunque subas mucho el agonista. La clave para no confundirlos: se puede desplazar con más agonista, o no.
+
+Pregunta: te dicen que un fármaco con actividad intrínseca de valor cero con cinco es un antagonista, porque no llega al máximo efecto. Es correcta esta afirmación.
+
+[PAUSA 3s]
+
+Respuesta: no, es incorrecta. Un valor de alfa de cero con cinco, que está entre cero y uno, corresponde a un agonista parcial, no a un antagonista. El antagonista puro es exclusivamente el que tiene alfa igual a cero, sin ningún efecto propio.
+
+La confusión viene de pensar que no llegar al máximo es lo mismo que no tener efecto. No es lo mismo: el agonista parcial sí genera efecto, solo que limitado. El antagonista, en cambio, no genera absolutamente ningún efecto propio, por mucha afinidad que tenga por el receptor.
+
+Pregunta: dos fármacos actúan sobre el mismo receptor. La curva del primero está más a la izquierda que la del segundo, pero las dos alcanzan la misma altura máxima. Qué diferencia real hay entre ellos.
+
+[PAUSA 3s]
+
+Respuesta: tienen la misma eficacia, porque llegan a la misma altura máxima, pero el primero tiene más afinidad, porque su curva está más desplazada hacia la izquierda, así que necesita menos concentración para conseguir el mismo efecto.
+
+Si has contestado que el primero es mejor fármaco en general, cuidado: más afinidad no significa más efecto máximo, solo significa que hace falta menos dosis para llegar a ese mismo efecto. Son dos preguntas distintas, cuánta dosis necesitas y hasta dónde puedes llegar, y aquí solo cambia la primera.
+
+Pregunta: un fármaco cambia el pH del estómago y hace que otro fármaco administrado junto con él se absorba mucho peor. Qué tipo de antagonismo es este.
+
+[PAUSA 3s]
+
+Respuesta: antagonismo farmacocinético. No hay ningún receptor compartido ni ninguna reacción química directa entre los dos fármacos, lo que pasa es que uno altera el proceso de absorción del otro.
+
+Si has pensado en antagonismo químico, la diferencia está en dónde ocurre la interferencia: el químico es una reacción directa entre las dos sustancias en la disolución, antes de que ninguna llegue a absorberse. El farmacocinético, en cambio, actúa sobre el proceso de manejo del fármaco por el cuerpo, en este caso la absorción, no sobre la sustancia en sí.
+
+Y con esto cerramos la pista. Que se te queden tres ideas.
+
+Primero, la afinidad se lee en la lateralidad de la curva y con la Ka al revés, cuanta menos Ka, más afinidad; la eficacia se lee en la altura; y la pendiente no mide ni una cosa ni la otra, mide toxicidad y seguridad.
+
+Segundo, agonistas y antagonistas se distinguen solo por la actividad intrínseca, la alfa: cero es antagonista puro, entre cero y uno es agonista parcial, y uno es agonista puro, y los tres comparten la misma afinidad por el receptor.
+
+Tercero, de los cinco tipos de antagonismo, el que más se pregunta es la pareja competitivo reversible frente a competitivo irreversible, y la clave para distinguirlos es siempre la misma: si subes la concentración del agonista, el reversible se desplaza, y el irreversible no.
+
+Con esto ya tienes cerrada la unión fármaco receptor. En la siguiente pista dejamos estos conceptos generales y entramos en el sistema nervioso autónomo, que es donde se aplican de verdad, con agonistas y antagonistas muy concretos sobre receptores muscarínicos y adrenérgicos.

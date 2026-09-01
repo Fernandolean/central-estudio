@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Chuleta de Mnemotecnias — Bioquímica Clínica y Hematología</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #232733;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    background: #fff;
+  }
+  .cover {
+    height: 273mm;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; page-break-after: always;
+    background: radial-gradient(circle at 30% 20%, #ffe27a 0%, transparent 45%),
+                radial-gradient(circle at 80% 70%, #7ae0ff 0%, transparent 45%),
+                linear-gradient(135deg,#1c2733,#0a5e66);
+    color: #fff; border-radius: 18px;
+  }
+  .cover .emoji-row { font-size: 34pt; margin-bottom: 10px; letter-spacing: 6px; }
+  .cover h1 { font-size: 28pt; margin: 0 0 6px; }
+  .cover h2 { font-size: 13pt; font-weight: 400; opacity: .9; max-width: 420px; margin: 0 0 30px; }
+  .cover .hint { max-width: 420px; font-size: 9.5pt; opacity: .85; background: rgba(255,255,255,.12); border-radius: 10px; padding: 12px 18px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .card {
+    border-radius: 14px; padding: 5mm; page-break-inside: avoid;
+    border: 2px solid var(--c); background: var(--bg);
+  }
+  .card .icon { font-size: 20pt; }
+  .card h3 { margin: 2mm 0 1mm; font-size: 11.5pt; color: var(--c); }
+  .card .tagline { font-size: 8.3pt; font-style: italic; color: #55606b; margin-bottom: 2mm; }
+  .card .story {
+    background: #fff; border-radius: 8px; padding: 2.5mm 3mm; font-size: 8.8pt;
+    margin-bottom: 2mm; border-left: 3px solid var(--c);
+  }
+  .card .takeaway {
+    font-size: 8.6pt; background: var(--c); color: #fff; border-radius: 8px; padding: 2.5mm 3mm;
+    font-weight: 700;
+  }
+  .acronym { display: flex; flex-direction: column; gap: 1mm; margin-bottom: 2mm; }
+  .acronym div { display: flex; gap: 2mm; font-size: 8.6pt; align-items: baseline; }
+  .acronym b { color: var(--c); font-size: 11pt; width: 14px; flex: 0 0 auto; }
+  .section-title { font-size: 13pt; color: #0a5e66; margin: 6mm 0 3mm; font-weight: 800; }
+  .section-title:first-of-type { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="emoji-row">🧠🩸🔬</div>
+  <h1>Chuleta de Mnemotecnias</h1>
+  <h2>Los trucos absurdos que se quedan grabados cuando el dato "lógico" se olvida — Bioquímica Clínica y Hematología</h2>
+  <div class="hint">Úsala junto al simulador y la guía de estudio: cuando falles una pregunta, busca aquí el truco de la combinación que le corresponde. Lo raro se recuerda mejor que lo razonable.</div>
+</div>
+
+<div class="section-title">Metabolismo de los Hidratos de Carbono</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🐑</span>
+    <h3>La oveja negra de las glucogenosis</h3>
+    <div class="tagline">La única regla que se rompe y que más cae en examen</div>
+    <div class="story">Todas las glucogenosis significan "demasiado glucógeno acumulado"... excepto UNA. La tipo IX es la oveja negra: le falta la glucógeno-<b>SINTASA</b>, así que no puede fabricar glucógeno, y por eso es la única con un <b>déficit</b> de glucógeno en vez de un acúmulo.</div>
+    <div class="takeaway">Tipo IX = única glucogenosis con DÉFICIT de glucógeno (falta glucógeno sintasa). El resto siempre acumula.</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🍷</span>
+    <h3>El borracho que perdió la B1</h3>
+    <div class="tagline">Wernicke-Korsakoff: qué vitamina falla y en qué ruta</div>
+    <div class="story">Wernicke-Korsakoff es el síndrome clásico del alcohólico crónico: bebe tanto que deja de comer bien y se queda sin <b>tiamina</b> (vitamina B1). Sin tiamina, las transcetolasas de la ruta de las <b>pentosas fosfato</b> dejan de funcionar.</div>
+    <div class="takeaway">Wernicke-Korsakoff = déficit crónico de TIAMINA (B1) → falla la ruta de las pentosas fosfato.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">👁️</span>
+    <h3>"-itol" se queda, "-onato" se va</h3>
+    <div class="tagline">Qué metabolito exacto forma las cataratas en la galactosemia</div>
+    <div class="story">En la galactosemia, la galactosa que no se puede procesar se reduce a <b>galactitol</b>, que se queda atrapado en el cristalino y forma las cataratas. No es "galactonato" ni "glucitol" — son los distractores típicos de examen.</div>
+    <div class="takeaway">Cataratas en galactosemia = acúmulo de GALACTITOL en el cristalino (no galactonato, no glucitol).</div>
+  </div>
+
+</div>
+
+<div class="section-title">Metabolismo de los Lípidos</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🦸</span>
+    <h3>A, D, E, K: visión, hueso, escudo y coágulo</h3>
+    <div class="tagline">Qué función pierdes con cada déficit de vitamina liposoluble</div>
+    <div class="acronym">
+      <div><b>A</b> Visión — su déficit afecta a la fisiología de la visión.</div>
+      <div><b>D</b> Hueso — metabolismo del calcio; su falta da raquitismo/osteomalacia.</div>
+      <div><b>E</b> Escudo — antioxidante potente frente a radicales libres.</div>
+      <div><b>K</b> Koagulación — necesaria para sintetizar factores de coagulación.</div>
+    </div>
+    <div class="takeaway">A=visión · D=hueso/calcio · E=antioxidante · K=coagulación.</div>
+  </div>
+
+  <div class="card" style="--c:#5b6b78; --bg:#eef2f5;">
+    <span class="icon">🥛</span>
+    <h3>La nata del desayuno</h3>
+    <div class="tagline">Qué aspecto tiene el suero en la hiperlipoproteinemia tipo I</div>
+    <div class="story">Deja un tubo de suero en la nevera toda la noche. Si por la mañana tiene una capa superficial <b>cremosa</b> como la nata de la leche, es porque sobran quilomicrones (hiperTG masiva) — es la hiperlipoproteinemia tipo I, la hiperquilomicronemia familiar.</div>
+    <div class="takeaway">Capa superficial cremosa en el suero = exceso de quilomicrones = hiperlipoproteinemia tipo I.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Metabolismo de los Compuestos Nitrogenados</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🔤</span>
+    <h3>"Como Ornitina Ayuda A Arginina"</h3>
+    <div class="tagline">Las 5 enzimas del ciclo de la urea, en orden</div>
+    <div class="acronym">
+      <div><b>C</b> Carbamoil-fosfato sintetasa I</div>
+      <div><b>O</b> Ornitina transcarbamoilasa</div>
+      <div><b>A</b> Argininosuccinato sintetasa</div>
+      <div><b>A</b> Argininosuccinato liasa</div>
+      <div><b>A</b> Arginasa (produce urea + ornitina)</div>
+    </div>
+    <div class="takeaway">La frase entera resume el ciclo: "cómo la ornitina ayuda a [fabricar] arginina".</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🧭</span>
+    <h3>Todos los caminos de las purinas llevan al URATO</h3>
+    <div class="tagline">Producto final común de purinas vs. pirimidinas</div>
+    <div class="story">Da igual qué purina degrades (adenina o guanina): siempre terminas en <b>ácido úrico</b>. Las pirimidinas son lo contrario: no tienen un final común en la degradación, pero sí un punto de partida común en la síntesis, el <b>orotato</b> — por eso la enfermedad más importante de pirimidinas se llama aciduria <b>orótica</b>.</div>
+    <div class="takeaway">Purinas → siempre ÁCIDO ÚRICO (degradación). Pirimidinas → siempre OROTATO (síntesis).</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🏹</span>
+    <h3>Hunter caza su propio cromosoma</h3>
+    <div class="tagline">La mucopolisacaridosis que rompe la regla autosómica recesiva</div>
+    <div class="story">Casi todas las mucopolisacaridosis son autosómicas recesivas... excepto el síndrome de <b>Hunter</b> (tipo II), que va a la caza por su cuenta: se transmite <b>ligado al cromosoma X</b>.</div>
+    <div class="takeaway">Hunter (MPS tipo II) = la ÚNICA ligada al X. El resto, autosómica recesiva.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Función Hepática y Renal</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">⚖️</span>
+    <h3>Menos de 1 duele ahora, más de 1 duele desde hace tiempo</h3>
+    <div class="tagline">Cómo leer el cociente AST/ALT en una lesión hepática</div>
+    <div class="story">Imagina una balanza. Si pesa menos de 1 (AST/ALT&lt;1), el problema es <b>reciente</b> — hepatitis aguda. Si pesa más de 1 (AST/ALT&gt;1), es un daño <b>viejo y extendido</b> — necrosis/enfermedad crónica. Y si se dispara por encima de 2, el 80% de las veces el culpable es el <b>alcohol</b>.</div>
+    <div class="takeaway">AST/ALT &lt;1 = agudo · &gt;1 = crónico · &gt;2 = probable hepatitis alcohólica (80% de los casos).</div>
+  </div>
+
+  <div class="card" style="--c:#5b6b78; --bg:#eef2f5;">
+    <span class="icon">🟠</span>
+    <h3>El picrato pinta de naranja a la creatinina</h3>
+    <div class="tagline">Qué reacción se usa para cuantificar creatinina</div>
+    <div class="story">La reacción de <b>Jaffé</b> mezcla la creatinina con picrato sódico en medio básico y pinta el tubo de un rojo-anaranjado. Cuanta más creatinina, más intenso el color.</div>
+    <div class="takeaway">Reacción de Jaffé (picrato sódico, medio básico) = método clásico para cuantificar creatinina.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Proteínas Plasmáticas</div>
+<div class="grid">
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🚨</span>
+    <h3>Alfa-2, la de las urgencias</h3>
+    <div class="tagline">Qué fracción del proteinograma sube en una respuesta de fase aguda</div>
+    <div class="story">"Alfa-2" y "Aguda" empiezan igual — fácil de asociar. Ceruloplasmina, haptoglobina y alfa-2-macroglobulina viven en la fracción <b>alfa-2</b> del proteinograma, y son precisamente las proteínas de <b>fase aguda</b> que suben con una inflamación reciente.</div>
+    <div class="takeaway">Fracción alfa-2 = proteínas de fase AGUDA (ceruloplasmina, haptoglobina, α2-macroglobulina).</div>
+  </div>
+
+</div>
+
+</body>
+</html>

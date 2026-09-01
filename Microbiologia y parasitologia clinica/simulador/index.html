@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 🎨 PERSONALIZA: título de la pestaña del navegador -->
+<title>Simulador · Microbiología y Parasitología Clínicas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <button id="btn-home" class="brand" title="Ir al inicio">
+      <!-- 🎨 PERSONALIZA: siglas cortas (p.ej. "P1", "BQ2", "HC1") y nombre corto de la asignatura -->
+      <span class="brand-pill">MyP</span>
+      <span class="brand-text">Microbiología y Parasitología Clínicas</span>
+    </button>
+    <button id="gamer-strip" class="gamer-strip" title="Ver tus logros y nivel">
+      <span class="streak-chip" id="streak-chip">🔥 0</span>
+      <span class="level-chip" id="level-chip">🌱 Nivel 1</span>
+    </button>
+    <nav class="topnav">
+      <button data-nav="home" class="navlink active">Inicio</button>
+      <button data-nav="fails" class="navlink">Repasar fallos <span id="nav-fail-count" class="badge">0</span></button>
+      <button data-nav="achievements" class="navlink">Logros</button>
+      <button data-nav="stats" class="navlink">Estadísticas</button>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ===================== HOME ===================== -->
+  <section id="view-home" class="view">
+    <div class="hero">
+      <!-- 🎨 PERSONALIZA: nombre del examen/convocatoria -->
+      <h1>Prepárate para tus parciales de Microbiología y Parasitología Clínicas</h1>
+      <p class="subtitle">Banco de preguntas clasificado por tema, extraído y depurado de exámenes reales anteriores y de los apuntes de la asignatura. Cada respuesta incluye la explicación razonada de por qué es correcta o incorrecta.</p>
+    </div>
+
+    <div class="game-panel" id="home-game-panel">
+      <!-- filled by JS -->
+    </div>
+
+    <div class="summary-cards" id="home-summary-cards">
+      <!-- filled by JS -->
+    </div>
+
+    <div id="boss-banner" class="boss-banner hidden">
+      <!-- filled by JS -->
+    </div>
+
+    <div class="action-grid">
+      <button class="action-card primary" data-action="new-exam">
+        <span class="action-icon">📝</span>
+        <span class="action-title">Nuevo examen simulado</span>
+        <span class="action-desc">Elige temas y número de preguntas, como en el examen real.</span>
+      </button>
+      <button class="action-card" data-action="train-fails">
+        <span class="action-icon">🎯</span>
+        <span class="action-title">Entrenar fallos</span>
+        <span class="action-desc" id="fails-desc">Repasa solo las preguntas que has fallado.</span>
+      </button>
+      <button class="action-card" data-action="free-train">
+        <span class="action-icon">📚</span>
+        <span class="action-title">Entrenamiento libre por tema</span>
+        <span class="action-desc">Practica un tema concreto sin límite, con corrección al momento.</span>
+      </button>
+      <button class="action-card" data-action="most-repeated">
+        <span class="action-icon">🔁</span>
+        <span class="action-title">Preguntas muy repetidas</span>
+        <span class="action-desc">Las que más se repiten en los exámenes anteriores.</span>
+      </button>
+      <button class="action-card" data-action="flashcards">
+        <span class="action-icon">🃏</span>
+        <span class="action-title">Flashcards (repetición espaciada)</span>
+        <span class="action-desc" id="flashcards-desc">Tarjetas de recuerdo activo que se repasan justo antes de que se te olviden.</span>
+      </button>
+    </div>
+
+    <div class="topics-overview">
+      <h2>Temario cubierto</h2>
+      <div id="topics-list" class="topics-list"><!-- filled by JS --></div>
+    </div>
+  </section>
+
+  <!-- ===================== SETUP ===================== -->
+  <section id="view-setup" class="view hidden">
+    <h1 id="setup-title">Configurar examen</h1>
+
+    <div class="setup-block" id="setup-topics-block">
+      <h3>Temas a incluir</h3>
+      <div class="setup-topics-actions">
+        <button type="button" id="topics-select-all" class="link-btn">Seleccionar todos</button>
+        <button type="button" id="topics-select-none" class="link-btn">Ninguno</button>
+      </div>
+      <div id="setup-topics" class="setup-topics"><!-- filled by JS --></div>
+    </div>
+
+    <div class="setup-block">
+      <h3 id="setup-qty-heading">Número de preguntas</h3>
+      <p id="setup-qty-hint" class="muted hidden">Las tarjetas que ya tengas pendientes de repaso hoy se incluyen siempre, además de estas nuevas.</p>
+      <div class="qty-row">
+        <input type="range" id="setup-qty" min="5" max="60" step="5" value="30">
+        <output id="setup-qty-label">30</output>
+      </div>
+      <div class="qty-presets">
+        <button type="button" class="chip" data-qty="10">10 rápido</button>
+        <button type="button" class="chip" data-qty="30">30 estándar</button>
+        <button type="button" class="chip" data-qty="60">60 completo</button>
+        <button type="button" class="chip" data-qty="all">Todas las disponibles</button>
+      </div>
+    </div>
+
+    <div class="setup-block" id="setup-correction-block">
+      <h3>Modo de corrección</h3>
+      <label class="toggle-row">
+        <input type="checkbox" id="setup-instant" checked>
+        <span>Mostrar la explicación justo al responder (recomendado para estudiar)</span>
+      </label>
+      <label class="toggle-row" id="setup-examlike-row">
+        <input type="checkbox" id="setup-examlike">
+        <span>Modo examen real: sin feedback hasta el final, con cronómetro</span>
+      </label>
+      <label class="toggle-row">
+        <input type="checkbox" id="setup-only-repeated">
+        <span>Incluir solo preguntas marcadas como muy repetidas en exámenes anteriores</span>
+      </label>
+    </div>
+
+    <div class="setup-actions">
+      <button class="btn-secondary" data-action="cancel-setup">Cancelar</button>
+      <button class="btn-primary" id="setup-start">Empezar</button>
+    </div>
+  </section>
+
+  <!-- ===================== EXAM ===================== -->
+  <!-- Todas las preguntas de la sesión se listan de golpe, una debajo de otra: se
+       contesta cada una haciendo scroll, sin pasar de pantalla en pantalla. -->
+  <section id="view-exam" class="view hidden">
+    <div class="exam-header">
+      <div class="exam-progress">
+        <div class="progress-track"><div id="exam-progress-fill" class="progress-fill"></div></div>
+        <span id="exam-progress-label">0 de 30 contestadas</span>
+      </div>
+      <div id="exam-timer" class="exam-timer hidden">00:00</div>
+      <span id="exam-xp-counter" class="exam-xp-counter">⭐ 0 XP</span>
+      <button class="btn-text" id="exam-quit">Terminar ahora</button>
+    </div>
+
+    <div id="exam-questions-list" class="exam-questions-list"><!-- filled by JS: una .question-card por pregunta --></div>
+
+    <div class="exam-finish-bar">
+      <button class="btn-primary" id="q-finish">Ver resultados →</button>
+    </div>
+  </section>
+
+  <!-- ===================== FLASHCARDS (repetición espaciada) ===================== -->
+  <section id="view-flashcards" class="view hidden">
+    <div class="exam-header">
+      <div class="exam-progress">
+        <div class="progress-track"><div id="fc-progress-fill" class="progress-fill"></div></div>
+        <span id="fc-progress-label">Tarjeta 1 de 20</span>
+      </div>
+      <span id="fc-xp-counter" class="exam-xp-counter">⭐ 0 XP</span>
+      <button class="btn-text" id="fc-quit">Terminar ahora</button>
+    </div>
+
+    <div id="fc-card-area" class="question-card flashcard">
+      <div class="question-meta">
+        <span id="fc-tema-tag" class="tag">Tema</span>
+        <span id="fc-new-tag" class="tag tag-new hidden">✨ Nueva</span>
+      </div>
+      <h2 id="fc-question" class="q-text">Enunciado de la pregunta</h2>
+
+      <button class="btn-primary fc-reveal-btn" id="fc-reveal">Mostrar respuesta</button>
+
+      <div id="fc-back" class="fc-back hidden">
+        <div id="fc-options" class="q-options"></div>
+        <div id="fc-explain" class="q-explain"></div>
+        <div class="fc-ratings" id="fc-ratings">
+          <button type="button" class="fc-rate fc-rate-again" data-q="0">
+            <span class="fc-rate-label">Otra vez</span><span class="fc-rate-interval" id="fc-int-again"></span>
+          </button>
+          <button type="button" class="fc-rate fc-rate-hard" data-q="3">
+            <span class="fc-rate-label">Difícil</span><span class="fc-rate-interval" id="fc-int-hard"></span>
+          </button>
+          <button type="button" class="fc-rate fc-rate-good" data-q="4">
+            <span class="fc-rate-label">Bien</span><span class="fc-rate-interval" id="fc-int-good"></span>
+          </button>
+          <button type="button" class="fc-rate fc-rate-easy" data-q="5">
+            <span class="fc-rate-label">Fácil</span><span class="fc-rate-interval" id="fc-int-easy"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="fc-complete" class="question-card hidden">
+      <h2>🃏 Sesión de tarjetas completada</h2>
+      <p id="fc-complete-summary" class="q-text"></p>
+      <div class="setup-actions">
+        <button class="btn-secondary" data-action="go-home">Volver al inicio</button>
+        <button class="btn-primary" data-action="go-achievements">Ver mis logros</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESULTS ===================== -->
+  <section id="view-results" class="view hidden">
+    <h1>Resultado del examen</h1>
+    <div class="results-score-card">
+      <div class="score-circle" id="results-score-circle">
+        <span id="results-score-pct">0%</span>
+      </div>
+      <div class="score-details">
+        <p id="results-score-text">0 de 0 correctas</p>
+        <p id="results-time-text" class="muted"></p>
+        <p id="results-xp-text" class="xp-earned"></p>
+      </div>
+    </div>
+
+    <div id="results-badges" class="results-badges hidden"></div>
+
+    <h3>Resultado por tema</h3>
+    <div id="results-by-topic" class="results-by-topic"><!-- filled by JS --></div>
+
+    <h3>Repaso de todas las preguntas</h3>
+    <div id="results-questions" class="results-questions"><!-- filled by JS --></div>
+
+    <div class="setup-actions">
+      <button class="btn-secondary" data-action="go-home">Volver al inicio</button>
+      <button class="btn-primary" data-action="train-fails-from-results">Entrenar lo fallado en este examen</button>
+    </div>
+  </section>
+
+  <!-- ===================== FAILS REVIEW ===================== -->
+  <section id="view-fails" class="view hidden">
+    <h1>Preguntas pendientes de repaso</h1>
+    <p class="subtitle">Aquí se acumulan todas las preguntas en las que tu último intento fue incorrecto, de cualquier examen o entrenamiento. Al acertarlas en modo entrenamiento, desaparecen de esta lista.</p>
+    <div id="fails-by-topic" class="results-by-topic"></div>
+    <div class="setup-actions">
+      <button class="btn-primary" id="fails-train-all" data-action="train-fails">Entrenar todos los fallos ahora</button>
+    </div>
+    <div id="fails-list" class="results-questions"></div>
+  </section>
+
+  <!-- ===================== ACHIEVEMENTS ===================== -->
+  <section id="view-achievements" class="view hidden">
+    <h1>Tu progreso y logros</h1>
+    <div id="achv-level-card" class="level-card"><!-- filled by JS --></div>
+    <h3>Insignias</h3>
+    <div id="achv-grid" class="achv-grid"><!-- filled by JS --></div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section id="view-stats" class="view hidden">
+    <h1>Tus estadísticas</h1>
+    <div id="stats-overview" class="summary-cards"></div>
+    <h3>Repetición espaciada (flashcards)</h3>
+    <div id="stats-srs" class="summary-cards"></div>
+    <h3>Dominio por tema</h3>
+    <div id="stats-table" class="stats-table"></div>
+    <div class="setup-actions">
+      <button class="btn-secondary" id="stats-reset">Borrar todo mi progreso</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Material de estudio generado a partir de exámenes anteriores y apuntes propios · Solo con fines de repaso personal.</p>
+</footer>
+
+<div id="toast-container" class="toast-container"></div>
+
+<script src="questions_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

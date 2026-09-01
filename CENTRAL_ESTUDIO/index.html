@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Central de Estudio</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="app-header__inner">
+    <div class="brand">
+      <span class="brand__mark">🎓</span> Central de Estudio
+      <span id="index-updated-badge" class="brand__badge" title="Si acabas de regenerar el índice y no ves cambios, recarga esta pestaña (F5) — las pestañas abiertas no se actualizan solas."></span>
+    </div>
+    <div class="search-box" role="search">
+      <span class="search-box__icon" aria-hidden="true">🔍</span>
+      <label for="global-search" class="visually-hidden">Buscar en las 6 asignaturas</label>
+      <input id="global-search" type="text" placeholder="Buscar en las 6 asignaturas… (pulsa Enter)">
+    </div>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#/" data-route="/">Inicio</a>
+      <a href="#/explorar" data-route="/explorar">Explorar</a>
+      <a href="#/ahora" data-route="/ahora">¿Qué estudio ahora?</a>
+      <a href="#/estadisticas" data-route="/estadisticas">Estadísticas</a>
+    </nav>
+    <div class="header-actions">
+      <button id="btn-theme" class="icon-btn" title="Cambiar tema claro/oscuro" aria-label="Cambiar tema claro u oscuro">🌗</button>
+      <button id="btn-export" class="icon-btn" title="Descargar copia de seguridad del progreso" aria-label="Descargar copia de seguridad del progreso">💾</button>
+      <button id="btn-import" class="icon-btn" title="Restaurar progreso desde una copia de seguridad" aria-label="Restaurar progreso desde una copia de seguridad">📤</button>
+      <input type="file" id="import-file-input" accept="application/json" class="hidden">
+    </div>
+  </div>
+</header>
+
+<div id="storage-warning" class="hidden" style="background:#e0527a;color:#fff;text-align:center;padding:10px 16px;font-size:13px;font-weight:600;">
+  ⚠️ Este navegador está bloqueando el guardado local (localStorage) para archivos abiertos con file://. Tu progreso NO se guardará al cerrar esta pestaña. Prueba a abrir <code>index.html</code> con Chrome o Edge, o revisa la configuración de privacidad/cookies del navegador.
+</div>
+
+<main id="app"></main>
+
+<div id="toast" class="toast"></div>
+
+<script src="data/academic_index.js"></script>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/recommend.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

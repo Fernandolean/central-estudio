@@ -1,0 +1,71 @@
+Ya sabes cómo llega el fármaco a la sangre y cómo el cuerpo lo mueve, lo transforma y lo elimina. Eso es la farmacocinética, y ya la dejamos atrás. Ahora toca la otra mitad de la película: qué le hace el fármaco al cuerpo una vez que ha llegado. Eso es la farmacodinamia, y todo gira alrededor de una pregunta muy concreta: con qué se engancha el fármaco dentro de nosotros para producir su efecto. A esa estructura donde se engancha se le llama diana farmacológica, y en esta pista vas a aprender cuáles son los cuatro tipos de diana que existen, y sobre todo la tabla más preguntada de todo este bloque, la de los receptores acoplados a proteína G y sus segundos mensajeros. Si solo te quedas con una cosa de esta pista, que sea esa tabla, porque cae muchísimo.
+
+Antes de meternos con las dianas, una distinción rápida que también es típica de examen. No todos los fármacos actúan igual. La mayoría, la inmensa mayoría, tiene una acción específica: se une a una diana farmacológica muy concreta, una macromolécula del organismo, y ahí produce su efecto. Pero hay un grupo pequeño de fármacos que no se unen a nada en especial, tienen acción inespecífica. Actúan por un efecto puramente físico o químico, sin engancharse a ninguna diana biológica. Piensa en un laxante de contacto, que actúa físicamente sobre la mucosa intestinal, o en un antiácido, que neutraliza el exceso de ácido en el estómago por una reacción química directa, sin necesidad de ningún receptor. Guárdate este contraste, porque el examen a veces pregunta justo por ahí: acción específica, con diana, es la regla general; acción inespecífica, sin diana, física o química, es la excepción que confirma la regla.
+
+Todo fármaco de acción específica necesita engancharse a una de cuatro familias de dianas farmacológicas.
+
+La primera, y la más grande con diferencia, son los receptores. Dentro de los receptores hay cuatro subtipos distintos: los que forman parte de un canal iónico, los que están acoplados a una proteína G, los que tienen ellos mismos actividad enzimática, y los que están ligados al ADN dentro del núcleo. De estos cuatro subtipos, el que más peso tiene en el examen es el acoplado a proteína G, así que es al que más tiempo le dedicamos en esta pista.
+
+La segunda familia son los canales iónicos, que el fármaco puede abrir, cerrar o bloquear directamente, sin todo el mecanismo intermedio de un receptor acoplado a proteína G.
+
+La tercera familia son las enzimas. Aquí el fármaco normalmente no activa nada, al contrario, actúa como inhibidor, o como un falso sustrato que ocupa el lugar del sustrato real sin dejar que la reacción se complete. De esta forma se pueden bloquear rutas metabólicas completas, inhibir enzimas que degradan una sustancia que interesa mantener activa más tiempo, o bloquear enzimas que fabrican un cofactor necesario para otra reacción.
+
+Y la cuarta familia son los transportadores, las proteínas que mueven sustancias a través de la membrana. Aquí hay dos posibilidades: el cotransporte, cuando las dos sustancias se mueven en el mismo sentido, y el antitransporte, o intercambio, cuando se mueven en sentidos opuestos.
+
+Vamos ahora con el subtipo de receptor más preguntado, el acoplado a proteína G. Cuando el fármaco activa uno de estos receptores, no pasa nada directamente dentro de la célula. Lo que hace el receptor es activar una enzima efectora, y esa enzima efectora es la que fabrica un segundo mensajero, que es la molécula que de verdad transmite la señal dentro de la célula. Y aquí viene la tabla que tienes que saberte de memoria, sí o sí. Hay cuatro enzimas efectoras posibles, y cada una fabrica un segundo mensajero distinto.
+
+La primera es la adenilato ciclasa, y es la más sencilla de todas: fabrica un único segundo mensajero, el AMP cíclico. Adenilato ciclasa y AMP cíclico van siempre de la mano, es prácticamente una pareja fija en cualquier pregunta de examen.
+
+La segunda es la fosfolipasa C. Esta fabrica dos segundos mensajeros a la vez, los dos derivados de los fosfoinosítidos de la membrana: el inositol trifosfato, que se abrevia IP tres, y el diacilglicerol, que se abrevia DAG.
+
+Las otras dos son las fosfolipasas A dos y D, y aquí está la trampa que más se confunde en examen. Ambas comparten un mismo producto, el ácido araquidónico. La fosfolipasa A dos se queda solo con eso, con el ácido araquidónico. Pero la fosfolipasa D va un paso más allá y produce, además del ácido araquidónico, un segundo mensajero extra, el ácido fosfatídico.
+
+Para que esto no se te olvide, hay un truco muy simple. Piensa que la adenilato ciclasa y el AMP cíclico son una pareja que casi comparte nombre, las dos llevan la idea de ciclo. Y para las dos fosfolipasas A dos y D, imagínalas como hermanas: comparten el mismo apellido, ácido araquidónico, pero la D tiene una hija más, el ácido fosfatídico, que la A dos no tiene.
+
+Repasemos esta tabla una vez más, porque es la que más cae en examen de todo el bloque de farmacodinamia. Si en un enunciado lees adenilato ciclasa, tu segundo mensajero es el AMP cíclico, sin excepción. Si lees fosfolipasa C, son dos mensajeros a la vez, el inositol trifosfato y el diacilglicerol. Y si lees fosfolipasa A dos o fosfolipasa D, las dos coinciden en el ácido araquidónico, pero solo la D añade el ácido fosfatídico extra. Esa es la diferencia que más se pregunta entre esas dos últimas.
+
+Hay un cuarto tipo de receptor que funciona de forma completamente distinta a los tres anteriores: el receptor nuclear, también llamado receptor ligado al ADN, el material genético que está dentro del núcleo. Este receptor no está en la membrana de la célula, está dentro del núcleo. Por eso, solo pueden activarlo sustancias capaces de atravesar dos membranas seguidas, la de la célula y la del núcleo, es decir, sustancias liposolubles. El grupo típico que actúa así son las vitaminas liposolubles: la vitamina D, la vitamina A, la vitamina K y la vitamina E. Fíjate que son justo las cuatro vitaminas liposolubles que ya conoces de otras asignaturas, así que si te acuerdas de esas cuatro letras, ya tienes resuelto qué tipo de receptor usan y por qué necesitan ser liposolubles para llegar hasta ahí dentro.
+
+Vamos con la recuperación activa. Cuatro preguntas, tómate un segundo real en cada pausa antes de escuchar la respuesta.
+
+Pregunta: de estas cuatro cosas, cuál no forma parte de lo que estudia la farmacodinamia de un fármaco: el receptor al que se une, el segundo mensajero que genera, el tipo de antagonismo que puede sufrir, o la curva de niveles plasmáticos frente al tiempo.
+
+[PAUSA 3s]
+
+Respuesta: la curva de niveles plasmáticos frente al tiempo. Esa curva pertenece a la farmacocinética, no a la farmacodinamia, porque describe cómo se mueve el fármaco por el cuerpo a lo largo del tiempo, no qué efecto produce sobre su diana.
+
+Si has dudado, es la trampa más típica de este tema: mezclar niveles plasmáticos, que es cinética, con dianas y receptores, que es dinamia. Acuérdate de la diferencia con las propias palabras: dinamia es lo que el fármaco le hace al cuerpo, cinética es lo que el cuerpo le hace al fármaco. Las gráficas de concentración plasmática, con su absorción, su pico y su eliminación, son siempre farmacocinética.
+
+Pregunta: si un receptor acoplado a proteína G activa la enzima fosfolipasa D, qué segundos mensajeros vas a encontrar.
+
+[PAUSA 3s]
+
+Respuesta: dos a la vez, ácido araquidónico y ácido fosfatídico. Es la única de las cuatro enzimas que da dos productos distintos y que además comparte uno de ellos, el ácido araquidónico, con la fosfolipasa A dos.
+
+Si has contestado solo ácido araquidónico, te has quedado a medias: esa es la respuesta de la fosfolipasa A dos en solitario. La fosfolipasa D siempre va con el extra del ácido fosfatídico.
+
+Pregunta: qué tienen en común la vitamina D, la vitamina A, la vitamina K y la vitamina E a la hora de actuar como fármacos.
+
+[PAUSA 3s]
+
+Respuesta: las cuatro actúan sobre receptores nucleares, ligados al ADN, porque son sustancias liposolubles capaces de atravesar la membrana de la célula y también la del núcleo.
+
+Si has pensado en un receptor de membrana, dale la vuelta al razonamiento: solo lo liposoluble puede llegar hasta el núcleo. Las sustancias que no atraviesan membranas se quedan fuera, actuando sobre receptores de superficie, canales iónicos o enzimas, nunca sobre receptores nucleares.
+
+Pregunta: un antiácido neutraliza el exceso de ácido en el estómago mediante una reacción química directa. Tiene esto una diana farmacológica.
+
+[PAUSA 3s]
+
+Respuesta: no. Es un ejemplo clásico de acción inespecífica, un efecto químico sin unión a ninguna macromolécula del organismo.
+
+Si has dudado porque parece que actúa sobre el estómago, recuerda que actuar sobre un órgano no es lo mismo que unirse a una diana molecular concreta: la inmensa mayoría de los fármacos sí tiene diana, esa es la acción específica, pero este grupo pequeño, el de acción física o química, es la excepción que se pregunta precisamente porque rompe la regla general.
+
+Y con esto cerramos la pista. Que se te queden tres ideas.
+
+Primero, todo fármaco actúa o bien sobre una diana concreta, eso es la acción específica y es la gran mayoría de los casos, o bien por un efecto físico o químico sin diana, que es la acción inespecífica y es la excepción.
+
+Segundo, las dianas farmacológicas son cuatro: receptores, canales iónicos, enzimas y transportadores, y dentro de los receptores el que más cae en examen es el acoplado a proteína G, con su tabla de segundos mensajeros: adenilato ciclasa da AMP cíclico, fosfolipasa C da inositol trifosfato y diacilglicerol, y las fosfolipasas A dos y D comparten ácido araquidónico, con la D sumando además ácido fosfatídico.
+
+Tercero, los receptores nucleares son la excepción que necesita atravesar dos membranas, la celular y la nuclear, y por eso solo los activan sustancias liposolubles como las vitaminas D, A, K y E.
+
+Con esta pista ya tienes la base de las dianas. En la siguiente entramos en cómo se mide realmente esa unión entre fármaco y receptor, con afinidad, eficacia y las curvas dosis respuesta.

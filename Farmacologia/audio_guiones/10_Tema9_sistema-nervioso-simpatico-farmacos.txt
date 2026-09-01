@@ -1,0 +1,49 @@
+En la pista anterior te aprendiste la tabla de receptores adrenérgicos, alfa uno, alfa dos, beta uno, beta dos y beta tres, cada uno con su mecanismo y su efecto. Ahora toca ponerle nombre y apellido a cada fármaco: qué molécula concreta activa o bloquea cada uno de esos receptores, y para qué se usa en la práctica clínica. Si te sabes bien la pista anterior, esta te va a resultar bastante más mecánica, porque cada fármaco nuevo es solo una pieza que encaja en un hueco que ya conoces.
+
+Empezamos por el fármaco menos selectivo de todos, la adrenalina, que también se llama epinefrina. Activa prácticamente todos los receptores adrenérgicos a la vez, alfa y beta, así que su efecto es una descarga simpática completa: sube la tensión, acelera el corazón, dilata los bronquios. Por eso es el fármaco de elección en dos situaciones de máxima urgencia, la anafilaxia, esa reacción alérgica grave que puede cerrar la vía aérea y bajar la tensión de forma brutal, y la parada cardiaca, donde se usa para intentar reactivar la actividad del corazón.
+
+Los agonistas selectivos de alfa uno son la fenilefrina y la oximetazolina, y su uso estrella es como descongestivos nasales. Recuerda el mecanismo de la pista anterior: el alfa uno produce vasoconstricción, así que al aplicarlos sobre la mucosa nasal, estrechan los vasos dilatados que producen la congestión y el paciente respira mejor. Es la aplicación clínica más directa de todo lo que vimos con el alfa uno.
+
+El agonista alfa dos que tienes que conocer es la clonidina, y aquí viene otra vez el efecto paradójico que ya vimos con detalle en la pista anterior, así que lo repito con un ejemplo concreto para que se te quede bien fijado. La clonidina activa el receptor alfa dos, ese freno de mano que reduce la liberación de noradrenalina, y además atraviesa la barrera hematoencefálica y actúa también a nivel central. El resultado es un fármaco que, pese a ser un agonista adrenérgico, produce vasodilatación y sedación, un efecto simpaticolítico, justo lo contrario de lo que uno esperaría de algo que activa un receptor adrenérgico. Compáralo con la fenilefrina que acabamos de ver: la fenilefrina activa el alfa uno y vasoconstriñe; la clonidina activa el alfa dos y hace lo contrario, vasodilata y encima seda. Mismo sistema, mismo tipo de receptor adrenérgico en sentido amplio, efectos opuestos.
+
+Los agonistas de beta uno que debes conocer son la dobutamina y la dopamina, y su papel es mantener el gasto cardiaco en situaciones críticas, como una anestesia complicada o un paciente en cuidados intensivos con el corazón fallando. Al activar el beta uno, aumentan la fuerza y la frecuencia con la que late el corazón, sosteniendo el bombeo de sangre cuando el propio organismo no es capaz de mantenerlo por sí solo.
+
+Los agonistas de beta dos son, con diferencia, de los fármacos más usados de toda la farmacología respiratoria: el salbutamol y la terbutalina. Activan el beta dos en el pulmón y producen broncodilatación, así que son el tratamiento de elección en el asma, todo lo contrario de lo que serían los anticolinérgicos o los agonistas muscarínicos, que en un paciente asmático están contraindicados porque cierran el bronquio en vez de abrirlo.
+
+Hay un agonista beta dos con un uso muy distinto, la ritodrina, que actúa sobre el receptor beta dos del útero en vez del pulmón, y produce relajación de la musculatura uterina. Se usa como tocolítico, es decir, para frenar contracciones uterinas prematuras, aprovechando exactamente el mismo mecanismo, beta dos, adenilato ciclasa, relajación del músculo liso, pero en un órgano completamente distinto al pulmón.
+
+Pasamos ahora a los simpaticolíticos, los fármacos que bloquean receptores adrenérgicos. El bloqueante de alfa uno que tienes que saber es la prazosina. Al bloquear el receptor que producía vasoconstricción, la prazosina hace justo lo contrario, vasodilata, y por eso baja la tensión arterial. Tiene un segundo uso muy característico, en la retención urinaria causada por la hiperplasia benigna de próstata: al relajar el músculo liso del cuello de la vejiga y de la próstata, que también depende de receptores alfa uno, facilita la micción en varones con la próstata agrandada.
+
+El siguiente es la ergotamina, un bloqueante adrenérgico poco selectivo, y su uso característico es como antimigrañoso, para cortar las crisis de migraña.
+
+Y los bloqueantes de beta uno, para cerrar esta lista, son el atenolol y el metoprolol. Al bloquear el beta uno en el corazón, reducen la fuerza y la frecuencia cardiaca, así que bajan el gasto cardiaco, y por eso se usan en dos situaciones muy relacionadas entre sí, la hipertensión arterial y las arritmias cardiacas.
+
+Antes de pasar a las preguntas, vamos a conectar todo esto con la clínica, porque así es como realmente se pregunta en el examen: no te van a pedir que recites la lista, te van a poner un paciente y una situación. Si el paciente tiene hipertensión arterial, piensa en un simpaticolítico, un bloqueante beta uno como el atenolol o el metoprolol, o un bloqueante alfa uno como la prazosina; nunca en un agonista alfa uno o en la adrenalina, que subirían todavía más la tensión. Si el paciente tiene asma, piensa siempre en un agonista beta dos, salbutamol o terbutalina, y nunca en un anticolinérgico ni en un agonista muscarínico, que cerrarían el bronquio. Y si lo que tienes es una congestión nasal simple, el fármaco de elección es un agonista alfa uno de uso tópico, fenilefrina u oximetazolina, por su efecto vasoconstrictor local.
+
+Vamos con la recuperación activa.
+
+Primera pregunta: te preguntan qué tipo de fármaco se usa preferentemente como descongestivo nasal.
+
+[PAUSA 3s]
+
+Respuesta: un agonista del receptor alfa uno, como la fenilefrina o la oximetazolina. Al activar el alfa uno en los vasos de la mucosa nasal, provocan vasoconstricción local y reducen la inflamación y el moqueo.
+
+Si has dudado con un agonista beta dos, como el salbutamol: el beta dos actúa sobre todo en el pulmón, produciendo broncodilatación, y no tiene ese efecto vasoconstrictor local en la nariz; no los confundas solo porque los dos sean simpaticomiméticos, cada uno actúa sobre un receptor distinto y en un territorio distinto.
+
+Segunda pregunta: te describen a un paciente hipertenso y te piden identificar qué fármaco de este bloque estaría contraindicado.
+
+[PAUSA 3s]
+
+Respuesta: cualquier simpaticomimético con efecto vasoconstrictor, como la adrenalina o los agonistas alfa uno, fenilefrina y oximetazolina, porque subirían todavía más la tensión arterial. En cambio, el atenolol, el metoprolol y la prazosina son justo los fármacos indicados en ese mismo paciente, porque bajan la tensión.
+
+Si has dudado pensando que todos los simpaticolíticos son los seguros y todos los simpaticomiméticos son los peligrosos: en general va por ahí, pero recuerda que lo que importa es el receptor concreto sobre el que actúa cada fármaco; un agonista de un receptor vasoconstrictor como el alfa uno sube la tensión, mientras que un antagonista de ese mismo receptor la baja.
+
+Tercera pregunta, del estilo señale la opción correcta, que mezcla varios conceptos de este bloque para comprobar que los tienes bien relacionados: te dan varias asociaciones entre fármaco, receptor y efecto, y tienes que identificar cuál es la correcta.
+
+[PAUSA 3s]
+
+Respuesta: una asociación correcta sería, por ejemplo, salbutamol, agonista de beta dos, broncodilatación; u otra, prazosina, antagonista de alfa uno, vasodilatación con utilidad en la retención urinaria por hiperplasia prostática. Cualquier asociación que mezcle un fármaco con el receptor equivocado es falsa por definición.
+
+Si en esa pregunta aparece la clonidina asociada a vasoconstricción: esa es la trampa más habitual de todo este bloque, porque asumimos que todo agonista adrenérgico vasoconstriñe; ya lo vimos en la pista anterior y lo hemos repetido en esta, el alfa dos es la excepción que invierte la lógica, un agonista alfa dos es simpaticolítico, y la clonidina lo que produce es vasodilatación y sedación, no vasoconstricción.
+
+Vamos a cerrar con las tres ideas fuerza de esta pista. Primero, cada simpaticomimético que hemos visto encaja en el receptor de la pista anterior: la adrenalina, no selectiva, para urgencias como la anafilaxia y la parada cardiaca; la fenilefrina y la oximetazolina, agonistas alfa uno, para la congestión nasal; la dobutamina y la dopamina, agonistas beta uno, para sostener el corazón; y el salbutamol, la terbutalina y la ritodrina, agonistas beta dos, para el pulmón y para el útero. Segundo, la clonidina es el ejemplo con nombre propio del efecto paradójico del alfa dos: es agonista, pero su efecto es simpaticolítico, vasodilatación y sedación, no vasoconstricción. Tercero, entre los simpaticolíticos, la prazosina bloquea el alfa uno y sirve para la hipertensión y para la retención urinaria por hiperplasia prostática, la ergotamina es poco selectiva y se usa en la migraña, y el atenolol y el metoprolol bloquean el beta uno para la hipertensión y las arritmias; y en clínica, la regla que no puedes olvidar es que en un paciente hipertenso evitas los vasoconstrictores adrenérgicos y usas los bloqueantes, y en un paciente asmático siempre vas a por un agonista beta dos.

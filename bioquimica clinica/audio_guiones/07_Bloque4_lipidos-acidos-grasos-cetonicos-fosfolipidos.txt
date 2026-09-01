@@ -1,0 +1,63 @@
+Hay dos vías que degradan ácidos grasos y que el examen adora confundir, porque suenan casi igual: la alfa oxidación y la beta oxidación. Una rompe el ácido graso de dos en dos carbonos dentro de la mitocondria, y es la que probablemente ya conoces. La otra quita un carbono cada vez, en una reacción mucho más rara, reservada para un tipo concreto de ácido graso ramificado, y si falla te deja una retinitis pigmentosa y un nombre propio de enfermedad. De esa distinción, y de todo lo que rodea al metabolismo de los ácidos grasos, los cuerpos cetónicos, los triglicéridos y los fosfolípidos de membrana, va esta pista.
+
+Empecemos por la vía principal. El ácido graso se acumula en el citoplasma, así que antes de degradarse tiene que activarse, uniéndose a coenzima A, y transportarse al interior de la mitocondria enganchado a la carnitina. Una vez dentro, se rompe en fragmentos de dos carbonos, acetil coenzima A, mediante ciclos sucesivos de beta oxidación. Si el ácido graso tiene un número impar de carbonos, al final queda un fragmento de tres carbonos, el propionil coenzima A, que también se incorpora al ciclo de Krebs junto con el acetil coenzima A.
+
+Cualquier fallo en esta cadena de transporte y degradación da un patrón clínico característico: hipoglucemia sin cetosis, es decir, hipoglucemia hipocetósica. Tiene sentido: si no se puede degradar el ácido graso, no hay acetil coenzima A suficiente ni para mantener la glucemia por otras vías ni para fabricar cuerpos cetónicos, así que el paciente tiene la glucosa baja y, además, los cuerpos cetónicos bajos, lo cual es justo la pista que distingue este cuadro de una simple hipoglucemia de ayuno.
+
+Dentro de esta cadena hay varios puntos que pueden fallar. Si falta carnitina, ya sea por la dieta, por un fallo de síntesis, o porque aumenta su consumo en infecciones, insuficiencia renal o cirrosis, el ácido graso activado no puede entrar en la mitocondria. Si falta la carnitina palmitoil transferasa, la CPT, el problema es el mismo pero por fallo del transportador en sí, no de la carnitina. Y si falla la acil coenzima A deshidrogenasa, la enzima de cada ciclo de la beta oxidación, hay tres variantes según la longitud de la cadena, siendo el déficit de la de cadena media, MCAD, el más frecuente. Un cuadro típico de examen es un bebé de menos de dos años que, tras un ayuno o una infección, presenta vómitos, letargia y una hipoglucemia grave sin apenas cetosis, con hepatomegalia: el perfil del déficit de MCAD, que puede acompañarse de hiperamonemia y miocardiopatía.
+
+Ahora la vía rara, la alfa oxidación. A diferencia de la beta oxidación, que quita fragmentos de dos carbonos, la alfa oxidación quita un carbono cada vez, y sirve específicamente para degradar ácidos grasos que llevan un grupo metilo en el carbono llamado beta, como el ácido fitánico. Cuando esta vía falla, el ácido fitánico se acumula y daña la mielina, el nervio óptico y la retina: es la enfermedad de Refsum, que cursa con retinitis pigmentosa. No la confundas con un fallo de la beta oxidación clásica, son mecanismos y enzimas completamente distintos.
+
+Hay una tercera vía de oxidación, la peroxisómica, encargada de los ácidos grasos de cadena muy larga, que la mitocondria no puede manejar bien. Si esta vía falla, esos ácidos grasos se acumulan y afectan sobre todo a la corteza suprarrenal y a la mielina del sistema nervioso, pudiendo llegar a un deterioro cognitivo y demencia, como ocurre en la adrenoleucodistrofia.
+
+Y hay una alteración más, del lado de la síntesis, no de la degradación, y es de las que más se repiten en examen: el déficit de acetil coenzima A carboxilasa. Esta enzima fabrica malonil coenzima A a partir de acetil coenzima A, imprescindible para que la ácido graso sintasa vaya alargando la cadena en cada ciclo de síntesis. Sin ella, no hay síntesis de ácidos grasos, y punto: no afecta a la degradación, ni a la beta oxidación, ni a los cuerpos cetónicos, solo a la síntesis. Necesita biotina como cofactor, así que un déficit de biotina produce el mismo bloqueo, y como los ácidos grasos recién sintetizados forman parte del surfactante pulmonar, este déficit en un neonato se traduce en problemas respiratorios graves. Repite la idea, porque cae literal en examen: el déficit de biotina impide la síntesis de ácidos grasos, no su degradación.
+
+Los cuerpos cetónicos se fabrican a partir de acetil coenzima A, y el primer paso, el que de verdad pone en marcha la cetogénesis, lo cataliza la enzima HMG-CoA sintasa. En condiciones normales su producción es mínima, pero cuando se agota el glucógeno, la reserva corta, el organismo moviliza triglicéridos del tejido adiposo, la reserva larga, mediante lipólisis. Eso genera más acetil coenzima A del que el ciclo de Krebs puede procesar, y el exceso se deriva hacia cuerpos cetónicos. En ayuno, niveles moderados son normales; el problema aparece cuando se disparan, como en la cetoacidosis diabética de la diabetes tipo uno, donde al ser compuestos ácidos bajan el pH y provocan acidosis metabólica. Fíjate en la diferencia: los defectos de la beta oxidación dan hipoglucemia con cetonas bajas, la cetoacidosis diabética es justo lo contrario, cuerpos cetónicos disparados.
+
+Los triglicéridos son glicerol unido a tres ácidos grasos, y son la reserva energética a largo plazo del organismo. Se sintetizan en el hígado y salen empaquetados en VLDL. Para poder unir los ácidos grasos al glicerol hace falta antes fosforilar el glicerol a glicerol tres fosfato, que actúa como el esqueleto sobre el que se van esterificando los ácidos grasos: sin este paso previo, no hay síntesis de triglicéridos. Si el hígado no fabrica suficiente VLDL para sacar los triglicéridos que ha sintetizado, estos se quedan acumulados dentro del hepatocito, y aparece la esteatosis hepática, un hígado graso que en principio es reversible, salvo que evolucione a cirrosis.
+
+Hay dos alteraciones de los triglicéridos que conviene diferenciar bien porque el examen las contrapone a propósito. La primera es el déficit de glicerol quinasa: si falta, no se sintetizan triglicéridos nuevos, pero el glicerol libre se acumula en plasma, y como las técnicas habituales de laboratorio en realidad cuantifican ese glicerol, dan un resultado falsamente elevado de triglicéridos sin que exista un exceso real. Es la pseudohipertrigliceridemia, un artefacto analítico, no un exceso genuino. La segunda es la enfermedad de Wolman, un déficit de lipasa lisosomal que impide degradar los triglicéridos ya acumulados en el lisosoma, con esteatorrea, distensión abdominal, hepatomegalia, y algo muy característico: calcificación de las glándulas suprarrenales.
+
+Los fosfoacilglicéridos y los esfingolípidos son muy abundantes en las membranas, sobre todo los esfingolípidos en las neuronas, y también están en la bilis y en el surfactante pulmonar. La molécula base de todos los esfingolípidos, el esqueleto sobre el que se construyen la esfingomielina, los cerebrósidos y los gangliósidos, es la ceramida, que resulta de unir esfingosina con un ácido graso.
+
+Cuando falla la síntesis de un componente concreto del surfactante pulmonar, la dipalmitoil lecitina, los alvéolos del recién nacido no se mantienen abiertos, y aparece un distrés respiratorio grave. Y aquí llega una de las trampas más repetidas del bloque: el síndrome de Zellweger es un déficit de plasmalógenos, un tipo de fosfoacilglicérido con un enlace éter que protege frente a los radicales libres generados por la radiación ultravioleta. Al faltar esta protección, aparece fotosensibilidad cutánea marcada. Fíjate bien: Zellweger es una alteración de los fosfoacilglicéridos, no de los esfingolípidos, aunque en las opciones de test casi siempre aparece mezclado con Tay-Sachs o Gaucher para despistar.
+
+Las esfingolipidosis sí son alteraciones de los esfingolípidos: Tay-Sachs, Gaucher, Krabbe, las gangliosidosis, son enfermedades lisosomales en las que falla la degradación, no la síntesis, y el esfingolípido no degradado se acumula, dando alteraciones neurológicas graves, hepatomegalia y esplenomegalia, y en los casos más graves descerebración y caquexia. Las saposinas son proteínas que desenganchan el esfingolípido de la membrana para que la enzima lisosomal pueda degradarlo; si faltan, el resultado es prácticamente el mismo que en una esfingolipidosis clásica, así que su déficit se clasifica también como alteración de los esfingolípidos, no de los fosfoacilglicéridos, aunque el enunciado a veces intente mezclarlos con Zellweger.
+
+Para cerrar el bloque, dos entidades más generales. La obesidad es la acumulación excesiva de triglicéridos en el tejido adiposo, y se asocia a diabetes tipo dos, hipertensión, dislipemias, cálculos biliares, trastornos respiratorios y musculoesqueléticos, y a un mayor riesgo de varios cánceres, entre ellos el de mama, el de endometrio, el de vesícula biliar y el de colon. Y las lipodistrofias son depósitos anómalos de grasa en tejidos donde no debería acumularse, frecuentes en pacientes con tratamiento insulínico prolongado o tras agresiones repetidas a la mucosa intestinal.
+
+Vamos con las preguntas.
+
+Pregunta: el déficit de acetil coenzima A carboxilasa, o de su cofactor la biotina, ¿a qué proceso afecta principalmente?
+
+[PAUSA 3s]
+
+Respuesta: a la síntesis de ácidos grasos, porque esta enzima fabrica el malonil coenzima A que necesita la ácido graso sintasa para alargar la cadena. No afecta ni a la degradación ni a los cuerpos cetónicos.
+
+Si has dudado con la cetogénesis: la cetogénesis depende de otras enzimas, sobre todo la HMG-CoA sintasa, no de la acetil coenzima A carboxilasa, así que ese déficit no toca a los cuerpos cetónicos.
+
+Pregunta: ¿en qué se diferencian la alfa oxidación y la beta oxidación de los ácidos grasos?
+
+[PAUSA 3s]
+
+Respuesta: la beta oxidación es mitocondrial y rompe el ácido graso en fragmentos de dos carbonos. La alfa oxidación quita un carbono cada vez y es la vía específica para ácidos grasos metilados, como el ácido fitánico, cuyo fallo produce la enfermedad de Refsum, con retinitis pigmentosa.
+
+Si has dudado con la oxidación peroxisómica: esa es una tercera vía distinta, para ácidos grasos de cadena muy larga, que afecta a la corteza suprarrenal y a la mielina, no la confundas con la alfa oxidación.
+
+Pregunta: un paciente tiene triglicéridos muy elevados en el laboratorio, pero el mecanismo real es un déficit de glicerol quinasa. ¿Por qué salen tan altos si en realidad no se están sintetizando triglicéridos nuevos?
+
+[PAUSA 3s]
+
+Respuesta: porque las técnicas habituales de laboratorio miden en realidad el glicerol libre, y al no poder fosforilarse por el déficit de glicerol quinasa, ese glicerol se acumula en plasma y da un resultado falsamente elevado. Es la pseudohipertrigliceridemia, un artefacto analítico, no un exceso real de triglicéridos.
+
+Si has dudado con la enfermedad de Wolman: en Wolman el problema es distinto, es un déficit de lipasa lisosomal que sí acumula triglicéridos de verdad dentro del lisosoma, con esteatorrea y calcificación suprarrenal.
+
+Pregunta: el síndrome de Zellweger, ¿es una alteración de los fosfoacilglicéridos o de los esfingolípidos?
+
+[PAUSA 3s]
+
+Respuesta: de los fosfoacilglicéridos, concretamente un déficit de plasmalógenos, que produce fotosensibilidad cutánea grave. No es una esfingolipidosis, aunque el examen lo mezcle a propósito con Tay-Sachs o Gaucher.
+
+Si has dudado con las saposinas: el déficit de saposinas es justo al revés, una alteración de los esfingolípidos, porque sin saposinas el esfingolípido no se puede desenganchar de la membrana para degradarse.
+
+Tres ideas para llevarte de esta pista. Primero, el déficit de acetil coenzima A carboxilasa o de biotina bloquea la síntesis de ácidos grasos, no su degradación ni la cetogénesis. Segundo, no mezcles las tres vías de oxidación: la beta oxidación mitocondrial rompe de dos en dos carbonos, la alfa oxidación quita un carbono cada vez y falla en la enfermedad de Refsum, y la oxidación peroxisómica se ocupa de los ácidos grasos de cadena muy larga, afectando a la corteza suprarrenal y a la mielina. Y tercero, Zellweger y su déficit de plasmalógenos son fosfoacilglicéridos con fotosensibilidad, mientras que las esfingolipidosis y el déficit de saposinas son esfingolípidos con clínica neurológica grave, y el examen los mezcla constantemente para ver si picas.

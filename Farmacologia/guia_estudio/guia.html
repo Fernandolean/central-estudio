@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de Estudio — Primer Parcial de Farmacología y Farmacoterapia</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1c2733;
+    font-size: 10.3pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .cover {
+    height: 250mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    page-break-after: always;
+  }
+  .cover .pill {
+    background: #0e7c86; color: #fff; font-weight: 700; font-size: 13pt;
+    padding: 6px 18px; border-radius: 999px; margin-bottom: 24px; letter-spacing: .03em;
+  }
+  .cover h1 { font-size: 26pt; margin: 0 0 10px; color: #0a5e66; }
+  .cover h2 { font-size: 13pt; font-weight: 400; color: #5b6b78; margin: 0 0 40px; }
+  .cover .toc { text-align: left; max-width: 400px; margin-top: 30px; }
+  .cover .toc h3 { font-size: 11pt; color: #0a5e66; border-bottom: 1px solid #dde3e8; padding-bottom: 6px; }
+  .cover .toc ol { padding-left: 20px; font-size: 9.5pt; }
+  .cover .toc li { margin-bottom: 4px; }
+  .cover .note { margin-top: 40px; font-size: 8.5pt; color: #93a5b1; max-width: 420px; }
+
+  h1.tema {
+    font-size: 16pt; color: #fff; background: #0e7c86;
+    padding: 10px 14px; border-radius: 8px; margin: 0 0 4mm;
+    page-break-before: always;
+  }
+  h1.tema .num { opacity: .75; font-weight: 400; font-size: 11pt; display: block; }
+  h2 { font-size: 12.5pt; color: #0a5e66; border-bottom: 2px solid #e3f4f3; padding-bottom: 3px; margin: 6mm 0 3mm; }
+  h3 { font-size: 10.8pt; color: #0e7c86; margin: 4mm 0 2mm; }
+  p { margin: 2mm 0; text-align: justify; }
+  ul, ol { margin: 2mm 0; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  b, strong { color: #0a5e66; }
+  .callout {
+    background: #e3f4f3; border-left: 3px solid #0e7c86; border-radius: 4px;
+    padding: 2.5mm 4mm; margin: 3mm 0; font-size: 9.6pt;
+  }
+  .callout.warn { background: #fdf2e0; border-left-color: #b8790a; }
+  .callout.mnemo { background: #eef2f5; border-left-color: #5b6b78; font-style: italic; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 3mm 0 4mm; font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  th { background: #0e7c86; color: #fff; text-align: left; padding: 2mm 2.5mm; font-size: 8.6pt; }
+  td { border-bottom: 1px solid #dde3e8; padding: 2mm 2.5mm; vertical-align: top; }
+  tr:nth-child(even) td { background: #f4f7f9; }
+  .two-col { display: flex; gap: 6mm; }
+  .two-col > div { flex: 1; }
+  .footer-page { font-size: 7.5pt; color: #93a5b1; text-align: center; margin-top: 6mm; }
+  .badge-key { display:inline-block; background:#0a5e66; color:#fff; font-size:7.6pt; font-weight:700; border-radius:3px; padding:1px 5px; margin-right:3px;}
+</style>
+</head>
+<body>
+
+<!-- ===================== PORTADA ===================== -->
+<div class="cover">
+  <div class="pill">FARMACOLOGÍA Y FARMACOTERAPIA</div>
+  <h1>Guía de Estudio — Primer Parcial</h1>
+  <h2>Combinaciones razonadas para memorizar mecanismos, fármacos y usos clínicos</h2>
+  <div class="toc">
+    <h3>Contenido</h3>
+    <ol>
+      <li>Introducción a la Farmacología</li>
+      <li>Farmacocinética: Absorción</li>
+      <li>Farmacocinética: Distribución</li>
+      <li>Farmacocinética: Metabolismo y Excreción</li>
+      <li>Farmacodinamia: Dianas y receptores</li>
+      <li>Farmacodinamia: Unión fármaco-receptor y curvas dosis-respuesta</li>
+      <li>Sistema Nervioso Autónomo: Fundamentos</li>
+      <li>Sistema Nervioso Parasimpático</li>
+      <li>Sistema Nervioso Simpático</li>
+      <li>Bloqueantes neuromusculares y anestésicos generales</li>
+      <li>SNC: neurotransmisores y analgésicos opioides</li>
+      <li>AINEs y antiinflamatorios</li>
+      <li>FAME y anticuerpos monoclonales</li>
+    </ol>
+  </div>
+  <p class="note">Elaborada a partir de apuntes de clase y del análisis de exámenes de convocatorias anteriores. Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los conceptos y tablas que encontrarás aquí.</p>
+</div>
+
+<!-- ===================== TEMA 1 ===================== -->
+<h1 class="tema"><span class="num">Tema 1</span>Introducción a la Farmacología</h1>
+
+<h2>Conceptos básicos — la combinación que siempre preguntan</h2>
+<table>
+<tr><th>Término</th><th>Definición</th><th>Truco para no confundir</th></tr>
+<tr><td><b>Fármaco</b></td><td>Sustancia química que, al interactuar con un organismo vivo, da lugar a una respuesta (beneficiosa o tóxica).</td><td>Es el concepto más amplio: todo medicamento es fármaco, pero no todo fármaco es medicamento.</td></tr>
+<tr><td><b>Medicamento</b></td><td>Toda sustancia útil en diagnóstico, tratamiento o prevención de enfermedades, o capaz de modificar ritmos biológicos.</td><td>= Principio activo + excipiente, con finalidad terapéutica reconocida.</td></tr>
+<tr><td><b>Droga</b></td><td>Sustancia, generalmente de origen vegetal, tal como la ofrece la naturaleza u obtenida por manipulación sencilla.</td><td>Una droga puede tener uno o varios principios activos.</td></tr>
+<tr><td><b>Principio activo</b></td><td>Sustancia responsable de la actividad farmacológica de la droga.</td><td>Es "lo que hace efecto" dentro del medicamento.</td></tr>
+<tr><td><b>Excipiente</b></td><td>Sustancia sin actividad farmacológica que acompaña al principio activo.</td><td>NUNCA es responsable del efecto — pregunta trampa habitual.</td></tr>
+</table>
+
+<h2>Ramas de la Farmacología</h2>
+<table>
+<tr><th>Rama</th><th>Qué estudia</th></tr>
+<tr><td>Farmacognosia (materia médica)</td><td>Características de las <b>drogas</b> y productos de su manipulación sencilla.</td></tr>
+<tr><td>Farmacotecnia / Farmacia galénica</td><td>Preparación adecuada de medicamentos para su uso terapéutico (forma farmacéutica).</td></tr>
+<tr><td>Farmacogenética</td><td>Influencia de los <b>genes</b> sobre los efectos de los fármacos.</td></tr>
+<tr><td>Terapia génica</td><td>Introducción de un gen en células/tejidos para corregir la enfermedad causada por su alteración.</td></tr>
+<tr><td>Toxicología medicamentosa</td><td>RAM y enfermedades ocasionadas por medicamentos. Todos los medicamentos son potencialmente tóxicos.</td></tr>
+<tr><td>Farmacología clínica</td><td>Efectos de los fármacos en el hombre sano y enfermo; uso racional del medicamento.</td></tr>
+<tr><td>Farmacoterapia (Farmacología Aplicada)</td><td>Utilización de fármacos en la modificación de funciones fisiológicas, diagnóstico, prevención y tratamiento.</td></tr>
+<tr><td><b>Farmacocinética</b></td><td>Qué le hace el <b>organismo</b> al fármaco: LADME (Liberación, Absorción, Distribución, Metabolismo, Excreción).</td></tr>
+<tr><td><b>Farmacodinamia</b></td><td>Qué le hace el <b>fármaco</b> al organismo: mecanismo de acción, efectos terapéuticos y adversos.</td></tr>
+</table>
+<div class="callout mnemo">Regla mnemotécnica: "cinÉtica" → lo que le pasa al fármaco (piensa en "kinesis" = movimiento del fármaco por el cuerpo). "Dinamia" → la fuerza/acción que el fármaco ejerce sobre el organismo.</div>
+
+<h2>Desarrollo del medicamento y ensayos clínicos</h2>
+<p>Los nuevos principios activos se sintetizan a partir de: plantas, tejidos animales, cultivos de microorganismos, células humanas y tecnología genética.</p>
+<table>
+<tr><th>Fase</th><th>Sujetos</th><th>Objetivo</th></tr>
+<tr><td>Ensayos preclínicos</td><td><b>Animales de experimentación</b>, cultivos celulares, órganos aislados</td><td>Toxicidad y actividad básica antes de probar en humanos.</td></tr>
+<tr><td>Fase I</td><td><b>Voluntarios sanos</b></td><td>Seguridad, tolerabilidad, farmacocinética inicial.</td></tr>
+<tr><td>Fase II</td><td>Pacientes (grupo reducido)</td><td>Eficacia y búsqueda de dosis.</td></tr>
+<tr><td>Fase III</td><td>Pacientes (gran escala)</td><td>Se compara el fármaco en estudio con el <b>tratamiento estándar</b> o placebo.</td></tr>
+<tr><td>Fase IV</td><td>Población general, tras comercialización</td><td><b>Farmacovigilancia</b>: RAM raras o a largo plazo.</td></tr>
+</table>
+
+<h2>Vías de administración: primera clasificación</h2>
+<ul>
+<li><b>Vía enteral</b> (digestivo): oral, rectal, sublingual — pueden tener efecto local o sistémico (la sublingual, prácticamente solo sistémico).</li>
+<li><b>Vía parenteral</b>: rompe un tegumento (jeringa). Solo efecto sistémico. Incluye IM, SC, IV, epidural/intratecal.</li>
+<li><b>Vía tópica</b>: efecto local, pero puede absorberse y dar efecto sistémico (respiratoria, piel, vaginal, bucal).</li>
+</ul>
+<div class="callout warn">Pregunta trampa muy repetida: la vía <b>transdérmica</b> NO es parenteral (no rompe tegumento) aunque busque efecto sistémico — es tópica. La vía <b>rectal</b> es enteral, no parenteral.</div>
+
+<h2>Formas farmacéuticas y farmacovigilancia — datos sueltos que caen en test</h2>
+<ul>
+<li>Las cápsulas blandas también se llaman <b>perlas</b>.</li>
+<li>Para evitar el efecto de primer paso hepático por vía oral se usan <b>comprimidos sublinguales</b>.</li>
+<li>La separación del principio activo de su forma farmacéutica se llama <b>liberación</b>.</li>
+<li>Los excipientes sirven de vehículo, alteran propiedades organolépticas y favorecen la biodisponibilidad — nunca son responsables del efecto.</li>
+<li>La Fase IV también se denomina <b>farmacovigilancia</b>.</li>
+</ul>
+
+<div class="footer-page">Tema 1 — Introducción a la Farmacología</div>
+
+<!-- ===================== TEMA 2 ===================== -->
+<h1 class="tema"><span class="num">Tema 2</span>Farmacocinética: Absorción</h1>
+
+<h2>Biofase y absorción</h2>
+<p><b>Biofase:</b> lugar donde el fármaco está en condiciones de interactuar con sus receptores y ejercer su efecto. <b>Absorción:</b> paso del fármaco a la circulación general o sistémica; depende de la vía de administración (a mayor vascularización, mayor velocidad).</p>
+
+<h2>Mecanismos de paso a través de membranas — la tabla más preguntada del temario</h2>
+<table>
+<tr><th>Mecanismo</th><th>Gradiente</th><th>Energía</th><th>Saturable/inhibible</th><th>Típico de</th></tr>
+<tr><td>Filtración por poros</td><td>A favor</td><td>No</td><td>No</td><td>Fármacos hidrosolubles y pequeños</td></tr>
+<tr><td>Difusión pasiva</td><td>A favor</td><td>No</td><td><b>No</b></td><td>Fármacos liposolubles y pequeños — el mecanismo más empleado</td></tr>
+<tr><td>Difusión facilitada</td><td>A favor</td><td>No</td><td><b>Sí</b> (molécula transportadora)</td><td>Con transportador, sin gasto de ATP</td></tr>
+<tr><td>Transporte activo</td><td><b>En contra</b></td><td><b>Sí</b></td><td><b>Sí</b></td><td>Con transportador, gasto de ATP</td></tr>
+<tr><td>Endocitosis / exocitosis</td><td>—</td><td>Sí</td><td>—</td><td>Fármacos de elevado peso molecular</td></tr>
+<tr><td>Liposomas</td><td>—</td><td>—</td><td>—</td><td>Fármaco encapsulado en esfera lipídica</td></tr>
+</table>
+<div class="callout warn">Trampa clásica: "la difusión pasiva es saturable e inhibible" → FALSO. Solo son saturables e inhibibles la difusión facilitada y el transporte activo (los que usan transportador).</div>
+
+<h2>Ionización: la regla que resuelve media docena de preguntas</h2>
+<div class="callout">
+<b>Un fármaco rodeado del mismo tipo de pH que él (ácido en medio ácido, básico en medio básico) está preferentemente en su forma NO IONIZADA (NI)</b> → liposoluble, apolar, atraviesa membranas fácilmente.<br>
+<b>Un fármaco rodeado de un pH distinto al suyo (básico en medio ácido, ácido en medio básico) está preferentemente en su forma IONIZADA (I)</b> → hidrosoluble, polar, NO atraviesa membranas, pero se elimina mejor por orina.
+</div>
+<p>La difusión pasiva es tanto más rápida cuanto: menor peso molecular, mayor liposolubilidad, mayor diferencia de concentración y mayor proporción de forma no ionizada.</p>
+
+<h2>Vías de administración — perfil de cada una</h2>
+<table>
+<tr><th>Vía</th><th>Rasgos clave</th></tr>
+<tr><td>Oral</td><td>Cómoda, barata, alta variabilidad (edad, diarrea, alimento), <b>baja</b> velocidad de absorción, sufre efecto de primer paso hepático.</td></tr>
+<tr><td>Sublingual</td><td>Casi 100% a sangre, <b>sin</b> primer paso hepático, acción en 3-5 min, útil en urgencias.</td></tr>
+<tr><td>Rectal</td><td>Errática, escaso primer paso hepático, útil en pacientes inconscientes o niños.</td></tr>
+<tr><td>Respiratoria/inhalatoria</td><td>Efecto local (broncodilatadores) o sistémico (anestésicos generales); vía de fármacos volátiles y gaseosos.</td></tr>
+<tr><td>Dérmica/tópica</td><td>Efecto local (cremas) o sistémico (parches hormonales); corticoides en piel fina de bebés → riesgo sistémico.</td></tr>
+<tr><td>Subcutánea</td><td>Absorción rápida, pero <b>más lenta</b> que IM.</td></tr>
+<tr><td>Intramuscular</td><td>Más rápida que SC y oral (zona muy vascularizada).</td></tr>
+<tr><td>Intravenosa</td><td>Exacta, rápida, urgencias; <b>no tiene fase de absorción</b> (todo pasa directo a sangre); peligrosa (alergias).</td></tr>
+<tr><td>Epidural/intratecal</td><td>Fármacos hidrosolubles que no atraviesan BHE y deben actuar en el SNC.</td></tr>
+</table>
+<div class="callout warn">Orden de velocidad típico en exámenes: IV &gt; IM &gt; SC &gt; oral. Y "más lenta generalmente": vía oral (sobre todo si hay alimento en el estómago).</div>
+
+<h2>Biodisponibilidad y curvas de niveles plasmáticos (CNP)</h2>
+<p>La biodisponibilidad es la concentración de fármaco disponible para ejercer efecto en función del tiempo; se estudia con las CNP, que permiten comparar velocidades de absorción de un mismo fármaco por distintas vías, o de distintos fármacos por la misma vía.</p>
+<table>
+<tr><th>Parámetro</th><th>Significado</th></tr>
+<tr><td>CME</td><td>Concentración mínima eficaz</td></tr>
+<tr><td>CMT</td><td>Concentración mínima tóxica</td></tr>
+<tr><td>Periodo de latencia</td><td>Tiempo entre administración y comienzo del efecto</td></tr>
+<tr><td>Tiempo máximo</td><td>Momento de concentración plasmática máxima</td></tr>
+<tr><td>Duración del efecto (DE)</td><td>Tiempo que el fármaco permanece entre CME y CMT</td></tr>
+<tr><td>Índice de eficacia (IE)</td><td>Relación asociada a la intensidad de la respuesta</td></tr>
+<tr><td>Margen/índice terapéutico</td><td>Ventana entre dosis eficaz y dosis tóxica</td></tr>
+</table>
+<p>Toda vía de administración tiene concentración 0 en sangre a tiempo 0, <b>excepto la IV</b>, donde a tiempo 0 la concentración es máxima (no hay fase de absorción).</p>
+
+<h2>Efecto de primer paso hepático</h2>
+<p>La sangre del aparato digestivo pasa por el hígado antes de llegar a la circulación general, por lo que parte del fármaco administrado por vía oral o rectal se metaboliza/elimina antes de hacer efecto. Un fármaco con elevado primer paso hepático se administra por una vía que lo evite (sublingual, IV, transdérmica...).</p>
+
+<div class="footer-page">Tema 2 — Farmacocinética: Absorción</div>
+
+<!-- ===================== TEMA 3 ===================== -->
+<h1 class="tema"><span class="num">Tema 3</span>Farmacocinética: Distribución</h1>
+
+<h2>Qué comprende la distribución</h2>
+<ul>
+<li>Circulación del fármaco en sangre hacia el órgano diana.</li>
+<li>Circulación a través de barreras especiales (BHE, placentaria).</li>
+<li>Depósito en diferentes tejidos.</li>
+<li>Circulación hacia el órgano que lo metaboliza y/o elimina.</li>
+</ul>
+
+<h2>Unión a proteínas plasmáticas — combinación razonada clave</h2>
+<div class="callout">
+Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo (a favor de gradiente). El fármaco unido a proteínas plasmáticas (principalmente <b>albúmina</b>, unión reversible) actúa como <b>reservorio</b>.
+</div>
+<table>
+<tr><th>Situación</th><th>Efecto sobre albúmina / distribución</th></tr>
+<tr><td>Traumatismos y quemaduras</td><td><b>Aumenta</b> la [albúmina]</td></tr>
+<tr><td>Malnutrición y diabetes</td><td><b>Disminuye</b> la [albúmina]</td></tr>
+<tr><td>Insuficiencia renal</td><td>Altera el grado de unión a proteínas plasmáticas</td></tr>
+<tr><td>Dos fármacos que compiten por la misma proteína</td><td>Pueden generar interacciones (uno desplaza al otro)</td></tr>
+</table>
+
+<h2>Volumen de distribución (Vd)</h2>
+<table>
+<tr><th>Vd elevado</th><th>Vd bajo</th></tr>
+<tr><td>Baja unión a proteínas plasmáticas / alta unión a proteínas tisulares</td><td>Elevada unión a proteínas plasmáticas</td></tr>
+<tr><td>El fármaco "se esconde" en los tejidos, poco queda en plasma</td><td>El fármaco permanece más en el compartimento plasmático</td></tr>
+</table>
+
+<h2>Barreras especiales</h2>
+<ul>
+<li><b>BHE (barrera hematoencefálica):</b> muy lipídica — solo la atraviesan fármacos altamente liposolubles. La meningitis altera la BHE (por eso es tan peligrosa: permite pasar fármacos que normalmente no entrarían, y también patógenos).</li>
+<li><b>Barrera placentaria:</b> más permeable en fases iniciales de la gestación (menor grosor y superficie). Se asume que todos los fármacos administrados a la madre pueden atravesarla y afectar al feto, salvo que se demuestre lo contrario. Lo mismo se asume para la leche materna.</li>
+</ul>
+
+<h2>Factores que condicionan la distribución</h2>
+<ul>
+<li>Dosis y vía de administración</li>
+<li>Grado de ionización (pKa) del fármaco</li>
+<li>Liposolubilidad</li>
+<li>Grado de unión a proteínas plasmáticas y tisulares</li>
+<li>Flujo sanguíneo del tejido</li>
+</ul>
+<p>Ejemplo de fijación tisular: las tetraciclinas se fijan a hueso; los fármacos muy liposolubles se acumulan en tejido adiposo.</p>
+
+<div class="footer-page">Tema 3 — Farmacocinética: Distribución</div>
+
+<!-- ===================== TEMA 4 ===================== -->
+<h1 class="tema"><span class="num">Tema 4</span>Farmacocinética: Metabolismo y Excreción</h1>
+
+<h2>Metabolismo</h2>
+<p>Transformación del fármaco en sustancias más hidrosolubles (metabolitos). El hígado es el órgano principal, mediante enzimas del <b>citocromo P450</b>.</p>
+<table>
+<tr><th>Fase</th><th>Reacción</th><th>Resultado</th></tr>
+<tr><td>Fase I</td><td>Oxidación, reducción, hidrólisis</td><td>Metabolito más o menos activo/tóxico</td></tr>
+<tr><td>Fase II</td><td>Conjugación con sustancia endógena muy hidrosoluble</td><td>Aumenta mucho la hidrosolubilidad, facilita la excreción</td></tr>
+</table>
+<p>El metabolito puede ser: <b>inactivo</b>, <b>activo</b> (prolonga el efecto) o <b>tóxico</b> (ej. paracetamol → metabolito hepatotóxico; por eso en niños pequeños el paracetamol es de elección: la enzima que genera ese metabolito tóxico aún no ha madurado). Los <b>profármacos</b> se administran inactivos y se activan mediante metabolismo.</p>
+
+<h2>Factores que modifican el metabolismo — combinación muy repetida</h2>
+<table>
+<tr><th>Tipo</th><th>Factores</th></tr>
+<tr><td>Fisiológicos</td><td>Edad (más lento con la edad), embarazo y lactancia, sexo (más rápido en hombres), raza (etnia negra metaboliza más rápido), genes (acetiladores rápidos/lentos)</td></tr>
+<tr><td>Patológicos</td><td>Insuficiencia renal, insuficiencia hepática (→ el fármaco se metaboliza más despacio, permanece más tiempo, riesgo de toxicidad)</td></tr>
+<tr><td>Yatrogénicos</td><td>Inductores enzimáticos (↑ velocidad de metabolismo → posible ineficacia) e inhibidores enzimáticos (↓ velocidad → posible toxicidad, ↑ vida media)</td></tr>
+</table>
+<div class="callout warn">Regla de oro: acelerar el metabolismo → menor permanencia del fármaco → posible <b>ineficacia</b>. Enlentecer el metabolismo → mayor permanencia → posible <b>toxicidad</b>.</div>
+
+<h2>Excreción renal</h2>
+<ol>
+<li><b>Filtración glomerular:</b> pasa el fármaco libre, con PM &lt; 70.000 D.</li>
+<li><b>Secreción tubular:</b> pasiva o transporte activo (saturable); puede excretarse tanto la fracción libre como la unida a proteínas.</li>
+<li><b>Reabsorción tubular:</b> por difusión pasiva, depende del pH. Un fármaco no ionizado en orina se reabsorbe (mayor duración de efecto); un fármaco ionizado en orina se elimina más rápido.</li>
+</ol>
+<div class="callout">Manejo de intoxicaciones (muy preguntado): fármaco ÁCIDO que se intoxica → <b>alcalinizar la orina</b> (+ diurético) para ionizarlo y eliminarlo. Fármaco BÁSICO que se intoxica → <b>acidificar la orina</b> (+ diurético).</div>
+
+<h2>Otras vías de excreción</h2>
+<ul>
+<li><b>Biliar:</b> segunda en importancia tras la renal. Para compuestos de alto PM o sin capacidad de ionizarse. Puede generar <b>ciclo enterohepático</b> (el fármaco eliminado por bilis se reabsorbe en el intestino) → aumenta mucho la duración del efecto. En intoxicaciones por esta vía: <b>carbón activado</b> oral, que atrapa el fármaco y lo elimina por heces.</li>
+<li>Heces, sudor, respiración, leche materna: se debe sospechar que cualquier fármaco puede eliminarse, al menos en parte, por leche materna.</li>
+</ul>
+
+<h2>Cinética de eliminación</h2>
+<p><b>Aclaramiento (clearance) renal:</b> concentración de fármaco eliminada por orina por unidad de tiempo. <b>Vida media:</b> tiempo que tarda la concentración de fármaco en el organismo en reducirse a la mitad. Son <b>inversamente proporcionales</b> entre sí.</p>
+
+<div class="footer-page">Tema 4 — Farmacocinética: Metabolismo y Excreción</div>
+
+<!-- ===================== TEMA 5 ===================== -->
+<h1 class="tema"><span class="num">Tema 5</span>Farmacodinamia: Dianas y receptores</h1>
+
+<h2>Acción específica vs. inespecífica</h2>
+<table>
+<tr><th>Inespecífica</th><th>Específica</th></tr>
+<tr><td>No se une a diana farmacológica; efecto físico (laxante de contacto) o químico (antiácidos)</td><td>Interacciona con una macromolécula del organismo (diana); son la <b>gran mayoría</b> de los fármacos</td></tr>
+</table>
+
+<h2>Las cuatro familias de dianas farmacológicas</h2>
+<ol>
+<li><b>Receptores</b> (canal iónico, proteína G, con actividad enzimática, nucleares)</li>
+<li><b>Canales iónicos</b></li>
+<li><b>Enzimas</b> (los fármacos actúan como inhibidores o falsos sustratos): inhiben rutas metabólicas, enzimas degradativas, o enzimas productoras de cofactores.</li>
+<li><b>Transportadores</b>: cotransporte (mismo sentido) o antitransporte (sentidos opuestos)</li>
+</ol>
+
+<h2>Receptores acoplados a proteína G — la tabla de segundos mensajeros (imprescindible)</h2>
+<table>
+<tr><th>Enzima efectora</th><th>Segundo mensajero</th></tr>
+<tr><td>Adenilato ciclasa</td><td><b>AMPc</b></td></tr>
+<tr><td>Fosfolipasa C</td><td><b>IP3 / DAG</b> (fosfoinositoles)</td></tr>
+<tr><td>Fosfolipasa A2</td><td><b>Ácido araquidónico</b></td></tr>
+<tr><td>Fosfolipasa D</td><td><b>Ácido araquidónico + ácido fosfatídico</b></td></tr>
+</table>
+<div class="callout mnemo">"G de G-proteína ciClasa da amPc" — Adenilato ciclasa/AMPc van siempre de la mano. Fosfolipasa C da fosfoinositoles (IP3/DAG); las otras dos fosfolipasas (A2 y D) comparten el ácido araquidónico.</div>
+
+<h2>Receptores nucleares (ligados a ADN)</h2>
+<p>Se unen a ellos sustancias liposolubles capaces de atravesar la membrana nuclear, típicamente <b>vitaminas liposolubles</b>: Vitamina D, Vitamina A, Vitamina K, Vitamina E.</p>
+
+<div class="footer-page">Tema 5 — Farmacodinamia: Dianas y receptores</div>
+
+<!-- ===================== TEMA 6 ===================== -->
+<h1 class="tema"><span class="num">Tema 6</span>Farmacodinamia: Unión fármaco-receptor y curvas dosis-respuesta</h1>
+
+<h2>Afinidad, eficacia, potencia y actividad intrínseca</h2>
+<table>
+<tr><th>Concepto</th><th>Qué mide</th><th>Cómo se lee en la gráfica</th></tr>
+<tr><td>Afinidad</td><td>Atracción química entre fármaco y receptor</td><td>Lateralidad de la curva (más a la izquierda = más afinidad); Ka inversamente proporcional a la afinidad</td></tr>
+<tr><td>Eficacia / efecto / actividad intrínseca (α)</td><td>Cantidad de respuesta que provoca el fármaco</td><td>Altura de la curva</td></tr>
+<tr><td>Toxicidad / seguridad</td><td>Margen de seguridad del fármaco</td><td>Pendiente de la curva efecto–log[F]: a mayor pendiente, mayor toxicidad y menor seguridad</td></tr>
+</table>
+
+<h2>Agonistas y antagonistas según α</h2>
+<ul>
+<li><b>α = 0 → Antagonista</b> (tiene afinidad, cero actividad intrínseca; no genera efecto propio)</li>
+<li><b>0 &lt; α &lt; 1 → Agonista parcial</b> (afinidad + eficacia submáxima, aunque ocupe el 100% de receptores)</li>
+<li><b>α = 1 → Agonista puro</b> (afinidad + eficacia máxima)</li>
+</ul>
+<div class="callout warn">Todos (agonistas y antagonistas) tienen afinidad por el receptor — lo que diferencia a un antagonista es que carece de actividad intrínseca. La unión fármaco–receptor es mayoritariamente por <b>enlaces iónicos</b> y generalmente <b>reversible</b>, y cumple la ley de acción de masas.</div>
+
+<h2>Tipos de antagonismo farmacológico</h2>
+<table>
+<tr><th>Tipo</th><th>Mecanismo</th></tr>
+<tr><td>Fisiológico</td><td>Dos fármacos con efectos farmacológicos <b>opuestos</b> (no en el mismo receptor). Ej.: vasodilatador + vasoconstrictor.</td></tr>
+<tr><td>Químico</td><td>Dos sustancias se combinan en solución y pierden su efecto (reacción química directa).</td></tr>
+<tr><td>Farmacocinético</td><td>Un fármaco altera la farmacocinética de otro (ej. modifica el pH del lugar de absorción del primero).</td></tr>
+<tr><td>Competitivo reversible</td><td>Agonista y antagonista compiten por el mismo receptor; al aumentar [agonista] se puede desplazar al antagonista.</td></tr>
+<tr><td>Competitivo irreversible / no equilibrado</td><td>El antagonista se une irreversiblemente; NO se desplaza aunque aumente [agonista].</td></tr>
+</table>
+
+<h2>Desensibilización / taquifilaxia</h2>
+<p>Son <b>sinónimos</b>: el efecto de un fármaco disminuye progresivamente con la administración continuada o repetida. Causas: alteración o pérdida de receptores, agotamiento de mediadores, aumento de la degradación metabólica, adaptación fisiológica, expulsión activa del fármaco de la célula.</p>
+
+<div class="footer-page">Tema 6 — Farmacodinamia: Unión fármaco-receptor</div>
+
+<!-- ===================== TEMA 7 ===================== -->
+<h1 class="tema"><span class="num">Tema 7</span>Sistema Nervioso Autónomo: Fundamentos</h1>
+
+<h2>Organización y neurotransmisores</h2>
+<p>El SNA regula funciones corporales <b>involuntarias</b>: dos neuronas en serie que hacen sinapsis en un ganglio fuera del SNC (fibra preganglionar y postganglionar).</p>
+<table>
+<tr><th>Neurotransmisor</th><th>Se libera en</th><th>Receptor en órgano diana</th></tr>
+<tr><td><b>Acetilcolina (Ach)</b> — fibras colinérgicas</td><td>Fibras preganglionares (simpáticas y parasimpáticas), fibras postganglionares parasimpáticas, fibras de la médula suprarrenal, fibras somáticas</td><td><b>Nicotínico</b> (ganglios, músculo esquelético) o <b>Muscarínico</b> (órganos inervados por el parasimpático)</td></tr>
+<tr><td><b>Noradrenalina (NA)</b> — fibras adrenérgicas</td><td>Fibras postganglionares simpáticas</td><td><b>Adrenérgico</b> (alfa / beta)</td></tr>
+</table>
+
+<h2>Terminología — la piedra angular de todo el bloque de SNA</h2>
+<table>
+<tr><th>Si la patología...</th><th>Necesitas un fármaco que...</th><th>Se llama</th></tr>
+<tr><td>Disminuye el parasimpático</td><td>Aumente el parasimpático</td><td><b>Parasimpaticomimético</b> = colinérgico = agonista muscarínico</td></tr>
+<tr><td>Aumenta el parasimpático</td><td>Disminuya el parasimpático</td><td><b>Parasimpaticolítico</b> = anticolinérgico = antagonista/bloqueante muscarínico</td></tr>
+<tr><td>Disminuye el simpático</td><td>Aumente el simpático</td><td><b>Simpaticomimético</b> = adrenérgico = agonista adrenérgico</td></tr>
+<tr><td>Aumenta el simpático</td><td>Disminuya el simpático</td><td><b>Simpaticolítico</b> = antiadrenérgico = antagonista/bloqueante adrenérgico</td></tr>
+</table>
+<p>Otros fármacos no actúan directamente sobre el receptor, sino modulando al neurotransmisor: aumentando/disminuyendo su síntesis, bloqueando su degradación (inhibidores enzimáticos), aumentando su liberación o inhibiendo su recaptación.</p>
+
+<h2>Efectos opuestos: parasimpático vs. simpático (tabla maestra)</h2>
+<table>
+<tr><th>Función</th><th>Parasimpático (Ach / muscarínico)</th><th>Simpático (NA / adrenérgico)</th></tr>
+<tr><td>Pupila</td><td>Miosis (contracción)</td><td>Midriasis (dilatación)</td></tr>
+<tr><td>Corazón</td><td>↓ funciones cardiacas</td><td>↑ funciones cardiacas (taquicardia)</td></tr>
+<tr><td>Bronquios</td><td>Broncoconstricción</td><td>Broncodilatación</td></tr>
+<tr><td>Secreciones</td><td>↑ secreciones</td><td>↓ secreciones (excepto sudor, que ↑)</td></tr>
+<tr><td>Digestivo</td><td>↑ funciones digestivas (relaja esfínteres)</td><td>↓ funciones digestivas (contrae esfínteres, estreñimiento)</td></tr>
+<tr><td>Urinario</td><td>↑ funciones urinarias (relaja esfínteres, micción)</td><td>↓ funciones urinarias (contrae esfínteres, retención)</td></tr>
+<tr><td>Vasos</td><td>Vasodilatación generalizada</td><td>Vasoconstricción generalizada</td></tr>
+<tr><td>Metabolismo</td><td>—</td><td>Gluconeogénesis, glucogenólisis (↑ glucemia)</td></tr>
+</table>
+
+<h2>Aplicación clínica directa — usos, RAM y contraindicaciones razonadas</h2>
+<div class="callout"><b>HTA:</b> tratar con simpaticolítico, colinérgico o parasimpaticomimético (bajan el tono simpático o suben el parasimpático).<br>
+<b>Taquicardia como RAM:</b> la provocan los simpaticomiméticos y los antimuscarínicos (anticolinérgicos), nunca los agonistas muscarínicos.<br>
+<b>Asma:</b> CONTRAINDICADOS los agonistas muscarínicos, parasimpaticomiméticos y anticolinesterásicos (broncoconstricción); son de elección los agonistas beta-2 (broncodilatación).</div>
+
+<div class="footer-page">Tema 7 — SNA: Fundamentos</div>
+
+<!-- ===================== TEMA 8 ===================== -->
+<h1 class="tema"><span class="num">Tema 8</span>Sistema Nervioso Parasimpático</h1>
+
+<h2>Destino de la Ach liberada</h2>
+<p>Al liberarse a la hendidura sináptica sigue 3 caminos: (1) se une al receptor del órgano inervado, (2) es recaptada por la fibra presináptica, (3) se degrada por la <b>acetilcolinesterasa</b>. Los receptores muscarínicos son receptores acoplados a proteína G, con Fosfolipasa C → IP3 como segundo mensajero.</p>
+
+<h2>Parasimpaticomiméticos (colinérgicos)</h2>
+<table>
+<tr><th>Tipo</th><th>Mecanismo</th><th>Fármacos</th><th>Usos clave</th></tr>
+<tr><td>Acción directa</td><td>Se unen al receptor muscarínico (agonistas muscarínicos)</td><td>Carbacol, Betanecol, Pilocarpina, Muscarina</td><td>Carbacol → retención urinaria. Betanecol → íleo paralítico y atonía vesical. Pilocarpina (tópica) → <b>glaucoma</b> (↑ secreción, ↓ presión intraocular). Muscarina → tóxico de la Amanita muscaria, produce parada cardiorrespiratoria.</td></tr>
+<tr><td>Acción indirecta (anticolinesterásicos)</td><td>Inhiben la acetilcolinesterasa → ↑ Ach disponible</td><td>Fisostigmina, Neostigmina, Piridostigmina, Edrofonio; atraviesan BHE: Tacrina, Donepezilo; tóxicos: pesticidas organofosforados (inhibición irreversible)</td><td>Los 4 primeros: intoxicación por anticolinérgicos, <b>miastenia gravis</b>, revertir bloqueantes neuromusculares. Tacrina/Donepezilo: <b>Alzheimer</b> (pérdida de función colinérgica central).</td></tr>
+</table>
+
+<h2>Parasimpaticolíticos (anticolinérgicos / antagonistas muscarínicos)</h2>
+<table>
+<tr><th>Fármaco</th><th>Uso característico</th></tr>
+<tr><td>Atropina</td><td>Antídoto en intoxicación por organofosforados y por setas (muscarina); preanestesia</td></tr>
+<tr><td>Pirenzepina</td><td>Único fármaco selectivo de M1 (estómago) → antiulceroso</td></tr>
+<tr><td>Tolterodina</td><td>Vejiga hiperactiva</td></tr>
+<tr><td>Escopolamina (burundanga)</td><td>Cinetosis (mareo por movimiento), a dosis mínimas</td></tr>
+</table>
+<p>Reacciones adversas de los anticolinérgicos: sequedad de boca (xerostomía), taquicardia, midriasis, estreñimiento, retención urinaria — el efecto contrario a la Ach. Usos generales: preanestesia, cinetosis, Parkinson; <b>contraindicados en asma</b> (broncoconstricción no bloqueada) — cuidado, la "hepatitis" NO es un uso típico de los anticolinérgicos (pregunta trampa habitual).</p>
+
+<div class="footer-page">Tema 8 — Sistema Nervioso Parasimpático</div>
+
+<!-- ===================== TEMA 9 ===================== -->
+<h1 class="tema"><span class="num">Tema 9</span>Sistema Nervioso Simpático</h1>
+
+<h2>Destino de la NA y receptores adrenérgicos</h2>
+<p>La NA liberada sigue 3 caminos: estimula el receptor del órgano inervado, se degrada por <b>MAO y COMT</b>, o es recaptada por la terminación ganglionar. Los inhibidores de la recaptación o de la degradación son simpaticomiméticos indirectos.</p>
+<table>
+<tr><th>Receptor</th><th>2º mensajero</th><th>Localización y efecto</th></tr>
+<tr><td>Alfa 1</td><td>Fosfolipasa C → IP3</td><td>Vasos sanguíneos → <b>vasoconstricción</b> (↑ TA, descongestivo nasal); midriasis; retención urinaria; ↓ secreciones bronquiales</td></tr>
+<tr><td>Alfa 2</td><td>(inhibe adenilato ciclasa)</td><td>Capta el exceso de NA liberada → señal de <b>inhibición de la síntesis de NA</b>. Los <b>agonistas</b> alfa-2 son simpaticolíticos (efecto contrario a la NA); los antagonistas alfa-2 son simpaticomiméticos.</td></tr>
+<tr><td>Beta 1</td><td>Adenilato ciclasa → AMPc</td><td>Corazón → ↑ inotropismo, cronotropismo, dromotropismo (taquicardia); liberación de renina</td></tr>
+<tr><td>Beta 2</td><td>Adenilato ciclasa → AMPc</td><td>Pulmón → <b>broncodilatación</b>; ↓ tono digestivo (estreñimiento); relajación uterina; glucogenólisis (↑ glucemia)</td></tr>
+<tr><td>Beta 3</td><td>Adenilato ciclasa → AMPc</td><td>Tejido adiposo</td></tr>
+</table>
+<div class="callout warn">Excepciones del SN Simpático: las glándulas sudoríparas están inervadas por el simpático pero liberan Ach en ambas fibras (típico del parasimpático). Las glándulas suprarrenales tienen UNA sola fibra que libera Ach directamente (doble excepción).</div>
+
+<h2>Simpaticomiméticos (adrenérgicos)</h2>
+<table>
+<tr><th>Subtipo</th><th>Fármacos</th><th>Uso</th></tr>
+<tr><td>No selectivo</td><td>Adrenalina (epinefrina)</td><td>Con anestésicos locales, anafilaxia, parada cardiaca</td></tr>
+<tr><td>Agonistas alfa 1</td><td>Fenilefrina, Metoxamina, Oximetazolina</td><td>Descongestivos, agentes presores</td></tr>
+<tr><td>Agonistas alfa 2</td><td>Clonidina, Medetomidina, Xilazina</td><td>Vasodilatadores/sedantes centrales (efecto contrario a NA)</td></tr>
+<tr><td>Agonistas beta 1</td><td>Dobutamina, Dopamina</td><td>Mantenimiento del gasto cardiaco (anestesia, UCI)</td></tr>
+<tr><td>Agonistas beta 2</td><td>Salbutamol, Fenoterol, Terbutalina</td><td><b>Asma</b> (broncodilatadores)</td></tr>
+<tr><td>Agonistas beta 2 (uterino)</td><td>Ritodrina</td><td>Relajación uterina en gestación (tocolítico)</td></tr>
+<tr><td>Indirectos / acción central</td><td>Imipramina (inhibe recaptación de NA), Anfetaminas y derivados</td><td>Antidepresivo; narcolepsia y anorexígenos</td></tr>
+</table>
+
+<h2>Simpaticolíticos (antiadrenérgicos)</h2>
+<table>
+<tr><th>Subtipo</th><th>Fármacos</th><th>Uso</th></tr>
+<tr><td>Bloqueantes alfa 1</td><td>Prazosina</td><td>Vasodilatador, retención urinaria (hiperplasia prostática)</td></tr>
+<tr><td>Poco selectivos</td><td>Alcaloides del cornezuelo de centeno, Ergotamina</td><td>Vasoconstricción periférica potente; antimigrañoso</td></tr>
+<tr><td>Bloqueantes beta 1</td><td>Atenolol, Metoprolol, Bisoprolol, Celiprolol, Dilevalol</td><td>↓ gasto cardiaco (HTA, arritmias)</td></tr>
+</table>
+
+<div class="footer-page">Tema 9 — Sistema Nervioso Simpático</div>
+
+<!-- ===================== TEMA 10 ===================== -->
+<h1 class="tema"><span class="num">Tema 10</span>Bloqueantes neuromusculares y anestésicos generales</h1>
+
+<h2>Bloqueantes neuromusculares (BNM)</h2>
+<ul>
+<li>Actúan sobre el receptor <b>nicotínico</b> de la placa motora (algunos por bloqueo/antagonismo, otros por despolarización mantenida).</li>
+<li>Usos: facilitar la <b>intubación traqueal</b>, relajación muscular en cirugía abdominal, control de convulsiones y tétanos.</li>
+<li>Precauciones: ajustar dosis según efecto observado; su margen de seguridad NO es amplio (hay que vigilar estrechamente); interaccionan con anestésicos generales, antibióticos, antiarrítmicos y antagonistas del calcio (potencian el bloqueo).</li>
+<li>Reacciones adversas: liberación de histamina, bloqueo vegetativo, alteraciones del potasio (hiperpotasemia con los despolarizantes).</li>
+</ul>
+
+<h2>Anestésicos generales</h2>
+<table>
+<tr><th>Concepto</th><th>Significado</th></tr>
+<tr><td>CAM</td><td>Concentración alveolar mínima: a mayor CAM, <b>menor</b> potencia del anestésico inhalatorio.</td></tr>
+<tr><td>Coeficiente de partición Lípido/Gas (L/G)</td><td>A mayor L/G, mayor <b>potencia</b> (y menor CAM).</td></tr>
+<tr><td>Coeficiente Sangre/Gas (S/G)</td><td>A menor S/G, mayor velocidad de <b>inducción y recuperación</b> de la anestesia.</td></tr>
+</table>
+<p>Para que un anestésico inhalatorio actúe en el SNC debe alcanzarse un equilibrio entre su concentración en el pulmón (alveolo) y en sangre. Los anestésicos generales <b>intravenosos</b> se usan típicamente para la <b>inducción</b> de la anestesia.</p>
+
+<div class="footer-page">Tema 10 — BNM y anestésicos generales</div>
+
+<!-- ===================== TEMA 11 ===================== -->
+<h1 class="tema"><span class="num">Tema 11</span>SNC: neurotransmisores y analgésicos opioides</h1>
+
+<h2>Neurotransmisores del SNC</h2>
+<table>
+<tr><th>Neurotransmisor</th><th>Papel</th></tr>
+<tr><td><b>GABA</b></td><td>Principal neurotransmisor <b>inhibidor</b> del SNC</td></tr>
+<tr><td><b>Glutamato</b></td><td>Principal neurotransmisor <b>excitador</b> del SNC</td></tr>
+<tr><td>Serotonina, Dopamina, Noradrenalina</td><td>Monoaminas de acción rápida</td></tr>
+<tr><td>Acetilcolina</td><td>Su pérdida de función a nivel central se asocia a la enfermedad de <b>Alzheimer</b></td></tr>
+</table>
+<div class="callout">Para <b>inhibir</b> el SNC en general: hiperpolarizar la membrana (entrada de cargas negativas / salida de positivas), es decir, favorecer canales de Cl⁻ (GABA) o K⁺.</div>
+
+<h2>Analgésicos opioides — la tabla más rentable del bloque</h2>
+<table>
+<tr><th>Categoría (α)</th><th>Fármacos</th><th>Rasgos</th></tr>
+<tr><td>Agonistas puros (α=1)</td><td>Morfina, Fentanilo, Codeína, Petidina, Metadona, Tramadol (potencia intermedia)</td><td>Fentanilo → anestesia quirúrgica (muy potente). Codeína → uso como antitusígeno. Petidina → agonista puro clásico.</td></tr>
+<tr><td>Agonista parcial</td><td>Buprenorfina</td><td>Vía sublingual habitual; techo de efecto (menor eficacia máxima que un agonista puro)</td></tr>
+<tr><td>Agonista/antagonista mixto</td><td>Pentazocina</td><td>Analgésico; puede precipitar síndrome de abstinencia si se da junto a un agonista puro</td></tr>
+<tr><td>Antagonistas puros</td><td>Naloxona (acción rápida, IV, en intoxicación aguda por opiáceos), Naltrexona (uso en programas de deshabituación, no en intoxicación aguda)</td><td>Sin actividad intrínseca (α=0)</td></tr>
+<tr><td>Uso periférico</td><td>Loperamida</td><td>Antidiarreico; apenas atraviesa la BHE (a diferencia de otros opioides) por eso no genera efectos centrales relevantes a dosis normales</td></tr>
+</table>
+<p><b>Efectos de la morfina:</b> analgesia potente, <b>miosis</b> (pupila puntiforme, típico de sobredosis), depresión respiratoria (causa de muerte en sobredosis), deprime el reflejo de la tos (antitusígeno), <b>estreñimiento</b> (nunca diarrea — pregunta trampa: "genera diarrea" es INCORRECTO), desarrolla tolerancia con el uso repetido, múltiples vías de administración.</p>
+
+<div class="footer-page">Tema 11 — SNC y analgésicos opioides</div>
+
+<!-- ===================== TEMA 12 ===================== -->
+<h1 class="tema"><span class="num">Tema 12</span>AINEs y antiinflamatorios</h1>
+
+<h2>Mecanismo de acción</h2>
+<p>Inhiben la síntesis de <b>prostaglandinas</b> mediante el bloqueo de la ciclooxigenasa (COX). La COX-1 es constitutiva (protección gástrica, función renal, agregación plaquetaria); la COX-2 se induce en la inflamación. La inhibición inespecífica de ambas COX genera los efectos indeseables clásicos: alteraciones gastrointestinales, renales y de la coagulación.</p>
+
+<h2>Clasificación química</h2>
+<table>
+<tr><th>Grupo</th><th>Ejemplos</th><th>Nota</th></tr>
+<tr><td>Salicilatos</td><td>Ácido acetilsalicílico (AAS)</td><td>Antiagregante plaquetario a dosis bajas</td></tr>
+<tr><td>Ácidos arilpropiónicos</td><td>Ibuprofeno, Dexketoprofeno, Naproxeno</td><td>Grupo muy usado, buena tolerancia relativa</td></tr>
+<tr><td>Ácidos arilacéticos / indolacéticos</td><td>Diclofenaco, Aceclofenaco, Indometacina</td><td>Indometacina: de los más potentes inhibiendo prostaglandinas</td></tr>
+<tr><td>Para-aminofenoles</td><td>Paracetamol</td><td>Analgésico y antitérmico, <b>escasa actividad antiinflamatoria</b> (no es un AINE clásico en ese sentido); no es antiagregante</td></tr>
+<tr><td>Pirazolonas</td><td>Metamizol</td><td>Analgésico/antipirético potente</td></tr>
+<tr><td>Oxicams</td><td>Piroxicam</td><td>10-30 veces más potente que la indometacina</td></tr>
+<tr><td>Coxibs (inhibidores selectivos COX-2)</td><td>Celecoxib, Rofecoxib</td><td>Terminan en "-coxib"; menor gastrolesividad pero <b>mayor riesgo de trombosis/eventos cardiovasculares</b></td></tr>
+</table>
+
+<h2>Reacciones adversas</h2>
+<ul>
+<li>Hemorragia gastrointestinal, gastrolesión (más con inhibición no selectiva de COX-1)</li>
+<li>Antiagregación plaquetaria (AAS) — pero atención: en general los AINEs NO deben describirse como "aumentan la agregación plaquetaria" (es al revés)</li>
+<li>Nefrotoxicidad, retención hidrosalina</li>
+<li>Con coxibs: mayor riesgo de trombosis</li>
+<li>Interacciones: aumentan el riesgo de hemorragia con alcohol y anticoagulantes; aumentan la toxicidad del litio; DISMINUYEN el efecto de los diuréticos; con corticoides aumentan el riesgo de úlcera hemorrágica; pueden aumentar la resistencia a la insulina.</li>
+<li>En el embarazo, pueden prolongar la gestación y el trabajo de parto (inhiben prostaglandinas, necesarias para el parto).</li>
+</ul>
+
+<h2>Fármacos relacionados con vías respiratorias/alérgicas (aparecen junto a AINEs en examen)</h2>
+<table>
+<tr><th>Fármaco</th><th>Grupo / uso</th></tr>
+<tr><td>Cromoglicato disódico, Nedocromilo, Ketotifeno</td><td>Profilaxis del asma (estabilizadores de mastocitos)</td></tr>
+<tr><td>Zafirlukast</td><td>Antagonista de los receptores de leucotrienos, útil en asma</td></tr>
+<tr><td>Cimetidina</td><td>Antihistamínico <b>H2</b>, antiulceroso (no confundir con los H1)</td></tr>
+</table>
+
+<div class="footer-page">Tema 12 — AINEs y antiinflamatorios</div>
+
+<!-- ===================== TEMA 13 ===================== -->
+<h1 class="tema"><span class="num">Tema 13</span>FAME y anticuerpos monoclonales</h1>
+
+<h2>FAME (Fármacos Antirreumáticos Modificadores de la Enfermedad)</h2>
+<p>Usados en artritis reumatoide; a diferencia de los AINEs (solo tratamiento sintomático del dolor/inflamación, no detienen el proceso destructivo articular), los FAME sí modifican el curso de la enfermedad.</p>
+<table>
+<tr><th>Fármaco</th><th>Tipo</th></tr>
+<tr><td>Metotrexato</td><td>FAME clásico, de primera línea</td></tr>
+<tr><td>Adalimumab, Etanercept, Infliximab</td><td>FAME biológicos — inhiben la acción del <b>TNF-alfa</b></td></tr>
+</table>
+
+<h2>Anticuerpos monoclonales y proteínas de fusión — la nomenclatura que preguntan</h2>
+<table>
+<tr><th>Sufijo</th><th>Origen</th></tr>
+<tr><td>-omab</td><td>100% murino (ratón)</td></tr>
+<tr><td>-ximab</td><td>Quimérico (parte murina + parte humana)</td></tr>
+<tr><td>-zumab</td><td>Humanizado (mayoritariamente humano)</td></tr>
+<tr><td>-umab</td><td>100% humano</td></tr>
+</table>
+<p>Las <b>proteínas de fusión</b> (ej. Etanercept) provienen de la combinación de genes de ADN diferentes, pueden inhibir el TNF-alfa, y también terminan frecuentemente en "-cept" (no siempre en "-mab", cuidado con esa generalización en preguntas tipo "todas terminan en MAB").</p>
+<div class="callout warn">Un anticuerpo denominado "ALIRO-C-U-MAB": la terminación "-u-mab" indica que es <b>humano</b>; su diana suele ser una molécula específica del propio organismo del paciente (no "el sistema inmunitario" en general de forma inespecífica) — cuidado con opciones demasiado genéricas.</div>
+
+<div class="footer-page">Tema 13 — FAME y anticuerpos monoclonales</div>
+
+</body>
+</html>

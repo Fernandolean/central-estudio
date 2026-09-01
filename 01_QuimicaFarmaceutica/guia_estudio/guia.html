@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de Estudio — Primer y Segundo Parcial de Química Farmacéutica</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1c2733;
+    font-size: 10.3pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .cover {
+    height: 250mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    page-break-after: always;
+  }
+  .cover .pill {
+    background: #0e7c86; color: #fff; font-weight: 700; font-size: 13pt;
+    padding: 6px 18px; border-radius: 999px; margin-bottom: 24px; letter-spacing: .03em;
+  }
+  .cover h1 { font-size: 26pt; margin: 0 0 10px; color: #0a5e66; }
+  .cover h2 { font-size: 13pt; font-weight: 400; color: #5b6b78; margin: 0 0 40px; }
+  .cover .toc { text-align: left; max-width: 460px; margin-top: 30px; }
+  .cover .toc h3 { font-size: 11pt; color: #0a5e66; border-bottom: 1px solid #dde3e8; padding-bottom: 6px; }
+  .cover .toc ol { padding-left: 20px; font-size: 9.5pt; }
+  .cover .toc li { margin-bottom: 4px; }
+  .cover .note { margin-top: 40px; font-size: 8.5pt; color: #93a5b1; max-width: 420px; }
+
+  h1.tema {
+    font-size: 16pt; color: #fff; background: #0e7c86;
+    padding: 10px 14px; border-radius: 8px; margin: 0 0 4mm;
+    page-break-before: always;
+  }
+  h1.tema .num { opacity: .75; font-weight: 400; font-size: 11pt; display: block; }
+  h2 { font-size: 12.5pt; color: #0a5e66; border-bottom: 2px solid #e3f4f3; padding-bottom: 3px; margin: 6mm 0 3mm; }
+  h3 { font-size: 10.8pt; color: #0e7c86; margin: 4mm 0 2mm; }
+  p { margin: 2mm 0; text-align: justify; }
+  ul, ol { margin: 2mm 0; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  b, strong { color: #0a5e66; }
+  .callout {
+    background: #e3f4f3; border-left: 3px solid #0e7c86; border-radius: 4px;
+    padding: 2.5mm 4mm; margin: 3mm 0; font-size: 9.6pt;
+  }
+  .callout.warn { background: #fdf2e0; border-left-color: #b8790a; }
+  .callout.mnemo { background: #eef2f5; border-left-color: #5b6b78; font-style: italic; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 3mm 0 4mm; font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  th { background: #0e7c86; color: #fff; text-align: left; padding: 2mm 2.5mm; font-size: 8.6pt; }
+  td { border-bottom: 1px solid #dde3e8; padding: 2mm 2.5mm; vertical-align: top; }
+  tr:nth-child(even) td { background: #f4f7f9; }
+  .two-col { display: flex; gap: 6mm; }
+  .two-col > div { flex: 1; }
+  .footer-page { font-size: 7.5pt; color: #93a5b1; text-align: center; margin-top: 6mm; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PORTADA ===================== -->
+<div class="cover">
+  <div class="pill">QUÍMICA FARMACÉUTICA</div>
+  <h1>Guía de Estudio</h1>
+  <h2>Primer y Segundo Examen Eliminatorio — Tema 0 a Tema 7 (fase I)</h2>
+  <div class="toc">
+    <h3>Contenido</h3>
+    <ol>
+      <li>Tema 0 — Repaso de química orgánica</li>
+      <li>Tema 1-2 — Descubrimiento y nomenclatura de fármacos</li>
+      <li>Tema 3 — Especiación y clasificación ácido/base</li>
+      <li>Tema 3 — LADME: Liberación y Absorción</li>
+      <li>Tema 3 — LADME: Distribución y Eliminación</li>
+      <li>Tema 4 — Farmacodinamia: fuerzas intermoleculares fármaco-diana</li>
+      <li>Tema 4 — Farmacodinamia: estereoquímica y estereoselectividad</li>
+      <li>Tema 5 — Grupo farmacóforo y modificación molecular</li>
+      <li>Tema 6 — Enzimas y reacciones enzimáticas</li>
+      <li>Tema 7 (fase I) — Metabolismo oxidativo</li>
+      <li>Práctica 3 — Síntesis de fenitoína (cálculos de laboratorio)</li>
+    </ol>
+  </div>
+  <p class="note">Elaborada a partir de las clases grabadas (teoría y seminarios) y transcritas de la asignatura. Cubre todo el temario dado hasta ahora (Primer y Segundo Parcial); Tema 7·fase II, 8, 9, 10 y 11 se añadirán cuando se graben esas clases. Úsala junto con el simulador de examen online: cada pregunta remite a los conceptos y tablas que encontrarás aquí.</p>
+</div>
+
+<!-- ===================== TEMA 0 ===================== -->
+<h1 class="tema"><span class="num">Tema 0 — Primer Parcial</span>Repaso de química orgánica</h1>
+
+<h2>El hidrógeno más ácido: método de trabajo</h2>
+<p>Ante cualquier comparación de acidez, el método es siempre el mismo: arrancar el hidrógeno con una base y comparar la <b>estabilidad de la base conjugada</b> resultante. Cuanto más estable sea esa base conjugada, más ácido era el hidrógeno de partida.</p>
+
+<table>
+<tr><th>Paso de decisión</th><th>Qué mirar</th><th>Ejemplo</th></tr>
+<tr><td><b>1. ¿Mismo átomo soporta la carga?</b></td><td>Si el átomo es distinto, gana el más capaz de estabilizar carga negativa (más electronegativo, o más grande dentro del mismo grupo — S más estable con carga negativa que O aunque O sea más electronegativo, porque S es más grande).</td><td>Azufre vs. oxígeno: gana el azufre.</td></tr>
+<tr><td><b>2. Si el átomo es el mismo, ¿hay resonancia?</b></td><td>Si una de las dos bases conjugadas puede deslocalizar la carga por resonancia, esa es más estable y más ácida.</td><td>Ácido carboxílico (pKa≈5) frente a alcohol (pKa≈14): el carboxilato resuena, el alcóxido no.</td></tr>
+<tr><td><b>3. Si no hay resonancia en ninguno, efecto inductivo</b></td><td>Gana la base conjugada estabilizada por el átomo vecino más electronegativo (efecto −I).</td><td>CF₃-OH más ácido que CH₃-OH: el flúor retira densidad electrónica y estabiliza la carga negativa.</td></tr>
+</table>
+
+<div class="callout warn">Solo el <b>carbono</b> tiene la excepción del octeto (puede quedar con 6 electrones si es un carbocatión). En cualquier otro átomo, un movimiento de resonancia que le deje menos de 8 electrones es inválido. Los electrones en resonancia solo pueden moverse hacia átomos <b>adyacentes</b> con los que ya hay conexión — nunca "viajan" libremente por la cadena.</div>
+
+<h2>Efecto −R / +R y efecto −I / +I</h2>
+<ul>
+<li><b>Efecto −R</b>: el grupo <i>gana</i> electrones por resonancia (se queda cargado negativamente), pero para eso tiene que poder deslocalizar los suyos — necesita un enlace múltiple (doble o triple). Ejemplos: carbonilos, nitrilo (C≡N), NO₂.</li>
+<li><b>Efecto +R</b>: el grupo <i>da</i> electrones por resonancia (se queda positivo) — necesita pares libres disponibles para donar (p. ej. un éter cediendo electrones).</li>
+<li><b>Efecto −I</b>: cualquier átomo más electronegativo que el carbono retira densidad electrónica por el enlace σ, sin necesidad de resonancia.</li>
+<li><b>Efecto +I</b>: solo lo da el CH₃ (grupo alquilo), que cede densidad electrónica respecto al hidrógeno.</li>
+</ul>
+
+<div class="callout">Regla de oro para Farmacéutica: los efectos <b>−R y −I estabilizan carga negativa → bajan el pKa → dan acidez</b>. Los efectos <b>+R y +I dan basicidad → suben el pKa</b>. No hace falta dibujar resonancias complejas — con identificar si el grupo tiene enlace múltiple (posible −R) o pares libres (posible +R) alcanza para razonar la mayoría de preguntas.</div>
+
+<h2>El pKa: definición operativa</h2>
+<p>El pKa es, de forma simplificada, <b>el pH al que un grupo pierde su hidrógeno</b> (con un margen de ±2 unidades para las zonas de coexistencia de especies). Por debajo del pKa, el grupo ácido está mayoritariamente neutro; por encima, ionizado. Para un grupo básico es al revés: por debajo del pKa (del ácido conjugado) está protonado, por encima neutro.</p>
+
+<div class="callout warn">Regla rápida para clasificar fuerza: a pH fisiológico (7,4), una <b>base con pKa por debajo de 7,4 es débil</b>, y un <b>ácido con pKa por debajo de 7,4 es fuerte</b>. Está en la frontera exacta de si el grupo estará mayoritariamente ionizado o neutro a pH fisiológico.</div>
+
+<div class="footer-page">Tema 0 — Repaso de química orgánica</div>
+
+<!-- ===================== TEMA 1-2 ===================== -->
+<h1 class="tema"><span class="num">Tema 1-2 — Primer Parcial</span>Descubrimiento y nomenclatura de fármacos</h1>
+
+<h2>Fármaco, medicamento, cabeza de serie y DCI</h2>
+<table>
+<tr><th>Término</th><th>Definición</th><th>Trampa frecuente</th></tr>
+<tr><td><b>Fármaco</b></td><td>Sustancia pura que llega a la diana biológica y produce el efecto.</td><td>No confundir con "molécula prototipo" (eso es el cabeza de serie).</td></tr>
+<tr><td><b>Medicamento</b></td><td>El fármaco ya formulado con excipientes, recipiente, etc. — la forma farmacéutica de dosificación lista para el paciente.</td><td>—</td></tr>
+<tr><td><b>Cabeza de serie</b></td><td>El primer compuesto con la actividad buscada, del que derivan por optimización los siguientes de su familia.</td><td><b>No tiene por qué comercializarse.</b> A veces se comercializa directamente una optimización suya y el cabeza de serie se queda solo con su Denominación Común Internacional (DCI), sin nombre comercial.</td></tr>
+<tr><td><b>DCI</b></td><td>Denominación Común Internacional — el nombre genérico del principio activo, exista o no medicamento comercializado.</td><td>Todo fármaco tiene DCI; no todo fármaco tiene nombre comercial.</td></tr>
+<tr><td><b>Fármaco "me-too"</b></td><td>Copia con la misma diana y actividad que el cabeza de serie, desarrollada por otro laboratorio.</td><td>Si cambia la estructura relevante para la unión, no puede tener exactamente la misma actividad ni la misma diana — hay que comparar las estructuras con cuidado, no solo el nombre.</td></tr>
+</table>
+
+<div class="callout">Ejemplo clásico de examen: sertralina y fluoxetina tienen actividad equivalente y look-alike estructural, pero solo una de las dos fue la primera (cabeza de serie); la otra es fármaco me-too, aunque ambas estén comercializadas.</div>
+
+<div class="callout warn">Serendipia: varios fármacos (el ejemplo típico es el Viagra) se descubrieron buscando otra indicación distinta. Es del tipo de dato "curioso" que sí ha caído en examen tipo test — merece una lectura, aunque el Tema 1 en general pese poco.</div>
+
+<h2>Nomenclatura y clasificación</h2>
+<p>La nomenclatura ATC (Anatómica, Terapéutica, Química) clasifica los medicamentos por su órgano/sistema de acción, su efecto terapéutico y su estructura química. Junto con la biodisponibilidad oral y el papel de las sales/contraiones en la formulación, es contenido típico de las 2-3 preguntas tipo test que suelen caer de Tema 1-2 combinadas dentro del examen del primer parcial.</p>
+
+<div class="footer-page">Tema 1-2 — Descubrimiento y nomenclatura de fármacos</div>
+
+<!-- ===================== TEMA 3 — ESPECIACIÓN ===================== -->
+<h1 class="tema"><span class="num">Tema 3 — Primer Parcial</span>Especiación y clasificación ácido/base</h1>
+
+<p>Este es el bloque con más peso del primer parcial: el ejercicio completo del fármaco asignado vale entre <b>6,5 y 8 puntos</b> del examen, y el resto (3,5 puntos) es tipo test sobre Tema 0-1-2.</p>
+
+<div class="callout warn">Formato real del examen (confirmado en varias clases): 7 preguntas tipo test que valen 3,5 puntos en total — <b>las incorrectas restan</b>, así que no conviene arriesgar respuestas que no se sepan con seguridad. No dedicarle al test más de 10 minutos: el grueso de la nota está en el ejercicio del fármaco.</div>
+
+<h2>Clasificación ácido/base de grupos funcionales</h2>
+<table>
+<tr><th>Grupo</th><th>Comportamiento</th><th>Detalle a recordar</th></tr>
+<tr><td>Amida</td><td>Prácticamente neutra (ácido muy débil, dentro de la tabla de "neutros")</td><td>El par libre del nitrógeno resuena hacia el carbonilo (efecto −R fuerte al lado) — por eso nunca actúa como base, y como ácido es muy débil salvo que el enunciado dé explícitamente un pKa.</td></tr>
+<tr><td>Alcohol</td><td>Ácido muy débil (pKa ≈ 14-17)</td><td>A pH fisiológico prácticamente nunca se ioniza — pero si el enunciado da su pKa explícitamente, hay que incluirlo igualmente en la especiación.</td></tr>
+<tr><td>Amina alifática</td><td>Básica, parte protonada</td><td>Todas las aminas parten protonadas en el esquema de especiación.</td></tr>
+<tr><td>Amina aromática</td><td>Base débil (pKa≈4-6)</td><td>Al colgar el N directamente del anillo aromático, sus pares libres resuenan con el anillo — pierde basicidad frente a una amina alifática normal.</td></tr>
+<tr><td>Guanidina / amidina</td><td>Base muy fuerte (pKa 12-13)</td><td>Los pKa más altos de la tabla — asegura protonación permanente a cualquier pH fisiológico (uso típico: ibuprofeno-arginina).</td></tr>
+</table>
+
+<h2>El método de especiación paso a paso</h2>
+<ol>
+<li>Identificar todos los grupos ionizables del fármaco y asignar el pKa que da el enunciado a cada uno (en el examen los pKa vienen dados, sin flecha — hay que justificar razonadamente a qué grupo corresponde cada valor según la tabla de pKa aproximados).</li>
+<li>Plantear la especie de partida: ácidos neutros, bases protonadas.</li>
+<li>Ir perdiendo hidrógenos en orden: primero el grupo de menor pKa.</li>
+<li>Nombrar las especies correlativamente (especie 1, 2, 3...).</li>
+<li>Regla del ±2: cada especie empieza a formarse dos unidades de pH antes de su pKa y se hace prácticamente única dos unidades después.</li>
+</ol>
+
+<div class="callout warn">Con un fármaco de <b>dos pKa</b> (lo habitual en examen) hay que inventarse siempre una <b>cuarta especie</b>, minoritaria en todo el rango de pH fisiológico: la combinación contraria a la especie de partida (perder primero el hidrógeno que normalmente se pierde después). Es minoritaria en todo el rango, pero hay que declararla igualmente.</div>
+
+<div class="footer-page">Tema 3 — Especiación y clasificación ácido/base</div>
+
+<!-- ===================== TEMA 3 — LADME LIBERACIÓN/ABSORCIÓN ===================== -->
+<h1 class="tema"><span class="num">Tema 3 — Primer Parcial</span>LADME: Liberación y Absorción</h1>
+
+<p>LADME = <b>L</b>iberación, <b>A</b>bsorción, <b>D</b>istribución, <b>M</b>etabolismo, <b>E</b>liminación. El metabolismo se deja para el Tema 6-7 (Segundo Parcial); en este bloque se trabajan L, A, D y E con el mismo fármaco ya especiado.</p>
+
+<div class="callout warn">Puntuación real observada en el examen: especiación ≈2 puntos, liberación ≈1,5 puntos, absorción ≈2 puntos. Las definiciones (de liberación, de absorción) deben ser <b>cortas</b> — no da tiempo a desarrollarlas largas y quien no las ponga en absoluto pierde esos puntos igualmente.</div>
+
+<h2>El principio general: polar para eliminar, neutro para atravesar membranas</h2>
+<table>
+<tr><th>Proceso</th><th>Medio</th><th>Especie que interesa</th><th>Por qué</th></tr>
+<tr><td>Liberación</td><td>Saliva, pH 6,8 (disolución acuosa)</td><td>Ionizada</td><td>Se disuelve mejor en agua</td></tr>
+<tr><td>Absorción</td><td>Tracto gastrointestinal: estómago pH 2, duodeno pH 5,5, íleon pH 8</td><td>Neutra</td><td>Debe atravesar la bicapa lipídica (apolar)</td></tr>
+<tr><td>Distribución</td><td>Sangre, pH 7,4; barrera hematoencefálica</td><td>Neutra + lipófila</td><td>Igual que absorción, hay que atravesar membranas</td></tr>
+<tr><td>Eliminación</td><td>Orina, pH 6 (disolución acuosa)</td><td>Ionizada</td><td>Se disuelve mejor en agua, igual que en liberación</td></tr>
+</table>
+
+<h2>Liberación: el "guion de fármacos" paso a paso</h2>
+<ol>
+<li>Definición corta + planteamiento del equilibrio disolución-ionización.</li>
+<li>Cálculo de Lenke (número de carbonos equivalentes de solubilidad que aportan los grupos funcionales) aplicado <b>siempre a la especie neutra</b>, independientemente de si domina o no a ese pH. Si la suma de carbonos equivalentes es menor que los carbonos reales del fármaco → insoluble (hidrofilia &lt; lipofilia).</li>
+<li>Asignar carácter ácido/base (ya viene de la especiación).</li>
+<li>Ver qué especies hay a pH de saliva (6,8) y si son solubles:
+  <ul>
+    <li><b>4a</b> — si ambas especies presentes son solubles → liberación buena pero lenta.</li>
+    <li><b>4b</b> — si ninguna es soluble → liberación lenta y mala, hay que proponer una sal.</li>
+    <li><b>4c</b> — si solo una es soluble y esa especie soluble <b>no supera el 60%</b> → también hay que proponer una sal (calcular el % exacto con Henderson-Hasselbalch).</li>
+  </ul>
+</li>
+</ol>
+
+<div class="callout">Cálculo de Lenke para una especie con carga: una carga (sal) aporta entre <b>20 y 30 carbonos equivalentes</b> de solubilidad — casi siempre suficiente por sí sola para hacer soluble a la especie ionizada, aunque el resto de grupos del fármaco fuera muy lipófilo.</div>
+
+<h2>Ecuación de Henderson-Hasselbalch (formato usado en la asignatura)</h2>
+<div class="callout"><b>pH = pKa + log(base/ácido)</b>. El ácido del equilibrio es siempre la especie con un hidrógeno más (a la izquierda del equilibrio de especiación); la base es la especie tras perder ese hidrógeno (a la derecha). Se asigna X a la especie con carga (la que se está calculando en % de ionización) y (100−X) a la especie neutra correspondiente, y se despeja.</div>
+
+<h2>Cómo elegir la sal</h2>
+<table>
+<tr><th>Grupo problemático</th><th>Se enfrenta a</th><th>Resultado</th></tr>
+<tr><td>Básico (amina)</td><td>Un ácido (p. ej. HCl)</td><td>Hidrocloruro — carga positiva permanente</td></tr>
+<tr><td>Ácido</td><td>Una base (p. ej. NaOH)</td><td>Sal sódica / fosfato — carga negativa permanente</td></tr>
+</table>
+<div class="callout mnemo">Ejemplo de referencia para recordar el mecanismo: ibuprofeno + arginina. La guanidina de la arginina (pKa 12-13) garantiza protonación permanente, lo que acelera la liberación — por eso el ibuprofeno arginina "hace efecto antes".</div>
+
+<h2>Absorción: el guion completo</h2>
+<ol>
+<li>Definición corta (misma limitación de tiempo que en liberación).</li>
+<li>Estructura del fármaco (ya identificada).</li>
+<li>Especiación (ya hecha).</li>
+<li>Especiación en cada punto del tracto: estómago (pH 2), duodeno (pH 5,5), íleon (pH 8) — el punto con mayor proporción de especie neutra es donde se absorbe mejor.</li>
+<li>Calcular la polaridad de las especies dominantes (si hay mezcla, calcular % con Henderson-Hasselbalch como en liberación).</li>
+</ol>
+
+<div class="callout warn">Punto 6 del guion — frase que <b>hay que escribir literalmente, puntúa aparte del cálculo</b>: "A mayor pH, domina la especie menos polar, luego hay mayor fuerza de atracción [con la bicapa lipídica], mayor difusión pasiva, mayor absorción." Quien no la escriba no puntúa ese apartado aunque el cálculo esté bien.</div>
+
+<div class="callout">Dato de contexto real (no un mito): aunque se diga coloquialmente "en el estómago no se absorbe nada", la mayoría de la absorción ocurre en el intestino simplemente por superficie de contacto (~10 metros de longitud) — el estómago sí absorbe algo, pero es residual.</div>
+
+<div class="footer-page">Tema 3 — LADME: Liberación y Absorción</div>
+
+<!-- ===================== TEMA 3 — LADME DISTRIBUCIÓN/ELIMINACIÓN ===================== -->
+<h1 class="tema"><span class="num">Tema 3 — Primer Parcial</span>LADME: Distribución y Eliminación</h1>
+
+<h2>Barrera hematoencefálica</h2>
+<p>Para que un fármaco alcance el sistema nervioso central hacen falta <b>dos condiciones simultáneas</b>:</p>
+<ol>
+<li>Que exista especie <b>neutra</b> a pH sangre (7,4) — no hace falta ningún porcentaje mínimo, basta con que exista.</li>
+<li>Que el <b>logaritmo de P sea mayor que 2</b> (suficiente lipofilia para atravesar una barrera especialmente lipófila).</li>
+</ol>
+<div class="callout warn">Con solo un 4% de especie neutra ya basta para atravesar la barrera si logP&gt;2 — es el motivo por el que los antihistamínicos antiguos, muy lipófilos, daban sueño (atravesaban al SNC) aunque su fracción neutra a pH sanguíneo fuera pequeña. No confundir este umbral ("basta con que exista") con la regla del 60% de liberación — son condiciones distintas para procesos distintos.</div>
+
+<h2>Atrapamiento iónico (paso placentario)</h2>
+<p>Se compara el pH de la madre (7,4) con el del feto (7,2, más ácido). La regla: se traza la "flecha" de ionización hacia el lado con menor pH relativo para cada tipo de grupo, y si el fármaco queda más ionizado en el feto que en la madre, no puede volver a cruzar la placenta — atrapamiento iónico.</p>
+<table>
+<tr><th>Tipo de fármaco</th><th>Comportamiento con el pH</th><th>¿Da atrapamiento iónico?</th></tr>
+<tr><td>Ácido</td><td>Parte neutro, se ioniza más cuanto <b>mayor</b> es el pH</td><td>No — en la madre (pH más alto) está más ionizado que en el feto, así que nunca queda "atrapado" del lado fetal.</td></tr>
+<tr><td>Básico</td><td>Parte protonado, se ioniza (protona) más cuanto <b>menor</b> es el pH</td><td>Sí puede darse — el feto es el compartimento más ácido, así que una base tiende a quedar más ionizada ahí.</td></tr>
+</table>
+
+<h2>Eliminación renal</h2>
+<p>pH de trabajo: orina ≈ 6. Se aplica Henderson-Hasselbalch a la especie neutra igual que en liberación. Regla de decisión: si la especie soluble/ionizada supera el <b>45-50%</b> a pH de orina, la eliminación directa es posible; si no, hay que proponer una solución.</p>
+<div class="callout">Solución práctica cuando la eliminación directa no es posible: si el problema está entre la especie 1 y 2 (más ácida), <b>acidificar la orina</b> (p. ej. zumo de limón) hasta pH 2-3 para favorecer la especie cargada que se elimina; si el problema está entre la especie 2 y 3 (más básica), <b>alcalinizar</b> con bicarbonato sódico hasta pH 8-9. Elegir siempre el sentido que favorezca la especie ionizada.</div>
+
+<h2>Cristaluria</h2>
+<p>Se produce cuando el fármaco es <b>más soluble en sangre (pH 7,4) que en orina (pH 6)</b> y precipita en el riñón. Condición necesaria: que la eliminación directa NO sea posible (si es posible, nunca hay cristaluria).</p>
+<div class="callout warn">Regla para el tipo test: en cristaluria pasa <b>justo lo contrario</b> que en atrapamiento iónico. Los fármacos <b>ácidos</b> (más ionizados/solubles a pH alto = sangre) son los que más problemas de cristaluria dan; los <b>básicos</b> (más ionizados/solubles a pH bajo = orina) casi no dan cristaluria.</div>
+
+<div class="footer-page">Tema 3 — LADME: Distribución y Eliminación</div>
+
+<!-- ===================== TEMA 4 — FUERZAS INTERMOLECULARES ===================== -->
+<h1 class="tema"><span class="num">Tema 4 — Primer Parcial</span>Farmacodinamia: fuerzas intermoleculares fármaco-diana</h1>
+
+<p>El fármaco compite con el <b>ligando endógeno</b> por el sitio de unión de su diana. Para un buen reconocimiento molecular hacen falta tres requisitos: <b>(1)</b> grupos funcionales complementarios, <b>(2)</b> tamaño/forma/conformación adecuados, <b>(3)</b> estereoquímica correcta.</p>
+
+<h2>Escala de fuerzas intermoleculares (de menor a mayor)</h2>
+<table>
+<tr><th>#</th><th>Fuerza</th><th>Aminoácidos / condición</th></tr>
+<tr><td>1</td><td>Van der Waals (London)</td><td>Zonas apolares: alanina, valina, leucina, isoleucina, prolina</td></tr>
+<tr><td>2</td><td>Stacking</td><td>Moléculas planas aromáticas: fenilalanina, triptófano, tirosina</td></tr>
+<tr><td>3</td><td>Dipolo-dipolo</td><td>Polares sin carga: cisteína, glutamina, asparagina, serina, treonina, tirosina</td></tr>
+<tr><td>4</td><td>Ion-dipolo</td><td>Parte ionizada del fármaco frente a un aminoácido polar sin carga</td></tr>
+<tr><td>5</td><td>Enlace de hidrógeno</td><td>Dador/aceptor sobre O o N con H disponible o par libre</td></tr>
+<tr><td>6</td><td>Enlace iónico</td><td>Carga real positiva y negativa (p. ej. lisina con un ácido)</td></tr>
+<tr><td>7</td><td>Enlace iónico reforzado</td><td>Enlace iónico + enlace de hidrógeno en el mismo punto de unión — la más fuerte de este parcial</td></tr>
+</table>
+<div class="callout">El enlace de coordinación y el enlace covalente son más fuertes todavía, pero no se ven en este parcial (coordinación con metal → Tema 9 inhibidores; covalente → reacción real, Tema 6 enzimas).</div>
+
+<h2>Regla de oro sobre amidas y ésteres</h2>
+<div class="callout warn">El par libre del nitrógeno de una <b>amida</b> siempre prefiere resonar hacia el carbonilo — por eso el nitrógeno de una amida <b>nunca es aceptor</b> de enlace de hidrógeno. En general, cualquier grupo con un −R fuerte al lado no sirve como aceptor porque ese par libre "preferirá" deslocalizarse.</div>
+
+<h2>El anillo de ocho miembros: guanidina/arginina y amidina</h2>
+<p>Es la interacción más fuerte del parcial. Se forma cuando, en el mismo punto de unión, coinciden un enlace iónico <b>y</b> un enlace de hidrógeno adicional, cerrando un ciclo de 8 átomos entre el fármaco y la diana (típico con arginina/guanidina o con una amidina del fármaco frente a un aspártico/glutámico de la diana).</p>
+<div class="callout mnemo">Para subir la afinidad siempre hay dos palancas: (1) más puntos de unión simultáneos, (2) la unión más fuerte posible en cada punto. El examen suele pedir comparar dos fármacos sobre la misma diana y razonar cuál tiene mayor afinidad total.</div>
+
+<div class="footer-page">Tema 4 — Farmacodinamia: fuerzas intermoleculares fármaco-diana</div>
+
+<!-- ===================== TEMA 4 — ESTEREOQUÍMICA ===================== -->
+<h1 class="tema"><span class="num">Tema 4 — Primer Parcial</span>Farmacodinamia: estereoquímica y estereoselectividad</h1>
+
+<h2>El modelo de los tres puntos (Easson-Stedman)</h2>
+<p>Para que una diana distinga entre dos enantiómeros de un fármaco (reconocimiento quiral) hacen falta <b>tres puntos de interacción simultáneos</b> con la diana. Solo la disposición espacial de uno de los dos enantiómeros permite que los tres grupos encajen a la vez con sus aminoácidos complementarios; el otro enantiómero, al ser la imagen especular, no puede hacer coincidir los tres puntos a la vez (como mucho dos), y por eso su afinidad es menor o nula.</p>
+
+<table>
+<tr><th>Término</th><th>Significado</th></tr>
+<tr><td><b>Eutómero</b></td><td>El enantiómero más activo (el que sí encaja en los tres puntos).</td></tr>
+<tr><td><b>Distómero</b></td><td>El enantiómero menos activo (o inactivo).</td></tr>
+<tr><td><b>Índice eudísmico</b></td><td>Cociente de actividad eutómero/distómero — cuanto mayor, más estereoselectiva es la diana para ese fármaco.</td></tr>
+</table>
+
+<div class="callout">La estereoselectividad la <b>elige la diana, no el fármaco</b>: es la geometría del sitio de unión la que discrimina entre las dos formas especulares, no una propiedad intrínseca de la molécula aislada.</div>
+
+<div class="callout warn">Consecuencia práctica muy preguntada: sintetizar un fármaco quiral en su forma enantiopura (un solo enantiómero) es mucho más caro que producir la mezcla racémica — por eso muchos fármacos genéricos se comercializan como racémico aunque solo un enantiómero sea el activo real.</div>
+
+<div class="footer-page">Tema 4 — Farmacodinamia: estereoquímica y estereoselectividad</div>
+
+<!-- ===================== TEMA 5 ===================== -->
+<h1 class="tema"><span class="num">Tema 5 — Segundo Parcial</span>Grupo farmacóforo y modificación molecular</h1>
+
+<div class="callout warn">A diferencia de Tema 4 (muy mecánico/de cálculo), en Tema 5 el peso recae en preguntas cortas de teoría — hay que tener muy claras las definiciones, no solo saber calcular.</div>
+
+<h2>Grupo farmacóforo: definición y método de identificación</h2>
+<p>El <b>grupo farmacóforo</b> es el grupo (o conjunto de grupos) que da los puntos de anclaje fundamentales en la unión del fármaco a su diana. Para identificarlo se hacen cambios controlados en el fármaco y se mide la actividad resultante:</p>
+<ul>
+<li>Si la actividad <b>se mantiene</b> → ese grupo NO pertenecía al farmacóforo.</li>
+<li>Si la actividad <b>baja</b> (nunca puede subir, porque se está investigando un fármaco ya existente, no diseñando uno nuevo) → ese grupo SÍ pertenecía al farmacóforo.</li>
+</ul>
+
+<h2>Los tres tipos de aproximación en la modificación molecular fija</h2>
+<table>
+<tr><th>Aproximación</th><th>En qué consiste</th><th>Ejemplo</th></tr>
+<tr><td><b>Conjuntiva</b></td><td>Unir dos fármacos en una sola molécula</td><td>Combinaciones tipo paracetamol + otro principio activo</td></tr>
+<tr><td><b>Disyuntiva</b></td><td>Simplificar el fármaco eliminando lo que no pertenece al farmacóforo</td><td>Cocaína → simplificación de su estructura biciclica compleja una vez identificado el farmacóforo</td></tr>
+<tr><td><b>Moduladora</b></td><td>Cambiar grupos funcionales o porciones estructurales sin unir ni simplificar drásticamente — la más estudiada</td><td>Cambiar un OH por un éter/éster; alargar una cadena</td></tr>
+</table>
+
+<h2>Modificación de porciones estructurales (dentro de la aproximación moduladora)</h2>
+<table>
+<tr><th>Técnica</th><th>Qué es</th><th>Efecto típico</th></tr>
+<tr><td>Homología</td><td>Añadir o quitar un CH₂ de la cadena</td><td>Sube la lipofilia; puede revelar un bolsillo hidrofóbico en la diana si la actividad mejora</td></tr>
+<tr><td>Ramificación</td><td>Añadir cadenas laterales, siempre después de la homología</td><td>Ajusta volumen/forma para rellenar el bolsillo ya localizado</td></tr>
+<tr><td>Sustituyentes no alquílicos</td><td>Introducir un grupo con efecto −R/+R o −I/+I</td><td>Modula la reactividad de grupos vecinos (p. ej. desactivar un carbonilo frente a un nucleófilo)</td></tr>
+<tr><td>Vinilogía</td><td>Introducir un doble enlace conjugado manteniendo la resonancia</td><td>Cambia la distancia entre grupos funcionales sin perder la conjugación electrónica</td></tr>
+<tr><td>Modificación de anillos</td><td>Abrir, cerrar, agrandar, reorganizar o sustituir anillos</td><td>Abrir un anillo siempre simplifica la molécula</td></tr>
+</table>
+
+<h2>Bioisosterismo: isosteria clásica (ley del hidruro)</h2>
+<p>Se sustituye un átomo por otro conservando el <b>mismo número de electrones de valencia</b>, compensando la diferencia con hidrógenos (regla de la cabecera de grupo).</p>
+<div class="callout mnemo">F → OH → NH₂ → CH₃: cada paso hacia la izquierda en la tabla periódica pierde un electrón de valencia, que se compensa añadiendo un hidrógeno más. S y O son intercambiables directamente (mismo grupo, mismos electrones de valencia, sin hidrógenos extra).</div>
+<div class="callout">Ejemplo de examen: sustituir el oxígeno (éter) de un cabeza de serie por CH₂, por S o por NH. Si CH₂ y S inactivan el compuesto pero NH lo mantiene activo, se concluye que ese oxígeno formaba parte del farmacóforo <i>por su capacidad de aceptar enlace de hidrógeno</i> — el NH conserva esa capacidad, CH₂ y S (como tioéter) no.</div>
+
+<div class="footer-page">Tema 5 — Grupo farmacóforo y modificación molecular</div>
+
+<!-- ===================== TEMA 6 ===================== -->
+<h1 class="tema"><span class="num">Tema 6 — Segundo Parcial</span>Enzimas y reacciones enzimáticas</h1>
+
+<h2>La tríada catalítica</h2>
+<p>En el centro activo de la enzima hay aminoácidos <b>de unión</b> (posicionan al sustrato) y aminoácidos <b>catalíticos</b> (realizan la química de la reacción, bajando la energía de activación).</p>
+<table>
+<tr><th>Aminoácido</th><th>Papel</th></tr>
+<tr><td><b>Histidina</b></td><td>Miembro de la tríada catalítica — imprescindible saber dibujar su cadena lateral.</td></tr>
+<tr><td><b>Serina</b></td><td>Miembro de la tríada catalítica — su OH participa directamente en el ataque nucleofílico.</td></tr>
+<tr><td><b>Aspártico</b></td><td>Acompaña a la tríada estabilizando el conjunto, sin participar directamente en la reacción.</td></tr>
+<tr><td><b>Lisina</b></td><td>Fuera de la tríada, pero clave: realiza catálisis electrostática mediante su grupo amino terminal.</td></tr>
+</table>
+
+<h2>Tipos de mecanismos</h2>
+<p>Dos grandes familias: reacciones de <b>reducción-oxidación</b> del carbonilo, y <b>hidrólisis</b> (el mecanismo estrella del tema, el llamado "ping-pong").</p>
+
+<div class="callout warn">El mecanismo ping-pong "va a estar en el examen sí o sí": una molécula de agua (único nucleófilo relevante a pH fisiológico) rompe el enlace junto al carbonilo. Funciona igual para hidrólisis de <b>amida</b>, de <b>éster</b> y de <b>fosfoéster</b> (este último es como se rompen los enlaces 3'-5' del DNA).</p></div>
+
+<h2>Nomenclatura de las enzimas hidrolíticas</h2>
+<table>
+<tr><th>Enzima</th><th>Rompe</th><th>Nota</th></tr>
+<tr><td>Amidasa</td><td>Enlace amida</td><td>Si la amida es un enlace peptídico, la amidasa también se llama peptidasa</td></tr>
+<tr><td>Esterasa</td><td>Enlace éster</td><td>La enzima mayoritaria a pH fisiológico, "por goleada"</td></tr>
+</table>
+<div class="callout mnemo">Todas las peptidasas son amidasas (un enlace peptídico es un caso particular de amida), pero no todas las amidasas son peptidasas. Y toda amidasa/esterasa es en realidad una <b>hidrolasa</b>, porque necesita romper una molécula de agua para catalizar.</div>
+
+<div class="footer-page">Tema 6 — Enzimas y reacciones enzimáticas</div>
+
+<!-- ===================== TEMA 7 FASE I ===================== -->
+<h1 class="tema"><span class="num">Tema 7 (fase I) — Segundo Parcial</span>Metabolismo oxidativo</h1>
+
+<div class="callout warn">"El verdadero tema 7" según la propia profesora: la mayoría del examen de metabolismo viene de aquí. En este bloque no hay tipo test, son todo reacciones a resolver.</div>
+
+<h2>Por qué se metaboliza un fármaco</h2>
+<p>Cuando un fármaco no se puede eliminar directamente vía orina (no cumple la regla del 45-50% de especie ionizada vista en Tema 3), el organismo lo manda a metabolizarse. La finalidad del metabolismo es siempre una de estas tres: <b>activar</b> un profármaco, <b>inactivar</b> el fármaco (toxicidad), o simplemente <b>mejorar su eliminación</b> haciéndolo más hidrófilo.</p>
+
+<h2>Fase I: introducir grupos OH (hidroxilación)</h2>
+<p>La reacción de fase I por excelencia es la <b>C-hidroxilación</b>, catalizada por el citocromo P450, cuyo objetivo es aumentar la hidrofilia del fármaco (meter grupos -OH) para facilitar su posterior eliminación o conjugación en fase II.</p>
+
+<table>
+<tr><th>Concepto</th><th>Significado (definición tal cual se da en clase)</th></tr>
+<tr><td>Quimioselectividad</td><td>Elegir entre <b>dos grupos iguales</b> del fármaco — p. ej., si hay dos bencenos o dos posiciones de alcano equivalentes, ¿por qué reacciona uno y no el otro?</td></tr>
+<tr><td>Regioselectividad</td><td>Dentro de un mismo grupo, elegir <b>una posición concreta</b> sobre otra — p. ej., dentro de un mismo benceno, entrar en posición para en vez de en otra.</td></tr>
+<tr><td>Estereoselectividad</td><td>Generar preferentemente un estereoisómero concreto: R/S si se crea un carbono quiral, o Z/E si se crea un doble enlace (ejemplo típico: apertura de epóxidos por el carbono menos impedido).</td></tr>
+<tr><td>Posiciones activadas</td><td>Carbonos junto a heteroátomos o sistemas aromáticos — más fáciles de hidroxilar</td></tr>
+<tr><td>Posiciones no activadas</td><td>Carbonos alifáticos simples, sin grupos vecinos que faciliten el ataque</td></tr>
+</table>
+<div class="callout warn">Ojo: estas definiciones de quimio/regioselectividad son las específicas de esta asignatura y no coinciden con el uso genérico de libro de texto (donde "quimioselectividad" normalmente distingue entre grupos funcionales distintos, no iguales). En el examen usa siempre esta versión.</div>
+
+<h2>N-desalquilación</h2>
+<p>Otra reacción de fase I muy preguntada: eliminación oxidativa de un grupo alquilo unido a un nitrógeno (típicamente una amina terciaria o secundaria pierde uno de sus sustituyentes de carbono). Con frecuencia genera dos metabolitos posibles según qué cadena se elimine — hay que saber justificar cuál es el mayoritario según la posición (bencílica, activada, etc.).</p>
+
+<div class="callout">Regla práctica: en una posición bencílica con una cadena larga, la oxidación puede progresar más allá del alcohol/aldehído intermedio hasta llegar a un <b>ácido carboxílico</b> como metabolito final.</div>
+
+<div class="footer-page">Tema 7 (fase I) — Metabolismo oxidativo</div>
+
+<!-- ===================== PRÁCTICA 3 ===================== -->
+<h1 class="tema"><span class="num">Práctica 3 — Examen de laboratorio</span>Síntesis de fenitoína</h1>
+
+<p>Reacción de Práctica 3: bencilo + urea → fenitoína (relación estequiométrica 1:1) o, alternativamente, un producto secundario (relación 1 bencilo : <b>2</b> urea). La clave del ejercicio de examen es que el reactivo limitante <b>cambia según qué producto se esté calculando</b>, porque la proporción estequiométrica es distinta para cada uno.</p>
+
+<h2>Método de cálculo, paso a paso</h2>
+<ol>
+<li><b>Masa pura</b>: los reactivos nunca son 100% puros — corregir siempre primero: <br><i>m<sub>pura</sub> = m<sub>pesada</sub> × (% pureza / 100)</i></li>
+<li><b>Si el reactivo es líquido</b> (se da un volumen): primero <i>m = V × d</i>, y después se corrige por pureza igual que arriba.</li>
+<li><b>Moles</b>: <i>n = m<sub>pura</sub> / M</i></li>
+<li><b>Reactivo limitante</b>: dividir los moles disponibles de cada reactivo entre su coeficiente estequiométrico (distinto para fenitoína que para el producto secundario) — el valor <b>más pequeño</b> señala el reactivo limitante para ese producto en concreto.</li>
+<li><b>Moles y gramos teóricos</b> del producto: a partir del reactivo limitante y la estequiometría de la reacción correspondiente.</li>
+<li><b>Rendimiento</b>: rendimiento bruto (masa real obtenida / masa teórica) y, si hay recristalización, un segundo rendimiento sobre el producto ya purificado.</li>
+</ol>
+
+<div class="callout warn">Trampa de examen más repetida de esta práctica: calcular el reactivo limitante <b>una sola vez</b> y aplicarlo a los dos productos. Hay que recalcularlo por separado para la fenitoína (proporción 1:1) y para el producto secundario (proporción 1:2), porque puede cambiar cuál de los dos reactivos es el limitante en cada caso.</div>
+
+<div class="callout">Mecanismo de la reacción: catálisis básica sobre la urea, que actúa como nucleófilo. La purificación del producto secundario y de la fenitoína pasan por acidificación con HCl y filtración.</div>
+
+<div class="footer-page">Práctica 3 — Síntesis de fenitoína (cálculos de laboratorio)</div>
+
+</body>
+</html>

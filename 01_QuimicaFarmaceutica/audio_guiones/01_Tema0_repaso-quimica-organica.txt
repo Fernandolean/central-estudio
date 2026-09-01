@@ -1,0 +1,47 @@
+Imagina que te preguntan esto en el examen: un alcohol tiene un pe ka aproximado de catorce, y un ácido carboxílico un pe ka aproximado de cinco. En los dos casos el hidrógeno que se pierde está colgado de un oxígeno. Entonces, ¿por qué hay nueve unidades enteras de diferencia entre uno y otro? Esa pregunta resume todo el tema cero. La profesora dice que de este tema apenas se pregunta directamente en el examen, así que no le dediques demasiado tiempo. Pero el razonamiento que hay detrás lo vas a usar todo el curso, sobre todo cuando clasifiques ácidos y bases en el tema tres, que es donde de verdad se juega la nota. Así que tómate esto como el calentamiento antes del tema fuerte.
+
+Vamos con el método. Cada vez que tengas que decidir cuál es el hidrógeno más ácido de una molécula, o comparar la acidez de dos grupos distintos, el procedimiento es siempre el mismo. Le arrancas el hidrógeno a cada uno con una base, y lo que comparas no es el ácido de partida, sino la estabilidad de lo que queda después, la base conjugada. Cuanto más estable sea esa base conjugada, más ácido era el hidrógeno original. Esta es la idea central de todo el tema, y conviene tenerla clara antes de entrar en detalles.
+
+Para decidir qué base conjugada es más estable, hay un orden de criterios que se aplica siempre igual, nunca al revés. El primer criterio es mirar qué átomo soporta la carga negativa. Si los dos hidrógenos que comparas cuelgan de átomos distintos, gana el átomo que mejor aguante esa carga negativa. Cuanto más grande sea el átomo dentro del mismo grupo de la tabla periódica, mejor reparte la carga, así que un azufre estabiliza mejor la carga negativa que un oxígeno, aunque el oxígeno sea más electronegativo. Este primer criterio solo decide cuando el átomo es distinto.
+
+Si el átomo que soporta la carga es el mismo en los dos casos, pasas al segundo criterio: la resonancia. Aquí está la clave de la pregunta con la que hemos empezado. El ácido carboxílico tiene, al lado del oxígeno que pierde el hidrógeno, un carbonilo. Ese carbonilo permite que la carga negativa se reparta por resonancia entre los dos oxígenos del grupo carboxilato. El alcohol, en cambio, no tiene ningún grupo vecino con el que resonar: toda la carga negativa se queda clavada en un solo oxígeno, sin repartirse. Una carga repartida siempre es más estable que una carga concentrada en un único átomo. Por eso el carboxilato es mucho más estable que el alcóxido, y por eso el ácido carboxílico es muchísimo más ácido que el alcohol, con esas nueve unidades de diferencia en el pe ka, aunque los dos pierdan el hidrógeno desde un oxígeno.
+
+Solo si no hay resonancia posible en ninguno de los dos casos, pasas al tercer criterio, el efecto inductivo. Aquí no hace falta ningún enlace múltiple: basta con que haya un átomo vecino más electronegativo que el carbono, conectado por enlaces sencillos, tirando de la densidad electrónica hacia él. Ese tirón ayuda a estabilizar la carga negativa, aunque mucho menos que la resonancia.
+
+Con esto ya tienes el orden completo, y conviene que te lo aprendas literalmente en este orden: primero el átomo que soporta la carga, después la resonancia, y solo al final el efecto inductivo. Es un orden jerárquico. Si el primer criterio ya te resuelve la comparación, ni te molestas en mirar los otros dos.
+
+Ahora, los efectos como tal, porque el examen los va a nombrar por su letra. El efecto menos erre es el que tienen los grupos que ganan electrones por resonancia, quedándose cargados negativamente. Para tener efecto menos erre hace falta un enlace múltiple, doble o triple, porque sin él no hay manera de deslocalizar la carga. Los carbonilos son el ejemplo más claro, y también el nitrilo o el grupo nitro.
+
+El efecto contrario, el efecto más erre, lo dan los grupos que ceden electrones por resonancia, quedándose ellos cargados positivamente. Para eso necesitan tener un par de electrones libres disponible para donar, como un oxígeno de éter que cede densidad electrónica hacia un carbono vecino.
+
+Luego están los efectos inductivos, que no necesitan resonancia ni enlaces múltiples, solo diferencia de electronegatividad a través de un enlace sencillo. El efecto menos i lo da cualquier átomo más electronegativo que el carbono, que retira densidad electrónica hacia él por el enlace y ayuda a estabilizar una carga negativa cercana. El efecto más i es distinto de todos los demás porque solo lo tiene un grupo en toda la tabla: el metilo. El metilo, al no haber apenas diferencia de electronegatividad entre el carbono y el hidrógeno, en realidad empuja densidad electrónica hacia el otro lado, así que su efecto es dar electrones, no quitarlos. Conviene repetir esto porque se pregunta mucho en formato trampa: el metilo es el único grupo con efecto más i de toda la tabla. Ningún otro grupo alquílico ni ningún heteroátomo tiene ese papel.
+
+Con estos cuatro efectos ya tienes la regla de oro de la asignatura, la que vas a aplicar una y otra vez en el tema tres para clasificar ácidos y bases. Los efectos menos erre y menos i estabilizan la carga negativa, así que dan acidez y bajan el pe ka. Los efectos más erre y más i hacen justo lo contrario, dan basicidad y suben el pe ka. No hace falta dibujar la resonancia completa cada vez: con fijarte en si el grupo tiene un enlace múltiple, candidato a menos erre, o pares libres para donar, candidato a más erre, ya tienes resuelta la mayoría del razonamiento.
+
+Y aquí entra la definición de pe ka que vas a usar todo el curso. El pe ka es, de forma simplificada, el pH al que un grupo pierde su hidrógeno. Por debajo de ese valor, un grupo ácido está mayoritariamente con su hidrógeno, neutro; por encima, lo ha perdido y está cargado negativamente. Para un grupo básico funciona al revés: por debajo del pe ka está protonado, con carga positiva; por encima está neutro. Esto no es un cambio brusco de un pH a otro: hay un margen de aproximadamente dos unidades de pH alrededor del pe ka en el que conviven las dos formas. Y de aquí sale una regla rápida que vas a usar sin parar en el tema tres: a pH fisiológico, que es siete con cuatro, una base con un pe ka por debajo de siete con cuatro es una base débil, y un ácido con un pe ka por debajo de siete con cuatro es un ácido fuerte. Fíjate en la asimetría: el mismo número, siete con cuatro, se lee al revés según sea ácido o base.
+
+Vamos a fijar esto con unas preguntas rápidas, como si te las hicieran justo antes de entrar al examen.
+
+Pregunta: un alcohol tiene un pe ka aproximado de catorce y un ácido carboxílico un pe ka aproximado de cinco, aunque en los dos casos el hidrógeno ácido está sobre un oxígeno. ¿A qué se debe esta diferencia tan grande?
+
+[PAUSA 3s]
+
+Respuesta: al efecto menos erre del carbonilo del ácido carboxílico. Ese carbonilo permite que la base conjugada, el carboxilato, reparta la carga negativa por resonancia entre los dos oxígenos. El alcóxido, la base conjugada del alcohol, no tiene ningún grupo vecino con el que resonar, así que toda la carga se queda concentrada en un solo átomo, mucho menos estable.
+
+Si has dudado pensando que la diferencia viene del átomo que sostiene la carga: no, en los dos casos es un oxígeno, así que ese primer criterio no distingue nada aquí. La diferencia está en el segundo escalón, la resonancia.
+
+Pregunta: para decidir cuál es el hidrógeno más ácido entre dos grupos funcionales distintos, ¿en qué orden se aplican los criterios que hemos visto?
+
+[PAUSA 3s]
+
+Respuesta: primero se compara el átomo que soporta la carga negativa. Si es el mismo átomo en los dos casos, se pasa a mirar si hay resonancia con efecto menos erre. Y solo si tampoco hay resonancia en ninguno de los dos, se recurre al efecto inductivo, el menos i.
+
+Si has dudado y has empezado directamente por el efecto inductivo: es el error más típico, porque parece el criterio más fácil de ver a simple vista. Pero el inductivo es el último recurso, el más débil de los tres; primero siempre átomo, después resonancia.
+
+Una última pregunta, rápida, de repaso puro. ¿Qué grupo es el único de toda la tabla con efecto más i?
+
+[PAUSA 3s]
+
+Respuesta: el metilo. Es el único grupo que cede densidad electrónica por el enlace sencillo, sin necesidad de resonancia, dando basicidad y subiendo el pe ka del átomo al que está unido.
+
+Y con esto cerramos el tema cero. Quédate con tres ideas. Primero: la acidez siempre se decide comparando la estabilidad de la base conjugada, nunca mirando directamente el ácido de partida, y el orden de criterios es fijo: átomo, resonancia, inductivo. Segundo: los efectos menos erre y menos i dan acidez y bajan el pe ka porque estabilizan carga negativa; el menos erre necesita un enlace múltiple, el menos i solo necesita electronegatividad. Los efectos más erre y más i hacen justo lo contrario, dan basicidad y suben el pe ka, y el metilo es el único grupo con efecto más i de toda la tabla. Tercero: el pe ka es el pH al que un grupo pierde su hidrógeno, con un margen de dos unidades alrededor, y a pH fisiológico, siete con cuatro, un ácido con pe ka bajo es fuerte, mientras que una base con pe ka bajo es débil. Con esto tienes la base que vas a usar sin parar en el tema tres, que es donde de verdad se juega la nota del primer parcial.

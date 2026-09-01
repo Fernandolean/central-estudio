@@ -1,0 +1,61 @@
+Imagina dos moléculas exactamente iguales en fórmula, con los mismos átomos, los mismos enlaces, pero que son imágenes especulares una de la otra, como tu mano derecha y tu mano izquierda. Una de esas dos moléculas puede curarte y la otra puede hacerte muchísimo daño, o simplemente no hacer nada. Esto no es una rareza de laboratorio, es la base de varios casos históricos muy importantes en farmacia, y es justo de lo que trata esta pista: de estereoquímica, y de por qué la diana, no el fármaco, es la que decide con cuál de las dos formas se queda.
+
+Empecemos aclarando un punto que se confunde muchísimo en examen, así que presta atención desde el principio: no es lo mismo decir estereoisómero que decir enantiómero. Estereoisómero es el término general, el paraguas que cubre todos los isómeros espaciales, es decir, moléculas con la misma fórmula pero distinta disposición en el espacio, de forma que para pasar de una a otra habría que romper un enlace. Dentro de ese paraguas hay dos tipos concretos. El primero son los isómeros que aparecen en torno a un carbono quiral, un carbono con cuatro sustituyentes distintos, y a estos sí los llamamos enantiómeros, con configuración R o configuración S. El segundo tipo son los isómeros que aparecen en torno a un doble enlace, y a estos los llamamos diastereómeros, con configuración Z o configuración E. Así que enantiómero es un tipo concreto de estereoisómero, no un sinónimo exacto de la palabra. Si en un examen tipo test usas estereoisómero cuando la pregunta se refiere en realidad solo a los que vienen de un carbono quiral, puedes estar cometiendo un error de precisión que te penalice.
+
+Vamos ahora con la pregunta central de esta pista: ¿cómo distingue una diana entre dos enantiómeros, si tienen exactamente los mismos átomos y los mismos grupos funcionales? La respuesta es el modelo de los tres puntos, también llamado modelo de Easson-Stedman. La idea es la siguiente: para que haya reconocimiento quiral, es decir, para que la diana distinga a un enantiómero del otro, hacen falta tres puntos de interacción simultáneos entre el fármaco y la diana. Solo la disposición espacial concreta de uno de los dos enantiómeros permite que esos tres puntos encajen todos a la vez con sus aminoácidos complementarios en la diana. El otro enantiómero, al ser la imagen especular, como mucho puede hacer coincidir dos de los tres puntos, nunca los tres a la vez, y por eso su afinidad es mucho menor, o directamente nula.
+
+De aquí salen dos términos que tienes que tener totalmente automatizados. El enantiómero que sí encaja en los tres puntos, el más activo, se llama eutómero. El enantiómero que encaja peor, el menos activo, se llama distómero. Y cuando los dos tienen algo de actividad pero con distinta potencia, se calcula el cociente entre la actividad del eutómero y la actividad del distómero, y a ese cociente se le llama índice eudísmico. Cuanto mayor sea este índice, más marcada es la preferencia de la diana por uno de los dos enantiómeros, es decir, más estereoselectiva es esa diana para ese fármaco concreto. Y aquí va la idea que más se olvida: la estereoselectividad la decide la diana, no el fármaco. No es que una molécula sea intrínsecamente selectiva por sí sola flotando en el vacío; es la geometría concreta del sitio de unión de la diana la que distingue entre las dos formas especulares. El mismo fármaco, frente a una diana distinta, podría comportarse de otra manera.
+
+Vamos con tres ejemplos históricos que fijan estas ideas y que son material clásico de examen. El primero es el ibuprofeno. El ibuprofeno tiene un carbono quiral, y de sus dos enantiómeros, solo uno es activo: el enantiómero S es el activo, el eutómero, y el enantiómero R es prácticamente inactivo, el distómero. A pesar de esto, el ibuprofeno se sigue comercializando como mezcla racémica, es decir, mezclando los dos enantiómeros a partes casi iguales, y no como un producto enantiopuro que contenga solo el S. ¿Por qué? Por dos motivos. El primero es puramente económico: separar los dos enantiómeros después de la síntesis, o sintetizar directamente solo el enantiómero activo, es mucho más caro que producir la mezcla completa. El segundo motivo es una suerte añadida en el caso concreto del ibuprofeno: el organismo tiene una enzima capaz de convertir parcialmente el enantiómero R inactivo en el S activo una vez dentro del cuerpo, así que parte de lo que en teoría era distómero acaba funcionando como eutómero. Esa doble razón, coste de síntesis más interconversión metabólica, es la que explica por qué seguimos tomando ibuprofeno racémico en vez de ibuprofeno puro.
+
+El segundo ejemplo es mucho más serio, y es uno de los casos que cambió para siempre la regulación de medicamentos: la talidomida. La talidomida también tiene un carbono quiral, y en este caso los dos enantiómeros eran activos, pero con efectos completamente distintos. Uno de los dos enantiómeros tenía el efecto sedante que se buscaba, y por eso se recetó a embarazadas para aliviar náuseas y ayudar a dormir. El otro enantiómero, en cambio, resultó ser teratógeno, es decir, capaz de provocar malformaciones graves en el feto en desarrollo. Como el medicamento se comercializó como mezcla racémica, con los dos enantiómeros presentes, miles de bebés nacieron con malformaciones muy graves durante los años en que se usó de esta manera. Este caso, ocurrido hace décadas, fue clave para que la regulación farmacéutica moderna empezara a exigir estudios mucho más estrictos sobre cada enantiómero por separado antes de aprobar un medicamento, precisamente para evitar que un distómero tóxico se cuele escondido dentro de una mezcla racémica.
+
+El tercer ejemplo es la noradrenalina, y sirve para entender el caso en el que los dos enantiómeros son activos, ninguno es tóxico, pero tienen distinta potencia. Aquí es donde se usa de verdad el índice eudísmico: se calcula el cociente entre la actividad del enantiómero más potente, el eutómero, y la actividad del menos potente, el distómero. Por definición, este índice siempre va a ser mayor que uno, porque el eutómero, por ser el más activo de los dos, siempre tiene un numerador mayor que el denominador. Cuanto más se aleje este cociente del valor uno, más estereoselectiva es la diana para esa molécula concreta.
+
+Repasemos entonces la diferencia clave entre los dos tipos de estereoisómeros antes de pasar a las preguntas, porque conviene decirla dos veces con otras palabras: cuando hablamos de un carbono con cuatro sustituyentes distintos, hablamos de enantiómeros, configuración R o S. Cuando hablamos de un doble enlace con sustituyentes distintos a cada lado, hablamos de diastereómeros, configuración Z o E. Ambos son estereoisómeros, ambos pueden hacer que una diana sea selectiva, pero son fenómenos distintos y no deberías llamarlos por el mismo nombre en un examen si te piden precisión.
+
+Ahora toca repasar en voz alta. Seis preguntas, tómate un momento antes de cada respuesta.
+
+Pregunta: ¿cuáles son los dos tipos de estereoisómeros que se estudian en este tema, y a qué tipo de isomería da lugar cada uno?
+
+[PAUSA 3s]
+
+Respuesta: los que vienen de un carbono quiral, que dan lugar a enantiómeros, con configuración R o S; y los que vienen de un doble enlace, que dan lugar a diastereómeros, con configuración Z o E.
+
+Pregunta: ¿qué establece el modelo de los tres puntos de Easson-Stedman sobre el reconocimiento quiral?
+
+[PAUSA 3s]
+
+Respuesta: que hacen falta tres puntos de interacción simultáneos con la diana para que haya reconocimiento quiral, y que solo uno de los dos enantiómeros puede hacer coincidir esos tres puntos a la vez; el otro, como mucho, coincide en dos.
+
+Pregunta: el ibuprofeno tiene un carbono quiral, con el enantiómero R inactivo y el S activo, y aun así se sigue comercializando como mezcla racémica. ¿Por qué?
+
+[PAUSA 3s]
+
+Respuesta: porque producir el enantiómero puro es mucho más caro que producir la mezcla completa, y además, en el caso concreto del ibuprofeno, el organismo puede convertir parcialmente el enantiómero R inactivo en el S activo una vez dentro del cuerpo. Si has dudado pensando que no habría ninguna razón para vender algo con un componente inactivo, recuerda que ese componente inactivo no es del todo inútil, porque en parte se transforma en el activo.
+
+Pregunta: la talidomida es el ejemplo histórico donde los dos enantiómeros son activos, pero uno resulta tóxico. ¿Qué ocurrió exactamente?
+
+[PAUSA 3s]
+
+Respuesta: uno de los enantiómeros tenía el efecto sedante que se buscaba, útil incluso contra las náuseas del embarazo, pero el otro resultó teratógeno y provocó malformaciones fetales muy graves en miles de casos. Fue uno de los episodios clave que llevó a exigir estudios mucho más estrictos sobre cada enantiómero por separado antes de aprobar cualquier medicamento.
+
+Pregunta: en el caso de la noradrenalina, los dos enantiómeros son activos pero con distinta potencia. ¿Cómo se llama el cociente entre la actividad del más activo y la del menos activo?
+
+[PAUSA 3s]
+
+Respuesta: índice eudísmico. Se calcula dividiendo la actividad del eutómero, el más activo, entre la actividad del distómero, el menos activo, y por definición siempre es mayor que uno.
+
+Pregunta: ¿es correcto usar la palabra estereoisómero como si fuera exactamente lo mismo que enantiómero?
+
+[PAUSA 3s]
+
+Respuesta: no. Enantiómero es un tipo concreto de estereoisómero, el que resulta de un carbono quiral. Estereoisómero es el término general, que incluye también a los diastereómeros, los que vienen de un doble enlace. Si usas estereoisómero cuando la pregunta pide específicamente enantiómero, estás siendo impreciso, y eso puede costarte puntos en un examen tipo test.
+
+Y para cerrar, tres ideas que tienes que llevarte de esta pista.
+
+Primero, hay dos tipos de estereoisómeros, enantiómeros por carbono quiral con configuración R o S, y diastereómeros por doble enlace con configuración Z o E; estereoisómero es el término general, no un sinónimo de enantiómero.
+
+Segundo, el reconocimiento quiral necesita tres puntos de interacción simultáneos según el modelo de Easson-Stedman, y es la diana, no el fármaco, la que decide cuál de los dos enantiómeros encaja mejor; a ese más activo se le llama eutómero, al menos activo distómero, y su cociente es el índice eudísmico.
+
+Tercero, recuerda los tres casos históricos: el ibuprofeno, donde el S es el activo y se comercializa racémico por coste e interconversión metabólica; la talidomida, donde un enantiómero era sedante y el otro teratógeno, con consecuencias gravísimas; y la noradrenalina, donde los dos enantiómeros son activos pero con distinta potencia, medida precisamente con el índice eudísmico.

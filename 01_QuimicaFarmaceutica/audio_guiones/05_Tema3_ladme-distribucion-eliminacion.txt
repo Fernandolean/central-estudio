@@ -1,0 +1,61 @@
+Imagina que le has dado a alguien un jarabe para dormir y en vez de darle sueño le sube la tensión. O que una embarazada toma un fármaco pensando que es inofensivo, y ese fármaco se queda atrapado en el bebé sin poder salir. Todo esto se explica con las mismas herramientas que ya conoces de este tema: pH y especiación. Ahora tocan dos procesos que en el examen suelen aparecer juntos, distribución y eliminación, y esconden una trampa típica de examen tipo test: dos de sus reglas son exactamente la contraria la una de la otra. Vamos a verlo con calma.
+
+Empecemos por la barrera hematoencefálica, la membrana que separa la sangre del cerebro y que decide si un fármaco llega o no al sistema nervioso central. Para atravesarla hacen falta dos condiciones, y las dos tienen que cumplirse a la vez, no basta con una sola. La primera es que exista especie neutra al pH de la sangre, que es siete con cuatro. Ojo con esto: no se pide ningún porcentaje mínimo de esa especie neutra. Basta con que exista, aunque sea una fracción pequeñísima. La segunda condición es que el logaritmo de P sea mayor que dos, es decir, que el fármaco tenga suficiente lipofilia como para atravesar una barrera de las más apolares y exigentes de todo el cuerpo.
+
+Aquí tienes el ejemplo clásico de examen para fijar esta idea: los antihistamínicos de primera generación, los antiguos, daban muchísimo sueño. ¿Por qué? Porque atravesaban con facilidad la barrera hematoencefálica y llegaban al cerebro, produciendo ese efecto sedante como daño colateral. Y lo llamativo es que esos fármacos solo tenían, a pH de sangre, entre un cuatro y un cinco por ciento de especie neutra. Un cuatro o un cinco por ciento es poquísimo. Pero como no hace falta ningún mínimo, con que exista esa fracción y el fármaco sea suficientemente lipófilo, con logaritmo de P mayor que dos, ya basta para cruzar. Recuerda esto siempre que dudes: para pasar al cerebro no cuenta cuánta especie neutra hay, cuenta que haya algo de especie neutra, más una lipofilia alta.
+
+Vamos ahora con un proceso distinto, pero que usa la misma lógica de comparar pH: el atrapamiento iónico en el feto. Aquí comparamos dos compartimentos, la sangre de la madre y la sangre del feto. La madre tiene un pH de siete con cuatro. El feto tiene un pH más bajo, de siete con dos. Esa diferencia, aunque parezca pequeña, es la que determina todo. La regla es esta: si el fármaco queda más ionizado en el feto que en la madre, ya no puede volver a cruzar la placenta hacia la madre, y se queda atrapado ahí. Por eso se llama atrapamiento iónico.
+
+¿Y quién tiene más papeletas de sufrir este problema, un fármaco ácido o uno básico? Piensa en cómo se comporta cada tipo según sube o baja el pH. Un fármaco básico parte protonado, con carga, y se va quedando neutro según sube el pH. Eso significa que cuanto más bajo es el pH, más ionizado está. Y como el feto es el compartimento con el pH más bajo de los dos, una base va a estar más ionizada en el feto que en la madre. Ahí está el atrapamiento: la base cruza hacia el feto, se ioniza más al encontrar un pH más ácido, y ya no puede volver. Por eso son las bases las que principalmente dan problemas de atrapamiento iónico fetal.
+
+Los ácidos, en cambio, funcionan justo al revés. Un ácido parte neutro y se va ionizando según sube el pH. Eso quiere decir que un ácido está más ionizado cuanto mayor es el pH, y como la madre tiene el pH más alto de los dos, siete con cuatro frente a siete con dos del feto, el ácido va a estar más ionizado en la madre, no en el feto. Nunca queda atrapado del lado fetal, porque el compartimento donde más se ioniza es el de la madre. Así que si tienes que decidir rápido en un examen tipo test entre ácido y básico para el atrapamiento iónico, la respuesta casi siempre apunta a las bases, no a los ácidos.
+
+Cambiamos de escenario: ya no es cruzar membranas ni placenta, sino cómo se elimina el fármaco por el riñón, en la orina. Aquí, igual que en liberación, interesa la especie ionizada, porque es la que se disuelve bien en un medio acuoso. La regla concreta es esta: si aproximadamente entre un cuarenta y cinco y un cincuenta por ciento de la especie está ionizada al pH de la orina, la eliminación renal directa es posible. Si no se llega a ese porcentaje, hay que proponer una solución antes de dar el fármaco por eliminado.
+
+¿Y cuál es esa solución? Depende de si el problema está en la parte más ácida o en la parte más básica del fármaco. Si el fármaco tiene un grupo básico que no se está eliminando bien, se recomienda acidificar la orina, por ejemplo con zumo de limón, para favorecer que ese grupo se quede protonado, con carga, y por tanto soluble y eliminable. Si el problema está en un grupo ácido, se hace lo contrario, alcalinizar la orina, por ejemplo con bicarbonato sódico, para favorecer la forma cargada del ácido. La lógica de fondo es siempre la misma: mover el pH de la orina hacia el lado que favorezca la especie ionizada, sea cual sea el grupo que esté dando problemas.
+
+Y ahora llegamos al concepto que más se confunde con el atrapamiento iónico en los exámenes tipo test: la cristaluria. La cristaluria es, literalmente, la formación de piedras en el riñón, porque ahí precipita el fármaco. Esto ocurre cuando el fármaco es más soluble en la sangre, a pH siete con cuatro, que en la orina, a pH aproximadamente seis. Si es más soluble en sangre que en orina, al llegar al riñón se queda menos disuelto, y precipita.
+
+Aquí viene la trampa más importante de toda esta pista: en cristaluria pasa justo lo contrario que en atrapamiento iónico. En atrapamiento iónico, recuerda, eran las bases las que daban problemas, porque se ionizan más a pH bajo, y el feto tiene el pH más bajo. En cristaluria son los ácidos los que dan más problemas. ¿Por qué? Porque un ácido se ioniza más cuanto mayor es el pH, así que está más ionizado, y por tanto más soluble, en la sangre, que tiene el pH más alto de los dos, que en la orina, que tiene el pH más bajo. Si está poco ionizado en la orina, está poco soluble ahí, y eso es justo lo que hace que precipite y forme cristales. Las bases, en cambio, funcionan al revés: se ionizan más a pH bajo, así que están más disueltas precisamente en la orina, y por eso casi no dan problemas de cristaluria.
+
+Fíjate en el patrón completo, la clave de toda esta pista: atrapamiento iónico y cristaluria usan la misma lógica de comparar solubilidad entre dos compartimentos con distinto pH, pero afectan a grupos opuestos. Atrapamiento iónico castiga sobre todo a las bases. Cristaluria castiga sobre todo a los ácidos. Si memorizas solo una de las dos reglas sin la otra, es fácil confundirlas en un examen tipo test, así que apréndetelas siempre juntas, como espejo la una de la otra.
+
+Vamos con la parte de repasar en voz alta. Cinco preguntas, tómate tu tiempo para responder en la pausa antes de escuchar la respuesta.
+
+Pregunta: ¿qué dos condiciones tienen que cumplirse a la vez para que un fármaco atraviese la barrera hematoencefálica y llegue al sistema nervioso central?
+
+[PAUSA 3s]
+
+Respuesta: que exista especie neutra al pH de la sangre, sin ningún porcentaje mínimo exigido, y que el logaritmo de P sea mayor que dos. Las dos condiciones son obligatorias a la vez; si falla cualquiera de las dos, el fármaco no cruza.
+
+Pregunta: los antihistamínicos antiguos daban mucho sueño aunque solo tuvieran entre un cuatro y un cinco por ciento de especie neutra a pH de sangre. ¿Qué nos enseña este ejemplo?
+
+[PAUSA 3s]
+
+Respuesta: que no hace falta ningún porcentaje mínimo de especie neutra para cruzar al cerebro, basta con que exista, siempre que el logaritmo de P sea suficientemente alto. Si has dudado pensando en algún porcentaje concreto, como el que se usa en liberación, cuidado: ese umbral pertenece a otro proceso distinto, no a la barrera hematoencefálica.
+
+Pregunta: comparando el pH de la sangre materna, siete con cuatro, con el de la sangre fetal, siete con dos, ¿por qué son los fármacos básicos los que dan sobre todo problemas de atrapamiento iónico fetal?
+
+[PAUSA 3s]
+
+Respuesta: porque las bases parten protonadas y se van desprotonando según sube el pH; como el feto tiene el pH más bajo de los dos, la base queda más ionizada justo ahí, y una vez ionizada no puede volver a cruzar hacia la madre. Si has dudado y has pensado en los ácidos, recuerda que ellos funcionan al revés: se ionizan más cuanto mayor es el pH, así que es en la madre, no en el feto, donde más se ionizan, y por eso casi nunca quedan atrapados del lado fetal.
+
+Pregunta: según la regla de eliminación renal, ¿qué porcentaje aproximado de especie ionizada en orina hace falta para que la eliminación directa por vía renal sea posible?
+
+[PAUSA 3s]
+
+Respuesta: entre un cuarenta y cinco y un cincuenta por ciento de especie ionizada. Si el fármaco es básico y no llega a ese porcentaje, la solución es acidificar la orina, por ejemplo con zumo de limón, para favorecer la especie protonada y soluble.
+
+Pregunta: ¿por qué los fármacos ácidos son los que más problemas de cristaluria pueden dar, y los básicos los que menos, si esto suena tan parecido al atrapamiento iónico?
+
+[PAUSA 3s]
+
+Respuesta: porque en cristaluria pasa justo lo contrario que en atrapamiento iónico. Los ácidos se ionizan más cuanto mayor es el pH, así que están más ionizados y más solubles en la sangre que en la orina, y eso hace que precipiten al llegar al riñón. Las bases, al revés, se ionizan más a pH bajo, así que están más solubles precisamente en la orina, y por eso apenas dan cristaluria. Si has confundido esta pregunta con la de atrapamiento iónico, es justo la trampa más habitual del examen: son reglas espejo, una para bases y otra para ácidos.
+
+Y para cerrar, quédate con tres ideas.
+
+Primero, para cruzar la barrera hematoencefálica hacen falta dos condiciones a la vez: que exista especie neutra, sin mínimo exigido, y logaritmo de P mayor que dos; basta con que exista esa fracción neutra, no con que abunde.
+
+Segundo, el atrapamiento iónico fetal castiga sobre todo a las bases, porque el feto tiene un pH más bajo que la madre, siete con dos frente a siete con cuatro, y las bases se ionizan más cuanto más bajo es el pH.
+
+Tercero, y esta es la que más confusión genera en examen: la cristaluria es la regla espejo del atrapamiento iónico, pero para los ácidos, no para las bases; los ácidos precipitan porque están más solubles en sangre que en orina, mientras que la eliminación renal directa depende de superar ese entre cuarenta y cinco y cincuenta por ciento de especie ionizada en orina, corrigiendo con orina ácida o alcalina según convenga.

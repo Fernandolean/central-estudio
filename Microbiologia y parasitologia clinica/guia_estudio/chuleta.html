@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Chuleta de Mnemotecnias — Microbiología y Parasitología Clínicas</title>
+<style>
+  /* Hoja de estilos 100% reutilizable — normalmente no hace falta tocarla. */
+  @page { size: A4; margin: 12mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #232733;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    background: #fff;
+  }
+  .cover {
+    height: 273mm;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; page-break-after: always;
+    background: radial-gradient(circle at 30% 20%, #ffe27a 0%, transparent 45%),
+                radial-gradient(circle at 80% 70%, #7ae0ff 0%, transparent 45%),
+                linear-gradient(135deg,#1c2733,#0a5e66);
+    color: #fff; border-radius: 18px;
+  }
+  .cover .emoji-row { font-size: 34pt; margin-bottom: 10px; letter-spacing: 6px; }
+  .cover h1 { font-size: 28pt; margin: 0 0 6px; }
+  .cover h2 { font-size: 13pt; font-weight: 400; opacity: .9; max-width: 420px; margin: 0 0 30px; }
+  .cover .hint { max-width: 420px; font-size: 9.5pt; opacity: .85; background: rgba(255,255,255,.12); border-radius: 10px; padding: 12px 18px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .card {
+    border-radius: 14px; padding: 5mm; page-break-inside: avoid;
+    border: 2px solid var(--c); background: var(--bg);
+  }
+  .card .icon { font-size: 20pt; }
+  .card h3 { margin: 2mm 0 1mm; font-size: 11.5pt; color: var(--c); }
+  .card .tagline { font-size: 8.3pt; font-style: italic; color: #55606b; margin-bottom: 2mm; }
+  .card .story {
+    background: #fff; border-radius: 8px; padding: 2.5mm 3mm; font-size: 8.8pt;
+    margin-bottom: 2mm; border-left: 3px solid var(--c);
+  }
+  .card .takeaway {
+    font-size: 8.6pt; background: var(--c); color: #fff; border-radius: 8px; padding: 2.5mm 3mm;
+    font-weight: 700;
+  }
+  .acronym { display: flex; flex-direction: column; gap: 1mm; margin-bottom: 2mm; }
+  .acronym div { display: flex; gap: 2mm; font-size: 8.6pt; align-items: baseline; }
+  .acronym b { color: var(--c); font-size: 11pt; width: 14px; flex: 0 0 auto; }
+  .section-title { font-size: 13pt; color: #0a5e66; margin: 6mm 0 3mm; font-weight: 800; }
+  .section-title:first-of-type { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="emoji-row">🧫🦠🔬</div>
+  <h1>Chuleta de Mnemotecnias</h1>
+  <h2>Los trucos absurdos que se quedan grabados cuando el dato "lógico" se olvida — Microbiología y Parasitología Clínicas</h2>
+  <div class="hint">Úsala junto al simulador y la guía de estudio: cuando falles una pregunta, busca aquí el truco que le corresponde. Solo están los datos <b>puramente memorísticos</b> (nombres de medios, órdenes de reactivos, listas cerradas, qué muestra para qué parásito). Todo lo que tiene lógica interna está explicado con tablas en la guía. Lo raro se recuerda mejor que lo razonable.</div>
+</div>
+
+<div class="section-title">1 · Diagnóstico de laboratorio: tinciones y medios</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🎨</span>
+    <h3>CLAS: los 4 reactivos del Gram</h3>
+    <div class="tagline">El orden se pregunta literalmente y los distractores lo barajan</div>
+    <div class="acronym">
+      <div><b>C</b> <b style="width:auto">Cristal violeta</b> — el pintor: lo tiñe todo de violeta (1 min).</div>
+      <div><b>L</b> <b style="width:auto">Lugol</b> — el pegamento: <i>ancla</i> el violeta al peptidoglicano (1 min).</div>
+      <div><b>A</b> <b style="width:auto">Alcohol-acetona</b> — el quitaesmalte: borra a quien tenía poco pegamento (30 s).</div>
+      <div><b>S</b> <b style="width:auto">Safranina</b> — el rotulador rosa: marca a los que quedaron desnudos (1 min).</div>
+    </div>
+    <div class="story">Imagina una <b>CLASe</b> de pintura: pintor → pegamento → quitaesmalte → rotulador rosa. Los gordos de peptidoglicano (Gram+) aguantan el quitaesmalte y siguen violetas; los delgados (Gram−) se quedan en pelotas y hay que repintarlos de rosa.</div>
+    <div class="takeaway">CLAS. Gram+ VIOLETA, Gram− ROSA. Paso crítico = la decoloración (alcohol-acetona), porque depende del tiempo.</div>
+  </div>
+
+  <div class="card" style="--c:#1b6ca8; --bg:#e6f0f8;">
+    <span class="icon">🪪</span>
+    <h3>El carné de los medios de apellido raro</h3>
+    <div class="tagline">Nombres 100 % arbitrarios: solo se pueden memorizar</div>
+    <div class="acronym">
+      <div><b>B</b> <b style="width:auto">BCYE</b> → <i>Legionella</i> ("Bebe Café Ya, Espabila": la del aire acondicionado).</div>
+      <div><b>T</b> <b style="width:auto">TCBS</b> → <i>Vibrio cholerae</i> ("Tengo Cólera, Búscame Sal").</div>
+      <div><b>C</b> <b style="width:auto">CCFA</b> → <i>Clostridium difficile</i> (las dos <b>C</b> del Clostridium).</div>
+      <div><b>C</b> <b style="width:auto">CIN</b> → <i>Yersinia</i> ("<b>CIN</b>co colonias diminutas").</div>
+      <div><b>S</b> <b style="width:auto">Skirrow</b> → <i>Campylobacter</i> (suena a "esquiar": necesita 42 °C, temperatura del pollo).</div>
+      <div><b>G</b> <b style="width:auto">Granada</b> → <i>S. agalactiae</i> (granada = fruta <b>naranja</b>, el color del pigmento).</div>
+      <div><b>C</b> <b style="width:auto">Castañeda</b> → <i>Brucella</i> (apellido con "caste": ganado, zoonosis).</div>
+      <div><b>N</b> <b style="width:auto">NNN</b> → <i>Leishmania</i> (promastigotes).</div>
+      <div><b>T</b> <b style="width:auto">Thayer-Martin</b> → <i>Neisseria gonorrhoeae</i>.</div>
+      <div><b>L</b> <b style="width:auto">Löwenstein-Jensen / Middlebrook</b> → micobacterias.</div>
+    </div>
+    <div class="takeaway">Cada bicho difícil tiene su medio con nombre propio. Si el enunciado te da un medio raro, la respuesta es su dueño y nadie más.</div>
+  </div>
+
+  <div class="card" style="--c:#7a3fa0; --bg:#f2e9f8;">
+    <span class="icon">📶</span>
+    <h3>Los tres niveles de los medios entéricos</h3>
+    <div class="tagline">Trampa fija: "SS y XLD, poco selectivos" — FALSO</div>
+    <div class="story">Piensa en una discoteca con tres puertas. <b>El caldo SELENITO</b> es la barra libre: no filtra, <i>engorda</i> a la Salmonella (enriquecimiento). <b>McConkey y EMB</b> son el portero blando: solo pide "que seas Gram−" (poco selectivos). <b>SS, XLD, Hektoen y verde brillante</b> son el portero duro: echan a las comensales y solo dejan pasar a las patógenas (moderadamente selectivos).</div>
+    <div class="takeaway">Selenito = ENRIQUECIMIENTO. McConkey/EMB = POCO selectivos. SS, XLD, Hektoen, verde brillante = MODERADAMENTE selectivos.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🥛</span>
+    <h3>Las patógenas son intolerantes a la lactosa</h3>
+    <div class="tagline">Comensales lactosa+ vs patógenas lactosa−</div>
+    <div class="story">Las buenas de la microbiota (<i>E. coli</i>, <i>Klebsiella</i>, <i>Enterobacter</i>, <i>Citrobacter</i>) se toman su vaso de leche tan tranquilas → <b>lactosa +</b>, colonias rosas/amarillas. Las tres malas —<b>S</b>almonella, <b>S</b>higella y <b>Y</b>ersinia— son <b>intolerantes a la lactosa</b>: ni la tocan, así que salen del color de la placa. Y de las tres, solo <b>Salmonella</b> se pone <i>negra de mala leche</i> (produce H₂S).</div>
+    <div class="takeaway">LACTOSA − = PATÓGENA: Salmonella, Shigella, Yersinia. Colonias NEGRAS (H₂S) = SALMONELLA. Yersinia = colonias diminutas → agar CIN.</div>
+  </div>
+
+</div>
+
+<div class="section-title">2 · Respiratorio y tuberculosis</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0d7a4f; --bg:#e5f4ed;">
+    <span class="icon">🎵</span>
+    <h3>El HiMNo del oído y del seno</h3>
+    <div class="tagline">El trío fijo de sinusitis aguda y otitis media aguda</div>
+    <div class="acronym">
+      <div><b>H</b> <i>Haemophilus influenzae</i> — cocobacilo Gram−, solo crece en chocolate.</div>
+      <div><b>M</b> <i>Moraxella catarrhalis</i> — diplococo Gram−.</div>
+      <div><b>N</b> <b style="width:auto">Neumococo</b> (<i>S. pneumoniae</i>) — diplococo Gram+.</div>
+    </div>
+    <div class="story">Cada vez que a un niño le duele el oído, suena en su cabeza el <b>HiMNo</b> de los tres mismos bichos. Si además el enunciado dice McConkey positivo, se ha colado <i>Pseudomonas</i> en el coro.</div>
+    <div class="takeaway">Sinusitis y otitis media = Haemophilus + Moraxella + Neumococo. NO es S. pyogenes (ese es el de la garganta).</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">💿</span>
+    <h3>Optoquina y bacitracina: los dos discos</h3>
+    <div class="tagline">Diferenciación clásica de estreptococos en agar sangre</div>
+    <div class="story">La <b>B</b> va con la <b>B</b>: <b>B</b>acitracina → <b>B</b>eta-hemólisis (halo transparente) → el de la garganta, <i>S. pyo<b>g</b>enes</i>. La <b>O</b> va con la <b>O</b>: <b>O</b>ptoquina → alfa-hemólisis con halo verde → el <b>neum<b>O</b>coco</b>, que además es <i>soluble en bilis</i>. Y el grupo viridans es el hermano gorrón: también alfa, pero <b>RESISTENTE</b> a optoquina.</div>
+    <div class="takeaway">B con B: BACITRACINA sensible = S. pyogenes (β). O con O: OPTOQUINA sensible = S. pneumOniae (α). Viridans = α pero RESISTENTE.</div>
+  </div>
+
+  <div class="card" style="--c:#1b6ca8; --bg:#e6f0f8;">
+    <span class="icon">🫁</span>
+    <h3>A de Atípica, A de Ambos pulmones</h3>
+    <div class="tagline">Cómo leer la radiografía en dos segundos</div>
+    <div class="story">La <b>TÍPICA</b> (neumococo) dispara <b>UN solo tiro</b>: condensación de un único lóbulo, <b>unilateral</b>. La <b>ATÍPICA</b> (<i>Mycoplasma</i>, <i>Chlamydophila</i>, <i>Coxiella</i>, virus) es una llovizna que moja los dos lados: <b>infiltrados bilaterales</b>. Y como las atípicas ni se ven al Gram ni crecen en los medios normales, la placa "solo con flora normal" es la firma delatora.</div>
+    <div class="takeaway">Unilateral = típica = neumococo. Bilateral + placas con solo flora normal = ATÍPICA por Mycoplasma → PCR.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">3️⃣</span>
+    <h3>La tuberculosis va de TRES</h3>
+    <div class="tagline">Todo el protocolo del bacilo de Koch en un número</div>
+    <div class="acronym">
+      <div><b>3</b> esputos consecutivos (hay poquísimo bacilo en cada uno).</div>
+      <div><b>3</b> nivel de bioseguridad del laboratorio (se transmite por aire).</div>
+      <div><b>3</b>-4 semanas hasta ver crecimiento en Löwenstein (incubar ≥6).</div>
+    </div>
+    <div class="story">Y para verlo: el bacilo lleva un <b>chubasquero de ácidos micólicos</b>, así que el Gram le resbala. Solo entra la fucsina <b>con calor</b> (Ziehl-Neelsen): queda <b>ROJO sobre fondo AZUL</b>. Si quieres más sensibilidad, auramina-rodamina: <b>amarillo brillante sobre negro</b>.</div>
+    <div class="takeaway">3 esputos, nivel 3, ZN = rojo sobre azul. ZN negativo NO descarta TBC → por eso el cultivo se hace SIEMPRE. Mantoux = contacto previo, NO diagnóstico.</div>
+  </div>
+
+</div>
+
+<div class="section-title">3 · Genitourinario y digestivo</div>
+<div class="grid">
+
+  <div class="card" style="--c:#7a3fa0; --bg:#f2e9f8;">
+    <span class="icon">🕵️</span>
+    <h3>Thayer-Martin, el portero del gonococo</h3>
+    <div class="tagline">Nombre propio arbitrario que sale en cada convocatoria</div>
+    <div class="story">Imagina a <b>Thayer y Martin</b>, dos detectives con gabardina en la puerta de un local muy privado. Llevan vancomicina en el bolsillo y solo dejan entrar a las <b>Neisserias patógenas</b>: a las comensales y a toda la flora vaginal e intestinal las echan a la calle. Si de un exudado uretral o endocervical crece algo en Thayer-Martin, es <i>Neisseria gonorrhoeae</i>.</div>
+    <div class="takeaway">Crecimiento en THAYER-MARTIN desde exudado genital = N. gonorrhoeae. Diplococos Gram− INTRAcelulares + >5 PMN/campo = uretritis GONOCÓCICA.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🔍</span>
+    <h3>Clue cells: las células "con pistas"</h3>
+    <div class="tagline">Hallazgo patognomónico y muy preguntado</div>
+    <div class="story">"Clue" es <b>pista</b> en inglés. Son células epiteliales vaginales <b>rebozadas de cocobacilos</b>, como una croqueta pasada por pan rallado — y <b>SIN leucocitos alrededor</b>, porque la vaginosis no inflama. Ese "sin leucocitos" es lo que la separa de todo lo demás.</div>
+    <div class="takeaway">CLUE CELLS + olor a pescado + sin PMN = VAGINOSIS por Gardnerella vaginalis. NO es una ITS: es endógena, como la candidiasis.</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🧪</span>
+    <h3>Nitritos = eNterobacterias</h3>
+    <div class="tagline">La tira reactiva de orina, resuelta con una letra</div>
+    <div class="story">La <b>N</b> de <b>N</b>itritos es la <b>N</b> de e<b>N</b>terobacterias: solo ellas tienen nitrato reductasa para convertir los nitratos normales de la orina en nitritos. Todo lo que <b>no</b> es enterobacteria da nitritos negativos: <i>Pseudomonas</i>, <i>Staphylococcus</i> (¡ojo con <i>S. saprophyticus</i> en la chica joven!) y <i>Enterococcus</i>.</div>
+    <div class="takeaway">Nitritos + = enterobacteria (E. coli, Klebsiella, Proteus). Tira NEGATIVA en mujer joven sintomática ≠ "no tiene infección": piensa en S. SAPROPHYTICUS.</div>
+  </div>
+
+  <div class="card" style="--c:#1b6ca8; --bg:#e6f0f8;">
+    <span class="icon">🚽</span>
+    <h3>Cary-Blair lleva la caca</h3>
+    <div class="tagline">Medios de transporte, que también se preguntan</div>
+    <div class="story">"<b>CA</b>ry-Blair" empieza igual que "<b>CA</b>ca": es el medio de transporte de las <b>HECES</b> (≤2 h para cultivo, a 4 °C; congelar a −20 °C si van para toxinas o PCR). Para todo lo demás —exudados uretrales, faríngeos, de heridas— los transportes son <b>Stuart y Amies</b>.</div>
+    <div class="takeaway">CARY-BLAIR = heces. STUART/AMIES = exudados. LCR: NUNCA a la nevera, va a temperatura ambiente para que las bacterias se multipliquen.</div>
+  </div>
+
+</div>
+
+<div class="section-title">4 · Sistema nervioso central e infecciones sistémicas</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0d7a4f; --bg:#e5f4ed;">
+    <span class="icon">🧠</span>
+    <h3>LCR con linfocitos: el trío VI-LI-TU</h3>
+    <div class="tagline">Quién se esconde dentro de la célula</div>
+    <div class="acronym">
+      <div><b>VI</b> <b style="width:auto">VIrus</b> — glucosa NORMAL, es la clave.</div>
+      <div><b>LI</b> <b style="width:auto">LIsteria</b> — bacilo Gram+, neonatos y embarazadas.</div>
+      <div><b>TU</b> <b style="width:auto">TUberculosis</b> — glucosa baja, curso subagudo.</div>
+    </div>
+    <div class="story">Los <b>LIN</b>focitos persiguen a los que se esconden <b>DEN</b>tro de las células. Los <b>polimorfonucleares</b>, en cambio, van a por los que están fuera a cara descubierta: meningococo, neumococo, <i>E. coli</i>, <i>S. agalactiae</i>.</div>
+    <div class="takeaway">Linfocitos + glucosa NORMAL = meningitis VÍRICA. Linfocitos + glucosa BAJA = tuberculosa o criptocócica. PMN = bacteriana clásica extracelular.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🏕️</span>
+    <h3>El CAMPamento de la embarazada</h3>
+    <div class="tagline">Test de CAMP: qué es, en quién y para qué</div>
+    <div class="story">En el <b>CAMP</b>amento de las gestantes, la <b>A</b> mayúscula del CAMP te recuerda a <i>ag<b>A</b>lactiae</i> (que además es el grupo <b>B</b>, así que si el examen dice "grupo A" o "pyogenes", está mintiendo). Se hace en <b>agar sangre</b>, entre las semanas <b>35-37</b>, y funciona porque dos hemolisinas se dan la mano: es una <b>reacción SINÉRGICA entre dos hemolisinas</b> que dibuja una punta de flecha.</div>
+    <div class="takeaway">CAMP + = Streptococcus AGALACTIAE (grupo B). Agar sangre, ÚLTIMAS semanas de gestación, para prevenir la MENINGITIS NEONATAL. Agar Granada = colonias naranjas.</div>
+  </div>
+
+  <div class="card" style="--c:#7a3fa0; --bg:#f2e9f8;">
+    <span class="icon">💉</span>
+    <h3>Primaria = entra directa a la vena</h3>
+    <div class="tagline">Bacteriemia primaria vs secundaria, sin dudar</div>
+    <div class="story">Si la bacteria <b>ya está dentro del tubo</b> (catéter endovascular, válvula cardiaca) o llega a la sangre sin dejar rastro focal (<i>Salmonella</i> Typhi, <i>Brucella</i>, meningococo), la bacteriemia es <b>PRIMARIA</b>. Si viene de un incendio que se ve desde fuera (pielonefritis, neumonía, celulitis, osteomielitis, artritis), es <b>SECUNDARIA</b> — y estas son las más frecuentes.</div>
+    <div class="takeaway">CATÉTER y ENDOCARDITIS = PRIMARIA. Fiebre tifoidea, brucelosis y meningococemia = PRIMARIA. Todo lo que tiene un foco visible = SECUNDARIA.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🩸</span>
+    <h3>Los 4 Gram del hemocultivo</h3>
+    <div class="tagline">Cuatro casos de prácticas que caen tal cual</div>
+    <div class="acronym">
+      <div><b>1</b> Bacilo Gram− (rosa) → <i>E. coli</i> → <b>pielonefritis</b>.</div>
+      <div><b>2</b> Diplococo Gram+ → <i>S. pneumoniae</i> → <b>neumonía</b>.</div>
+      <div><b>3</b> Cocos Gram+ en <b>CADENA</b> → viridans → <b>endocarditis</b> (venía de la muela).</div>
+      <div><b>4</b> Cocos Gram+ en <b>RACIMO</b> → <i>S. epidermidis</i> → <b>catéter</b>.</div>
+    </div>
+    <div class="story">Cadena = collar de perlas = corazón (endocarditis). Racimo = uvas pegadas al plástico = catéter. Y ojo: el Gram se hace <b>del frasco de hemocultivo positivo</b>, jamás de la sangre recién extraída.</div>
+    <div class="takeaway">Cadena → endocarditis (viridans). Racimo coagulasa− → catéter (epidermidis). Racimo catalasa+ y coagulasa+ → S. aureus.</div>
+  </div>
+
+</div>
+
+<div class="section-title">5 · Hepatitis y serología del embarazo</div>
+<div class="grid">
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🔤</span>
+    <h3>Hepatitis B: la S, la C y la e</h3>
+    <div class="tagline">La tabla de marcadores, reducida a tres letras</div>
+    <div class="acronym">
+      <div><b>S</b> anti-HB<b>s</b> = <b>S</b>ano y <b>S</b>alvo (protege y neutraliza). En el <b>vacunado es el ÚNICO marcador</b>.</div>
+      <div><b>C</b> anti-HB<b>c</b> = <b>C</b>ontacto real con el virus. Nunca aparece si solo te han vacunado. <b>IgM = aguda; IgG = pasada o crónica</b>.</div>
+      <div><b>e</b> HB<b>e</b>Ag = r<b>e</b>plicación (y alta infectividad).</div>
+    </div>
+    <div class="story">Vacunado y curado tienen los dos el "aprobado" (anti-HBs), pero solo el que <b>sufrió el examen de verdad</b> tiene además el anti-HBc. Y el HBsAg es el primero en aparecer: si sigue ahí a los <b>6 meses</b>, ha cronificado.</div>
+    <div class="takeaway">Solo anti-HBs = VACUNADO. Anti-HBs + anti-HBc = infección pasada CURADA. HBsAg >6 meses = CRÓNICA. HBcAg NO se detecta nunca en suero.</div>
+  </div>
+
+  <div class="card" style="--c:#0d7a4f; --bg:#e5f4ed;">
+    <span class="icon">🗑️</span>
+    <h3>TRASH-V: el cribado del embarazo</h3>
+    <div class="tagline">Los 5 y solo 5 del control serológico sistemático</div>
+    <div class="acronym">
+      <div><b>T</b> <b style="width:auto">Toxoplasma</b> (IgG; si negativa → precauciones y control trimestral).</div>
+      <div><b>R</b> <b style="width:auto">Rubéola</b> (IgG; si negativa → vacunar en el POSTPARTO).</div>
+      <div><b>S</b> <b style="width:auto">Sífilis</b> (RPR/VDRL de cribado → FTA-ABS/TPHA de confirmación).</div>
+      <div><b>H</b> <b style="width:auto">Hepatitis B</b> (HBsAg, un ANTÍGENO, no un anticuerpo).</div>
+      <div><b>V</b> <b style="width:auto">VIH</b> (ELISA → Western blot de confirmación).</div>
+    </div>
+    <div class="story">"Saca la <b>basura</b> (TRaSH + V) antes de que nazca el bebé" — la <i>a</i> es solo relleno para que suene. Lo que <b>NO</b> entra en el cribado rutinario: <b>citomegalovirus y parvovirus B19</b>. Y el clásico <b>TORCH</b> = <b>T</b>oxoplasma, <b>O</b>tros (sífilis, VIH, VHB, parvovirus, varicela), <b>R</b>ubéola, <b>C</b>itomegalovirus, <b>H</b>erpes.</div>
+    <div class="takeaway">Sistemático: TOXOPLASMA, RUBÉOLA, SÍFILIS, HEPATITIS B, VIH. Vacunas VIVAS/ATENUADAS: prohibidas en el embarazo.</div>
+  </div>
+
+</div>
+
+<div class="section-title">6 · Parasitología</div>
+<div class="grid">
+
+  <div class="card" style="--c:#a0522d; --bg:#f7ece5;">
+    <span class="icon">🗂️</span>
+    <h3>Cada parásito, su cajón</h3>
+    <div class="tagline">La pregunta estrella de parasitología: "¿qué muestra?"</div>
+    <div class="acronym">
+      <div><b>🦴</b> <b style="width:auto">MÉDULA ÓSEA</b> → <i>Leishmania</i> VISCERAL (el macrófago nace ahí).</div>
+      <div><b>🩸</b> <b style="width:auto">SANGRE</b> → <i>Plasmodium</i>, <i>Trypanosoma</i> agudo, filarias linfáticas y <i>Loa loa</i>.</div>
+      <div><b>💧</b> <b style="width:auto">LCR</b> → <i>Naegleria</i> y <i>T. brucei</i> en fase 2 (meningoencefálica).</div>
+      <div><b>🚻</b> <b style="width:auto">EXUDADO VAGINAL</b> → <i>Trichomonas vaginalis</i>.</div>
+      <div><b>🚰</b> <b style="width:auto">ORINA</b> → <i>Schistosoma haematobium</i> (haemato = hematuria).</div>
+      <div><b>🫁</b> <b style="width:auto">ESPUTO</b> → <i>Paragonimus westermani</i> y <i>Pneumocystis</i>.</div>
+      <div><b>💪</b> <b style="width:auto">BIOPSIA MUSCULAR</b> → <i>Trichinella spiralis</i>.</div>
+      <div><b>🧻</b> <b style="width:auto">TIRA PERIANAL</b> (Graham) → <i>Enterobius vermicularis</i>.</div>
+      <div><b>🤲</b> <b style="width:auto">PIEL</b> → <i>Onchocerca volvulus</i> (biopsia exangüe).</div>
+    </div>
+    <div class="takeaway">Kala-azar → MÉDULA ÓSEA. Tricomoniasis → EXUDADO VAGINAL. S. haematobium → ORINA. Paragonimus → ESPUTO. Oxiuros → GRAHAM. Oncocerca → PIEL.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🚫</span>
+    <h3>"ODio la sangre": las filarias que no están ahí</h3>
+    <div class="tagline">Toda la pregunta de filarias en dos letras</div>
+    <div class="story">De todas las filarias, dos <b>ODian la sangre</b> y no aparecen nunca en un frotis: <b>O</b> de <i><b>O</b>nchocerca volvulus</i> (vive en nódulos y sus microfilarias están en la <b>PIEL</b> y en el ojo → ceguera de los ríos, mosca negra de los ríos rápidos) y <b>D</b> de <i><b>D</b>racunculus medinensis</i> (la hembra asoma por una <b>úlcera del pie</b> al meterlo en el agua; se saca enrollándola en un palito). Las demás —<i>Wuchereria</i>, <i>Brugia</i>, <i>Loa loa</i>— sí están en sangre.</div>
+    <div class="takeaway">EN SANGRE: Wuchereria, Brugia (NOCTURNAS) y Loa loa (DIURNA). NO en sangre: ONCHOCERCA (piel) y DRACUNCULUS (úlcera cutánea).</div>
+  </div>
+
+  <div class="card" style="--c:#1b6ca8; --bg:#e6f0f8;">
+    <span class="icon">💀</span>
+    <h3>Maurer = Malignísima</h3>
+    <div class="tagline">Distinguir especies de <i>Plasmodium</i> en el frotis</div>
+    <div class="story">Los puntos de <b>M</b>aurer llevan la misma <b>M</b> que <b>M</b>aligna: son de <i>P. falci<b>parum</b></i>, el de la <b>terciana maligna</b>, la malaria cerebral y la muerte. Los de <b>Schüffner</b>, que suena más simpático y alemán, son de los benignos: <i>P. vivax</i> y <i>P. ovale</i> (los que además esconden <b>hipnozoítos</b> en el hígado y dan recaídas).</div>
+    <div class="takeaway">MAURER = falciparum = MALIGNA. SCHÜFFNER = vivax y ovale = benignas con hipnozoítos. Test rápido HRP-2 = P. falciparum.</div>
+  </div>
+
+  <div class="card" style="--c:#7a3fa0; --bg:#f2e9f8;">
+    <span class="icon">🔎</span>
+    <h3>La gruesa BUSCA, el frotis BAUTIZA</h3>
+    <div class="tagline">Gota gruesa vs extensión fina, sin liarse</div>
+    <div class="story">La <b>GOTA GRUESA</b> es la red de arrastre: mucha sangre, hematíes reventados (deshemoglobinizada), <b>NO se fija</b> y es la <b>más sensible</b> → sirve para <b>encontrar</b> el parásito aunque haya poquísimo. El <b>FROTIS</b> es la lupa del taxónomo: poca sangre, <b>se fija</b>, el hematíe queda intacto → sirve para <b>ponerle nombre y apellido</b> a la especie y calcular la parasitemia. Los dos se tiñen con <b>Giemsa</b>.</div>
+    <div class="takeaway">GRUESA: no se fija, deshemoglobinizada, MÁS SENSIBLE, cribado. FROTIS: se fija, morfología conservada, IDENTIFICA ESPECIE.</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">💣</span>
+    <h3>El quiste hidatídico es una bomba</h3>
+    <div class="tagline">"¿En qué parasitosis NO harías nunca una biopsia?"</div>
+    <div class="story">Un quiste de <i>Echinococcus</i> es un globo lleno de antígeno a presión. Si le clavas una aguja, <b>explota</b>: shock anafiláctico y siembra de escólex por toda la cavidad. Por eso el diagnóstico es <b>mirar y analizar la sangre</b>, nunca pinchar: <b>ecografía/TAC + serología</b>. Y la respuesta inmune es <b>mayor en los quistes hepáticos que en los pulmonares</b>.</div>
+    <div class="takeaway">HIDATIDOSIS: imagen + serología. NUNCA punción ni biopsia. Perro = hospedador definitivo; oveja = intermediario; el hombre, accidental.</div>
+  </div>
+
+  <div class="card" style="--c:#0d7a4f; --bg:#e5f4ed;">
+    <span class="icon">🧫</span>
+    <h3>Las tres técnicas con nombre propio del coprológico</h3>
+    <div class="tagline">Baermann, Graham y flotación: no las intercambies</div>
+    <div class="acronym">
+      <div><b>B</b> <b style="width:auto">BAERMANN</b> → <b>LARVAS</b> de nematodos (<i>Strongyloides</i>). "Baermann baja a por las larvas".</div>
+      <div><b>G</b> <b style="width:auto">GRAHAM</b> → huevos de <b>oxiuros</b>, con celo en el ano. "Graham pega el papel".</div>
+      <div><b>N</b> <b style="width:auto">FLOTACIÓN en NaCl</b> → <b>HUEVOS de nematodos</b> (flotan los ligeros).</div>
+      <div><b>S</b> <b style="width:auto">SEDIMENTACIÓN formol-éter</b> → técnica general y la mejor para los huevos <b>pesados de <i>Schistosoma</i></b>, que se hunden.</div>
+    </div>
+    <div class="story">Regla de peso: lo <b>ligero flota</b> (huevos de nematodo en NaCl) y lo <b>pesado sedimenta</b> (Schistosoma). Y el formol <b>mata y fija</b>, mientras que el éter <b>se lleva la grasa fecal</b> hacia arriba.</div>
+    <div class="takeaway">Baermann = larvas. Graham = oxiuros. NaCl = huevos de nematodos. Formol-éter = general y Schistosoma. Heces frescas con LARVAS = Strongyloides.</div>
+  </div>
+
+  <div class="card" style="--c:#a0522d; --bg:#f7ece5;">
+    <span class="icon">🔴</span>
+    <h3>Los ácido-alcohol resistentes que no son la TBC</h3>
+    <div class="tagline">Coccidios: quién se tiñe y quién brilla solo</div>
+    <div class="story">El Ziehl-Neelsen no es solo de micobacterias: en heces también pinta de rojo a los <b>coccidios</b> — <b>C</b>ryptosporidium, <b>C</b>ystoisospora (Isospora) y <b>C</b>yclospora, las <b>tres C</b>. Pero solo <b>dos de ellas brillan solas</b> bajo el ultravioleta: <b>Isospora y Cyclospora</b> tienen <b>autofluorescencia</b>. <i>Cryptosporidium</i>, no.</div>
+    <div class="takeaway">Las 3 C (Cryptosporidium, Cystoisospora, Cyclospora) = ÁCIDO-ALCOHOL RESISTENTES en heces. AUTOFLUORESCENCIA: solo ISOSPORA y CYCLOSPORA.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🎭</span>
+    <h3>Las formas de los hemoflagelados</h3>
+    <div class="tagline">Amastigote o tripomastigote: dónde está cada uno</div>
+    <div class="acronym">
+      <div><b>A</b> <b style="width:auto">AMASTIGOTE</b> = "A" de <b>A</b>dentro: redondo, sin flagelo libre, <b>intracelular</b>. <i>Leishmania</i> en macrófagos; <i>T. cruzi</i> en músculo y en <b>ganglio linfático</b>.</div>
+      <div><b>T</b> <b style="width:auto">TRIPOMASTIGOTE</b> = "T" de <b>T</b>orrente: alargado, con membrana ondulante, <b>en sangre</b> (y en LCR en la fase 2 del africano).</div>
+      <div><b>P</b> <b style="width:auto">PROMASTIGOTE</b> = "P" de <b>P</b>icadura: la forma flagelada del vector y del cultivo NNN.</div>
+    </div>
+    <div class="takeaway">Amastigote = dentro de la célula (Leishmania, T. cruzi en ganglio). Tripomastigote = en sangre y en LCR (T. brucei). Promastigote = flebótomo y cultivo.</div>
+  </div>
+
+</div>
+
+</body>
+</html>

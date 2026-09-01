@@ -1,0 +1,61 @@
+¿Cómo mides el tamaño de una partícula que no es una esfera perfecta, sino una forma irregular, como un grano de un polvo cualquiera? Esa pregunta, que parece tonta, tiene detrás toda una familia de métodos y de definiciones que el examen pregunta con bastante frecuencia. Vamos a verlo, incluyendo un ejercicio numérico de mediana que conviene que sepas resolver paso a paso, no solo memorizar el resultado.
+
+Empecemos por los métodos de medida. Se dividen en dos grandes grupos: directos e indirectos. Los métodos directos miden u observan el tamaño de la partícula de forma física y directa; los dos que tienes que saber son la tamización analítica y la microscopía, ya sea óptica o electrónica. Los métodos indirectos, en cambio, no miden la partícula directamente: infieren su tamaño a partir de un comportamiento físico, como la velocidad con la que cae, la forma en que es arrastrada por una corriente de fluido, o cómo dispersa un haz de luz. Dentro de los indirectos están la elutriación, la sedimentación, el método Coulter, la difracción de rayos láser y la difracción de rayos X. Te repito la diferencia con otras palabras porque es justo lo que más se pregunta: si el método consiste en hacer pasar la partícula por una malla o en observarla al microscopio, es directo; si el método consiste en observar cómo se comporta la partícula frente a un fluido, una corriente eléctrica o un haz de luz, y deducir el tamaño a partir de ahí, es indirecto.
+
+Sobre la tamización en concreto, hay dos términos que se confunden mucho. El cernido es la fracción de material que consigue atravesar la malla del tamiz. El rechazo es la fracción que se queda retenida encima de la malla, sin pasar. Si te preguntan cuál de los dos "pasa" por el tamiz, es el cernido; el rechazo es justo lo contrario, lo que se queda fuera. El rendimiento de una tamización depende de varios factores: la adherencia del material, tanto entre partículas como con la propia malla, la humedad de la muestra, y la luz de malla, es decir, la abertura del tamiz que se esté usando.
+
+Ahora vamos con dos definiciones que el examen adora cruzar entre sí, así que te las explico juntas y contrastadas para que no te hagan la trampa: el diámetro de Feret y el diámetro de Martin. Los dos sirven para medir partículas de forma irregular, que no tienen un único diámetro obvio como tendría un círculo. El diámetro de Feret es la distancia entre dos líneas tangentes a los extremos de la partícula. Esas dos líneas son paralelas entre sí, y se trazan siguiendo una dirección de medida que se fija de antemano y se mantiene igual para todas las partículas de la muestra, como si midieras la partícula con un calibre en una única dirección. El diámetro de Martin es distinto: es la longitud de la cuerda que divide el área proyectada de la partícula en dos mitades exactamente iguales, siguiendo esa misma dirección de medida fija. Dicho de otra forma, para que quede clara la diferencia: Feret mide de fuera hacia dentro, tocando los bordes de la partícula con dos líneas paralelas; Martin corta la partícula por dentro, buscando la línea que reparte su área en dos mitades iguales. Si en el examen te dan las dos definiciones mezcladas y tienes que decir cuál es cuál, quédate con esto: tangentes paralelas en los extremos, es Feret; cuerda que biseca el área en dos mitades, es Martin.
+
+Vamos ahora con el cálculo de la mediana de una distribución de tamaños, que suele aparecer como ejercicio numérico. El procedimiento tiene cuatro pasos, siempre los mismos, cambien los números que cambien. Primero, sumas el número total de partículas de toda la distribución. Segundo, divides ese total entre dos. Tercero, vas sumando el número de partículas de cada fracción, empezando por el diámetro más pequeño y avanzando hacia diámetros mayores, hasta que esa suma acumulada alcance o supere la mitad que calculaste en el paso anterior. Cuarto, la mediana es el diámetro de esa última fracción que has sumado para llegar a la mitad.
+
+Vamos a verlo con un ejemplo real y ya resuelto, para que te quede el procedimiento clarísimo. Tienes una población de setecientas cincuenta partículas, repartidas así: cincuenta partículas de cincuenta micras, cincuenta partículas de cincuenta y cinco micras, cien partículas de sesenta micras, doscientas partículas de sesenta y cinco micras, doscientas cincuenta partículas de setenta micras, y cien partículas de ciento cincuenta micras. Primer paso: el total es setecientas cincuenta partículas. Segundo paso: la mitad de setecientas cincuenta es trescientas setenta y cinco. Tercer paso, vamos acumulando en orden creciente de diámetro: cincuenta partículas hasta el diámetro de cincuenta micras; sumas las siguientes cincuenta, y llevas cien partículas acumuladas hasta el diámetro de cincuenta y cinco micras; sumas las cien del siguiente grupo, y llevas doscientas partículas acumuladas hasta el diámetro de sesenta micras; sumas las doscientas del siguiente grupo, y llevas cuatrocientas partículas acumuladas hasta el diámetro de sesenta y cinco micras. Cuarto paso: cuatrocientas ya supera la mitad, que era trescientas setenta y cinco, así que la mediana corresponde al diámetro donde se alcanza esa mitad, que es sesenta y cinco micras. Fíjate que no hizo falta seguir sumando los grupos de setenta ni de ciento cincuenta micras: en el momento en que la suma acumulada supera la mitad, ahí está tu mediana, y puedes parar.
+
+No confundas este procedimiento con el cálculo de la moda. La moda es mucho más sencilla: es, simplemente, el diámetro de la fracción con mayor número de partículas, la fracción más numerosa de toda la distribución. No hace falta sumar nada acumulado ni dividir entre dos; solo hay que mirar qué grupo tiene más partículas y quedarte con su diámetro. Si el examen te pide la mediana y tú calculas la moda, o al revés, vas a fallar la pregunta aunque hayas hecho bien las cuentas, porque son dos procedimientos distintos para dos conceptos distintos.
+
+Un último punto práctico. Si en una tamización obtienes varias fracciones de tamaño muy parecido entre sí, y tienes que elegir una para fabricar comprimidos recubiertos, se prefiere la fracción de mayor diámetro entre las disponibles, porque un tamaño ligeramente mayor y uniforme favorece la capacidad de flujo del polvo y la compactación del núcleo, algo especialmente importante cuando después hay que aplicar un recubrimiento encima.
+
+Y para terminar el desarrollo, sobre la forma de la distribución completa: si representas la distribución acumulada y te sale una pendiente igual a cero, la distribución es simétrica. Si la pendiente es positiva o negativa, la distribución es asimétrica.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: la tamización y la microscopía, ¿son métodos directos o indirectos de medida del tamaño de partícula?
+
+[PAUSA 3s]
+
+Respuesta: directos. Miden u observan la partícula de forma física, sin necesidad de inferir su tamaño a partir de otro comportamiento.
+
+Si has dudado pensando en la difracción de rayos láser o el método Coulter: esos sí son indirectos, porque infieren el tamaño a partir de cómo se comporta la partícula frente a un haz de luz o una corriente eléctrica, no midiéndola directamente.
+
+Pregunta: ¿cuál es la diferencia entre el diámetro de Feret y el diámetro de Martin?
+
+[PAUSA 3s]
+
+Respuesta: el de Feret es la distancia entre dos tangentes paralelas a los extremos de la partícula, en una dirección fija; el de Martin es la cuerda que divide el área proyectada de la partícula en dos mitades iguales, en esa misma dirección.
+
+Si has dudado y los has intercambiado: es el error más común en esta pareja; recuerda que Feret toca los bordes desde fuera, y Martin corta el área por dentro en dos mitades.
+
+Pregunta: en una tamización, ¿qué fracción es el cernido, la que pasa por la malla o la que se queda retenida?
+
+[PAUSA 3s]
+
+Respuesta: el cernido es la que pasa, la que atraviesa la malla del tamiz.
+
+Si has dudado pensando que el cernido se queda retenido: esa fracción retenida, la que no pasa, se llama rechazo, no cernido; son términos opuestos.
+
+Pregunta: en una distribución de setecientas cincuenta partículas donde la suma acumulada, en orden creciente de diámetro, llega a cuatrocientas partículas justo al incluir el grupo de sesenta y cinco micras, ¿cuál es la mediana?
+
+[PAUSA 3s]
+
+Respuesta: sesenta y cinco micras. Es el diámetro de la última fracción sumada para superar la mitad de la población, que en este caso era trescientas setenta y cinco.
+
+Si has dudado y has calculado la moda en su lugar: la moda sería, simplemente, el diámetro con más partículas en su propio grupo, sin acumular nada; son dos cálculos distintos para dos preguntas distintas.
+
+Pregunta: si la representación acumulada de una distribución de tamaños te da una pendiente igual a cero, ¿la distribución es simétrica o asimétrica?
+
+[PAUSA 3s]
+
+Respuesta: simétrica.
+
+Si has dudado pensando que hace falta una pendiente positiva para que sea simétrica: no, una pendiente distinta de cero, sea positiva o negativa, es precisamente lo que indica una distribución asimétrica.
+
+Para cerrar, tres ideas fuerza. Primero: los métodos directos miden la partícula físicamente, tamización y microscopía; los métodos indirectos infieren el tamaño a partir de un comportamiento, elutriación, sedimentación, método Coulter y las dos difracciones, la de rayos láser y la de rayos X. Segundo: no confundas el diámetro de Feret, la distancia entre dos tangentes paralelas en una dirección fija, con el diámetro de Martin, la cuerda que biseca el área proyectada en dos mitades iguales. Tercero: para calcular la mediana, suma el total de partículas, divide entre dos, y acumula las fracciones en orden creciente de diámetro hasta superar esa mitad; el diámetro de esa fracción es la mediana, un procedimiento distinto al de la moda, que es simplemente el diámetro de la fracción más numerosa.

@@ -1,0 +1,51 @@
+Coge dos botes del mismo polvo, molido exactamente igual, y viértelos por un embudo. Uno cae solo, como agua. El otro se atasca, forma un puente en la salida y hay que golpear la tolva para que baje. Los dos tienen el mismo principio activo. Lo que cambia es la fluidez del polvo, y de eso habla este bloque: cómo se mide, con qué números se demuestra en un control de calidad, y cuál es la trampa de examen que más se repite en este tema.
+
+Empecemos por la medida más visual, el ángulo de reposo. Si dejas caer un polvo desde cierta altura sobre una superficie, forma un montoncito, como un pequeño volcán. El ángulo que forma la ladera de ese montón con la horizontal es el ángulo de reposo. Cuanto más se mueven las partículas entre sí, menos cohesión tienen, y más se aplana el montón, así que el ángulo sale más pequeño. Por eso la regla general es sencilla y hay que grabarla bien: a menor ángulo de reposo, mejor flujo. Un polvo que fluye de maravilla tiene un ángulo bajo, y un polvo pegajoso y cohesivo forma un montón casi vertical, con un ángulo alto.
+
+Hay una tabla de interpretación que cae bastante en examen, así que vamos a fijarla con números concretos. Por debajo de treinta grados, el flujo se considera excelente, un polvo muy móvil. Entre treinta y uno y treinta y cinco grados, el flujo es bueno. Entre treinta y seis y cuarenta grados, se considera aceptable. Entre cuarenta y uno y cuarenta y cinco grados, el flujo ya es pobre, un polvo cohesivo que empieza a dar problemas en máquina. Y por encima de cuarenta y cinco grados, el flujo es muy pobre, muy cohesivo, el típico polvo que se apelmaza y no hay quien lo haga bajar solo. Fíjate en el patrón: cada tramo de ángulo tiene su etiqueta, y esa etiqueta siempre va de mejor a peor según sube el ángulo. Si en un examen te dan un ángulo de reposo de cuarenta y dos grados, ya sabes que estás en la zona pobre y cohesiva, no en la aceptable.
+
+Ahora vienen los dos índices que más se confunden entre sí, el índice de Hausner y el índice de Carr. Miden lo mismo, la compresibilidad del polvo, pero con fórmulas distintas, y esa diferencia es justo la trampa de examen más habitual de este bloque.
+
+El índice de Hausner se calcula dividiendo la densidad apisonada entre la densidad aparente. La densidad aparente es la que tiene el polvo suelto, tal cual, ocupando cierto volumen sin tocarlo. La densidad apisonada es la que se obtiene después de golpear o vibrar el recipiente varias veces, para que las partículas se acomoden y ocupen menos volumen. Cuanto más se parezcan esas dos densidades, más cerca de uno sale el cociente, y eso significa que el polvo apenas se compacta, así que tiene buen flujo y poca cohesividad. Por ejemplo, un índice de Hausner de uno con dos indica un polvo de buen flujo. En cambio, si el índice sube por encima de uno con cinco, eso ya indica mal flujo y mucha cohesividad, porque quiere decir que al golpear el recipiente el polvo se compacta muchísimo, señal de que las partículas estaban sueltas y con mucho aire entre medias.
+
+El índice de Carr mide exactamente el mismo fenómeno, la diferencia entre cómo se comporta el polvo suelto y cómo se comporta compactado, pero lo expresa de otra manera: como un porcentaje de diferencia, no como un cociente. Se calcula restando la densidad aparente a la densidad apisonada, dividiendo ese resultado entre la densidad apisonada, y multiplicando por cien. Y aquí está la trampa que más veces aparece en el banco de preguntas de este tema: decir que el índice de Carr se calcula igual que el índice de Hausner es falso. Están relacionados, claro, porque parten de las mismas dos densidades, pero uno es un cociente entre dos números y el otro es un porcentaje de diferencia. Si en el examen te preguntan si son la misma fórmula, la respuesta es no, aunque midan el mismo fenómeno de fondo, que es la compresibilidad del polvo.
+
+Vamos con lo que determina el flujo de un polvo, más allá del ángulo y de los índices. Aquí la relación es con el tamaño de partícula y la superficie de contacto entre partículas. A mayor tamaño de partícula, hay menos superficie de contacto entre unas y otras, y eso significa menos fricción y menos cohesión, así que el flujo mejora. Al revés, cuanto más finas son las partículas, más superficie de contacto tienen entre sí en relación a su volumen, y eso se traduce en más cohesión y peor flujo. Este dato conecta con algo que probablemente ya viste en pulverización, y merece la pena repetirlo aquí: reducir el tamaño de partícula suele mejorar la velocidad de disolución del fármaco, pero como efecto secundario casi siempre empeora la capacidad de flujo, precisamente porque genera partículas más finas y más cohesivas. Es un equilibrio que hay que gestionar en el desarrollo de la formulación, no un problema que se resuelva pulverizando cada vez más fino.
+
+La forma de la partícula también entra en juego. Las partículas esféricas o casi esféricas, sobre todo si además son de tamaño grande, tienden a rodar unas sobre otras con poca fricción, así que fluyen mejor. Las partículas aciculares, es decir alargadas, en forma de aguja, se entrelazan entre ellas como si fueran palillos mezclados en una caja, y eso empeora mucho el flujo, sobre todo si además son pequeñas.
+
+Y para cerrar el desarrollo, dos términos que suenan parecido pero no son lo mismo: adherencia y cohesión. La cohesión son las fuerzas de atracción entre partículas de la misma sustancia, unas con otras. La adherencia son las fuerzas de atracción entre superficies de naturaleza distinta, por ejemplo entre el polvo y la pared metálica de la tolva de una máquina. Los dos fenómenos empeoran el flujo si son altos, pero uno describe cómo se comporta el polvo consigo mismo y el otro cómo se comporta el polvo con lo que le rodea.
+
+Vamos con la recuperación activa.
+
+Pregunta: si un ángulo de reposo se sitúa entre cuarenta y uno y cuarenta y cinco grados, ¿qué tipo de flujo tiene ese material?
+
+[PAUSA 3s]
+
+Respuesta: un flujo pobre, cohesivo. Está justo en el tramo que precede al peor de todos, el de más de cuarenta y cinco grados, que ya se clasifica como muy pobre. Si dudaste entre pobre y aceptable, recuerda el orden completo de menor a mayor ángulo: excelente, bueno, aceptable, pobre y muy pobre. Cuarenta y uno a cuarenta y cinco cae ya en la penúltima categoría, no en la de aceptable.
+
+Pregunta: ¿el índice de Carr se calcula exactamente igual que el índice de Hausner?
+
+[PAUSA 3s]
+
+Respuesta: no. Miden el mismo fenómeno, la compresibilidad del polvo, a partir de las mismas dos densidades, la aparente y la apisonada, pero el índice de Hausner es un cociente entre esas dos densidades, y el índice de Carr es un porcentaje de la diferencia entre ellas. Si te suena a lo mismo es porque están relacionados matemáticamente, pero la fórmula que usa cada uno es distinta, y esa es la pregunta trampa más repetida de todo el bloque.
+
+Pregunta: entre dos granulados, uno con un ángulo de reposo de veinte grados y un índice de Hausner de uno con uno, y otro con un ángulo de cuarenta y cinco grados y un índice de Hausner de dos con uno, ¿cuál tiene mejor fluidez?
+
+[PAUSA 3s]
+
+Respuesta: el primero, el de ángulo de veinte grados e índice de uno con uno. Cuanto más bajo el ángulo de reposo y más cerca de uno el índice de Hausner, mejor es el flujo. El segundo granulado acumula los dos peores valores a la vez, así que es el que peor fluye de los dos.
+
+Pregunta: ¿qué determina fundamentalmente la capacidad de flujo de un polvo?
+
+[PAUSA 3s]
+
+Respuesta: el tamaño de partícula, su forma y la superficie de contacto entre partículas. A mayor tamaño y menor superficie de contacto, mejor flujo. A menor tamaño, más finura, más superficie de contacto y peor flujo, porque aumenta la cohesión entre partículas.
+
+Pregunta: ¿en qué se diferencian la cohesión y la adherencia?
+
+[PAUSA 3s]
+
+Respuesta: la cohesión es la fuerza de atracción entre partículas de la misma sustancia. La adherencia es la fuerza de atracción entre superficies de sustancias distintas, como el polvo y la pared de un equipo. Ambas empeoran el flujo cuando son altas, pero no son sinónimos, y confundirlas es un error típico de examen.
+
+Y con esto cerramos el bloque de flujo de polvos. Primero, el ángulo de reposo se interpreta siempre en la misma dirección: cuanto menor es el ángulo, mejor fluye el polvo, con las categorías yendo de excelente por debajo de treinta grados hasta muy pobre por encima de cuarenta y cinco grados. Segundo, el índice de Hausner y el índice de Carr miden lo mismo, la compresibilidad, pero con fórmulas distintas: uno es un cociente entre densidades y el otro un porcentaje de diferencia, y decir que se calculan igual es la trampa de examen más repetida de este tema. Tercero, el flujo mejora con partículas más grandes, más esféricas y con menor superficie de contacto entre ellas, y empeora con partículas finas, aciculares y muy cohesivas, aunque esas partículas finas suelan disolverse mejor.

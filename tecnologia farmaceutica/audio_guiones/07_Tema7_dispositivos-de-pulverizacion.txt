@@ -1,0 +1,67 @@
+Este es, con diferencia, el bloque con más preguntas de todo el parcial: cuarenta y tres en el banco de este tema, casi la mitad de ellas ya caídas literalmente en exámenes de convocatorias anteriores. Si vas a dominar bien un solo bloque de toda la asignatura, que sea este. Vamos dispositivo por dispositivo, porque de cada uno te van a preguntar el mecanismo, el tipo de material que admite, y sobre todo el dato raro que lo distingue de los demás.
+
+Empezamos por el molino de rodillos. Funciona por compresión: tiene dos rodillos, de acero o de mármol, que giran en sentido contrario y aplastan el material entre ellos. Se usa con materiales duros, secos, y que no sean termolábiles, es decir, que no se degraden con el calor, porque precisamente su principal problema es que genera mucho calor por la fricción entre los rodillos. Por eso hay que controlar bien la velocidad de giro. El tamaño de partícula final que produce es grosero. Y una condición imprescindible: el material tiene que estar seco, porque la humedad dificulta la compresión eficaz entre los rodillos.
+
+El molino de anillos, también llamado de muelas, también trabaja por compresión, pero con anillos en vez de rodillos. Se usa con materiales secos, quebradizos, es decir, frágiles, no abrasivos y no termolábiles, típicamente materiales cristalinos. Su gran ventaja, la que más se pregunta de este dispositivo, es que da una pulverización uniforme. Suele incorporar un tamiz que permite seleccionar el tamaño final, normalmente fino.
+
+El molino de martillos cambia de mecanismo: aquí trabajamos por impacto, o percusión. Tiene un eje central con martillos giratorios que golpean el material. Se usa con materiales secos, no fibrosos y no abrasivos. Incorpora, casi siempre, un tamiz integrado, que es justo lo que le permite dar una pulverización uniforme y ajustada al tamaño que buscas. El tamaño final que produce es fino, es decir, por debajo de setenta y cinco micras. Como trabaja por impacto, no es un buen dispositivo para materiales fibrosos, porque las fibras tienden a enredarse en vez de fragmentarse con los golpes; para fibrosos hace falta otro dispositivo, que veremos enseguida. Y, como genera calor por los golpes repetidos, hay que vigilarlo con materiales termolábiles.
+
+El molino de vibración también trabaja por impacto o percusión, igual que el de martillos, pero con una intensidad y frecuencia que permiten llegar mucho más lejos: produce un tamaño ultrafino. Y aquí tienes uno de los dos datos raros más preguntados de todo este bloque: el molino de vibración es el único de todos los dispositivos que NO tiene tolva de alimentación. Todos los demás molinos tienen una tolva por donde entra el material desde arriba; el de vibración, no. Además, tiene otra peculiaridad importante: el ochenta por ciento del volumen interno de la cámara son bolas de porcelana, necesarias para que el impacto funcione, y eso significa que solo una fracción pequeña, más o menos entre el diez y el veinte por ciento, se convierte realmente en producto pulverizado. Es un dispositivo eficaz para llegar a tamaño ultrafino, pero con un rendimiento de producto bastante bajo.
+
+El molino de bolas es distinto de todos los anteriores: es un cilindro hueco, montado de forma que puede girar sobre su propio eje longitudinal, cargado por dentro con bolas, normalmente de porcelana, que golpean y friccionan el material a medida que el cilindro gira. Por eso su mecanismo combina dos cosas a la vez: impacto y rozamiento. Se usa con materiales duros, quebradizos y abrasivos; de hecho, tolera bien la abrasión precisamente porque son las bolas las que se desgastan, no las paredes del equipo. Y aquí tienes el segundo dato raro más preguntado de todo el bloque, y quiero que te quede grabado porque es una trampa muy repetida: el molino de bolas es el ÚNICO dispositivo capaz de esterilizar el material durante la pulverización. Al ser un cilindro hermético que se puede cerrar por completo, genera dentro un efecto parecido al de un autoclave, y eso permite obtener partículas no solo uniformes, sino también estériles. Mucha gente, en el examen, responde que el que esteriliza es el micronizador, porque suena como el dispositivo más "limpio" y tecnológico de todos. Es al revés: el micronizador no esteriliza; el que esteriliza es el molino de bolas.
+
+El molino de cuchillas, o molino de corte, trabaja exactamente como suena: por cortado. Es el dispositivo indicado para materiales fibrosos y secos, como las plantas medicinales, porque las fibras se seccionan mejor de lo que se comprimen o se golpean. Un detalle que a veces preguntan sobre su diseño: la parte interna del molino, el conjunto con las cuchillas, permanece fija, y es el movimiento de otros elementos alrededor de ella el que produce el corte del material.
+
+El molino de cilindros es un poco distinto de la lista anterior, porque su función principal no es tanto pulverizar sólidos secos como homogeneizar. Se usa para homogeneizar la fase interna de pastas, cremas, pomadas y suspensiones, haciendo pasar el semisólido entre rodillos. Si te preguntan qué dispositivo usarías para homogeneizar una pasta o una crema, la respuesta es el molino de cilindros, no ninguno de los anteriores, que están pensados para sólidos secos.
+
+Y llegamos al molino de chorro, también llamado micronizador, que es probablemente el dispositivo más peculiar de todos. Aquí no hay rodillos, ni martillos, ni bolas que golpeen el material: se hace chocar las propias partículas entre sí, y contra las paredes de la cámara, mediante corrientes de aire a alta velocidad y presión. Es decir, combina impacto y rozamiento, pero entre las propias partículas, no contra ninguna pieza mecánica del aparato. Se usa con materiales duros y cristalinos, y el tamaño final que produce es ultrafino, en torno a un micra, tan pequeño como el que da el molino de vibración. Pero tiene dos ventajas enormes que lo diferencian de todos los demás. La primera: no genera calor, porque no hay piezas mecánicas rozando directamente el material, solo corrientes de aire; por eso es el dispositivo de elección cuando trabajas con materiales termolábiles. La segunda: por su tamaño compacto y su facilidad de limpieza, es el dispositivo de elección para preparar fórmulas magistrales en pequeña cantidad, menos de un kilogramo, en la propia oficina de farmacia. Ningún molino industrial de rodillos, de anillos o de bolas de gran capacidad tiene sentido para esa escala tan pequeña de trabajo; el micronizador sí.
+
+Y ahora el contraste que más falla la gente en el examen, así que te lo dejo dicho de forma explícita y por segunda vez en esta pista: el molino de bolas es el único que esteriliza el material, no el micronizador; y el micronizador es el que no genera calor y sirve para fórmula magistral pequeña, no el molino de bolas. Son dos dispositivos distintos, con ventajas distintas, y el examen los cruza constantemente para ver si los confundes.
+
+Antes de cerrar con las preguntas, un repaso rápido agrupando los ocho dispositivos por mecanismo, porque también se pregunta así. Por compresión: rodillos y anillos. Por impacto o percusión: martillos y vibración. Por impacto y rozamiento combinados: bolas. Por cortado: cuchillas. Por impacto y rozamiento entre las propias partículas: el micronizador. Y el de cilindros, aparte, para homogeneizar semisólidos.
+
+Y para elegir qué dispositivo usar en cada caso, hay varios aspectos a valorar: la forma de partícula que genera cada mecanismo, la proporción de finos que produce, la relación de reducción, es decir, la relación entre el tamaño máximo que admite y el tamaño mínimo que es capaz de producir, la cantidad de masa que hay que tratar, el coste del proceso y del mantenimiento del equipo, y las características del propio material: su dureza, si es termolábil, si es abrasivo, si tiene riesgo de explosión.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: ¿qué molino es capaz de esterilizar el material durante la pulverización, el molino de bolas o el micronizador?
+
+[PAUSA 3s]
+
+Respuesta: el molino de bolas. Al ser un cilindro hermético, genera un efecto parecido al de un autoclave, y por eso puede dar partículas estériles.
+
+Si has dudado con el micronizador: es una confusión muy habitual porque el micronizador parece el más "limpio" de todos, pero no esteriliza; su punto fuerte es justo el contrario, que no genera calor, no que produzca calor suficiente para esterilizar.
+
+Pregunta: ¿qué molino es el único que no tiene tolva de alimentación?
+
+[PAUSA 3s]
+
+Respuesta: el molino de vibración.
+
+Si has dudado con el de martillos o el de bolas: esos sí tienen tolva, como el resto de dispositivos; la peculiaridad de no tener tolva es exclusiva del molino de vibración.
+
+Pregunta: quieres preparar una fórmula magistral en la oficina de farmacia, con menos de un kilogramo de material termolábil, y necesitas un tamaño ultrafino. ¿Qué dispositivo usarías?
+
+[PAUSA 3s]
+
+Respuesta: el micronizador, o molino de chorro. No genera calor, así que es seguro para material termolábil, y por su tamaño compacto es el dispositivo pensado precisamente para trabajar con poca cantidad, como en una oficina de farmacia.
+
+Si has dudado con el molino de bolas: el molino de bolas se usa para cantidades mayores y materiales abrasivos, y aunque no genera tanto calor como los de compresión, el micronizador es la opción de elección específicamente para pequeña escala y material termolábil.
+
+Pregunta: tienes un material fibroso, como una planta medicinal seca. ¿Qué mecanismo y qué dispositivo usarías?
+
+[PAUSA 3s]
+
+Respuesta: el cortado, con el molino de cuchillas.
+
+Si has dudado con el molino de martillos: el impacto no funciona bien con fibras, porque tienden a enredarse en vez de fragmentarse con los golpes; el cortado, en cambio, sí secciona limpiamente el material fibroso.
+
+Pregunta: necesitas homogeneizar una pomada, no pulverizar un sólido seco. ¿Qué dispositivo usarías?
+
+[PAUSA 3s]
+
+Respuesta: el molino de cilindros.
+
+Si has dudado pensando en el de rodillos: son dispositivos con una construcción parecida, con rodillos o cilindros que giran, pero cuando el objetivo es homogeneizar pastas, cremas o pomadas, en vez de pulverizar sólidos secos, la denominación y el uso que se pregunta es molino de cilindros.
+
+Para cerrar, tres ideas fuerza de esta pista tan cargada. Primero: cada dispositivo tiene un mecanismo y un tipo de material asociado, compresión para rodillos y anillos con materiales duros y secos, impacto para martillos y vibración, impacto y rozamiento combinados para bolas, cortado para cuchillas con fibrosos, e impacto y rozamiento entre partículas para el micronizador; el molino de cilindros es aparte, para homogeneizar semisólidos. Segundo: memoriza las dos trampas más repetidas del examen, el molino de bolas es el único que esteriliza, y el molino de vibración es el único que no tiene tolva de alimentación. Tercero: el micronizador es el dispositivo de tamaño ultrafino que no genera calor, y es la elección para fórmulas magistrales en pequeña cantidad, menos de un kilogramo, en la oficina de farmacia; no lo confundas con el molino de bolas, que esteriliza pero sí puede generar calor por el impacto continuo de las bolas.

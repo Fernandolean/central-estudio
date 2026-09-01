@@ -1,0 +1,71 @@
+El fármaco ya está dentro del organismo, pero todavía no ha llegado a ningún sitio. Antes de hacer efecto tiene que atravesar membranas y llegar hasta donde puede actuar sobre sus receptores. De eso trata la absorción, el primer bloque de la farmacocinética que hay que dominar bien, porque estos mecanismos se repiten después en distribución y en excreción. Aquí desmontamos cómo pasa un fármaco a través de una membrana, por qué el pH del entorno decide si lo consigue, y cómo cambia todo según la vía de administración elegida.
+
+Empecemos por dos palabras que hay que tener bien diferenciadas: biofase y absorción. La biofase es el lugar donde el fármaco está en condiciones de interactuar con sus receptores y ejercer su efecto, literalmente su zona de acción. Y la absorción es el paso del fármaco desde el punto de administración hasta la circulación general, la circulación sistémica. La velocidad de esa absorción depende sobre todo de la vía que se use: cuanto más vascularizada esté la zona por donde entra el fármaco, más rápido se absorbe, porque hay más superficie de contacto con sangre.
+
+Ahora la pregunta central: ¿cómo cruza un fármaco una membrana biológica? Hay seis mecanismos, y la tabla que los compara es de las más preguntadas del temario. Vamos mecanismo por mecanismo, fijándonos en tres cosas: si va a favor o en contra del gradiente de concentración, si gasta energía, y si es saturable e inhibible.
+
+El primero es la filtración por poros. Va a favor de gradiente, no gasta energía, y no es saturable ni inhibible. Es típico de fármacos hidrosolubles y pequeños, que cuelan por los poros de la membrana como quien pasa por una puerta abierta.
+
+El segundo, y el más importante de memorizar bien, es la difusión pasiva. También va a favor de gradiente, tampoco gasta energía, y aquí está el dato que más preguntan de toda la tabla: la difusión pasiva no es saturable ni inhibible. Es el mecanismo más empleado por los fármacos en general, típico de moléculas liposolubles y pequeñas, que atraviesan la membrana disolviéndose directamente en la capa lipídica, sin necesitar ningún transportador. Precisamente por no necesitar transportador es por lo que nunca se satura: por muy alta que sea la concentración de fármaco, siempre encuentra sitio para pasar.
+
+El tercero es la difusión facilitada. Sigue yendo a favor de gradiente, sigue sin gastar energía, pero cambia algo importante: esta vez sí es saturable e inhibible, porque necesita una molécula transportadora que le abra paso. Si todos los transportadores están ocupados, el fármaco se queda esperando.
+
+El cuarto es el transporte activo, y aquí cambia todo respecto a los anteriores: va en contra de gradiente, sí gasta energía en forma de ATP, y también es saturable e inhibible, otra vez por depender de un transportador. Es el único de los cuatro que mueve al fármaco a contracorriente, desde donde hay menos concentración hacia donde hay más, y eso solo se puede hacer pagando energía.
+
+Y quedan dos mecanismos más específicos: la endocitosis y la exocitosis, típicas de fármacos de peso molecular muy elevado, donde la célula envuelve al fármaco con su membrana y se lo traga entero o lo expulsa entero; y los liposomas, fármacos encapsulados dentro de una esfera lipídica artificial que se parece a la propia membrana celular, para facilitar su entrada.
+
+Con los mecanismos ya vistos, toca la regla que más rentabilidad da de toda la pista, porque resuelve por sí sola media docena de preguntas: la regla de la ionización. Imagina que un fármaco ácido vive en su propio barrio ácido, y uno básico vive en su propio barrio básico. Si el fármaco está rodeado del mismo tipo de pH que él, en su propio ambiente, está en casa: se queda preferentemente en forma no ionizada, liposoluble y apolar, y por eso atraviesa membranas con facilidad. Pero si ese mismo fármaco está en un ambiente de pH contrario, un ácido en medio básico o un básico en medio ácido, está fuera de su casa: se queda preferentemente en forma ionizada, hidrosoluble y polar, y por eso no atraviesa membranas, aunque se elimina mejor por la orina.
+
+Repite la idea con otras palabras porque es la base de lo que viene: mismo ambiente es igual a no ionizado, es igual a atraviesa; ambiente contrario es igual a ionizado, es igual a no atraviesa. Además, la difusión pasiva es más rápida cuanto menor es el peso molecular del fármaco, cuanto mayor es su liposolubilidad, y cuanto mayor es la diferencia de concentración entre los dos lados de la membrana.
+
+Vamos ahora con el perfil de cada vía de administración, porque cada una tiene una velocidad de absorción distinta y eso se pregunta constantemente comparando unas con otras.
+
+La vía oral es cómoda, barata, pero con mucha variabilidad, depende de la edad del paciente, de si hay diarrea, de si hay alimento en el estómago, y en general es la vía con menor velocidad de absorción de todas. Además sufre efecto de primer paso hepático, del que hablamos en un momento.
+
+La vía sublingual es casi el polo opuesto: prácticamente todo el fármaco pasa a sangre, sin primer paso hepático, y el efecto empieza en pocos minutos, por eso es tan útil en urgencias. La vía rectal tiene absorción errática, con primer paso hepático solo parcial, y se usa sobre todo en pacientes inconscientes o en niños que no pueden tragar un comprimido.
+
+La vía respiratoria da efecto local, como los broncodilatadores en el pulmón, o sistémico, como los anestésicos generales gaseosos. La vía dérmica da efecto local, como una crema, o sistémico, como un parche hormonal; cuidado con los corticoides en la piel fina de un bebé, donde el riesgo de absorción sistémica es mayor de lo esperado.
+
+La vía subcutánea tiene absorción rápida, pero más lenta que la intramuscular; y la intramuscular es más rápida que la subcutánea y que la oral, porque el músculo es una zona muy vascularizada.
+
+Y llegamos a la intravenosa, la más exacta y la más rápida de todas, la que se usa preferentemente en las urgencias, porque el fármaco entra directamente en la sangre. Tiene una particularidad importante: no tiene fase de absorción, ya está en la sangre desde el primer segundo. Eso sí, es también la vía más peligrosa en reacciones alérgicas graves, porque no hay margen de tiempo para reaccionar antes de que el fármaco circule por todo el cuerpo.
+
+El orden de velocidad que más preguntan, de más rápida a más lenta: intravenosa, intramuscular, subcutánea, y la más lenta de las cuatro, la oral, sobre todo con alimento en el estómago.
+
+Y una última vía especial: la epidural o intratecal, reservada para fármacos hidrosolubles que no atraviesan por sí solos la barrera hematoencefálica y necesitan actuar directamente sobre el sistema nervioso central.
+
+Todo este perfil de vías se representa con las curvas de niveles plasmáticos, que muestran cómo cambia la concentración de fármaco en sangre con el tiempo, y permiten comparar la velocidad de absorción de un mismo fármaco por distintas vías, o de fármacos distintos por la misma vía. La biodisponibilidad es precisamente la concentración de fármaco disponible para ejercer su efecto en función del tiempo.
+
+De esa curva hay que conocer unos pocos puntos clave. La concentración mínima eficaz, que se abrevia CME, es aquella por debajo de la cual el fármaco todavía no hace efecto; la concentración mínima tóxica, CMT, es aquella a partir de la cual empieza a ser peligroso. El periodo de latencia es el tiempo que pasa hasta que se alcanza la CME y empieza el efecto. La duración del efecto es el tiempo que el fármaco permanece entre la CME y la CMT, haciendo efecto sin llegar a ser tóxico. Y el margen terapéutico es la ventana entre la dosis eficaz y la dosis tóxica: cuanto más ancha, más seguro es manejar ese fármaco.
+
+Un detalle que preguntan con frecuencia: toda vía de administración tiene una concentración de cero en sangre en el momento cero, justo antes de empezar a hacer efecto, excepto la vía intravenosa, donde en el momento cero la concentración ya es la máxima, precisamente porque no existe fase de absorción.
+
+Y cerramos el desarrollo con el efecto de primer paso hepático, que ya adelantamos en la pista anterior. La sangre que sale del aparato digestivo pasa obligatoriamente por el hígado antes de incorporarse a la circulación general. Si el fármaco se administra por vía oral o rectal, una parte se metaboliza o se elimina en ese paso por el hígado antes incluso de llegar a hacer efecto. Por eso, cuando un fármaco tiene un primer paso hepático muy elevado, se elige una vía que lo evite, como la sublingual, la intravenosa o la transdérmica, que no pasan por el sistema digestivo antes de llegar a la sangre.
+
+Vamos con la recuperación activa. Cuatro preguntas, tómate un segundo real en cada pausa.
+
+Pregunta: te preguntan qué afirmación es incorrecta sobre la difusión pasiva, y una de las opciones dice que es un mecanismo saturable e inhibible. ¿Verdadero o falso?
+
+[PAUSA 3s]
+
+Respuesta: falso, esa es la opción incorrecta. La difusión pasiva no es saturable ni inhibible, porque no necesita ningún transportador. Si has dudado, seguro que la confundes con la difusión facilitada o el transporte activo: esos dos sí son saturables e inhibibles porque dependen de un transportador que se puede saturar o bloquear; la difusión pasiva, al no necesitar a nadie, siempre tiene sitio libre.
+
+Pregunta: en una urgencia vital, ¿qué vía de administración se usa preferentemente?
+
+[PAUSA 3s]
+
+Respuesta: la vía intravenosa, la más rápida y la más exacta, entra directamente en la sangre sin fase de absorción. Si has dudado con la intramuscular, también es rápida, pero siempre queda por detrás de la intravenosa en el orden de velocidad.
+
+Pregunta: un fármaco ácido se encuentra en un ambiente de pH ácido, el mismo tipo de ambiente que él. ¿Está preferentemente ionizado o no ionizado, y eso le facilita o le dificulta atravesar membranas?
+
+[PAUSA 3s]
+
+Respuesta: está preferentemente no ionizado, y eso le facilita atravesar membranas, porque la forma no ionizada es liposoluble. Si has dudado pensando que estar en su propio ambiente lo ioniza, es justo al revés: mismo ambiente es igual a no ionizado y a que sí atraviesa; ambiente contrario es igual a ionizado y a que no atraviesa.
+
+Pregunta: un fármaco tiene un efecto de primer paso hepático muy alto por vía oral. ¿Qué vía elegirías para evitarlo?
+
+[PAUSA 3s]
+
+Respuesta: cualquier vía que no pase por el aparato digestivo antes de llegar a la sangre general, como la sublingual, la intravenosa o la transdérmica. Si has dudado con la vía rectal, ojo, porque la rectal solo evita el primer paso de forma parcial, no completa, así que no es la mejor respuesta cuando se busca evitarlo del todo.
+
+Y con esto cerramos. Tres ideas fuerza. Primero: solo la difusión facilitada y el transporte activo son saturables e inhibibles, porque dependen de un transportador; la filtración y la difusión pasiva nunca lo son, y la difusión pasiva es el mecanismo más empleado por los fármacos en general. Segundo: mismo ambiente de pH es igual a no ionizado y a que atraviesa, ambiente contrario es igual a ionizado y a que no atraviesa, aunque se elimine mejor por orina. Y tercero: la vía intravenosa es la más rápida, la de elección en urgencias, y la única sin fase de absorción; el orden de velocidad habitual es intravenosa, intramuscular, subcutánea y oral, siendo esta última la más lenta y la más afectada por el primer paso hepático.

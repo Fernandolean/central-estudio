@@ -1,0 +1,239 @@
+Bueno, entonces dijimos el otro día que
+
+[resoplido] dijimos el el otro día que eh estamos en la fase de la farmacodinamia. ¿Por dónde va a pirar? [resoplido] Eh, no me voy a de clase. Estamos en la farmacodinamia, es decir, el fármaco,
+
+el fármaco ha tenido el proceso de la fármacocinética que hemos visto en el primer parcial y ha conseguido llegar a su diana, ¿vale?
+
+Vale, entonces es importantísimo conocer cómo son esas dianas para yo poder hacer eh fármacos mejorados. Eh, tener en cuenta que lo primero que tiene que ocurrir es que el ligando endógeno, ¿vale? yo que sé, el receptor nicotínico, por ejemplo, pues está eh preparado para recibir a la nicotina, ¿vale? Nuestros fármacos eh van a estar compitiendo con ese ligando endógeno, ¿vale? Que para el cual está preparado ese esa diana. unos directamente eh ocuparán el sitio de unión, no dejando entrar al ligando endógeno. Eso ya lo veremos en el cuarto parcial. Eh, esos son los fármacos agonistas o antagonistas, es decir, llegan, ocupan y o bien potencian la acción del fármaco o la paran. Y habrá otros que directamente tengan reacción con la diana, esos parcial tres, que son las enzimas. Pero bueno, de momento el fármaco va a llegar a su diana, ¿vale? Eh, la tracción como bueno, por supuesto que tiene que haber un reconocimiento molecular, ¿vale? Todo esto es con eh todo esto es debido a las interacciones atractivas, que son las que vamos a conocer hoy. ¿Vale? En nuestra diana lo que tenemos metida son las cadenas laterales de los aminoácidos. Hay que sabérselas cuanto antes, ¿vale? No solo la cadena lateral, sino su clasificación. Los que tengan bioquímica les viene fenomenal porque también los lo les va a entrar.
+
+eh esas cadenas laterales de los aminoácidos de las proteínas van a estar por dentro de nuestra diana biológica y van a ser los que den los sitios de unión con [carraspeo] nuestro fármaco. Entonces, la atracción entre moléculas farmacoidiana se llama afinidad. La afinidad subirá, lógicamente, cuanto mayor número de fuerzas intermoleculares y mayor eh fuerza dentro, ahora la vamos a conocer todos. y mayor sea la fuerza, mayor afinidad habrá. Tenemos que tener claro que el fármaco va a estar compitiendo con el ligando endógeno para el que esté preparado esa diana. ¿Vale? Entonces, eh esto de las reacciones me da un poco igual. Lo que tengo que tener claro
+
+es este cuadrito que tenéis aquí. Para que haya un buen reconocimiento molecular y por tanto una unión eficaz entre el fármaco y la diana se deben de cumplir tres requisitos. El primero, que es el que vamos a estudiar hoy, eh grupos funcionales complementarios. Quiero decir que si mi fármaco trae un grupo ácido, ahora vamos a estudiarlos todos. Si mi fármaco trae un gruppo ácido,
+
+midiana, en la medida de lo posible tendrá que tener un grupo básico. Vale, ahora vais a ver todas las interacciones. Si mi fármaco trae una cadena polar tipo, yo que sé, OH, miana en esta zona tendrá que tener aminoácidos polares. Por eso necesito que nos estudiemos las cadenas laterales de los aminoácidos. En este tema cuatro que os ha puesto Pilar, eh, tenéis e [carraspeo] la lista. A mí esa lista no me gusta, me gusta más la que os pasé yo el otro día, ¿vale? Os tenéis que estudiar, acordaros.
+
+A ver si es amarillo el azul, que no me la he dado de memoria, ¿eh?
+
+Os tenéis que estudiar la, a ver, la parte azul de la foto, eh, es tiene lo de siempre en todos los aminoácidos, el grupo amino, el carbono con su hidrógeno y el grupo ácido. Entonces, os tenéis que estudiar lo que tenéis en amarillo en la foto. Esos son las cadenas laterales que tienen los aminoácidos. Esos son lo que se nos va a meter dentro de la diana, ¿vale? Y eh siempre mi fármaco y mi diana tendrán que tener eh la mayor interacción posible. Por supuesto que vamos a tener unos requisitos histéricos, es decir, que si el receptor es chiquitito, el fármaco tiene que ser chiquitito, no puede traer de repente 17 bencenos tanto en tamaño como en forma. En cuanto a la conformación, ya veréis que hay fármacos capaces de girarse, no hay ningún problema. Y por supuesto que tendrán que traer [resoplido] la estereoquímica correcta. De todas maneras, esta clase e a la estereoquímica ya le dedicaremos una clase. En estereoquímica hablamos de isómeros espaciales
+
+[resoplido] y ya veremos que me tendré que fijar tanto, uy, tanto en los carbonos que tienen
+
+un carbono quiral, ahí buscaremos RS y [resoplido] veremos una cosa que para que la unión sea quidal tienen que cumplir los tres puntos de Ison Stitman. No os preocupéis que eso ya lo veremos. Y también nos van a interesar los carbonos con dobles enlaces y ahí miraremos e Z. Vale, pero bueno, hoy me voy a centrar en los grupos complementarios, ¿vale? Porque necesitamos que se produzcan una serie de interacciones entre el fármaco y la diana. ¿Vale? Importantísimo empezaros a dibujar las cadenas laterales de los aminoácidos. El otro día os lo dije, hacerlo de forma esquelética, ¿vale? Quiere decir que si hablamos de la serina, por ejemplo, ella me va a dar ya lo de ser. Entonces, yo tengo que meter el CH2 y su OH en la cadena. Me va a hablar de, yo que sé, de la leucina. Vale, pues yo tengo que saber que tiene estos carbonos, ¿vale? No, esta es la isoleucina. La leucina es uno más largo. Esas cadenas laterales en [resoplido] forma de esqueleto nos las tenemos que ir aprendiendo poco a poco. Una misma tarde yo creo que es un poco locura. ¿Vale? Bueno, entonces eh nos aprendemos la lista de aminoácidos y vamos a ver las interacciones que se van a producir. ¿Vale? Mirar, [resoplido] realmente son hay una interacción muy importante que aquí no está metido y ahora os voy a decir por qué. iría aquí metida. Se llama esta aquí,
+
+¿vale? Eh, aquí las tenéis colocadas de menos [resoplido] fuerza
+
+a más fuerza. Vale, las dos últimas, el enlace covalente y el enlace de coordinación, eh, no las vamos a ver en este parcial, es decir, nos vamos a quedar aquí, nos vamos a quedar en estas siete últimas de aquí abajo, ¿vale? Eh, ya os digo que el enlace de coordinación lo veremos en el parcial tres. Es como un iónico, pero con un metal. Y para que se produzca un enlace covalente tiene que haber reacción entre el fármaco y la diana. Y eso lo vamos a ver en las enzimas. Es decir, que el covalente lo veremos porque ahí se forman enlaces covalentes e en el tercer parcial. El enlace de coordinación lo mismo, realmente es como un iónico, pero mi Diana tendrá algún metal. Y ahora nosotros nos vamos a quedar, ya os digo, hasta aquí. ¿Vale? Entonces, eh London es el más débil de todos. Yo voy a empezar por ahí, ¿vale? Y luego vamos a ir creciendo hasta el iónico reforzado, que ahora os diré lo que es. Bueno, eh, como sabemos si el examen va a ser a papel ordenador, es que lo están cambiando todo. Claro. No, es que no he dicho nada, creo. Eh, no he dicho nada, creo. No ha dicho nada, ¿no? Vale, entonces esto lo tendríamos que escribir [resoplido] realmente si fuéramos a un examen en papel, ¿vale? Cuando nos dé el ejercicio de la diana. Debemos decir que si queremos subir la afinidad, tenemos que hacer dos cosas. Una, mayor número de puntos de unión, ¿vale? Cuando hay mayor puntos de unión, hay menor energía del complejo fármaco Diana y por tanto mayor estabilidad. Y luego eh ante la igualdad en el número de
+
+de fuerzas de unión, lo que queremos lógicamente es la unión más fuerte. ¿Vale? [resoplido] Bueno, mirar, vamos a empezar por orden creciente. Vamos a empezar viendo las fuerzas. de Vanderbals,
+
+fuerzas de Vanderbals
+
+[resoplido] o fuerzas de London. Me da exactamente igual. Estas van a ser las más débiles de todas, ¿vale? Se producen, la vamos a dibujar así, tal cual, con estas rayitas. Esto, Fuerzas de London. Vanderbals
+
+eh dipolo inducido, dipolo inducido, todo es lo mismo. Se produce en zonas apolares entre el fármaco y la diano. decir que en el fármaco yo buscaré eh yo buscaré las cadenas de carbono, los bencenos, solo donde haya carbono y qué aminoácidos de todos los que tenéis por ahí la van a dar, pues lo van a dar los aminoácidos apolares.
+
+Vale, es decir, lo van a dar [resoplido] alanina. ¿Estáis viendo la lista aminoácidos? Alanina, balina, leucina,
+
+isoleucina y prolina. Los otros que tenemos por ahí. Ahora veremos qué ocurre.
+
+Pero olvidina. Vale, mirar, cuando tengáis moléculas planas, tener en cuenta que todo lo que es un benceno al ser carbono sp2
+
+es plano, ¿vale? Eh, entre dos bencenos está claro que hayvals. La única que se puede establecer es van porque son zonas apolares. Pero, ¿qué ocurre? Que eh al ser planos se pueden apilar unos encima de otros, ¿vale? Y encima al tener una superficie de contacto muy grande, ¿vale?, se va a producir lo que yo os he dicho antes que no lo teníais [resoplido] metido en la lista. Esta va a ser nuestro stacking, ¿vale? Un stacking no es nada más que muchas fuerzas de banderb juntas que nos dan las moléculas planas. ¿Qué moléculas son planas? Las que tengan e carbonos. O sea, las que tengan eh bencenos o compuestos aromáticos en su cadena. Es decir, que el stacking nos lo va a dar la fenilaranina, el tristófano
+
+y la tirosina. Bueno, cuidado con la tirosina, porque la tirosina es verdad que tiene un un benceno, pero luego la tirosina tiene un grupo OH, ¿vale? Con lo cual el benceno como tal puede dar perfectamente stacking, pero este OH, esa zona polar de la tirosina, eh nos dará otro tipo de interacción que vamos a ver ahora. ¿Vale? Entonces, volviendo [resoplido] un segundo a la tabla de antes, habríamos visto
+
+London. Es la más débil de todas. London, Vananderbals, zonas apolares. Aquí iría la número dos, que es el stacking este que os acabo de decir, ¿vale? También son banderbs, pero mucha cantidad de banderbals por esa superficie plana, por eso la tenemos ahí. Vale, como número tres vamos a tener el dipolo dipolo. Vale, acordaros que siempre que haya diferencia de [resoplido] electronegatividad
+
+entre los átomos, se nos forma el ion, o sea, perdón, el dipolo. Dipolo. Acordaros que siempre que haya un átomo más electronegativo
+
+se acerca como es el oxígeno, se acercan los electrones. Aquí se genera un momento dipolar distinto de cero, ¿vale? Los electrones se aproximan [carraspeo] más al átomo de oxígeno que al carbono que se queda con densidad de carga positiva. Cuando se acerque otra molécula igual, ¿cómo la va a hacer? Pues siempre por el dipolo contrario, ¿vale? positivo con positivo y negativo con, o sea, perdón, positivo con negativo y negativo con positivo, ¿vale? Eh, por ejemplo, la cisteína, mirar la cisteína.
+
+Tenemos aquí un SH, ¿no? ¿Qué ocurre?
+
+Aquí pues que la cisteína es más electronegativa, ¿no? Y al ser más electronegativa se acercará los electrones, generará ahí la densidad de carga negativa. Aquí se quedará el otro carbono. Cuidado que no son cargas reales, ¿eh? Son densidades por el dipolo electrónico. ¿Vale? Cuando se acerque una parte del fármaco que sea también polar, pues se formará el dipolo dipolo. ¿Vale? ¿Qué aminoácidos nos van a dar esto? Los polares sin carga. A ver, cuidadito, porque es verdad que ahí como aminoácidos polares tenéis la cisteína.
+
+Tenemos las dos amidas que son la glutamina y la esparagina. Ambas tienen en su cadena lateral una mida.
+
+Luego a pH fisiológico no van a estar ionizadas de ninguna manera. tener en cuenta que estamos hablando de una diana que está a pH7,4, es decir, que esos tres aminoácidos e son los tres aminoácidos polares por excelencia. Ya sé que además ahí os aparecen los tres que llevan hidrógeno, perdón, OH, que son
+
+que son las herina.
+
+la trionina
+
+que lo H lo lleva aquí y luego la tirosina que os he hablado antes, que es un benceno con un OH. [resoplido] A ver, eh, me estoy adelantando un poco, pero los OHs, acordaros que van a tender a eh formar un enlace de hidrógeno, que luego veremos lo que es un enlace de hidrógeno. Por supuesto que los alcoholes son polares, ¿vale? Y si hará llegar a una zona del fármaco con la que, mirar, [resoplido] con la que no puedo dar un enlace de hidrógeno, me daré, o sea, darán un dipolo dipolo. Es decir, también son polares, pero van a procurar em [carraspeo] dar su fuerza mayor, que es el enlace de hidrógeno, ¿vale?
+
+[resoplido] en orden creciente. Esto sería el dipolo dipolo. Y como número cuatro vamos a tener el ion dipolo.
+
+Os recuerdo que eh APH fisiológico
+
+tenemos que tener en cuenta lo [resoplido] siguiente. Elondipolo, tenemos que tener en cuenta que los fármacos que lleven un ácido, ¿cómo van a estar?
+
+ionizados, ¿no? Y los fármacos que lleven una mina van a estar protonados y también ionizados. Es decir, que estos serán elones, ¿vale? Si yo lo enfrento a una [resoplido] zona polar, por ejemplo, a la cisteína,
+
+[resoplido] ¿por qué zona de la cisteína se va a acercar? por la que tenga. Acordaros que la cisteína no tiene,
+
+o sea, es un CH2 y un SH. No quiero decir que
+
+nunca me voy a acercar con la densidad de carga negativa. Me voy a acercar con la densidad de carga positiva que tiene el carbono, ¿no? Y aquí se producirá lo que se llama ion porque uno está ionizado y el lipolo que es lo único que puede tener el sh. ¿Qué ocurre si se acerca aquí? Pues justo lo contrario, es decir, que en ese caso [resoplido] se acercaría con el dipolo negativo, ¿no? Ya que aquí hay una carga positiva. decir que aquí también tendré un ion dipolo
+
+entre la parte protonada de mi fármaco y el dipolo que tenga mi aminoácido. ¿Vale?
+
+Bueno, ya subiendo en escala, ya subiendo en escala nos aparecen los enlaces de hidrógeno. Cuidado porque ahora ya no lo podemos llamar de [resoplido] ninguna manera puente de hidrógeno. Eh, en Uy, en farmacéutica se llaman sí o sí enlace de hidrógeno. Vale, el enlace de hidrógeno se produce
+
+entre [carraspeo] grupos que tengan un hidrógeno para dar, ¿vale? Es decir, que los dadores
+
+van a estar siempre sobre un átomo de hidrógeno o sobre un átomo, o sea, perdón, sobre [resoplido] un átomo de oxígeno o uno de hidrógeno, ¿vale?
+
+Y los aceptores van a ser los pares libres que tengan también los átomos de nitrógeno. Por ejemplo, aquí en la mida, este oxígeno [resoplido] dará será sector de enlace de hidrógeno, ¿no? Vale. [resoplido] Cuidado con las amidas y con los ésteres, porque una amida, [resoplido]
+
+el par de esta amida, ¿qué va a querer estar haciendo siempre?
+
+resonando, ¿vale? [resoplido] Luego las amidas nunca,
+
+o sea, el nitrógeno de las amidas nunca aceptor porque prefiere resonar [resoplido] en general. Todo lo que tenga
+
+un - r fuerte al lado
+
+no van a ser aceptores porque necesitaríamos ese par que esté aquí, ¿vale? [resoplido] pero va a preferir
+
+estar resonando.
+
+Vale.
+
+El siguiente enlace, uno de los más fuertes
+
+[carraspeo] de los que vamos a ver
+
+es el par iónico
+
+o enlace iónico. Aquí tiene que haber un grupo que tenga carga real positiva y aquí tiene que haber un grupo que tenga carga [resoplido] real negativa. ¿Vale? Mirar, me da igual que sea la diana la que tenga un ácido carboxílico con carga negativa
+
+y que mi fármaco venga con carga positiva, ¿vale? que al contrario, es decir, que yo en la diana, por ejemplo, tengo una lisina,
+
+la lisina
+
+es esto,
+
+¿vale? Estar la mediana. Si ahora mi fármaco trae una carga negativa, es decir, un grupo ácido, aquí se estará produciendo un enlace iónico.
+
+¿Vale?
+
+Y ya el más fuerte de todos.
+
+se es lo que se llama enlace iónico reforzado. Es decir, esta sería la mayor interacción de todas las que vamos a ver en este parcial. Y para que se produzca un enlace iónico reforzado,
+
+tenéis que tener a la vez en el mismo en la mismo sitio de unión. Esto es el enlace iónico reforzado. Tendréis que tener a la vez un enlace iónico y un enlace de hidrógeno. Me da igual aceptor o dador. Por cierto, voy a hacer un paréntesis en esto. Acordaros que vosotros el ejercicio de examen va a ser que metáis dos fármacos en una misma diana.
+
+Eh, bueno, normalmente suele ser
+
+sí, dos fármacos que entran una misma diana y elegir cuál de los dos fármacos es más afín eh con esa diana. Es decir, os va a tocar buscar los las interacciones. [resoplido] Entonces, mirar, siempre
+
+que yo tenga aquí un fármaco,
+
+si tiene
+
+el un hidrógeno que dar, ¿vale? Siempre me voy a a referir, insisto, al fármaco, será un enlace de hidrógeno dador porque lo está dando el fármaco. Por el contrario, si mi fármaco
+
+lo que trae es esto,
+
+¿vale? Pues ya sabéis que por aquí puede perfectamente hacer un enlace de hidrógeno aceptor, ¿vale? O sea, da no [carraspeo]
+
+es decir que en todo momento me referiré a lo que hace el fármaco, si dar o aceptar. para e
+
+para esto para para ver qué tipo de enlace de hidrógeno forma. ¿Vale? Mirad, [resoplido] en el iónico reforzado me da igual quién aporte la carga positiva y quién eh aporte la carga negativa. Quiero decir que me da igual que la traiga el fármaco o que la tenga la diana. El enlace es el mismo. Si os fijáis en cuando antes hemos visto un, mira aquí, cuando antes hemos visto el enlace iónico,
+
+veis que el nitrógeno tenía tres cadenas de carbonos. Quiero decir que si yo dibujara eso,
+
+eh, aquí en mi Diana, en ese ejemplo, [resoplido] debía tener o aspártico o glutámico, porque fijaros que tengo un
+
+oxígeno negativo, ¿vale? Y el fármaco tiene un nitrógeno
+
+que tiene tres cadenas de carbono. Vamos a pensar que son 3 CH3, da igual. Vale, insisto que esto cuando nos ponen R es porque es una cadena de carbono, ¿no? Vale. [resoplido] ¿Qué ocurre? que en este caso solo
+
+se puede dar un enlace iónico, porque en el fármaco [resoplido] no hay ningún hidrógeno dador de enlace de hidrógeno. Para ver enlace de hidrógeno dador tenéis que tener un NH o un OH. ¿Vale? Fijaros ahora.
+
+[resoplido]
+
+Que os voy a decir yo que el fármaco, por ejemplo, [resoplido]
+
+fuera este, o sea, una zona del fármaco sea ese. Eh, ¿cómo estará ese fármaco a pH fisiológico? Pues está claro que protonado, ¿no?
+
+Porque para eso es una mina y todas las aminas van a aparecer protonadas a pH fisiológico. ¿Vale? Mirad [resoplido] cuando por una parte, bueno, esto es negativo porque tiene tres pares libres. Cuando por una parte tengo
+
+diferencia de cargas, es decir, el enlace iónico, pero a la vez en el mismo enlace
+
+aparece un enlace de hidrógeno, en este caso dador, porque el hidrógeno es el que está lo está aportando el fármaco. ¿Lo veis? Vale, en ese caso,
+
+cuando tenéis los dos a la vez, es cuando tengo un enlace iónico reforzado. Vale.
+
+Sí.
+
+Mucho cuidado con lo que voy a dibujar ahora.
+
+Imaginaros, bueno, ¿os acordáis de la arginina? ¿Cómo es la arginina? La arginina tiene en su cadena lateral tres carbonos, ¿no? Un, dos y tres. Y luego aparece lo más eh básico que tenemos y además que hemos visto en la tabla, que es la guanidina. Mirad. Esto sería el
+
+luego aquí va a carbono. Este carbono tiene un doble enlace. [resoplido] Esos tres nitrógenos que están así pintados, acordaros que es la guanidina, ¿vale? Está claro que a PH fisiológico, el más básico, dijimos que siempre el del doble enlace, ¿no? Es decir, que esto aparecería protonado. ¿Vale? Mirad, si ahora mi fármaco
+
+en estos mediana, como siempre no nos aparecerá en forma de nube. Si ahora mi fármaco viene con un grupo ácido, espero
+
+ácido. Vale, aquí por una parte
+
+tendremos por supuesto que la diferencia de cargas hemos dicho que es el enlace iónico, ¿verdad? Vale, pues y además en ese mismo nitrógeno, fijaros lo que tenéis aquí, un enlace
+
+de hidrógeno. Ahora el fármaco lo está aceptando, ¿no? [resoplido]
+
+Bien, veis que aquí tendré
+
+un enlace iónico reforzado, ¿verdad? Vale, pues además
+
+por aquí se nos forma un enlace de hidrógeno
+
+aceptor. Esto es lo más fuerte que os vais a encontrar en cuanto a unión. Claro, que os vais a encontrar eh en este parcial, [resoplido] es decir, un enlace iónico reforzado que además tiene un enlace de hidrógeno. Me da igual que sea dador o afector porque nos puede pasar al contrario. Y ahora os dibujo lo contrario. El caso es que aquí se forma lo que se llama un anillo de ocho miembros. Fijaros que aquí tenemos
+
+ocho átomos implicados en el enlace. Los átomos son los siguientes.
+
+Aquí uno
+
+con este átomo, dos tres este oxígeno cuatro el nitrógeno cinco. O sea, el hidrógeno, [resoplido] perdón, cinco. El nitrógeno seis este carbono siete. y este nitrógeno ocho, esos anillos, es decir, tener esto más un enlace hidrógeno adicional en anillos de ocho miembros es lo más fuerte que vamos a ver en este parcial. [resoplido]
+
+Realmente, realmente es verdad que como aminoácido sería la arginina, no me hace falta tener una guanidina con que, y esto es habitual, eh, con que vuestro fármaco tenga esto que es una amidina.
+
+[resoplido]
+
+también se os va a formar esta unión. Quiero decir
+
+que ahora
+
+es el aspártigo, por ejemplo,
+
+el que me va a dar esto. Y si ahora viene un fármaco con una amidina, una amidina es un carbono doble enlace nitrógeno.
+
+Pues he metido arriba ahí un
+
+[resoplido] esto
+
+que acabo de pintar.
+
+Esto es una midina que a pH fisiológico
+
+se va a encontrar protonada.
+
+¿Vale? Mirar, aquí nos va a pasar exactamente igual por aquí [resoplido] enlace hidrógeno, o sea, perdón, enlace iónico, ¿no?
+
+con los tres pares libres que tiene el oxígeno, un enlace de hidrógeno ahora es dador por parte del [carraspeo] del fármaco. Es decir, que ahí tenéis ya un enlace iónico reforzado. Pero es que además por aquí tengo un enlace [resoplido] de hidrógeno
+
+dador de nuevo adicional. ¿Veis la midina? No. De nuevo
+
+tengo un anillo de ocho miembros. Mirad este hidrógeno uno. Oxígeno dos. carbono tres, eh, [resoplido] cuatro para el oxígeno, cinco para el nitrógeno, para el hidrógeno, seis, siete para este carbono y ocho aquí. [suspiro] Es decir, que lo más veis que aquí tengo además el enlace este de hidrógeno, ¿verdad? Lo más fuerte, la interacción mayor que nos vamos a encontrar [resoplido] durante todo el parcial va a ser esta. ¿Vale? Entonces, en general, nos Uy, en general yo lo que voy a buscar siempre es tener
+
+mayor número de fuerzas intermoleculares entre la diana y el fármaco [resoplido] y mayor
+
+fuerza del enlace, ¿no?
+
+El examen que os va a tocar dibujar, eh, creo que Pilar os va a dar dos dianas o una diana. Aquí va a poner los aminoácidos que ella quiera
+
+y os va a dar dos fármacos
+
+que tengo que meter aquí y buscar todas las interacciones que puede haber. A ver, los fármacos se pueden girar, los fármacos, quiero decir, pero ella nos da los fármacos o nosotros los elegimos. Eh, ella suele dar los fármacos. Vale, de todas las maneras a ver qué qué dice el año pasado. Es que creo que en este examen creo que no fue un papel, pero es que no me acuerdo bien.
+
+A ver cómo fue. Y de momento poco más. nos vamos a ya sí que nos tenemos que saber todos los aminoácidos, todas las cadenas laterales y todas las fuerzas interactivas que que hemos visto hoy. Vale, venga, por la semana que viene más. Buen fin.

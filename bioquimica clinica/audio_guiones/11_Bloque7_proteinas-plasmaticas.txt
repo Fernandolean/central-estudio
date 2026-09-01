@@ -1,0 +1,81 @@
+Si te preguntara ahora mismo cuántas proteínas distintas hay flotando en tu plasma, la respuesta te sorprendería: más de trescientas. La mitad de las preguntas de este bloque consisten en emparejar bien cada una de ellas: con el sitio del proteinograma donde vive, con el método que sirve para medirla, o con la enfermedad que delata si aparece alterada. De eso trata esta pista: de poner orden en ese totum revolutum de proteínas plasmáticas, para que cuando te pregunten por la ceruloplasmina no dudes ni medio segundo.
+
+Empecemos por la clasificación general. Las proteínas plasmáticas se dividen en dos grupos: las específicas del plasma, que ejercen su función ahí mismo, y las no específicas, que solo están de paso, transportadas hacia otro tejido o llegadas por daño tisular.
+
+Entre sus funciones: presión osmótica, sobre todo gracias a la albúmina; transporte de sustancias insolubles en agua, como el hierro mediante la transferrina, los lípidos mediante las apoproteínas, o la vitamina A mediante la prealbúmina; equilibrio ácido-base, entre todas las proteínas en conjunto; reserva de nitrógeno, otra vez la albúmina; defensa, con las inmunoglobulinas, el complemento y la proteína C reactiva; y coagulación, con las proteínas específicas de esa cascada.
+
+Ahora, cómo se miden. Aquí hay una distinción que se pregunta constantemente, y casi siempre invertida como trampa: unos métodos son para proteínas totales, otros para proteínas específicas, y no se intercambian.
+
+Para totales hay tres técnicas clásicas. La reacción de Biuret, cobre en medio básico que forma un complejo violeta con los oxígenos del carbonilo y el nitrógeno del enlace peptídico. La reacción de Bradford, con un colorante llamado azul de Coomassie. Y el método de Lowry, que reduce el ácido fosfotúngstico con dos aminoácidos, el triptófano y la tirosina.
+
+Para específicas se usan métodos inmunoquímicos, como la nefelometría, la turbidimetría o la inmunodifusión radial, o métodos de inmunoanálisis con reactivo marcado, como el radioinmunoanálisis, el enzimoinmunoanálisis, el fluoroinmunoanálisis o el luminoinmunoanálisis.
+
+Fíjate en este emparejamiento, muy preguntado y casi siempre invertido: Biuret, Bradford y Lowry, siempre para proteínas totales. Los inmunoquímicos, siempre para proteínas específicas. Si en un examen lees que Biuret se usa para cuantificar proteínas específicas, ya sabes que es falso.
+
+La concentración total normal está entre cincuenta y siete y ochenta gramos por litro, y en la práctica ese número refleja sobre todo los cambios de la albúmina y las inmunoglobulinas. Ojo con dos factores que pueden falsear la medición sin que haya nada patológico: un compresor demasiado apretado y demasiado tiempo durante la extracción de sangre, y los cambios posturales, porque no da lo mismo estar de pie que tumbado.
+
+El proteinograma es la electroforesis de las proteínas plasmáticas, separadas en acetato de celulosa según su movilidad: prealbúmina, albúmina, el pico más grande de todos, alfa uno, alfa dos, beta y gamma.
+
+En la fracción alfa uno están sobre todo la alfa uno glucoproteína ácida y la alfa uno antitripsina. En la alfa dos están la alfa dos macroglobulina, la ceruloplasmina y la haptoglobina. En la beta está la transferrina, junto con el complemento C tres. Y en la gamma están las inmunoglobulinas: la IgG, la IgA y la IgM.
+
+Aquí tienes una de las preguntas más repetidas del bloque: ¿en qué fracción aparece la ceruloplasmina? En la alfa dos. No en la beta, que es donde va la transferrina, y no en la gamma, que es donde van las inmunoglobulinas. Memorízate el bloque alfa dos completo, porque es el que más se confunde con la beta.
+
+Otro hallazgo muy preguntado: una banda estrecha y bien definida en la fracción gamma es un componente monoclonal, o paraproteína, signo de alarma por un posible mieloma múltiple; se le suele llamar pico M. No lo confundas con una respuesta policlonal normal, que es un ensanchamiento difuso de toda la fracción, no un pico estrecho. Y si ves una banda débil justo antes de la banda de albúmina, eso es prealbúmina, tenue por su baja concentración habitual.
+
+La albúmina es la proteína más abundante del plasma, entre treinta y cinco y cincuenta y dos gramos por litro, de síntesis hepática, con una vida media de entre quince y veinte días. Sus funciones son mantener la presión oncótica, servir de almacén de aminoácidos, y transportar ácidos grasos, bilirrubina, hormonas y cationes, como el calcio o el cobre.
+
+Hay tres alteraciones que conviene distinguir. La hiperalbuminemia puede ser un artefacto, por estasis venosa en la extracción, o real, por deshidratación. La analbuminemia es una enfermedad hereditaria muy rara, con menos de doscientos cincuenta miligramos por litro, que cursa solo con edema leve. Y la bisalbuminemia es una variante con dos bandas electroforéticas, sin ninguna repercusión clínica.
+
+La albúmina sirve además para dos cosas más muy preguntadas: como marcador nutricional a largo plazo, precisamente por su vida media larga, y como parámetro de función hepática, disminuye en la enfermedad hepática crónica pero se mantiene normal en la hepatitis aguda.
+
+El mecanismo del edema por hipoalbuminemia también se pregunta bastante: al bajar la albúmina, baja la presión oncótica del plasma, la que retiene el agua dentro de los vasos, y el líquido se escapa hacia el intersticio. No es un aumento del volumen plasmático ni nada relacionado con el corazón.
+
+Las proteínas de fase aguda suben con la inflamación o la infección, y se localizan en las fracciones alfa uno y alfa dos, nunca en toda la beta ni en toda la gamma, distractor muy habitual. Ejemplos: la ceruloplasmina y la haptoglobina, en alfa dos, la alfa uno antitripsina, en alfa uno, y la proteína C reactiva.
+
+La proteína C reactiva, que se abrevia PCR, es el arquetipo de proteína de fase aguda en humanos: no está glucosilada, se sintetiza en el hígado en respuesta a las citocinas de monocitos y macrófagos, y se une al polisacárido C de los neumococos. Su cinética es espectacular: sube entre cien y mil veces en veinticuatro a cuarenta y ocho horas, duplicándose aproximadamente cada ocho horas, con máximo hacia las cincuenta horas. Poco específica, pero muy útil para seguir la evolución de la inflamación.
+
+Se usa para detectar infecciones o rechazo en trasplantados e inmunosuprimidos, en el seguimiento postoperatorio, en enfermedades intestinales inflamatorias y del tejido conjuntivo, en complicaciones del embarazo como la rotura precoz de membranas, para diferenciar meningitis vírica de bacteriana, y para diferenciar el origen bacteriano de infecciones neonatales. Lo que no hace es diagnosticar directamente una enfermedad concreta, como una insuficiencia hepática aguda o un tumor: solo dice que hay inflamación, no la causa exacta.
+
+No todas suben: la albúmina y la prealbúmina son proteínas de fase aguda negativa, bajan durante la inflamación, en vez de subir.
+
+Caso interesante, la haptoglobina: sube con la inflamación, pero baja en dos situaciones muy distintas que conviene no confundir. Por consumo, en la hemólisis intravascular, al unirse a la hemoglobina libre liberada de los glóbulos rojos rotos, y ese complejo se elimina rápido por el hígado y el bazo. Y por menor síntesis, en la enfermedad hepática crónica avanzada. Mismo resultado, la haptoglobina baja, pero mecanismos opuestos: uno se gasta más rápido, el otro se fabrica menos.
+
+Ya en la fracción gamma, fija bien qué inmunoglobulina hace qué. La IgM es la primera en aparecer tras el primer contacto con un antígeno, protagonista de la respuesta inmunitaria primaria. La IgG domina en un segundo contacto con el mismo antígeno, la respuesta secundaria, más rápida e intensa. La IgA es la principal de las secreciones, como la saliva o las mucosas. Y la IgE está detrás de las reacciones de hipersensibilidad inmediata, es decir, la alergia.
+
+Un dato curioso: cuando las proteínas plasmáticas están muy elevadas, como con la paraproteína del mieloma múltiple, algunos métodos de medir el sodio dan un resultado falsamente bajo. Se llama pseudonatremia, un artefacto de laboratorio, sin ningún déficit real de sodio.
+
+Terminamos con la enzimología clínica: las enzimas plasmáticas usadas como marcadores diagnósticos. La gamma glutamil transferasa viene del hígado y del riñón, útil en enfermedad hepatobiliar y en el alcoholismo. La lactato deshidrogenasa, que se abrevia LDH, viene de muchos sitios a la vez, corazón, hígado, músculo esquelético, glóbulos rojos, y por eso es poco específica, aunque se usa en el infarto de miocardio, la hemólisis y las enfermedades hepáticas. La cinco prima nucleotidasa viene específicamente del hígado, y a diferencia de la fosfatasa alcalina no se eleva por causas óseas, lo que la hace más útil para confirmar el origen hepático de una fosfatasa alcalina alta. Y la lipasa, junto con la amilasa, viene del páncreas, y sirve para diagnosticar enfermedad pancreática, sobre todo la pancreatitis aguda.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿la reacción de Biuret sirve para cuantificar proteínas totales o proteínas específicas?
+
+[PAUSA 3s]
+
+Respuesta: proteínas totales. El cobre forma un complejo violeta con el enlace peptídico, así que mide proteína en conjunto. Si has dudado pensando que Biuret suena a algo específico: es al revés, junto con Bradford y Lowry forma el trío de métodos para proteína total; los inmunoquímicos son los de proteína específica.
+
+Pregunta: en el proteinograma, ¿en qué fracción aparece la ceruloplasmina?
+
+[PAUSA 3s]
+
+Respuesta: en la alfa dos, junto con la haptoglobina y la alfa dos macroglobulina. Si has dudado con la fracción beta: ahí va la transferrina, la confusión más habitual de todo el bloque.
+
+Pregunta: ¿por qué mecanismo principal aparece el edema cuando baja la albúmina en sangre?
+
+[PAUSA 3s]
+
+Respuesta: porque baja la presión oncótica del plasma y el líquido se escapa hacia el espacio intersticial. Si has dudado pensando en un aumento del volumen plasmático: es al revés, en la hipoalbuminemia el agua tiende a salir del vaso, no a acumularse dentro de él.
+
+Pregunta: en una hemólisis intravascular, ¿qué le pasa a la haptoglobina plasmática y por qué?
+
+[PAUSA 3s]
+
+Respuesta: baja, porque se une a la hemoglobina libre que se escapa de los glóbulos rojos rotos, y ese complejo se elimina rápido por el hígado y el bazo. Si has dudado pensando en un fallo de síntesis: ese mecanismo explica la haptoglobina baja en la enfermedad hepática crónica, no en la hemólisis, donde el mecanismo es consumo.
+
+Pregunta: ¿qué inmunoglobulina predomina en la respuesta inmunitaria primaria, tras el primer contacto con un antígeno?
+
+[PAUSA 3s]
+
+Respuesta: la IgM. Si has dudado con la IgG: esa predomina en la respuesta secundaria, en un segundo contacto con el mismo antígeno, más rápida e intensa que la primera vez.
+
+Tres ideas para cerrar. Primera: Biuret, Bradford y Lowry miden proteínas totales, los métodos inmunoquímicos miden proteínas específicas, y el examen los intercambia constantemente como trampa. Segunda: en el proteinograma, memoriza sobre todo la fracción alfa dos, ceruloplasmina, haptoglobina y alfa dos macroglobulina, la más confundida con la beta, donde va la transferrina; y una banda estrecha en la fracción gamma es un componente monoclonal, sospecha de mieloma múltiple. Tercera: la albúmina baja apunta a hepatopatía crónica, no a la aguda, por su vida media larga, y produce edema porque cae la presión oncótica; la proteína C reactiva sube muchísimo y muy rápido tras cualquier daño tisular, pero no te dice la causa exacta, solo que hay inflamación.

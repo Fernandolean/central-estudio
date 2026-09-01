@@ -1,0 +1,59 @@
+El fármaco ya ha llegado a su sitio y ha hecho su trabajo. Ahora el cuerpo tiene que deshacerse de él, y eso pasa por dos procesos que van casi siempre unidos: primero transformarlo en algo más fácil de eliminar, y después sacarlo fuera. De eso trata este bloque, metabolismo y excreción, uno de los más preguntados de toda la asignatura, así que merece la pena ir despacio.
+
+Empecemos por el metabolismo. Metabolizar un fármaco es transformarlo en sustancias más hidrosolubles, los metabolitos, para que el organismo pueda eliminarlos con más facilidad. El órgano principal donde ocurre esto es el hígado, y ahí el protagonista es un conjunto de enzimas que seguro te suena, el citocromo P450, que se pronuncia pe cuatrocientos cincuenta.
+
+El metabolismo hepático ocurre en dos fases. En la fase uno se producen reacciones de oxidación, de reducción o de hidrólisis, y de ahí sale un metabolito que puede ser más o menos activo, o más o menos tóxico, que el fármaco original. En la fase dos, ese metabolito se conjuga con una sustancia endógena muy hidrosoluble, y esa conjugación aumenta muchísimo la hidrosolubilidad del conjunto, dejándolo ya listo para salir del cuerpo con facilidad.
+
+Y aquí viene un matiz importante: el metabolito que resulta de todo esto puede ser de tres tipos. Puede ser inactivo, sin más función que salir del cuerpo. Puede ser activo, y entonces prolonga el efecto del fármaco original, porque sigue actuando aunque ya no sea la molécula inicial. O puede ser tóxico, y el ejemplo clásico de examen es el paracetamol: uno de sus metabolitos es hepatotóxico, dañino para el hígado. Y aquí está el dato que sorprende y que preguntan mucho: precisamente por eso el paracetamol es el analgésico de elección en niños pequeños, porque la enzima que genera ese metabolito tóxico concreto todavía no ha madurado en ellos, así que apenas lo producen. Además de estos tres tipos de metabolito, existen los profármacos, que se administran ya de entrada en forma inactiva, y que solo se activan precisamente gracias al metabolismo.
+
+El metabolismo no va siempre a la misma velocidad, y los factores que lo modifican se agrupan en tres bloques, una combinación que preguntan mucho junta. Los factores fisiológicos incluyen la edad, porque el metabolismo se vuelve más lento con la edad; el embarazo y la lactancia; el sexo, porque los hombres metabolizan más rápido que las mujeres; la raza, porque la etnia negra metaboliza más rápido; y la genética, con la existencia de acetiladores rápidos y acetiladores lentos según la persona.
+
+Los factores patológicos incluyen la insuficiencia renal y, sobre todo, la insuficiencia hepática: si el hígado falla, el fármaco se metaboliza más despacio, permanece más tiempo en el organismo, y aumenta el riesgo de toxicidad.
+
+Y los factores yatrogénicos son los que provoca el propio tratamiento farmacológico. Los inductores enzimáticos aumentan la velocidad de metabolismo, y eso puede acabar en ineficacia, porque el fármaco desaparece antes de completar su efecto. Los inhibidores enzimáticos hacen justo lo contrario: disminuyen la velocidad de metabolismo, y eso puede acabar en toxicidad, porque el fármaco se acumula y su vida media aumenta.
+
+Guarda esta regla de oro, porque resuelve casi cualquier pregunta de este bloque: acelerar el metabolismo significa menor permanencia del fármaco en el cuerpo, y eso apunta a ineficacia; enlentecer el metabolismo significa mayor permanencia, y eso apunta a toxicidad. Dicho de otra forma, metabolismo rápido es un fármaco que se va antes de tiempo, y metabolismo lento es un fármaco que se queda más de la cuenta.
+
+Pasemos a la excreción, empezando por la vía renal, la más importante con diferencia. Tiene tres pasos. El primero es la filtración glomerular, donde pasa el fármaco libre, siempre que tenga un peso molecular por debajo de setenta mil daltons; el fármaco unido a proteínas no se filtra en este paso. El segundo paso es la secreción tubular, que puede ser pasiva o por transporte activo, y este transporte activo es saturable; a diferencia de la filtración, en la secreción tubular se puede excretar tanto la fracción libre como la fracción unida a proteínas. Y el tercer paso es la reabsorción tubular, que ocurre por difusión pasiva y depende del pH, igual que veíamos con la absorción: si el fármaco está no ionizado en la orina, se reabsorbe hacia la sangre y eso alarga la duración de su efecto; si está ionizado en la orina, se queda ahí y se elimina más rápido.
+
+De esta dependencia del pH sale una aplicación clínica que preguntan muchísimo, el manejo de intoxicaciones por fármacos. Si el fármaco que ha causado la intoxicación es ácido, se alcaliniza la orina, normalmente junto con un diurético, para que el fármaco quede ionizado y se elimine cuanto antes. Si el fármaco es básico, se hace lo contrario, se acidifica la orina, también con diurético, para ionizarlo y forzar su eliminación. Repite la regla con otras palabras porque es de las más rentables del tema: fármaco ácido intoxicado, orina alcalina; fármaco básico intoxicado, orina ácida.
+
+Además de la vía renal existe la vía biliar, que es la segunda en importancia. Se usa sobre todo para compuestos de peso molecular alto o que no tienen capacidad de ionizarse. Esta vía puede generar un fenómeno llamado ciclo enterohepático: el fármaco que se elimina por la bilis hacia el intestino se vuelve a reabsorber ahí mismo, y eso aumenta mucho la duración de su efecto, porque el fármaco entra otra vez en circulación en lugar de salir del cuerpo. Cuando la intoxicación es por esta vía, el tratamiento clásico es el carbón activado por vía oral, que atrapa el fármaco en el intestino y lo saca del cuerpo por las heces antes de que se pueda reabsorber.
+
+Y quedan vías de excreción menores pero que hay que tener presentes: las heces, el sudor, la respiración, y la leche materna. Sobre esta última aplica la misma norma de precaución que vimos en distribución: hay que sospechar que cualquier fármaco puede eliminarse, al menos en parte, por la leche materna.
+
+Para cerrar el desarrollo, dos conceptos que van siempre juntos en examen. El aclaramiento, que en inglés se llama clearance, es la concentración de fármaco que se elimina por la orina por unidad de tiempo. La vida media es el tiempo que tarda la concentración de fármaco en el organismo en reducirse a la mitad. Y la relación entre ambos es inversamente proporcional: cuanto mayor es el aclaramiento, menor es la vida media, porque el cuerpo elimina el fármaco más deprisa; y cuanto menor es el aclaramiento, mayor es la vida media, porque el fármaco tarda más en desaparecer.
+
+Vamos con la recuperación activa. Cinco preguntas, tómate un segundo real en cada pausa.
+
+Pregunta: ¿por qué el paracetamol es el analgésico de elección en niños pequeños, si uno de sus metabolitos es tóxico para el hígado?
+
+[PAUSA 3s]
+
+Respuesta: porque en niños pequeños todavía no ha madurado la enzima que genera ese metabolito tóxico concreto, así que apenas lo producen. Si has dudado pensando que el paracetamol no tiene ningún metabolito tóxico, no es así: sí lo tiene, lo que pasa es que en el adulto ese riesgo existe, y en el niño pequeño, por inmadurez enzimática, prácticamente no.
+
+Pregunta: un fármaco actúa como inductor enzimático sobre el metabolismo de otro. ¿El resultado más probable es ineficacia o toxicidad del segundo fármaco?
+
+[PAUSA 3s]
+
+Respuesta: ineficacia. Un inductor acelera el metabolismo, así que el segundo fármaco se elimina antes de tiempo y pierde efecto. Si has dudado pensando en toxicidad, esa es la consecuencia del caso contrario, el inhibidor enzimático, que enlentece el metabolismo, acumula el fármaco y aumenta su vida media.
+
+Pregunta: en la filtración glomerular, ¿pasa solo el fármaco libre, o también el que va unido a proteínas plasmáticas?
+
+[PAUSA 3s]
+
+Respuesta: solo el fármaco libre, y además con un requisito de tamaño, un peso molecular por debajo de setenta mil daltons. Si has dudado pensando en la secreción tubular, ahí sí se puede excretar tanto la fracción libre como la unida a proteínas; no confundas los dos pasos.
+
+Pregunta: llega a urgencias un paciente intoxicado por un fármaco básico. ¿Hay que alcalinizar o acidificar la orina para eliminarlo antes?
+
+[PAUSA 3s]
+
+Respuesta: hay que acidificar la orina, junto con un diurético, para que el fármaco básico quede ionizado y se elimine más rápido. Si has dudado y has pensado en alcalinizar, esa es la maniobra para un fármaco ácido intoxicado, justo la combinación contraria.
+
+Pregunta: si el aclaramiento renal de un fármaco aumenta, ¿su vida media aumenta también o disminuye?
+
+[PAUSA 3s]
+
+Respuesta: disminuye. Aclaramiento y vida media son inversamente proporcionales: si el cuerpo elimina el fármaco más deprisa, tarda menos en reducirse a la mitad de su concentración.
+
+Y con esto cerramos. Tres ideas fuerza. Primero: el metabolismo transforma el fármaco en metabolitos más hidrosolubles en dos fases, y ese metabolito puede ser inactivo, activo o tóxico; recuerda siempre el ejemplo del paracetamol y su metabolito hepatotóxico, que en niños pequeños casi no se genera por inmadurez enzimática. Segundo: acelerar el metabolismo con un inductor enzimático apunta a ineficacia; enlentecerlo con un inhibidor enzimático apunta a toxicidad y a mayor vida media. Y tercero: en el manejo de intoxicaciones, el fármaco ácido se elimina alcalinizando la orina y el fármaco básico se elimina acidificándola, siempre junto con un diurético; y el aclaramiento y la vida media son inversamente proporcionales entre sí.

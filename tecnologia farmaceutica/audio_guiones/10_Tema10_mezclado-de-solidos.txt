@@ -1,0 +1,53 @@
+Imagina que echas azúcar y sal en el mismo bote y lo agitas. Por mucho que agites, nunca vas a conseguir que cada grano quede repartido tan perfectamente como se reparten dos gases mezclándose en el aire. Y sin embargo, ese reparto imperfecto es, precisamente, el objetivo real cuando se mezclan sólidos en la industria farmacéutica. De eso va este bloque: qué tipos de mezcla existen, qué mecanismos ayudan a mezclar y cuáles trabajan en tu contra, y con qué máquinas se consigue.
+
+Vamos a los tres tipos de mezcla, porque se preguntan siempre en contraste unos con otros, y hay que tenerlos muy claros. La mezcla positiva es la típica de gases o de líquidos miscibles. Las fuerzas de cohesión entre sus componentes son débiles, así que se entremezclan solos, por difusión, sin que haga falta aportar energía desde fuera. Tienden hacia una mezcla perfecta, homogénea de verdad. Piensa en un perfume que se difunde por una habitación: nadie lo agita, se reparte solo.
+
+La mezcla negativa es justo el problema típico al mezclar sólidos. Aquí los componentes tienden a separarse otra vez después de haber sido mezclados con una fuerza inicial, porque las fuerzas de cohesión entre partículas iguales son altas. Es el riesgo que corres siempre que trabajas con polvos de distinto tamaño, forma o densidad: los mezclas con esfuerzo, y en cuanto dejan de recibir esa energía, tienden a desmezclarse por su cuenta.
+
+Y entre esos dos extremos está la mezcla aleatoria, que es el objetivo real y alcanzable cuando trabajas con sólidos. No busques la mezcla perfecta de un gas, porque no la vas a conseguir con polvos. Lo que sí puedes conseguir es que la probabilidad de encontrar un tipo concreto de partícula sea la misma en cualquier posición de la mezcla. Las partículas quedan dispuestas al azar, sin ningún criterio de orden. Ese es el estándar contra el que se mide la calidad de un mezclado de sólidos en la práctica: no la perfección de un gas, sino el azar bien repartido.
+
+Repitamos el contraste con otras palabras, porque es fácil liarse en el examen. Positiva es cuando el propio sistema tiende a mezclarse solo, típico de gases y líquidos miscibles. Negativa es cuando el sistema tiende a separarse solo, el típico riesgo de los sólidos. Y aleatoria es el término medio realista para sólidos: no se mezclan perfectos, pero sí de forma homogénea en sentido estadístico, con la misma probabilidad de encontrar cada componente en cualquier punto de la masa.
+
+Ahora, ¿cómo se consigue avanzar hacia esa mezcla aleatoria? Con tres mecanismos de mezclado que actúan casi siempre combinados dentro de un mezclador real. El primero es la convección, que es el movimiento de grupos grandes de partículas de una zona del mezclador a otra, como cuando remueves con una cuchara grande y desplazas masas enteras de material de golpe. El segundo es la difusión, que aquí ya no habla de grupos grandes, sino de partículas individuales que se van moviendo por su cuenta por la superficie de la mezcla, ocupando pequeños huecos disponibles. Y el tercero es el cizallamiento, que es el deslizamiento de capas de material unas sobre otras, como cuando una baraja de cartas se desliza al abanicarla. Convección mueve mucho material de golpe, difusión mueve partícula a partícula, y cizallamiento hace que capas enteras resbalen unas sobre otras. Los tres suelen darse a la vez dentro del mismo equipo.
+
+El problema es que existen también mecanismos de segregación, que trabajan justo en contra del mezclado, y son el motivo por el que una mezcla bien hecha se puede estropear después, por ejemplo durante el transporte o el llenado de la tolva de una máquina de comprimir. Hay tres mecanismos de segregación, y aquí está la trampa de examen que más se repite en este bloque: uno de ellos tiene un nombre tan neutro que mucha gente lo confunde con un mecanismo de mezclado.
+
+El primero es la percolación: las partículas más pequeñas caen y se cuelan por los huecos que dejan las partículas más grandes, así que acaban concentrándose en el fondo del recipiente. El segundo es la trayectoria: partículas de distinto tamaño o densidad, al ser lanzadas o vertidas, siguen trayectorias distintas en el aire, así que no caen en el mismo sitio y terminan separándose. Y aquí va la trampa: la trayectoria no es un mecanismo de mezclado, aunque el nombre no lo delate. Es un mecanismo de segregación, justo lo contrario. Si en el examen te preguntan cuál de una lista de mecanismos no es de mezclado sino de segregación, la respuesta casi siempre es la trayectoria. El tercer mecanismo de segregación es la expansión del lecho: cuando aireas o vibras la mezcla, las partículas pequeñas tienden a colarse hacia el fondo, dejando arriba a las más grandes.
+
+Fíjate en el paralelismo, porque ayuda a no confundirlos: convección, difusión y cizallamiento mezclan. Percolación, trayectoria y expansión del lecho segregan. Y el más traicionero de los seis nombres es trayectoria, porque sin contexto no suena ni a mezclar ni a separar, y por eso es el que más se pregunta.
+
+Por último, los dispositivos mezcladores de sólidos se dividen en dos grandes familias, según qué es lo que se mueve dentro del equipo. Los mezcladores de cuerpo móvil son aquellos en los que el propio recipiente gira o se desplaza, por ejemplo el mezclador en V, el cúbico o el de doble cono: el material se va volteando dentro de un recipiente que rota entero. Los mezcladores de cuerpo fijo son justo lo contrario: el recipiente no se mueve, y dentro hay palas, hélices o tornillos que giran y remueven el material. La diferencia clave para el examen es sencilla: en cuerpo móvil se mueve el recipiente entero, en cuerpo fijo se mueve solo lo de dentro.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿cómo se define una mezcla aleatoria, y en qué se diferencia de la mezcla positiva?
+
+[PAUSA 3s]
+
+Respuesta: en una mezcla aleatoria, la probabilidad de encontrar un tipo concreto de partícula es la misma en cualquier posición, porque las partículas se disponen al azar, sin ningún criterio. Se diferencia de la mezcla positiva en que esta última, típica de gases o líquidos miscibles, tiende hacia una mezcla perfecta y se produce sola por difusión; la aleatoria es el objetivo realista cuando trabajas con sólidos, que nunca llegan a mezclarse tan perfectamente como un gas.
+
+Pregunta: ¿la trayectoria es un mecanismo de mezclado o de segregación?
+
+[PAUSA 3s]
+
+Respuesta: de segregación. Es la pregunta trampa más repetida de este bloque. Los mecanismos de mezclado son convección, difusión y cizallamiento; la trayectoria, junto con la percolación y la expansión del lecho, es uno de los mecanismos que separan de nuevo lo que ya estaba mezclado.
+
+Pregunta: nombra los tres mecanismos de segregación y explica brevemente qué le pasa al polvo en cada uno.
+
+[PAUSA 3s]
+
+Respuesta: percolación, las partículas pequeñas se cuelan entre los huecos de las grandes y caen al fondo. Trayectoria, partículas de distinto tamaño o densidad siguen caminos distintos al lanzarlas o verterlas. Y expansión del lecho, al airear o vibrar la mezcla, las partículas pequeñas se hunden hacia abajo.
+
+Pregunta: ¿qué diferencia a un mezclador de cuerpo móvil de uno de cuerpo fijo?
+
+[PAUSA 3s]
+
+Respuesta: en el de cuerpo móvil es el propio recipiente el que gira o se mueve, como en un mezclador en V o de doble cono. En el de cuerpo fijo el recipiente está quieto y son las palas, hélices o tornillos internos los que se mueven para remover el material.
+
+Pregunta: si un mecanismo hace que las partículas pequeñas caigan y se cuelen entre los huecos de las partículas grandes, ¿cómo se llama ese mecanismo y a qué familia pertenece, mezclado o segregación?
+
+[PAUSA 3s]
+
+Respuesta: es la percolación, y pertenece a los mecanismos de segregación, no de mezclado. Es fácil confundirla con la difusión, porque las dos hablan de partículas individuales moviéndose, pero la difusión reparte partículas por la superficie de la mezcla y ayuda a mezclar, mientras que la percolación hace que las pequeñas se hundan hacia el fondo y ayuda a separar.
+
+Y las tres ideas fuerza de este bloque. Primero, hay tres tipos de mezcla: la positiva se mezcla sola, típica de gases y líquidos miscibles; la negativa tiende a separarse, es el riesgo típico de los sólidos; y la aleatoria es el objetivo real al mezclar sólidos, con la misma probabilidad de encontrar cada partícula en cualquier posición. Segundo, mezclan la convección, la difusión y el cizallamiento; segregan la percolación, la trayectoria y la expansión del lecho, y la trayectoria es la trampa de examen más repetida porque parece un nombre neutro pero es un mecanismo de segregación, no de mezclado. Tercero, los mezcladores se dividen en cuerpo móvil, donde gira el recipiente entero, y cuerpo fijo, donde el recipiente está quieto y se mueve un elemento interno.

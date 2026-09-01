@@ -1,0 +1,59 @@
+De todos los temas de este parcial, este es el que más rinde por minuto de estudio. Casi tres de cada cuatro preguntas de este bloque en el simulador son preguntas que ya han caído, casi con las mismas palabras, en exámenes de convocatorias anteriores. Así que aquí no conviene quedarse con la idea general: conviene aprenderse los números exactos y las palabras exactas. Vamos a por ello.
+
+Empecemos por lo obvio: por qué importa el tamaño de partícula. La dimensión de las partículas sólidas condiciona tres cosas a la vez: la eficacia del propio proceso tecnológico, las propiedades físicas y biofarmacéuticas del fármaco, entre ellas la velocidad de disolución y la biodisponibilidad, y el rendimiento del medicamento final. No es un detalle estético, es una variable que afecta a si el medicamento funciona bien o mal en el cuerpo del paciente.
+
+Ahora vamos con la teoría de Griffith, que es la base conceptual de todo este bloque. La idea es esta: la energía necesaria para romper, o pulverizar, una sustancia, es la energía capaz de vencer la resistencia para que avance una grieta que ya existe en el material. Ningún sólido real es perfecto: todos tienen microgrietas o defectos internos, y lo que hace la energía aplicada es precisamente hacer avanzar esas grietas hasta fracturar el sólido. Y aquí va el dato clave, que te repito de otra forma más adelante: esa energía necesaria es proporcional a la nueva superficie que se genera al fracturar el sólido. Cuanto más pequeñas quieras las partículas finales, más superficie nueva estás generando, y por tanto más energía necesitas aportar. La reducción de tamaño de partícula siempre necesita un aporte de energía; en esencia, consiste en promover la aparición de superficies nuevas y libres, nunca en evitarlas.
+
+A la reducción de tamaño de sólidos secos en particular se le llama pulverización. Fíjate en el matiz: sólidos secos, no líquidos, no semisólidos. Las fuentes de energía que se emplean para pulverizar son tres: mecánica, eléctrica o fisicoquímica. Si en un examen te dan una cuarta opción como "energía estática", desconfía: la electricidad estática no es una fuente de energía que se use para pulverizar, es más bien uno de los problemas que aparecen durante el proceso, como veremos enseguida.
+
+Los métodos de reducción de tamaño se eligen según el tipo de material, y esto se pregunta muchísimo, así que vamos uno por uno. Para sólidos duros, el método es la compresión. También el impacto o golpeo sirve para sólidos duros, y es además el método típico cuando se busca una reducción grosera, es decir, poco fina. Para materiales blandos, en cambio, se usa el rozamiento, también llamado erosión, y el desgarramiento; estos dos métodos son exclusivos de materiales blandos, no sirven para materiales duros. Y para materiales fibrosos y secos, como plantas medicinales, el método es el cortado. Resumiendo con las parejas que más se confunden: duro va con compresión o impacto, blando va con rozamiento o desgarramiento, fibroso va con cortado. Si te preguntan qué método usarías para un material blando, la respuesta nunca es compresión ni cortado; es rozamiento o desgarramiento.
+
+Antes de pulverizar cualquier material, siempre se realizan cuatro operaciones previas. La mondación, que es separar las partes inútiles del material, muy típica cuando trabajas con drogas vegetales. La fragmentación, o división grosera inicial. La desecación, para quitar humedad. Y la aplicación de presión. Estas cuatro, mondación, fragmentación, desecación y presión, son las operaciones previas que siempre se hacen. Y aquí viene una trampa que se repite mucho: el desgarramiento NO es una operación previa. El desgarramiento es, como acabamos de ver, uno de los métodos de reducción de tamaño en sí mismo, el que se usa para materiales blandos. No tendría sentido listarlo como "previo a sí mismo". Si una opción de examen incluye el desgarramiento dentro de las operaciones previas, esa opción es falsa.
+
+Vamos ahora con los problemas y precauciones durante la pulverización, porque aquí hay otra trampa clásica. Al reducir el tamaño de partícula aumenta muchísimo la superficie específica del material, y eso trae varias consecuencias: mayor susceptibilidad al ataque de agentes atmosféricos, como la humedad o el oxígeno; mayor riesgo de degradación por calor, sobre todo en materiales termolábiles; incremento de la carga eléctrica estática, precisamente el fenómeno que antes te decía que no es una fuente de energía, sino un problema; y posible formación de distintos polimorfos, con los cambios de estabilidad que eso conlleva, como vimos en la pista anterior. Pero el dato que más se pregunta, y te lo repito porque es justo el que más se falla, es este: el volumen aparente del material AUMENTA durante la pulverización, no disminuye. Al reducir el tamaño de partícula aumenta la porosidad y queda más aire atrapado entre las partículas, así que el mismo peso de material ocupa más volumen, no menos. Si una opción de examen dice "disminución del volumen aparente" como consecuencia de la pulverización, es casi seguro que esa es la opción falsa.
+
+Y llegamos a la tabla más preguntada de todo este bloque, la que tienes que saber de memoria en micras. Hay cuatro categorías de tamaño final. La pulverización grosera es la que da partículas de más de ochocientas cuarenta micras. La intermedia va desde ochocientas cuarenta micras hasta setenta y cinco micras. La fina es la que queda por debajo de setenta y cinco micras. Y la ultrafina se queda alrededor de un micra, muchísimo más pequeña que las otras tres categorías. Te lo repito una vez más, porque esta tabla por sí sola puede darte varios puntos en el examen: grosera, por encima de ochocientas cuarenta micras; intermedia, entre ochocientas cuarenta y setenta y cinco micras; fina, por debajo de setenta y cinco micras; ultrafina, alrededor de un micra. Si te ayuda a memorizarlo, piensa en un elefante que se pone a dieta: empieza grosero como un elefante, con más de ochocientas cuarenta micras, adelgaza hasta un tamaño intermedio, se queda fino como un folio de papel por debajo de setenta y cinco micras, y termina hecho polvo de talco, casi invisible, en torno a un micra.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: según la teoría de Griffith, ¿a qué es proporcional la energía necesaria para pulverizar un sólido?
+
+[PAUSA 3s]
+
+Respuesta: a la nueva superficie que se genera al fracturar el material. Cuanto más finas quieras las partículas finales, más superficie nueva se crea, y más energía hace falta aportar.
+
+Si has dudado pensando en el tamaño de la grieta o en el peso del material: la teoría no habla de tamaño de grieta como magnitud proporcional ni de peso, habla específicamente de la superficie nueva generada por la fractura.
+
+Pregunta: tienes que reducir el tamaño de un material blando. ¿Qué método usarías, compresión o rozamiento?
+
+[PAUSA 3s]
+
+Respuesta: rozamiento, también llamado erosión, o desgarramiento. La compresión se reserva para materiales duros.
+
+Si has dudado pensando que la compresión vale para cualquier sólido: no, la compresión necesita un material con resistencia estructural suficiente; en un material blando no genera una fractura eficaz, por eso se usan rozamiento o desgarramiento.
+
+Pregunta: durante la pulverización, ¿el volumen aparente del material aumenta o disminuye?
+
+[PAUSA 3s]
+
+Respuesta: aumenta. Al reducir el tamaño de partícula aumenta la porosidad y queda más aire atrapado entre las partículas, así que el mismo material ocupa más volumen, no menos.
+
+Si has dudado pensando que menos tamaño significa menos volumen: eso sería cierto para una sola partícula compacta, pero aquí hablamos del volumen aparente del conjunto de polvo, que incluye todo el aire atrapado entre partículas, y ese aire aumenta al pulverizar.
+
+Pregunta: ¿el desgarramiento es una operación previa a la pulverización o un método de reducción de tamaño en sí mismo?
+
+[PAUSA 3s]
+
+Respuesta: es un método de reducción de tamaño en sí mismo, el que se usa para materiales blandos. No es una operación previa.
+
+Si has dudado porque lo has visto listado junto a mondación o fragmentación: esa es exactamente la trampa; las operaciones previas de verdad son mondación, fragmentación, desecación y presión, y el desgarramiento no encaja ahí porque ya es, él mismo, un método de pulverización.
+
+Pregunta: ¿qué rango de tamaño corresponde a la pulverización intermedia?
+
+[PAUSA 3s]
+
+Respuesta: entre ochocientas cuarenta micras y setenta y cinco micras.
+
+Si has dudado con la grosera o la fina: la grosera es todo lo que está por encima de ochocientas cuarenta micras, y la fina es todo lo que está por debajo de setenta y cinco micras; la intermedia es, literalmente, todo lo que queda en medio de esos dos números.
+
+Para cerrar, tres ideas que no se te pueden olvidar. Primero: la teoría de Griffith dice que la energía para pulverizar es proporcional a la superficie nueva generada, y que reducir tamaño siempre exige un aporte de energía. Segundo: el método de reducción depende del material, compresión o impacto para duros, rozamiento o desgarramiento solo para blandos, cortado para fibrosos, y ojo, el desgarramiento es un método, no una operación previa; las operaciones previas de verdad son mondación, fragmentación, desecación y presión. Tercero: durante la pulverización el volumen aparente aumenta, no disminuye, y los cuatro tamaños finales en micras son grosera por encima de ochocientas cuarenta, intermedia entre ochocientas cuarenta y setenta y cinco, fina por debajo de setenta y cinco, y ultrafina alrededor de un micra.

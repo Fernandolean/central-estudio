@@ -1,0 +1,47 @@
+Piensa en un espray de perfume. Aprietas el botón, salen gotitas finísimas, y en el aire se secan solas, casi al instante, sin que nada las haya enfriado. Pues así funciona, a escala industrial, uno de los procesos de secado que más trampa de examen genera en este bloque, la atomización, y te adelanto el dato antes de explicarlo: es un proceso de secado en caliente, no en frío, aunque suene contraintuitivo. De eso, y del resto de la desecación, va esta pista.
+
+Empecemos por lo básico. La desecación es la operación farmacéutica que consiste en eliminar, total o parcialmente, la humedad que tiene un cuerpo sólido. Para entender cómo evoluciona esa humedad hace falta el concepto de estado higrométrico, que es el estudio del equilibrio entre el comportamiento de un sólido y la humedad del aire que lo rodea: si el aire está más seco que el sólido, el sólido tiende a perder agua hacia el aire, y si está más húmedo, puede pasar justo lo contrario. Para representar gráficamente esa relación entre temperatura y humedad del aire se usan las cartas psicrométricas, y dentro de ellas hay unas líneas concretas, las líneas de refrigeración adiabática, que permiten calcular la humedad absoluta del aire en unas condiciones dadas.
+
+Durante la desecación, el calor le llega al sólido de tres formas distintas, y conviene recordar que son las tres, no solo una o dos: por conducción, por convección y por radiación. Es un dato pequeño pero que se pregunta en formato verdadero o falso, así que cuidado con las opciones que solo mencionan dos de las tres formas de transferencia de calor.
+
+Vamos ahora con el corazón de este bloque, las fases de Newitt, que describen cómo va cambiando un sólido húmedo a medida que se seca. Van en un orden fijo, de más húmedo a más seco, y hay un truco mnemotécnico que sirve mucho mejor que memorizar la lista a pelo: Gotas Caen Formando Puentes. Cada palabra te da la inicial de una fase, y además el orden correcto. Primero está la fase goticular, la más húmeda de todas, en la que el líquido cubre la superficie del sólido en forma de película continua o de gotas visibles, como si el sólido estuviera empapado por fuera. Después viene la fase capilar, en la que el líquido ya no cubre la superficie de forma continua, sino que llena los huecos y los poros del sólido por capilaridad. Luego, la fase funicular, en la que el líquido ya no ocupa todos los poros: quedan zonas con líquido y zonas con aire, en forma de puentes discontinuos. Y por último, la fase pendular, la más seca de las cuatro, en la que solo quedan mínimos anillos o puentes de líquido en los puntos de contacto entre partículas, con el aire ya como protagonista. Fíjate en la lógica del truco: las gotas iniciales van cayendo y filtrándose por capilaridad, hasta que solo quedan hilos sueltos que terminan en esos puentes pequeños y colgantes, como un péndulo, que es justo la imagen de la fase pendular. Goticular, capilar, funicular, pendular: ese es el orden que hay que saber de memoria, de más húmedo a más seco.
+
+Dentro de esa dinámica de secado hay un momento clave que se llama punto crítico de secado. Marca el final del periodo en el que la velocidad de secado es constante, y el inicio del periodo en el que esa velocidad empieza a disminuir. Es un dato con utilidad práctica real, porque sirve para calcular el tiempo eficaz de un proceso de desecación: antes del punto crítico, el secado va a ritmo constante y es fácil de predecir; después, se va frenando. Y hay un riesgo asociado a esa segunda fase que merece la pena fijar: en el periodo posterior al punto crítico, si no se controla bien el final del secado, pueden aparecer problemas de sobrecalentamiento del principio activo, porque ya no queda tanta humedad superficial para amortiguar la temperatura del sólido.
+
+Y ahora sí, la atomización, con la trampa de examen que el propio material de estudio señala como la más repetida de todo este bloque en convocatorias anteriores. La atomización, también llamada secado por pulverización, consiste en convertir un fluido en gotículas muy finas y secarlas muy rápido con una corriente de aire caliente. Repite conmigo la idea, porque es la que más se confunde: la atomización es un proceso de desecación en caliente, no en frío. El proceso en frío por excelencia, el que trabaja con el material congelado, es la liofilización, que es otra cosa distinta. Si en el examen te preguntan si la atomización es un proceso de desecación en frío, la respuesta es que no, es justo lo contrario, aunque el tiempo de exposición al calor sea muy breve. Los parámetros críticos que hay que controlar en una atomización son cuatro: el tamaño de la gotícula que se genera, el flujo del aire, la temperatura del aire de entrada, y el tiempo de permanencia del sólido en contacto con ese aire caliente.
+
+Por último, el lecho fluido, un equipo que se usa tanto a nivel industrial como de laboratorio. Es muy versátil, y sirve para varios procesos: desecación, atomización, granulación y pelletización. Lo que no hace el lecho fluido es elaborar suspensiones o emulsiones, eso son formas farmacéuticas líquidas y quedan fuera de lo que hace este equipo; esa es la opción distractora habitual cuando te preguntan para qué sirve.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿cuál es el orden correcto de las fases de Newitt, de más húmedo a más seco?
+
+[PAUSA 3s]
+
+Respuesta: goticular, capilar, funicular y pendular. Usa el truco Gotas Caen Formando Puentes para no liarte con el orden: primero las gotas cubren la superficie, fase goticular; después el líquido se mete en los poros por capilaridad, fase capilar; luego solo quedan puentes discontinuos, fase funicular; y al final, mínimos anillos de líquido entre partículas, fase pendular.
+
+Pregunta: ¿se considera la atomización un proceso de desecación en frío?
+
+[PAUSA 3s]
+
+Respuesta: no, es falso. La atomización usa aire caliente para secar muy rápido las gotículas pulverizadas, así que es un proceso de desecación en caliente. Si has dudado porque el tiempo de contacto con el calor es muy corto, ojo: eso limita el daño térmico al producto, pero no cambia que el aire empleado sea caliente. El proceso en frío de verdad es la liofilización, que trabaja con el sólido congelado.
+
+Pregunta: ¿qué marca el punto crítico de secado?
+
+[PAUSA 3s]
+
+Respuesta: el paso del periodo de velocidad de secado constante al periodo de velocidad decreciente. Sirve para calcular el tiempo eficaz del proceso, y en la fase posterior a ese punto hay que vigilar el sobrecalentamiento del principio activo.
+
+Pregunta: ¿para qué procesos sirve el lecho fluido, y para cuál no sirve?
+
+[PAUSA 3s]
+
+Respuesta: sirve para desecación, atomización, granulación y pelletización. No sirve para elaborar suspensiones ni emulsiones, que son formas líquidas: esa es la opción trampa que suele aparecer en el examen.
+
+Pregunta: ¿qué es el estado higrométrico?
+
+[PAUSA 3s]
+
+Respuesta: el estudio del equilibrio entre el comportamiento de un sólido y la humedad del aire que lo rodea. No es solo estudiar la humedad del aire por separado, sino cómo se relaciona esa humedad con el sólido que tiene alrededor.
+
+Y las tres ideas fuerza de este bloque. Primero, las fases de Newitt van siempre en el mismo orden, de más húmedo a más seco: goticular, capilar, funicular y pendular, y el truco Gotas Caen Formando Puentes te da tanto las iniciales como el orden. Segundo, la atomización es un proceso de desecación en caliente, no en frío, aunque el contacto con el calor dure poco tiempo; el proceso frío de verdad es la liofilización. Tercero, el punto crítico de secado separa la fase de velocidad constante de la fase de velocidad decreciente, y el lecho fluido sirve para desecar, atomizar, granular y pelletizar, pero nunca para suspensiones ni emulsiones.

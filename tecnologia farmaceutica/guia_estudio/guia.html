@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de Estudio — Primer Parcial de Tecnología Farmacéutica</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1c2733;
+    font-size: 10.3pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .cover {
+    height: 250mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    page-break-after: always;
+  }
+  .cover .pill {
+    background: #0e7c86; color: #fff; font-weight: 700; font-size: 13pt;
+    padding: 6px 18px; border-radius: 999px; margin-bottom: 24px; letter-spacing: .03em;
+  }
+  .cover h1 { font-size: 26pt; margin: 0 0 10px; color: #0a5e66; }
+  .cover h2 { font-size: 13pt; font-weight: 400; color: #5b6b78; margin: 0 0 40px; }
+  .cover .toc { text-align: left; max-width: 420px; margin-top: 30px; }
+  .cover .toc h3 { font-size: 11pt; color: #0a5e66; border-bottom: 1px solid #dde3e8; padding-bottom: 6px; }
+  .cover .toc ol { padding-left: 20px; font-size: 9.5pt; }
+  .cover .toc li { margin-bottom: 4px; }
+  .cover .note { margin-top: 40px; font-size: 8.5pt; color: #93a5b1; max-width: 420px; }
+
+  h1.tema {
+    font-size: 16pt; color: #fff; background: #0e7c86;
+    padding: 10px 14px; border-radius: 8px; margin: 0 0 4mm;
+    page-break-before: always;
+  }
+  h1.tema .num { opacity: .75; font-weight: 400; font-size: 11pt; display: block; }
+  h2 { font-size: 12.5pt; color: #0a5e66; border-bottom: 2px solid #e3f4f3; padding-bottom: 3px; margin: 6mm 0 3mm; }
+  h3 { font-size: 10.8pt; color: #0e7c86; margin: 4mm 0 2mm; }
+  p { margin: 2mm 0; text-align: justify; }
+  ul, ol { margin: 2mm 0; padding-left: 5mm; }
+  li { margin-bottom: 1mm; }
+  b, strong { color: #0a5e66; }
+  .callout {
+    background: #e3f4f3; border-left: 3px solid #0e7c86; border-radius: 4px;
+    padding: 2.5mm 4mm; margin: 3mm 0; font-size: 9.6pt;
+  }
+  .callout.warn { background: #fdf2e0; border-left-color: #b8790a; }
+  .callout.mnemo { background: #eef2f5; border-left-color: #5b6b78; font-style: italic; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 3mm 0 4mm; font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  th { background: #0e7c86; color: #fff; text-align: left; padding: 2mm 2.5mm; font-size: 8.6pt; }
+  td { border-bottom: 1px solid #dde3e8; padding: 2mm 2.5mm; vertical-align: top; }
+  tr:nth-child(even) td { background: #f4f7f9; }
+  .two-col { display: flex; gap: 6mm; }
+  .two-col > div { flex: 1; }
+  .footer-page { font-size: 7.5pt; color: #93a5b1; text-align: center; margin-top: 6mm; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PORTADA ===================== -->
+<div class="cover">
+  <div class="pill">TECNOLOGÍA FARMACÉUTICA</div>
+  <h1>Guía de Estudio — Primer Parcial</h1>
+  <h2>Definiciones, tablas comparativas y trampas de examen frecuentes, con referencias exactas al simulador</h2>
+  <div class="toc">
+    <h3>Contenido</h3>
+    <ol>
+      <li>Introducción a la Tecnología Farmacéutica</li>
+      <li>Legislación farmacéutica y medicamentos legalmente reconocidos</li>
+      <li>Historia de la Farmacia</li>
+      <li>Preformulación y Biofarmacia</li>
+      <li>Estado sólido: cristalinidad y polimorfismo</li>
+      <li>Reducción de tamaño de partícula: fundamentos</li>
+      <li>Dispositivos de pulverización</li>
+      <li>Tamaño y forma de partícula. Granulometría</li>
+      <li>Propiedades de flujo de polvos</li>
+      <li>Mezclado de sólidos</li>
+      <li>Desecación y liofilización</li>
+      <li>Filtración</li>
+    </ol>
+  </div>
+  <p class="note">Elaborada a partir de tres bancos de exámenes de convocatorias anteriores (4º Grado en Farmacia, Facultad de Farmacia, Campus Madrid, Universidad Alfonso X El Sabio). Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los mismos temas y nombres que aquí.</p>
+</div>
+
+<!-- ===================== TEMA 1 ===================== -->
+<h1 class="tema"><span class="num">Tema 1</span>Introducción a la Tecnología Farmacéutica</h1>
+
+<h2>Qué es la Tecnología Farmacéutica</h2>
+<p><b>Tecnología Farmacéutica (o Farmacia Galénica):</b> conjunto de conocimientos, operaciones básicas y procesos tecnológicos necesarios para la formulación, control y elaboración de un medicamento que garantice la seguridad, la estabilidad y la eficacia terapéutica para la que fue concebido.</p>
+
+<h2>Las cinco piezas básicas del vocabulario</h2>
+<p>Son las definiciones más preguntadas de todo el temario — casi siempre en forma de "¿cuál de estas definiciones corresponde a...?". Memoriza sobre todo qué las diferencia entre sí, no solo la definición aislada.</p>
+<table>
+<tr><th>Término</th><th>Definición</th><th>Truco / matiz</th></tr>
+<tr><td><b>Principio activo (PA)</b></td><td>Toda materia, cualquiera que sea su origen (humano, animal, vegetal, químico o de otro tipo), a la que se atribuye una actividad apropiada para constituir un medicamento.</td><td>Es el único término de esta lista que <b>siempre</b> tiene actividad farmacológica.</td></tr>
+<tr><td><b>Excipiente</b></td><td>Materia que, incluida en las formas galénicas, se añade a los PA (o a sus asociaciones) para servirles de vehículo, posibilitar su preparación y estabilidad, modificar sus propiedades organolépticas o determinar las propiedades fisicoquímicas del medicamento y su biodisponibilidad.</td><td>NO tiene actividad farmacológica propia — es la trampa más repetida del banco de preguntas.</td></tr>
+<tr><td><b>Materia prima</b></td><td>Toda sustancia, activa o inactiva, empleada en la fabricación de un medicamento, ya permanezca inalterada, se modifique o desaparezca en el transcurso del proceso.</td><td>Es el término "paraguas": engloba tanto a los PA como a los excipientes.</td></tr>
+<tr><td><b>Producto intermedio</b></td><td>El destinado a una posterior transformación industrial por un fabricante autorizado.</td><td>Ni tiene actividad ni es la forma final: es un paso a medias del proceso de fabricación.</td></tr>
+<tr><td><b>Forma galénica / forma farmacéutica</b></td><td>La disposición a la que se adaptan los PA y los excipientes para constituir un medicamento. Se define por la combinación de la forma en la que el producto es presentado por el fabricante y la forma en la que se administra.</td><td>Es la única definición de esta tabla con dos partes ("presentación" + "administración") — si una opción solo menciona una de las dos, está incompleta.</td></tr>
+</table>
+
+<div class="callout warn">Trampa recurrente: confundir "materia prima" con "principio activo". La materia prima puede ser activa O inactiva; el principio activo, por definición, siempre tiene actividad farmacológica.</div>
+
+<h2>Procedencia de los principios activos</h2>
+<p>Los PA proceden de: síntesis química, drogas de origen natural, procesos microbiológicos, biotecnología e ingeniería genética. Cualquier opción que sustituya alguno de estos cinco orígenes por "procesos industriales" a secas o "ingeniería física" es un distractor.</p>
+
+<h2>Las cuatro operaciones básicas que se aplican SIEMPRE</h2>
+<p>De todas las operaciones farmacéuticas posibles (filtración, extracción, concentración, liofilización, esterilización, división, mezclado, desecación...), solo cuatro se consideran operaciones básicas que se aplican <b>siempre</b> a cualquier forma farmacéutica:</p>
+<ul>
+  <li><b>División</b> (incluye la reducción de tamaño de partícula, tema central de la segunda mitad de esta guía)</li>
+  <li><b>Mezclado</b></li>
+  <li><b>Desecación</b></li>
+  <li><b>Esterilización</b></li>
+</ul>
+<div class="callout">Filtración, extracción, concentración y liofilización son operaciones importantes pero <b>condicionales</b>: se aplican solo cuando la forma farmacéutica concreta lo requiere, no a todas por igual.</div>
+
+<div class="footer-page">Tema 1 — Introducción a la Tecnología Farmacéutica</div>
+
+<!-- ===================== TEMA 2 ===================== -->
+<h1 class="tema"><span class="num">Tema 2</span>Legislación farmacéutica y medicamentos legalmente reconocidos</h1>
+
+<h2>Ley 29/2006, de garantías y uso racional de los medicamentos</h2>
+<p>Todo medicamento legalmente reconocido debe cumplir <b>cinco garantías</b>. Es, junto con la tabla de fórmula magistral/preparado oficinal, lo más preguntado de todo el parcial.</p>
+<table>
+<tr><th>Garantía</th><th>Qué exige</th></tr>
+<tr><td><b>Calidad</b></td><td>Composición cualitativa y cuantitativa claramente definida y establecida.</td></tr>
+<tr><td><b>Seguridad</b></td><td>No debe producir, en condiciones normales de uso, efectos tóxicos o indeseables desproporcionados al beneficio que procura. Los estudios toxicológicos deben seguir las Buenas Prácticas de Laboratorio; los estudios en animales deben respetar la normativa de protección animal.</td></tr>
+<tr><td><b>Eficacia</b></td><td>Debe ser eficaz en las indicaciones terapéuticas para las que se ofrece. Se establece en base a estudios preclínicos y ensayos clínicos; el efecto terapéutico debe cuantificarse para las distintas dosis y en todas las indicaciones solicitadas.</td></tr>
+<tr><td><b>Identificación</b></td><td>A cada PA se le atribuye una Denominación Oficial Española (D.O.E.), lo más aproximada posible a la Denominación Común Internacional (D.C.I.). El nombre comercial puede ser de fantasía siempre que no se confunda con la denominación común. Los genéricos se identifican con las siglas <b>EFG</b> (Equivalente Farmacéutico Genérico).</td></tr>
+<tr><td><b>Información</b></td><td>Debe ser precisa, comprensible y estar en un formato accesible, al menos en lengua española (ficha técnica, prospecto y etiquetado).</td></tr>
+</table>
+<div class="callout mnemo">Truco: piensa en una <b>CASA</b> (Calidad) con un buen <b>SEG</b>uro en la puerta (Seguridad), donde un portero muy <b>EFIC</b>iente (Eficacia) te pide el <b>D.N.I.</b> (Identificación) antes de darte el folleto <b>INFO</b>rmativo del edificio (Información). Cinco garantías, cinco pasos para entrar.</div>
+
+<h2>Fórmula magistral vs. preparado oficinal</h2>
+<p>Es la comparación más repetida del banco de preguntas, casi siempre en forma de "señala la diferencia" o "señala la falsa".</p>
+<table>
+<tr><th></th><th>Fórmula magistral</th><th>Preparado oficinal</th></tr>
+<tr><td><b>Destinatario</b></td><td>Un paciente individualizado y concreto</td><td>Un colectivo de pacientes / cualquier usuario de la farmacia</td></tr>
+<tr><td><b>Receta médica</b></td><td>Necesaria — prescrita por un médico</td><td>No es necesaria</td></tr>
+<tr><td><b>Elaboración</b></td><td>Por el farmacéutico o bajo su dirección</td><td>Por el farmacéutico, siguiendo las normas técnicas del Formulario Nacional</td></tr>
+<tr><td><b>Cantidad</b></td><td>Individual — no se elabora en grandes cantidades</td><td>Se puede elaborar en grandes cantidades</td></tr>
+<tr><td><b>Dónde se describe</b></td><td>No está descrita de antemano: se ajusta a la prescripción del médico</td><td>Descrito y numerado en el Formulario Nacional</td></tr>
+</table>
+<div class="callout warn">Trampa: "ambas necesitan receta médica" o "ambas se pueden fabricar en grandes cantidades" son casi siempre la opción falsa. Solo la fórmula magistral es individualizada y con receta; solo el preparado oficinal admite grandes cantidades.</div>
+
+<h2>Medicamentos legalmente reconocidos: los cuatro grandes grupos</h2>
+<ul>
+  <li>Medicamentos de uso humano y veterinario (incluye los <b>genéricos</b>, ver más abajo)</li>
+  <li>Fórmulas magistrales</li>
+  <li>Preparados oficinales</li>
+  <li>Medicamentos especiales</li>
+</ul>
+
+<h3>Medicamentos especiales</h3>
+<p>Vacunas y medicamentos biológicos, medicamentos de terapia avanzada (génica, celular somática), radiofármacos, gases medicinales, medicamentos homeopáticos, medicamentos a base de plantas medicinales y medicamentos de origen humano (hemoderivados).</p>
+<div class="callout warn">Trampa muy repetida: un <b>medicamento genérico NO es un medicamento especial</b>. Es un subtipo de medicamento de uso humano/veterinario. Si una opción lo mete en la lista de "medicamentos especiales", es la falsa.</div>
+
+<h3>Medicamento genérico (EFG)</h3>
+<p>Debe tener: misma composición cualitativa y cuantitativa en principios activos que el medicamento de referencia, misma forma farmacéutica, y bioequivalencia demostrada mediante estudios de biodisponibilidad. <b>Puede</b> diferir en los excipientes respecto al medicamento de marca — eso NO invalida que sea genérico.</p>
+
+<h2>Libros de tenencia obligatoria en la oficina de farmacia</h2>
+<p>Libro recetario, <b>Real Farmacopea Española</b>, <b>Formulario Nacional</b> y libro de estupefacientes y psicótropos.</p>
+<div class="callout warn">El Vademécum <b>no</b> es de tenencia obligatoria (es una guía comercial de laboratorios, no un texto legal). Ojo también con "Farmacopea Europea": el libro exigido por la normativa española es la <b>Real Farmacopea Española</b>, no la europea.</div>
+
+<div class="footer-page">Tema 2 — Legislación farmacéutica y medicamentos legalmente reconocidos</div>
+
+<!-- ===================== TEMA 3 ===================== -->
+<h1 class="tema"><span class="num">Tema 3</span>Historia de la Farmacia</h1>
+
+<h2>Los grandes periodos</h2>
+<table>
+<tr><th>Periodo</th><th>Características</th></tr>
+<tr><td><b>Pretecnológico</b></td><td>El farmacéutico elabora personalmente cada preparado, sin procesos industriales estandarizados.</td></tr>
+<tr><td><b>Empírico</b></td><td>Terapéutica basada en la experiencia y la observación, previa al método científico moderno.</td></tr>
+<tr><td><b>Tecnológico</b></td><td>Abarca desde el siglo XX hasta aproximadamente 1960: se tecnifica la cantidad y la preparación de medicamentos.</td></tr>
+<tr><td><b>Biofarmacéutico</b></td><td>Se incorpora el estudio de cómo la formulación condiciona la absorción y el efecto del fármaco en el organismo.</td></tr>
+<tr><td><b>Biotecnológico</b></td><td>Periodo actual: ingeniería genética y biotecnología como fuente de nuevos principios activos.</td></tr>
+</table>
+
+<h2>Personajes clave</h2>
+<table>
+<tr><th>Personaje</th><th>Aportación</th></tr>
+<tr><td><b>Empédocles</b></td><td>Teoría de los cuatro elementos: fuego, aire, tierra y agua (¡"animales" no es uno de ellos, es el distractor típico!).</td></tr>
+<tr><td><b>Hipócrates</b></td><td>Se enfrenta a la medicina mágico-religiosa anterior; principio "primum non nocere" (lo primero, no hacer daño).</td></tr>
+<tr><td><b>Dioscórides</b></td><td>Autor del tratado "De Materia Médica".</td></tr>
+<tr><td><b>Galeno</b></td><td>Da nombre a la "farmacia galénica"; practicaba la <b>polifarmacia</b> (combinación de muchos fármacos de escasa especificidad en una misma preparación).</td></tr>
+<tr><td><b>Avicena</b></td><td>Gran figura de la farmacia y la medicina árabe medieval.</td></tr>
+<tr><td><b>Paracelso</b></td><td>Alquimista, médico y astrólogo suizo del Renacimiento (s. XVI-XVII). Introdujo el uso de sustancias inorgánicas/minerales como medicamento y el principio "contraria contrariis curantur" (lo contrario cura lo contrario) — origen histórico de la <b>alopatía</b>.</td></tr>
+<tr><td><b>Hahnemann</b></td><td>Acuñó "similia similibus curentur" (lo similar cura lo similar) — origen de la <b>homeopatía</b>.</td></tr>
+<tr><td><b>Edward Jenner</b></td><td>Padre de la inmunología; creador de la primera vacuna (contra la viruela).</td></tr>
+<tr><td><b>Alexander Fleming</b></td><td>Científico; descubridor de la penicilina.</td></tr>
+</table>
+
+<div class="callout warn">La confusión más habitual del examen: <b>Hahnemann</b> = "lo similar cura lo similar" = homeopatía. <b>Paracelso</b> = "lo contrario cura lo contrario" = alopatía. Van siempre emparejados en preguntas de "quién dijo qué".</div>
+
+<div class="footer-page">Tema 3 — Historia de la Farmacia</div>
+
+<!-- ===================== TEMA 4 ===================== -->
+<h1 class="tema"><span class="num">Tema 4</span>Preformulación y Biofarmacia</h1>
+
+<h2>Preformulación</h2>
+<p>Conjunto de trabajos realizados para conocer las características fisicoquímicas y biofarmacéuticas de un principio activo, que influirán en la elección y formulación de la forma farmacéutica más apropiada.</p>
+
+<h2>Biofarmacia y biodisponibilidad</h2>
+<table>
+<tr><th>Término</th><th>Qué es</th></tr>
+<tr><td><b>Biofarmacia</b></td><td>Ciencia que estudia las características de liberación del principio activo en la formulación y su absorción a través de membranas.</td></tr>
+<tr><td><b>Biodisponibilidad</b></td><td>Mide la cantidad y la velocidad con la que el principio activo llega a la sangre.</td></tr>
+</table>
+
+<h2>LADME</h2>
+<p><b>L</b>iberación, <b>A</b>bsorción, <b>D</b>istribución, <b>M</b>etabolismo, <b>E</b>xcreción. El acrónimo mismo funciona como mnemotecnia: memorízalo tal cual, en ese orden.</p>
+
+<h2>Las fases de la absorción</h2>
+<p>Orden correcto: <b>disgregación → disolución → paso por membranas</b>. La velocidad de absorción global es igual a la velocidad del paso más lento de esta cadena (el "cuello de botella" limita todo el proceso).</p>
+
+<h2>Vías de administración</h2>
+<table>
+<tr><th>Vía</th><th>Velocidad</th><th>Detalle clave</th></tr>
+<tr><td><b>Intravenosa</b></td><td>Inmediata</td><td>Mayor riesgo de efectos tóxicos al llegar de golpe a sangre; biodisponibilidad prácticamente del 100%.</td></tr>
+<tr><td><b>Oral</b></td><td>Variable, más lenta</td><td>Vía preferida en la mayoría de los casos; normalmente NO alcanza el 100% de biodisponibilidad porque hay pérdidas durante la absorción (efecto de primer paso incluido).</td></tr>
+<tr><td><b>Intramuscular</b></td><td>Rápida</td><td>Se le pueden añadir aceites (formulaciones "depot") que retrasan la absorción de forma controlada.</td></tr>
+</table>
+
+<h2>Factores que afectan a la solubilidad</h2>
+<ul>
+  <li>A <b>menor</b> tamaño de partícula → <b>mayor</b> solubilidad (más superficie de contacto con el disolvente).</li>
+  <li>Las formas <b>amorfas</b> son más solubles que las cristalinas.</li>
+  <li>Las sustancias <b>ionizadas</b> se disuelven mejor en agua, pero se absorben peor a través de membranas lipídicas (al estar cargadas).</li>
+  <li>Tensioactivos, cosolventes y complejación <b>facilitan</b> la disolución de un fármaco — no la dificultan.</li>
+</ul>
+<div class="callout warn">Trampa clásica: una opción que diga que los tensioactivos/cosolventes "dificultan" la disolución es falsa por definición — su función es precisamente favorecerla.</div>
+
+<h2>Ensayos de disolución in vitro</h2>
+<p>Deben estar <b>estandarizados</b> para poder comparar lotes entre sí: se fijan la temperatura, la velocidad de agitación, el tiempo de muestreo y el disolvente utilizado — los cuatro parámetros a la vez, no solo uno o dos.</p>
+
+<div class="footer-page">Tema 4 — Preformulación y Biofarmacia</div>
+
+<!-- ===================== TEMA 5 ===================== -->
+<h1 class="tema"><span class="num">Tema 5</span>Estado sólido: cristalinidad y polimorfismo</h1>
+
+<h2>Sólidos elásticos vs. plásticos</h2>
+<table>
+<tr><th>Tipo</th><th>Comportamiento ante una fuerza</th></tr>
+<tr><td><b>Elástico</b></td><td>La deformación termina cuando termina la fuerza aplicada: el sólido vuelve a su forma original.</td></tr>
+<tr><td><b>Plástico</b></td><td>Existe un límite de fuerza a partir del cual el sólido se deforma de manera permanente, sin llegar a romperse. La deformación plástica es típica de los sólidos <b>amorfos</b>.</td></tr>
+</table>
+
+<h2>Hábito cristalino, hidratos y solvatos</h2>
+<p>El <b>hábito cristalino</b> es el aspecto externo de un cristal, y puede variar según las condiciones de cristalización aunque la distribución interna (red cristalina) del compuesto sea siempre la misma.</p>
+<p>El <b>polimorfismo</b> es la capacidad de un compuesto de cristalizar en más de una forma. Si una sustancia cristaliza de formas distintas bajo las mismas condiciones, solo una de esas formas es la termodinámicamente estable.</p>
+<p>Los <b>hidratos</b> y <b>solvatos</b> son compuestos cristalinos que incorporan, en proporción estequiométrica, moléculas de agua (hidratos) o de otro disolvente (solvatos) dentro de su propia red cristalina.</p>
+<div class="callout warn">Las sustancias amorfas son <b>inestables</b>: durante el almacenamiento pueden cristalizar, y ese cambio altera su estabilidad y su velocidad de disolución (puede generar precipitados y modificar la biodisponibilidad). Una opción que diga que las formas amorfas son "estables" durante el almacenamiento es falsa.</div>
+
+<h2>Técnicas para caracterizar polimorfos, hidratos y punto de fusión</h2>
+<table>
+<tr><th>Técnica</th><th>Tipo</th></tr>
+<tr><td>Método del capilar</td><td>Da un valor aproximado del punto de fusión, no exacto.</td></tr>
+<tr><td>Microscopía de platina caliente</td><td>Técnica térmica</td></tr>
+<tr><td>Calorimetría diferencial de barrido (DSC)</td><td>Técnica térmica</td></tr>
+<tr><td>Termogravimetría (TGA)</td><td>Técnica térmica</td></tr>
+<tr><td>Difracción de rayos X</td><td><b>No</b> es una técnica térmica</td></tr>
+</table>
+
+<h2>Lotes experimentales</h2>
+<p>Se utilizan para analizar la estabilidad del producto antes de su fabricación a gran escala. Sus resultados orientan pero <b>no</b> se pueden dar por extrapolables sin más al producto ya escalado a producción comercial real.</p>
+
+<div class="footer-page">Tema 5 — Estado sólido: cristalinidad y polimorfismo</div>
+
+<!-- ===================== TEMA 6 ===================== -->
+<h1 class="tema"><span class="num">Tema 6</span>Reducción de tamaño de partícula: fundamentos</h1>
+
+<h2>Por qué importa el tamaño de partícula</h2>
+<p>La dimensión de las partículas sólidas condiciona la eficacia del proceso tecnológico, las propiedades físicas y biofarmacéuticas del fármaco (incluida la velocidad de disolución y la biodisponibilidad) y el rendimiento del medicamento final.</p>
+
+<h2>Teoría de Griffith</h2>
+<p>La energía necesaria para romper (pulverizar) una sustancia es aquella capaz de vencer la resistencia para que avance una grieta ya existente en el material. Esa energía es proporcional a la nueva superficie que se genera al fracturar el sólido.</p>
+<div class="callout">La reducción de tamaño de partícula <b>siempre</b> necesita un aporte de energía, y consiste, en esencia, en promover la aparición de superficies nuevas libres.</div>
+
+<h2>Pulverización: definición</h2>
+<p>La reducción del tamaño de <b>sólidos secos</b> en partículas más pequeñas se llama pulverización. Las fuentes de energía empleadas son: mecánica, eléctrica o fisicoquímica.</p>
+
+<h2>Métodos de reducción de tamaño, según el material</h2>
+<table>
+<tr><th>Método</th><th>Tipo de material apropiado</th></tr>
+<tr><td><b>Compresión</b></td><td>Sólidos duros</td></tr>
+<tr><td><b>Impacto o golpeo</b></td><td>Sólidos duros; es el método típico para la reducción grosera</td></tr>
+<tr><td><b>Rozamiento o erosión</b></td><td>Solo materiales blandos</td></tr>
+<tr><td><b>Cortado</b></td><td>Materiales fibrosos y secos</td></tr>
+<tr><td><b>Desgarramiento</b></td><td>Materiales blandos</td></tr>
+</table>
+
+<h2>Operaciones previas a la pulverización (siempre se realizan)</h2>
+<ul>
+  <li><b>Mondación</b> o separación de partes inútiles (típico en drogas vegetales)</li>
+  <li><b>Fragmentación</b> o división grosera</li>
+  <li><b>Desecación</b></li>
+  <li><b>Presión</b></li>
+</ul>
+<div class="callout warn">El <b>desgarramiento</b> NO es una operación previa: es en sí mismo uno de los métodos de reducción de tamaño (sería circular listarlo como "previo a sí mismo"). Y "estabilización de fermentos/enzimas" es puro distractor sin sentido dentro de este contexto.</div>
+
+<h2>Problemas y precauciones durante la pulverización</h2>
+<ul>
+  <li>Mayor susceptibilidad al ataque por agentes atmosféricos</li>
+  <li>Degradación por calor</li>
+  <li>Incremento de la carga eléctrica estática</li>
+  <li>Formación de distintos polimorfos, con posibles cambios de estabilidad y de propiedades fisicoquímicas o farmacológicas</li>
+  <li><b>Aumento</b> del volumen aparente (no disminución — al reducir el tamaño aumenta la porosidad y el aire atrapado entre partículas)</li>
+</ul>
+
+<h2>Tamaños de partícula tras la pulverización</h2>
+<p>La tabla más preguntada de todo este bloque — apréndetela de memoria en micras (μm):</p>
+<table>
+<tr><th>Tamaño</th><th>Rango</th></tr>
+<tr><td><b>Grosera</b></td><td>&gt; 840 μm</td></tr>
+<tr><td><b>Intermedia</b></td><td>840 μm – 75 μm</td></tr>
+<tr><td><b>Fina</b></td><td>&lt; 75 μm</td></tr>
+<tr><td><b>Ultrafina</b></td><td>~ 1 μm</td></tr>
+</table>
+
+<div class="footer-page">Tema 6 — Reducción de tamaño de partícula: fundamentos</div>
+
+<!-- ===================== TEMA 7 ===================== -->
+<h1 class="tema"><span class="num">Tema 7</span>Dispositivos de pulverización</h1>
+
+<h2>Ficha de cada molino</h2>
+<p>Este es el bloque con más preguntas de todo el banco. Para cada dispositivo, memoriza: mecanismo, tipo de material apto y el dato "raro" que lo distingue de los demás.</p>
+<table>
+<tr><th>Dispositivo</th><th>Mecanismo</th><th>Material apto / tamaño final</th><th>Dato distintivo</th></tr>
+<tr><td><b>Molino de rodillos</b></td><td>Compresión</td><td>Duro, seco, no termolábil (dureza Mohs 7-9). Tamaño grosero.</td><td>Dos rodillos de acero o mármol que giran en sentido contrario; genera mucho calor, hay que controlar la velocidad de giro.</td></tr>
+<tr><td><b>Molino de anillos o muelas</b></td><td>Compresión</td><td>Seco, blando/quebradizo, no termolábil.</td><td>Ventaja: pulverización uniforme.</td></tr>
+<tr><td><b>Molino de martillos</b></td><td>Impacto o percusión</td><td>Seco, no fibroso, no abrasivo. Tamaño fino (&lt;75 μm).</td><td>Incorpora a menudo un tamiz; genera calor.</td></tr>
+<tr><td><b>Molino de vibración</b></td><td>Impacto o percusión</td><td>Tamaño ultrafino.</td><td><b>No tiene tolva de alimentación.</b> El 80% de la carga son bolas de porcelana; solo una fracción se convierte en producto.</td></tr>
+<tr><td><b>Molino de bolas</b></td><td>Impacto y rozamiento combinados</td><td>Duro y abrasivo.</td><td>Cilindro hueco que gira sobre su eje longitudinal, con bolas dentro. <b>Es el único que puede producir partículas estériles.</b></td></tr>
+<tr><td><b>Molino de cuchillas (de corte)</b></td><td>Cortado</td><td>Fibroso y seco (plantas medicinales).</td><td>La parte interna del molino es fija.</td></tr>
+<tr><td><b>Molino de cilindros</b></td><td>—</td><td>Pastas, cremas, pomadas, suspensiones (fase interna).</td><td>Sirve para <b>homogeneización</b>, no tanto para pulverizar sólidos secos.</td></tr>
+<tr><td><b>Molino de chorro / micronizador</b></td><td>Impacto y rozamiento entre las propias partículas (no contra el aparato)</td><td>Duro y cristalino. Tamaño ultrafino (~1 μm).</td><td><b>No genera calor</b> (apto para termolábiles); el dispositivo de elección para preparar fórmulas magistrales en pequeña cantidad (&lt;1 kg) en la oficina de farmacia.</td></tr>
+</table>
+
+<div class="callout warn">Dos preguntas trampa que se repiten mucho: "¿qué molino esteriliza?" → <b>molino de bolas</b> (no el micronizador, aunque parezca el más "limpio"). "¿qué molino no tiene tolva de alimentación?" → <b>molino de vibración</b>.</div>
+
+<h2>Aspectos a considerar al elegir un dispositivo pulverizador</h2>
+<ul>
+  <li>Forma de las partículas que genera (relacionada con el mecanismo)</li>
+  <li>Proporción de finos a que da origen</li>
+  <li>Relación de reducción (tamaño mínimo admitido / tamaño máximo producido)</li>
+  <li>Cantidad de masa a tratar</li>
+  <li>Coste del proceso y del mantenimiento del aparataje</li>
+  <li>Características del material (dureza, termolabilidad, capacidad abrasiva/explosiva)</li>
+</ul>
+
+<div class="footer-page">Tema 7 — Dispositivos de pulverización</div>
+
+<!-- ===================== TEMA 8 ===================== -->
+<h1 class="tema"><span class="num">Tema 8</span>Tamaño y forma de partícula. Granulometría</h1>
+
+<h2>Métodos de medida del tamaño de partícula</h2>
+<table>
+<tr><th>Tipo</th><th>Métodos</th></tr>
+<tr><td><b>Directos</b></td><td>Tamización analítica, microscopía (óptica o electrónica)</td></tr>
+<tr><td><b>Indirectos</b></td><td>Elutriación, sedimentación, método Coulter, difracción de rayos láser, difracción de rayos X</td></tr>
+</table>
+<p>Los métodos indirectos infieren el tamaño a partir de un comportamiento físico de la partícula (velocidad de caída, de arrastre por un fluido, dispersión de un haz...), en vez de medirlo u observarlo de forma directa.</p>
+
+<h2>Diámetros equivalentes de partícula irregular</h2>
+<table>
+<tr><th>Diámetro</th><th>Definición</th></tr>
+<tr><td><b>Diámetro de Feret</b></td><td>Distancia entre dos rectas tangentes a los extremos de la partícula, paralelas entre sí, trazadas siguiendo una dirección de medida fija predeterminada.</td></tr>
+<tr><td><b>Diámetro de Martin</b></td><td>Longitud de la cuerda que divide el área proyectada de la partícula en dos mitades iguales, siguiendo esa misma dirección fija.</td></tr>
+</table>
+
+<h2>Mediana de una distribución de tamaños: cómo calcularla</h2>
+<p>Método verificado con un ejemplo real del banco de exámenes — apréndete el procedimiento, no un resultado concreto, porque los datos numéricos cambian de un examen a otro:</p>
+<ol>
+  <li>Suma el número total de partículas de la distribución.</li>
+  <li>Divide ese total entre 2.</li>
+  <li>Ve sumando el número de partículas de cada fracción, en orden creciente de diámetro, hasta alcanzar o superar esa mitad.</li>
+  <li>La mediana es el diámetro de la última fracción sumada para llegar a esa mitad.</li>
+</ol>
+<div class="callout">Ejemplo resuelto: población de 750 partículas repartidas en fracciones de 50, 50, 100, 200 y 100 partículas (diámetros crecientes). La mitad de 750 es 375. Sumando en orden: 50+50+100+200 = 400, que ya supera 375 — así que la mediana corresponde al diámetro de esa última fracción sumada (200 partículas).</div>
+<div class="callout warn">La <b>moda</b> es un concepto distinto: es el diámetro con mayor número de partículas (la fracción más numerosa), no el que hace la suma acumulada llegar a la mitad. No confundas el procedimiento de una con el de la otra.</div>
+
+<h2>Distribuciones simétricas y asimétricas</h2>
+<p>Una distribución <b>simétrica</b> corresponde a una pendiente de valor 0 en su representación gráfica acumulada; las distribuciones <b>asimétricas</b> muestran pendiente positiva o negativa.</p>
+
+<div class="footer-page">Tema 8 — Tamaño y forma de partícula. Granulometría</div>
+
+<!-- ===================== TEMA 9 ===================== -->
+<h1 class="tema"><span class="num">Tema 9</span>Propiedades de flujo de polvos</h1>
+
+<h2>Ángulo de reposo</h2>
+<p>Ángulo que forma la superficie libre de un montón de polvo con la horizontal. Regla general: a <b>menor</b> ángulo, <b>mejor</b> flujo (más movilidad, menos cohesión entre partículas).</p>
+<table>
+<tr><th>Ángulo de reposo</th><th>Tipo de flujo</th></tr>
+<tr><td>&lt; 30°</td><td>Excelente / muy móvil</td></tr>
+<tr><td>31° – 35°</td><td>Bueno</td></tr>
+<tr><td>36° – 40°</td><td>Aceptable</td></tr>
+<tr><td>41° – 45°</td><td>Pobre / cohesivo</td></tr>
+<tr><td>&gt; 45°</td><td>Muy pobre / muy cohesivo</td></tr>
+</table>
+
+<h2>Índice de Hausner e índice de Carr</h2>
+<table>
+<tr><th>Índice</th><th>Fórmula</th><th>Interpretación</th></tr>
+<tr><td><b>Índice de Hausner (IH)</b></td><td>Densidad apisonada / densidad aparente</td><td>Cuanto más próximo a 1, mejor flujo y menor cohesividad. Valores altos (&gt;1,5) indican mal flujo.</td></tr>
+<tr><td><b>Índice de Carr (%)</b></td><td>[(densidad apisonada − densidad aparente) / densidad apisonada] × 100</td><td>Mide el mismo fenómeno que el de Hausner pero como porcentaje de diferencia, no como cociente.</td></tr>
+</table>
+<div class="callout warn">Trampa habitual: "el índice de Carr se calcula igual que el de Hausner" es <b>falsa</b>. Están relacionados matemáticamente, pero uno es un cociente y el otro un porcentaje — no son la misma fórmula.</div>
+
+<h2>Qué determina el flujo de un polvo</h2>
+<ul>
+  <li>A <b>mayor</b> tamaño de partícula y <b>menor</b> superficie de contacto entre partículas → <b>mejor</b> flujo.</li>
+  <li>A <b>menor</b> tamaño de partícula (más finas) → <b>mayor</b> superficie de contacto → <b>peor</b> flujo, más cohesión.</li>
+  <li>La pulverización, en general, mejora la velocidad de disolución pero puede empeorar la capacidad de flujo al generar partículas más finas y cohesivas.</li>
+</ul>
+
+<div class="footer-page">Tema 9 — Propiedades de flujo de polvos</div>
+
+<!-- ===================== TEMA 10 ===================== -->
+<h1 class="tema"><span class="num">Tema 10</span>Mezclado de sólidos</h1>
+
+<h2>Tipos de mezcla</h2>
+<table>
+<tr><th>Tipo</th><th>Descripción</th></tr>
+<tr><td><b>Mezcla positiva</b></td><td>Típica de gases o líquidos miscibles. Fuerzas de cohesión débiles; se mezclan espontánea y reversiblemente por difusión, sin necesitar energía adicional. Tienden a la mezcla perfecta.</td></tr>
+<tr><td><b>Mezcla negativa</b></td><td>Los componentes tienden a separarse (fuerzas de cohesión altas entre partículas iguales). Es el riesgo típico al mezclar sólidos.</td></tr>
+<tr><td><b>Mezcla aleatoria</b></td><td>El objetivo real y alcanzable al mezclar sólidos: la probabilidad de encontrar un tipo concreto de partícula es la misma en cualquier posición de la mezcla; las partículas quedan dispuestas al azar, sin ningún criterio.</td></tr>
+</table>
+
+<h2>Mecanismos de mezclado</h2>
+<ul>
+  <li><b>Convección:</b> movimiento de grupos grandes de partículas de una zona a otra.</li>
+  <li><b>Difusión:</b> movimiento de partículas individuales a través de la superficie de la mezcla.</li>
+  <li><b>Cizallamiento:</b> deslizamiento de capas de material unas sobre otras.</li>
+</ul>
+<p>Los tres mecanismos actúan combinados en la mayoría de los mezcladores reales.</p>
+
+<h2>Mecanismos de segregación (el enemigo de la mezcla homogénea)</h2>
+<ul>
+  <li><b>Percolación:</b> las partículas pequeñas caen y se cuelan entre los huecos de las partículas grandes.</li>
+  <li><b>Trayectoria:</b> partículas de distinto tamaño o densidad siguen trayectorias distintas al ser lanzadas o vertidas.</li>
+  <li><b>Expansión del lecho:</b> al airear o vibrar la mezcla, las partículas pequeñas tienden a caer hacia el fondo.</li>
+</ul>
+
+<h2>Dispositivos mezcladores de sólidos</h2>
+<p>De <b>cuerpo móvil</b> (el propio recipiente gira: mezclador en V, cúbico, de doble cono...) y de <b>cuerpo fijo</b> (el recipiente no se mueve; hay palas, hélices o tornillos internos que hacen el mezclado).</p>
+
+<div class="footer-page">Tema 10 — Mezclado de sólidos</div>
+
+<!-- ===================== TEMA 11 ===================== -->
+<h1 class="tema"><span class="num">Tema 11</span>Desecación y liofilización</h1>
+
+<h2>Conceptos básicos</h2>
+<table>
+<tr><th>Término</th><th>Definición</th></tr>
+<tr><td><b>Desecación</b></td><td>Operación básica farmacéutica consistente en la eliminación total o parcial de la humedad que posee un cuerpo sólido.</td></tr>
+<tr><td><b>Estado higrométrico</b></td><td>Estudio del equilibrio entre el comportamiento de un sólido y la humedad del aire que le rodea.</td></tr>
+<tr><td><b>Cartas psicrométricas</b></td><td>Representación gráfica de la relación entre temperatura y humedad del aire. Sus líneas de refrigeración adiabática permiten calcular la Humedad Absoluta (HA).</td></tr>
+</table>
+<p>Tipos de transferencia de calor implicados en la desecación: por <b>conducción</b>, por <b>convección</b> o por <b>radiación</b> — las tres, no solo una o dos.</p>
+
+<h2>Fases de Newitt en la dinámica de secado</h2>
+<p>Orden correcto de un sólido húmedo, de más húmedo a más seco:</p>
+<p style="text-align:center; font-size:11.5pt;"><b>Goticular → Capilar → Funicular → Pendular</b></p>
+<div class="callout mnemo">Truco: "Gotas Caen Formando Puentes" — Goticular, Capilar, Funicular, Pendular (los "puentes" son literalmente cómo se describe el estado pendular: pequeños puentes de líquido entre partículas casi secas).</div>
+
+<h2>Punto crítico de secado</h2>
+<p>Marca el final del periodo de velocidad de secado <b>constante</b> y el inicio del periodo de velocidad <b>decreciente</b>. Es útil para conocer el tiempo eficaz de un proceso de desecación. En el periodo postcrítico de un lecho pulverulento pueden aparecer problemas de sobrecalentamiento del principio activo si no se controla bien el final del secado.</p>
+
+<h2>Atomización</h2>
+<p>Es un proceso de desecación <b>en caliente</b> (no en frío): se pulveriza el fluido en gotículas muy finas que se secan rápidamente con aire caliente. Parámetros críticos: tamaño de la gotícula, flujo del aire, temperatura del aire de entrada y tiempo de permanencia sólido-aire.</p>
+
+<h2>Lecho fluido</h2>
+<p>Equipo usado tanto a nivel industrial como de laboratorio, útil en procesos de desecación, atomización, granulación y pelletización.</p>
+<div class="callout warn">El lecho fluido <b>no</b> se usa para elaborar suspensiones o emulsiones — esa es la opción distractora habitual.</div>
+
+<div class="footer-page">Tema 11 — Desecación y liofilización</div>
+
+<!-- ===================== TEMA 12 ===================== -->
+<h1 class="tema"><span class="num">Tema 12</span>Filtración</h1>
+
+<h2>Vocabulario de la filtración</h2>
+<table>
+<tr><th>Término</th><th>Definición</th></tr>
+<tr><td><b>Filtración</b></td><td>Procedimiento para separar un sólido disperso de un fluido (líquido o gas) haciéndolo pasar a través de un medio filtrante.</td></tr>
+<tr><td><b>Medio filtrante</b></td><td>Barrera que permite el paso del fluido pero impide el de los elementos dispersos en él.</td></tr>
+<tr><td><b>Torta</b></td><td>El sólido retenido y acumulado sobre el medio filtrante.</td></tr>
+<tr><td><b>Filtrado / efluente</b></td><td>El fluido que ya ha atravesado el medio filtrante, limpio de sólidos.</td></tr>
+</table>
+
+<h2>Tipos de filtración</h2>
+<p>Según los estados combinados de la mezcla: sólido-líquido, sólido-gas, líquido-líquido (para líquidos inmiscibles).</p>
+<div class="callout warn">"Filtración gas-gas" NO existe como tipo de filtración real — no se puede separar físicamente un gas disperso en otro gas por filtración convencional. Es un distractor habitual.</div>
+
+<h2>Extracción</h2>
+<p>Procedimiento mediante el cual se consigue aislar un componente (o grupo de componentes) que se encuentra en el seno de una mezcla compleja — por ejemplo, aislar el principio activo de una droga vegetal.</p>
+
+<h2>Granulación: objetivos</h2>
+<ul>
+  <li>Disminuir la generación de polvo ambiental durante la fabricación o manipulación del producto.</li>
+  <li>Prevenir procesos de desmezclado (segregación).</li>
+  <li>Mejorar las propiedades reológicas (de flujo) de la mezcla pulverulenta, facilitando el llenado de máquinas de comprimir, encapsuladoras, etc.</li>
+  <li>Modificar la densidad del producto, mejorando su manejabilidad.</li>
+</ul>
+
+<div class="footer-page">Tema 12 — Filtración</div>
+
+</body>
+</html>

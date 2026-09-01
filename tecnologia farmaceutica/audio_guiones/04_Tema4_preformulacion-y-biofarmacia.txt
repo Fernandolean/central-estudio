@@ -1,0 +1,65 @@
+El principio activo ya está fabricado, ya es puro, ya funciona en el tubo de ensayo. Pero antes de convertirlo en un medicamento real que alguien se va a tomar, hay que hacerle una serie de preguntas: cómo se comporta, cómo se disuelve, cómo va a viajar por el cuerpo una vez dentro. De eso trata la preformulación, y de eso trata este bloque entero.
+
+La preformulación es el conjunto de trabajos que se hacen para conocer las características fisicoquímicas y biofarmacéuticas de un principio activo, características que después van a condicionar cómo se elige y se diseña la forma farmacéutica más adecuada para él. Fíjate en la palabra "fisicoquímicas": no es solo química, ni solo física, son las dos combinadas a la vez. Si en una opción de examen aparece solo una de las dos por separado, esa definición está incompleta.
+
+Aquí entra también la biofarmacia, que es la ciencia que estudia cómo se libera el principio activo desde la formulación, y cómo se absorbe después a través de las membranas biológicas. Y muy pegada a la biofarmacia está la biodisponibilidad, que es un concepto distinto: mide la cantidad de principio activo que llega a la sangre, y la velocidad con la que llega. Cantidad y velocidad, las dos cosas a la vez; si en una pregunta de examen solo mencionan una de las dos, esa definición también está incompleta.
+
+Ahora el acrónimo que más cae de todo este bloque: LADME. Se lee tal cual se escribe, casi como si fuera una palabra propia. Son las iniciales de liberación, absorción, distribución, metabolismo y excreción. El propio acrónimo es la mnemotecnia: memorízalo tal cual suena, siempre en ese orden, porque describe literalmente el recorrido que hace un fármaco dentro del organismo, desde que se libera de la forma farmacéutica hasta que se elimina del cuerpo.
+
+Dentro de esas cinco letras, la fase que más se pregunta en detalle es la absorción, porque tiene un orden interno que hay que saberse de memoria. Primero, la disgregación: la forma farmacéutica sólida se rompe en fragmentos más pequeños. Segundo, la disolución: el principio activo se disuelve en los fluidos del organismo. Y tercero, el paso por membranas: ya disuelto, el fármaco atraviesa las membranas biológicas para llegar a la sangre. Disgregación, disolución, paso por membranas: ese orden no se puede alterar, porque cada fase depende de que la anterior ya haya sucedido. Y aquí va una idea que te puede salvar una pregunta razonada: la velocidad de absorción total es igual a la velocidad de la fase más lenta de esas tres. Es como una cadena: el eslabón más débil marca el ritmo de todo lo demás.
+
+Toca hablar ahora de las vías de administración, que también generan bastante confusión. La vía intravenosa es la más rápida de todas, porque el fármaco entra directamente en la sangre, sin pasar por ninguna fase de absorción. Su biodisponibilidad es prácticamente del cien por cien. Pero, ojo, esa misma rapidez es también su punto débil: al llegar de golpe a la sangre, el riesgo de efectos tóxicos es mayor que con cualquier otra vía.
+
+La vía oral es la preferida en la mayoría de los tratamientos, por comodidad, por seguridad y por coste. Pero es más lenta y más variable, porque tiene que recorrer toda la cadena de disgregación, disolución y paso por membranas, y además sufre un fenómeno que se llama efecto de primer paso, en el que parte del fármaco se metaboliza en el hígado antes de llegar a la circulación general. Por todo eso, la vía oral casi nunca alcanza el cien por cien de biodisponibilidad, a diferencia de la intravenosa, que sí lo alcanza prácticamente entero.
+
+Y la vía intramuscular es rápida, aunque no tanto como la intravenosa. Tiene una particularidad que se pregunta bastante: se le pueden añadir aceites para crear formulaciones de liberación retardada, las llamadas formulaciones depot, que sueltan el fármaco poco a poco de forma controlada, en vez de todo de golpe.
+
+Ahora, los factores que afectan a la solubilidad de un fármaco, que es otro apartado muy preguntado. Primero, el tamaño de partícula: a menor tamaño, mayor solubilidad, porque hay más superficie de contacto entre el sólido y el disolvente. Segundo, la forma física del sólido: las formas amorfas son más solubles que las formas cristalinas. Tercero, el estado de ionización: las sustancias ionizadas se disuelven mejor en agua, pero aquí viene la trampa, se absorben peor a través de las membranas, que son de naturaleza fundamentalmente lipídica, porque una molécula cargada eléctricamente tiene mucha más dificultad para atravesar una barrera grasa. Ojo con esto: disolverse bien en agua y absorberse bien a través de las membranas no son la misma cosa, y a veces van en direcciones opuestas. Por eso un fármaco no ionizado se absorbe con más facilidad que uno ionizado, aunque este último se disuelva mejor en el medio acuoso.
+
+Y cuarto, los tensioactivos, los cosolventes y la complejación. Estos tres mecanismos facilitan la disolución de un fármaco, nunca la dificultan. Es una trampa clásica de examen: si una opción dice que los tensioactivos "dificultan" la disolución, es falsa por definición, porque su función es exactamente la contraria, ayudar a que el fármaco se disuelva mejor.
+
+Por último, los ensayos de disolución in vitro. Sirven para comparar lotes de fabricación entre sí, y para que esa comparación tenga sentido, el ensayo tiene que estar completamente estandarizado. Se fijan cuatro parámetros a la vez, no solo uno o dos: la temperatura, la velocidad de agitación, el tiempo de muestreo, y el disolvente utilizado. Los cuatro juntos, siempre, nunca solo alguno de ellos suelto.
+
+Vamos con la recuperación activa.
+
+Pregunta: ¿qué significa el acrónimo LADME?
+
+[PAUSA 3s]
+
+Respuesta: liberación, absorción, distribución, metabolismo y excreción.
+
+Si has dudado con la primera letra pensando en "limpieza": la ele es de liberación, la salida del principio activo desde la forma farmacéutica, no tiene nada que ver con limpiar nada.
+
+Pregunta: ¿cuál es el orden correcto de las fases de la absorción de un fármaco administrado por vía oral?
+
+[PAUSA 3s]
+
+Respuesta: disgregación, disolución y paso por membranas, en ese orden.
+
+Si has dudado invirtiendo disolución y paso por membranas: el fármaco tiene que estar disuelto antes de poder atravesar una membrana biológica. No puede pasar en estado sólido.
+
+Pregunta: ¿cuál es la vía de administración más rápida, y por qué su biodisponibilidad es prácticamente del cien por cien?
+
+[PAUSA 3s]
+
+Respuesta: la vía intravenosa, porque el fármaco entra directo en la sangre y no necesita ninguna fase de absorción.
+
+Si has dudado con la vía oral porque es la más habitual: la vía oral es la preferida en la mayoría de los tratamientos, pero preferida no significa más rápida. Es más lenta, precisamente porque tiene que pasar por disgregación, disolución y paso por membranas antes de llegar a la sangre.
+
+Pregunta: ¿los tensioactivos y los cosolventes facilitan o dificultan la disolución de un fármaco?
+
+[PAUSA 3s]
+
+Respuesta: la facilitan, siempre.
+
+Si has dudado pensando que "cargan" el medio y por tanto complican la disolución: es justo lo contrario. Su función es ayudar a que sustancias poco solubles se disuelvan mejor; si una opción dice que la dificultan, es falsa segura.
+
+Pregunta: entre una forma amorfa y una forma cristalina del mismo principio activo, ¿cuál es más soluble?
+
+[PAUSA 3s]
+
+Respuesta: la forma amorfa.
+
+Si has dudado pensando que lo cristalino, al estar más ordenado, se disuelve mejor: es al revés. Precisamente por estar más ordenada y más compacta, la red cristalina cuesta más romper, así que la forma amorfa, menos ordenada, se disuelve con más facilidad.
+
+Tres ideas para cerrar este tema. Primero: LADME es liberación, absorción, distribución, metabolismo y excreción, siempre en ese orden, y ese orden es literalmente la mnemotecnia. Segundo: dentro de la absorción, la secuencia es disgregación, disolución y paso por membranas, y la velocidad global del proceso la marca la fase más lenta de las tres. Y tercero, cuidado con las trampas de solubilidad: a menor tamaño de partícula y en forma amorfa hay más solubilidad; las sustancias ionizadas se disuelven mejor en agua pero se absorben peor a través de membranas; y los tensioactivos y los cosolventes siempre facilitan la disolución, nunca la dificultan.

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Chuleta de Mnemotecnias — Tecnología Farmacéutica</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #232733;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    background: #fff;
+  }
+  .cover {
+    height: 273mm;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; page-break-after: always;
+    background: radial-gradient(circle at 30% 20%, #ffe27a 0%, transparent 45%),
+                radial-gradient(circle at 80% 70%, #7ae0ff 0%, transparent 45%),
+                linear-gradient(135deg,#1c2733,#0a5e66);
+    color: #fff; border-radius: 18px;
+  }
+  .cover .emoji-row { font-size: 34pt; margin-bottom: 10px; letter-spacing: 6px; }
+  .cover h1 { font-size: 28pt; margin: 0 0 6px; }
+  .cover h2 { font-size: 13pt; font-weight: 400; opacity: .9; max-width: 420px; margin: 0 0 30px; }
+  .cover .hint { max-width: 420px; font-size: 9.5pt; opacity: .85; background: rgba(255,255,255,.12); border-radius: 10px; padding: 12px 18px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .card {
+    border-radius: 14px; padding: 5mm; page-break-inside: avoid;
+    border: 2px solid var(--c); background: var(--bg);
+  }
+  .card .icon { font-size: 20pt; }
+  .card h3 { margin: 2mm 0 1mm; font-size: 11.5pt; color: var(--c); }
+  .card .tagline { font-size: 8.3pt; font-style: italic; color: #55606b; margin-bottom: 2mm; }
+  .card .story {
+    background: #fff; border-radius: 8px; padding: 2.5mm 3mm; font-size: 8.8pt;
+    margin-bottom: 2mm; border-left: 3px solid var(--c);
+  }
+  .card .takeaway {
+    font-size: 8.6pt; background: var(--c); color: #fff; border-radius: 8px; padding: 2.5mm 3mm;
+    font-weight: 700;
+  }
+  .acronym { display: flex; flex-direction: column; gap: 1mm; margin-bottom: 2mm; }
+  .acronym div { display: flex; gap: 2mm; font-size: 8.6pt; align-items: baseline; }
+  .acronym b { color: var(--c); font-size: 11pt; width: 14px; flex: 0 0 auto; }
+  .section-title { font-size: 13pt; color: #0a5e66; margin: 6mm 0 3mm; font-weight: 800; }
+  .section-title:first-of-type { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="emoji-row">🧠💊⚗️</div>
+  <h1>Chuleta de Mnemotecnias</h1>
+  <h2>Los trucos absurdos que se quedan grabados cuando el dato "lógico" se olvida — Tecnología Farmacéutica</h2>
+  <div class="hint">Úsala junto al simulador y la guía de estudio: cuando falles una pregunta, busca aquí el truco de la combinación que le corresponde. Lo raro se recuerda mejor que lo razonable.</div>
+</div>
+
+<div class="section-title">Historia de la Farmacia</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🪞</span>
+    <h3>Similar vs. contrario</h3>
+    <div class="tagline">Quién dijo qué sobre cómo cura un medicamento</div>
+    <div class="story">Hahnemann se mira en un espejo (homeopatía = lo SIMILAR cura lo similar: su reflejo es idéntico a él). Paracelso, en cambio, apaga un fuego con agua — todo lo contrario del fuego (alopatía = lo CONTRARIO cura lo contrario).</div>
+    <div class="takeaway">Hahnemann → similar → homeopatía. Paracelso → contrario → alopatía.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🔤</span>
+    <h3>LADME</h3>
+    <div class="tagline">El propio acrónimo ya es la mnemotecnia</div>
+    <div class="acronym">
+      <div><b>L</b> Liberación</div>
+      <div><b>A</b> Absorción</div>
+      <div><b>D</b> Distribución</div>
+      <div><b>M</b> Metabolismo</div>
+      <div><b>E</b> Excreción</div>
+    </div>
+    <div class="takeaway">Recítalo como una palabra: LAD-ME. Siempre en ese orden.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Pulverización y molinos</div>
+<div class="grid">
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🎱</span>
+    <h3>El molino que esteriliza</h3>
+    <div class="tagline">La pregunta trampa de "¿qué dispositivo esteriliza?"</div>
+    <div class="story">Imagina una bola de billar: perfectamente redonda, pulida, cerrada... como una mini autoclave rodando dentro del molino de bolas. Chocan entre sí a tal velocidad que generan calor suficiente para esterilizar.</div>
+    <div class="takeaway">¿Qué molino esteriliza? El molino de BOLAS (no el micronizador).</div>
+  </div>
+
+  <div class="card" style="--c:#5b6b78; --bg:#eef2f5;">
+    <span class="icon">🚫</span>
+    <h3>El molino sin tolva</h3>
+    <div class="tagline">El dispositivo que rompe la regla general</div>
+    <div class="story">Todos los molinos tienen una tolva por donde "caen" el material desde arriba. El de vibración, en cambio, tiembla tanto que no puede sostener una tolva encima: vibra tanto que se le "cae".</div>
+    <div class="takeaway">El molino de VIBRACIÓN es el único sin tolva de alimentación.</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">💊</span>
+    <h3>Fórmula magistral, poco material</h3>
+    <div class="tagline">Menos de 1 kg, en la propia oficina de farmacia</div>
+    <div class="story">El micronizador dispara chorros de aire a presión que hacen chocar las partículas entre sí — es tan preciso y limpio que es el único que cabe, literalmente, en el mostrador de una farmacia para preparar pequeñas cantidades sin generar calor.</div>
+    <div class="takeaway">Fórmula magistral en oficina de farmacia (&lt;1 kg) → MICRONIZADOR.</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">📏</span>
+    <h3>Grosera, intermedia, fina, ultrafina</h3>
+    <div class="tagline">Los cuatro tamaños finales de la pulverización, en micras</div>
+    <div class="story">Un elefante (GROSERA, &gt;840 μm) se pone a dieta y baja de peso (INTERMEDIA, 840-75 μm) hasta quedar tan FINO como un folio (&lt;75 μm), y termina hecho polvo de talco, casi invisible (ULTRAFINA, ~1 μm).</div>
+    <div class="takeaway">Grosera &gt;840 μm · Intermedia 840-75 μm · Fina &lt;75 μm · Ultrafina ~1 μm.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Desecación</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0a5e66; --bg:#e3f4f3;">
+    <span class="icon">💧</span>
+    <h3>Las fases de Newitt</h3>
+    <div class="tagline">Orden del sólido húmedo al secarse (de más a menos húmedo)</div>
+    <div class="acronym">
+      <div><b>G</b> Goticular — el sólido está prácticamente cubierto de gotas</div>
+      <div><b>C</b> Capilar — el líquido llena los huecos por capilaridad</div>
+      <div><b>F</b> Funicular — quedan solo puentes discontinuos de líquido</div>
+      <div><b>P</b> Pendular — mínimos anillos de líquido en los contactos</div>
+    </div>
+    <div class="story">"Gotas Caen Formando Puentes": las gotas iniciales (Goticular) van cayendo y filtrándose por capilaridad (Capilar), hasta que solo quedan hilos sueltos (Funicular) que terminan en pequeños puentes colgantes, como un péndulo (Pendular).</div>
+    <div class="takeaway">Goticular → Capilar → Funicular → Pendular.</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🔥</span>
+    <h3>Atomización: ¿frío o calor?</h3>
+    <div class="tagline">La pregunta de verdadero/falso más repetida del bloque</div>
+    <div class="story">Un atomizador de perfume no enfría nada al pulsarlo — el líquido sale en gotas finísimas que se secan rápido en el aire. En la industria pasa lo mismo, pero con aire caliente soplando para secar esas gotículas al instante.</div>
+    <div class="takeaway">La atomización es un proceso de desecación EN CALIENTE, no en frío.</div>
+  </div>
+
+</div>
+
+<div class="section-title">Legislación farmacéutica</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🏠</span>
+    <h3>Las 5 garantías del medicamento</h3>
+    <div class="tagline">Ley 29/2006 — Calidad, Seguridad, Eficacia, Identificación, Información</div>
+    <div class="story">Llegas a una CASA (Calidad: todo bien definido y establecido) con un buen SEGuro en la puerta (Seguridad: sin riesgos desproporcionados). Te abre un portero muy EFICiente (Eficacia: cumple lo que promete) que te pide el D.N.I. antes de dejarte pasar (Identificación: D.O.E., EFG...) y, ya dentro, te da un folleto bien claro con toda la INFOrmación del edificio (Información: precisa y comprensible).</div>
+    <div class="takeaway">Calidad · Seguridad · Eficacia · Identificación · Información.</div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+El cuerpo controla a la vez dos cosas muy distintas: cuánta agua y sodio tiene en total, y qué tan concentrada está esa agua. Son dos problemas diferentes, con dos hormonas protagonistas diferentes, y el examen se dedica a intercambiarlas para ver si las tienes claras. Además, el organismo tiene que mantener el pH de la sangre dentro de un margen estrechísimo, pase lo que pase con el metabolismo o la respiración. De estas tres cosas, volumen, concentración y pH, va esta pista. Es un bloque denso, así que vamos a quedarnos con los contrastes que más se confunden, que es lo que te va a salvar en el examen.
+
+Empecemos por dónde vive el agua del cuerpo. Se reparte entre el líquido extracelular y el líquido intracelular, y cada uno tiene su patrón propio de electrolitos, que el examen adora mezclar en la misma opción. En el líquido extracelular mandan el sodio, el cloruro y el hidrogenocarbonato, es decir el bicarbonato. En el líquido intracelular mandan el potasio, los fosfatos y las proteínas. Si ves una opción que junta sodio con potasio o con proteínas en el mismo grupo, es casi seguro que es la incorrecta: sodio, cloruro y bicarbonato es extracelular; potasio, fosfatos y proteínas es intracelular. Ambos compartimentos tienen la misma osmolalidad, porque el agua se mueve libremente entre ellos hasta igualarla, aunque los solutos que predominan en cada uno sean tan distintos.
+
+Sobre el balance de agua, un matiz que se pregunta bastante: el aporte de agua no viene solo de lo que bebes. Hay que sumar el agua de los alimentos y, además, el agua metabólica, la que se produce al oxidar nutrientes dentro del cuerpo. Decir que el aporte de agua viene únicamente de la ingesta de líquidos es, directamente, una afirmación falsa. La eliminación, en cambio, sí tiene una vía claramente principal: la orina. También se pierde agua por heces, por la respiración, y por el sudor, que en circunstancias como la fiebre, el ejercicio intenso o el calor puede llegar a ser una vía de pérdida muy importante.
+
+Ahora los dos ejes hormonales, que conviene separar bien porque regulan cosas distintas: uno controla la concentración de solutos, la osmolalidad, y el otro el volumen circulante. El eje de la osmolalidad funciona así: los osmorreceptores del hipotálamo detectan que la osmolalidad sube, estimulan la sed y la liberación de vasopresina, la hormona antidiurética o ADH, que aumenta la permeabilidad al agua del túbulo renal y con ello la reabsorción de agua libre. El eje del volumen es el sistema renina angiotensina aldosterona: el aparato yuxtaglomerular del riñón detecta una caída de la perfusión, libera renina, esta genera angiotensina dos, y la angiotensina dos estimula la aldosterona en la corteza suprarrenal, que aumenta la reabsorción renal de sodio y agua, y la excreción de potasio.
+
+Aquí está la trampa clásica de este eje, y merece la pena repetirla con otras palabras porque es de lo más preguntado del bloque: la renina se libera en el aparato yuxtaglomerular del riñón, no en las glándulas suprarrenales. La aldosterona, en cambio, se libera en la corteza de esas glándulas suprarrenales, no en el riñón. Son dos órganos distintos para dos hormonas distintas del mismo eje, y el examen las intercambia a propósito constantemente.
+
+Con esto claro, la hipovolemia y la hipervolemia se explican solas. En la hipovolemia, déficit de agua y sodio, el sistema renina angiotensina aldosterona se activa para retener sodio y agua. En la hipervolemia, con exceso de agua corporal, ese sistema se minimiza para que el riñón excrete más sodio y agua. Y el exceso o defecto de aldosterona tiene sentido si recuerdas que retiene sodio y elimina potasio: en el hiperaldosteronismo hay hipernatremia hipervolémica e hipopotasemia; en el hipoaldosteronismo, justo lo contrario, hiponatremia e hiperpotasemia.
+
+Un apunte sobre un artefacto de laboratorio que se confunde mucho: la pseudonatremia no es una alteración real del sodio, es un fallo de medida que aparece en personas con hiperproteinemia o hiperlipidemia marcadas, porque el exceso de proteínas o de lípidos reduce la fracción acuosa donde se disuelve el sodio, y ciertos métodos informan una concentración falsamente baja. Ojo, es el exceso, hiper, el que la produce, no el defecto; si una opción dice hipoproteinemia o hipolipidemia como causa, es la incorrecta.
+
+Sobre el potasio: la hiperpotasemia, con el potasio claramente por encima del intervalo normal, puede deberse a un desplazamiento entre el líquido extracelular y el intracelular provocado por una acidosis, porque el exceso de protones entra en la célula y desplaza al potasio hacia fuera, o por un déficit de insulina, ya que la insulina favorece que el potasio entre en las células y sin ella se queda más potasio en el plasma. Si en una pregunta aparece un valor todavía dentro del rango normal presentado como si fuera hiperpotasemia, esa opción es la falsa.
+
+La osmolalidad plasmática depende sobre todo del sodio, pero no solo de él, también contribuyen la glucosa y la urea. La diferencia entre la osmolalidad medida con un osmómetro y la calculada a partir de esas tres magnitudes se llama brecha osmolal, y si es claramente elevada indica solutos activos que la fórmula no mide, como el etanol, el metanol o el etilenglicol: es el dato clásico que hace sospechar una intoxicación etílica o por otros alcoholes.
+
+Pasemos al equilibrio ácido base. El catabolismo celular acidifica el medio interno de forma continua, por eso el pH intracelular es más ácido que el extracelular. Esos protones vienen de tres sitios: la degradación de proteínas, sobre todo de aminoácidos azufrados, genera sulfatos; la degradación de ácidos nucleicos y fosfolípidos genera fosfatos; y la degradación parcial de glúcidos y triglicéridos genera ácidos orgánicos como el láctico y los cuerpos cetónicos. Trampa repetida: los fosfatos vienen sobre todo de los ácidos nucleicos, no de las proteínas, que son las que aportan los sulfatos.
+
+El equilibrio depende de tres procesos: producción de protones, amortiguamiento por sistemas tampón, y excreción. En el extracelular el tampón más importante es el par ácido carbónico bicarbonato. Dentro del eritrocito, el tampón principal es la hemoglobina, en concreto sus residuos de histidina, que captan protones con mucha eficacia; no es la cisteína, es la histidina, y el examen ofrece la cisteína como alternativa. Sobre la eliminación: los ácidos fijos se eliminan por vía renal; el ácido volátil, el dióxido de carbono, por vía respiratoria. Y el bicarbonato consumido al tamponar se regenera fundamentalmente por un mecanismo renal, no respiratorio, aunque el examen ofrezca lo respiratorio como distractor muy a menudo.
+
+Para valorar el estado ácido base se analizan tres magnitudes juntas, el pH, el dióxido de carbono y el bicarbonato, siempre sobre un espécimen de sangre arterial. Con ellas se distinguen cuatro alteraciones primarias. En la acidosis respiratoria el pH baja porque sube el dióxido de carbono, por hipoventilación, como en una enfermedad pulmonar obstructiva crónica o un traumatismo torácico, y el riñón compensa generando más bicarbonato. En la acidosis metabólica el pH baja porque baja el bicarbonato, por ejemplo en la cetoacidosis diabética, la insuficiencia renal o la acidosis láctica, y compensa la respiración, hiperventilando para bajar el gas carbónico. En la alcalosis respiratoria el pH sube porque baja el dióxido de carbono, por hiperventilación, ansiedad o altitud, y compensa el riñón bajando el bicarbonato. Y en la alcalosis metabólica el pH sube porque sube el bicarbonato, típicamente por vómitos o hipopotasemia, y compensa la respiración, hipoventilando para retener gas carbónico.
+
+Para no perderte entre las cuatro, quédate con esta regla, y merece la pena repetirla de dos formas. Primera: en las alteraciones metabólicas, el pH y el bicarbonato se mueven en el mismo sentido, los dos suben juntos o los dos bajan juntos; en las respiratorias, el pH y el dióxido de carbono se mueven en sentidos opuestos. Segunda forma de decir lo mismo: si el bicarbonato y el pH van de la mano, es metabólico; si el dióxido de carbono y el pH van en direcciones contrarias, es respiratorio.
+
+Sobre la compensación: es total cuando ya ha conseguido normalizar el pH sanguíneo, aunque las magnitudes respiratoria y metabólica sigan alteradas; es parcial cuando esas magnitudes siguen alteradas y el pH también sigue fuera de rango. Un caso típico de examen es un traumatismo torácico que provoca hipoventilación días antes: el dióxido de carbono aparece muy elevado, marcando una acidosis respiratoria, pero el bicarbonato también aparece elevado como respuesta compensadora renal, coherente con que la compensación renal es mucho más lenta que la respiratoria y ya ha tenido tiempo de actuar.
+
+Vamos con las preguntas de repaso.
+
+Pregunta: ¿qué electrolitos predominan en el líquido extracelular, y cuáles en el intracelular?
+
+[PAUSA 3s]
+
+Respuesta: en el extracelular, sodio, cloruro y bicarbonato. En el intracelular, potasio, fosfatos y proteínas.
+
+Si has dudado y mezclabas sodio con potasio en el mismo grupo: son cationes de compartimentos opuestos, sodio fuera de la célula, potasio dentro; es el error más típico del examen.
+
+Pregunta: ¿dónde se libera la renina, y dónde se libera la aldosterona?
+
+[PAUSA 3s]
+
+Respuesta: la renina se libera en el aparato yuxtaglomerular del riñón. La aldosterona se libera en la corteza de las glándulas suprarrenales.
+
+Si has dudado e intercambiabas los órganos: es la trampa más repetida de este eje, así que fija la pareja completa, riñón con renina, suprarrenal con aldosterona.
+
+Pregunta: en una hipovolemia y en una hipervolemia, ¿qué pasa con el sistema renina angiotensina aldosterona?
+
+[PAUSA 3s]
+
+Respuesta: en la hipovolemia se activa, para retener sodio y agua. En la hipervolemia se minimiza, para que el riñón excrete más sodio y agua.
+
+Si has dudado con cuál activa y cuál frena el sistema: piensa en la lógica, el cuerpo activa la retención cuando le falta volumen, y la desactiva cuando le sobra.
+
+Pregunta: ¿cómo distingues una acidosis metabólica de una acidosis respiratoria con los mismos tres datos, pH, dióxido de carbono y bicarbonato?
+
+[PAUSA 3s]
+
+Respuesta: en la acidosis metabólica lo primario es un bicarbonato bajo, y el pH y el bicarbonato se mueven juntos. En la acidosis respiratoria lo primario es una presión de dióxido de carbono alta, y el pH y el dióxido de carbono se mueven en sentidos opuestos.
+
+Si has dudado entre causa y compensación: la magnitud que compensa va siempre en dirección contraria a la que causó el problema, por eso en una acidosis respiratoria el riñón sube el bicarbonato aunque ese no sea el problema original.
+
+Pregunta: el bicarbonato que se consume al tamponar protones, ¿por qué vía se regenera principalmente?
+
+[PAUSA 3s]
+
+Respuesta: por vía renal.
+
+Si has dudado con la vía respiratoria: la respiración regula el dióxido de carbono, no la regeneración del bicarbonato en sí; el examen ofrece lo respiratorio como distractor precisamente porque suena lógico, pero la regeneración neta es función del riñón.
+
+Tres ideas fuerza para cerrar. Primero, dos ejes hormonales que no debes mezclar: la vasopresina regula la concentración reabsorbiendo agua libre, y el sistema renina angiotensina aldosterona regula el volumen, con la renina naciendo en el riñón y la aldosterona en la suprarrenal. Segundo, en el equilibrio ácido base, lo metabólico mueve el pH y el bicarbonato en el mismo sentido, lo respiratorio mueve el pH y el dióxido de carbono en sentidos opuestos, y el bicarbonato siempre se regenera por vía renal. Y tercero, cuidado con los matices: la pseudonatremia la produce el exceso, no el defecto, de proteínas o lípidos, y la hiperpotasemia real exige un valor claramente por encima del intervalo normal.

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Chuleta de Mnemotecnias — Química Farmacéutica</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #232733;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    background: #fff;
+  }
+  .cover {
+    height: 273mm;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; page-break-after: always;
+    background: radial-gradient(circle at 30% 20%, #ffe27a 0%, transparent 45%),
+                radial-gradient(circle at 80% 70%, #7ae0ff 0%, transparent 45%),
+                linear-gradient(135deg,#1c2733,#0a5e66);
+    color: #fff; border-radius: 18px;
+  }
+  .cover .emoji-row { font-size: 34pt; margin-bottom: 10px; letter-spacing: 6px; }
+  .cover h1 { font-size: 28pt; margin: 0 0 6px; }
+  .cover h2 { font-size: 13pt; font-weight: 400; opacity: .9; max-width: 420px; margin: 0 0 30px; }
+  .cover .hint { max-width: 420px; font-size: 9.5pt; opacity: .85; background: rgba(255,255,255,.12); border-radius: 10px; padding: 12px 18px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .card {
+    border-radius: 14px; padding: 5mm; page-break-inside: avoid;
+    border: 2px solid var(--c); background: var(--bg);
+  }
+  .card .icon { font-size: 20pt; }
+  .card h3 { margin: 2mm 0 1mm; font-size: 11.5pt; color: var(--c); }
+  .card .tagline { font-size: 8.3pt; font-style: italic; color: #55606b; margin-bottom: 2mm; }
+  .card .story {
+    background: #fff; border-radius: 8px; padding: 2.5mm 3mm; font-size: 8.8pt;
+    margin-bottom: 2mm; border-left: 3px solid var(--c);
+  }
+  .card .takeaway {
+    font-size: 8.6pt; background: var(--c); color: #fff; border-radius: 8px; padding: 2.5mm 3mm;
+    font-weight: 700;
+  }
+  .acronym { display: flex; flex-direction: column; gap: 1mm; margin-bottom: 2mm; }
+  .acronym div { display: flex; gap: 2mm; font-size: 8.6pt; align-items: baseline; }
+  .acronym b { color: var(--c); font-size: 11pt; width: 14px; flex: 0 0 auto; }
+  .section-title { font-size: 13pt; color: #0a5e66; margin: 6mm 0 3mm; font-weight: 800; }
+  .section-title:first-of-type { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="emoji-row">🧪💊🧬</div>
+  <h1>Chuleta de Mnemotecnias</h1>
+  <h2>Los trucos absurdos que se quedan grabados cuando el dato "lógico" se olvida — Química Farmacéutica</h2>
+  <div class="hint">Úsala junto al simulador y la guía de estudio: cuando falles una pregunta, busca aquí el truco de la combinación que le corresponde. Lo raro se recuerda mejor que lo razonable.</div>
+</div>
+
+<div class="section-title">Tema 3 — Los números que hay que saber de memoria</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🗺️</span>
+    <h3>El mapa de pH del cuerpo</h3>
+    <div class="tagline">Los siete pH que aparecen en el proceso LADME</div>
+    <div class="story">Imagina que subes una escalera desde el estómago hasta el íleon. En el primer escalón (el más ácido de todos) está el <b>estómago</b>. Subes un poco y llegas al <b>duodeno</b>. Sigues subiendo y te cruzas primero con la <b>orina</b>, luego con la <b>saliva</b> (que boquea justo un peldaño más arriba). Casi arriba del todo te encuentras al <b>feto</b>, que va siempre un escalón por debajo de su madre (la <b>sangre</b>), y en el último peldaño, el más básico, está el <b>íleon</b>.</div>
+    <div class="takeaway">Estómago 2 &lt; Duodeno 5,5 &lt; Orina 6 &lt; Saliva 6,8 &lt; Feto 7,2 &lt; Sangre 7,4 &lt; Íleon 8</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🎰</span>
+    <h3>La tragaperras del examen de Tema 3</h3>
+    <div class="tagline">Cuánto vale cada parte del ejercicio del fármaco</div>
+    <div class="story">Piensa en una máquina tragaperras con cuatro casilleros que reparten premio en este orden fijo: dos, uno y medio, dos, tres y medio. El casillero grande (especiación) y el mediano (absorción) valen lo mismo — dos monedas cada uno — y el pequeño de en medio (liberación) se conforma con media moneda menos.</div>
+    <div class="takeaway">Especiación 2 pts + Liberación 1,5 pts + Absorción 2 pts + Test 3,5 pts</div>
+  </div>
+
+</div>
+
+<div class="section-title">Tema 4 — Aminoácidos por tipo de fuerza</div>
+<div class="grid">
+
+  <div class="card" style="--c:#8b3fc9; --bg:#f4eaff;">
+    <span class="icon">🏝️</span>
+    <h3>Los cinco ermitaños apolares</h3>
+    <div class="tagline">Aminoácidos que solo dan Van der Waals (fuerza más débil)</div>
+    <div class="story">Cinco ermitaños viven aislados en una isla desierta porque odian el agua (son apolares): <b>Ala</b>nina, <b>Val</b>ina, <b>Leu</b>cina, <b>Ile</b> (isoleucina) y <b>Pro</b>lina. No hablan con nadie — la única "fuerza" que dan es el simple roce casual de pasar cerca (London/Van der Waals).</div>
+    <div class="takeaway">Ala, Val, Leu, Ile, Pro → solo Van der Waals (la fuerza más débil de la escala)</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">🎭</span>
+    <h3>Los tres actores planos</h3>
+    <div class="tagline">Aminoácidos aromáticos que dan stacking</div>
+    <div class="story">Tres actores de teatro con la cara totalmente plana (anillo bencénico) se apilan uno encima de otro en el escenario: <b>Fen</b>ilalanina, <b>Trip</b>tófano y <b>Tir</b>osina. Ojo con la Tirosina: además de actuar en la obra plana, lleva un OH escondido bajo la máscara — también puede dar enlace de hidrógeno o dipolo-dipolo por su cuenta.</div>
+    <div class="takeaway">Fenilalanina, Triptófano, Tirosina → stacking (y Tirosina, además, OH aparte)</div>
+  </div>
+
+</div>
+
+<div class="section-title">Tema 6 — Enzimas</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">⚖️</span>
+    <h3>El sereno, la enfermera y el bastón</h3>
+    <div class="tagline">Los tres miembros de la tríada catalítica</div>
+    <div class="story">En la guardia nocturna de la enzima hay tres personajes. La <b>Serina</b> es la enfermera que hace todo el trabajo sucio (ataca de verdad al sustrato con su OH). La <b>Histidina</b> es el sereno que le pasa a la enfermera la llave (activa a la serina, quitándole un protón). El <b>Aspártico</b> es solo el bastón en el que se apoya el sereno para no caerse — está ahí, estabiliza, pero no hace nada por su cuenta.</div>
+    <div class="takeaway">Tríada catalítica: Histidina (activa) + Serina (ataca) + Aspártico (estabiliza, no participa directo)</div>
+  </div>
+
+  <div class="card" style="--c:#c62f3c; --bg:#fbe9ea;">
+    <span class="icon">🔑</span>
+    <h3>La lisina, la cuarta invitada</h3>
+    <div class="tagline">No es de la tríada, pero también cataliza</div>
+    <div class="story">La Lisina no fue invitada a la guardia de la tríada, pero se cuela igual con su llave inglesa (el grupo amino al final de sus cuatro carbonos) y hace su propio tipo de catálisis por su cuenta: la catálisis electrostática.</div>
+    <div class="takeaway">Lisina = catálisis electrostática, fuera de la tríada catalítica clásica</div>
+  </div>
+
+</div>
+
+<div class="section-title">Tema 5 — Bioisosterismo</div>
+<div class="grid">
+
+  <div class="card" style="--c:#0a5e66; --bg:#e3f4f3;">
+    <span class="icon">🪜</span>
+    <h3>La escalera del hidruro</h3>
+    <div class="tagline">Sustituciones isostéricas clásicas (ley del hidruro)</div>
+    <div class="story">Bajas un escalón en la tabla periódica desde el Flúor cada vez que le regalas un Hidrógeno de propina para compensar el electrón que pierdes: F (0 regalos) → OH (1 regalo) → NH₂ (2 regalos) → CH₃ (3 regalos). Cuantos más escalones bajas, más hidrógenos de propina hace falta dar.</div>
+    <div class="takeaway">F → OH → NH₂ → CH₃ (0, 1, 2, 3 hidrógenos añadidos) — todos isósteros clásicos entre sí</div>
+  </div>
+
+  <div class="card" style="--c:#b8790a; --bg:#fdf2e0;">
+    <span class="icon">👑</span>
+    <h3>La base más fuerte de la tabla</h3>
+    <div class="tagline">Guanidina / amidina — pKa 12-13</div>
+    <div class="story">La guanidina de la arginina lleva corona: es la reina absoluta de las bases, con un pKa tan alto (12-13) que nunca, bajo ningún pH fisiológico posible, se le cae la corona (siempre protonada).</div>
+    <div class="takeaway">Guanidina/amidina: pKa 12-13 → protonada siempre a pH fisiológico → sal de liberación rápida</div>
+  </div>
+
+</div>
+
+<div class="section-title">Práctica 3 — Síntesis de fenitoína</div>
+<div class="grid">
+
+  <div class="card" style="--c:#8b3fc9; --bg:#f4eaff;">
+    <span class="icon">💍</span>
+    <h3>Monógama vs. bígama</h3>
+    <div class="tagline">Proporción bencilo:urea según el producto</div>
+    <div class="story">El bencilo tiene dos citas posibles. Con la <b>fenitoína</b> es monógamo: una urea, una relación 1:1. Con el <b>producto secundario</b> es bígamo: necesita el doble, dos ureas por cada bencilo (1:2). Por eso el reactivo limitante puede cambiar según con quién esté "casado" el cálculo.</div>
+    <div class="takeaway">Fenitoína = bencilo:urea 1:1 — Producto secundario = bencilo:urea 1:2</div>
+  </div>
+
+  <div class="card" style="--c:#0e7c86; --bg:#e3f4f3;">
+    <span class="icon">🔤</span>
+    <h3>LADME, el orden que no falla</h3>
+    <div class="tagline">El acrónimo del proceso completo del fármaco en el cuerpo</div>
+    <div class="acronym">
+      <div><b>L</b> Liberación — del sólido a disuelto e ionizado en saliva.</div>
+      <div><b>A</b> Absorción — atravesar la bicapa lipídica del tracto digestivo.</div>
+      <div><b>D</b> Distribución — llegar por sangre a los tejidos, incluida la barrera hematoencefálica.</div>
+      <div><b>M</b> Metabolismo — biotransformación en fase I y fase II.</div>
+      <div><b>E</b> Eliminación — salida del organismo, mayoritariamente vía renal.</div>
+    </div>
+    <div class="takeaway">LADME: siempre en este orden, el mismo fármaco de principio a fin</div>
+  </div>
+
+</div>
+
+</body>
+</html>
