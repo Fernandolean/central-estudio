@@ -1,0 +1,34 @@
+# Videos de clase: demasiado pesados para subir a GitHub (varios superan
+# los 80-160 MB). Se quedan solo en el ordenador.
+*.mp4
+*.mov
+*.avi
+
+# Carpeta de audios ya preparados para BookPlayer/OneDrive: no la necesita
+# Central de Estudio, es una copia derivada de los mp3 de audio_guiones.
+/MP3_BookPlayer/
+
+# Duplicados y versiones antiguas ya identificadas al indexar (ver
+# CENTRAL_ESTUDIO/data/INFORME_INDICE.txt) -- no aportan nada nuevo.
+**/_Duplicados_identificados/
+**/_Duplicados_y_versiones_antiguas/
+**/_fuentes_txt/
+**/_extraidos/
+**/extracted/
+
+# Documentos personales con datos de matricula/compras -- confidenciales,
+# nunca deben subirse al repositorio publico.
+/COMPRA_CURSO_IAA.pdf
+/hoja_asignaturas_matricula26-27.pdf
+/matricula 26_27.pdf
+/matricula 26_27_justificante.pdf
+/Vector 16 HX AI A2XWIG-099ES.pdf
+
+# Configuracion local de Claude Code, no es material academico.
+**/.claude/
+
+# Basura habitual de sistema operativo / Python.
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
