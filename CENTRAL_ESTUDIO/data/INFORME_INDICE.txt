@@ -1,17 +1,17 @@
 ========================================================================
 INFORME - Generacion del indice academico (CENTRAL_ESTUDIO)
 ========================================================================
-Generado: 2026-08-27T11:28:42
+Generado: 2026-09-03T13:15:10
 
-Total de recursos indexados: 391
+Total de recursos indexados: 478
 
 Por asignatura:
-  - Química Farmacéutica: 141 recursos, 8 temas, 0 sin clasificar por tema
-  - Bioquímica Clínica: 52 recursos, 8 temas, 6 sin clasificar por tema
-  - Farmacología: 48 recursos, 13 temas, 2 sin clasificar por tema
-  - Metodología de la Investigación: 41 recursos, 13 temas, 4 sin clasificar por tema
-  - Microbiología y Parasitología Clínica: 64 recursos, 17 temas, 3 sin clasificar por tema
-  - Tecnología Farmacéutica: 45 recursos, 12 temas, 0 sin clasificar por tema
+  - Química Farmacéutica: 154 recursos, 8 temas, 0 sin clasificar por tema
+  - Bioquímica Clínica: 65 recursos, 8 temas, 6 sin clasificar por tema
+  - Farmacología: 63 recursos, 13 temas, 2 sin clasificar por tema
+  - Metodología de la Investigación: 54 recursos, 13 temas, 4 sin clasificar por tema
+  - Microbiología y Parasitología Clínica: 82 recursos, 17 temas, 3 sin clasificar por tema
+  - Tecnología Farmacéutica: 60 recursos, 12 temas, 0 sin clasificar por tema
 
 Detalle de 'sin clasificar por tema' (revisables a mano en la web):
 

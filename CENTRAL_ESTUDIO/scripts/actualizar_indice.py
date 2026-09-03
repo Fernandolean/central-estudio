@@ -21,7 +21,7 @@ import sys
 import unicodedata
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, quote
 
 from mutagen.mp3 import MP3
 
@@ -509,6 +509,7 @@ def parse_guia_topics(subject_dir):
                 "prefix": prefix,
                 "numbers": nums,
                 "numLabel": clean_label,
+                "numText": num_text,
                 "title": title,
                 "subtitles": [title],
                 "parcial": parcial,
@@ -683,7 +684,57 @@ def process_audio_guiones(subject_dir, topics, topic_lookup, builder, claimed):
                     t["resources"].append(res["id"])
 
 
-def process_guia_estudio_bundle(subject_dir, builder, general_resources):
+CHULETA_SECTION_RE = re.compile(r'<div class="section-title">([^<]+)</div>')
+
+
+def find_matching_topic_key(text, topics, topic_lookup):
+    """Empareja el titulo de una seccion de guia/chuleta con un tema.
+    Primero intenta un token explicito ('Tema 3', 'Bloque 2'...); si no lo
+    hay (la chuleta suele agrupar por concepto, no por tema), cae a una
+    coincidencia de texto contra el titulo/subtitulos del tema -- solo si
+    uno contiene enteramente al otro, para no enlazar temas por error."""
+    tokens = find_topic_tokens(text)
+    if tokens:
+        keys = resolve_topic_keys(tokens, topic_lookup)
+        return next(iter(keys)) if len(keys) == 1 else None
+    norm_text = normalize_title(text)
+    if not norm_text:
+        return None
+    best_key, best_len = None, 0
+    for t in topics:
+        for candidate in [t["title"]] + t["subtitles"]:
+            norm_c = normalize_title(candidate)
+            if norm_c and len(norm_c) >= 8 and (norm_c in norm_text or norm_text in norm_c):
+                if len(norm_c) > best_len:
+                    best_key, best_len = t["key"], len(norm_c)
+    return best_key
+
+
+def parse_chuleta_sections(chuleta_html_path, topics, topic_lookup):
+    """{topic_key: texto_de_la_seccion} usando el primer bloque de la
+    chuleta que se pueda emparejar con cada tema. Si la chuleta agrupa
+    varios temas en un solo bloque (frecuente), ese bloque no se
+    empareja con ninguno -- mejor no enlazar que enlazar mal."""
+    html = read_text(chuleta_html_path)
+    result = {}
+    for m in CHULETA_SECTION_RE.finditer(html):
+        text = m.group(1).strip()
+        key = find_matching_topic_key(text, topics, topic_lookup)
+        if key and key not in result:
+            result[key] = text
+    return result
+
+
+def text_fragment_href(base_href, target_text):
+    """Enlace directo a la seccion exacta de un guia.html/chuleta.html
+    usando "Scroll To Text Fragment" (#:~:text=...), soportado por
+    Chrome/Edge. No requiere tocar el HTML original: el navegador busca
+    el texto y hace scroll+resalta el sitio el solo. Si el navegador no
+    lo soporta, sencillamente abre el documento por arriba como antes."""
+    return f"{base_href}#:~:text={quote(target_text, safe='')}"
+
+
+def process_guia_estudio_bundle(subject_dir, builder, general_resources, topics, topic_lookup):
     guia_dir = subject_dir / "guia_estudio"
     if not guia_dir.is_dir():
         return set()
@@ -704,6 +755,29 @@ def process_guia_estudio_bundle(subject_dir, builder, general_resources):
             if f:
                 claimed.add(f.resolve())
 
+        if guia_html:
+            # El temario entero viene de las cabeceras de guia.html, asi que
+            # todos los temas tienen aqui un enlace directo a su seccion.
+            # El objetivo es el "numText" tal cual aparece en el <span
+            # class="num"> del <h1> (p.ej. "Tema 6 — Segundo Parcial"): la
+            # portada tiene un indice ("Contenido") que repite "Tema N —
+            # Titulo" solo con el titulo (sin el sufijo de parcial ni el
+            # propio numero en algunas asignaturas), asi que el numText
+            # completo no coincide con esa entrada del indice y el
+            # navegador salta directo a la cabecera real de la seccion.
+            base_href = rel_from_app(guia_html)
+            for t in topics:
+                target = t.get("numText") or t.get("numLabel")
+                if not target:
+                    continue
+                tres = builder.add(
+                    guia_html, "guia_estudio", "Ver en la guía de estudio",
+                    topic_keys=[t["key"]],
+                    extra={"path": text_fragment_href(base_href, target)},
+                    discriminator=f"topic-{t['key']}",
+                )
+                t["resources"].append(tres["id"])
+
     if chuleta_html or chuleta_pdf:
         primary = chuleta_html or chuleta_pdf
         extra = {}
@@ -714,6 +788,21 @@ def process_guia_estudio_bundle(subject_dir, builder, general_resources):
         for f in (chuleta_html, chuleta_pdf):
             if f:
                 claimed.add(f.resolve())
+
+        if chuleta_html:
+            base_href = rel_from_app(chuleta_html)
+            sections = parse_chuleta_sections(chuleta_html, topics, topic_lookup)
+            for t in topics:
+                text = sections.get(t["key"])
+                if not text:
+                    continue
+                tres = builder.add(
+                    chuleta_html, "chuleta", "Ver en la chuleta de mnemotecnias",
+                    topic_keys=[t["key"]],
+                    extra={"path": text_fragment_href(base_href, text)},
+                    discriminator=f"topic-{t['key']}",
+                )
+                t["resources"].append(tres["id"])
 
     for f in guia_dir.iterdir():
         if f.is_file():
@@ -891,7 +980,7 @@ def process_subject(subject, report):
     claimed = set()
 
     process_audio_guiones(subject_dir, topics, topic_lookup, builder, claimed)
-    claimed |= process_guia_estudio_bundle(subject_dir, builder, general_resources)
+    claimed |= process_guia_estudio_bundle(subject_dir, builder, general_resources, topics, topic_lookup)
     sim_claimed, flashcard_counts = process_simulador_bundle(subject_dir, topics, builder, general_resources)
     claimed |= sim_claimed
     process_guia_docente(subject_dir, builder, general_resources, claimed)

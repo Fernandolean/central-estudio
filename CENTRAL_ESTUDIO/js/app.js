@@ -165,9 +165,7 @@ function resourceRowHTML(subject, topic, resource) {
     actionsHTML = `<button class="status-btn ${status}" data-action="cycle-status" data-rid="${resource.id}">${statusIcon(status)} ${statusLabelFor(resource.type, status)}</button>`;
   }
 
-  const titleLink = resource.type === "simulador"
-    ? escapeHtml(resource.title)
-    : `<a href="${escapeAttr(resource.path)}" target="_blank" rel="noopener">${escapeHtml(resource.title)}</a>`;
+  const titleLink = `<a href="${escapeAttr(resource.path)}" target="_blank" rel="noopener">${escapeHtml(resource.title)}</a>`;
 
   const metaBits = [meta.label];
   if (resource.durationSeconds !== undefined && resource.durationSeconds !== null) metaBits.push(formatDuration(resource.durationSeconds));
