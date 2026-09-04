@@ -489,7 +489,7 @@ def parse_guia_topics(subject_dir):
     html = read_text(guia_html)
     topics_by_key = {}
     order = 0
-    for m in re.finditer(r'<h1 class="tema"><span class="num">([^<]+)</span>([^<]+)</h1>', html):
+    for m in re.finditer(r'<h1 class="tema"(?:\s+id="[^"]*")?><span class="num">([^<]+)</span>([^<]+)</h1>', html):
         num_text = m.group(1).strip()
         title = m.group(2).strip()
         tokens = find_topic_tokens(num_text)
@@ -882,6 +882,28 @@ def build_flashcard_resources(subject_dir, topics, flashcard_data, builder):
         t["resources"].append(res_eval["id"])
 
 
+DUPLICATE_NOTE_RE = re.compile(r"transcrita\s+dos\s+veces", re.IGNORECASE)
+
+
+def has_duplicate_note(path):
+    """Algunas fichas llevan una nota propia diciendo que son la misma clase
+    transcrita dos veces por un fallo del reconocimiento de voz -- lo dice el
+    documento, no es una suposicion nuestra. Solo miramos la primera pagina
+    (PDF) o el arranque del documento (docx): esa nota siempre va al principio."""
+    ext = path.suffix.lower()
+    if ext == ".pdf":
+        text = extract_pdf_text(path, max_pages=1, max_chars=3000)
+    elif ext == ".docx":
+        text = extract_docx_text(path)[:3000]
+    else:
+        return False
+    return bool(DUPLICATE_NOTE_RE.search(text or ""))
+
+
+def strip_chatgpt_suffix(stem_key):
+    return re.sub(r"[_\s]*chatgpt$", "", stem_key)
+
+
 def process_generic_files(subject_dir, topics, topic_lookup, builder, claimed, unclassified, sniff_dirs, unique_keywords):
     candidates = []
     for f in sorted(subject_dir.rglob("*")):
@@ -895,13 +917,15 @@ def process_generic_files(subject_dir, topics, topic_lookup, builder, claimed, u
         if is_discarded_file(f):
             continue
         if f.suffix.lower() not in {
-            ".pdf", ".docx", ".doc", ".txt", ".md", ".html", ".mp4", ".mov",
+            ".pdf", ".docx", ".doc", ".txt", ".md", ".html",
             ".xlsx", ".xls", ".csv", ".png", ".jpg", ".jpeg", ".gif", ".pptx",
         }:
             continue
 
         rel_lower = f.relative_to(subject_dir).as_posix().lower()
         rtype = classify_generic_type(rel_lower, f.name.lower(), f.suffix.lower())
+        is_chatgpt = "chatgpt" in rel_lower
+        is_dup = (not is_chatgpt) and has_duplicate_note(f)
 
         tokens = find_topic_tokens(f.stem)
         topic_keys = resolve_topic_keys(tokens, topic_lookup)
@@ -915,15 +939,15 @@ def process_generic_files(subject_dir, topics, topic_lookup, builder, claimed, u
         candidates.append({
             "path": f, "rtype": rtype, "rel_lower": rel_lower,
             "topic_keys": topic_keys, "topic_source": topic_source,
+            "is_chatgpt": is_chatgpt, "is_dup": is_dup,
+            "stem_key": strip_accents(f.stem.lower()), "ia_path": None,
         })
 
-    # Herencia entre "hermanos": mismo nombre base y misma carpeta (p.ej. un
-    # video .mp4 sin texto legible junto a su .pdf/.txt de la misma clase que
-    # SI se pudo clasificar) -> mismo tema, es evidencia real, no una suposicion.
+    # Herencia entre "hermanos": mismo nombre base y misma carpeta -> mismo
+    # tema, es evidencia real, no una suposicion.
     siblings = {}
     for c in candidates:
-        group_key = strip_accents(c["path"].stem.lower())
-        siblings.setdefault(group_key, []).append(c)
+        siblings.setdefault(c["stem_key"], []).append(c)
     for group in siblings.values():
         combined = set()
         for c in group:
@@ -934,11 +958,35 @@ def process_generic_files(subject_dir, topics, topic_lookup, builder, claimed, u
                     c["topic_keys"] = combined
                     c["topic_source"] = "heredado_de_archivo_hermano"
 
+    # Transcripciones duplicadas (la propia ficha avisa de que es la misma
+    # clase transcrita dos veces) -> se descartan del todo, junto con su
+    # version IA si la tiene (reescribir un duplicado no deja de serlo).
+    # Version IA (carpeta chatgpt) de un archivo que SI se queda -> no se
+    # anade como fila aparte, se cuelga como enlace secundario del original.
+    duplicate_stems = {c["stem_key"] for c in candidates if c["is_dup"]}
+    originals_by_stem = {
+        c["stem_key"]: c for c in candidates if not c["is_chatgpt"] and not c["is_dup"]
+    }
+
+    final_candidates = []
     for c in candidates:
+        if c["is_dup"]:
+            continue
+        if c["is_chatgpt"]:
+            base_stem = strip_chatgpt_suffix(c["stem_key"])
+            if base_stem in duplicate_stems:
+                continue
+            original = originals_by_stem.get(base_stem)
+            if original:
+                original["ia_path"] = c["path"]
+                continue
+        final_candidates.append(c)
+
+    for c in final_candidates:
         f = c["path"]
         rtype = c["rtype"]
         topic_keys = c["topic_keys"]
-        variant = "chatgpt" if "chatgpt" in c["rel_lower"] else None
+        variant = "chatgpt" if c["is_chatgpt"] else None
 
         title = friendly_title(f.stem, rtype)
         if variant == "chatgpt":
@@ -949,6 +997,8 @@ def process_generic_files(subject_dir, topics, topic_lookup, builder, claimed, u
             extra["topicSource"] = c["topic_source"]
         if variant:
             extra["variant"] = variant
+        if c["ia_path"]:
+            extra["iaPath"] = rel_from_app(c["ia_path"])
 
         res = builder.add(f, rtype, title, topic_keys, extra)
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:15:10",
+  "generatedAt": "2026-09-04T11:48:54",
   "subjects": [
     {
       "id": "quimica-farmaceutica",
@@ -46,16 +46,8 @@
           "order": 2,
           "resources": [
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF01a_Tema1-2-3_Teoria.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF01b_Tema1-2-3_Teoria.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF14a_RepasoGeneral.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF14b_RepasoGeneral.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/00_TODOS_los_resumenes_chatgpt_ordenados.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01a_Tema1-2-3_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01b_Tema1-2-3_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14a_RepasoGeneral_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14b_RepasoGeneral_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF01a_Tema1-2-3_Teoria.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF14a_RepasoGeneral.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/02_Tema1-2_descubrimiento-nomenclatura-farmacos.mp3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-1-2",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/simulador/index.html::evaluacion-tema-1-2",
@@ -82,8 +74,6 @@
             "quimica-farmaceutica::01_QuimicaFarmaceutica/Estudio_QuimicaFarmaceutica.html",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/00_TODAS_las_guias_ordenadas.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF02a_Tema3_Seminario.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF02b_Tema3_Seminario.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF05b_Tema3_Seminario.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF06_Tema3_Seminario.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF10_LAD_Seminario.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF11_RepasoPreExamen_SintesisFenitoina.pdf",
@@ -98,33 +88,13 @@
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/00_TODOS_los_resumenes_chatgpt_ordenados.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/Ficha_academica_QF08_LAD_Seminario.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/Ficha_academica_QF13_LAD_Repaso.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02a_Tema3_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02b_Tema3_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF05b_Tema3_Seminario_chatgpt.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF06_Tema3_Seminario_Ficha_Academica.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF10_LAD_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_03_Tema3_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_04_Tema3_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_05_Tema3_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_07_Tema3-LAD_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_09_LAD_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_12_LAD_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF10_LAD_Seminario.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF11_RepasoPreExamen_SintesisFenitoina.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF13_LAD_Repaso.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_08_LAD_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_08_LAD_Seminario.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_09_LAD_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_09_LAD_Seminario.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_12_LAD_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_12_LAD_Seminario.txt",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/Resumen de la clase.docx",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/03_Tema3_especiacion-clasificacion-acido-base.mp3",
@@ -152,8 +122,6 @@
           "order": 8,
           "resources": [
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF11_RepasoPreExamen_SintesisFenitoina.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF11_RepasoPreExamen_SintesisFenitoina_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF11_RepasoPreExamen_SintesisFenitoina.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/11_Practica3_sintesis-fenitoina-calculos.mp3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-practica-3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-practica-3",
@@ -180,32 +148,13 @@
             "quimica-farmaceutica::01_QuimicaFarmaceutica/Estudio_QuimicaFarmaceutica.html",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/00_TODAS_las_guias_ordenadas.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF15_Tema4_Teoria.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF16b_Tema4_Teoria.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF17b_Tema4_Teoria.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18a_Tema4-5_Seminario.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18b_Tema4-5_Seminario.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF21b_Tema4_Repaso.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_16_Tema4_Teoria.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_17_Tema4_Teoria.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_21_Tema4_Repaso.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF15_Tema4_Ficha_Academica.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF16b_Tema4_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF17b_Tema4_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18a_Tema4-5_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18b_Tema4-5_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF21b_Tema4_Repaso_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_16_Tema4_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_17_Tema4_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_21_Tema4_Repaso_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF15_Tema4_Teoria.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF16b_Tema4_Teoria_video_alternativo.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF18a_Tema4-5_Seminario.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF21b_Tema4_Repaso_video_alternativo.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.txt",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.txt",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/06_Tema4_farmacodinamia-fuerzas-intermoleculares.mp3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/07_Tema4_farmacodinamia-estereoquimica-estereoselectividad.mp3",
@@ -231,22 +180,10 @@
           "order": 5,
           "resources": [
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18a_Tema4-5_Seminario.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18b_Tema4-5_Seminario.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF19a_Tema5_Teoria.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF19b_Tema5_Teoria.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF20a_Tema5_Seminario.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF20b_Tema5_Seminario.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF24_Tema5_Repaso.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18a_Tema4-5_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18b_Tema4-5_Seminario_chatgpt.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF19a_Tema5_Ficha_Academica.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF19b_Tema5_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20a_Tema5_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20b_Tema5_Seminario_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF24_Tema5_Repaso_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF18a_Tema4-5_Seminario.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF19a_Tema5_Teoria.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF20a_Tema5_Seminario.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/08_Tema5_grupo-farmacoforo-modificacion-molecular.mp3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-5",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-5",
@@ -269,12 +206,7 @@
           "parcial": "Segundo Parcial",
           "order": 6,
           "resources": [
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF22b_Tema6_Teoria.pdf",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_22_Tema6_Teoria.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF22b_Tema6_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_22_Tema6_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF22b_Tema6_Teoria_video_alternativo.mp4",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.txt",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/09_Tema6_enzimas-reacciones-enzimaticas.mp3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-6",
@@ -299,8 +231,6 @@
           "order": 7,
           "resources": [
             "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_23_Tema7_Teoria.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_23_Tema7_Teoria_chatgpt.pdf",
-            "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.mp4",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.txt",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/audio_guiones/mp3/10_Tema7-faseI_metabolismo-oxidativo.mp3",
             "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-7",
@@ -467,7 +397,7 @@
           "originalName": "guia.html",
           "path": "../01_QuimicaFarmaceutica/guia_estudio/guia.html",
           "topics": [],
-          "sizeBytes": 38847,
+          "sizeBytes": 46369,
           "altPath": "../01_QuimicaFarmaceutica/guia_estudio/Guia_Estudio_QuimicaFarmaceutica.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-0": {
@@ -479,7 +409,7 @@
           "topics": [
             "tema-0"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-1-2": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-1-2",
@@ -490,7 +420,7 @@
           "topics": [
             "tema-1-2"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-3": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-3",
@@ -501,7 +431,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-practica-3": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-practica-3",
@@ -512,7 +442,7 @@
           "topics": [
             "practica-3"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-4": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-4",
@@ -523,7 +453,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-5": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-5",
@@ -534,7 +464,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-6": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-6",
@@ -545,7 +475,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-7": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/guia.html::topic-tema-7",
@@ -556,7 +486,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 38847
+          "sizeBytes": 46369
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html",
@@ -565,7 +495,7 @@
           "originalName": "chuleta.html",
           "path": "../01_QuimicaFarmaceutica/guia_estudio/chuleta.html",
           "topics": [],
-          "sizeBytes": 10312,
+          "sizeBytes": 15255,
           "altPath": "../01_QuimicaFarmaceutica/guia_estudio/Chuleta_Mnemotecnias_QuimicaFarmaceutica.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-3": {
@@ -577,7 +507,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 10312
+          "sizeBytes": 15255
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-practica-3": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-practica-3",
@@ -588,7 +518,7 @@
           "topics": [
             "practica-3"
           ],
-          "sizeBytes": 10312
+          "sizeBytes": 15255
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-4": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-4",
@@ -599,7 +529,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 10312
+          "sizeBytes": 15255
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-5": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-5",
@@ -610,7 +540,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 10312
+          "sizeBytes": 15255
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-6": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/guia_estudio/chuleta.html::topic-tema-6",
@@ -621,7 +551,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 10312
+          "sizeBytes": 15255
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/simulador/index.html::simulador": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/simulador/index.html::simulador",
@@ -630,7 +560,7 @@
           "originalName": "index.html",
           "path": "../01_QuimicaFarmaceutica/simulador/index.html",
           "topics": [],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 233
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/Programa de la asignatura Grado en Farmacia.pdf": {
@@ -651,7 +581,7 @@
           "topics": [
             "tema-0"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 12,
           "shared": true
         },
@@ -664,7 +594,7 @@
           "topics": [
             "tema-0"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 12,
           "shared": true
         },
@@ -677,7 +607,7 @@
           "topics": [
             "tema-1-2"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 16,
           "shared": true
         },
@@ -690,7 +620,7 @@
           "topics": [
             "tema-1-2"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 16,
           "shared": true
         },
@@ -703,7 +633,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 78,
           "shared": true
         },
@@ -716,7 +646,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 78,
           "shared": true
         },
@@ -729,7 +659,7 @@
           "topics": [
             "practica-3"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 15,
           "shared": true
         },
@@ -742,7 +672,7 @@
           "topics": [
             "practica-3"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 15,
           "shared": true
         },
@@ -755,7 +685,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 40,
           "shared": true
         },
@@ -768,7 +698,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 40,
           "shared": true
         },
@@ -781,7 +711,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 28,
           "shared": true
         },
@@ -794,7 +724,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 28,
           "shared": true
         },
@@ -807,7 +737,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 22,
           "shared": true
         },
@@ -820,7 +750,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 22,
           "shared": true
         },
@@ -833,7 +763,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 22,
           "shared": true
         },
@@ -846,7 +776,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12561,
+          "sizeBytes": 12842,
           "questionCount": 22,
           "shared": true
         },
@@ -916,71 +846,6 @@
           "topicSource": "contenido:palabras_clave",
           "variant": "chatgpt"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01a_Tema1-2-3_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01a_Tema1-2-3_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 1-2-3 Teoria chatgpt (versión IA)",
-          "originalName": "QF01a_Tema1-2-3_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01a_Tema1-2-3_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 213311,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01b_Tema1-2-3_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01b_Tema1-2-3_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 1-2-3 Teoria chatgpt (versión IA)",
-          "originalName": "QF01b_Tema1-2-3_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01b_Tema1-2-3_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 215991,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02a_Tema3_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02a_Tema3_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario chatgpt (versión IA)",
-          "originalName": "QF02a_Tema3_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02a_Tema3_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 203247,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02b_Tema3_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02b_Tema3_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario chatgpt (versión IA)",
-          "originalName": "QF02b_Tema3_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02b_Tema3_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 160306,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF05b_Tema3_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF05b_Tema3_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario chatgpt (versión IA)",
-          "originalName": "QF05b_Tema3_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF05b_Tema3_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 212434,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF06_Tema3_Seminario_Ficha_Academica.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF06_Tema3_Seminario_Ficha_Academica.pdf",
           "type": "seminario",
@@ -994,58 +859,6 @@
           "topicSource": "nombre",
           "variant": "chatgpt"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF10_LAD_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF10_LAD_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "LAD Seminario chatgpt (versión IA)",
-          "originalName": "QF10_LAD_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF10_LAD_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 210241,
-          "topicSource": "contenido:palabras_clave",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF11_RepasoPreExamen_SintesisFenitoina_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF11_RepasoPreExamen_SintesisFenitoina_chatgpt.pdf",
-          "type": "examen",
-          "title": "RepasoPreExamen SintesisFenitoina chatgpt (versión IA)",
-          "originalName": "QF11_RepasoPreExamen_SintesisFenitoina_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF11_RepasoPreExamen_SintesisFenitoina_chatgpt.pdf",
-          "topics": [
-            "practica-3"
-          ],
-          "sizeBytes": 160551,
-          "topicSource": "contenido:palabras_clave",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14a_RepasoGeneral_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14a_RepasoGeneral_chatgpt.pdf",
-          "type": "ficha",
-          "title": "RepasoGeneral chatgpt (versión IA)",
-          "originalName": "QF14a_RepasoGeneral_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14a_RepasoGeneral_chatgpt.pdf",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 228842,
-          "topicSource": "contenido:numero",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14b_RepasoGeneral_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14b_RepasoGeneral_chatgpt.pdf",
-          "type": "ficha",
-          "title": "RepasoGeneral chatgpt (versión IA)",
-          "originalName": "QF14b_RepasoGeneral_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14b_RepasoGeneral_chatgpt.pdf",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 208813,
-          "topicSource": "contenido:numero",
-          "variant": "chatgpt"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF15_Tema4_Ficha_Academica.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF15_Tema4_Ficha_Academica.pdf",
           "type": "ficha",
@@ -1056,60 +869,6 @@
             "tema-4"
           ],
           "sizeBytes": 144821,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF16b_Tema4_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF16b_Tema4_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Teoria chatgpt (versión IA)",
-          "originalName": "QF16b_Tema4_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF16b_Tema4_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 200172,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF17b_Tema4_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF17b_Tema4_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Teoria chatgpt (versión IA)",
-          "originalName": "QF17b_Tema4_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF17b_Tema4_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 190603,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18a_Tema4-5_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18a_Tema4-5_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 4-5 Seminario chatgpt (versión IA)",
-          "originalName": "QF18a_Tema4-5_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18a_Tema4-5_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-4",
-            "tema-5"
-          ],
-          "sizeBytes": 62863,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18b_Tema4-5_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18b_Tema4-5_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 4-5 Seminario chatgpt (versión IA)",
-          "originalName": "QF18b_Tema4-5_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18b_Tema4-5_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-4",
-            "tema-5"
-          ],
-          "sizeBytes": 243799,
           "topicSource": "nombre",
           "variant": "chatgpt"
         },
@@ -1126,227 +885,6 @@
           "topicSource": "nombre",
           "variant": "chatgpt"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF19b_Tema5_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF19b_Tema5_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 5 Teoria chatgpt (versión IA)",
-          "originalName": "QF19b_Tema5_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF19b_Tema5_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 71765,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20a_Tema5_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20a_Tema5_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 5 Seminario chatgpt (versión IA)",
-          "originalName": "QF20a_Tema5_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20a_Tema5_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 208805,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20b_Tema5_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20b_Tema5_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 5 Seminario chatgpt (versión IA)",
-          "originalName": "QF20b_Tema5_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20b_Tema5_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 213159,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF21b_Tema4_Repaso_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF21b_Tema4_Repaso_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Repaso chatgpt (versión IA)",
-          "originalName": "QF21b_Tema4_Repaso_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF21b_Tema4_Repaso_chatgpt.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 252634,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF22b_Tema6_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF22b_Tema6_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 6 Teoria chatgpt (versión IA)",
-          "originalName": "QF22b_Tema6_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF22b_Tema6_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-6"
-          ],
-          "sizeBytes": 206564,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF24_Tema5_Repaso_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF24_Tema5_Repaso_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 5 Repaso chatgpt (versión IA)",
-          "originalName": "QF24_Tema5_Repaso_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF24_Tema5_Repaso_chatgpt.pdf",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 255643,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_03_Tema3_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_03_Tema3_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario chatgpt (versión IA)",
-          "originalName": "QF_03_Tema3_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_03_Tema3_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 337697,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_04_Tema3_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_04_Tema3_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario chatgpt (versión IA)",
-          "originalName": "QF_04_Tema3_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_04_Tema3_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 236727,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_05_Tema3_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_05_Tema3_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario chatgpt (versión IA)",
-          "originalName": "QF_05_Tema3_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_05_Tema3_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 143591,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_07_Tema3-LAD_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_07_Tema3-LAD_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "Tema 3 - LAD Seminario chatgpt (versión IA)",
-          "originalName": "QF_07_Tema3-LAD_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_07_Tema3-LAD_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 202584,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_09_LAD_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_09_LAD_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "LAD Seminario chatgpt (versión IA)",
-          "originalName": "QF_09_LAD_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_09_LAD_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 355279,
-          "topicSource": "contenido:palabras_clave",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_12_LAD_Seminario_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_12_LAD_Seminario_chatgpt.pdf",
-          "type": "seminario",
-          "title": "LAD Seminario chatgpt (versión IA)",
-          "originalName": "QF_12_LAD_Seminario_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_12_LAD_Seminario_chatgpt.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 199709,
-          "topicSource": "contenido:palabras_clave",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_16_Tema4_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_16_Tema4_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Teoria chatgpt (versión IA)",
-          "originalName": "QF_16_Tema4_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_16_Tema4_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 60317,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_17_Tema4_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_17_Tema4_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Teoria chatgpt (versión IA)",
-          "originalName": "QF_17_Tema4_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_17_Tema4_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 221672,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_21_Tema4_Repaso_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_21_Tema4_Repaso_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Repaso chatgpt (versión IA)",
-          "originalName": "QF_21_Tema4_Repaso_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_21_Tema4_Repaso_chatgpt.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 215638,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_22_Tema6_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_22_Tema6_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 6 Teoria chatgpt (versión IA)",
-          "originalName": "QF_22_Tema6_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_22_Tema6_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-6"
-          ],
-          "sizeBytes": 180374,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_23_Tema7_Teoria_chatgpt.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_23_Tema7_Teoria_chatgpt.pdf",
-          "type": "ficha",
-          "title": "Tema 7 Teoria chatgpt (versión IA)",
-          "originalName": "QF_23_Tema7_Teoria_chatgpt.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_23_Tema7_Teoria_chatgpt.pdf",
-          "topics": [
-            "tema-7"
-          ],
-          "sizeBytes": 178789,
-          "topicSource": "nombre",
-          "variant": "chatgpt"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF01a_Tema1-2-3_Teoria.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF01a_Tema1-2-3_Teoria.pdf",
           "type": "ficha",
@@ -1357,19 +895,8 @@
             "tema-1-2"
           ],
           "sizeBytes": 120636,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF01b_Tema1-2-3_Teoria.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF01b_Tema1-2-3_Teoria.pdf",
-          "type": "ficha",
-          "title": "Tema 1-2-3 Teoria",
-          "originalName": "QF01b_Tema1-2-3_Teoria.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF01b_Tema1-2-3_Teoria.pdf",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 148191,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF01a_Tema1-2-3_Teoria_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF02a_Tema3_Seminario.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF02a_Tema3_Seminario.pdf",
@@ -1381,31 +908,8 @@
             "tema-3"
           ],
           "sizeBytes": 134734,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF02b_Tema3_Seminario.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF02b_Tema3_Seminario.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario",
-          "originalName": "QF02b_Tema3_Seminario.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF02b_Tema3_Seminario.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 150140,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF05b_Tema3_Seminario.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF05b_Tema3_Seminario.pdf",
-          "type": "seminario",
-          "title": "Tema 3 Seminario",
-          "originalName": "QF05b_Tema3_Seminario.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF05b_Tema3_Seminario.pdf",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 164391,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF02a_Tema3_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF06_Tema3_Seminario.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF06_Tema3_Seminario.pdf",
@@ -1429,7 +933,8 @@
             "tema-3"
           ],
           "sizeBytes": 135897,
-          "topicSource": "contenido:palabras_clave"
+          "topicSource": "contenido:palabras_clave",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF10_LAD_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF11_RepasoPreExamen_SintesisFenitoina.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF11_RepasoPreExamen_SintesisFenitoina.pdf",
@@ -1442,7 +947,8 @@
             "tema-3"
           ],
           "sizeBytes": 110455,
-          "topicSource": "contenido:palabras_clave"
+          "topicSource": "contenido:palabras_clave",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF11_RepasoPreExamen_SintesisFenitoina_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF13_LAD_Repaso.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF13_LAD_Repaso.pdf",
@@ -1466,19 +972,8 @@
             "tema-1-2"
           ],
           "sizeBytes": 170872,
-          "topicSource": "contenido:numero"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF14b_RepasoGeneral.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF14b_RepasoGeneral.pdf",
-          "type": "ficha",
-          "title": "RepasoGeneral",
-          "originalName": "QF14b_RepasoGeneral.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF14b_RepasoGeneral.pdf",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 177040,
-          "topicSource": "contenido:numero"
+          "topicSource": "contenido:numero",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF14a_RepasoGeneral_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF15_Tema4_Teoria.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF15_Tema4_Teoria.pdf",
@@ -1492,30 +987,6 @@
           "sizeBytes": 103506,
           "topicSource": "nombre"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF16b_Tema4_Teoria.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF16b_Tema4_Teoria.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Teoria",
-          "originalName": "QF16b_Tema4_Teoria.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF16b_Tema4_Teoria.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 131683,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF17b_Tema4_Teoria.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF17b_Tema4_Teoria.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Teoria",
-          "originalName": "QF17b_Tema4_Teoria.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF17b_Tema4_Teoria.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 147300,
-          "topicSource": "nombre"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18a_Tema4-5_Seminario.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18a_Tema4-5_Seminario.pdf",
           "type": "seminario",
@@ -1527,20 +998,8 @@
             "tema-5"
           ],
           "sizeBytes": 128699,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18b_Tema4-5_Seminario.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF18b_Tema4-5_Seminario.pdf",
-          "type": "seminario",
-          "title": "Tema 4-5 Seminario",
-          "originalName": "QF18b_Tema4-5_Seminario.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF18b_Tema4-5_Seminario.pdf",
-          "topics": [
-            "tema-4",
-            "tema-5"
-          ],
-          "sizeBytes": 136128,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF18a_Tema4-5_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF19a_Tema5_Teoria.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF19a_Tema5_Teoria.pdf",
@@ -1554,18 +1013,6 @@
           "sizeBytes": 133587,
           "topicSource": "nombre"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF19b_Tema5_Teoria.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF19b_Tema5_Teoria.pdf",
-          "type": "ficha",
-          "title": "Tema 5 Teoria",
-          "originalName": "QF19b_Tema5_Teoria.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF19b_Tema5_Teoria.pdf",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 158756,
-          "topicSource": "nombre"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF20a_Tema5_Seminario.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF20a_Tema5_Seminario.pdf",
           "type": "seminario",
@@ -1576,43 +1023,8 @@
             "tema-5"
           ],
           "sizeBytes": 143663,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF20b_Tema5_Seminario.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF20b_Tema5_Seminario.pdf",
-          "type": "seminario",
-          "title": "Tema 5 Seminario",
-          "originalName": "QF20b_Tema5_Seminario.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF20b_Tema5_Seminario.pdf",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 146260,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF21b_Tema4_Repaso.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF21b_Tema4_Repaso.pdf",
-          "type": "ficha",
-          "title": "Tema 4 Repaso",
-          "originalName": "QF21b_Tema4_Repaso.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF21b_Tema4_Repaso.pdf",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 165884,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF22b_Tema6_Teoria.pdf": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF22b_Tema6_Teoria.pdf",
-          "type": "ficha",
-          "title": "Tema 6 Teoria",
-          "originalName": "QF22b_Tema6_Teoria.pdf",
-          "path": "../01_QuimicaFarmaceutica/GuiasEstudio/QF22b_Tema6_Teoria.pdf",
-          "topics": [
-            "tema-6"
-          ],
-          "sizeBytes": 156175,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF20a_Tema5_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF24_Tema5_Repaso.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF24_Tema5_Repaso.pdf",
@@ -1624,7 +1036,8 @@
             "tema-5"
           ],
           "sizeBytes": 151827,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF24_Tema5_Repaso_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_03_Tema3_Seminario.pdf": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/GuiasEstudio/QF_03_Tema3_Seminario.pdf",
@@ -1770,164 +1183,6 @@
           "sizeBytes": 147169,
           "topicSource": "nombre"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF01a_Tema1-2-3_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF01a_Tema1-2-3_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 1-2-3 Teoria",
-          "originalName": "QF01a_Tema1-2-3_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF01a_Tema1-2-3_Teoria.mp4",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 57787371,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF10_LAD_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF10_LAD_Seminario.mp4",
-          "type": "seminario",
-          "title": "LAD Seminario",
-          "originalName": "QF10_LAD_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF10_LAD_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 66250913,
-          "topicSource": "heredado_de_archivo_hermano"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF11_RepasoPreExamen_SintesisFenitoina.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF11_RepasoPreExamen_SintesisFenitoina.mp4",
-          "type": "examen",
-          "title": "RepasoPreExamen SintesisFenitoina",
-          "originalName": "QF11_RepasoPreExamen_SintesisFenitoina.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF11_RepasoPreExamen_SintesisFenitoina.mp4",
-          "topics": [
-            "practica-3",
-            "tema-3"
-          ],
-          "sizeBytes": 55287931,
-          "topicSource": "heredado_de_archivo_hermano"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF13_LAD_Repaso.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF13_LAD_Repaso.mp4",
-          "type": "video",
-          "title": "LAD Repaso",
-          "originalName": "QF13_LAD_Repaso.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF13_LAD_Repaso.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 53545665,
-          "topicSource": "heredado_de_archivo_hermano"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF14a_RepasoGeneral.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF14a_RepasoGeneral.mp4",
-          "type": "video",
-          "title": "RepasoGeneral",
-          "originalName": "QF14a_RepasoGeneral.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF14a_RepasoGeneral.mp4",
-          "topics": [
-            "tema-1-2"
-          ],
-          "sizeBytes": 167707484,
-          "topicSource": "heredado_de_archivo_hermano"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF15_Tema4_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF15_Tema4_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 4 Teoria",
-          "originalName": "QF15_Tema4_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF15_Tema4_Teoria.mp4",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 45336043,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF16b_Tema4_Teoria_video_alternativo.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF16b_Tema4_Teoria_video_alternativo.mp4",
-          "type": "video",
-          "title": "Tema 4 Teoria video alternativo",
-          "originalName": "QF16b_Tema4_Teoria_video_alternativo.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF16b_Tema4_Teoria_video_alternativo.mp4",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 74872279,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF18a_Tema4-5_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF18a_Tema4-5_Seminario.mp4",
-          "type": "seminario",
-          "title": "Tema 4-5 Seminario",
-          "originalName": "QF18a_Tema4-5_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF18a_Tema4-5_Seminario.mp4",
-          "topics": [
-            "tema-4",
-            "tema-5"
-          ],
-          "sizeBytes": 60895491,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF19a_Tema5_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF19a_Tema5_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 5 Teoria",
-          "originalName": "QF19a_Tema5_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF19a_Tema5_Teoria.mp4",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 69145451,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF20a_Tema5_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF20a_Tema5_Seminario.mp4",
-          "type": "seminario",
-          "title": "Tema 5 Seminario",
-          "originalName": "QF20a_Tema5_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF20a_Tema5_Seminario.mp4",
-          "topics": [
-            "tema-5"
-          ],
-          "sizeBytes": 97786029,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF21b_Tema4_Repaso_video_alternativo.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF21b_Tema4_Repaso_video_alternativo.mp4",
-          "type": "video",
-          "title": "Tema 4 Repaso video alternativo",
-          "originalName": "QF21b_Tema4_Repaso_video_alternativo.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF21b_Tema4_Repaso_video_alternativo.mp4",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 63973011,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF22b_Tema6_Teoria_video_alternativo.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF22b_Tema6_Teoria_video_alternativo.mp4",
-          "type": "video",
-          "title": "Tema 6 Teoria video alternativo",
-          "originalName": "QF22b_Tema6_Teoria_video_alternativo.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF22b_Tema6_Teoria_video_alternativo.mp4",
-          "topics": [
-            "tema-6"
-          ],
-          "sizeBytes": 60143687,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.mp4",
-          "type": "seminario",
-          "title": "Tema 3 Seminario",
-          "originalName": "QF_03_Tema3_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 75705405,
-          "topicSource": "nombre"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_03_Tema3_Seminario.txt",
           "type": "seminario",
@@ -1938,19 +1193,8 @@
             "tema-3"
           ],
           "sizeBytes": 26420,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.mp4",
-          "type": "seminario",
-          "title": "Tema 3 Seminario",
-          "originalName": "QF_04_Tema3_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 99407990,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_03_Tema3_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_04_Tema3_Seminario.txt",
@@ -1962,19 +1206,8 @@
             "tema-3"
           ],
           "sizeBytes": 25378,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.mp4",
-          "type": "seminario",
-          "title": "Tema 3 Seminario",
-          "originalName": "QF_05_Tema3_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 103517428,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_04_Tema3_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_05_Tema3_Seminario.txt",
@@ -1986,19 +1219,8 @@
             "tema-3"
           ],
           "sizeBytes": 31514,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.mp4",
-          "type": "seminario",
-          "title": "Tema 3 - LAD Seminario",
-          "originalName": "QF_07_Tema3-LAD_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 100097521,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_05_Tema3_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_07_Tema3-LAD_Seminario.txt",
@@ -2010,19 +1232,8 @@
             "tema-3"
           ],
           "sizeBytes": 30046,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_08_LAD_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_08_LAD_Seminario.mp4",
-          "type": "seminario",
-          "title": "LAD Seminario",
-          "originalName": "QF_08_LAD_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_08_LAD_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 64517646,
-          "topicSource": "heredado_de_archivo_hermano"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_07_Tema3-LAD_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_08_LAD_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_08_LAD_Seminario.txt",
@@ -2036,18 +1247,6 @@
           "sizeBytes": 21039,
           "topicSource": "contenido:palabras_clave"
         },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_09_LAD_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_09_LAD_Seminario.mp4",
-          "type": "seminario",
-          "title": "LAD Seminario",
-          "originalName": "QF_09_LAD_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_09_LAD_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 85714395,
-          "topicSource": "heredado_de_archivo_hermano"
-        },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_09_LAD_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_09_LAD_Seminario.txt",
           "type": "seminario",
@@ -2058,19 +1257,8 @@
             "tema-3"
           ],
           "sizeBytes": 27095,
-          "topicSource": "contenido:palabras_clave"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_12_LAD_Seminario.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_12_LAD_Seminario.mp4",
-          "type": "seminario",
-          "title": "LAD Seminario",
-          "originalName": "QF_12_LAD_Seminario.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_12_LAD_Seminario.mp4",
-          "topics": [
-            "tema-3"
-          ],
-          "sizeBytes": 87208110,
-          "topicSource": "heredado_de_archivo_hermano"
+          "topicSource": "contenido:palabras_clave",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_09_LAD_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_12_LAD_Seminario.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_12_LAD_Seminario.txt",
@@ -2082,19 +1270,8 @@
             "tema-3"
           ],
           "sizeBytes": 57404,
-          "topicSource": "contenido:palabras_clave"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 4 Teoria",
-          "originalName": "QF_16_Tema4_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.mp4",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 65028773,
-          "topicSource": "nombre"
+          "topicSource": "contenido:palabras_clave",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_12_LAD_Seminario_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_16_Tema4_Teoria.txt",
@@ -2106,19 +1283,8 @@
             "tema-4"
           ],
           "sizeBytes": 23365,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 4 Teoria",
-          "originalName": "QF_17_Tema4_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.mp4",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 85157425,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_16_Tema4_Teoria_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_17_Tema4_Teoria.txt",
@@ -2130,19 +1296,8 @@
             "tema-4"
           ],
           "sizeBytes": 28912,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.mp4",
-          "type": "video",
-          "title": "Tema 4 Repaso",
-          "originalName": "QF_21_Tema4_Repaso.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.mp4",
-          "topics": [
-            "tema-4"
-          ],
-          "sizeBytes": 103173626,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_17_Tema4_Teoria_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_21_Tema4_Repaso.txt",
@@ -2154,19 +1309,8 @@
             "tema-4"
           ],
           "sizeBytes": 47378,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 6 Teoria",
-          "originalName": "QF_22_Tema6_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.mp4",
-          "topics": [
-            "tema-6"
-          ],
-          "sizeBytes": 60300779,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_21_Tema4_Repaso_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_22_Tema6_Teoria.txt",
@@ -2178,19 +1322,8 @@
             "tema-6"
           ],
           "sizeBytes": 22556,
-          "topicSource": "nombre"
-        },
-        "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.mp4": {
-          "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.mp4",
-          "type": "video",
-          "title": "Tema 7 Teoria",
-          "originalName": "QF_23_Tema7_Teoria.mp4",
-          "path": "../01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.mp4",
-          "topics": [
-            "tema-7"
-          ],
-          "sizeBytes": 63524630,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_22_Tema6_Teoria_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.txt": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/QF_23_Tema7_Teoria.txt",
@@ -2202,7 +1335,8 @@
             "tema-7"
           ],
           "sizeBytes": 29574,
-          "topicSource": "nombre"
+          "topicSource": "nombre",
+          "iaPath": "../01_QuimicaFarmaceutica/GuiasEstudio/chatgpt/QF_23_Tema7_Teoria_chatgpt.pdf"
         },
         "quimica-farmaceutica::01_QuimicaFarmaceutica/Resumen de la clase.docx": {
           "id": "quimica-farmaceutica::01_QuimicaFarmaceutica/Resumen de la clase.docx",
@@ -2612,7 +1746,7 @@
           "originalName": "guia.html",
           "path": "../bioquimica clinica/guia_estudio/guia.html",
           "topics": [],
-          "sizeBytes": 105230,
+          "sizeBytes": 112650,
           "altPath": "../bioquimica clinica/guia_estudio/Guia_Estudio.pdf"
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-1": {
@@ -2624,7 +1758,7 @@
           "topics": [
             "bloque-1"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-2": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-2",
@@ -2635,7 +1769,7 @@
           "topics": [
             "bloque-2"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-3": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-3",
@@ -2646,7 +1780,7 @@
           "topics": [
             "bloque-3"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-4": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-4",
@@ -2657,7 +1791,7 @@
           "topics": [
             "bloque-4"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-5": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-5",
@@ -2668,7 +1802,7 @@
           "topics": [
             "bloque-5"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-6": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-6",
@@ -2679,7 +1813,7 @@
           "topics": [
             "bloque-6"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-7": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-7",
@@ -2690,7 +1824,7 @@
           "topics": [
             "bloque-7"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-8": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/guia.html::topic-bloque-8",
@@ -2701,7 +1835,7 @@
           "topics": [
             "bloque-8"
           ],
-          "sizeBytes": 105230
+          "sizeBytes": 112650
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html",
@@ -2710,7 +1844,7 @@
           "originalName": "chuleta.html",
           "path": "../bioquimica clinica/guia_estudio/chuleta.html",
           "topics": [],
-          "sizeBytes": 10489,
+          "sizeBytes": 15430,
           "altPath": "../bioquimica clinica/guia_estudio/Chuleta_Mnemotecnias.pdf"
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-3": {
@@ -2722,7 +1856,7 @@
           "topics": [
             "bloque-3"
           ],
-          "sizeBytes": 10489
+          "sizeBytes": 15430
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-4": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-4",
@@ -2733,7 +1867,7 @@
           "topics": [
             "bloque-4"
           ],
-          "sizeBytes": 10489
+          "sizeBytes": 15430
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-5": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-5",
@@ -2744,7 +1878,7 @@
           "topics": [
             "bloque-5"
           ],
-          "sizeBytes": 10489
+          "sizeBytes": 15430
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-6": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-6",
@@ -2755,7 +1889,7 @@
           "topics": [
             "bloque-6"
           ],
-          "sizeBytes": 10489
+          "sizeBytes": 15430
         },
         "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-7": {
           "id": "bioquimica-clinica::bioquimica clinica/guia_estudio/chuleta.html::topic-bloque-7",
@@ -2766,7 +1900,7 @@
           "topics": [
             "bloque-7"
           ],
-          "sizeBytes": 10489
+          "sizeBytes": 15430
         },
         "bioquimica-clinica::bioquimica clinica/simulador/index.html::simulador": {
           "id": "bioquimica-clinica::bioquimica clinica/simulador/index.html::simulador",
@@ -2775,7 +1909,7 @@
           "originalName": "index.html",
           "path": "../bioquimica clinica/simulador/index.html",
           "topics": [],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 400
         },
         "bioquimica-clinica::bioquimica clinica/simulador/index.html::flashcards-bloque-1": {
@@ -2787,7 +1921,7 @@
           "topics": [
             "bloque-1"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 33,
           "shared": true
         },
@@ -2800,7 +1934,7 @@
           "topics": [
             "bloque-1"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 33,
           "shared": true
         },
@@ -2813,7 +1947,7 @@
           "topics": [
             "bloque-2"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 38,
           "shared": true
         },
@@ -2826,7 +1960,7 @@
           "topics": [
             "bloque-2"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 38,
           "shared": true
         },
@@ -2839,7 +1973,7 @@
           "topics": [
             "bloque-3"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 83,
           "shared": true
         },
@@ -2852,7 +1986,7 @@
           "topics": [
             "bloque-3"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 83,
           "shared": true
         },
@@ -2865,7 +1999,7 @@
           "topics": [
             "bloque-4"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 50,
           "shared": true
         },
@@ -2878,7 +2012,7 @@
           "topics": [
             "bloque-4"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 50,
           "shared": true
         },
@@ -2891,7 +2025,7 @@
           "topics": [
             "bloque-5"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 62,
           "shared": true
         },
@@ -2904,7 +2038,7 @@
           "topics": [
             "bloque-5"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 62,
           "shared": true
         },
@@ -2917,7 +2051,7 @@
           "topics": [
             "bloque-6"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 59,
           "shared": true
         },
@@ -2930,7 +2064,7 @@
           "topics": [
             "bloque-6"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 59,
           "shared": true
         },
@@ -2943,7 +2077,7 @@
           "topics": [
             "bloque-7"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 35,
           "shared": true
         },
@@ -2956,7 +2090,7 @@
           "topics": [
             "bloque-7"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 35,
           "shared": true
         },
@@ -2969,7 +2103,7 @@
           "topics": [
             "bloque-8"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 40,
           "shared": true
         },
@@ -2982,7 +2116,7 @@
           "topics": [
             "bloque-8"
           ],
-          "sizeBytes": 12722,
+          "sizeBytes": 13006,
           "questionCount": 40,
           "shared": true
         },
@@ -3716,7 +2850,7 @@
           "originalName": "guia.html",
           "path": "../Farmacologia/guia_estudio/guia.html",
           "topics": [],
-          "sizeBytes": 45129,
+          "sizeBytes": 52711,
           "altPath": "../Farmacologia/guia_estudio/Guia_Estudio_P1_Farmacologia.pdf"
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-1": {
@@ -3728,7 +2862,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-2": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-2",
@@ -3739,7 +2873,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-3": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-3",
@@ -3750,7 +2884,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-4": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-4",
@@ -3761,7 +2895,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-5": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-5",
@@ -3772,7 +2906,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-6": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-6",
@@ -3783,7 +2917,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-7": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-7",
@@ -3794,7 +2928,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-8": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-8",
@@ -3805,7 +2939,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-9": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-9",
@@ -3816,7 +2950,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-10": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-10",
@@ -3827,7 +2961,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-11": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-11",
@@ -3838,7 +2972,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-12": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-12",
@@ -3849,7 +2983,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-13": {
           "id": "farmacologia::Farmacologia/guia_estudio/guia.html::topic-tema-13",
@@ -3860,7 +2994,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 45129
+          "sizeBytes": 52711
         },
         "farmacologia::Farmacologia/guia_estudio/chuleta.html": {
           "id": "farmacologia::Farmacologia/guia_estudio/chuleta.html",
@@ -3869,7 +3003,7 @@
           "originalName": "chuleta.html",
           "path": "../Farmacologia/guia_estudio/chuleta.html",
           "topics": [],
-          "sizeBytes": 14304,
+          "sizeBytes": 19239,
           "altPath": "../Farmacologia/guia_estudio/Chuleta_Mnemotecnias_P1.pdf"
         },
         "farmacologia::Farmacologia/guia_estudio/chuleta.html::topic-tema-6": {
@@ -3881,7 +3015,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 14304
+          "sizeBytes": 19239
         },
         "farmacologia::Farmacologia/guia_estudio/chuleta.html::topic-tema-7": {
           "id": "farmacologia::Farmacologia/guia_estudio/chuleta.html::topic-tema-7",
@@ -3892,7 +3026,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 14304
+          "sizeBytes": 19239
         },
         "farmacologia::Farmacologia/simulador/index.html::simulador": {
           "id": "farmacologia::Farmacologia/simulador/index.html::simulador",
@@ -3901,7 +3035,7 @@
           "originalName": "index.html",
           "path": "../Farmacologia/simulador/index.html",
           "topics": [],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 222
         },
         "farmacologia::Farmacologia/simulador/index.html::flashcards-tema-1": {
@@ -3913,7 +3047,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 20,
           "shared": true
         },
@@ -3926,7 +3060,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 20,
           "shared": true
         },
@@ -3939,7 +3073,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 21,
           "shared": true
         },
@@ -3952,7 +3086,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 21,
           "shared": true
         },
@@ -3965,7 +3099,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 15,
           "shared": true
         },
@@ -3978,7 +3112,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 15,
           "shared": true
         },
@@ -3991,7 +3125,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 23,
           "shared": true
         },
@@ -4004,7 +3138,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 23,
           "shared": true
         },
@@ -4017,7 +3151,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 17,
           "shared": true
         },
@@ -4030,7 +3164,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 17,
           "shared": true
         },
@@ -4043,7 +3177,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 21,
           "shared": true
         },
@@ -4056,7 +3190,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 21,
           "shared": true
         },
@@ -4069,7 +3203,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 15,
           "shared": true
         },
@@ -4082,7 +3216,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 15,
           "shared": true
         },
@@ -4095,7 +3229,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 17,
           "shared": true
         },
@@ -4108,7 +3242,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 17,
           "shared": true
         },
@@ -4121,7 +3255,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 25,
           "shared": true
         },
@@ -4134,7 +3268,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 25,
           "shared": true
         },
@@ -4147,7 +3281,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 9,
           "shared": true
         },
@@ -4160,7 +3294,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 9,
           "shared": true
         },
@@ -4173,7 +3307,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 17,
           "shared": true
         },
@@ -4186,7 +3320,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 17,
           "shared": true
         },
@@ -4199,7 +3333,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 15,
           "shared": true
         },
@@ -4212,7 +3346,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 15,
           "shared": true
         },
@@ -4225,7 +3359,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 7,
           "shared": true
         },
@@ -4238,7 +3372,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 12460,
+          "sizeBytes": 12741,
           "questionCount": 7,
           "shared": true
         },
@@ -4615,7 +3749,7 @@
           "originalName": "guia.html",
           "path": "../Metodologia investigacion/guia_estudio/guia.html",
           "topics": [],
-          "sizeBytes": 30123,
+          "sizeBytes": 37718,
           "altPath": "../Metodologia investigacion/guia_estudio/Guia_Estudio.pdf"
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-1": {
@@ -4627,7 +3761,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-2": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-2",
@@ -4638,7 +3772,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-3": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-3",
@@ -4649,7 +3783,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-4": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-4",
@@ -4660,7 +3794,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-5": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-5",
@@ -4671,7 +3805,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-6": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-6",
@@ -4682,7 +3816,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-7": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-7",
@@ -4693,7 +3827,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-8": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-8",
@@ -4704,7 +3838,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-9": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-9",
@@ -4715,7 +3849,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-10": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-10",
@@ -4726,7 +3860,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-11": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-11",
@@ -4737,7 +3871,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-12": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-12",
@@ -4748,7 +3882,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-13": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/guia.html::topic-tema-13",
@@ -4759,7 +3893,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 30123
+          "sizeBytes": 37718
         },
         "metodologia-investigacion::Metodologia investigacion/guia_estudio/chuleta.html": {
           "id": "metodologia-investigacion::Metodologia investigacion/guia_estudio/chuleta.html",
@@ -4768,7 +3902,7 @@
           "originalName": "chuleta.html",
           "path": "../Metodologia investigacion/guia_estudio/chuleta.html",
           "topics": [],
-          "sizeBytes": 8718,
+          "sizeBytes": 13666,
           "altPath": "../Metodologia investigacion/guia_estudio/Chuleta_Mnemotecnias.pdf"
         },
         "metodologia-investigacion::Metodologia investigacion/simulador/index.html::simulador": {
@@ -4778,7 +3912,7 @@
           "originalName": "index.html",
           "path": "../Metodologia investigacion/simulador/index.html",
           "topics": [],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 98
         },
         "metodologia-investigacion::Metodologia investigacion/simulador/index.html::flashcards-tema-1": {
@@ -4790,7 +3924,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 8,
           "shared": true
         },
@@ -4803,7 +3937,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 8,
           "shared": true
         },
@@ -4816,7 +3950,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 11,
           "shared": true
         },
@@ -4829,7 +3963,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 11,
           "shared": true
         },
@@ -4842,7 +3976,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 6,
           "shared": true
         },
@@ -4855,7 +3989,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 6,
           "shared": true
         },
@@ -4868,7 +4002,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 11,
           "shared": true
         },
@@ -4881,7 +4015,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 11,
           "shared": true
         },
@@ -4894,7 +4028,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 13,
           "shared": true
         },
@@ -4907,7 +4041,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 13,
           "shared": true
         },
@@ -4920,7 +4054,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -4933,7 +4067,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -4946,7 +4080,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 8,
           "shared": true
         },
@@ -4959,7 +4093,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 8,
           "shared": true
         },
@@ -4972,7 +4106,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -4985,7 +4119,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -4998,7 +4132,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 9,
           "shared": true
         },
@@ -5011,7 +4145,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 9,
           "shared": true
         },
@@ -5024,7 +4158,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 8,
           "shared": true
         },
@@ -5037,7 +4171,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 8,
           "shared": true
         },
@@ -5050,7 +4184,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -5063,7 +4197,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -5076,7 +4210,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 4,
           "shared": true
         },
@@ -5089,7 +4223,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 4,
           "shared": true
         },
@@ -5102,7 +4236,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -5115,7 +4249,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 12724,
+          "sizeBytes": 13008,
           "questionCount": 5,
           "shared": true
         },
@@ -5928,7 +5062,7 @@
           "originalName": "guia.html",
           "path": "../Microbiologia y parasitologia clinica/guia_estudio/guia.html",
           "topics": [],
-          "sizeBytes": 236818,
+          "sizeBytes": 244551,
           "altPath": "../Microbiologia y parasitologia clinica/guia_estudio/Guia_Estudio_Microbiologia_y_Parasitologia.pdf"
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-1": {
@@ -5940,7 +5074,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-2": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-2",
@@ -5951,7 +5085,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-3": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-3",
@@ -5962,7 +5096,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-4": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-4",
@@ -5973,7 +5107,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-5": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-5",
@@ -5984,7 +5118,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-6": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-6",
@@ -5995,7 +5129,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-7": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-7",
@@ -6006,7 +5140,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-8": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-8",
@@ -6017,7 +5151,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-9": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-9",
@@ -6028,7 +5162,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-10": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-10",
@@ -6039,7 +5173,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-11": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-11",
@@ -6050,7 +5184,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-12": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-12",
@@ -6061,7 +5195,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-13": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-13",
@@ -6072,7 +5206,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-14": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-14",
@@ -6083,7 +5217,7 @@
           "topics": [
             "tema-14"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-15": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-15",
@@ -6094,7 +5228,7 @@
           "topics": [
             "tema-15"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-16": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-16",
@@ -6105,7 +5239,7 @@
           "topics": [
             "tema-16"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-17": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/guia.html::topic-tema-17",
@@ -6116,7 +5250,7 @@
           "topics": [
             "tema-17"
           ],
-          "sizeBytes": 236818
+          "sizeBytes": 244551
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/chuleta.html": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/chuleta.html",
@@ -6125,7 +5259,7 @@
           "originalName": "chuleta.html",
           "path": "../Microbiologia y parasitologia clinica/guia_estudio/chuleta.html",
           "topics": [],
-          "sizeBytes": 28967,
+          "sizeBytes": 33917,
           "altPath": "../Microbiologia y parasitologia clinica/guia_estudio/Chuleta_Mnemotecnias.pdf"
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/guia_estudio/chuleta.html::topic-tema-9": {
@@ -6137,7 +5271,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 28967
+          "sizeBytes": 33917
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/simulador/index.html::simulador": {
           "id": "microbiologia-parasitologia::Microbiologia y parasitologia clinica/simulador/index.html::simulador",
@@ -6146,7 +5280,7 @@
           "originalName": "index.html",
           "path": "../Microbiologia y parasitologia clinica/simulador/index.html",
           "topics": [],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 318
         },
         "microbiologia-parasitologia::Microbiologia y parasitologia clinica/simulador/index.html::flashcards-tema-1": {
@@ -6158,7 +5292,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 25,
           "shared": true
         },
@@ -6171,7 +5305,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 25,
           "shared": true
         },
@@ -6184,7 +5318,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 16,
           "shared": true
         },
@@ -6197,7 +5331,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 16,
           "shared": true
         },
@@ -6210,7 +5344,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 18,
           "shared": true
         },
@@ -6223,7 +5357,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 18,
           "shared": true
         },
@@ -6236,7 +5370,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 12,
           "shared": true
         },
@@ -6249,7 +5383,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 12,
           "shared": true
         },
@@ -6262,7 +5396,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 17,
           "shared": true
         },
@@ -6275,7 +5409,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 17,
           "shared": true
         },
@@ -6288,7 +5422,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 21,
           "shared": true
         },
@@ -6301,7 +5435,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 21,
           "shared": true
         },
@@ -6314,7 +5448,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 22,
           "shared": true
         },
@@ -6327,7 +5461,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 22,
           "shared": true
         },
@@ -6340,7 +5474,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 23,
           "shared": true
         },
@@ -6353,7 +5487,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 23,
           "shared": true
         },
@@ -6366,7 +5500,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 17,
           "shared": true
         },
@@ -6379,7 +5513,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 17,
           "shared": true
         },
@@ -6392,7 +5526,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 21,
           "shared": true
         },
@@ -6405,7 +5539,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 21,
           "shared": true
         },
@@ -6418,7 +5552,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 15,
           "shared": true
         },
@@ -6431,7 +5565,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 15,
           "shared": true
         },
@@ -6444,7 +5578,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 10,
           "shared": true
         },
@@ -6457,7 +5591,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 10,
           "shared": true
         },
@@ -6470,7 +5604,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 17,
           "shared": true
         },
@@ -6483,7 +5617,7 @@
           "topics": [
             "tema-13"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 17,
           "shared": true
         },
@@ -6496,7 +5630,7 @@
           "topics": [
             "tema-14"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 15,
           "shared": true
         },
@@ -6509,7 +5643,7 @@
           "topics": [
             "tema-14"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 15,
           "shared": true
         },
@@ -6522,7 +5656,7 @@
           "topics": [
             "tema-15"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 29,
           "shared": true
         },
@@ -6535,7 +5669,7 @@
           "topics": [
             "tema-15"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 29,
           "shared": true
         },
@@ -6548,7 +5682,7 @@
           "topics": [
             "tema-16"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 20,
           "shared": true
         },
@@ -6561,7 +5695,7 @@
           "topics": [
             "tema-16"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 20,
           "shared": true
         },
@@ -6574,7 +5708,7 @@
           "topics": [
             "tema-17"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 20,
           "shared": true
         },
@@ -6587,7 +5721,7 @@
           "topics": [
             "tema-17"
           ],
-          "sizeBytes": 12759,
+          "sizeBytes": 13043,
           "questionCount": 20,
           "shared": true
         },
@@ -7123,7 +6257,7 @@
           "originalName": "guia.html",
           "path": "../tecnologia farmaceutica/guia_estudio/guia.html",
           "topics": [],
-          "sizeBytes": 39723,
+          "sizeBytes": 47282,
           "altPath": "../tecnologia farmaceutica/guia_estudio/Guia_Estudio_Tecnologia_Farmaceutica.pdf"
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-1": {
@@ -7135,7 +6269,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-2": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-2",
@@ -7146,7 +6280,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-3": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-3",
@@ -7157,7 +6291,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-4": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-4",
@@ -7168,7 +6302,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-5": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-5",
@@ -7179,7 +6313,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-6": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-6",
@@ -7190,7 +6324,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-7": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-7",
@@ -7201,7 +6335,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-8": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-8",
@@ -7212,7 +6346,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-9": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-9",
@@ -7223,7 +6357,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-10": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-10",
@@ -7234,7 +6368,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-11": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-11",
@@ -7245,7 +6379,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-12": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/guia.html::topic-tema-12",
@@ -7256,7 +6390,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 39723
+          "sizeBytes": 47282
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html",
@@ -7265,7 +6399,7 @@
           "originalName": "chuleta.html",
           "path": "../tecnologia farmaceutica/guia_estudio/chuleta.html",
           "topics": [],
-          "sizeBytes": 8810,
+          "sizeBytes": 13756,
           "altPath": "../tecnologia farmaceutica/guia_estudio/Chuleta_Mnemotecnias_Tecnologia_Farmaceutica.pdf"
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html::topic-tema-2": {
@@ -7277,7 +6411,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 8810
+          "sizeBytes": 13756
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html::topic-tema-3": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html::topic-tema-3",
@@ -7288,7 +6422,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 8810
+          "sizeBytes": 13756
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html::topic-tema-11": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/guia_estudio/chuleta.html::topic-tema-11",
@@ -7299,7 +6433,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 8810
+          "sizeBytes": 13756
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/simulador/index.html::simulador": {
           "id": "tecnologia-farmaceutica::tecnologia farmaceutica/simulador/index.html::simulador",
@@ -7308,7 +6442,7 @@
           "originalName": "index.html",
           "path": "../tecnologia farmaceutica/simulador/index.html",
           "topics": [],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 202
         },
         "tecnologia-farmaceutica::tecnologia farmaceutica/simulador/index.html::flashcards-tema-1": {
@@ -7320,7 +6454,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 12,
           "shared": true
         },
@@ -7333,7 +6467,7 @@
           "topics": [
             "tema-1"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 12,
           "shared": true
         },
@@ -7346,7 +6480,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 29,
           "shared": true
         },
@@ -7359,7 +6493,7 @@
           "topics": [
             "tema-2"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 29,
           "shared": true
         },
@@ -7372,7 +6506,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 19,
           "shared": true
         },
@@ -7385,7 +6519,7 @@
           "topics": [
             "tema-3"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 19,
           "shared": true
         },
@@ -7398,7 +6532,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 16,
           "shared": true
         },
@@ -7411,7 +6545,7 @@
           "topics": [
             "tema-4"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 16,
           "shared": true
         },
@@ -7424,7 +6558,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 13,
           "shared": true
         },
@@ -7437,7 +6571,7 @@
           "topics": [
             "tema-5"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 13,
           "shared": true
         },
@@ -7450,7 +6584,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 23,
           "shared": true
         },
@@ -7463,7 +6597,7 @@
           "topics": [
             "tema-6"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 23,
           "shared": true
         },
@@ -7476,7 +6610,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 43,
           "shared": true
         },
@@ -7489,7 +6623,7 @@
           "topics": [
             "tema-7"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 43,
           "shared": true
         },
@@ -7502,7 +6636,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 15,
           "shared": true
         },
@@ -7515,7 +6649,7 @@
           "topics": [
             "tema-8"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 15,
           "shared": true
         },
@@ -7528,7 +6662,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 9,
           "shared": true
         },
@@ -7541,7 +6675,7 @@
           "topics": [
             "tema-9"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 9,
           "shared": true
         },
@@ -7554,7 +6688,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 9,
           "shared": true
         },
@@ -7567,7 +6701,7 @@
           "topics": [
             "tema-10"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 9,
           "shared": true
         },
@@ -7580,7 +6714,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 9,
           "shared": true
         },
@@ -7593,7 +6727,7 @@
           "topics": [
             "tema-11"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 9,
           "shared": true
         },
@@ -7606,7 +6740,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 5,
           "shared": true
         },
@@ -7619,7 +6753,7 @@
           "topics": [
             "tema-12"
           ],
-          "sizeBytes": 12480,
+          "sizeBytes": 12761,
           "questionCount": 5,
           "shared": true
         },

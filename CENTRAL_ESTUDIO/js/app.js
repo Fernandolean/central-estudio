@@ -186,6 +186,7 @@ function resourceRowHTML(subject, topic, resource) {
         <div class="resource-row__meta">
           ${metaBits.map((b) => `<span>${escapeHtml(b)}</span>`).join("")}
           ${resource.guionPath ? `<a href="${escapeAttr(resource.guionPath)}" target="_blank" rel="noopener">ver guion</a>` : ""}
+          ${resource.iaPath ? `<a href="${escapeAttr(resource.iaPath)}" target="_blank" rel="noopener">ver versión IA</a>` : ""}
         </div>
         ${bodyExtra}
       </div>

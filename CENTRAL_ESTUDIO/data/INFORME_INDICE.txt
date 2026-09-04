@@ -1,12 +1,12 @@
 ========================================================================
 INFORME - Generacion del indice academico (CENTRAL_ESTUDIO)
 ========================================================================
-Generado: 2026-09-03T13:15:10
+Generado: 2026-09-04T11:48:54
 
-Total de recursos indexados: 478
+Total de recursos indexados: 413
 
 Por asignatura:
-  - Química Farmacéutica: 154 recursos, 8 temas, 0 sin clasificar por tema
+  - Química Farmacéutica: 89 recursos, 8 temas, 0 sin clasificar por tema
   - Bioquímica Clínica: 65 recursos, 8 temas, 6 sin clasificar por tema
   - Farmacología: 63 recursos, 13 temas, 2 sin clasificar por tema
   - Metodología de la Investigación: 54 recursos, 13 temas, 4 sin clasificar por tema
