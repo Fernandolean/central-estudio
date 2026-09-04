@@ -2,6 +2,10 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
 <title>Guía de Estudio — Parciales de Microbiología y Parasitología Clínicas</title>
 <style>
   @page { size: A4; margin: 20mm 16mm; }
@@ -62,6 +66,50 @@
   .two-col { display: flex; gap: 6mm; }
   .two-col > div { flex: 1; }
   .footer-page { font-size: 7.5pt; color: #93a5b1; text-align: center; margin-top: 6mm; }
+
+  /* ===== Mejoras visuales para pantalla (el PDF impreso no cambia) ===== */
+  @media screen {
+    body {
+      font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
+      max-width: 780px; margin: 0 auto; padding: 32px 24px 64px;
+      overflow-wrap: break-word; background: #eef6f5;
+    }
+    .cover {
+      height: auto; padding: 48px 24px; border-radius: 18px;
+      background: linear-gradient(150deg, #0e7c86 0%, #0a5e66 100%);
+      box-shadow: 0 20px 45px rgba(10, 94, 102, .22);
+    }
+    .cover .pill { background: rgba(255,255,255,.2); }
+    .cover h1, .cover h2 { color: #fff; }
+    .cover h2 { opacity: .88; }
+    .cover .toc { background: rgba(255,255,255,.1); border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
+    .cover .toc h3 { color: #fff; border-bottom-color: rgba(255,255,255,.28); }
+    .cover .toc li { color: rgba(255,255,255,.94); }
+    .cover .note { color: rgba(255,255,255,.68); }
+
+    h1.tema {
+      background: linear-gradient(135deg, #0e7c86, #0a5e66);
+      box-shadow: 0 8px 20px rgba(14,124,134,.22);
+    }
+
+    .callout { position: relative; padding: 2.5mm 4mm 2.5mm 32px; }
+    .callout::before { content: "💡"; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 13px; }
+    .callout.warn::before { content: "⚠️"; }
+    .callout.mnemo::before { content: "🧠"; }
+
+    table {
+      border-radius: 10px; overflow-x: auto; overflow-y: hidden; display: block;
+      box-shadow: 0 3px 12px rgba(20,40,50,.1); -webkit-overflow-scrolling: touch;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    body { padding: 20px 16px 48px; }
+    .cover { padding: 32px 16px; }
+    .cover h1 { font-size: 21pt; }
+    .cover .toc { max-width: 100%; padding: 14px 16px; }
+    h1.tema { font-size: 14pt; padding: 10px 12px; }
+    .two-col { flex-direction: column; gap: 3mm; }
+  }
 </style>
 </head>
 <body>
