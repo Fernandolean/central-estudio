@@ -133,13 +133,16 @@
       border: 1px solid #dde3e8; border-radius: 999px; padding: 6px;
       box-shadow: 0 6px 18px rgba(20,40,50,.18);
     }
-    .a11y-bar button {
+    .a11y-bar button, .a11y-bar a {
       width: 34px; height: 34px; border-radius: 50%; border: 1px solid #dde3e8;
       background: #fff; color: #0a5e66; font-weight: 700; font-size: 13px;
       cursor: pointer; display: flex; align-items: center; justify-content: center;
       font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; padding: 0;
+      text-decoration: none; box-sizing: border-box;
     }
-    .a11y-bar button:hover { background: #e3f4f3; }
+    .a11y-bar button:hover, .a11y-bar a:hover { background: #e3f4f3; }
+    .a11y-bar a.a11y-back { background: #0e7c86; color: #fff; border-color: #0e7c86; font-size: 16px; }
+    .a11y-bar a.a11y-back:hover { background: #0a5e66; }
   }
   @media print {
     .a11y-bar { display: none !important; }
@@ -166,6 +169,7 @@
 <body>
 
 <div class="a11y-bar" role="toolbar" aria-label="Ajustes de lectura">
+  <a class="a11y-back" href="../../CENTRAL_ESTUDIO/index.html#/asignatura/bioquimica-clinica" title="Volver a la asignatura en Central de Estudio" aria-label="Volver a la asignatura en Central de Estudio">←</a>
   <button type="button" data-a11y="font-dec" title="Reducir letra" aria-label="Reducir tamaño de letra">A−</button>
   <button type="button" data-a11y="font-inc" title="Aumentar letra" aria-label="Aumentar tamaño de letra">A+</button>
   <button type="button" data-a11y="contrast" title="Alto contraste" aria-label="Alternar alto contraste">◐</button>
