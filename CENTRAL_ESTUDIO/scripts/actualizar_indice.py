@@ -1133,6 +1133,22 @@ def main():
     js_content = "window.ACADEMIC_INDEX = " + json.dumps(index, ensure_ascii=False) + ";\n"
     (DATA_DIR / "academic_index.js").write_text(js_content, encoding="utf-8")
 
+    # Version de cache-busting en index.html: sin esto, el navegador (o el
+    # CDN de GitHub Pages) puede seguir sirviendo un academic_index.js
+    # cacheado despues de actualizar el indice, y la web parece "no
+    # actualizada" aunque el commit sea el correcto.
+    version = re.sub(r"[^0-9]", "", report["generated_at"])
+    index_html_path = APP_DIR / "index.html"
+    if index_html_path.exists():
+        html = index_html_path.read_text(encoding="utf-8")
+        new_html = re.sub(
+            r'src="data/academic_index\.js(?:\?v=[^"]*)?"',
+            f'src="data/academic_index.js?v={version}"',
+            html,
+        )
+        if new_html != html:
+            index_html_path.write_text(new_html, encoding="utf-8")
+
     write_report(report, index)
 
 

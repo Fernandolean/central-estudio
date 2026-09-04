@@ -1,7 +1,7 @@
 ========================================================================
 INFORME - Generacion del indice academico (CENTRAL_ESTUDIO)
 ========================================================================
-Generado: 2026-09-04T11:48:54
+Generado: 2026-09-04T13:32:43
 
 Total de recursos indexados: 413
 
