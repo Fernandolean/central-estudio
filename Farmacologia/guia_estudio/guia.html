@@ -93,7 +93,11 @@
       box-shadow: 0 8px 20px rgba(14,124,134,.22);
     }
 
-    .callout { position: relative; padding: 2.5mm 4mm 2.5mm 32px; }
+    p { margin: 0 0 14px; }
+    ul, ol { margin: 0 0 14px; }
+    li { margin-bottom: 4px; }
+
+    .callout { position: relative; padding: 2.5mm 4mm 2.5mm 32px; margin: 18px 0; }
     .callout::before { content: "💡"; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 13px; }
     .callout.warn::before { content: "⚠️"; }
     .callout.mnemo::before { content: "🧠"; }
@@ -111,9 +115,52 @@
     h1.tema { font-size: 14pt; padding: 10px 12px; }
     .two-col { flex-direction: column; gap: 3mm; }
   }
+
+  /* ===== Barra de accesibilidad: tamaño de letra y alto contraste ===== */
+  @media screen {
+    .a11y-bar {
+      position: fixed; top: 14px; right: 14px; z-index: 999;
+      display: flex; gap: 6px; background: rgba(255,255,255,.96);
+      border: 1px solid #dde3e8; border-radius: 999px; padding: 6px;
+      box-shadow: 0 6px 18px rgba(20,40,50,.18);
+    }
+    .a11y-bar button {
+      width: 34px; height: 34px; border-radius: 50%; border: 1px solid #dde3e8;
+      background: #fff; color: #0a5e66; font-weight: 700; font-size: 13px;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; padding: 0;
+    }
+    .a11y-bar button:hover { background: #e3f4f3; }
+  }
+  @media print {
+    .a11y-bar { display: none !important; }
+    html, body { zoom: 100% !important; }
+  }
+
+  html.hc body { background: #fff !important; color: #000 !important; }
+  html.hc .cover { background: #000 !important; box-shadow: none !important; }
+  html.hc .cover .pill { background: #fff !important; color: #000 !important; }
+  html.hc .cover h1, html.hc .cover h2 { color: #fff !important; }
+  html.hc .cover .toc { background: #111 !important; }
+  html.hc .cover .toc h3, html.hc .cover .toc li { color: #fff !important; border-color: #555 !important; }
+  html.hc .cover .note { color: #ccc !important; }
+  html.hc h1.tema { background: #000 !important; color: #fff !important; box-shadow: none !important; }
+  html.hc h1.tema .num { opacity: 1 !important; }
+  html.hc h2, html.hc h3, html.hc b, html.hc strong { color: #000 !important; }
+  html.hc .callout { background: #fff !important; border: 2px solid #000 !important; color: #000 !important; }
+  html.hc table { border: 2px solid #000 !important; box-shadow: none !important; }
+  html.hc th { background: #000 !important; color: #fff !important; }
+  html.hc td { border-color: #000 !important; color: #000 !important; }
+  html.hc tr:nth-child(even) td { background: #eee !important; }
 </style>
 </head>
 <body>
+
+<div class="a11y-bar" role="toolbar" aria-label="Ajustes de lectura">
+  <button type="button" data-a11y="font-dec" title="Reducir letra" aria-label="Reducir tamaño de letra">A−</button>
+  <button type="button" data-a11y="font-inc" title="Aumentar letra" aria-label="Aumentar tamaño de letra">A+</button>
+  <button type="button" data-a11y="contrast" title="Alto contraste" aria-label="Alternar alto contraste">◐</button>
+</div>
 
 <!-- ===================== PORTADA ===================== -->
 <div class="cover">
@@ -625,5 +672,40 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 
 <div class="footer-page">Tema 13 — FAME y anticuerpos monoclonales</div>
 
+<script>
+(function(){
+  var KEY_FONT = "guiaFontZoom", KEY_HC = "guiaHighContrast";
+  var STEPS = [90, 100, 110, 125, 140, 160];
+  var scale = 100, hc = false;
+  try {
+    var saved = parseInt(localStorage.getItem(KEY_FONT), 10);
+    if (STEPS.indexOf(saved) !== -1) scale = saved;
+    hc = localStorage.getItem(KEY_HC) === "1";
+  } catch (e) {}
+  function apply(){
+    document.documentElement.style.zoom = scale + "%";
+    document.documentElement.classList.toggle("hc", hc);
+  }
+  apply();
+  document.addEventListener("DOMContentLoaded", function(){
+    var bar = document.querySelector(".a11y-bar");
+    if (!bar) return;
+    var dec = bar.querySelector('[data-a11y="font-dec"]');
+    var inc = bar.querySelector('[data-a11y="font-inc"]');
+    var hcBtn = bar.querySelector('[data-a11y="contrast"]');
+    if (dec) dec.addEventListener("click", function(){
+      var i = STEPS.indexOf(scale);
+      if (i > 0) { scale = STEPS[i - 1]; apply(); try { localStorage.setItem(KEY_FONT, scale); } catch(e){} }
+    });
+    if (inc) inc.addEventListener("click", function(){
+      var i = STEPS.indexOf(scale);
+      if (i < STEPS.length - 1) { scale = STEPS[i + 1]; apply(); try { localStorage.setItem(KEY_FONT, scale); } catch(e){} }
+    });
+    if (hcBtn) hcBtn.addEventListener("click", function(){
+      hc = !hc; apply(); try { localStorage.setItem(KEY_HC, hc ? "1" : "0"); } catch(e){}
+    });
+  });
+})();
+</script>
 </body>
 </html>
