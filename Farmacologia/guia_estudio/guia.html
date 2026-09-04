@@ -72,7 +72,7 @@
   @media screen {
     body {
       font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
-      max-width: 780px; margin: 0 auto; padding: 32px 24px 64px;
+      max-width: 1000px; margin: 0 auto; padding: 32px 24px 64px;
       overflow-wrap: break-word; background: #eef6f5;
     }
     .cover {
@@ -86,12 +86,17 @@
     .cover .toc { background: rgba(255,255,255,.1); border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
     .cover .toc h3 { color: #fff; border-bottom-color: rgba(255,255,255,.28); }
     .cover .toc li { color: rgba(255,255,255,.94); }
+    .cover .toc a { color: inherit; text-decoration: none; }
+    .cover .toc a:hover { text-decoration: underline; }
     .cover .note { color: rgba(255,255,255,.68); }
 
     h1.tema {
       background: linear-gradient(135deg, #0e7c86, #0a5e66);
       box-shadow: 0 8px 20px rgba(14,124,134,.22);
+      margin-top: 28px; scroll-margin-top: 70px;
     }
+    .cover { scroll-margin-top: 70px; }
+    .footer-page { display: none; }
 
     p { margin: 0 0 14px; }
     ul, ol { margin: 0 0 14px; }
@@ -170,26 +175,26 @@
   <div class="toc">
     <h3>Contenido</h3>
     <ol>
-      <li>Introducción a la Farmacología</li>
-      <li>Farmacocinética: Absorción</li>
-      <li>Farmacocinética: Distribución</li>
-      <li>Farmacocinética: Metabolismo y Excreción</li>
-      <li>Farmacodinamia: Dianas y receptores</li>
-      <li>Farmacodinamia: Unión fármaco-receptor y curvas dosis-respuesta</li>
-      <li>Sistema Nervioso Autónomo: Fundamentos</li>
-      <li>Sistema Nervioso Parasimpático</li>
-      <li>Sistema Nervioso Simpático</li>
-      <li>Bloqueantes neuromusculares y anestésicos generales</li>
-      <li>SNC: neurotransmisores y analgésicos opioides</li>
-      <li>AINEs y antiinflamatorios</li>
-      <li>FAME y anticuerpos monoclonales</li>
+      <li><a href="#sec-1">Introducción a la Farmacología</a></li>
+      <li><a href="#sec-2">Farmacocinética: Absorción</a></li>
+      <li><a href="#sec-3">Farmacocinética: Distribución</a></li>
+      <li><a href="#sec-4">Farmacocinética: Metabolismo y Excreción</a></li>
+      <li><a href="#sec-5">Farmacodinamia: Dianas y receptores</a></li>
+      <li><a href="#sec-6">Farmacodinamia: Unión fármaco-receptor y curvas dosis-respuesta</a></li>
+      <li><a href="#sec-7">Sistema Nervioso Autónomo: Fundamentos</a></li>
+      <li><a href="#sec-8">Sistema Nervioso Parasimpático</a></li>
+      <li><a href="#sec-9">Sistema Nervioso Simpático</a></li>
+      <li><a href="#sec-10">Bloqueantes neuromusculares y anestésicos generales</a></li>
+      <li><a href="#sec-11">SNC: neurotransmisores y analgésicos opioides</a></li>
+      <li><a href="#sec-12">AINEs y antiinflamatorios</a></li>
+      <li><a href="#sec-13">FAME y anticuerpos monoclonales</a></li>
     </ol>
   </div>
   <p class="note">Elaborada a partir de apuntes de clase y del análisis de exámenes de convocatorias anteriores. Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los conceptos y tablas que encontrarás aquí.</p>
 </div>
 
 <!-- ===================== TEMA 1 ===================== -->
-<h1 class="tema"><span class="num">Tema 1</span>Introducción a la Farmacología</h1>
+<h1 class="tema" id="sec-1"><span class="num">Tema 1</span>Introducción a la Farmacología</h1>
 
 <h2>Conceptos básicos — la combinación que siempre preguntan</h2>
 <table>
@@ -247,7 +252,7 @@
 <div class="footer-page">Tema 1 — Introducción a la Farmacología</div>
 
 <!-- ===================== TEMA 2 ===================== -->
-<h1 class="tema"><span class="num">Tema 2</span>Farmacocinética: Absorción</h1>
+<h1 class="tema" id="sec-2"><span class="num">Tema 2</span>Farmacocinética: Absorción</h1>
 
 <h2>Biofase y absorción</h2>
 <p><b>Biofase:</b> lugar donde el fármaco está en condiciones de interactuar con sus receptores y ejercer su efecto. <b>Absorción:</b> paso del fármaco a la circulación general o sistémica; depende de la vía de administración (a mayor vascularización, mayor velocidad).</p>
@@ -306,7 +311,7 @@
 <div class="footer-page">Tema 2 — Farmacocinética: Absorción</div>
 
 <!-- ===================== TEMA 3 ===================== -->
-<h1 class="tema"><span class="num">Tema 3</span>Farmacocinética: Distribución</h1>
+<h1 class="tema" id="sec-3"><span class="num">Tema 3</span>Farmacocinética: Distribución</h1>
 
 <h2>Qué comprende la distribución</h2>
 <ul>
@@ -354,7 +359,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 3 — Farmacocinética: Distribución</div>
 
 <!-- ===================== TEMA 4 ===================== -->
-<h1 class="tema"><span class="num">Tema 4</span>Farmacocinética: Metabolismo y Excreción</h1>
+<h1 class="tema" id="sec-4"><span class="num">Tema 4</span>Farmacocinética: Metabolismo y Excreción</h1>
 
 <h2>Metabolismo</h2>
 <p>Transformación del fármaco en sustancias más hidrosolubles (metabolitos). El hígado es el órgano principal, mediante enzimas del <b>citocromo P450</b>.</p>
@@ -394,7 +399,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 4 — Farmacocinética: Metabolismo y Excreción</div>
 
 <!-- ===================== TEMA 5 ===================== -->
-<h1 class="tema"><span class="num">Tema 5</span>Farmacodinamia: Dianas y receptores</h1>
+<h1 class="tema" id="sec-5"><span class="num">Tema 5</span>Farmacodinamia: Dianas y receptores</h1>
 
 <h2>Acción específica vs. inespecífica</h2>
 <table>
@@ -426,7 +431,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 5 — Farmacodinamia: Dianas y receptores</div>
 
 <!-- ===================== TEMA 6 ===================== -->
-<h1 class="tema"><span class="num">Tema 6</span>Farmacodinamia: Unión fármaco-receptor y curvas dosis-respuesta</h1>
+<h1 class="tema" id="sec-6"><span class="num">Tema 6</span>Farmacodinamia: Unión fármaco-receptor y curvas dosis-respuesta</h1>
 
 <h2>Afinidad, eficacia, potencia y actividad intrínseca</h2>
 <table>
@@ -460,7 +465,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 6 — Farmacodinamia: Unión fármaco-receptor</div>
 
 <!-- ===================== TEMA 7 ===================== -->
-<h1 class="tema"><span class="num">Tema 7</span>Sistema Nervioso Autónomo: Fundamentos</h1>
+<h1 class="tema" id="sec-7"><span class="num">Tema 7</span>Sistema Nervioso Autónomo: Fundamentos</h1>
 
 <h2>Organización y neurotransmisores</h2>
 <p>El SNA regula funciones corporales <b>involuntarias</b>: dos neuronas en serie que hacen sinapsis en un ganglio fuera del SNC (fibra preganglionar y postganglionar).</p>
@@ -501,7 +506,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 7 — SNA: Fundamentos</div>
 
 <!-- ===================== TEMA 8 ===================== -->
-<h1 class="tema"><span class="num">Tema 8</span>Sistema Nervioso Parasimpático</h1>
+<h1 class="tema" id="sec-8"><span class="num">Tema 8</span>Sistema Nervioso Parasimpático</h1>
 
 <h2>Destino de la Ach liberada</h2>
 <p>Al liberarse a la hendidura sináptica sigue 3 caminos: (1) se une al receptor del órgano inervado, (2) es recaptada por la fibra presináptica, (3) se degrada por la <b>acetilcolinesterasa</b>. Los receptores muscarínicos son receptores acoplados a proteína G, con Fosfolipasa C → IP3 como segundo mensajero.</p>
@@ -526,7 +531,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 8 — Sistema Nervioso Parasimpático</div>
 
 <!-- ===================== TEMA 9 ===================== -->
-<h1 class="tema"><span class="num">Tema 9</span>Sistema Nervioso Simpático</h1>
+<h1 class="tema" id="sec-9"><span class="num">Tema 9</span>Sistema Nervioso Simpático</h1>
 
 <h2>Destino de la NA y receptores adrenérgicos</h2>
 <p>La NA liberada sigue 3 caminos: estimula el receptor del órgano inervado, se degrada por <b>MAO y COMT</b>, o es recaptada por la terminación ganglionar. Los inhibidores de la recaptación o de la degradación son simpaticomiméticos indirectos.</p>
@@ -563,7 +568,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 9 — Sistema Nervioso Simpático</div>
 
 <!-- ===================== TEMA 10 ===================== -->
-<h1 class="tema"><span class="num">Tema 10</span>Bloqueantes neuromusculares y anestésicos generales</h1>
+<h1 class="tema" id="sec-10"><span class="num">Tema 10</span>Bloqueantes neuromusculares y anestésicos generales</h1>
 
 <h2>Bloqueantes neuromusculares (BNM)</h2>
 <ul>
@@ -585,7 +590,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 10 — BNM y anestésicos generales</div>
 
 <!-- ===================== TEMA 11 ===================== -->
-<h1 class="tema"><span class="num">Tema 11</span>SNC: neurotransmisores y analgésicos opioides</h1>
+<h1 class="tema" id="sec-11"><span class="num">Tema 11</span>SNC: neurotransmisores y analgésicos opioides</h1>
 
 <h2>Neurotransmisores del SNC</h2>
 <table>
@@ -611,7 +616,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 11 — SNC y analgésicos opioides</div>
 
 <!-- ===================== TEMA 12 ===================== -->
-<h1 class="tema"><span class="num">Tema 12</span>AINEs y antiinflamatorios</h1>
+<h1 class="tema" id="sec-12"><span class="num">Tema 12</span>AINEs y antiinflamatorios</h1>
 
 <h2>Mecanismo de acción</h2>
 <p>Inhiben la síntesis de <b>prostaglandinas</b> mediante el bloqueo de la ciclooxigenasa (COX). La COX-1 es constitutiva (protección gástrica, función renal, agregación plaquetaria); la COX-2 se induce en la inflamación. La inhibición inespecífica de ambas COX genera los efectos indeseables clásicos: alteraciones gastrointestinales, renales y de la coagulación.</p>
@@ -649,7 +654,7 @@ Solo el <b>fármaco libre</b> es activo y puede abandonar el torrente sanguíneo
 <div class="footer-page">Tema 12 — AINEs y antiinflamatorios</div>
 
 <!-- ===================== TEMA 13 ===================== -->
-<h1 class="tema"><span class="num">Tema 13</span>FAME y anticuerpos monoclonales</h1>
+<h1 class="tema" id="sec-13"><span class="num">Tema 13</span>FAME y anticuerpos monoclonales</h1>
 
 <h2>FAME (Fármacos Antirreumáticos Modificadores de la Enfermedad)</h2>
 <p>Usados en artritis reumatoide; a diferencia de los AINEs (solo tratamiento sintomático del dolor/inflamación, no detienen el proceso destructivo articular), los FAME sí modifican el curso de la enfermedad.</p>

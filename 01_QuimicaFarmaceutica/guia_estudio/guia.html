@@ -71,7 +71,7 @@
   @media screen {
     body {
       font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
-      max-width: 780px; margin: 0 auto; padding: 32px 24px 64px;
+      max-width: 1000px; margin: 0 auto; padding: 32px 24px 64px;
       overflow-wrap: break-word; background: #eef6f5;
     }
     .cover {
@@ -85,12 +85,17 @@
     .cover .toc { background: rgba(255,255,255,.1); border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
     .cover .toc h3 { color: #fff; border-bottom-color: rgba(255,255,255,.28); }
     .cover .toc li { color: rgba(255,255,255,.94); }
+    .cover .toc a { color: inherit; text-decoration: none; }
+    .cover .toc a:hover { text-decoration: underline; }
     .cover .note { color: rgba(255,255,255,.68); }
 
     h1.tema {
       background: linear-gradient(135deg, #0e7c86, #0a5e66);
       box-shadow: 0 8px 20px rgba(14,124,134,.22);
+      margin-top: 28px; scroll-margin-top: 70px;
     }
+    .cover { scroll-margin-top: 70px; }
+    .footer-page { display: none; }
 
     p { margin: 0 0 14px; }
     ul, ol { margin: 0 0 14px; }
@@ -169,24 +174,24 @@
   <div class="toc">
     <h3>Contenido</h3>
     <ol>
-      <li>Tema 0 — Repaso de química orgánica</li>
-      <li>Tema 1-2 — Descubrimiento y nomenclatura de fármacos</li>
-      <li>Tema 3 — Especiación y clasificación ácido/base</li>
-      <li>Tema 3 — LADME: Liberación y Absorción</li>
-      <li>Tema 3 — LADME: Distribución y Eliminación</li>
-      <li>Tema 4 — Farmacodinamia: fuerzas intermoleculares fármaco-diana</li>
-      <li>Tema 4 — Farmacodinamia: estereoquímica y estereoselectividad</li>
-      <li>Tema 5 — Grupo farmacóforo y modificación molecular</li>
-      <li>Tema 6 — Enzimas y reacciones enzimáticas</li>
-      <li>Tema 7 (fase I) — Metabolismo oxidativo</li>
-      <li>Práctica 3 — Síntesis de fenitoína (cálculos de laboratorio)</li>
+      <li><a href="#sec-1">Tema 0 — Repaso de química orgánica</a></li>
+      <li><a href="#sec-2">Tema 1-2 — Descubrimiento y nomenclatura de fármacos</a></li>
+      <li><a href="#sec-3">Tema 3 — Especiación y clasificación ácido/base</a></li>
+      <li><a href="#sec-4">Tema 3 — LADME: Liberación y Absorción</a></li>
+      <li><a href="#sec-5">Tema 3 — LADME: Distribución y Eliminación</a></li>
+      <li><a href="#sec-6">Tema 4 — Farmacodinamia: fuerzas intermoleculares fármaco-diana</a></li>
+      <li><a href="#sec-7">Tema 4 — Farmacodinamia: estereoquímica y estereoselectividad</a></li>
+      <li><a href="#sec-8">Tema 5 — Grupo farmacóforo y modificación molecular</a></li>
+      <li><a href="#sec-9">Tema 6 — Enzimas y reacciones enzimáticas</a></li>
+      <li><a href="#sec-10">Tema 7 (fase I) — Metabolismo oxidativo</a></li>
+      <li><a href="#sec-11">Práctica 3 — Síntesis de fenitoína (cálculos de laboratorio)</a></li>
     </ol>
   </div>
   <p class="note">Elaborada a partir de las clases grabadas (teoría y seminarios) y transcritas de la asignatura. Cubre todo el temario dado hasta ahora (Primer y Segundo Parcial); Tema 7·fase II, 8, 9, 10 y 11 se añadirán cuando se graben esas clases. Úsala junto con el simulador de examen online: cada pregunta remite a los conceptos y tablas que encontrarás aquí.</p>
 </div>
 
 <!-- ===================== TEMA 0 ===================== -->
-<h1 class="tema"><span class="num">Tema 0 — Primer Parcial</span>Repaso de química orgánica</h1>
+<h1 class="tema" id="sec-1"><span class="num">Tema 0 — Primer Parcial</span>Repaso de química orgánica</h1>
 
 <h2>El hidrógeno más ácido: método de trabajo</h2>
 <p>Ante cualquier comparación de acidez, el método es siempre el mismo: arrancar el hidrógeno con una base y comparar la <b>estabilidad de la base conjugada</b> resultante. Cuanto más estable sea esa base conjugada, más ácido era el hidrógeno de partida.</p>
@@ -218,7 +223,7 @@
 <div class="footer-page">Tema 0 — Repaso de química orgánica</div>
 
 <!-- ===================== TEMA 1-2 ===================== -->
-<h1 class="tema"><span class="num">Tema 1-2 — Primer Parcial</span>Descubrimiento y nomenclatura de fármacos</h1>
+<h1 class="tema" id="sec-2"><span class="num">Tema 1-2 — Primer Parcial</span>Descubrimiento y nomenclatura de fármacos</h1>
 
 <h2>Fármaco, medicamento, cabeza de serie y DCI</h2>
 <table>
@@ -240,7 +245,7 @@
 <div class="footer-page">Tema 1-2 — Descubrimiento y nomenclatura de fármacos</div>
 
 <!-- ===================== TEMA 3 — ESPECIACIÓN ===================== -->
-<h1 class="tema"><span class="num">Tema 3 — Primer Parcial</span>Especiación y clasificación ácido/base</h1>
+<h1 class="tema" id="sec-3"><span class="num">Tema 3 — Primer Parcial</span>Especiación y clasificación ácido/base</h1>
 
 <p>Este es el bloque con más peso del primer parcial: el ejercicio completo del fármaco asignado vale entre <b>6,5 y 8 puntos</b> del examen, y el resto (3,5 puntos) es tipo test sobre Tema 0-1-2.</p>
 
@@ -270,7 +275,7 @@
 <div class="footer-page">Tema 3 — Especiación y clasificación ácido/base</div>
 
 <!-- ===================== TEMA 3 — LADME LIBERACIÓN/ABSORCIÓN ===================== -->
-<h1 class="tema"><span class="num">Tema 3 — Primer Parcial</span>LADME: Liberación y Absorción</h1>
+<h1 class="tema" id="sec-4"><span class="num">Tema 3 — Primer Parcial</span>LADME: Liberación y Absorción</h1>
 
 <p>LADME = <b>L</b>iberación, <b>A</b>bsorción, <b>D</b>istribución, <b>M</b>etabolismo, <b>E</b>liminación. El metabolismo se deja para el Tema 6-7 (Segundo Parcial); en este bloque se trabajan L, A, D y E con el mismo fármaco ya especiado.</p>
 
@@ -328,7 +333,7 @@
 <div class="footer-page">Tema 3 — LADME: Liberación y Absorción</div>
 
 <!-- ===================== TEMA 3 — LADME DISTRIBUCIÓN/ELIMINACIÓN ===================== -->
-<h1 class="tema"><span class="num">Tema 3 — Primer Parcial</span>LADME: Distribución y Eliminación</h1>
+<h1 class="tema" id="sec-5"><span class="num">Tema 3 — Primer Parcial</span>LADME: Distribución y Eliminación</h1>
 
 <h2>Barrera hematoencefálica</h2>
 <p>Para que un fármaco alcance el sistema nervioso central hacen falta <b>dos condiciones simultáneas</b>:</p>
@@ -357,7 +362,7 @@
 <div class="footer-page">Tema 3 — LADME: Distribución y Eliminación</div>
 
 <!-- ===================== TEMA 4 — FUERZAS INTERMOLECULARES ===================== -->
-<h1 class="tema"><span class="num">Tema 4 — Primer Parcial</span>Farmacodinamia: fuerzas intermoleculares fármaco-diana</h1>
+<h1 class="tema" id="sec-6"><span class="num">Tema 4 — Primer Parcial</span>Farmacodinamia: fuerzas intermoleculares fármaco-diana</h1>
 
 <p>El fármaco compite con el <b>ligando endógeno</b> por el sitio de unión de su diana. Para un buen reconocimiento molecular hacen falta tres requisitos: <b>(1)</b> grupos funcionales complementarios, <b>(2)</b> tamaño/forma/conformación adecuados, <b>(3)</b> estereoquímica correcta.</p>
 
@@ -384,7 +389,7 @@
 <div class="footer-page">Tema 4 — Farmacodinamia: fuerzas intermoleculares fármaco-diana</div>
 
 <!-- ===================== TEMA 4 — ESTEREOQUÍMICA ===================== -->
-<h1 class="tema"><span class="num">Tema 4 — Primer Parcial</span>Farmacodinamia: estereoquímica y estereoselectividad</h1>
+<h1 class="tema" id="sec-7"><span class="num">Tema 4 — Primer Parcial</span>Farmacodinamia: estereoquímica y estereoselectividad</h1>
 
 <h2>El modelo de los tres puntos (Easson-Stedman)</h2>
 <p>Para que una diana distinga entre dos enantiómeros de un fármaco (reconocimiento quiral) hacen falta <b>tres puntos de interacción simultáneos</b> con la diana. Solo la disposición espacial de uno de los dos enantiómeros permite que los tres grupos encajen a la vez con sus aminoácidos complementarios; el otro enantiómero, al ser la imagen especular, no puede hacer coincidir los tres puntos a la vez (como mucho dos), y por eso su afinidad es menor o nula.</p>
@@ -403,7 +408,7 @@
 <div class="footer-page">Tema 4 — Farmacodinamia: estereoquímica y estereoselectividad</div>
 
 <!-- ===================== TEMA 5 ===================== -->
-<h1 class="tema"><span class="num">Tema 5 — Segundo Parcial</span>Grupo farmacóforo y modificación molecular</h1>
+<h1 class="tema" id="sec-8"><span class="num">Tema 5 — Segundo Parcial</span>Grupo farmacóforo y modificación molecular</h1>
 
 <div class="callout warn">A diferencia de Tema 4 (muy mecánico/de cálculo), en Tema 5 el peso recae en preguntas cortas de teoría — hay que tener muy claras las definiciones, no solo saber calcular.</div>
 
@@ -440,7 +445,7 @@
 <div class="footer-page">Tema 5 — Grupo farmacóforo y modificación molecular</div>
 
 <!-- ===================== TEMA 6 ===================== -->
-<h1 class="tema"><span class="num">Tema 6 — Segundo Parcial</span>Enzimas y reacciones enzimáticas</h1>
+<h1 class="tema" id="sec-9"><span class="num">Tema 6 — Segundo Parcial</span>Enzimas y reacciones enzimáticas</h1>
 
 <h2>La tríada catalítica</h2>
 <p>En el centro activo de la enzima hay aminoácidos <b>de unión</b> (posicionan al sustrato) y aminoácidos <b>catalíticos</b> (realizan la química de la reacción, bajando la energía de activación).</p>
@@ -468,7 +473,7 @@
 <div class="footer-page">Tema 6 — Enzimas y reacciones enzimáticas</div>
 
 <!-- ===================== TEMA 7 FASE I ===================== -->
-<h1 class="tema"><span class="num">Tema 7 (fase I) — Segundo Parcial</span>Metabolismo oxidativo</h1>
+<h1 class="tema" id="sec-10"><span class="num">Tema 7 (fase I) — Segundo Parcial</span>Metabolismo oxidativo</h1>
 
 <div class="callout warn">"El verdadero tema 7" según la propia profesora: la mayoría del examen de metabolismo viene de aquí. En este bloque no hay tipo test, son todo reacciones a resolver.</div>
 
@@ -496,7 +501,7 @@
 <div class="footer-page">Tema 7 (fase I) — Metabolismo oxidativo</div>
 
 <!-- ===================== PRÁCTICA 3 ===================== -->
-<h1 class="tema"><span class="num">Práctica 3 — Examen de laboratorio</span>Síntesis de fenitoína</h1>
+<h1 class="tema" id="sec-11"><span class="num">Práctica 3 — Examen de laboratorio</span>Síntesis de fenitoína</h1>
 
 <p>Reacción de Práctica 3: bencilo + urea → fenitoína (relación estequiométrica 1:1) o, alternativamente, un producto secundario (relación 1 bencilo : <b>2</b> urea). La clave del ejercicio de examen es que el reactivo limitante <b>cambia según qué producto se esté calculando</b>, porque la proporción estequiométrica es distinta para cada uno.</p>
 

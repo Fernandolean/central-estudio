@@ -71,7 +71,7 @@
   @media screen {
     body {
       font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
-      max-width: 780px; margin: 0 auto; padding: 32px 24px 64px;
+      max-width: 1000px; margin: 0 auto; padding: 32px 24px 64px;
       overflow-wrap: break-word; background: #eef6f5;
     }
     .cover {
@@ -85,12 +85,17 @@
     .cover .toc { background: rgba(255,255,255,.1); border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
     .cover .toc h3 { color: #fff; border-bottom-color: rgba(255,255,255,.28); }
     .cover .toc li { color: rgba(255,255,255,.94); }
+    .cover .toc a { color: inherit; text-decoration: none; }
+    .cover .toc a:hover { text-decoration: underline; }
     .cover .note { color: rgba(255,255,255,.68); }
 
     h1.tema {
       background: linear-gradient(135deg, #0e7c86, #0a5e66);
       box-shadow: 0 8px 20px rgba(14,124,134,.22);
+      margin-top: 28px; scroll-margin-top: 70px;
     }
+    .cover { scroll-margin-top: 70px; }
+    .footer-page { display: none; }
 
     p { margin: 0 0 14px; }
     ul, ol { margin: 0 0 14px; }
@@ -169,26 +174,26 @@
   <div class="toc">
     <h3>Contenido</h3>
     <ol>
-      <li>Método científico y generación de conocimiento</li>
-      <li>Hipótesis y contraste de hipótesis</li>
-      <li>Variables y su clasificación</li>
-      <li>Estadística descriptiva</li>
-      <li>Pruebas estadísticas y su aplicación</li>
-      <li>Diseño de estudios y muestreo</li>
-      <li>Documentación científica y bases de datos</li>
-      <li>Gestores bibliográficos y herramientas informáticas</li>
-      <li>Calidad y evaluación de publicaciones científicas</li>
-      <li>Referencias bibliográficas y normas de citación</li>
-      <li>Estructura del artículo científico</li>
-      <li>Publicación científica: proceso editorial y causas de rechazo</li>
-      <li>Lectura crítica de artículos científicos</li>
+      <li><a href="#sec-1">Método científico y generación de conocimiento</a></li>
+      <li><a href="#sec-2">Hipótesis y contraste de hipótesis</a></li>
+      <li><a href="#sec-3">Variables y su clasificación</a></li>
+      <li><a href="#sec-4">Estadística descriptiva</a></li>
+      <li><a href="#sec-5">Pruebas estadísticas y su aplicación</a></li>
+      <li><a href="#sec-6">Diseño de estudios y muestreo</a></li>
+      <li><a href="#sec-7">Documentación científica y bases de datos</a></li>
+      <li><a href="#sec-8">Gestores bibliográficos y herramientas informáticas</a></li>
+      <li><a href="#sec-9">Calidad y evaluación de publicaciones científicas</a></li>
+      <li><a href="#sec-10">Referencias bibliográficas y normas de citación</a></li>
+      <li><a href="#sec-11">Estructura del artículo científico</a></li>
+      <li><a href="#sec-12">Publicación científica: proceso editorial y causas de rechazo</a></li>
+      <li><a href="#sec-13">Lectura crítica de artículos científicos</a></li>
     </ol>
   </div>
   <p class="note">Elaborada a partir de exámenes de convocatorias anteriores (muy repetidos entre sí, señal de que las mismas preguntas caen curso tras curso) y de ejemplos de tareas de compañeros ya corregidas. Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los conceptos y tablas que encontrarás aquí.</p>
 </div>
 
 <!-- ===================== TEMA 1 ===================== -->
-<h1 class="tema"><span class="num">Tema 1</span>Método científico y generación de conocimiento</h1>
+<h1 class="tema" id="sec-1"><span class="num">Tema 1</span>Método científico y generación de conocimiento</h1>
 
 <h2>Qué es la ciencia</h2>
 <p>La definición que cae en examen (literal, memorízala): la ciencia es <b>el conocimiento que se obtiene aplicando un método sistemático y verificable de observación de hechos empíricos, y la obtención de proposiciones universales explicativas (leyes) por razonamiento tanto inductivo como deductivo</b>. Los hechos no se observan de forma directa y sin problemas a través de los sentidos, porque pueden estar influenciados por la percepción del observador.</p>
@@ -220,7 +225,7 @@
 <div class="footer-page">Tema 1 — Método científico y generación de conocimiento</div>
 
 <!-- ===================== TEMA 2 ===================== -->
-<h1 class="tema"><span class="num">Tema 2</span>Hipótesis y contraste de hipótesis</h1>
+<h1 class="tema" id="sec-2"><span class="num">Tema 2</span>Hipótesis y contraste de hipótesis</h1>
 
 <h2>Qué son las hipótesis</h2>
 <p>Son proposiciones tentativas acerca de: la relación entre dos o más variables, el ajuste de las observaciones a distribuciones teóricas, o la comparación (igualdad o diferencia) entre dos o más grupos de observaciones. Todas las siguientes afirmaciones sobre las hipótesis son ciertas a la vez (pregunta clásica de "todas son correctas"):</p>
@@ -250,7 +255,7 @@
 <div class="footer-page">Tema 2 — Hipótesis y contraste de hipótesis</div>
 
 <!-- ===================== TEMA 3 ===================== -->
-<h1 class="tema"><span class="num">Tema 3</span>Variables y su clasificación</h1>
+<h1 class="tema" id="sec-3"><span class="num">Tema 3</span>Variables y su clasificación</h1>
 
 <table>
 <tr><th>Tipo de variable</th><th>Definición</th><th>Ejemplos típicos de examen</th></tr>
@@ -267,7 +272,7 @@
 <div class="footer-page">Tema 3 — Variables y su clasificación</div>
 
 <!-- ===================== TEMA 4 ===================== -->
-<h1 class="tema"><span class="num">Tema 4</span>Estadística descriptiva</h1>
+<h1 class="tema" id="sec-4"><span class="num">Tema 4</span>Estadística descriptiva</h1>
 
 <h2>Medidas de posición / tendencia central</h2>
 <table>
@@ -298,7 +303,7 @@
 <div class="footer-page">Tema 4 — Estadística descriptiva</div>
 
 <!-- ===================== TEMA 5 ===================== -->
-<h1 class="tema"><span class="num">Tema 5</span>Pruebas estadísticas y su aplicación</h1>
+<h1 class="tema" id="sec-5"><span class="num">Tema 5</span>Pruebas estadísticas y su aplicación</h1>
 
 <h2>Paramétricos vs. no paramétricos</h2>
 <p>Los tests <b>paramétricos</b> son aquellos en los que <b>se conoce la distribución de los datos</b> (habitualmente normal); pueden aplicarse tanto a variables cualitativas como cuantitativas, no son exclusivos de un tipo. Los <b>no paramétricos</b> son aquellos en los que <b>se desconoce</b> la distribución de los datos.</p>
@@ -336,7 +341,7 @@
 <div class="footer-page">Tema 5 — Pruebas estadísticas y su aplicación</div>
 
 <!-- ===================== TEMA 6 ===================== -->
-<h1 class="tema"><span class="num">Tema 6</span>Diseño de estudios y muestreo</h1>
+<h1 class="tema" id="sec-6"><span class="num">Tema 6</span>Diseño de estudios y muestreo</h1>
 
 <p>A la hora de seleccionar una muestra hay que tener en cuenta:</p>
 <ul>
@@ -356,7 +361,7 @@
 <div class="footer-page">Tema 6 — Diseño de estudios y muestreo</div>
 
 <!-- ===================== TEMA 7 ===================== -->
-<h1 class="tema"><span class="num">Tema 7</span>Documentación científica y bases de datos</h1>
+<h1 class="tema" id="sec-7"><span class="num">Tema 7</span>Documentación científica y bases de datos</h1>
 
 <h2>Bases de datos científicas</h2>
 <p>Una base de datos científica incorpora, mediante estricta evaluación y selección, revistas que cumplen los requisitos que ella misma establece, registrando metadatos bibliográficos completos (incluidos resúmenes en inglés y referencias) y dando cobertura mundial a la revista. Las principales que aparecen en examen:</p>
@@ -378,7 +383,7 @@
 <div class="footer-page">Tema 7 — Documentación científica y bases de datos</div>
 
 <!-- ===================== TEMA 8 ===================== -->
-<h1 class="tema"><span class="num">Tema 8</span>Gestores bibliográficos y herramientas informáticas</h1>
+<h1 class="tema" id="sec-8"><span class="num">Tema 8</span>Gestores bibliográficos y herramientas informáticas</h1>
 
 <table>
 <tr><th>Herramienta</th><th>Para qué sirve</th></tr>
@@ -393,7 +398,7 @@
 <div class="footer-page">Tema 8 — Gestores bibliográficos y herramientas informáticas</div>
 
 <!-- ===================== TEMA 9 ===================== -->
-<h1 class="tema"><span class="num">Tema 9</span>Calidad y evaluación de publicaciones científicas</h1>
+<h1 class="tema" id="sec-9"><span class="num">Tema 9</span>Calidad y evaluación de publicaciones científicas</h1>
 
 <h2>Indicadores de calidad</h2>
 <p>El <b>factor de impacto</b> (recogido en <b>Journal Citation Reports</b>, JCR) es el indicador de calidad científica más citado en examen, junto con el ISSN y la posición/cuartil de la revista dentro de su categoría.</p>
@@ -416,7 +421,7 @@
 <div class="footer-page">Tema 9 — Calidad y evaluación de publicaciones científicas</div>
 
 <!-- ===================== TEMA 10 ===================== -->
-<h1 class="tema"><span class="num">Tema 10</span>Referencias bibliográficas y normas de citación</h1>
+<h1 class="tema" id="sec-10"><span class="num">Tema 10</span>Referencias bibliográficas y normas de citación</h1>
 
 <h2>Reglas generales</h2>
 <ul>
@@ -443,7 +448,7 @@
 <div class="footer-page">Tema 10 — Referencias bibliográficas y normas de citación</div>
 
 <!-- ===================== TEMA 11 ===================== -->
-<h1 class="tema"><span class="num">Tema 11</span>Estructura del artículo científico</h1>
+<h1 class="tema" id="sec-11"><span class="num">Tema 11</span>Estructura del artículo científico</h1>
 
 <h2>La introducción</h2>
 <p>Debe cumplir a la vez (pregunta típica de "todas son correctas"):</p>
@@ -465,7 +470,7 @@
 <div class="footer-page">Tema 11 — Estructura del artículo científico</div>
 
 <!-- ===================== TEMA 12 ===================== -->
-<h1 class="tema"><span class="num">Tema 12</span>Publicación científica: proceso editorial y causas de rechazo</h1>
+<h1 class="tema" id="sec-12"><span class="num">Tema 12</span>Publicación científica: proceso editorial y causas de rechazo</h1>
 
 <h2>Causas de rechazo de un manuscrito</h2>
 <ul>
@@ -478,7 +483,7 @@
 <div class="footer-page">Tema 12 — Publicación científica: proceso editorial y causas de rechazo</div>
 
 <!-- ===================== TEMA 13 ===================== -->
-<h1 class="tema"><span class="num">Tema 13</span>Lectura crítica de artículos científicos</h1>
+<h1 class="tema" id="sec-13"><span class="num">Tema 13</span>Lectura crítica de artículos científicos</h1>
 
 <h2>Definición y componentes</h2>
 <p>La lectura crítica es la capacidad del lector para hacer consciente una postura propia sobre lo expresado en el texto, descubriendo los supuestos implícitos, la idea directriz y los puntos fuertes y débiles de los argumentos, y proponer otros planteamientos que superen los del autor, para así reafirmar o modificar su propia postura.</p>

@@ -71,7 +71,7 @@
   @media screen {
     body {
       font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
-      max-width: 780px; margin: 0 auto; padding: 32px 24px 64px;
+      max-width: 1000px; margin: 0 auto; padding: 32px 24px 64px;
       overflow-wrap: break-word; background: #eef6f5;
     }
     .cover {
@@ -85,12 +85,17 @@
     .cover .toc { background: rgba(255,255,255,.1); border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
     .cover .toc h3 { color: #fff; border-bottom-color: rgba(255,255,255,.28); }
     .cover .toc li { color: rgba(255,255,255,.94); }
+    .cover .toc a { color: inherit; text-decoration: none; }
+    .cover .toc a:hover { text-decoration: underline; }
     .cover .note { color: rgba(255,255,255,.68); }
 
     h1.tema {
       background: linear-gradient(135deg, #0e7c86, #0a5e66);
       box-shadow: 0 8px 20px rgba(14,124,134,.22);
+      margin-top: 28px; scroll-margin-top: 70px;
     }
+    .cover { scroll-margin-top: 70px; }
+    .footer-page { display: none; }
 
     p { margin: 0 0 14px; }
     ul, ol { margin: 0 0 14px; }
@@ -169,20 +174,20 @@
   <div class="toc">
     <h3>Contenido</h3>
     <ol>
-      <li>Fundamentos de la Bioquímica Clínica</li>
-      <li>Equilibrio Hidroelectrolítico y Ácido-Base</li>
-      <li>Metabolismo de los Hidratos de Carbono</li>
-      <li>Metabolismo de los Lípidos</li>
-      <li>Metabolismo de los Compuestos Nitrogenados</li>
-      <li>Función Hepática y Renal</li>
-      <li>Proteínas Plasmáticas</li>
-      <li>Hematología y Hemostasia</li>
+      <li><a href="#sec-1">Fundamentos de la Bioquímica Clínica</a></li>
+      <li><a href="#sec-2">Equilibrio Hidroelectrolítico y Ácido-Base</a></li>
+      <li><a href="#sec-3">Metabolismo de los Hidratos de Carbono</a></li>
+      <li><a href="#sec-4">Metabolismo de los Lípidos</a></li>
+      <li><a href="#sec-5">Metabolismo de los Compuestos Nitrogenados</a></li>
+      <li><a href="#sec-6">Función Hepática y Renal</a></li>
+      <li><a href="#sec-7">Proteínas Plasmáticas</a></li>
+      <li><a href="#sec-8">Hematología y Hemostasia</a></li>
     </ol>
   </div>
   <p class="note">Elaborada a partir de apuntes de clase y del análisis de exámenes de convocatorias anteriores. Úsala junto con el simulador de examen online: cada pregunta del simulador remite a los conceptos y tablas que encontrarás aquí.</p>
 </div>
 
-<h1 class="tema"><span class="num">Bloque 1</span>Fundamentos de la Bioquímica Clínica</h1>
+<h1 class="tema" id="sec-1"><span class="num">Bloque 1</span>Fundamentos de la Bioquímica Clínica</h1>
 
 <h2>¿Para qué sirven las pruebas bioquímicas?</h2>
 <p>Una <b>magnitud bioquímica</b> es una propiedad medible en un sistema biológico (una concentración,
@@ -295,7 +300,7 @@ Son dos conceptos distintos que el examen tiende a mezclar en la misma frase.</d
 <div class="footer-page">Bloque 1 — Fundamentos de la Bioquímica Clínica</div>
 
 
-<h1 class="tema"><span class="num">Bloque 2</span>Equilibrio Hidroelectrolítico y Ácido-Base</h1>
+<h1 class="tema" id="sec-2"><span class="num">Bloque 2</span>Equilibrio Hidroelectrolítico y Ácido-Base</h1>
 
 <h2>Compartimentos corporales y electrolitos principales</h2>
 <p>El agua corporal se reparte entre el líquido intracelular (LIC) y el líquido extracelular (LEC), y
@@ -492,7 +497,7 @@ respiratoria).</div>
 <div class="footer-page">Bloque 2 — Equilibrio Hidroelectrolítico y Ácido-Base</div>
 
 
-<h1 class="tema"><span class="num">Bloque 3</span>Metabolismo de los Hidratos de Carbono</h1>
+<h1 class="tema" id="sec-3"><span class="num">Bloque 3</span>Metabolismo de los Hidratos de Carbono</h1>
 
 <h2>Digestión y absorción de hidratos de carbono</h2>
 <p>De los hidratos de carbono de la dieta, son <b>digeribles</b> el almidón y las dextrinas, la
@@ -821,7 +826,7 @@ todos — al contrario que Hurler o Morquio, donde predominan las alteraciones e
 viscerales.</div>
 
 <div class="footer-page">Bloque 3 — Metabolismo de los Hidratos de Carbono</div>
-<h1 class="tema"><span class="num">Bloque 4</span>Metabolismo de los Lípidos</h1>
+<h1 class="tema" id="sec-4"><span class="num">Bloque 4</span>Metabolismo de los Lípidos</h1>
 
 <h2>Digestión, absorción y transporte de lípidos de la dieta</h2>
 <p>Las grasas de la dieta empiezan a digerirse en el estómago (sobre todo en niños) y, de forma más relevante, en el intestino del adulto. Como los lípidos son hidrófobos, el organismo necesita <b>emulsionarlos</b>: las sales y ácidos biliares, junto con el peristaltismo, forman <b>micelas mixtas</b> (cara externa hidrófila, núcleo lipofílico) que atraviesan la capa acuosa hasta el enterocito. Dentro del enterocito los lípidos se reorganizan en <b>quilomicrones (QM)</b>, que salen por vía linfática hasta el conducto torácico y de ahí a la sangre. En el capilar, la <b>lipoproteína lipasa (LPL)</b>, activada al reconocer la apoproteína C-II del quilomicrón, libera ácidos grasos y glicerol para que los capten los tejidos.</p>
@@ -963,7 +968,7 @@ viscerales.</div>
 
 <div class="footer-page">Bloque 4 — Metabolismo de los Lípidos</div>
 
-<h1 class="tema"><span class="num">Bloque 5</span>Metabolismo de los Compuestos Nitrogenados</h1>
+<h1 class="tema" id="sec-5"><span class="num">Bloque 5</span>Metabolismo de los Compuestos Nitrogenados</h1>
 
 <h2>Digestión de las proteínas y transporte de aminoácidos</h2>
 <p>La digestión proteica es secuencial y depende de zimógenos que se activan en cascada (como los factores de coagulación): en el <b>estómago</b>, el pepsinógeno se activa a pepsina por el HCl; en el <b>intestino</b>, el tripsinógeno se activa a tripsina por la enteroquinasa, y la tripsina a su vez activa otras proteasas (quimotripsina, carboxipeptidasas, elastasa) que generan oligopéptidos; en el <b>enterocito</b> se completa la hidrólisis (tripeptidasas, dipeptidasas) hasta aminoácidos libres.</p>
@@ -1073,7 +1078,7 @@ viscerales.</div>
 
 <div class="footer-page">Bloque 5 — Metabolismo de los Compuestos Nitrogenados</div>
 
-<h1 class="tema"><span class="num">Bloque 6</span>Función Hepática y Renal</h1>
+<h1 class="tema" id="sec-6"><span class="num">Bloque 6</span>Función Hepática y Renal</h1>
 
 <h2>Función hepática: magnitudes bioquímicas</h2>
 <p>El hígado realiza homeostasis de proteínas, glúcidos y lípidos, y detoxifica compuestos endógenos/exógenos (oxidación/reducción/hidrólisis vía citocromo P450, y conjugación con sulfatos, ácido glucurónico o HdC para aumentar la polaridad y eliminarlos por bilis u orina). Los <b>hepatocitos</b> hacen el trabajo metabólico; las <b>células de Kupffer</b> son el sistema fagocítico (p. ej. reciclaje de células sanguíneas).</p>
@@ -1190,7 +1195,7 @@ viscerales.</div>
 
 <div class="footer-page">Bloque 6 — Función Hepática y Renal</div>
 
-<h1 class="tema"><span class="num">Bloque 7</span>Proteínas Plasmáticas</h1>
+<h1 class="tema" id="sec-7"><span class="num">Bloque 7</span>Proteínas Plasmáticas</h1>
 
 <h2>Generalidades y clasificación</h2>
 <p>Existen más de 300 proteínas plasmáticas distintas. Se dividen en <b>específicas del plasma</b> (ejercen su función allí mismo) y <b>no específicas</b> (están de paso, para ser transportadas, o llegan por daño tisular).</p>
@@ -1272,7 +1277,7 @@ viscerales.</div>
 
 <div class="footer-page">Bloque 7 — Proteínas Plasmáticas</div>
 
-<h1 class="tema"><span class="num">Bloque 8</span>Hematología y Hemostasia</h1>
+<h1 class="tema" id="sec-8"><span class="num">Bloque 8</span>Hematología y Hemostasia</h1>
 
 <h2>Introducción y composición de la sangre</h2>
 <p>La hematología estudia los elementos formes de la sangre y sus precursores, así como sus trastornos estructurales y bioquímicos. Los órganos hemolinfoproductores son el bazo, la médula ósea, los ganglios linfáticos y el timo.</p>
