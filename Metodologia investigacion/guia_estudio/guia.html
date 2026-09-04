@@ -85,8 +85,13 @@
     .cover .toc { background: rgba(255,255,255,.1); border-radius: 14px; padding: 18px 22px; margin-top: 24px; }
     .cover .toc h3 { color: #fff; border-bottom-color: rgba(255,255,255,.28); }
     .cover .toc li { color: rgba(255,255,255,.94); }
-    .cover .toc a { color: inherit; text-decoration: none; }
-    .cover .toc a:hover { text-decoration: underline; }
+    .cover .toc a {
+      color: inherit; text-decoration: underline; text-underline-offset: 3px;
+      text-decoration-color: rgba(255,255,255,.4); border-radius: 4px;
+      transition: background .15s ease, text-decoration-color .15s ease;
+    }
+    .cover .toc a:hover { text-decoration-color: #fff; background: rgba(255,255,255,.12); }
+    .cover .toc li::marker { color: rgba(255,255,255,.55); }
     .cover .note { color: rgba(255,255,255,.68); }
 
     h1.tema {
